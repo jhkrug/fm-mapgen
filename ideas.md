@@ -22,6 +22,8 @@ Given a hierarchical directory structure of markdown files:
 - Hierarchy definition, what describes the hierarchy and how?
 File system structure? Contents of front-matter tag `doc-topic`?
 
+All the configuration stuff needs to move to a YAML file.
+
 ## Outputs
 
 Given the output data structure:
@@ -35,5 +37,10 @@ YAML, JSON?
 
 ## Controlled vocabulary
 
-The tags and some of the tag contents, for example,
-`doc-topic` and `doc-persona` need a controlled vocabulary to check data with.
+The tags and tag contents, for example,
+`doc-topic` and `doc-persona`,
+need a controlled vocabulary to check data with.
+
+## Graphical output
+
+Mermaid would be nice.

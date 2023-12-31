@@ -11,8 +11,7 @@ class fmNode(treelib.Node):
     def __init__(self, path,
                  title, description, keywords,
                  sidebar_label, sidebar_position,
-                 doc_persona, doc_type, doc_topic
-                 ):
+                 doc_persona, doc_type, doc_topic):
         self.path = path
         self.title = title
         self.description = description
@@ -35,6 +34,11 @@ def main(argv):
     """Does all the things"""
     args = process_args(argv)
     fm = read_yaml_fm(args.yaml_filename)
+
+    kt = build_kt(fm)
+    kt.save2file(filename='tree.out', key=False)
+    kt.to_graphviz(filename='tree.dot')
+
     if args.no_frontmatter:
         report_files_without_fm(fm)
     if args.weird_tags:
@@ -44,10 +48,6 @@ def main(argv):
     if args.all_fm_tags:
         for fm_tag in required_tags:
             report_files_without_fm_tag(fm, fm_tag)
-
-    kt = build_kt(fm)
-    kt.save2file(filename='tree.out', key=False)
-    kt.to_graphviz(filename='tree.dot')
 
 
 def build_kt(fm):
@@ -153,7 +153,7 @@ def report_files_without_fm(fm):
     print("No front matter files ---")
     for f in fm:
         try:
-            if f['gen-date']:
+            if f['docstore-data']:
                 pass
         except:
             if f['frontmatter'] is None:
@@ -165,7 +165,7 @@ def report_files_without_fm_tag(fm, fm_tag):
     printf("Files with no, or empty frontmatter fm_tag: %s ---\n", fm_tag)
     for f in fm:
         try:
-            if f['gen-date']:
+            if f['docstore-data']:
                 pass
         except:
             try:
@@ -181,7 +181,7 @@ def report_files_with_unrecognized_fm_tags(fm):
     printf("Files with weird frontmatter tags\n")
     for f in fm:
         try:
-            if f['gen-date']:
+            if f['docstore-data']:
                 pass
         except:
             try:
