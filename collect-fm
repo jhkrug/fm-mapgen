@@ -1,0 +1,26 @@
+#!/bin/env bash
+
+exec_dir=$(dirname $(realpath "$0"))
+export exec_dir
+
+# $1 is the path of a tree containing markdown.
+# Scan the tree for markdown files,
+# print their names and frontmatter content.
+# extract-fm.awk gets the frontmatter from each markdown file
+
+# The end result is a YAML file with all the frontmatter from
+# that document store
+
+{
+    cd "$1" || { echo "Can't cd to $1"; exit 1; }
+    echo "---"
+    printf -- "- docstore-data:\n    root-dir: %s\n    gen-date: %s\n" "$1" "$(date -Iseconds)"
+    find ~+ -type f \
+        \( -name '*md' -o -name '*\.mdx' \) \
+    | while read -r pathname; do
+        awk -f "${exec_dir}"/extract-fm.awk \
+            -vpathname="${pathname}" \
+            "${pathname}"
+    done
+    echo "..."
+} | yq .
