@@ -3,7 +3,6 @@
 import sys
 import argparse
 import yaml
-from pprint import pprint as pprint
 import treelib
 
 
@@ -33,35 +32,35 @@ valid_personas = {"developer", "manager", "operator"}
 def main(argv):
     """Does all the things"""
     args = process_args(argv)
-    fm = read_yaml_fm(args.yaml_filename)
+    front_matter = read_yaml_fm(args.yaml_filename)
 
-    kt = build_kt(fm)
+    kt = build_kt(front_matter)
     kt.save2file(filename='tree.out', key=False)
     kt.to_graphviz(filename='tree.dot')
 
     if args.no_frontmatter:
-        report_files_without_fm(fm)
+        report_files_without_fm(front_matter)
     if args.weird_tags:
-        report_files_with_unrecognized_fm_tags(fm)
+        report_files_with_unrecognized_fm_tags(front_matter)
     if args.fm_tag:
-        report_files_without_fm_tag(fm, args.fm_tag)
+        report_files_without_fm_tag(front_matter, args.fm_tag)
     if args.all_fm_tags:
         for fm_tag in required_tags:
-            report_files_without_fm_tag(fm, fm_tag)
+            report_files_without_fm_tag(front_matter, fm_tag)
 
 
-def build_kt(fm):
-    rp = fm[0]['docstore-data']['root-dir']
+def build_kt(front_matter):
+    root_dir = front_matter[0]['docstore-data']['root-dir']
     kt = treelib.Tree()
     kt.create_node("Frontmatter Tree", identifier="root", parent=None,
-                   data=fmNode(rp, None, None, None, None, None, None, None, None))
-    for f in fm:
+                   data=fmNode(root_dir, None, None, None, None, None, None, None, None))
+    for fm in front_matter:
         try:
-            if f['docstore-data']:
-                print("Data generated:", f['docstore-data']['gen-date'])
+            if fm['docstore-data']:
+                print("Data generated:", fm['docstore-data']['gen-date'])
         except:
-            identifier = f['path']
-            identifier = identifier.replace(rp, "")
+            identifier = fm['path']
+            identifier = identifier.replace(root_dir, "")
             # Now for create a node, if it does not already
             # exist for each path component, of identifier, separated by '/',
             # until the '*.md' file is reached.
@@ -82,42 +81,42 @@ def build_kt(fm):
             # Get the data to populate the leaf node.
             tag = branches[-1]
             try:
-                title = f['frontmatter']['title']
+                title = fm['frontmatter']['title']
             except:
                 title = None
             try:
-                description = f['frontmatter']['description']
+                description = fm['frontmatter']['description']
             except:
                 description = None
             try:
-                keywords = f['frontmatter']['keywords']
+                keywords = fm['frontmatter']['keywords']
             except:
                 keywords = None
             try:
-                sidebar_label = f['frontmatter']['sidebar_label']
+                sidebar_label = fm['frontmatter']['sidebar_label']
             except:
                 sidebar_label = None
             try:
-                sidebar_position = int(f['frontmatter']['sidebar_position'])
+                sidebar_position = int(fm['frontmatter']['sidebar_position'])
             except:
                 sidebar_position = 0
             try:
-                doc_persona = f['frontmatter']['doc-persona']
+                doc_persona = fm['frontmatter']['doc-persona']
             except:
                 doc_persona = None
             try:
-                doc_type = f['frontmatter']['doc-type']
+                doc_type = fm['frontmatter']['doc-type']
             except:
                 doc_type = None
             try:
-                doc_topic = f['frontmatter']['doc-topic']
+                doc_topic = fm['frontmatter']['doc-topic']
             except:
                 doc_topic = None
-            n = fmNode(identifier, title, description, keywords,
-                       sidebar_label, sidebar_position,
-                       doc_persona, doc_type, doc_topic)
+            node_data = fmNode(identifier, title, description, keywords,
+                               sidebar_label, sidebar_position,
+                               doc_persona, doc_type, doc_topic)
             kt.create_node(tag, identifier=identifier,
-                           parent=parent, data=n)
+                           parent=parent, data=node_data)
     return kt
 
 
@@ -148,10 +147,10 @@ def read_yaml_fm(filename):
         return yaml.safe_load(f)
 
 
-def report_files_without_fm(fm):
+def report_files_without_fm(front_matter):
     """Report on any markdown files missing frontmatter"""
     print("No front matter files ---")
-    for f in fm:
+    for f in front_matter:
         try:
             if f['docstore-data']:
                 pass
@@ -160,10 +159,10 @@ def report_files_without_fm(fm):
                 print(f['path'])
 
 
-def report_files_without_fm_tag(fm, fm_tag):
+def report_files_without_fm_tag(front_matter, fm_tag):
     """Report on any markdown files missing the fm_tag"""
     printf("Files with no, or empty frontmatter fm_tag: %s ---\n", fm_tag)
-    for f in fm:
+    for f in front_matter:
         try:
             if f['docstore-data']:
                 pass
@@ -176,20 +175,20 @@ def report_files_without_fm_tag(fm, fm_tag):
                 print(f['path'])
 
 
-def report_files_with_unrecognized_fm_tags(fm):
+def report_files_with_unrecognized_fm_tags(front_matter):
     """Any files with weird fm_tags"""
     printf("Files with weird frontmatter tags\n")
-    for f in fm:
+    for fm in front_matter:
         try:
-            if f['docstore-data']:
+            if fm['docstore-data']:
                 pass
         except:
             try:
-                front_matter = f['frontmatter']
-                path = f['path']
-                for tag in front_matter:
+                f = fm['frontmatter']
+                path = fm['path']
+                for tag in f:
                     if tag not in valid_tags:
-                        printf("Tag %s: in file: %s\n", tag, path)
+                        printf("Tag '%s' in file: %s\n", tag, path)
             except:
                 # no frontmatter here
                 pass

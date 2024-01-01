@@ -3,7 +3,8 @@
 Messing around with doc stores, front matter data, graphs,
 trying to discover/plan subject coverage.
 
-I'm currently working with Docusaurus repositories, but should be applicable to others.
+I'm currently working with Docusaurus repositories,
+but should be applicable to others.
 The data collection is just querying a tree of documents to produce a YAML file.
 
 For asciidoc you need to generate the YAML data files a bit differently I suppose.
@@ -15,10 +16,13 @@ For the future.
 - `fm_mapgen.py`: processes it.
 
 `fm_mapgen.py` creates a tree populating leaf nodes with data from the front matter YAML file.
-Lots of work to do with this yet. Currently, it just outputs a tree in text format and dot format.
+Lots of work to do with this yet.
+Currently, it just outputs a tree in text format and dot format.
 So, it's really just the directory structure.
-The nodes are populated with all the data from the front matter though, for further development and processing.
-There are also functions to do stuff like check absence of required tags, no front matter, etc.
+The nodes are populated with all the data from the front matter though,
+for further development and processing.
+There are also functions to do stuff like check absence of required tags,
+no front matter, etc.
 To help with getting your front matter into a good state.
 
 All early days. And, I'm definitely not a real programmer.
@@ -26,9 +30,11 @@ All early days. And, I'm definitely not a real programmer.
 Command examples:
 
 - `./collect-fm ~/projects/suse/kubewarden-docs/docs/ > kw-fm.yml`
-Creates a file containing the collected front matter from a documentation repository directory tree.
+Creates a file containing thecollected front matter,
+from a documentation repository directory tree.
 - `python fm_mapgen.py -f ./kw-fm.yml`:
-Process a file of collected front matter. Produces a `tree.out` text file and a `tree.dot` file.
+Process a file of collected front matter.
+Produces a `tree.out` text file and a `tree.dot` file.
 - `dot -Tjpg tree.dot > tree.jpg`:
 To create a JPEG graph.
 
