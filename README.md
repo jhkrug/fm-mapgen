@@ -10,6 +10,20 @@ The data collection is just querying a tree of documents to produce a YAML file.
 For asciidoc you need to generate the YAML data files a bit differently.
 For the future.
 
+This has arisen from questions I was asking myself about the project docs repositories I'm working on.
+So, front matter already has stuff, title, description, keywords.
+For SEO, I think.
+Add in more tags for things of interest.
+Then, doc-persona to say who the doc is for,
+doc-type for something from [Diátaxis](https://diataxis.fr) types (we're trying to use that),
+doc-topic to try say something about the content.
+Also, the actual directory structure storage has something to say about how the knowledge organization.
+
+Given this front matter, what can we say about the document repository? Firstly, you can tidy things up by checking for things like missing front matter or front matter tags.
+
+The front matter data is parsed into a `treelib` structure and from there can be graphed, visualized, or printed, or something.
+The `treelib` library can export the tree in `dot` format so, the generated JPEGs are there to look at, as glimpse of what might be possible.
+
 ## Commands
 
 - `collect-fm`: collects the frontmatter/metadata
@@ -17,19 +31,21 @@ For the future.
 
 `fm_mapgen.py` creates a tree populating leaf nodes with data from the front matter YAML file.
 Lots of work to do with this yet.
-Currently, it just outputs a tree in text format and dot format.
-So, it's really just the directory structure.
-The nodes are populated with all the data from the front matter though,
-for further development and processing.
+Currently, it outputs a tree in text format and dot format.
+So, it's really just the same as directory structure tree.
+The nodes are populated with all the data from the front matter, for
+further development and processing.
 There are also functions to do stuff like check absence of required tags,
-no front matter, etc.
+files with no front matter, etc.
 To help with getting your front matter into a good state.
 
-All early days. And, I'm definitely not a real programmer.
+All early days.
+I'm wondering how valid an approach to anything this is seen to be in the technical writing community I have so recently joined.
 
 An underlying assumption is that a directory structure is a reasonable
 top-level organizing mechanism for a knowledge tree/map.
-I think it's probably ok, I've been raised on an '[everything is a file](https://en.wikipedia.org/wiki/Everything_is_a_file)' philosophy. And directories organize files.
+I think that's probably ok, I'm raised on an '[everything is a file](https://en.wikipedia.org/wiki/Everything_is_a_file)' philosophy.
+And directories organize files.
 
 Command examples:
 
@@ -63,3 +79,4 @@ There are results included from example runs using
 [Kubewarden](https://github.com/kubewarden/docs) and
 [Epinio](https://github.com/epinio/docs) docs repositories.
 Check out `kw.txt`, `ep.txt`, `kw.jpg`, `ep.jpg`.
+

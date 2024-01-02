@@ -1,0 +1,1953 @@
+Data generated: 2023-12-31 10:47:40+00:00
+=== Node ===
+Predecessor = [None]
+Successors = ['architecture.md', 'contribution-guide/', 'distributing-policies.md', 'distributing-policies/', 'explanations/', 'howtos/', 'introduction.md', 'operator-manual/', 'quick-start.md', 'security/', 'tasks.md', 'tasksDir/', 'testing-policies/', 'writing-policies/']
+=== Node data ===
+path = None
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/
+slug = None
+title = None
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = None
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['root']
+Successors = []
+=== Node data ===
+path = architecture.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/architecture.md
+slug = None
+title = Architecture
+description = The Kubewarden architecture
+keywords = ['kubewarden', 'kubernetes', 'architecture']
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['root']
+Successors = ['contribution-guide/contributing.md', 'contribution-guide/suggesting-an-improvement.md']
+=== Node data ===
+path = contribution-guide/
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/contribution-guide/
+slug = None
+title = None
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = None
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['contribution-guide/']
+Successors = []
+=== Node data ===
+path = contribution-guide/contributing.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/contribution-guide/contributing.md
+slug = None
+title = None
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['contribution-guide/']
+Successors = []
+=== Node data ===
+path = contribution-guide/suggesting-an-improvement.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/contribution-guide/suggesting-an-improvement.md
+slug = None
+title = None
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['root']
+Successors = []
+=== Node data ===
+path = distributing-policies.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/distributing-policies.md
+slug = None
+title = Distributing policies
+description = A description of how Kubewarden policies are distributed from OCI-compliant repositories.
+keywords = ['oci', 'kubewarden', 'policy', 'wasm', 'webassembly']
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['root']
+Successors = ['distributing-policies/custom-certificate-authorities.md', 'distributing-policies/oci-registries-support.md', 'distributing-policies/publish-policy-to-artifact-hub.md', 'distributing-policies/secure-supply-chain.md']
+=== Node data ===
+path = distributing-policies/
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/distributing-policies/
+slug = None
+title = None
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = None
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['distributing-policies/']
+Successors = []
+=== Node data ===
+path = distributing-policies/custom-certificate-authorities.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/distributing-policies/custom-certificate-authorities.md
+slug = None
+title = 
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['distributing-policies/']
+Successors = []
+=== Node data ===
+path = distributing-policies/oci-registries-support.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/distributing-policies/oci-registries-support.md
+slug = None
+title = OCI registry support
+description = OCI registry support
+keywords = None
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['distributing-policies/']
+Successors = []
+=== Node data ===
+path = distributing-policies/publish-policy-to-artifact-hub.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/distributing-policies/publish-policy-to-artifact-hub.md
+slug = None
+title = 
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['distributing-policies/']
+Successors = []
+=== Node data ===
+path = distributing-policies/secure-supply-chain.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/distributing-policies/secure-supply-chain.md
+slug = None
+title = Secure supply chain
+description = A secure supply chain infrastructure using Kubewarden.
+keywords = ['kubewarden', 'kubernetes', 'secure supply chain', 'infrastructure']
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['root']
+Successors = ['audit-scanner/', 'explanations/context-aware-policies.md', 'explanations/opa-comparison.md']
+=== Node data ===
+path = explanations/
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/explanations/
+slug = None
+title = None
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = None
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['explanations/']
+Successors = ['explanations/audit-scanner/limitations.md', 'explanations/audit-scanner/policy-reports.md', 'explanations/audit-scanner/audit-scanner.md']
+=== Node data ===
+path = audit-scanner/
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/audit-scanner/
+slug = None
+title = None
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = None
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['audit-scanner/']
+Successors = []
+=== Node data ===
+path = explanations/audit-scanner/limitations.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/explanations/audit-scanner/limitations.md
+slug = None
+title = Audit Scanner - Limitations
+description = The limitation of the audit scanner
+keywords = ['kubewarden', 'kubernetes', 'audit scanner']
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['audit-scanner/']
+Successors = []
+=== Node data ===
+path = explanations/audit-scanner/policy-reports.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/explanations/audit-scanner/policy-reports.md
+slug = None
+title = Audit Scanner - Policy Reports
+description = The policy reports that the Audit Scanner produces.
+keywords = ['kubewarden', 'kubernetes', 'audit scanner']
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['audit-scanner/']
+Successors = []
+=== Node data ===
+path = explanations/audit-scanner/audit-scanner.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/explanations/audit-scanner/audit-scanner.md
+slug = None
+title = What is the Audit Scanner?
+description = An overview of the Kubewarden Audit Scanner.
+keywords = ['kubewarden', 'audit scanner', 'kubernetes']
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['explanations/']
+Successors = []
+=== Node data ===
+path = explanations/context-aware-policies.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/explanations/context-aware-policies.md
+slug = None
+title = Context aware policies
+description = A description of Kubewarden context aware policies, what they are and how they are useful.
+keywords = ['kubewarden', 'context-aware policy', 'clusteradmissionpolicy', 'admissionpolicy', 'admissionrequest', 'cluster administrator']
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['explanations/']
+Successors = []
+=== Node data ===
+path = explanations/opa-comparison.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/explanations/opa-comparison.md
+slug = None
+title = Kubewarden vs OPA Gatekeeper
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['root']
+Successors = ['howtos/audit-scanner.md', 'howtos/raw-policies.md']
+=== Node data ===
+path = howtos/
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/howtos/
+slug = None
+title = None
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = None
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['howtos/']
+Successors = []
+=== Node data ===
+path = howtos/audit-scanner.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/howtos/audit-scanner.md
+slug = None
+title = Audit Scanner Installation
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['howtos/']
+Successors = []
+=== Node data ===
+path = howtos/raw-policies.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/howtos/raw-policies.md
+slug = None
+title = Raw policies
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['root']
+Successors = []
+=== Node data ===
+path = introduction.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/introduction.md
+slug = /
+title = Introduction
+description = Introducing Kubewarden, a CNCF Sandbox project.
+keywords = ['kubewarden', 'cncf', 'cncf sandbox', 'kubernetes']
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['root']
+Successors = ['operator-manual/01-intro.md', 'operator-manual/CRDs.md', 'operator-manual/Rancher-Fleet.md', 'airgap/', 'operator-manual/dependency-matrix.md', 'operator-manual/monitor-mode.md', 'operator-manual/policies.md', 'operator-manual/policy-evaluation-timeout.md', 'policy-servers/', 'telemetry/', 'operator-manual/upgrade-path.md', 'operator-manual/verification-config.md', 'ui-extension/']
+=== Node data ===
+path = operator-manual/
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/
+slug = None
+title = None
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = None
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['operator-manual/']
+Successors = []
+=== Node data ===
+path = operator-manual/01-intro.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/01-intro.md
+slug = None
+title = 
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['operator-manual/']
+Successors = []
+=== Node data ===
+path = operator-manual/CRDs.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/CRDs.md
+slug = None
+title = Custom Resource Definitions (CRD)
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['operator-manual/']
+Successors = []
+=== Node data ===
+path = operator-manual/Rancher-Fleet.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/Rancher-Fleet.md
+slug = None
+title = Managing Kubewarden with Rancher Fleet
+description = Managing Kubewarden with Rancher Fleet.
+keywords = ['kubernetes', 'kubewarden', 'rancher fleet']
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['operator-manual/']
+Successors = ['operator-manual/airgap/01-requirements.md', 'operator-manual/airgap/02-install.md']
+=== Node data ===
+path = airgap/
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/airgap/
+slug = None
+title = None
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = None
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['airgap/']
+Successors = []
+=== Node data ===
+path = operator-manual/airgap/01-requirements.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/airgap/01-requirements.md
+slug = None
+title = 
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['airgap/']
+Successors = []
+=== Node data ===
+path = operator-manual/airgap/02-install.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/airgap/02-install.md
+slug = None
+title = 
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['operator-manual/']
+Successors = []
+=== Node data ===
+path = operator-manual/dependency-matrix.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/dependency-matrix.md
+slug = None
+title = Dependency matrix
+description = Dependency matrix of Kubewarden.
+keywords = ['dependency', 'dependencies', 'CRD', 'charts', 'matrix']
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['operator-manual/']
+Successors = []
+=== Node data ===
+path = operator-manual/monitor-mode.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/monitor-mode.md
+slug = None
+title = Monitor mode
+description = The Kubewarden monitor mode and how to activate it.
+keywords = ['kubernetes', 'kubewarden', 'monitor mode']
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['operator-manual/']
+Successors = []
+=== Node data ===
+path = operator-manual/policies.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/policies.md
+slug = None
+title = Configuring policies
+description = Dependency matrix of Kubewarden.
+keywords = ['policies', 'ClusterAdmissionPolicies', 'AdmissionPolicies', 'configuration', 'namespaces']
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['operator-manual/']
+Successors = []
+=== Node data ===
+path = operator-manual/policy-evaluation-timeout.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/policy-evaluation-timeout.md
+slug = None
+title = 
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['operator-manual/']
+Successors = ['operator-manual/policy-servers/01-custom-cas.md', 'operator-manual/policy-servers/02-private-registry.md']
+=== Node data ===
+path = policy-servers/
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/policy-servers/
+slug = None
+title = None
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = None
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['policy-servers/']
+Successors = []
+=== Node data ===
+path = operator-manual/policy-servers/01-custom-cas.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/policy-servers/01-custom-cas.md
+slug = None
+title = 
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['policy-servers/']
+Successors = []
+=== Node data ===
+path = operator-manual/policy-servers/02-private-registry.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/policy-servers/02-private-registry.md
+slug = None
+title = 
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['operator-manual/']
+Successors = ['metrics/', 'opentelemetry/', 'tracing/']
+=== Node data ===
+path = telemetry/
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/telemetry/
+slug = None
+title = None
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = None
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['telemetry/']
+Successors = ['operator-manual/telemetry/metrics/01-quickstart.md', 'operator-manual/telemetry/metrics/02-reference.md']
+=== Node data ===
+path = metrics/
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/metrics/
+slug = None
+title = None
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = None
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['metrics/']
+Successors = []
+=== Node data ===
+path = operator-manual/telemetry/metrics/01-quickstart.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/telemetry/metrics/01-quickstart.md
+slug = None
+title = 
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['metrics/']
+Successors = []
+=== Node data ===
+path = operator-manual/telemetry/metrics/02-reference.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/telemetry/metrics/02-reference.md
+slug = None
+title = 
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['telemetry/']
+Successors = ['operator-manual/telemetry/opentelemetry/01-quickstart.md']
+=== Node data ===
+path = opentelemetry/
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/opentelemetry/
+slug = None
+title = None
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = None
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['opentelemetry/']
+Successors = []
+=== Node data ===
+path = operator-manual/telemetry/opentelemetry/01-quickstart.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/telemetry/opentelemetry/01-quickstart.md
+slug = None
+title = 
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['telemetry/']
+Successors = ['operator-manual/telemetry/tracing/01-quickstart.md']
+=== Node data ===
+path = tracing/
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/tracing/
+slug = None
+title = None
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = None
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['tracing/']
+Successors = []
+=== Node data ===
+path = operator-manual/telemetry/tracing/01-quickstart.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/telemetry/tracing/01-quickstart.md
+slug = None
+title = 
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['operator-manual/']
+Successors = []
+=== Node data ===
+path = operator-manual/upgrade-path.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/upgrade-path.md
+slug = None
+title = Upgrade path
+description = Upgrade path for the Kubewarden stack.
+keywords = ['upgrade path', 'support']
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['operator-manual/']
+Successors = []
+=== Node data ===
+path = operator-manual/verification-config.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/verification-config.md
+slug = None
+title = 
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['operator-manual/']
+Successors = ['operator-manual/ui-extension/install.md', 'operator-manual/ui-extension/metrics.md', 'operator-manual/ui-extension/tracing.md']
+=== Node data ===
+path = ui-extension/
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/ui-extension/
+slug = None
+title = None
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = None
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['ui-extension/']
+Successors = []
+=== Node data ===
+path = operator-manual/ui-extension/install.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/install.md
+slug = None
+title = 
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['ui-extension/']
+Successors = []
+=== Node data ===
+path = operator-manual/ui-extension/metrics.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/metrics.md
+slug = None
+title = None
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['ui-extension/']
+Successors = []
+=== Node data ===
+path = operator-manual/ui-extension/tracing.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/tracing.md
+slug = None
+title = None
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['root']
+Successors = []
+=== Node data ===
+path = quick-start.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/quick-start.md
+slug = None
+title = Quick start
+description = Getting started with Kubewarden, installing the Kubewarden stack and taking care of prerequisites and authentication
+keywords = ['Kubewarden', 'installation', 'quick start', 'policyserver', 'clusteradmissionpolicy', 'admissionpolicy']
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['root']
+Successors = ['security/01-intro.md', 'security/disclosure.md', 'security/threat-model.md', 'security/verifying-kubewarden.md']
+=== Node data ===
+path = security/
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/security/
+slug = None
+title = None
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = None
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['security/']
+Successors = []
+=== Node data ===
+path = security/01-intro.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/security/01-intro.md
+slug = None
+title = 
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['security/']
+Successors = []
+=== Node data ===
+path = security/disclosure.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/security/disclosure.md
+slug = None
+title = 
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['security/']
+Successors = []
+=== Node data ===
+path = security/threat-model.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/security/threat-model.md
+slug = None
+title = Threat Model
+description = None
+keywords = ['kubernetes', 'admission control threat model', 'kubewarden']
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['security/']
+Successors = []
+=== Node data ===
+path = security/verifying-kubewarden.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/security/verifying-kubewarden.md
+slug = None
+title = 
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['root']
+Successors = []
+=== Node data ===
+path = tasks.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/tasks.md
+slug = None
+title = Common tasks
+description = Description of some common tasks undertaken after installing Kubewarden. Provides examples of these tasks using kwctl
+keywords = ['kubewarden', 'kubernetes', 'kwctl', 'policy', 'policyserver', 'clusteradmissionpolicy', 'admissionpolicy']
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['root']
+Successors = ['tasksDir/mutating-policies.md', 'tasksDir/pod-security-admission-with-kubewarden.md', 'tasksDir/psp-migration.md']
+=== Node data ===
+path = tasksDir/
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/tasksDir/
+slug = None
+title = None
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = None
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['tasksDir/']
+Successors = []
+=== Node data ===
+path = tasksDir/mutating-policies.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/tasksDir/mutating-policies.md
+slug = None
+title = Mutating policies
+description = Explains mutating policies in the context of Kubewarden
+keywords = ['kubewarden policy mutating kubernetes clusteradmissionpolicy admissionpolicy']
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['tasksDir/']
+Successors = []
+=== Node data ===
+path = tasksDir/pod-security-admission-with-kubewarden.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/tasksDir/pod-security-admission-with-kubewarden.md
+slug = None
+title =  Using Pod Security Admission with Kubewarden
+description = Using Pod Security Admission with Kubewarden, since the Kubernetes 1.25 release.
+keywords = ['kubewarden', 'pod security admission', 'pod security policy', 'kubernetes']
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['tasksDir/']
+Successors = []
+=== Node data ===
+path = tasksDir/psp-migration.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/tasksDir/psp-migration.md
+slug = None
+title = PodSecurityPolicy migration
+description = Discusses PSP migration to Kubewarden policies after Kubernetes v1.25.
+keywords = ['kubewarden', 'kubernetes', 'appvia', 'psp', 'podsecuritypolicy']
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['root']
+Successors = ['testing-policies/01-intro.md', 'testing-policies/02-policy-authors.md', 'testing-policies/03-cluster-operators.md']
+=== Node data ===
+path = testing-policies/
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/testing-policies/
+slug = None
+title = None
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = None
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['testing-policies/']
+Successors = []
+=== Node data ===
+path = testing-policies/01-intro.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/testing-policies/01-intro.md
+slug = None
+title = Policy testing
+description = The two personas using Kubewarden policies are policy authors and cluster operators.
+keywords = ['kubewarden', 'persons', 'policy author', 'cluster operator']
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['testing-policies/']
+Successors = []
+=== Node data ===
+path = testing-policies/02-policy-authors.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/testing-policies/02-policy-authors.md
+slug = None
+title = Testing for policy authors
+description = An introduction to testing Kubewarden policies for policy authors.
+keywords = ['kubewarden', 'policy testing', 'policy author', 'rust', 'go', 'assemblyscript', 'development environment']
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['testing-policies/']
+Successors = []
+=== Node data ===
+path = testing-policies/03-cluster-operators.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/testing-policies/03-cluster-operators.md
+slug = None
+title = Testing for cluster operators
+description = An introduction to testing Kubewarden policies for cluster operators.
+keywords = None
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['root']
+Successors = ['writing-policies/dotnet.md', 'go/', 'writing-policies/index.md', 'writing-policies/metadata.md', 'writing-policies/other-languages.md', 'rego/', 'rust/', 'spec/', 'writing-policies/swift.md', 'writing-policies/typescript.md', 'wasi/']
+=== Node data ===
+path = writing-policies/
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/
+slug = None
+title = None
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = None
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['writing-policies/']
+Successors = []
+=== Node data ===
+path = writing-policies/dotnet.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/dotnet.md
+slug = None
+title = C#
+description = Kubewarden policies using C# and .NET
+keywords = ['kubewarden', 'kubernetes', 'writing policies', 'c#', '.net']
+sidebar_label = None
+sidebar_position = 0
+doc-persona = ['kubewarden-policy-developer']
+doc-type = ['how-to', 'explanation', 'tutorial', 'reference']
+doc-topic = ['kubewarden', 'writing-policies', 'c#']
+
+=== Node ===
+Predecessor = ['writing-policies/']
+Successors = ['writing-policies/go/intro-go.md', 'writing-policies/go/scaffold.md', 'writing-policies/go/policy-settings.md', 'writing-policies/go/validation.md', 'writing-policies/go/logging.md', 'writing-policies/go/e2e-tests.md', 'writing-policies/go/automate.md', 'writing-policies/go/distribute.md', 'writing-policies/go/validation-with-queries.md', 'writing-policies/go/raw-policies.md']
+=== Node data ===
+path = go/
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/go/
+slug = None
+title = None
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = None
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['go/']
+Successors = []
+=== Node data ===
+path = writing-policies/go/intro-go.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/intro-go.md
+slug = None
+title = Writing policies in Go
+description = A tutorial introduction to writing policies in Go.
+keywords = ['kubewarden', 'kubernetes', 'writing policies in Go']
+sidebar_label = None
+sidebar_position = 8
+doc-persona = ['kubewarden-developer']
+doc-type = ['tutorial']
+doc-topic = ['kubewarden', 'writing-policies', 'go', 'introduction']
+
+=== Node ===
+Predecessor = ['go/']
+Successors = []
+=== Node data ===
+path = writing-policies/go/scaffold.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/scaffold.md
+slug = None
+title = Creating a new validation policy
+description = Creating a new validation policy for Kubewarden using Go.
+keywords = ['kubewarden', 'kubernetes', 'writing policies in Go', 'new validation policy']
+sidebar_label = None
+sidebar_position = 16
+doc-persona = ['kubewarden-developer']
+doc-type = ['tutorial']
+doc-topic = ['kubewarden', 'writing-policies', 'go', 'creating a new validation policy']
+
+=== Node ===
+Predecessor = ['go/']
+Successors = []
+=== Node data ===
+path = writing-policies/go/policy-settings.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/policy-settings.md
+slug = None
+title = Defining policy settings
+description = Defining policy setting for a Kubewarden policy written in Go.
+keywords = ['kubewarden', 'kubernetes', 'defining policy settings', 'Go']
+sidebar_label = None
+sidebar_position = 24
+doc-persona = ['kubewarden-developer']
+doc-type = ['tutorial']
+doc-topic = ['kubewarden', 'writing-policies', 'go', 'defining-policy-settings']
+
+=== Node ===
+Predecessor = ['go/']
+Successors = []
+=== Node data ===
+path = writing-policies/go/validation.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/validation.md
+slug = None
+title = Writing the validation logic
+description = A tutorial on writing validation logic for a Kubewarden policy using Go.
+keywords = ['kubewarden', 'kubernetes', 'writing policies', 'golang', 'go']
+sidebar_label = None
+sidebar_position = 32
+doc-persona = ['kubewarden-developer']
+doc-type = ['tutorial']
+doc-topic = ['kubewarden', 'writing-policies', 'golang', 'validation-logic']
+
+=== Node ===
+Predecessor = ['go/']
+Successors = []
+=== Node data ===
+path = writing-policies/go/logging.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/logging.md
+slug = None
+title = Logging
+description = A tutorial introduction to logging when using Go to write a Kubewarden policy.
+keywords = ['kubewarden', 'kubernetes', 'writing policies', 'golang', 'go', 'logging']
+sidebar_label = None
+sidebar_position = 48
+doc-persona = ['kubewarden-developer']
+doc-type = ['tutorial']
+doc-topic = ['kubewarden', 'writing-policies', 'golang', 'logging']
+
+=== Node ===
+Predecessor = ['go/']
+Successors = []
+=== Node data ===
+path = writing-policies/go/e2e-tests.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/e2e-tests.md
+slug = None
+title = End-to-end testing
+description = A tutorial introduction to end-to-end testing for writing Kubewarden policies in the Go language.
+keywords = ['kubewarden', 'kubernetes', 'writing policies', 'end-to-end testing', 'golang', 'go']
+sidebar_label = None
+sidebar_position = 40
+doc-persona = ['kubewarden-developer']
+doc-type = ['tutorial']
+doc-topic = ['kubewarden', 'writing-policies', 'golang', 'end-to-end-testing']
+
+=== Node ===
+Predecessor = ['go/']
+Successors = []
+=== Node data ===
+path = writing-policies/go/automate.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/automate.md
+slug = None
+title = Integrating with GitHub Actions
+description = Integrating with GitHub actions when developing policies for Kubewarden in Go.
+keywords = ['kubewarden', 'kubernetes', 'github', 'integration']
+sidebar_label = None
+sidebar_position = 56
+doc-persona = ['kubewarden-developer']
+doc-type = ['tutorial']
+doc-topic = ['kubewarden', 'writing-policies', 'golang', 'github-action-integration']
+
+=== Node ===
+Predecessor = ['go/']
+Successors = []
+=== Node data ===
+path = writing-policies/go/distribute.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/distribute.md
+slug = None
+title = Distributing policy
+description = Distributing Kubewarden policies developed with Go.
+keywords = ['kubewarden', 'kubernetes', 'distributing kubewarden policies']
+sidebar_label = None
+sidebar_position = 80
+doc-persona = ['kubewarden-developer', 'kubewarden-operator']
+doc-type = ['tutorial']
+doc-topic = ['kubewarden', 'writing-policies', 'go', 'distributing-policies']
+
+=== Node ===
+Predecessor = ['go/']
+Successors = []
+=== Node data ===
+path = writing-policies/go/validation-with-queries.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/validation-with-queries.md
+slug = None
+title = Validation using JSON queries
+description = Validation using JSON queries with Kubewarden policies in Go.
+keywords = ['kubewarden', 'kubernetes', 'validation using JSON queries']
+sidebar_label = None
+sidebar_position = 90
+doc-persona = ['kubewarden-developer']
+doc-type = ['tutorial']
+doc-topic = ['kubewarden', 'writing-policies', 'golang', 'validation-using-json']
+
+=== Node ===
+Predecessor = ['go/']
+Successors = []
+=== Node data ===
+path = writing-policies/go/raw-policies.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/raw-policies.md
+slug = None
+title = Writing raw policies
+description = Writing raw Kubewarden policies using Go.
+keywords = ['kubewarden', 'kubernetes', 'writing policies', 'raw', 'go']
+sidebar_label = None
+sidebar_position = 100
+doc-persona = ['kubewarden-developer']
+doc-type = ['tutorial']
+doc-topic = ['kubewarden', 'writing-policies', 'golang', 'raw-policies']
+
+=== Node ===
+Predecessor = ['writing-policies/']
+Successors = []
+=== Node data ===
+path = writing-policies/index.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/index.md
+slug = None
+title = Writing Kubewarden policies
+description = An introduction to writing Kubewarden policies.
+keywords = ['kubewarden', 'kubernetes', 'writing policies']
+sidebar_label = None
+sidebar_position = 0
+doc-persona = ['kubewarden-policy-developer']
+doc-type = ['explanation']
+doc-topic = ['writing-policies']
+
+=== Node ===
+Predecessor = ['writing-policies/']
+Successors = []
+=== Node data ===
+path = writing-policies/metadata.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/metadata.md
+slug = None
+title = Policy metadata
+description = Using policy metadata when developing a Kubewarden policy.
+keywords = ['kubewraden', 'kubernetes policy development', 'policy metadata']
+sidebar_label = None
+sidebar_position = 0
+doc-persona = ['kubewarden-developer']
+doc-type = ['how-to', 'tutorial']
+doc-topic = ['kubewarden', 'writing-polices', 'policy-metadata']
+
+=== Node ===
+Predecessor = ['writing-policies/']
+Successors = []
+=== Node data ===
+path = writing-policies/other-languages.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/other-languages.md
+slug = None
+title = Other languages
+description = Writing Kubewarden policies in other languages
+keywords = ['kubewarden', 'kubernetes', 'writing policies', 'other languages']
+sidebar_label = None
+sidebar_position = 0
+doc-persona = ['kubewarden-policy-developer']
+doc-type = ['how-to', 'tutorial']
+doc-topic = ['kubewarden', 'writing-policies', 'other-languages']
+
+=== Node ===
+Predecessor = ['writing-policies/']
+Successors = ['writing-policies/rego/01-intro-rego.md', 'writing-policies/rego/02-builtin-support.md', 'gatekeeper/', 'open-policy-agent/']
+=== Node data ===
+path = rego/
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/rego/
+slug = None
+title = None
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = None
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['rego/']
+Successors = []
+=== Node data ===
+path = writing-policies/rego/01-intro-rego.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rego/01-intro-rego.md
+slug = None
+title = 
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['rego/']
+Successors = []
+=== Node data ===
+path = writing-policies/rego/02-builtin-support.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rego/02-builtin-support.md
+slug = None
+title = 
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['rego/']
+Successors = ['writing-policies/rego/gatekeeper/01-intro.md', 'writing-policies/rego/gatekeeper/02-create-policy.md', 'writing-policies/rego/gatekeeper/03-build-and-run.md', 'writing-policies/rego/gatekeeper/04-distribute.md']
+=== Node data ===
+path = gatekeeper/
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/gatekeeper/
+slug = None
+title = None
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = None
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['gatekeeper/']
+Successors = []
+=== Node data ===
+path = writing-policies/rego/gatekeeper/01-intro.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rego/gatekeeper/01-intro.md
+slug = None
+title = 
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['gatekeeper/']
+Successors = []
+=== Node data ===
+path = writing-policies/rego/gatekeeper/02-create-policy.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rego/gatekeeper/02-create-policy.md
+slug = None
+title = 
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['gatekeeper/']
+Successors = []
+=== Node data ===
+path = writing-policies/rego/gatekeeper/03-build-and-run.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rego/gatekeeper/03-build-and-run.md
+slug = None
+title = 
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['gatekeeper/']
+Successors = []
+=== Node data ===
+path = writing-policies/rego/gatekeeper/04-distribute.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rego/gatekeeper/04-distribute.md
+slug = None
+title = 
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['rego/']
+Successors = ['writing-policies/rego/open-policy-agent/01-intro.md', 'writing-policies/rego/open-policy-agent/02-create-policy.md', 'writing-policies/rego/open-policy-agent/03-build-and-run.md', 'writing-policies/rego/open-policy-agent/04-distribute.md', 'writing-policies/rego/open-policy-agent/05-raw-policies.md']
+=== Node data ===
+path = open-policy-agent/
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/open-policy-agent/
+slug = None
+title = None
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = None
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['open-policy-agent/']
+Successors = []
+=== Node data ===
+path = writing-policies/rego/open-policy-agent/01-intro.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rego/open-policy-agent/01-intro.md
+slug = None
+title = 
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['open-policy-agent/']
+Successors = []
+=== Node data ===
+path = writing-policies/rego/open-policy-agent/02-create-policy.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rego/open-policy-agent/02-create-policy.md
+slug = None
+title = 
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['open-policy-agent/']
+Successors = []
+=== Node data ===
+path = writing-policies/rego/open-policy-agent/03-build-and-run.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rego/open-policy-agent/03-build-and-run.md
+slug = None
+title = 
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['open-policy-agent/']
+Successors = []
+=== Node data ===
+path = writing-policies/rego/open-policy-agent/04-distribute.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rego/open-policy-agent/04-distribute.md
+slug = None
+title = 
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['open-policy-agent/']
+Successors = []
+=== Node data ===
+path = writing-policies/rego/open-policy-agent/05-raw-policies.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rego/open-policy-agent/05-raw-policies.md
+slug = None
+title = Raw policies
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['writing-policies/']
+Successors = ['writing-policies/rust/01-intro-rust.md', 'writing-policies/rust/02-create-policy.md', 'writing-policies/rust/03-define-policy-settings.md', 'writing-policies/rust/04-write-validation-logic.md', 'writing-policies/rust/05-mutation-policy.md', 'writing-policies/rust/06-logging.md', 'writing-policies/rust/07-build-and-distribute.md', 'writing-policies/rust/08-raw-policies.md']
+=== Node data ===
+path = rust/
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/rust/
+slug = None
+title = None
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = None
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['rust/']
+Successors = []
+=== Node data ===
+path = writing-policies/rust/01-intro-rust.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rust/01-intro-rust.md
+slug = None
+title = Rust
+description = An introduction to writing Kubewarden policies with Rust.
+keywords = ['kubewarden', 'kubernetes', 'writing policies', 'introduction']
+sidebar_label = None
+sidebar_position = 0
+doc-persona = ['kubewarden-developer', 'kubewarden-developer-rust']
+doc-type = ['tutorial']
+doc-topic = ['kubewarden', 'writing-policies', 'rust', 'introduction']
+
+=== Node ===
+Predecessor = ['rust/']
+Successors = []
+=== Node data ===
+path = writing-policies/rust/02-create-policy.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rust/02-create-policy.md
+slug = None
+title = Creating a policy
+description = Creating a Kubewarden policy using Rust.
+keywords = ['kubewarden', 'kubernetes', 'policy creation']
+sidebar_label = None
+sidebar_position = 0
+doc-persona = ['kubewarden-developer', 'kubewarden-developer-rust']
+doc-type = ['tutorial']
+doc-topic = ['kubewarden', 'writing-policies', 'rust', 'creating-policies']
+
+=== Node ===
+Predecessor = ['rust/']
+Successors = []
+=== Node data ===
+path = writing-policies/rust/03-define-policy-settings.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rust/03-define-policy-settings.md
+slug = None
+title = Defining policy settings
+description = Defining policy settings for a Kubewarden policy developed using Rust
+keywords = ['kubewarden', 'kubernetes', 'writing policies', 'policy settings', 'rust']
+sidebar_label = None
+sidebar_position = 0
+doc-persona = ['kubewarden-developer', 'kubewarden-developer-rust']
+doc-type = ['tutorial']
+doc-topic = ['kubewarden', 'writing-policies', 'rust', 'policy-settings']
+
+=== Node ===
+Predecessor = ['rust/']
+Successors = []
+=== Node data ===
+path = writing-policies/rust/04-write-validation-logic.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rust/04-write-validation-logic.md
+slug = None
+title = Writing validation logic
+description = Writing validation logic in Rust for a Kubewarden policy
+keywords = ['kubewarden', 'kubernetes', 'policy', 'writing', 'rust', 'validation logic']
+sidebar_label = None
+sidebar_position = 0
+doc-persona = ['kubewarden-developer', 'kubewarden-developer-rust']
+doc-type = ['tutorial']
+doc-topic = ['kubewarden', 'writing-policies', 'rust', 'validation-logic']
+
+=== Node ===
+Predecessor = ['rust/']
+Successors = []
+=== Node data ===
+path = writing-policies/rust/05-mutation-policy.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rust/05-mutation-policy.md
+slug = None
+title = Creating a new mutation policy
+description = Creating a new mutation policy using Rust
+keywords = ['kubewarden', 'kubernetes', 'creating a new mutation policy', 'mutation policy', 'rust']
+sidebar_label = None
+sidebar_position = 0
+doc-persona = ['kubewarden-developer', 'kubewarden-developer-rust']
+doc-type = ['tutorial']
+doc-topic = ['kubewarden', 'writing-policies', 'rust', 'new-mutation-policy']
+
+=== Node ===
+Predecessor = ['rust/']
+Successors = []
+=== Node data ===
+path = writing-policies/rust/06-logging.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rust/06-logging.md
+slug = None
+title = Logging
+description = How to use logging functionality when writing a Kubewarden policy in Rust.
+keywords = ['Kubewarden', 'kubernetes', 'logging']
+sidebar_label = None
+sidebar_position = 0
+doc-persona = ['kubewarden-developer', 'kubewarden-developer-rust']
+doc-type = ['tutorial']
+doc-topic = ['kubewarden', 'writing-policies', 'rust', 'logging']
+
+=== Node ===
+Predecessor = ['rust/']
+Successors = []
+=== Node data ===
+path = writing-policies/rust/07-build-and-distribute.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rust/07-build-and-distribute.md
+slug = None
+title = Building and distributing policies
+description = Building and distributing Kubewarden policies developed with Rust.
+keywords = ['kubewarden', 'kubernetes', 'writing policies', 'rust', 'build and distribute']
+sidebar_label = None
+sidebar_position = 0
+doc-persona = ['kubewarden-developer', 'kubewarden-developer-rust', 'kubewarden-operator']
+doc-type = ['tutorial']
+doc-topic = ['kubewarden', 'writing-policies', 'rust', 'build-and-distribute']
+
+=== Node ===
+Predecessor = ['rust/']
+Successors = []
+=== Node data ===
+path = writing-policies/rust/08-raw-policies.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rust/08-raw-policies.md
+slug = None
+title = Raw policies
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['writing-policies/']
+Successors = ['writing-policies/spec/01-intro-spec.md', 'writing-policies/spec/02-settings.md', 'writing-policies/spec/03-validating-policies.md', 'writing-policies/spec/04-mutating-policies.md', 'writing-policies/spec/05-context-aware-policies.md', 'host-capabilities/']
+=== Node data ===
+path = spec/
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/spec/
+slug = None
+title = None
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = None
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['spec/']
+Successors = []
+=== Node data ===
+path = writing-policies/spec/01-intro-spec.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/01-intro-spec.md
+slug = None
+title = 
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['spec/']
+Successors = []
+=== Node data ===
+path = writing-policies/spec/02-settings.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/02-settings.md
+slug = None
+title = 
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['spec/']
+Successors = []
+=== Node data ===
+path = writing-policies/spec/03-validating-policies.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/03-validating-policies.md
+slug = None
+title = 
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['spec/']
+Successors = []
+=== Node data ===
+path = writing-policies/spec/04-mutating-policies.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/04-mutating-policies.md
+slug = None
+title = 
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['spec/']
+Successors = []
+=== Node data ===
+path = writing-policies/spec/05-context-aware-policies.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/05-context-aware-policies.md
+slug = None
+title = 
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['spec/']
+Successors = ['writing-policies/spec/host-capabilities/01-intro-host-capabilities.md', 'writing-policies/spec/host-capabilities/02-signature-verifier-policies.md', 'writing-policies/spec/host-capabilities/03-container-registry.md', 'writing-policies/spec/host-capabilities/04-net.md', 'writing-policies/spec/host-capabilities/05-crypto.md', 'writing-policies/spec/host-capabilities/06-kubernetes.md']
+=== Node data ===
+path = host-capabilities/
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/host-capabilities/
+slug = None
+title = None
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = None
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['host-capabilities/']
+Successors = []
+=== Node data ===
+path = writing-policies/spec/host-capabilities/01-intro-host-capabilities.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/01-intro-host-capabilities.md
+slug = None
+title = 
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['host-capabilities/']
+Successors = []
+=== Node data ===
+path = writing-policies/spec/host-capabilities/02-signature-verifier-policies.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/02-signature-verifier-policies.md
+slug = None
+title = 
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['host-capabilities/']
+Successors = []
+=== Node data ===
+path = writing-policies/spec/host-capabilities/03-container-registry.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/03-container-registry.md
+slug = None
+title = 
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['host-capabilities/']
+Successors = []
+=== Node data ===
+path = writing-policies/spec/host-capabilities/04-net.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/04-net.md
+slug = None
+title = 
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['host-capabilities/']
+Successors = []
+=== Node data ===
+path = writing-policies/spec/host-capabilities/05-crypto.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/05-crypto.md
+slug = None
+title = 
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['host-capabilities/']
+Successors = []
+=== Node data ===
+path = writing-policies/spec/host-capabilities/06-kubernetes.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/06-kubernetes.md
+slug = None
+title = 
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = 0
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['writing-policies/']
+Successors = []
+=== Node data ===
+path = writing-policies/swift.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/swift.md
+slug = None
+title = Swift
+description = Kubewarden policies with Swift
+keywords = ['kubewarden', 'kubernetes', 'writing policies', 'swift']
+sidebar_label = None
+sidebar_position = 0
+doc-persona = ['kubewarden-policy-developer']
+doc-type = ['how-to']
+doc-topic = ['kubewarden', 'writing-policies', 'swift']
+
+=== Node ===
+Predecessor = ['writing-policies/']
+Successors = []
+=== Node data ===
+path = writing-policies/typescript.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/typescript.md
+slug = None
+title = Typescript
+description = Writing Kubewarden policies with Typescript
+keywords = ['at least one']
+sidebar_label = None
+sidebar_position = 0
+doc-persona = ['default']
+doc-type = ['one of how-to', 'explanation', 'tutorial', 'reference']
+doc-topic = ['root-branch']
+
+=== Node ===
+Predecessor = ['writing-policies/']
+Successors = ['writing-policies/wasi/01-intro-wasi.md', 'writing-policies/wasi/02-raw-policies.md']
+=== Node data ===
+path = wasi/
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/wasi/
+slug = None
+title = None
+description = None
+keywords = None
+sidebar_label = None
+sidebar_position = None
+doc-persona = None
+doc-type = None
+doc-topic = None
+
+=== Node ===
+Predecessor = ['wasi/']
+Successors = []
+=== Node data ===
+path = writing-policies/wasi/01-intro-wasi.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/wasi/01-intro-wasi.md
+slug = None
+title = WASI
+description = Using WASI to develop Kubewarden policies.
+keywords = ['kubewarden', 'kubernetes', 'wasi']
+sidebar_label = None
+sidebar_position = 0
+doc-persona = ['kubewarden-developer']
+doc-type = ['how-to', 'explanation']
+doc-topic = ['kubewarden', 'writing-policies', 'wasi']
+
+=== Node ===
+Predecessor = ['wasi/']
+Successors = []
+=== Node data ===
+path = writing-policies/wasi/02-raw-policies.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/wasi/02-raw-policies.md
+slug = None
+title = Writing raw policies
+description = Using Kubewarden for writing raw policies.
+keywords = ['kubewarden', 'kubernetes', 'raw policies']
+sidebar_label = None
+sidebar_position = 0
+doc-persona = ['kubewarden-developer']
+doc-type = ['explanation', 'tutorial']
+doc-topic = ['kubewarden', 'writing-policies', 'raw-policies']
+
