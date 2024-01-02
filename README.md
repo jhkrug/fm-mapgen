@@ -17,7 +17,7 @@ Add in more tags for things of interest.
 Then, doc-persona to say who the doc is for,
 doc-type for something from [Diátaxis](https://diataxis.fr) types (we're trying to use that),
 doc-topic to try say something about the content.
-Also, the actual directory structure storage has something to say about how the knowledge organization.
+Also, the actual directory structure storage has something to say about the knowledge organization.
 
 Given this front matter, what can we say about the document repository? Firstly, you can tidy things up by checking for things like missing front matter or front matter tags.
 
