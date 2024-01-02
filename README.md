@@ -7,7 +7,7 @@ I'm currently working with Docusaurus repositories,
 but should be applicable to others.
 The data collection is just querying a tree of documents to produce a YAML file.
 
-For asciidoc you need to generate the YAML data files a bit differently I suppose.
+For asciidoc you need to generate the YAML data files a bit differently.
 For the future.
 
 ## Commands
@@ -27,10 +27,14 @@ To help with getting your front matter into a good state.
 
 All early days. And, I'm definitely not a real programmer.
 
+An underlying assumption is that a directory structure is a reasonable
+top-level organizing mechanism for a knowledge tree/map.
+I think it's probably ok, I've been raised on an '[everything is a file](https://en.wikipedia.org/wiki/Everything_is_a_file)' philosophy. And directories organize files.
+
 Command examples:
 
 - `./collect-fm ~/projects/suse/kubewarden-docs/docs/ > kw-fm.yml`
-Creates a file containing thecollected front matter,
+Creates a file containing the collected front matter,
 from a documentation repository directory tree.
 - `python fm_mapgen.py -f ./kw-fm.yml`:
 Process a file of collected front matter.
@@ -58,3 +62,4 @@ options:
 There are results included from example runs using
 [Kubewarden](https://github.com/kubewarden/docs) and
 [Epinio](https://github.com/epinio/docs) docs repositories.
+Check out `kw.txt`, `ep.txt`, `kw.jpg`, `ep.jpg`.

@@ -16,6 +16,8 @@ Given a hierarchical directory structure of markdown files:
     - etc.
 - Produce an output data structure for further processing.
 
+Add scanning of the files to find internal and external links/xrefs to add to the mapping.
+
 ## Configuration
 
 - Front-matter elements
