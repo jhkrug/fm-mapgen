@@ -40,7 +40,7 @@ files with no front matter, etc.
 To help with getting your front matter into a good state.
 
 All early days.
-I'm wondering how valid an approach to anything this is seen to be in the technical writing community I have so recently joined.
+I'm wondering how valid an approach to anything this is seen to be in t statusthe technical writing community I have so recently joined.
 
 An underlying assumption is that a directory structure is a reasonable
 top-level organizing mechanism for a knowledge tree/map.
@@ -78,5 +78,6 @@ options:
 There are results included from example runs using
 [Kubewarden](https://github.com/kubewarden/docs) and
 [Epinio](https://github.com/epinio/docs) docs repositories.
-Check out `kw.txt`, `ep.txt`, `kw.jpg`, `ep.jpg`.
+
+Check the outputs in the `outputs` directory.
 
