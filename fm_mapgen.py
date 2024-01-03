@@ -4,6 +4,8 @@ import sys
 import argparse
 import yaml
 import treelib
+import markdown
+import re
 
 required_tags = {"title", "description", "keywords",
                  "doc-persona", "doc-type", "doc-topic"}
@@ -16,7 +18,8 @@ class KmNode(treelib.Node):
     def __init__(self, path, full_path, slug=None,
                  title=None, description=None, keywords=None,
                  sidebar_label=None, sidebar_position=None,
-                 doc_persona=None, doc_type=None, doc_topic=None):
+                 doc_persona=None, doc_type=None, doc_topic=None,
+                 links=None):
         self.path = path
         self.full_path = full_path
         self.slug = slug
@@ -28,6 +31,7 @@ class KmNode(treelib.Node):
         self.doc_persona = doc_persona
         self.doc_type = doc_type
         self.doc_topic = doc_topic
+        self.links = links
 
     def __repr__(self):
         return f"{self.path}, {self.title}, {self.description}"
@@ -68,6 +72,9 @@ class KmNode(treelib.Node):
     def get_doc_topic(self):
         return f"{self.doc_topic}"
 
+    def get_links(self):
+        return f"{self.links}"
+
 
 def get_node_data_field(node_data, df):
     try:
@@ -94,6 +101,8 @@ def get_node_data_field(node_data, df):
                 return node_data.get_doc_type()
             case "doc-topic":
                 return node_data.get_doc_topic()
+            case "links":
+                return node_data.get_links()
             case _:
                 return None
     except:
@@ -145,10 +154,11 @@ def print_node_data(node_data):
     print("doc-persona =", get_node_data_field(node_data, "doc-persona"))
     print("doc-type =", get_node_data_field(node_data, "doc-type"))
     print("doc-topic =", get_node_data_field(node_data, "doc-topic"))
+    print("links =", get_node_data_field(node_data, "links"))
     print()
 
 
-def build_node_data(id, fp, fm):
+def build_node_data(id, fp, fm, doc_links):
     try:
         slug = fm['frontmatter']['slug']
     except:
@@ -185,9 +195,13 @@ def build_node_data(id, fp, fm):
         doc_topic = fm['frontmatter']['doc-topic']
     except:
         doc_topic = None
+    try:
+        links = doc_links
+    except:
+        links = None
     node_data = KmNode(id, fp, slug, title, description, keywords,
                        sidebar_label, sidebar_position,
-                       doc_persona, doc_type, doc_topic)
+                       doc_persona, doc_type, doc_topic, links)
     return node_data
 
 
@@ -225,10 +239,19 @@ def build_kt(front_matter):
 
             # Get the data to populate the leaf node.
             tag = branches[-1]
-            node_data = build_node_data(identifier, full_path, fm)
+            links = extract_links(full_path)
+            node_data = build_node_data(identifier, full_path, fm, links)
             kt.create_node(tag, identifier=identifier,
                            parent=parent, data=node_data)
     return kt
+
+
+def extract_links(filename):
+    string = open(filename).read()
+    html = markdown.markdown(string, output_format='html')
+    links = list(set(re.findall(r'href=[\'"]?([^\'" >]+)', html)))
+    links = list(filter(lambda l: l[0] != "{", links))
+    return links
 
 
 def process_args(a):

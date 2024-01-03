@@ -14,6 +14,7 @@ sidebar_position = None
 doc-persona = None
 doc-type = None
 doc-topic = None
+links = None
 
 === Node ===
 Predecessor = ['root']
@@ -30,6 +31,7 @@ sidebar_position = None
 doc-persona = None
 doc-type = None
 doc-topic = None
+links = None
 
 === Node ===
 Predecessor = ['explanations/']
@@ -46,6 +48,7 @@ sidebar_position = 0
 doc-persona = None
 doc-type = None
 doc-topic = None
+links = ['detailed-push-process.md', '../tutorials/quickstart.md#push-an-application', '../howtos/other/certificate_issuers.md', 'https://cert-manager.io/docs/', '../howtos/customization/setup_external_registry.md', 'https://github.com/aquarist-labs/s3gw', '#container-registry', '../installation/install_epinio.md#ingress-controller', 'https://github.com/minio/minio', 'https://github.com/kubeops/kubed', 'https://kubernetes.io/docs/concepts/services-networking/ingress/', '../howtos/customization/setup_external_s3.md', '../references/commands/cli/epinio_push.md', 'https://doc.traefik.io/traefik/providers/kubernetes-ingress/', 'https://artifacthub.io/packages/helm/epinio/epinio', 'https://aws.amazon.com/s3/']
 
 === Node ===
 Predecessor = ['explanations/']
@@ -62,6 +65,7 @@ sidebar_position = 0
 doc-persona = None
 doc-type = None
 doc-topic = None
+links = ['https://min.io/', 'principles.md#guidelines-soft-principles', 'https://github.com/epinio/helm-charts/tree/main/chart/application', './advanced.md#ingress-controller', 'https://kubernetes.io/docs/concepts/workloads/controllers/deployment/', 'https://kubernetes.io/docs/concepts/services-networking/service/', '../explanations/advanced.md#container-registry', '../howtos/customization/setup_external_s3.md', 'https://kubernetes.io/docs/concepts/services-networking/ingress/', 'https://s3gw.io/', 'https://doc.traefik.io/traefik/providers/kubernetes-ingress/', 'https://kubernetes.io/docs/concepts/workloads/controllers/job/', 'https://paketo.io/']
 
 === Node ===
 Predecessor = ['explanations/']
@@ -78,6 +82,7 @@ sidebar_position = 0
 doc-persona = None
 doc-type = None
 doc-topic = None
+links = []
 
 === Node ===
 Predecessor = ['explanations/']
@@ -94,6 +99,7 @@ sidebar_position = 0
 doc-persona = None
 doc-type = None
 doc-topic = None
+links = ['https://docs.epinio.io/installation/install_epinio_cli#verify-file-checksum-signature', '../howtos/other/certificate_issuers.md', 'https://letsencrypt.org/', '../explanations/advanced.md#container-registry', 'https://dexidp.io/']
 
 === Node ===
 Predecessor = ['root']
@@ -110,6 +116,7 @@ sidebar_position = None
 doc-persona = None
 doc-type = None
 doc-topic = None
+links = None
 
 === Node ===
 Predecessor = ['howtos/']
@@ -126,6 +133,7 @@ sidebar_position = None
 doc-persona = None
 doc-type = None
 doc-topic = None
+links = None
 
 === Node ===
 Predecessor = ['customization/']
@@ -142,6 +150,7 @@ sidebar_position = 15
 doc-persona = ['epinio-operator']
 doc-type = ['how-to']
 doc-topic = ['epinio', 'how-to', 'customize', 'custom-app-helm-chart']
+links = ['../other/using_custom_appcharts.md', 'https://github.com/epinio/helm-charts/tree/main/chart/application', '../../references/customization/appcharts.md#configuration', 'https://helm.sh/', 'https://www.fluentd.org/', 'https://github.com/epinio/helm-charts.git']
 
 === Node ===
 Predecessor = ['customization/']
@@ -158,6 +167,7 @@ sidebar_position = 13
 doc-persona = ['epinio-operator']
 doc-type = ['how-to']
 doc-topic = ['epinio', 'how-to', 'customize', 'create-custom-service']
+links = ['create_custom_appcharts.md', '../../references/services.md', 'https://github.com/epinio/helm-charts/blob/main/chart/epinio/templates/service-catalog.yaml', '#user-settable']
 
 === Node ===
 Predecessor = ['customization/']
@@ -174,6 +184,7 @@ sidebar_position = 13
 doc-persona = ['epinio-operator']
 doc-type = ['how-to']
 doc-topic = ['epinio', 'how-to', 'customize', 'create-git-config']
+links = ['../../references/git_configuration.md', '../../references/commands/cli/gitconfig/epinio_gitconfig_create.md']
 
 === Node ===
 Predecessor = ['customization/']
@@ -190,6 +201,7 @@ sidebar_position = 14
 doc-persona = ['epinio-operator']
 doc-type = ['how-to']
 doc-topic = ['epinio', 'how-to', 'customize', 'create-custom-builder']
+links = ['https://github.com/epinio/helm-charts/blob/3954c214de3d7b957cfc2054ba4fa4bfa140f5a3/chart/epinio/templates/stage-scripts.yaml#L83', 'https://github.com/paketo-buildpacks/rfcs/blob/main/text/0003-replace-buildpack-yml.md', 'https://github.com/buildpacks/spec/blob/main/extensions/project-descriptor.md#projectlicenses', 'https://paketo.io/docs/howto/create-paketo-buildpack/', 'https://github.com/buildpacks/lifecycle', 'https://github.com/paketo-buildpacks/rfcs/blob/main/text/0026-environment-variable-configuration-of-buildpacks.md', 'https://buildpacks.io/docs/tools/pack/', 'https://buildpacks.io/docs/buildpack-author-guide/create-buildpack/', '../../tutorials/custom_builder_go.md']
 
 === Node ===
 Predecessor = ['customization/']
@@ -206,6 +218,7 @@ sidebar_position = 10
 doc-persona = ['epinio-operator']
 doc-type = ['how-to']
 doc-topic = ['epinio', 'how-to', 'custom', 'setup-routing-secrets']
+links = ['https://letsencrypt.org/']
 
 === Node ===
 Predecessor = ['customization/']
@@ -222,6 +235,7 @@ sidebar_position = 17
 doc-persona = ['epinio-operator', 'epinio-user']
 doc-type = ['how-to']
 doc-topic = ['epinio', 'how-to', 'customize', 'custom-service-values']
+links = ['create_custom_service.md']
 
 === Node ===
 Predecessor = ['customization/']
@@ -238,6 +252,7 @@ sidebar_position = 12
 doc-persona = ['epinio-operator']
 doc-type = ['how-to']
 doc-topic = ['epinio', 'how-to', 'customize', 'custom-routes']
+links = ['https://en.wikipedia.org/wiki/Wildcard_DNS_record', '../other/certificate_issuers.md']
 
 === Node ===
 Predecessor = ['customization/']
@@ -254,6 +269,7 @@ sidebar_position = 8
 doc-persona = ['epinio-operator']
 doc-type = ['how-to']
 doc-topic = ['epinio', 'how-to', 'customize', 'export-to-oci-registry']
+links = ['setup_external_registry.md']
 
 === Node ===
 Predecessor = ['customization/']
@@ -270,6 +286,7 @@ sidebar_position = 5
 doc-persona = ['epinio-operator']
 doc-type = ['how-to']
 doc-topic = ['epinio', 'how-to', 'customization', 'external-ip-addresses']
+links = ['https://stedolan.github.io/jq/download/', 'https://github.com/digitalocean/digitalocean-cloud-controller-manager']
 
 === Node ===
 Predecessor = ['customization/']
@@ -286,6 +303,7 @@ sidebar_position = 8
 doc-persona = ['epinio-operator']
 doc-type = ['how-to']
 doc-topic = ['epinio', 'how-to', 'custom', 'setup-export-destination-registry']
+links = ['setup_external_registry.md']
 
 === Node ===
 Predecessor = ['customization/']
@@ -302,6 +320,7 @@ sidebar_position = 8
 doc-persona = ['epinio-operator']
 doc-type = ['how-to']
 doc-topic = ['epinio', 'how-to', 'custom', 'setup-external-container-registry']
+links = ['https://hub.docker.com/']
 
 === Node ===
 Predecessor = ['customization/']
@@ -318,6 +337,7 @@ sidebar_position = 7
 doc-persona = ['epinio-operator']
 doc-type = ['how-to']
 doc-topic = ['how-to', 'custom', 'external-s3-storage']
+links = ['https://github.com/minio/minio']
 
 === Node ===
 Predecessor = ['customization/']
@@ -334,6 +354,7 @@ sidebar_position = 14
 doc-persona = ['epinio-operator']
 doc-type = ['how-to']
 doc-topic = ['epinio', 'how-to', 'customize', 'create-custom-role']
+links = ['../../references/authorization.md']
 
 === Node ===
 Predecessor = ['howtos/']
@@ -350,6 +371,7 @@ sidebar_position = None
 doc-persona = None
 doc-type = None
 doc-topic = None
+links = None
 
 === Node ===
 Predecessor = ['operations/']
@@ -366,6 +388,7 @@ sidebar_position = 27
 doc-persona = None
 doc-type = ['how-to']
 doc-topic = ['epinio', 'customize', 'operations', 'aws-iam']
+links = ['https://docs.aws.amazon.com/eks/latest/userguide/enable-iam-roles-for-service-accounts.html']
 
 === Node ===
 Predecessor = ['operations/']
@@ -382,6 +405,7 @@ sidebar_position = 24
 doc-persona = None
 doc-type = ['how-to']
 doc-topic = ['epinio', 'customize', 'operations', 'metrics-server']
+links = ['../../references/commands/cli/app/epinio_app_show.md', 'https://github.com/kubernetes-sigs/metrics-server']
 
 === Node ===
 Predecessor = ['howtos/']
@@ -398,6 +422,7 @@ sidebar_position = None
 doc-persona = None
 doc-type = None
 doc-topic = None
+links = None
 
 === Node ===
 Predecessor = ['other/']
@@ -414,6 +439,7 @@ sidebar_position = 2
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['how-to']
 doc-topic = ['epinio', 'how-to', 'certificate-issuer']
+links = ['../../installation/install_epinio.md#install-epinio', 'https://letsencrypt.org/', 'https://cert-manager.io/docs/configuration/ca/', 'https://cert-manager.io/docs/configuration/acme/dns01/', 'https://cert-manager.io/docs/configuration/']
 
 === Node ===
 Predecessor = ['other/']
@@ -430,6 +456,7 @@ sidebar_position = 6
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['how-to']
 doc-topic = ['epinio', 'how-to', 'other', 'gitjob-push']
+links = ['https://github.com/rancher/gitjob#webhook', 'https://fleet.rancher.io/', '../../installation/other_inst_scenarios/install_epinio_on_rancher.md', 'https://github.com/rancher/gitjob#running']
 
 === Node ===
 Predecessor = ['other/']
@@ -446,6 +473,7 @@ sidebar_position = 30
 doc-persona = ['epinio-developer']
 doc-type = ['how-to']
 doc-topic = ['epinio', 'how-to', 'other', 'access-minio-service']
+links = ['https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html', 'https://min.io/docs/minio/linux/integrations/aws-cli-with-minio.html']
 
 === Node ===
 Predecessor = ['other/']
@@ -462,6 +490,7 @@ sidebar_position = 11
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['how-to']
 doc-topic = ['epinio', 'how-to', 'port-forwarding']
+links = []
 
 === Node ===
 Predecessor = ['other/']
@@ -478,6 +507,7 @@ sidebar_position = 9
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['how-to']
 doc-topic = ['epinio', 'how-to', 'other', 'ingress-separation']
+links = ['../../references/customization/lb.md', '../customization/custom_routes.md']
 
 === Node ===
 Predecessor = ['other/']
@@ -494,6 +524,7 @@ sidebar_position = 16
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['how-to']
 doc-topic = ['epinio', 'how-to', 'other', 'custom-app-chart']
+links = ['../../references/commands/cli/epinio_push.md', '../../references/commands/cli/app/epinio_app_create.md', '../../references/commands/cli/app/epinio_app_update.md', 'https://helm.sh/', '../customization/create_custom_appcharts.md']
 
 === Node ===
 Predecessor = ['howtos/']
@@ -510,6 +541,7 @@ sidebar_position = None
 doc-persona = None
 doc-type = None
 doc-topic = None
+links = None
 
 === Node ===
 Predecessor = ['use-develop/']
@@ -526,6 +558,7 @@ sidebar_position = 4
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['how-to']
 doc-topic = ['epinio', 'how-to', 'use-develop', 'debug']
+links = ['https://paketo.io/docs/howto/java/#enable-remote-debugging', '../other/port_forwarding.md']
 
 === Node ===
 Predecessor = ['use-develop/']
@@ -542,6 +575,7 @@ sidebar_position = 40
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['how-to']
 doc-topic = ['epinio', 'how-to', 'use-develop', 'application-export-transfer']
+links = ['../customization/create_custom_appcharts.md']
 
 === Node ===
 Predecessor = ['use-develop/']
@@ -558,6 +592,7 @@ sidebar_position = 25
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['how-to']
 doc-topic = ['epinio', 'how-to', 'use-develop', 'install-wordpress']
+links = ['../../references/services.md', 'https://paketo.io/docs/howto/php/#configure-php-with-a-custom-ini-file', 'https://github.com/epinio/example-wordpress#step-4---create-a-database-for-wordpress']
 
 === Node ===
 Predecessor = ['use-develop/']
@@ -574,6 +609,7 @@ sidebar_position = 3
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['how-to']
 doc-topic = ['epinio', 'how-to', 'multiple-namespace']
+links = ['../../references/namespaces.md']
 
 === Node ===
 Predecessor = ['use-develop/']
@@ -590,6 +626,7 @@ sidebar_position = 4
 doc-persona = ['epinio-operator']
 doc-type = ['how-to']
 doc-topic = ['epinio', 'how-to', 'recovery']
+links = []
 
 === Node ===
 Predecessor = ['howtos/']
@@ -606,6 +643,7 @@ sidebar_position = 1
 doc-persona = None
 doc-type = ['how-to']
 doc-topic = ['contribute-to-epinio']
+links = ['https://github.com/kubernetes/community/blob/master/contributors/design-proposals/release/versioning.md#kubernetes-release-versioning', 'https://google.github.io/styleguide/go/guide', 'https://go.dev/doc/effective_go', 'https://github.com/epinio/epinio/issues/new', 'https://github.com/epinio/epinio/issues', 'https://github.com/golang/go/wiki/CodeReviewComments', 'https://semver.org/', 'https://developercertificate.org/']
 
 === Node ===
 Predecessor = ['root']
@@ -622,6 +660,7 @@ sidebar_position = None
 doc-persona = None
 doc-type = None
 doc-topic = None
+links = None
 
 === Node ===
 Predecessor = ['installation/']
@@ -638,6 +677,7 @@ sidebar_position = 3
 doc-persona = None
 doc-type = None
 doc-topic = None
+links = ['../howtos/other/certificate_issuers.md', 'wildcardDNS_setup.md', '#find-ip-for-ic', 'https://aws.amazon.com/route53/', '#config-dns', 'install_epinio.md']
 
 === Node ===
 Predecessor = ['installation/']
@@ -654,6 +694,7 @@ sidebar_position = 1
 doc-persona = None
 doc-type = None
 doc-topic = None
+links = ['other_inst_scenarios/install_epinio_on_rancher_desktop.md', 'other_inst_scenarios/install_epinio_on_eks.md', './wildcardDNS_setup.md', 'other_inst_scenarios/install_epinio_on_rancher.md', '../references/system_requirements/global.md', '../references/authentication_oidc.md', 'other_inst_scenarios/install_epinio_on_public_cloud.md', './dns_setup.md', 'https://min.io/', 'other_inst_scenarios/install_epinio_on_k3s.md', 'other_inst_scenarios/install_epinio_on_k3d.md', '#kubed', 'other_inst_scenarios/install_epinio_on_rke.md', '#dex', 'https://doc.traefik.io/traefik/getting-started/install-traefik/#use-the-helm-chart', '#container-registry', 'https://s3gw.io/', 'https://github.com/epinio/helm-charts/blob/b389a4875af9f03b484a911c49a14f834ba04b64/chart/epinio/values.yaml#L44', 'https://dexidp.io', 'https://github.com/kubernetes/ingress-nginx/blob/main/docs/user-guide/nginx-configuration/annotations.md#custom-max-body-size', 'https://cert-manager.io/', 'https://docs.epinio.io/references/commands/cli/settings/epinio_settings_update-ca#epinio-settings-update-ca', 'https://github.com/epinio/helm-charts/blob/b389a4875af9f03b484a911c49a14f834ba04b64/chart/epinio/values.yaml#L107-L111', '#s3-storage']
 
 === Node ===
 Predecessor = ['installation/']
@@ -670,6 +711,7 @@ sidebar_position = None
 doc-persona = None
 doc-type = None
 doc-topic = None
+links = None
 
 === Node ===
 Predecessor = ['other_inst_scenarios/']
@@ -686,6 +728,7 @@ sidebar_position = 23
 doc-persona = None
 doc-type = None
 doc-topic = None
+links = ['https://kubernetes.io/docs/tasks/tools/', 'https://github.com/epinio/helm-charts/releases/tag/epinio-1.6.2', 'https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html', 'https://kubernetes.github.io/ingress-nginx/', 'https://raw.githubusercontent.com/epinio/epinio/main/scripts/eks-cri-allow-http-registries.yaml', 'https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html', 'https://helm.sh/docs/helm/helm_get/', 'https://docs.aws.amazon.com/eks/latest/userguide/eksctl.html', 'https://github.com/cert-manager/cert-manager', 'https://docs.aws.amazon.com/eks/latest/userguide/ebs-csi.html']
 
 === Node ===
 Predecessor = ['other_inst_scenarios/']
@@ -702,6 +745,7 @@ sidebar_position = 21
 doc-persona = None
 doc-type = None
 doc-topic = None
+links = ['../../explanations/advanced.md', '../../explanations/advanced.md#traefik', '../../installation/install_epinio.md', 'https://k3d.io/', '../../installation/wildcardDNS_setup.md', 'https://github.com/epinio/helm-charts/releases/tag/epinio-0.7.1']
 
 === Node ===
 Predecessor = ['other_inst_scenarios/']
@@ -718,6 +762,7 @@ sidebar_position = 20
 doc-persona = None
 doc-type = None
 doc-topic = None
+links = ['https://k3s.io/', '../../explanations/advanced.md', '../../installation/wildcardDNS_setup', '../../explanations/advanced.md#traefik', '../../installation/install_epinio.md', 'https://github.com/epinio/helm-charts/releases/tag/epinio-0.7.1']
 
 === Node ===
 Predecessor = ['other_inst_scenarios/']
@@ -734,6 +779,7 @@ sidebar_position = 22
 doc-persona = None
 doc-type = None
 doc-topic = None
+links = ['../../explanations/advanced.md', 'https://docs.aws.amazon.com/eks/latest/userguide/getting-started.html', 'https://docs.microsoft.com/en-us/azure/aks/kubernetes-walkthrough', './install_epinio_on_eks.md', 'https://cloud.google.com/kubernetes-engine/docs/quickstart', 'https://github.com/epinio/epinio/issues/1373#issuecomment-1105231113', '../../explanations/advanced.md#traefik', '../../installation/install_epinio.md']
 
 === Node ===
 Predecessor = ['other_inst_scenarios/']
@@ -750,6 +796,7 @@ sidebar_position = 17
 doc-persona = None
 doc-type = None
 doc-topic = None
+links = ['../../installation/install_epinio.md#ingress-controller', 'https://rancher.com/docs', 'https://github.com/epinio/helm-charts/releases/tag/epinio-1.7.1', '../../installation/dns_setup.md', 'https://ranchermanager.docs.rancher.com/pages-for-subheaders/kubernetes-clusters-in-rancher-setup']
 
 === Node ===
 Predecessor = ['other_inst_scenarios/']
@@ -766,6 +813,7 @@ sidebar_position = 19
 doc-persona = None
 doc-type = None
 doc-topic = None
+links = ['https://docs.rke2.io/install/quickstart/', '../../installation/install_epinio.md', '../../installation/wildcardDNS_setup.md', '../../installation/dns_setup.md']
 
 === Node ===
 Predecessor = ['other_inst_scenarios/']
@@ -782,6 +830,7 @@ sidebar_position = 1
 doc-persona = None
 doc-type = None
 doc-topic = None
+links = ['../../installation/install_epinio_cli.md', 'https://github.com/rancher-sandbox/rancher-desktop/issues/576', '../../installation/install_epinio.md', 'https://github.com/rancher-sandbox/rancher-desktop/releases', 'https://github.com/epinio/helm-charts/releases/tag/epinio-1.0.0', 'https://docs.rancherdesktop.io/getting-started/installation/#traefik-port-binding-access']
 
 === Node ===
 Predecessor = ['installation/']
@@ -798,6 +847,7 @@ sidebar_position = 5
 doc-persona = None
 doc-type = None
 doc-topic = None
+links = []
 
 === Node ===
 Predecessor = ['installation/']
@@ -814,6 +864,7 @@ sidebar_position = 4
 doc-persona = None
 doc-type = None
 doc-topic = None
+links = ['https://github.com/kubernetes-sigs/kind', 'https://docs.netgate.com/pfsense/en/latest/services/dns/rebinding.html', 'https://k3d.io/', 'dns_setup.md#ingress-controller-ip-address', 'https://thekelleys.org.uk/dnsmasq/docs/dnsmasq-man.html', 'dns_setup.md']
 
 === Node ===
 Predecessor = ['installation/']
@@ -830,6 +881,7 @@ sidebar_position = 2
 doc-persona = None
 doc-type = None
 doc-topic = None
+links = ['https://github.com/epinio/epinio/releases']
 
 === Node ===
 Predecessor = ['root']
@@ -846,6 +898,7 @@ sidebar_position = None
 doc-persona = None
 doc-type = None
 doc-topic = None
+links = None
 
 === Node ===
 Predecessor = ['references/']
@@ -862,6 +915,7 @@ sidebar_position = 0
 doc-persona = None
 doc-type = None
 doc-topic = None
+links = ['https://www.openapis.org/']
 
 === Node ===
 Predecessor = ['references/']
@@ -878,6 +932,7 @@ sidebar_position = 2
 doc-persona = None
 doc-type = None
 doc-topic = None
+links = []
 
 === Node ===
 Predecessor = ['references/']
@@ -894,6 +949,7 @@ sidebar_position = None
 doc-persona = None
 doc-type = None
 doc-topic = None
+links = None
 
 === Node ===
 Predecessor = ['commands/']
@@ -910,6 +966,7 @@ sidebar_position = None
 doc-persona = None
 doc-type = None
 doc-topic = None
+links = None
 
 === Node ===
 Predecessor = ['cli/']
@@ -926,6 +983,7 @@ sidebar_position = None
 doc-persona = None
 doc-type = None
 doc-topic = None
+links = None
 
 === Node ===
 Predecessor = ['app/']
@@ -942,6 +1000,7 @@ sidebar_position = None
 doc-persona = None
 doc-type = None
 doc-topic = None
+links = None
 
 === Node ===
 Predecessor = ['chart/']
@@ -958,6 +1017,7 @@ sidebar_position = 0
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['reference']
 doc-topic = ['epinio', 'reference', 'epinio-cli', 'epinio-app-chart']
+links = ['./epinio_app_chart_show.md', '../epinio_app.md', './epinio_app_chart_default.md', './epinio_app_chart_list.md']
 
 === Node ===
 Predecessor = ['chart/']
@@ -974,6 +1034,7 @@ sidebar_position = 0
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['reference']
 doc-topic = ['epinio', 'reference', 'epinio-cli', 'epinio-app-chart-default']
+links = ['./epinio_app_chart.md']
 
 === Node ===
 Predecessor = ['chart/']
@@ -990,6 +1051,7 @@ sidebar_position = 0
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['reference']
 doc-topic = ['epinio', 'reference', 'epinio-cli', 'epinio-app-chart-list']
+links = ['./epinio_app_chart.md']
 
 === Node ===
 Predecessor = ['chart/']
@@ -1006,6 +1068,7 @@ sidebar_position = 0
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['reference']
 doc-topic = ['epinio', 'reference', 'epinio-cli', 'epinio-app-chart-show']
+links = ['./epinio_app_chart.md']
 
 === Node ===
 Predecessor = ['app/']
@@ -1022,6 +1085,7 @@ sidebar_position = None
 doc-persona = None
 doc-type = None
 doc-topic = None
+links = None
 
 === Node ===
 Predecessor = ['env/']
@@ -1038,6 +1102,7 @@ sidebar_position = 0
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['reference']
 doc-topic = ['epinio', 'reference', 'epinio-cli', 'epinio-app-env']
+links = ['./epinio_app_env_list.md', './epinio_app_env_show.md', './epinio_app_env_set.md', '../epinio_app.md', './epinio_app_env_unset.md']
 
 === Node ===
 Predecessor = ['env/']
@@ -1054,6 +1119,7 @@ sidebar_position = 0
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['reference']
 doc-topic = ['epinio', 'reference', 'epinio-cli', 'epinio-app-env-list']
+links = ['./epinio_app_env.md']
 
 === Node ===
 Predecessor = ['env/']
@@ -1070,6 +1136,7 @@ sidebar_position = 0
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['reference']
 doc-topic = ['epinio', 'reference', 'epinio-cli', 'epinio-app-env-set']
+links = ['./epinio_app_env.md']
 
 === Node ===
 Predecessor = ['env/']
@@ -1086,6 +1153,7 @@ sidebar_position = 0
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['reference']
 doc-topic = ['epinio', 'reference', 'epinio-cli', 'epinio-app-env-show']
+links = ['./epinio_app_env.md']
 
 === Node ===
 Predecessor = ['env/']
@@ -1102,6 +1170,7 @@ sidebar_position = 0
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['reference']
 doc-topic = ['epinio', 'reference', 'epinio-cli', 'epinio-app-env-unset']
+links = ['./epinio_app_env.md']
 
 === Node ===
 Predecessor = ['app/']
@@ -1118,6 +1187,7 @@ sidebar_position = 0
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['reference']
 doc-topic = ['epinio', 'reference', 'epinio-cli', 'epinio-app']
+links = ['./epinio_app_port-forward.md', './epinio_app_delete.md', './epinio_app_update.md', './chart/epinio_app_chart.md', '../epinio_push.md', './epinio_app_restage.md', './env/epinio_app_env.md', '../epinio.md', './epinio_app_export.md', './epinio_app_create.md', './epinio_app_manifest.md', './epinio_app_list.md', './epinio_app_restart.md', './epinio_app_show.md', './epinio_app_logs.md', './epinio_app_exec.md']
 
 === Node ===
 Predecessor = ['app/']
@@ -1134,6 +1204,7 @@ sidebar_position = 0
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['reference']
 doc-topic = ['epinio', 'reference', 'epinio-cli', 'epinio-app-create']
+links = ['./epinio_app.md']
 
 === Node ===
 Predecessor = ['app/']
@@ -1150,6 +1221,7 @@ sidebar_position = 0
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['reference']
 doc-topic = ['epinio', 'reference', 'epinio-cli', 'epinio-app-delete']
+links = ['./epinio_app.md']
 
 === Node ===
 Predecessor = ['app/']
@@ -1166,6 +1238,7 @@ sidebar_position = 0
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['reference']
 doc-topic = ['epinio', 'reference', 'epinio-cli', 'epinio-app-exec']
+links = ['./epinio_app.md']
 
 === Node ===
 Predecessor = ['app/']
@@ -1182,6 +1255,7 @@ sidebar_position = 0
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['reference']
 doc-topic = ['epinio', 'reference', 'epinio-cli', 'epinio-app-export']
+links = ['./epinio_app.md']
 
 === Node ===
 Predecessor = ['app/']
@@ -1198,6 +1272,7 @@ sidebar_position = 0
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['reference']
 doc-topic = ['epinio', 'reference', 'epinio-cli', 'epinio-app-list']
+links = ['./epinio_app.md']
 
 === Node ===
 Predecessor = ['app/']
@@ -1214,6 +1289,7 @@ sidebar_position = 0
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['reference']
 doc-topic = ['epinio', 'reference', 'epinio-cli', 'epinio-app-logs']
+links = ['./epinio_app.md']
 
 === Node ===
 Predecessor = ['app/']
@@ -1230,6 +1306,7 @@ sidebar_position = 0
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['reference']
 doc-topic = ['epinio', 'reference', 'epinio-cli', 'epinio-app-manifest']
+links = ['./epinio_app.md']
 
 === Node ===
 Predecessor = ['app/']
@@ -1246,6 +1323,7 @@ sidebar_position = 0
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['reference']
 doc-topic = ['epinio', 'reference', 'epinio-cli', 'epinio-app-port-forward']
+links = ['./epinio_app.md']
 
 === Node ===
 Predecessor = ['app/']
@@ -1262,6 +1340,7 @@ sidebar_position = 0
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['reference']
 doc-topic = ['epinio', 'reference', 'epinio-cli', 'epinio-app-push']
+links = ['./epinio_app.md']
 
 === Node ===
 Predecessor = ['app/']
@@ -1278,6 +1357,7 @@ sidebar_position = 0
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['reference']
 doc-topic = ['epinio', 'reference', 'epinio-cli', 'epinio-app-restage']
+links = ['./epinio_app.md']
 
 === Node ===
 Predecessor = ['app/']
@@ -1294,6 +1374,7 @@ sidebar_position = 0
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['reference']
 doc-topic = ['epinio', 'reference', 'epinio-cli', 'epinio-app-restart']
+links = ['./epinio_app.md']
 
 === Node ===
 Predecessor = ['app/']
@@ -1310,6 +1391,7 @@ sidebar_position = 0
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['reference']
 doc-topic = ['epinio', 'reference', 'epinio-cli', 'epinio-app-show']
+links = ['./epinio_app.md']
 
 === Node ===
 Predecessor = ['app/']
@@ -1326,6 +1408,7 @@ sidebar_position = 0
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['reference']
 doc-topic = ['epinio', 'reference', 'epinio-cli', 'epinio-app-update']
+links = ['./epinio_app.md']
 
 === Node ===
 Predecessor = ['cli/']
@@ -1342,6 +1425,7 @@ sidebar_position = None
 doc-persona = None
 doc-type = None
 doc-topic = None
+links = None
 
 === Node ===
 Predecessor = ['configuration/']
@@ -1358,6 +1442,7 @@ sidebar_position = 0
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['reference']
 doc-topic = ['epinio', 'reference', 'epinio-cli', 'epinio-configuration']
+links = ['./epinio_configuration_unbind.md', './epinio_configuration_create.md', './epinio_configuration_bind.md', './epinio_configuration_list.md', './epinio_configuration_delete.md', '../epinio.md', './epinio_configuration_show.md', './epinio_configuration_update.md']
 
 === Node ===
 Predecessor = ['configuration/']
@@ -1374,6 +1459,7 @@ sidebar_position = 0
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['reference']
 doc-topic = ['epinio', 'reference', 'epinio-cli', 'epinio-configuration-bind']
+links = ['./epinio_configuration.md']
 
 === Node ===
 Predecessor = ['configuration/']
@@ -1390,6 +1476,7 @@ sidebar_position = 0
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['reference']
 doc-topic = ['epinio', 'reference', 'epinio-cli', 'epinio-configuration-create']
+links = ['./epinio_configuration.md']
 
 === Node ===
 Predecessor = ['configuration/']
@@ -1406,6 +1493,7 @@ sidebar_position = 0
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['reference']
 doc-topic = ['epinio', 'reference', 'epinio-cli', 'epinio-configuration-delete']
+links = ['./epinio_configuration.md']
 
 === Node ===
 Predecessor = ['configuration/']
@@ -1422,6 +1510,7 @@ sidebar_position = 0
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['reference']
 doc-topic = ['epinio', 'reference', 'epinio-cli', 'epinio-configuration-list']
+links = ['./epinio_configuration.md']
 
 === Node ===
 Predecessor = ['configuration/']
@@ -1438,6 +1527,7 @@ sidebar_position = 0
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['reference']
 doc-topic = ['epinio', 'reference', 'epinio-cli', 'epinio-configuration-show']
+links = ['./epinio_configuration.md']
 
 === Node ===
 Predecessor = ['configuration/']
@@ -1454,6 +1544,7 @@ sidebar_position = 0
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['reference']
 doc-topic = ['epinio', 'reference', 'epinio-cli', 'epinio-configuration-unbind']
+links = ['./epinio_configuration.md']
 
 === Node ===
 Predecessor = ['configuration/']
@@ -1470,6 +1561,7 @@ sidebar_position = 0
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['reference']
 doc-topic = ['epinio', 'reference', 'epinio-cli', 'epinio-configuration-update']
+links = ['./epinio_configuration.md']
 
 === Node ===
 Predecessor = ['cli/']
@@ -1486,6 +1578,7 @@ sidebar_position = None
 doc-persona = None
 doc-type = None
 doc-topic = None
+links = None
 
 === Node ===
 Predecessor = ['gitconfig/']
@@ -1502,6 +1595,7 @@ sidebar_position = 0
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['reference']
 doc-topic = ['epinio', 'reference', 'epinio-cli', 'epinio-gitconfig']
+links = ['./epinio_gitconfig_create.md', './epinio_gitconfig_delete.md', '../epinio.md', './epinio_gitconfig_show.md', './epinio_gitconfig_list.md']
 
 === Node ===
 Predecessor = ['gitconfig/']
@@ -1518,6 +1612,7 @@ sidebar_position = 0
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['reference']
 doc-topic = ['epinio', 'reference', 'epinio-cli', 'epinio-gitconfig-create']
+links = ['./epinio_gitconfig.md']
 
 === Node ===
 Predecessor = ['gitconfig/']
@@ -1534,6 +1629,7 @@ sidebar_position = 0
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['reference']
 doc-topic = ['epinio', 'reference', 'epinio-cli', 'epinio-gitconfig-delete']
+links = ['./epinio_gitconfig.md']
 
 === Node ===
 Predecessor = ['gitconfig/']
@@ -1550,6 +1646,7 @@ sidebar_position = 0
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['reference']
 doc-topic = ['epinio', 'reference', 'epinio-cli', 'epinio-gitconfig-list']
+links = ['./epinio_gitconfig.md']
 
 === Node ===
 Predecessor = ['gitconfig/']
@@ -1566,6 +1663,7 @@ sidebar_position = 0
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['reference']
 doc-topic = ['epinio', 'reference', 'epinio-cli', 'epinio-gitconfig-show']
+links = ['./epinio_gitconfig.md']
 
 === Node ===
 Predecessor = ['cli/']
@@ -1582,6 +1680,7 @@ sidebar_position = None
 doc-persona = None
 doc-type = None
 doc-topic = None
+links = None
 
 === Node ===
 Predecessor = ['namespace/']
@@ -1598,6 +1697,7 @@ sidebar_position = 0
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['reference']
 doc-topic = ['epinio', 'reference', 'epinio-cli', 'epinio-namespace']
+links = ['./epinio_namespace_delete.md', './epinio_namespace_create.md', './epinio_namespace_list.md', '../epinio.md', './epinio_namespace_show.md']
 
 === Node ===
 Predecessor = ['namespace/']
@@ -1614,6 +1714,7 @@ sidebar_position = 0
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['reference']
 doc-topic = ['epinio', 'reference', 'epinio-cli', 'epinio-namespace-create']
+links = ['./epinio_namespace.md']
 
 === Node ===
 Predecessor = ['namespace/']
@@ -1630,6 +1731,7 @@ sidebar_position = 0
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['reference']
 doc-topic = ['epinio', 'reference', 'epinio-cli', 'epinio-namespace-delete']
+links = ['./epinio_namespace.md']
 
 === Node ===
 Predecessor = ['namespace/']
@@ -1646,6 +1748,7 @@ sidebar_position = 0
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['reference']
 doc-topic = ['epinio', 'reference', 'epinio-cli', 'epinio-namespace-list']
+links = ['./epinio_namespace.md']
 
 === Node ===
 Predecessor = ['namespace/']
@@ -1662,6 +1765,7 @@ sidebar_position = 0
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['reference']
 doc-topic = ['epinio', 'reference', 'epinio-cli', 'epinio-namespace-show']
+links = ['./epinio_namespace.md']
 
 === Node ===
 Predecessor = ['cli/']
@@ -1678,6 +1782,7 @@ sidebar_position = None
 doc-persona = None
 doc-type = None
 doc-topic = None
+links = None
 
 === Node ===
 Predecessor = ['service/']
@@ -1694,6 +1799,7 @@ sidebar_position = 0
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['reference']
 doc-topic = ['epinio', 'reference', 'epinio-cli', 'epinio-service']
+links = ['./epinio_service_show.md', './epinio_service_catalog.md', './epinio_service_update.md', './epinio_service_bind.md', './epinio_service_create.md', './epinio_service_delete.md', '../epinio.md', './epinio_service_unbind.md', './epinio_service_list.md', './epinio_service_port-forward.md']
 
 === Node ===
 Predecessor = ['service/']
@@ -1710,6 +1816,7 @@ sidebar_position = 0
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['reference']
 doc-topic = ['epinio', 'reference', 'epinio-cli', 'epinio-service-bind']
+links = ['./epinio_service.md']
 
 === Node ===
 Predecessor = ['service/']
@@ -1726,6 +1833,7 @@ sidebar_position = 0
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['reference']
 doc-topic = ['epinio', 'reference', 'epinio-cli', 'epinio-service-catalog']
+links = ['./epinio_service.md']
 
 === Node ===
 Predecessor = ['service/']
@@ -1742,6 +1850,7 @@ sidebar_position = 0
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['reference']
 doc-topic = ['epinio', 'reference', 'epinio-cli', 'epinio-service-create']
+links = ['./epinio_service.md']
 
 === Node ===
 Predecessor = ['service/']
@@ -1758,6 +1867,7 @@ sidebar_position = 0
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['reference']
 doc-topic = ['epinio', 'reference', 'epinio-cli', 'epinio-service-delete']
+links = ['./epinio_service.md']
 
 === Node ===
 Predecessor = ['service/']
@@ -1774,6 +1884,7 @@ sidebar_position = 0
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['reference']
 doc-topic = ['epinio', 'reference', 'epinio-cli', 'epinio-service-list']
+links = ['./epinio_service.md']
 
 === Node ===
 Predecessor = ['service/']
@@ -1790,6 +1901,7 @@ sidebar_position = 0
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['reference']
 doc-topic = ['epinio', 'reference', 'epinio-cli', 'epinio-service-port-forward']
+links = ['./epinio_service.md']
 
 === Node ===
 Predecessor = ['service/']
@@ -1806,6 +1918,7 @@ sidebar_position = 0
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['reference']
 doc-topic = ['epinio', 'reference', 'epinio-cli', 'epinio-service-show']
+links = ['./epinio_service.md']
 
 === Node ===
 Predecessor = ['service/']
@@ -1822,6 +1935,7 @@ sidebar_position = 0
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['reference']
 doc-topic = ['epinio', 'reference', 'epinio-cli', 'epinio-service-unbind']
+links = ['./epinio_service.md']
 
 === Node ===
 Predecessor = ['service/']
@@ -1838,6 +1952,7 @@ sidebar_position = 0
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['reference']
 doc-topic = ['epinio', 'reference', 'epinio-cli', 'epinio-service-update']
+links = ['./epinio_service.md']
 
 === Node ===
 Predecessor = ['cli/']
@@ -1854,6 +1969,7 @@ sidebar_position = None
 doc-persona = None
 doc-type = None
 doc-topic = None
+links = None
 
 === Node ===
 Predecessor = ['settings/']
@@ -1870,6 +1986,7 @@ sidebar_position = 0
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['reference']
 doc-topic = ['epinio', 'reference', 'epinio-cli', 'epinio-settings']
+links = ['./epinio_settings_colors.md', './epinio_settings_show.md', '../epinio.md', './epinio_settings_update-ca.md']
 
 === Node ===
 Predecessor = ['settings/']
@@ -1886,6 +2003,7 @@ sidebar_position = 0
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['reference']
 doc-topic = ['epinio', 'reference', 'epinio-cli', 'epinio-settings-colors']
+links = ['./epinio_settings.md']
 
 === Node ===
 Predecessor = ['settings/']
@@ -1902,6 +2020,7 @@ sidebar_position = 0
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['reference']
 doc-topic = ['epinio', 'reference', 'epinio-cli', 'epinio-settings-show']
+links = ['./epinio_settings.md']
 
 === Node ===
 Predecessor = ['settings/']
@@ -1918,6 +2037,7 @@ sidebar_position = 0
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['reference']
 doc-topic = ['epinio', 'reference', 'epinio-cli', 'epinio-settings-update-ca']
+links = ['./epinio_settings.md']
 
 === Node ===
 Predecessor = ['cli/']
@@ -1934,6 +2054,7 @@ sidebar_position = 0
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['reference']
 doc-topic = ['epinio', 'reference', 'epinio-cli', 'epinio-cli']
+links = ['./epinio_login.md', './gitconfig/epinio_gitconfig.md', './epinio_target.md', './epinio_server.md', './app/epinio_app.md', './namespace/epinio_namespace.md', './settings/epinio_settings.md', './epinio_version.md', './epinio_client-sync.md', './configuration/epinio_configuration.md', './epinio_info.md', './epinio_export-registries.md', './epinio_logout.md', './epinio_push.md', './service/epinio_service.md', './epinio_completion.md']
 
 === Node ===
 Predecessor = ['cli/']
@@ -1950,6 +2071,7 @@ sidebar_position = 0
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['reference']
 doc-topic = ['epinio', 'reference', 'epinio-cli', 'epinio-client-sync']
+links = ['./epinio.md']
 
 === Node ===
 Predecessor = ['cli/']
@@ -1966,6 +2088,7 @@ sidebar_position = 0
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['reference']
 doc-topic = ['epinio', 'reference', 'epinio-cli', 'epinio-completion']
+links = ['./epinio.md']
 
 === Node ===
 Predecessor = ['cli/']
@@ -1982,6 +2105,7 @@ sidebar_position = 0
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['reference']
 doc-topic = ['epinio', 'reference', 'epinio-cli', 'epinio-export-registries']
+links = ['./epinio.md']
 
 === Node ===
 Predecessor = ['cli/']
@@ -1998,6 +2122,7 @@ sidebar_position = 0
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['reference']
 doc-topic = ['epinio', 'reference', 'epinio-cli', 'epinio-login']
+links = ['./epinio.md']
 
 === Node ===
 Predecessor = ['cli/']
@@ -2014,6 +2139,7 @@ sidebar_position = 0
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['reference']
 doc-topic = ['epinio', 'reference', 'epinio-cli', 'epinio-logout']
+links = ['./epinio.md']
 
 === Node ===
 Predecessor = ['cli/']
@@ -2030,6 +2156,7 @@ sidebar_position = 0
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['reference']
 doc-topic = ['epinio', 'reference', 'epinio-cli', 'epinio-push']
+links = ['./epinio.md']
 
 === Node ===
 Predecessor = ['cli/']
@@ -2046,6 +2173,7 @@ sidebar_position = 0
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['reference']
 doc-topic = ['epinio', 'reference', 'epinio-cli', 'epinio-server']
+links = ['./epinio.md']
 
 === Node ===
 Predecessor = ['cli/']
@@ -2062,6 +2190,7 @@ sidebar_position = 0
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['reference']
 doc-topic = ['epinio', 'reference', 'epinio-cli', 'epinio-target']
+links = ['./epinio.md']
 
 === Node ===
 Predecessor = ['cli/']
@@ -2078,6 +2207,7 @@ sidebar_position = 0
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['reference']
 doc-topic = ['epinio', 'reference', 'epinio-cli', 'epinio-version']
+links = ['./epinio.md']
 
 === Node ===
 Predecessor = ['cli/']
@@ -2094,6 +2224,7 @@ sidebar_position = 0
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['reference']
 doc-topic = ['epinio', 'reference', 'epinio-cli', 'epinio-info']
+links = ['./epinio.md']
 
 === Node ===
 Predecessor = ['references/']
@@ -2110,6 +2241,7 @@ sidebar_position = 0
 doc-persona = None
 doc-type = None
 doc-topic = None
+links = ['./commands/cli/configuration/epinio_configuration_unbind.md', './commands/cli/configuration/epinio_configuration.md', './commands/cli/configuration/epinio_configuration_bind.md']
 
 === Node ===
 Predecessor = ['customization/']
@@ -2126,6 +2258,7 @@ sidebar_position = 0
 doc-persona = None
 doc-type = None
 doc-topic = None
+links = ['#configuration', 'https://github.com/epinio/helm-charts/tree/main/chart/application', 'routing_secrets.md', '../../howtos/customization/create_custom_appcharts.md', '../../howtos/other/using_custom_appcharts.md', 'lb.md', '#pods']
 
 === Node ===
 Predecessor = ['customization/']
@@ -2142,6 +2275,7 @@ sidebar_position = 0
 doc-persona = None
 doc-type = None
 doc-topic = None
+links = ['../../howtos/customization/create_custom_service.md']
 
 === Node ===
 Predecessor = ['customization/']
@@ -2158,6 +2292,7 @@ sidebar_position = 0
 doc-persona = None
 doc-type = None
 doc-topic = None
+links = ['../../howtos/customization/export_to_oci_registries.md', '../../howtos/customization/setup_export_registry.md']
 
 === Node ===
 Predecessor = ['customization/']
@@ -2174,6 +2309,7 @@ sidebar_position = 0
 doc-persona = None
 doc-type = None
 doc-topic = None
+links = ['https://docs.docker.com/registry/']
 
 === Node ===
 Predecessor = ['customization/']
@@ -2190,6 +2326,7 @@ sidebar_position = 0
 doc-persona = None
 doc-type = None
 doc-topic = None
+links = ['appcharts.md']
 
 === Node ===
 Predecessor = ['customization/']
@@ -2206,6 +2343,7 @@ sidebar_position = 0
 doc-persona = None
 doc-type = None
 doc-topic = None
+links = ['appcharts.md']
 
 === Node ===
 Predecessor = ['customization/']
@@ -2222,6 +2360,7 @@ sidebar_position = 0
 doc-persona = None
 doc-type = None
 doc-topic = None
+links = ['https://min.io/']
 
 === Node ===
 Predecessor = ['customization/']
@@ -2238,6 +2377,7 @@ sidebar_position = 0
 doc-persona = None
 doc-type = None
 doc-topic = None
+links = ['../commands/cli/epinio_push.md', 'staging-scripts.md', '../supported_applications.md', 'https://github.com/paketo-buildpacks/builder-jammy-full', 'https://buildpacks.io/']
 
 === Node ===
 Predecessor = ['customization/']
@@ -2254,6 +2394,7 @@ sidebar_position = 0
 doc-persona = None
 doc-type = None
 doc-topic = None
+links = ['https://buildpacks.io/', 'https://github.com/paketo-buildpacks/builder-jammy-full', 'staging.md']
 
 === Node ===
 Predecessor = ['references/']
@@ -2270,6 +2411,7 @@ sidebar_position = 0
 doc-persona = None
 doc-type = None
 doc-topic = None
+links = ['commands/cli/gitconfig/epinio_gitconfig.md', '../howtos/customization/create_git_configuration.md']
 
 === Node ===
 Predecessor = ['references/']
@@ -2286,6 +2428,7 @@ sidebar_position = 0
 doc-persona = None
 doc-type = None
 doc-topic = None
+links = []
 
 === Node ===
 Predecessor = ['references/']
@@ -2302,6 +2445,7 @@ sidebar_position = 0
 doc-persona = None
 doc-type = None
 doc-topic = None
+links = ['commands/cli/namespace/epinio_namespace.md', 'docs/tutorials/namespace-tutorial.md', 'commands/cli/epinio_target.md']
 
 === Node ===
 Predecessor = ['references/']
@@ -2318,6 +2462,7 @@ sidebar_position = 0
 doc-persona = None
 doc-type = None
 doc-topic = None
+links = ['./configurations.md', 'https://kubernetes.io/docs/concepts/services-networking/dns-pod-service/', 'commands/cli/service/epinio_service.md', 'https://github.com/Azure/azure-service-operator', '../howtos/customization/create_custom_service.md', 'https://crossplane.io/']
 
 === Node ===
 Predecessor = ['references/']
@@ -2334,6 +2479,7 @@ sidebar_position = 0
 doc-persona = None
 doc-type = None
 doc-topic = None
+links = ['#contents', '#commands', '#location']
 
 === Node ===
 Predecessor = ['references/']
@@ -2350,6 +2496,7 @@ sidebar_position = 0
 doc-persona = None
 doc-type = None
 doc-topic = None
+links = ['https://github.com/paketo-buildpacks/go', 'https://github.com/paketo-buildpacks/procfile', 'https://github.com/paketo-buildpacks/php-web#configuring-custom-ini-files', '../explanations/detailed-push-process.md', 'https://devcenter.heroku.com/articles/procfile', 'https://buildpacks.io/', 'https://github.com/paketo-buildpacks/full-builder', 'https://paketo.io/']
 
 === Node ===
 Predecessor = ['references/']
@@ -2366,6 +2513,7 @@ sidebar_position = None
 doc-persona = None
 doc-type = None
 doc-topic = None
+links = None
 
 === Node ===
 Predecessor = ['system_requirements/']
@@ -2382,6 +2530,7 @@ sidebar_position = 0
 doc-persona = ['epinio-developer', 'epinio-operator']
 doc-type = ['reference']
 doc-topic = ['epinio/reference/sys-req']
+links = ['../../installation/other_inst_scenarios/install_epinio_on_rancher_desktop.md', '../../installation/other_inst_scenarios/install_epinio_on_rke.md', 'https://doc.traefik.io/traefik/getting-started/install-traefik/#use-the-helm-chart', 'https://longhorn.io', '../../installation/other_inst_scenarios/install_epinio_on_k3d.md', '../../installation/other_inst_scenarios/install_epinio_on_k3s.md', 'https://github.com/kubernetes-sigs/metrics-server#installation', 'https://github.com/rancher/local-path-provisioner', '../../howtos/customization/provision_external_ip_for_local_kubernetes', 'https://kubernetes.io/docs/concepts/configuration/organize-cluster-access-kubeconfig/#the-kubeconfig-environment-variable', 'https://helm.sh/docs/intro/install/', 'https://cert-manager.io/docs/installation/helm/', 'https://kubernetes.io/docs/tasks/tools/#kubectl', 'https://docs.nginx.com/nginx-ingress-controller/installation/installation-with-helm/']
 
 === Node ===
 Predecessor = ['system_requirements/']
@@ -2398,6 +2547,7 @@ sidebar_position = 0
 doc-persona = ['default']
 doc-type = ['one of how-to', 'explanation', 'tutorial', 'reference']
 doc-topic = ['root-branch']
+links = ['https://gitforwindows.org/', 'https://github.com/epinio/epinio/releases', 'https://github.com/helm/helm/releases', 'https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/']
 
 === Node ===
 Predecessor = ['references/']
@@ -2414,6 +2564,7 @@ sidebar_position = 0
 doc-persona = None
 doc-type = None
 doc-topic = None
+links = ['https://dexidp.io/']
 
 === Node ===
 Predecessor = ['references/']
@@ -2430,6 +2581,7 @@ sidebar_position = 0
 doc-persona = None
 doc-type = None
 doc-topic = None
+links = ['https://github.com/epinio/helm-charts/blob/main/chart/epinio/values.yaml']
 
 === Node ===
 Predecessor = ['references/']
@@ -2446,6 +2598,7 @@ sidebar_position = 0
 doc-persona = None
 doc-type = None
 doc-topic = None
+links = ['https://cert-manager.io/', 'https://cert-manager.io/docs/installation/supported-releases/', 'customization/routing_secrets.md', 'https://letsencrypt.org/']
 
 === Node ===
 Predecessor = ['root']
@@ -2462,6 +2615,7 @@ sidebar_position = None
 doc-persona = None
 doc-type = None
 doc-topic = None
+links = None
 
 === Node ===
 Predecessor = ['tutorials/']
@@ -2478,6 +2632,7 @@ sidebar_position = 2
 doc-persona = None
 doc-type = None
 doc-topic = None
+links = ['docs/installation/install_epinio.md', 'references/commands/cli/namespace/epinio_namespace_delete.md', 'references/commands/cli/epinio_target.md', 'references/commands/cli/namespace/epinio_namespace_create.md', 'references/commands/cli/namespace/epinio_namespace_list.md', 'references/commands/cli/namespace/epinio_namespace_show.md']
 
 === Node ===
 Predecessor = ['tutorials/']
@@ -2494,6 +2649,7 @@ sidebar_position = 1
 doc-persona = None
 doc-type = None
 doc-topic = None
+links = ['../references/commands/cli/epinio_login.md', '../references/supported_applications.md', '../references/manifests.md', '../installation/other_inst_scenarios/install_epinio_on_rke.md', '../explanations/advanced.md#git-pushing', '../references/system_requirements/global.md', '../installation/install_epinio.md', '../explanations/detailed-push-process.md', 'https://github.com/epinio/epinio/tree/main/assets/sample-app']
 
 === Node ===
 Predecessor = ['tutorials/']
@@ -2510,6 +2666,7 @@ sidebar_position = 4
 doc-persona = None
 doc-type = None
 doc-topic = None
+links = ['https://buildpacks.io/docs/concepts/components/stack/', 'https://buildpacks.io/docs/concepts/components/buildpack/', 'https://github.com/epinio/bionic-full-stack', 'https://github.com/go-gitea/gitea', 'https://github.com/epinio/bionic-full-stack/commit/408e949558a437c99858ac7bb99a8b78e78935e8', 'https://github.com/paketo-buildpacks/node-engine', 'https://github.com/epinio/example-builder-gitea', 'https://github.com/paketo-buildpacks/node-engine/blob/main/buildpack.toml#L29', 'https://github.com/paketo-buildpacks/go/issues/671', 'https://buildpacks.io/docs/concepts/components/builder/', 'https://buildpacks.io/docs/tools/pack/', 'https://github.com/paketo-buildpacks/go-dist', 'https://github.com/paketo-buildpacks/bionic-full-stack']
 
 === Node ===
 Predecessor = ['tutorials/']
@@ -2526,6 +2683,7 @@ sidebar_position = 3
 doc-persona = None
 doc-type = None
 doc-topic = None
+links = ['../installation/other_inst_scenarios/install_epinio_on_rancher_desktop.md', '../references/commands/cli/epinio_login.md', 'https://epinio.127.0.0.1.sslip.io', '../explanations/detailed-push-process.md#7-stage', 'https://rancherdesktop.io/', 'https://github.com/epinio/epinio/releases/latest', 'https://k3d.io/', '#installation', 'https://github.com/rancher-sandbox/rancher-desktop/releases', '../howtos/other/port_forwarding.md', 'https://helm.sh/docs/intro/install/', '#cli', '../installation/install_epinio.md', './quickstart.md', 'https://paketo.io/', '#login', 'https://kubernetes.io/docs/tasks/tools/#kubectl']
 
 === Node ===
 Predecessor = ['root']
@@ -2542,6 +2700,7 @@ sidebar_position = 0
 doc-persona = None
 doc-type = None
 doc-topic = None
+links = ['https://github.com/epinio/epinio/releases/tag/v0.7.1', '/next', '/', 'https://github.com/epinio/epinio/releases/tag/v1.1.0', 'https://github.com/epinio/epinio/releases/tag/v0.9.0', 'https://github.com/epinio/epinio/releases/tag/v0.8.0', '/1.0.0', '/0.8.0', '/0.9.0', '/0.7.1', '/0.6.2', 'https://github.com/epinio/epinio/releases/tag/v1.0.0', 'https://github.com/epinio/epinio/releases/tag/v0.6.2']
 
 === Node ===
 Predecessor = ['root']
@@ -2558,4 +2717,5 @@ sidebar_position = 1
 doc-persona = None
 doc-type = None
 doc-topic = None
+links = ['./tutorials/quickstart.md', 'https://kubernetes.io/', 'https://suse.com', 'https://buildpacks.io/', 'https://paketo.io/', 'https://en.wikipedia.org/wiki/Platform_as_a_service']
 
