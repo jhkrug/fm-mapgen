@@ -40,7 +40,7 @@ files with no front matter, etc.
 To help with getting your front matter into a good state.
 
 All early days.
-I'm wondering how valid an approach to anything this is seen to be in t statusthe technical writing community I have so recently joined.
+I'm wondering how valid an approach this in the technical writing community I have so recently joined.
 
 An underlying assumption is that a directory structure is a reasonable
 top-level organizing mechanism for a knowledge tree/map.
@@ -80,4 +80,3 @@ There are results included from example runs using
 [Epinio](https://github.com/epinio/docs) docs repositories.
 
 Check the outputs in the `outputs` directory.
-
