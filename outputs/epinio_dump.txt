@@ -7,17 +7,6 @@ Depth = 0
 === Node data ===
 path = None
 full_path = /home/jhk/projects/suse/epinio-docs/docs/
-title = None
-description = None
-keywords = None
-doc_persona = None
-doc_type = None
-doc_topic = None
-slug = None
-sidebar_label = None
-sidebar_position = None
-int_links = None
-ext_links = None
 
 === Node ===
 Predecessor = ['root']
@@ -26,17 +15,6 @@ Depth = 1
 === Node data ===
 path = explanations/
 full_path = /home/jhk/projects/suse/epinio-docs/docs/explanations/
-title = None
-description = None
-keywords = None
-doc_persona = None
-doc_type = None
-doc_topic = None
-slug = None
-sidebar_label = None
-sidebar_position = None
-int_links = None
-ext_links = None
 
 === Node ===
 Predecessor = ['explanations/']
@@ -53,9 +31,9 @@ doc_type = None
 doc_topic = None
 slug = None
 sidebar_label = Advanced topics
-sidebar_position = 0
-int_links = ['../howtos/customization/setup_external_registry.md', '../tutorials/quickstart.md#push-an-application', 'detailed-push-process.md', '../installation/install_epinio.md#ingress-controller', '../howtos/customization/setup_external_s3.md', '#container-registry', '../references/commands/cli/epinio_push.md', '../howtos/other/certificate_issuers.md']
-ext_links = ['https://github.com/aquarist-labs/s3gw', 'https://doc.traefik.io/traefik/providers/kubernetes-ingress/', 'https://cert-manager.io/docs/', 'https://kubernetes.io/docs/concepts/services-networking/ingress/', 'https://github.com/kubeops/kubed', 'https://github.com/minio/minio', 'https://artifacthub.io/packages/helm/epinio/epinio', 'https://aws.amazon.com/s3/']
+sidebar_position = None
+int_links = ['detailed-push-process.md', '../howtos/customization/setup_external_registry.md', '../references/commands/cli/epinio_push.md', '../howtos/other/certificate_issuers.md', '#container-registry', '../tutorials/quickstart.md#push-an-application', '../installation/install_epinio.md#ingress-controller', '../howtos/customization/setup_external_s3.md']
+ext_links = ['https://aws.amazon.com/s3/', 'https://artifacthub.io/packages/helm/epinio/epinio', 'https://cert-manager.io/docs/', 'https://kubernetes.io/docs/concepts/services-networking/ingress/', 'https://github.com/minio/minio', 'https://github.com/kubeops/kubed', 'https://github.com/aquarist-labs/s3gw', 'https://doc.traefik.io/traefik/providers/kubernetes-ingress/']
 
 === Node ===
 Predecessor = ['explanations/']
@@ -72,9 +50,9 @@ doc_type = None
 doc_topic = None
 slug = None
 sidebar_label = Epinio push process
-sidebar_position = 0
-int_links = ['../explanations/advanced.md#container-registry', 'principles.md#guidelines-soft-principles', '../howtos/customization/setup_external_s3.md', './advanced.md#ingress-controller']
-ext_links = ['https://kubernetes.io/docs/concepts/services-networking/service/', 'https://kubernetes.io/docs/concepts/workloads/controllers/job/', 'https://kubernetes.io/docs/concepts/workloads/controllers/deployment/', 'https://github.com/epinio/helm-charts/tree/main/chart/application', 'https://paketo.io/', 'https://min.io/', 'https://s3gw.io/', 'https://kubernetes.io/docs/concepts/services-networking/ingress/', 'https://doc.traefik.io/traefik/providers/kubernetes-ingress/']
+sidebar_position = None
+int_links = ['./advanced.md#ingress-controller', '../explanations/advanced.md#container-registry', 'principles.md#guidelines-soft-principles', '../howtos/customization/setup_external_s3.md']
+ext_links = ['https://kubernetes.io/docs/concepts/workloads/controllers/deployment/', 'https://kubernetes.io/docs/concepts/workloads/controllers/job/', 'https://paketo.io/', 'https://kubernetes.io/docs/concepts/services-networking/ingress/', 'https://kubernetes.io/docs/concepts/services-networking/service/', 'https://s3gw.io/', 'https://github.com/epinio/helm-charts/tree/main/chart/application', 'https://min.io/', 'https://doc.traefik.io/traefik/providers/kubernetes-ingress/']
 
 === Node ===
 Predecessor = ['explanations/']
@@ -91,7 +69,7 @@ doc_type = None
 doc_topic = None
 slug = None
 sidebar_label = Principles
-sidebar_position = 0
+sidebar_position = None
 int_links = []
 ext_links = []
 
@@ -110,9 +88,9 @@ doc_type = None
 doc_topic = None
 slug = None
 sidebar_label = Security
-sidebar_position = 0
-int_links = ['../explanations/advanced.md#container-registry', '../howtos/other/certificate_issuers.md']
-ext_links = ['https://dexidp.io/', 'https://docs.epinio.io/installation/install_epinio_cli#verify-file-checksum-signature', 'https://letsencrypt.org/']
+sidebar_position = None
+int_links = ['../howtos/other/certificate_issuers.md', '../explanations/advanced.md#container-registry']
+ext_links = ['https://letsencrypt.org/', 'https://dexidp.io/', 'https://docs.epinio.io/installation/install_epinio_cli#verify-file-checksum-signature']
 
 === Node ===
 Predecessor = ['root']
@@ -121,17 +99,6 @@ Depth = 1
 === Node data ===
 path = howtos/
 full_path = /home/jhk/projects/suse/epinio-docs/docs/howtos/
-title = None
-description = None
-keywords = None
-doc_persona = None
-doc_type = None
-doc_topic = None
-slug = None
-sidebar_label = None
-sidebar_position = None
-int_links = None
-ext_links = None
 
 === Node ===
 Predecessor = ['howtos/']
@@ -140,17 +107,6 @@ Depth = 2
 === Node data ===
 path = customization/
 full_path = /home/jhk/projects/suse/epinio-docs/docs/customization/
-title = None
-description = None
-keywords = None
-doc_persona = None
-doc_type = None
-doc_topic = None
-slug = None
-sidebar_label = None
-sidebar_position = None
-int_links = None
-ext_links = None
 
 === Node ===
 Predecessor = ['customization/']
@@ -169,7 +125,7 @@ slug = None
 sidebar_label = Custom application Helm charts
 sidebar_position = 15
 int_links = ['../../references/customization/appcharts.md#configuration', '../other/using_custom_appcharts.md']
-ext_links = ['https://github.com/epinio/helm-charts/tree/main/chart/application', 'https://helm.sh/', 'https://github.com/epinio/helm-charts.git', 'https://www.fluentd.org/']
+ext_links = ['https://www.fluentd.org/', 'https://github.com/epinio/helm-charts/tree/main/chart/application', 'https://github.com/epinio/helm-charts.git', 'https://helm.sh/']
 
 === Node ===
 Predecessor = ['customization/']
@@ -206,7 +162,7 @@ doc_topic = ['epinio', 'how-to', 'customize', 'create-git-config']
 slug = None
 sidebar_label = Creating a Git configuration
 sidebar_position = 13
-int_links = ['../../references/git_configuration.md', '../../references/commands/cli/gitconfig/epinio_gitconfig_create.md']
+int_links = ['../../references/commands/cli/gitconfig/epinio_gitconfig_create.md', '../../references/git_configuration.md']
 ext_links = []
 
 === Node ===
@@ -226,7 +182,7 @@ slug = None
 sidebar_label = Custom builders
 sidebar_position = 14
 int_links = ['../../tutorials/custom_builder_go.md']
-ext_links = ['https://paketo.io/docs/howto/create-paketo-buildpack/', 'https://github.com/buildpacks/lifecycle', 'https://github.com/paketo-buildpacks/rfcs/blob/main/text/0026-environment-variable-configuration-of-buildpacks.md', 'https://buildpacks.io/docs/tools/pack/', 'https://github.com/buildpacks/spec/blob/main/extensions/project-descriptor.md#projectlicenses', 'https://github.com/epinio/helm-charts/blob/3954c214de3d7b957cfc2054ba4fa4bfa140f5a3/chart/epinio/templates/stage-scripts.yaml#L83', 'https://buildpacks.io/docs/buildpack-author-guide/create-buildpack/', 'https://github.com/paketo-buildpacks/rfcs/blob/main/text/0003-replace-buildpack-yml.md']
+ext_links = ['https://github.com/buildpacks/lifecycle', 'https://github.com/epinio/helm-charts/blob/3954c214de3d7b957cfc2054ba4fa4bfa140f5a3/chart/epinio/templates/stage-scripts.yaml#L83', 'https://github.com/paketo-buildpacks/rfcs/blob/main/text/0026-environment-variable-configuration-of-buildpacks.md', 'https://paketo.io/docs/howto/create-paketo-buildpack/', 'https://github.com/buildpacks/spec/blob/main/extensions/project-descriptor.md#projectlicenses', 'https://github.com/paketo-buildpacks/rfcs/blob/main/text/0003-replace-buildpack-yml.md', 'https://buildpacks.io/docs/buildpack-author-guide/create-buildpack/', 'https://buildpacks.io/docs/tools/pack/']
 
 === Node ===
 Predecessor = ['customization/']
@@ -321,7 +277,7 @@ slug = None
 sidebar_label = An External IP address for local Kubernetes
 sidebar_position = 5
 int_links = []
-ext_links = ['https://github.com/digitalocean/digitalocean-cloud-controller-manager', 'https://stedolan.github.io/jq/download/']
+ext_links = ['https://stedolan.github.io/jq/download/', 'https://github.com/digitalocean/digitalocean-cloud-controller-manager']
 
 === Node ===
 Predecessor = ['customization/']
@@ -406,17 +362,6 @@ Depth = 2
 === Node data ===
 path = operations/
 full_path = /home/jhk/projects/suse/epinio-docs/docs/operations/
-title = None
-description = None
-keywords = None
-doc_persona = None
-doc_type = None
-doc_topic = None
-slug = None
-sidebar_label = None
-sidebar_position = None
-int_links = None
-ext_links = None
 
 === Node ===
 Predecessor = ['operations/']
@@ -463,17 +408,6 @@ Depth = 2
 === Node data ===
 path = other/
 full_path = /home/jhk/projects/suse/epinio-docs/docs/other/
-title = None
-description = None
-keywords = None
-doc_persona = None
-doc_type = None
-doc_topic = None
-slug = None
-sidebar_label = None
-sidebar_position = None
-int_links = None
-ext_links = None
 
 === Node ===
 Predecessor = ['other/']
@@ -492,7 +426,7 @@ slug = None
 sidebar_label = Certificate issuers
 sidebar_position = 2
 int_links = ['../../installation/install_epinio.md#install-epinio']
-ext_links = ['https://cert-manager.io/docs/configuration/', 'https://cert-manager.io/docs/configuration/ca/', 'https://letsencrypt.org/', 'https://cert-manager.io/docs/configuration/acme/dns01/']
+ext_links = ['https://cert-manager.io/docs/configuration/acme/dns01/', 'https://letsencrypt.org/', 'https://cert-manager.io/docs/configuration/ca/', 'https://cert-manager.io/docs/configuration/']
 
 === Node ===
 Predecessor = ['other/']
@@ -586,7 +520,7 @@ doc_topic = ['epinio', 'how-to', 'other', 'custom-app-chart']
 slug = None
 sidebar_label = Custom application Helm charts
 sidebar_position = 16
-int_links = ['../../references/commands/cli/app/epinio_app_update.md', '../../references/commands/cli/app/epinio_app_create.md', '../customization/create_custom_appcharts.md', '../../references/commands/cli/epinio_push.md']
+int_links = ['../../references/commands/cli/app/epinio_app_create.md', '../../references/commands/cli/epinio_push.md', '../../references/commands/cli/app/epinio_app_update.md', '../customization/create_custom_appcharts.md']
 ext_links = ['https://helm.sh/']
 
 === Node ===
@@ -596,17 +530,6 @@ Depth = 2
 === Node data ===
 path = use-develop/
 full_path = /home/jhk/projects/suse/epinio-docs/docs/use-develop/
-title = None
-description = None
-keywords = None
-doc_persona = None
-doc_type = None
-doc_topic = None
-slug = None
-sidebar_label = None
-sidebar_position = None
-int_links = None
-ext_links = None
 
 === Node ===
 Predecessor = ['use-develop/']
@@ -720,7 +643,7 @@ slug = None
 sidebar_label = Contributing to Epinio
 sidebar_position = 1
 int_links = []
-ext_links = ['https://github.com/epinio/epinio/issues/new', 'https://go.dev/doc/effective_go', 'https://github.com/kubernetes/community/blob/master/contributors/design-proposals/release/versioning.md#kubernetes-release-versioning', 'https://semver.org/', 'https://github.com/golang/go/wiki/CodeReviewComments', 'https://developercertificate.org/', 'https://google.github.io/styleguide/go/guide', 'https://github.com/epinio/epinio/issues']
+ext_links = ['https://github.com/kubernetes/community/blob/master/contributors/design-proposals/release/versioning.md#kubernetes-release-versioning', 'https://semver.org/', 'https://github.com/golang/go/wiki/CodeReviewComments', 'https://github.com/epinio/epinio/issues', 'https://google.github.io/styleguide/go/guide', 'https://developercertificate.org/', 'https://go.dev/doc/effective_go', 'https://github.com/epinio/epinio/issues/new']
 
 === Node ===
 Predecessor = ['root']
@@ -729,17 +652,6 @@ Depth = 1
 === Node data ===
 path = installation/
 full_path = /home/jhk/projects/suse/epinio-docs/docs/installation/
-title = None
-description = None
-keywords = None
-doc_persona = None
-doc_type = None
-doc_topic = None
-slug = None
-sidebar_label = None
-sidebar_position = None
-int_links = None
-ext_links = None
 
 === Node ===
 Predecessor = ['installation/']
@@ -757,7 +669,7 @@ doc_topic = None
 slug = None
 sidebar_label = DNS setup
 sidebar_position = 3
-int_links = ['#find-ip-for-ic', 'wildcardDNS_setup.md', 'install_epinio.md', '#config-dns', '../howtos/other/certificate_issuers.md']
+int_links = ['../howtos/other/certificate_issuers.md', 'wildcardDNS_setup.md', '#config-dns', '#find-ip-for-ic', 'install_epinio.md']
 ext_links = ['https://aws.amazon.com/route53/']
 
 === Node ===
@@ -776,8 +688,8 @@ doc_topic = None
 slug = None
 sidebar_label = Install Epinio
 sidebar_position = 1
-int_links = ['other_inst_scenarios/install_epinio_on_k3s.md', 'other_inst_scenarios/install_epinio_on_rke.md', 'other_inst_scenarios/install_epinio_on_eks.md', '#container-registry', '#dex', './dns_setup.md', 'other_inst_scenarios/install_epinio_on_k3d.md', '../references/system_requirements/global.md', '#s3-storage', '../references/authentication_oidc.md', './wildcardDNS_setup.md', 'other_inst_scenarios/install_epinio_on_public_cloud.md', '#kubed', 'other_inst_scenarios/install_epinio_on_rancher_desktop.md', 'other_inst_scenarios/install_epinio_on_rancher.md']
-ext_links = ['https://github.com/kubernetes/ingress-nginx/blob/main/docs/user-guide/nginx-configuration/annotations.md#custom-max-body-size', 'https://doc.traefik.io/traefik/getting-started/install-traefik/#use-the-helm-chart', 'https://github.com/epinio/helm-charts/blob/b389a4875af9f03b484a911c49a14f834ba04b64/chart/epinio/values.yaml#L107-L111', 'https://cert-manager.io/', 'https://github.com/epinio/helm-charts/blob/b389a4875af9f03b484a911c49a14f834ba04b64/chart/epinio/values.yaml#L44', 'https://s3gw.io/', 'https://docs.epinio.io/references/commands/cli/settings/epinio_settings_update-ca#epinio-settings-update-ca', 'https://min.io/', 'https://dexidp.io']
+int_links = ['other_inst_scenarios/install_epinio_on_public_cloud.md', 'other_inst_scenarios/install_epinio_on_k3s.md', 'other_inst_scenarios/install_epinio_on_rancher_desktop.md', '#kubed', '../references/authentication_oidc.md', 'other_inst_scenarios/install_epinio_on_k3d.md', './wildcardDNS_setup.md', '#dex', 'other_inst_scenarios/install_epinio_on_eks.md', '#s3-storage', 'other_inst_scenarios/install_epinio_on_rke.md', 'other_inst_scenarios/install_epinio_on_rancher.md', './dns_setup.md', '#container-registry', '../references/system_requirements/global.md']
+ext_links = ['https://dexidp.io', 'https://min.io/', 'https://github.com/kubernetes/ingress-nginx/blob/main/docs/user-guide/nginx-configuration/annotations.md#custom-max-body-size', 'https://s3gw.io/', 'https://cert-manager.io/', 'https://github.com/epinio/helm-charts/blob/b389a4875af9f03b484a911c49a14f834ba04b64/chart/epinio/values.yaml#L44', 'https://docs.epinio.io/references/commands/cli/settings/epinio_settings_update-ca#epinio-settings-update-ca', 'https://doc.traefik.io/traefik/getting-started/install-traefik/#use-the-helm-chart', 'https://github.com/epinio/helm-charts/blob/b389a4875af9f03b484a911c49a14f834ba04b64/chart/epinio/values.yaml#L107-L111']
 
 === Node ===
 Predecessor = ['installation/']
@@ -786,17 +698,6 @@ Depth = 2
 === Node data ===
 path = other_inst_scenarios/
 full_path = /home/jhk/projects/suse/epinio-docs/docs/other_inst_scenarios/
-title = None
-description = None
-keywords = None
-doc_persona = None
-doc_type = None
-doc_topic = None
-slug = None
-sidebar_label = None
-sidebar_position = None
-int_links = None
-ext_links = None
 
 === Node ===
 Predecessor = ['other_inst_scenarios/']
@@ -815,7 +716,7 @@ slug = None
 sidebar_label = Installing Epinio on EKS
 sidebar_position = 23
 int_links = []
-ext_links = ['https://kubernetes.github.io/ingress-nginx/', 'https://helm.sh/docs/helm/helm_get/', 'https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html', 'https://github.com/cert-manager/cert-manager', 'https://docs.aws.amazon.com/eks/latest/userguide/eksctl.html', 'https://github.com/epinio/helm-charts/releases/tag/epinio-1.6.2', 'https://kubernetes.io/docs/tasks/tools/', 'https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html', 'https://raw.githubusercontent.com/epinio/epinio/main/scripts/eks-cri-allow-http-registries.yaml', 'https://docs.aws.amazon.com/eks/latest/userguide/ebs-csi.html']
+ext_links = ['https://helm.sh/docs/helm/helm_get/', 'https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html', 'https://raw.githubusercontent.com/epinio/epinio/main/scripts/eks-cri-allow-http-registries.yaml', 'https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html', 'https://docs.aws.amazon.com/eks/latest/userguide/eksctl.html', 'https://github.com/cert-manager/cert-manager', 'https://github.com/epinio/helm-charts/releases/tag/epinio-1.6.2', 'https://kubernetes.io/docs/tasks/tools/', 'https://docs.aws.amazon.com/eks/latest/userguide/ebs-csi.html', 'https://kubernetes.github.io/ingress-nginx/']
 
 === Node ===
 Predecessor = ['other_inst_scenarios/']
@@ -833,8 +734,8 @@ doc_topic = None
 slug = None
 sidebar_label = Installing Epinio on a local K3d
 sidebar_position = 21
-int_links = ['../../installation/install_epinio.md', '../../explanations/advanced.md#traefik', '../../explanations/advanced.md', '../../installation/wildcardDNS_setup.md']
-ext_links = ['https://k3d.io/', 'https://github.com/epinio/helm-charts/releases/tag/epinio-0.7.1']
+int_links = ['../../installation/wildcardDNS_setup.md', '../../explanations/advanced.md#traefik', '../../installation/install_epinio.md', '../../explanations/advanced.md']
+ext_links = ['https://github.com/epinio/helm-charts/releases/tag/epinio-0.7.1', 'https://k3d.io/']
 
 === Node ===
 Predecessor = ['other_inst_scenarios/']
@@ -852,7 +753,7 @@ doc_topic = None
 slug = None
 sidebar_label = Installing Epinio on a local K3s
 sidebar_position = 20
-int_links = ['../../installation/install_epinio.md', '../../installation/wildcardDNS_setup', '../../explanations/advanced.md#traefik', '../../explanations/advanced.md']
+int_links = ['../../explanations/advanced.md#traefik', '../../installation/install_epinio.md', '../../installation/wildcardDNS_setup', '../../explanations/advanced.md']
 ext_links = ['https://k3s.io/', 'https://github.com/epinio/helm-charts/releases/tag/epinio-0.7.1']
 
 === Node ===
@@ -871,8 +772,8 @@ doc_topic = None
 slug = None
 sidebar_label = Installing Epinio on public clouds
 sidebar_position = 22
-int_links = ['../../installation/install_epinio.md', '../../explanations/advanced.md#traefik', './install_epinio_on_eks.md', '../../explanations/advanced.md']
-ext_links = ['https://docs.aws.amazon.com/eks/latest/userguide/getting-started.html', 'https://github.com/epinio/epinio/issues/1373#issuecomment-1105231113', 'https://docs.microsoft.com/en-us/azure/aks/kubernetes-walkthrough', 'https://cloud.google.com/kubernetes-engine/docs/quickstart']
+int_links = ['../../explanations/advanced.md#traefik', '../../installation/install_epinio.md', './install_epinio_on_eks.md', '../../explanations/advanced.md']
+ext_links = ['https://cloud.google.com/kubernetes-engine/docs/quickstart', 'https://docs.aws.amazon.com/eks/latest/userguide/getting-started.html', 'https://docs.microsoft.com/en-us/azure/aks/kubernetes-walkthrough', 'https://github.com/epinio/epinio/issues/1373#issuecomment-1105231113']
 
 === Node ===
 Predecessor = ['other_inst_scenarios/']
@@ -891,7 +792,7 @@ slug = None
 sidebar_label = Installing Epinio on Rancher
 sidebar_position = 17
 int_links = ['../../installation/install_epinio.md#ingress-controller', '../../installation/dns_setup.md']
-ext_links = ['https://rancher.com/docs', 'https://ranchermanager.docs.rancher.com/pages-for-subheaders/kubernetes-clusters-in-rancher-setup', 'https://github.com/epinio/helm-charts/releases/tag/epinio-1.7.1']
+ext_links = ['https://github.com/epinio/helm-charts/releases/tag/epinio-1.7.1', 'https://rancher.com/docs', 'https://ranchermanager.docs.rancher.com/pages-for-subheaders/kubernetes-clusters-in-rancher-setup']
 
 === Node ===
 Predecessor = ['other_inst_scenarios/']
@@ -909,7 +810,7 @@ doc_topic = None
 slug = None
 sidebar_label = Installing Epinio on RKE2
 sidebar_position = 19
-int_links = ['../../installation/dns_setup.md', '../../installation/wildcardDNS_setup.md', '../../installation/install_epinio.md']
+int_links = ['../../installation/install_epinio.md', '../../installation/wildcardDNS_setup.md', '../../installation/dns_setup.md']
 ext_links = ['https://docs.rke2.io/install/quickstart/']
 
 === Node ===
@@ -928,8 +829,8 @@ doc_topic = None
 slug = None
 sidebar_label = Installing Epinio on Rancher Desktop (RD)
 sidebar_position = 1
-int_links = ['../../installation/install_epinio.md', '../../installation/install_epinio_cli.md']
-ext_links = ['https://github.com/rancher-sandbox/rancher-desktop/issues/576', 'https://github.com/epinio/helm-charts/releases/tag/epinio-1.0.0', 'https://docs.rancherdesktop.io/getting-started/installation/#traefik-port-binding-access', 'https://github.com/rancher-sandbox/rancher-desktop/releases']
+int_links = ['../../installation/install_epinio_cli.md', '../../installation/install_epinio.md']
+ext_links = ['https://github.com/rancher-sandbox/rancher-desktop/releases', 'https://docs.rancherdesktop.io/getting-started/installation/#traefik-port-binding-access', 'https://github.com/rancher-sandbox/rancher-desktop/issues/576', 'https://github.com/epinio/helm-charts/releases/tag/epinio-1.0.0']
 
 === Node ===
 Predecessor = ['installation/']
@@ -967,7 +868,7 @@ slug = None
 sidebar_label = Wildcard DNS setup
 sidebar_position = 4
 int_links = ['dns_setup.md#ingress-controller-ip-address', 'dns_setup.md']
-ext_links = ['https://k3d.io/', 'https://thekelleys.org.uk/dnsmasq/docs/dnsmasq-man.html', 'https://github.com/kubernetes-sigs/kind', 'https://docs.netgate.com/pfsense/en/latest/services/dns/rebinding.html']
+ext_links = ['https://docs.netgate.com/pfsense/en/latest/services/dns/rebinding.html', 'https://github.com/kubernetes-sigs/kind', 'https://thekelleys.org.uk/dnsmasq/docs/dnsmasq-man.html', 'https://k3d.io/']
 
 === Node ===
 Predecessor = ['installation/']
@@ -995,17 +896,6 @@ Depth = 1
 === Node data ===
 path = references/
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/
-title = None
-description = None
-keywords = None
-doc_persona = None
-doc_type = None
-doc_topic = None
-slug = None
-sidebar_label = None
-sidebar_position = None
-int_links = None
-ext_links = None
 
 === Node ===
 Predecessor = ['references/']
@@ -1014,7 +904,7 @@ Depth = 2
 === Node data ===
 path = references/api.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/api.md
-title = None
+title = 
 description = None
 keywords = None
 doc_persona = None
@@ -1022,7 +912,7 @@ doc_type = None
 doc_topic = None
 slug = None
 sidebar_label = API
-sidebar_position = 0
+sidebar_position = None
 int_links = []
 ext_links = ['https://www.openapis.org/']
 
@@ -1033,7 +923,7 @@ Depth = 2
 === Node data ===
 path = references/command_requirements.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/command_requirements.md
-title = None
+title = 
 description = None
 keywords = None
 doc_persona = None
@@ -1052,17 +942,6 @@ Depth = 2
 === Node data ===
 path = commands/
 full_path = /home/jhk/projects/suse/epinio-docs/docs/commands/
-title = None
-description = None
-keywords = None
-doc_persona = None
-doc_type = None
-doc_topic = None
-slug = None
-sidebar_label = None
-sidebar_position = None
-int_links = None
-ext_links = None
 
 === Node ===
 Predecessor = ['commands/']
@@ -1071,17 +950,6 @@ Depth = 3
 === Node data ===
 path = cli/
 full_path = /home/jhk/projects/suse/epinio-docs/docs/cli/
-title = None
-description = None
-keywords = None
-doc_persona = None
-doc_type = None
-doc_topic = None
-slug = None
-sidebar_label = None
-sidebar_position = None
-int_links = None
-ext_links = None
 
 === Node ===
 Predecessor = ['cli/']
@@ -1090,17 +958,6 @@ Depth = 4
 === Node data ===
 path = app/
 full_path = /home/jhk/projects/suse/epinio-docs/docs/app/
-title = None
-description = None
-keywords = None
-doc_persona = None
-doc_type = None
-doc_topic = None
-slug = None
-sidebar_label = None
-sidebar_position = None
-int_links = None
-ext_links = None
 
 === Node ===
 Predecessor = ['app/']
@@ -1109,17 +966,6 @@ Depth = 5
 === Node data ===
 path = chart/
 full_path = /home/jhk/projects/suse/epinio-docs/docs/chart/
-title = None
-description = None
-keywords = None
-doc_persona = None
-doc_type = None
-doc_topic = None
-slug = None
-sidebar_label = None
-sidebar_position = None
-int_links = None
-ext_links = None
 
 === Node ===
 Predecessor = ['chart/']
@@ -1128,7 +974,7 @@ Depth = 6
 === Node data ===
 path = references/commands/cli/app/chart/epinio_app_chart.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/app/chart/epinio_app_chart.md
-title = None
+title = 
 description = epinio app chart
 keywords = ['epinio', 'kubernetes', 'epinio app chart']
 doc_persona = ['epinio-developer', 'epinio-operator']
@@ -1136,8 +982,8 @@ doc_type = ['reference']
 doc_topic = ['epinio', 'reference', 'epinio-cli', 'epinio-app-chart']
 slug = None
 sidebar_label = epinio app chart
-sidebar_position = 0
-int_links = ['./epinio_app_chart_list.md', '../epinio_app.md', './epinio_app_chart_default.md', './epinio_app_chart_show.md']
+sidebar_position = None
+int_links = ['./epinio_app_chart_list.md', '../epinio_app.md', './epinio_app_chart_show.md', './epinio_app_chart_default.md']
 ext_links = []
 
 === Node ===
@@ -1147,7 +993,7 @@ Depth = 6
 === Node data ===
 path = references/commands/cli/app/chart/epinio_app_chart_default.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/app/chart/epinio_app_chart_default.md
-title = None
+title = 
 description = epinio app chart default
 keywords = ['epinio', 'kubernetes', 'epinio app chart default']
 doc_persona = ['epinio-developer', 'epinio-operator']
@@ -1155,7 +1001,7 @@ doc_type = ['reference']
 doc_topic = ['epinio', 'reference', 'epinio-cli', 'epinio-app-chart-default']
 slug = None
 sidebar_label = epinio app chart default
-sidebar_position = 0
+sidebar_position = None
 int_links = ['./epinio_app_chart.md']
 ext_links = []
 
@@ -1166,7 +1012,7 @@ Depth = 6
 === Node data ===
 path = references/commands/cli/app/chart/epinio_app_chart_list.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/app/chart/epinio_app_chart_list.md
-title = None
+title = 
 description = epinio app chart list
 keywords = ['epinio', 'kubernetes', 'epinio app chart list']
 doc_persona = ['epinio-developer', 'epinio-operator']
@@ -1174,7 +1020,7 @@ doc_type = ['reference']
 doc_topic = ['epinio', 'reference', 'epinio-cli', 'epinio-app-chart-list']
 slug = None
 sidebar_label = epinio app chart list
-sidebar_position = 0
+sidebar_position = None
 int_links = ['./epinio_app_chart.md']
 ext_links = []
 
@@ -1185,7 +1031,7 @@ Depth = 6
 === Node data ===
 path = references/commands/cli/app/chart/epinio_app_chart_show.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/app/chart/epinio_app_chart_show.md
-title = None
+title = 
 description = epinio app chart show
 keywords = ['epinio', 'kubernetes', 'epinio app chart show']
 doc_persona = ['epinio-developer', 'epinio-operator']
@@ -1193,7 +1039,7 @@ doc_type = ['reference']
 doc_topic = ['epinio', 'reference', 'epinio-cli', 'epinio-app-chart-show']
 slug = None
 sidebar_label = epinio app chart show
-sidebar_position = 0
+sidebar_position = None
 int_links = ['./epinio_app_chart.md']
 ext_links = []
 
@@ -1204,17 +1050,6 @@ Depth = 5
 === Node data ===
 path = env/
 full_path = /home/jhk/projects/suse/epinio-docs/docs/env/
-title = None
-description = None
-keywords = None
-doc_persona = None
-doc_type = None
-doc_topic = None
-slug = None
-sidebar_label = None
-sidebar_position = None
-int_links = None
-ext_links = None
 
 === Node ===
 Predecessor = ['env/']
@@ -1223,7 +1058,7 @@ Depth = 6
 === Node data ===
 path = references/commands/cli/app/env/epinio_app_env.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/app/env/epinio_app_env.md
-title = None
+title = 
 description = epinio app env
 keywords = ['epinio', 'kubernetes', 'epinio app env']
 doc_persona = ['epinio-developer', 'epinio-operator']
@@ -1231,8 +1066,8 @@ doc_type = ['reference']
 doc_topic = ['epinio', 'reference', 'epinio-cli', 'epinio-app-env']
 slug = None
 sidebar_label = epinio app env
-sidebar_position = 0
-int_links = ['./epinio_app_env_unset.md', './epinio_app_env_set.md', '../epinio_app.md', './epinio_app_env_list.md', './epinio_app_env_show.md']
+sidebar_position = None
+int_links = ['./epinio_app_env_list.md', '../epinio_app.md', './epinio_app_env_unset.md', './epinio_app_env_set.md', './epinio_app_env_show.md']
 ext_links = []
 
 === Node ===
@@ -1242,7 +1077,7 @@ Depth = 6
 === Node data ===
 path = references/commands/cli/app/env/epinio_app_env_list.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/app/env/epinio_app_env_list.md
-title = None
+title = 
 description = epinio app env list
 keywords = ['epinio', 'kubernetes', 'epinio app env list']
 doc_persona = ['epinio-developer', 'epinio-operator']
@@ -1250,7 +1085,7 @@ doc_type = ['reference']
 doc_topic = ['epinio', 'reference', 'epinio-cli', 'epinio-app-env-list']
 slug = None
 sidebar_label = epinio app env list
-sidebar_position = 0
+sidebar_position = None
 int_links = ['./epinio_app_env.md']
 ext_links = []
 
@@ -1261,7 +1096,7 @@ Depth = 6
 === Node data ===
 path = references/commands/cli/app/env/epinio_app_env_set.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/app/env/epinio_app_env_set.md
-title = None
+title = 
 description = epinio app env set
 keywords = ['epinio', 'kubernetes', 'epinio app env set']
 doc_persona = ['epinio-developer', 'epinio-operator']
@@ -1269,7 +1104,7 @@ doc_type = ['reference']
 doc_topic = ['epinio', 'reference', 'epinio-cli', 'epinio-app-env-set']
 slug = None
 sidebar_label = epinio app env set
-sidebar_position = 0
+sidebar_position = None
 int_links = ['./epinio_app_env.md']
 ext_links = []
 
@@ -1280,7 +1115,7 @@ Depth = 6
 === Node data ===
 path = references/commands/cli/app/env/epinio_app_env_show.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/app/env/epinio_app_env_show.md
-title = None
+title = 
 description = epinio app env show
 keywords = ['epinio', 'kubernetes', 'epinio app env show']
 doc_persona = ['epinio-developer', 'epinio-operator']
@@ -1288,7 +1123,7 @@ doc_type = ['reference']
 doc_topic = ['epinio', 'reference', 'epinio-cli', 'epinio-app-env-show']
 slug = None
 sidebar_label = epinio app env show
-sidebar_position = 0
+sidebar_position = None
 int_links = ['./epinio_app_env.md']
 ext_links = []
 
@@ -1299,7 +1134,7 @@ Depth = 6
 === Node data ===
 path = references/commands/cli/app/env/epinio_app_env_unset.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/app/env/epinio_app_env_unset.md
-title = None
+title = 
 description = epinio app env unset
 keywords = ['epinio', 'kubernetes', 'epinio app env unset']
 doc_persona = ['epinio-developer', 'epinio-operator']
@@ -1307,7 +1142,7 @@ doc_type = ['reference']
 doc_topic = ['epinio', 'reference', 'epinio-cli', 'epinio-app-env-unset']
 slug = None
 sidebar_label = epinio app env unset
-sidebar_position = 0
+sidebar_position = None
 int_links = ['./epinio_app_env.md']
 ext_links = []
 
@@ -1318,7 +1153,7 @@ Depth = 5
 === Node data ===
 path = references/commands/cli/app/epinio_app.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/app/epinio_app.md
-title = None
+title = 
 description = epinio app
 keywords = ['epinio', 'kubernetes', 'epinio app']
 doc_persona = ['epinio-developer', 'epinio-operator']
@@ -1326,8 +1161,8 @@ doc_type = ['reference']
 doc_topic = ['epinio', 'reference', 'epinio-cli', 'epinio-app']
 slug = None
 sidebar_label = epinio app
-sidebar_position = 0
-int_links = ['./epinio_app_logs.md', './chart/epinio_app_chart.md', './epinio_app_manifest.md', './epinio_app_create.md', './epinio_app_restart.md', '../epinio_push.md', './epinio_app_export.md', './epinio_app_delete.md', './epinio_app_update.md', './epinio_app_show.md', './epinio_app_list.md', './env/epinio_app_env.md', './epinio_app_restage.md', '../epinio.md', './epinio_app_port-forward.md', './epinio_app_exec.md']
+sidebar_position = None
+int_links = ['./epinio_app_list.md', './epinio_app_exec.md', './epinio_app_logs.md', './epinio_app_manifest.md', './epinio_app_port-forward.md', './epinio_app_create.md', './chart/epinio_app_chart.md', '../epinio_push.md', './env/epinio_app_env.md', './epinio_app_restart.md', './epinio_app_update.md', './epinio_app_restage.md', './epinio_app_export.md', './epinio_app_delete.md', './epinio_app_show.md', '../epinio.md']
 ext_links = []
 
 === Node ===
@@ -1337,7 +1172,7 @@ Depth = 5
 === Node data ===
 path = references/commands/cli/app/epinio_app_create.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/app/epinio_app_create.md
-title = None
+title = 
 description = epinio app create
 keywords = ['epinio', 'kubernetes', 'epinio app create']
 doc_persona = ['epinio-developer', 'epinio-operator']
@@ -1345,7 +1180,7 @@ doc_type = ['reference']
 doc_topic = ['epinio', 'reference', 'epinio-cli', 'epinio-app-create']
 slug = None
 sidebar_label = epinio app create
-sidebar_position = 0
+sidebar_position = None
 int_links = ['./epinio_app.md']
 ext_links = []
 
@@ -1356,7 +1191,7 @@ Depth = 5
 === Node data ===
 path = references/commands/cli/app/epinio_app_delete.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/app/epinio_app_delete.md
-title = None
+title = 
 description = epinio app delete
 keywords = ['epinio', 'kubernetes', 'epinio app delete']
 doc_persona = ['epinio-developer', 'epinio-operator']
@@ -1364,7 +1199,7 @@ doc_type = ['reference']
 doc_topic = ['epinio', 'reference', 'epinio-cli', 'epinio-app-delete']
 slug = None
 sidebar_label = epinio app delete
-sidebar_position = 0
+sidebar_position = None
 int_links = ['./epinio_app.md']
 ext_links = []
 
@@ -1375,7 +1210,7 @@ Depth = 5
 === Node data ===
 path = references/commands/cli/app/epinio_app_exec.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/app/epinio_app_exec.md
-title = None
+title = 
 description = epinio app exec
 keywords = ['epinio', 'kubernetes', 'epinio app exec']
 doc_persona = ['epinio-developer', 'epinio-operator']
@@ -1383,7 +1218,7 @@ doc_type = ['reference']
 doc_topic = ['epinio', 'reference', 'epinio-cli', 'epinio-app-exec']
 slug = None
 sidebar_label = epinio app exec
-sidebar_position = 0
+sidebar_position = None
 int_links = ['./epinio_app.md']
 ext_links = []
 
@@ -1394,7 +1229,7 @@ Depth = 5
 === Node data ===
 path = references/commands/cli/app/epinio_app_export.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/app/epinio_app_export.md
-title = None
+title = 
 description = epinio app export
 keywords = ['epinio', 'kubernetes', 'epinio app export']
 doc_persona = ['epinio-developer', 'epinio-operator']
@@ -1402,7 +1237,7 @@ doc_type = ['reference']
 doc_topic = ['epinio', 'reference', 'epinio-cli', 'epinio-app-export']
 slug = None
 sidebar_label = epinio app export
-sidebar_position = 0
+sidebar_position = None
 int_links = ['./epinio_app.md']
 ext_links = []
 
@@ -1413,7 +1248,7 @@ Depth = 5
 === Node data ===
 path = references/commands/cli/app/epinio_app_list.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/app/epinio_app_list.md
-title = None
+title = 
 description = epinio app list
 keywords = ['epinio', 'kubernetes', 'epinio app list']
 doc_persona = ['epinio-developer', 'epinio-operator']
@@ -1421,7 +1256,7 @@ doc_type = ['reference']
 doc_topic = ['epinio', 'reference', 'epinio-cli', 'epinio-app-list']
 slug = None
 sidebar_label = epinio app list
-sidebar_position = 0
+sidebar_position = None
 int_links = ['./epinio_app.md']
 ext_links = []
 
@@ -1432,7 +1267,7 @@ Depth = 5
 === Node data ===
 path = references/commands/cli/app/epinio_app_logs.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/app/epinio_app_logs.md
-title = None
+title = 
 description = epinio app logs
 keywords = ['epinio', 'kubernetes', 'epinio app logs']
 doc_persona = ['epinio-developer', 'epinio-operator']
@@ -1440,7 +1275,7 @@ doc_type = ['reference']
 doc_topic = ['epinio', 'reference', 'epinio-cli', 'epinio-app-logs']
 slug = None
 sidebar_label = epinio app logs
-sidebar_position = 0
+sidebar_position = None
 int_links = ['./epinio_app.md']
 ext_links = []
 
@@ -1451,7 +1286,7 @@ Depth = 5
 === Node data ===
 path = references/commands/cli/app/epinio_app_manifest.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/app/epinio_app_manifest.md
-title = None
+title = 
 description = epinio app manifest
 keywords = ['epinio', 'kubernetes', 'epinio app manifest']
 doc_persona = ['epinio-developer', 'epinio-operator']
@@ -1459,7 +1294,7 @@ doc_type = ['reference']
 doc_topic = ['epinio', 'reference', 'epinio-cli', 'epinio-app-manifest']
 slug = None
 sidebar_label = epinio app manifest
-sidebar_position = 0
+sidebar_position = None
 int_links = ['./epinio_app.md']
 ext_links = []
 
@@ -1470,7 +1305,7 @@ Depth = 5
 === Node data ===
 path = references/commands/cli/app/epinio_app_port-forward.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/app/epinio_app_port-forward.md
-title = None
+title = 
 description = epinio app port-forward
 keywords = ['epinio', 'kubernetes', 'epinio app port-forward']
 doc_persona = ['epinio-developer', 'epinio-operator']
@@ -1478,7 +1313,7 @@ doc_type = ['reference']
 doc_topic = ['epinio', 'reference', 'epinio-cli', 'epinio-app-port-forward']
 slug = None
 sidebar_label = epinio app port-forward
-sidebar_position = 0
+sidebar_position = None
 int_links = ['./epinio_app.md']
 ext_links = []
 
@@ -1489,7 +1324,7 @@ Depth = 5
 === Node data ===
 path = references/commands/cli/app/epinio_app_push.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/app/epinio_app_push.md
-title = None
+title = 
 description = epinio app push
 keywords = ['epinio', 'kubernetes', 'epinio app push']
 doc_persona = ['epinio-developer', 'epinio-operator']
@@ -1497,7 +1332,7 @@ doc_type = ['reference']
 doc_topic = ['epinio', 'reference', 'epinio-cli', 'epinio-app-push']
 slug = None
 sidebar_label = epinio app push
-sidebar_position = 0
+sidebar_position = None
 int_links = ['./epinio_app.md']
 ext_links = []
 
@@ -1508,7 +1343,7 @@ Depth = 5
 === Node data ===
 path = references/commands/cli/app/epinio_app_restage.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/app/epinio_app_restage.md
-title = None
+title = 
 description = epinio app restage
 keywords = ['epinio', 'kubernetes', 'epinio app restage']
 doc_persona = ['epinio-developer', 'epinio-operator']
@@ -1516,7 +1351,7 @@ doc_type = ['reference']
 doc_topic = ['epinio', 'reference', 'epinio-cli', 'epinio-app-restage']
 slug = None
 sidebar_label = epinio app restage
-sidebar_position = 0
+sidebar_position = None
 int_links = ['./epinio_app.md']
 ext_links = []
 
@@ -1527,7 +1362,7 @@ Depth = 5
 === Node data ===
 path = references/commands/cli/app/epinio_app_restart.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/app/epinio_app_restart.md
-title = None
+title = 
 description = epinio app restart
 keywords = ['epinio', 'kubernetes', 'epinio app restart']
 doc_persona = ['epinio-developer', 'epinio-operator']
@@ -1535,7 +1370,7 @@ doc_type = ['reference']
 doc_topic = ['epinio', 'reference', 'epinio-cli', 'epinio-app-restart']
 slug = None
 sidebar_label = epinio app restart
-sidebar_position = 0
+sidebar_position = None
 int_links = ['./epinio_app.md']
 ext_links = []
 
@@ -1546,7 +1381,7 @@ Depth = 5
 === Node data ===
 path = references/commands/cli/app/epinio_app_show.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/app/epinio_app_show.md
-title = None
+title = 
 description = epinio app show
 keywords = ['epinio', 'kubernetes', 'epinio app show']
 doc_persona = ['epinio-developer', 'epinio-operator']
@@ -1554,7 +1389,7 @@ doc_type = ['reference']
 doc_topic = ['epinio', 'reference', 'epinio-cli', 'epinio-app-show']
 slug = None
 sidebar_label = epinio app show
-sidebar_position = 0
+sidebar_position = None
 int_links = ['./epinio_app.md']
 ext_links = []
 
@@ -1565,7 +1400,7 @@ Depth = 5
 === Node data ===
 path = references/commands/cli/app/epinio_app_update.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/app/epinio_app_update.md
-title = None
+title = 
 description = epinio app update
 keywords = ['epinio', 'kubernetes', 'epinio app update']
 doc_persona = ['epinio-developer', 'epinio-operator']
@@ -1573,7 +1408,7 @@ doc_type = ['reference']
 doc_topic = ['epinio', 'reference', 'epinio-cli', 'epinio-app-update']
 slug = None
 sidebar_label = epinio app update
-sidebar_position = 0
+sidebar_position = None
 int_links = ['./epinio_app.md']
 ext_links = []
 
@@ -1584,17 +1419,6 @@ Depth = 4
 === Node data ===
 path = configuration/
 full_path = /home/jhk/projects/suse/epinio-docs/docs/configuration/
-title = None
-description = None
-keywords = None
-doc_persona = None
-doc_type = None
-doc_topic = None
-slug = None
-sidebar_label = None
-sidebar_position = None
-int_links = None
-ext_links = None
 
 === Node ===
 Predecessor = ['configuration/']
@@ -1603,7 +1427,7 @@ Depth = 5
 === Node data ===
 path = references/commands/cli/configuration/epinio_configuration.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/configuration/epinio_configuration.md
-title = None
+title = 
 description = epinio configuration
 keywords = ['epinio', 'kubernetes', 'epinio configuration']
 doc_persona = ['epinio-developer', 'epinio-operator']
@@ -1611,8 +1435,8 @@ doc_type = ['reference']
 doc_topic = ['epinio', 'reference', 'epinio-cli', 'epinio-configuration']
 slug = None
 sidebar_label = epinio configuration
-sidebar_position = 0
-int_links = ['./epinio_configuration_list.md', './epinio_configuration_show.md', './epinio_configuration_unbind.md', './epinio_configuration_delete.md', './epinio_configuration_update.md', './epinio_configuration_bind.md', './epinio_configuration_create.md', '../epinio.md']
+sidebar_position = None
+int_links = ['./epinio_configuration_bind.md', './epinio_configuration_list.md', './epinio_configuration_show.md', './epinio_configuration_unbind.md', './epinio_configuration_create.md', './epinio_configuration_update.md', './epinio_configuration_delete.md', '../epinio.md']
 ext_links = []
 
 === Node ===
@@ -1622,7 +1446,7 @@ Depth = 5
 === Node data ===
 path = references/commands/cli/configuration/epinio_configuration_bind.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/configuration/epinio_configuration_bind.md
-title = None
+title = 
 description = epinio configuration bind
 keywords = ['epinio', 'kubernetes', 'epinio configuration bind']
 doc_persona = ['epinio-developer', 'epinio-operator']
@@ -1630,7 +1454,7 @@ doc_type = ['reference']
 doc_topic = ['epinio', 'reference', 'epinio-cli', 'epinio-configuration-bind']
 slug = None
 sidebar_label = epinio configuration bind
-sidebar_position = 0
+sidebar_position = None
 int_links = ['./epinio_configuration.md']
 ext_links = []
 
@@ -1641,7 +1465,7 @@ Depth = 5
 === Node data ===
 path = references/commands/cli/configuration/epinio_configuration_create.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/configuration/epinio_configuration_create.md
-title = None
+title = 
 description = epinio configuration create
 keywords = ['epinio', 'kubernetes', 'epinio configuration create']
 doc_persona = ['epinio-developer', 'epinio-operator']
@@ -1649,7 +1473,7 @@ doc_type = ['reference']
 doc_topic = ['epinio', 'reference', 'epinio-cli', 'epinio-configuration-create']
 slug = None
 sidebar_label = epinio configuration create
-sidebar_position = 0
+sidebar_position = None
 int_links = ['./epinio_configuration.md']
 ext_links = []
 
@@ -1660,7 +1484,7 @@ Depth = 5
 === Node data ===
 path = references/commands/cli/configuration/epinio_configuration_delete.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/configuration/epinio_configuration_delete.md
-title = None
+title = 
 description = epinio configuration delete
 keywords = ['epinio', 'kubernetes', 'epinio configuration delete']
 doc_persona = ['epinio-developer', 'epinio-operator']
@@ -1668,7 +1492,7 @@ doc_type = ['reference']
 doc_topic = ['epinio', 'reference', 'epinio-cli', 'epinio-configuration-delete']
 slug = None
 sidebar_label = epinio configuration delete
-sidebar_position = 0
+sidebar_position = None
 int_links = ['./epinio_configuration.md']
 ext_links = []
 
@@ -1679,7 +1503,7 @@ Depth = 5
 === Node data ===
 path = references/commands/cli/configuration/epinio_configuration_list.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/configuration/epinio_configuration_list.md
-title = None
+title = 
 description = epinio configuration list
 keywords = ['epinio', 'kubernetes', 'epinio configuration list']
 doc_persona = ['epinio-developer', 'epinio-operator']
@@ -1687,7 +1511,7 @@ doc_type = ['reference']
 doc_topic = ['epinio', 'reference', 'epinio-cli', 'epinio-configuration-list']
 slug = None
 sidebar_label = epinio configuration list
-sidebar_position = 0
+sidebar_position = None
 int_links = ['./epinio_configuration.md']
 ext_links = []
 
@@ -1698,7 +1522,7 @@ Depth = 5
 === Node data ===
 path = references/commands/cli/configuration/epinio_configuration_show.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/configuration/epinio_configuration_show.md
-title = None
+title = 
 description = epinio configuration show
 keywords = ['epinio', 'kubernetes', 'epinio configuration show']
 doc_persona = ['epinio-developer', 'epinio-operator']
@@ -1706,7 +1530,7 @@ doc_type = ['reference']
 doc_topic = ['epinio', 'reference', 'epinio-cli', 'epinio-configuration-show']
 slug = None
 sidebar_label = epinio configuration show
-sidebar_position = 0
+sidebar_position = None
 int_links = ['./epinio_configuration.md']
 ext_links = []
 
@@ -1717,7 +1541,7 @@ Depth = 5
 === Node data ===
 path = references/commands/cli/configuration/epinio_configuration_unbind.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/configuration/epinio_configuration_unbind.md
-title = None
+title = 
 description = epinio configuration unbind
 keywords = ['epinio', 'kubernetes', 'epinio configuration unbind']
 doc_persona = ['epinio-developer', 'epinio-operator']
@@ -1725,7 +1549,7 @@ doc_type = ['reference']
 doc_topic = ['epinio', 'reference', 'epinio-cli', 'epinio-configuration-unbind']
 slug = None
 sidebar_label = epinio configuration unbind
-sidebar_position = 0
+sidebar_position = None
 int_links = ['./epinio_configuration.md']
 ext_links = []
 
@@ -1736,7 +1560,7 @@ Depth = 5
 === Node data ===
 path = references/commands/cli/configuration/epinio_configuration_update.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/configuration/epinio_configuration_update.md
-title = None
+title = 
 description = epinio configuration update
 keywords = ['epinio', 'kubernetes', 'epinio configuration update']
 doc_persona = ['epinio-developer', 'epinio-operator']
@@ -1744,7 +1568,7 @@ doc_type = ['reference']
 doc_topic = ['epinio', 'reference', 'epinio-cli', 'epinio-configuration-update']
 slug = None
 sidebar_label = epinio configuration update
-sidebar_position = 0
+sidebar_position = None
 int_links = ['./epinio_configuration.md']
 ext_links = []
 
@@ -1755,17 +1579,6 @@ Depth = 4
 === Node data ===
 path = gitconfig/
 full_path = /home/jhk/projects/suse/epinio-docs/docs/gitconfig/
-title = None
-description = None
-keywords = None
-doc_persona = None
-doc_type = None
-doc_topic = None
-slug = None
-sidebar_label = None
-sidebar_position = None
-int_links = None
-ext_links = None
 
 === Node ===
 Predecessor = ['gitconfig/']
@@ -1774,7 +1587,7 @@ Depth = 5
 === Node data ===
 path = references/commands/cli/gitconfig/epinio_gitconfig.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/gitconfig/epinio_gitconfig.md
-title = None
+title = 
 description = epinio gitconfig
 keywords = ['epinio', 'kubernetes', 'epinio gitconfig']
 doc_persona = ['epinio-developer', 'epinio-operator']
@@ -1782,7 +1595,7 @@ doc_type = ['reference']
 doc_topic = ['epinio', 'reference', 'epinio-cli', 'epinio-gitconfig']
 slug = None
 sidebar_label = epinio gitconfig
-sidebar_position = 0
+sidebar_position = None
 int_links = ['./epinio_gitconfig_show.md', './epinio_gitconfig_delete.md', './epinio_gitconfig_list.md', './epinio_gitconfig_create.md', '../epinio.md']
 ext_links = []
 
@@ -1793,7 +1606,7 @@ Depth = 5
 === Node data ===
 path = references/commands/cli/gitconfig/epinio_gitconfig_create.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/gitconfig/epinio_gitconfig_create.md
-title = None
+title = 
 description = epinio gitconfig create
 keywords = ['epinio', 'kubernetes', 'epinio gitconfig create']
 doc_persona = ['epinio-developer', 'epinio-operator']
@@ -1801,7 +1614,7 @@ doc_type = ['reference']
 doc_topic = ['epinio', 'reference', 'epinio-cli', 'epinio-gitconfig-create']
 slug = None
 sidebar_label = epinio gitconfig create
-sidebar_position = 0
+sidebar_position = None
 int_links = ['./epinio_gitconfig.md']
 ext_links = []
 
@@ -1812,7 +1625,7 @@ Depth = 5
 === Node data ===
 path = references/commands/cli/gitconfig/epinio_gitconfig_delete.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/gitconfig/epinio_gitconfig_delete.md
-title = None
+title = 
 description = epinio gitconfig delete
 keywords = ['epinio', 'kubernetes', 'epinio gitconfig delete']
 doc_persona = ['epinio-developer', 'epinio-operator']
@@ -1820,7 +1633,7 @@ doc_type = ['reference']
 doc_topic = ['epinio', 'reference', 'epinio-cli', 'epinio-gitconfig-delete']
 slug = None
 sidebar_label = epinio gitconfig delete
-sidebar_position = 0
+sidebar_position = None
 int_links = ['./epinio_gitconfig.md']
 ext_links = []
 
@@ -1831,7 +1644,7 @@ Depth = 5
 === Node data ===
 path = references/commands/cli/gitconfig/epinio_gitconfig_list.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/gitconfig/epinio_gitconfig_list.md
-title = None
+title = 
 description = epinio gitconfig list
 keywords = ['epinio', 'kubernetes', 'epinio gitconfig list']
 doc_persona = ['epinio-developer', 'epinio-operator']
@@ -1839,7 +1652,7 @@ doc_type = ['reference']
 doc_topic = ['epinio', 'reference', 'epinio-cli', 'epinio-gitconfig-list']
 slug = None
 sidebar_label = epinio gitconfig list
-sidebar_position = 0
+sidebar_position = None
 int_links = ['./epinio_gitconfig.md']
 ext_links = []
 
@@ -1850,7 +1663,7 @@ Depth = 5
 === Node data ===
 path = references/commands/cli/gitconfig/epinio_gitconfig_show.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/gitconfig/epinio_gitconfig_show.md
-title = None
+title = 
 description = epinio gitconfig show
 keywords = ['epinio', 'kubernetes', 'epinio gitconfig show']
 doc_persona = ['epinio-developer', 'epinio-operator']
@@ -1858,7 +1671,7 @@ doc_type = ['reference']
 doc_topic = ['epinio', 'reference', 'epinio-cli', 'epinio-gitconfig-show']
 slug = None
 sidebar_label = epinio gitconfig show
-sidebar_position = 0
+sidebar_position = None
 int_links = ['./epinio_gitconfig.md']
 ext_links = []
 
@@ -1869,17 +1682,6 @@ Depth = 4
 === Node data ===
 path = namespace/
 full_path = /home/jhk/projects/suse/epinio-docs/docs/namespace/
-title = None
-description = None
-keywords = None
-doc_persona = None
-doc_type = None
-doc_topic = None
-slug = None
-sidebar_label = None
-sidebar_position = None
-int_links = None
-ext_links = None
 
 === Node ===
 Predecessor = ['namespace/']
@@ -1888,7 +1690,7 @@ Depth = 5
 === Node data ===
 path = references/commands/cli/namespace/epinio_namespace.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/namespace/epinio_namespace.md
-title = None
+title = 
 description = epinio namespace
 keywords = ['epinio', 'kubernetes', 'epinio namespace']
 doc_persona = ['epinio-developer', 'epinio-operator']
@@ -1896,8 +1698,8 @@ doc_type = ['reference']
 doc_topic = ['epinio', 'reference', 'epinio-cli', 'epinio-namespace']
 slug = None
 sidebar_label = epinio namespace
-sidebar_position = 0
-int_links = ['./epinio_namespace_list.md', './epinio_namespace_create.md', './epinio_namespace_show.md', '../epinio.md', './epinio_namespace_delete.md']
+sidebar_position = None
+int_links = ['./epinio_namespace_show.md', './epinio_namespace_list.md', './epinio_namespace_delete.md', './epinio_namespace_create.md', '../epinio.md']
 ext_links = []
 
 === Node ===
@@ -1907,7 +1709,7 @@ Depth = 5
 === Node data ===
 path = references/commands/cli/namespace/epinio_namespace_create.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/namespace/epinio_namespace_create.md
-title = None
+title = 
 description = epinio namespace create
 keywords = ['epinio', 'kubernetes', 'epinio namespace create']
 doc_persona = ['epinio-developer', 'epinio-operator']
@@ -1915,7 +1717,7 @@ doc_type = ['reference']
 doc_topic = ['epinio', 'reference', 'epinio-cli', 'epinio-namespace-create']
 slug = None
 sidebar_label = epinio namespace create
-sidebar_position = 0
+sidebar_position = None
 int_links = ['./epinio_namespace.md']
 ext_links = []
 
@@ -1926,7 +1728,7 @@ Depth = 5
 === Node data ===
 path = references/commands/cli/namespace/epinio_namespace_delete.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/namespace/epinio_namespace_delete.md
-title = None
+title = 
 description = epinio namespace delete
 keywords = ['epinio', 'kubernetes', 'epinio namespace delete']
 doc_persona = ['epinio-developer', 'epinio-operator']
@@ -1934,7 +1736,7 @@ doc_type = ['reference']
 doc_topic = ['epinio', 'reference', 'epinio-cli', 'epinio-namespace-delete']
 slug = None
 sidebar_label = epinio namespace delete
-sidebar_position = 0
+sidebar_position = None
 int_links = ['./epinio_namespace.md']
 ext_links = []
 
@@ -1945,7 +1747,7 @@ Depth = 5
 === Node data ===
 path = references/commands/cli/namespace/epinio_namespace_list.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/namespace/epinio_namespace_list.md
-title = None
+title = 
 description = epinio namespace list
 keywords = ['epinio', 'kubernetes', 'epinio namespace list']
 doc_persona = ['epinio-developer', 'epinio-operator']
@@ -1953,7 +1755,7 @@ doc_type = ['reference']
 doc_topic = ['epinio', 'reference', 'epinio-cli', 'epinio-namespace-list']
 slug = None
 sidebar_label = epinio namespace list
-sidebar_position = 0
+sidebar_position = None
 int_links = ['./epinio_namespace.md']
 ext_links = []
 
@@ -1964,7 +1766,7 @@ Depth = 5
 === Node data ===
 path = references/commands/cli/namespace/epinio_namespace_show.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/namespace/epinio_namespace_show.md
-title = None
+title = 
 description = epinio namespace show
 keywords = ['epinio', 'kubernetes', 'epinio namespace show']
 doc_persona = ['epinio-developer', 'epinio-operator']
@@ -1972,7 +1774,7 @@ doc_type = ['reference']
 doc_topic = ['epinio', 'reference', 'epinio-cli', 'epinio-namespace-show']
 slug = None
 sidebar_label = epinio namespace show
-sidebar_position = 0
+sidebar_position = None
 int_links = ['./epinio_namespace.md']
 ext_links = []
 
@@ -1983,17 +1785,6 @@ Depth = 4
 === Node data ===
 path = service/
 full_path = /home/jhk/projects/suse/epinio-docs/docs/service/
-title = None
-description = None
-keywords = None
-doc_persona = None
-doc_type = None
-doc_topic = None
-slug = None
-sidebar_label = None
-sidebar_position = None
-int_links = None
-ext_links = None
 
 === Node ===
 Predecessor = ['service/']
@@ -2002,7 +1793,7 @@ Depth = 5
 === Node data ===
 path = references/commands/cli/service/epinio_service.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/service/epinio_service.md
-title = None
+title = 
 description = epinio service
 keywords = ['epinio', 'kubernetes', 'epinio service']
 doc_persona = ['epinio-developer', 'epinio-operator']
@@ -2010,8 +1801,8 @@ doc_type = ['reference']
 doc_topic = ['epinio', 'reference', 'epinio-cli', 'epinio-service']
 slug = None
 sidebar_label = epinio service
-sidebar_position = 0
-int_links = ['./epinio_service_create.md', './epinio_service_show.md', './epinio_service_list.md', './epinio_service_bind.md', './epinio_service_catalog.md', './epinio_service_unbind.md', './epinio_service_delete.md', './epinio_service_port-forward.md', '../epinio.md', './epinio_service_update.md']
+sidebar_position = None
+int_links = ['./epinio_service_unbind.md', './epinio_service_bind.md', './epinio_service_delete.md', './epinio_service_show.md', './epinio_service_port-forward.md', './epinio_service_catalog.md', './epinio_service_update.md', './epinio_service_create.md', './epinio_service_list.md', '../epinio.md']
 ext_links = []
 
 === Node ===
@@ -2021,7 +1812,7 @@ Depth = 5
 === Node data ===
 path = references/commands/cli/service/epinio_service_bind.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/service/epinio_service_bind.md
-title = None
+title = 
 description = epinio service bind
 keywords = ['epinio', 'kubernetes', 'epinio service bind']
 doc_persona = ['epinio-developer', 'epinio-operator']
@@ -2029,7 +1820,7 @@ doc_type = ['reference']
 doc_topic = ['epinio', 'reference', 'epinio-cli', 'epinio-service-bind']
 slug = None
 sidebar_label = epinio service bind
-sidebar_position = 0
+sidebar_position = None
 int_links = ['./epinio_service.md']
 ext_links = []
 
@@ -2040,7 +1831,7 @@ Depth = 5
 === Node data ===
 path = references/commands/cli/service/epinio_service_catalog.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/service/epinio_service_catalog.md
-title = None
+title = 
 description = epinio service catalog
 keywords = ['epinio', 'kubernetes', 'epinio service catalog']
 doc_persona = ['epinio-developer', 'epinio-operator']
@@ -2048,7 +1839,7 @@ doc_type = ['reference']
 doc_topic = ['epinio', 'reference', 'epinio-cli', 'epinio-service-catalog']
 slug = None
 sidebar_label = epinio service catalog
-sidebar_position = 0
+sidebar_position = None
 int_links = ['./epinio_service.md']
 ext_links = []
 
@@ -2059,7 +1850,7 @@ Depth = 5
 === Node data ===
 path = references/commands/cli/service/epinio_service_create.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/service/epinio_service_create.md
-title = None
+title = 
 description = epinio service create
 keywords = ['epinio', 'kubernetes', 'epinio service create']
 doc_persona = ['epinio-developer', 'epinio-operator']
@@ -2067,7 +1858,7 @@ doc_type = ['reference']
 doc_topic = ['epinio', 'reference', 'epinio-cli', 'epinio-service-create']
 slug = None
 sidebar_label = epinio service create
-sidebar_position = 0
+sidebar_position = None
 int_links = ['./epinio_service.md']
 ext_links = []
 
@@ -2078,7 +1869,7 @@ Depth = 5
 === Node data ===
 path = references/commands/cli/service/epinio_service_delete.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/service/epinio_service_delete.md
-title = None
+title = 
 description = epinio service delete
 keywords = ['epinio', 'kubernetes', 'epinio service delete']
 doc_persona = ['epinio-developer', 'epinio-operator']
@@ -2086,7 +1877,7 @@ doc_type = ['reference']
 doc_topic = ['epinio', 'reference', 'epinio-cli', 'epinio-service-delete']
 slug = None
 sidebar_label = epinio service delete
-sidebar_position = 0
+sidebar_position = None
 int_links = ['./epinio_service.md']
 ext_links = []
 
@@ -2097,7 +1888,7 @@ Depth = 5
 === Node data ===
 path = references/commands/cli/service/epinio_service_list.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/service/epinio_service_list.md
-title = None
+title = 
 description = epinio service list
 keywords = ['epinio', 'kubernetes', 'epinio service list']
 doc_persona = ['epinio-developer', 'epinio-operator']
@@ -2105,7 +1896,7 @@ doc_type = ['reference']
 doc_topic = ['epinio', 'reference', 'epinio-cli', 'epinio-service-list']
 slug = None
 sidebar_label = epinio service list
-sidebar_position = 0
+sidebar_position = None
 int_links = ['./epinio_service.md']
 ext_links = []
 
@@ -2116,7 +1907,7 @@ Depth = 5
 === Node data ===
 path = references/commands/cli/service/epinio_service_port-forward.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/service/epinio_service_port-forward.md
-title = None
+title = 
 description = epinio service port-forward
 keywords = ['epinio', 'kubernetes', 'epinio service port-forward']
 doc_persona = ['epinio-developer', 'epinio-operator']
@@ -2124,7 +1915,7 @@ doc_type = ['reference']
 doc_topic = ['epinio', 'reference', 'epinio-cli', 'epinio-service-port-forward']
 slug = None
 sidebar_label = epinio service port-forward
-sidebar_position = 0
+sidebar_position = None
 int_links = ['./epinio_service.md']
 ext_links = []
 
@@ -2135,7 +1926,7 @@ Depth = 5
 === Node data ===
 path = references/commands/cli/service/epinio_service_show.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/service/epinio_service_show.md
-title = None
+title = 
 description = epinio service show
 keywords = ['epinio', 'kubernetes', 'epinio service show']
 doc_persona = ['epinio-developer', 'epinio-operator']
@@ -2143,7 +1934,7 @@ doc_type = ['reference']
 doc_topic = ['epinio', 'reference', 'epinio-cli', 'epinio-service-show']
 slug = None
 sidebar_label = epinio service show
-sidebar_position = 0
+sidebar_position = None
 int_links = ['./epinio_service.md']
 ext_links = []
 
@@ -2154,7 +1945,7 @@ Depth = 5
 === Node data ===
 path = references/commands/cli/service/epinio_service_unbind.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/service/epinio_service_unbind.md
-title = None
+title = 
 description = epinio service unbind
 keywords = ['epinio', 'kubernetes', 'epinio service unbind']
 doc_persona = ['epinio-developer', 'epinio-operator']
@@ -2162,7 +1953,7 @@ doc_type = ['reference']
 doc_topic = ['epinio', 'reference', 'epinio-cli', 'epinio-service-unbind']
 slug = None
 sidebar_label = epinio service unbind
-sidebar_position = 0
+sidebar_position = None
 int_links = ['./epinio_service.md']
 ext_links = []
 
@@ -2173,7 +1964,7 @@ Depth = 5
 === Node data ===
 path = references/commands/cli/service/epinio_service_update.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/service/epinio_service_update.md
-title = None
+title = 
 description = epinio service update
 keywords = ['epinio', 'kubernetes', 'epinio service update']
 doc_persona = ['epinio-developer', 'epinio-operator']
@@ -2181,7 +1972,7 @@ doc_type = ['reference']
 doc_topic = ['epinio', 'reference', 'epinio-cli', 'epinio-service-update']
 slug = None
 sidebar_label = epinio service update
-sidebar_position = 0
+sidebar_position = None
 int_links = ['./epinio_service.md']
 ext_links = []
 
@@ -2192,17 +1983,6 @@ Depth = 4
 === Node data ===
 path = settings/
 full_path = /home/jhk/projects/suse/epinio-docs/docs/settings/
-title = None
-description = None
-keywords = None
-doc_persona = None
-doc_type = None
-doc_topic = None
-slug = None
-sidebar_label = None
-sidebar_position = None
-int_links = None
-ext_links = None
 
 === Node ===
 Predecessor = ['settings/']
@@ -2211,7 +1991,7 @@ Depth = 5
 === Node data ===
 path = references/commands/cli/settings/epinio_settings.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/settings/epinio_settings.md
-title = None
+title = 
 description = epinio settings
 keywords = ['epinio', 'kubernetes', 'epinio settings']
 doc_persona = ['epinio-developer', 'epinio-operator']
@@ -2219,8 +1999,8 @@ doc_type = ['reference']
 doc_topic = ['epinio', 'reference', 'epinio-cli', 'epinio-settings']
 slug = None
 sidebar_label = epinio settings
-sidebar_position = 0
-int_links = ['../epinio.md', './epinio_settings_show.md', './epinio_settings_update-ca.md', './epinio_settings_colors.md']
+sidebar_position = None
+int_links = ['./epinio_settings_update-ca.md', './epinio_settings_show.md', './epinio_settings_colors.md', '../epinio.md']
 ext_links = []
 
 === Node ===
@@ -2230,7 +2010,7 @@ Depth = 5
 === Node data ===
 path = references/commands/cli/settings/epinio_settings_colors.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/settings/epinio_settings_colors.md
-title = None
+title = 
 description = epinio settings colors
 keywords = ['epinio', 'kubernetes', 'epinio settings colors']
 doc_persona = ['epinio-developer', 'epinio-operator']
@@ -2238,7 +2018,7 @@ doc_type = ['reference']
 doc_topic = ['epinio', 'reference', 'epinio-cli', 'epinio-settings-colors']
 slug = None
 sidebar_label = epinio settings colors
-sidebar_position = 0
+sidebar_position = None
 int_links = ['./epinio_settings.md']
 ext_links = []
 
@@ -2249,7 +2029,7 @@ Depth = 5
 === Node data ===
 path = references/commands/cli/settings/epinio_settings_show.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/settings/epinio_settings_show.md
-title = None
+title = 
 description = epinio settings show
 keywords = ['epinio', 'kubernetes', 'epinio settings show']
 doc_persona = ['epinio-developer', 'epinio-operator']
@@ -2257,7 +2037,7 @@ doc_type = ['reference']
 doc_topic = ['epinio', 'reference', 'epinio-cli', 'epinio-settings-show']
 slug = None
 sidebar_label = epinio settings show
-sidebar_position = 0
+sidebar_position = None
 int_links = ['./epinio_settings.md']
 ext_links = []
 
@@ -2268,7 +2048,7 @@ Depth = 5
 === Node data ===
 path = references/commands/cli/settings/epinio_settings_update-ca.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/settings/epinio_settings_update-ca.md
-title = None
+title = 
 description = epinio settings update-ca
 keywords = ['epinio', 'kubernetes', 'epinio settings update-ca']
 doc_persona = ['epinio-developer', 'epinio-operator']
@@ -2276,7 +2056,7 @@ doc_type = ['reference']
 doc_topic = ['epinio', 'reference', 'epinio-cli', 'epinio-settings-update-ca']
 slug = None
 sidebar_label = epinio settings update-ca
-sidebar_position = 0
+sidebar_position = None
 int_links = ['./epinio_settings.md']
 ext_links = []
 
@@ -2287,7 +2067,7 @@ Depth = 4
 === Node data ===
 path = references/commands/cli/epinio.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/epinio.md
-title = None
+title = 
 description = epinio cli
 keywords = ['epinio', 'kubernetes', 'epinio cli']
 doc_persona = ['epinio-developer', 'epinio-operator']
@@ -2295,8 +2075,8 @@ doc_type = ['reference']
 doc_topic = ['epinio', 'reference', 'epinio-cli', 'epinio-cli']
 slug = None
 sidebar_label = epinio cli
-sidebar_position = 0
-int_links = ['./epinio_server.md', './settings/epinio_settings.md', './app/epinio_app.md', './epinio_info.md', './epinio_login.md', './gitconfig/epinio_gitconfig.md', './service/epinio_service.md', './epinio_export-registries.md', './epinio_target.md', './epinio_logout.md', './epinio_push.md', './namespace/epinio_namespace.md', './configuration/epinio_configuration.md', './epinio_client-sync.md', './epinio_completion.md', './epinio_version.md']
+sidebar_position = None
+int_links = ['./configuration/epinio_configuration.md', './epinio_login.md', './epinio_version.md', './app/epinio_app.md', './epinio_completion.md', './epinio_info.md', './epinio_push.md', './gitconfig/epinio_gitconfig.md', './epinio_logout.md', './namespace/epinio_namespace.md', './settings/epinio_settings.md', './epinio_target.md', './epinio_client-sync.md', './service/epinio_service.md', './epinio_server.md', './epinio_export-registries.md']
 ext_links = []
 
 === Node ===
@@ -2306,7 +2086,7 @@ Depth = 4
 === Node data ===
 path = references/commands/cli/epinio_client-sync.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/epinio_client-sync.md
-title = None
+title = 
 description = epinio client-sync
 keywords = ['epinio', 'kubernetes', 'epinio client-sync']
 doc_persona = ['epinio-developer', 'epinio-operator']
@@ -2314,7 +2094,7 @@ doc_type = ['reference']
 doc_topic = ['epinio', 'reference', 'epinio-cli', 'epinio-client-sync']
 slug = None
 sidebar_label = epinio client-sync
-sidebar_position = 0
+sidebar_position = None
 int_links = ['./epinio.md']
 ext_links = []
 
@@ -2325,7 +2105,7 @@ Depth = 4
 === Node data ===
 path = references/commands/cli/epinio_completion.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/epinio_completion.md
-title = None
+title = 
 description = epinio completion
 keywords = ['epinio', 'kubernetes', 'epinio completion']
 doc_persona = ['epinio-developer', 'epinio-operator']
@@ -2333,7 +2113,7 @@ doc_type = ['reference']
 doc_topic = ['epinio', 'reference', 'epinio-cli', 'epinio-completion']
 slug = None
 sidebar_label = epinio completion
-sidebar_position = 0
+sidebar_position = None
 int_links = ['./epinio.md']
 ext_links = []
 
@@ -2344,7 +2124,7 @@ Depth = 4
 === Node data ===
 path = references/commands/cli/epinio_export-registries.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/epinio_export-registries.md
-title = None
+title = 
 description = epinio export-registries
 keywords = ['epinio', 'kubernetes', 'epinio export-registries']
 doc_persona = ['epinio-developer', 'epinio-operator']
@@ -2352,7 +2132,7 @@ doc_type = ['reference']
 doc_topic = ['epinio', 'reference', 'epinio-cli', 'epinio-export-registries']
 slug = None
 sidebar_label = epinio export-registries
-sidebar_position = 0
+sidebar_position = None
 int_links = ['./epinio.md']
 ext_links = []
 
@@ -2363,7 +2143,7 @@ Depth = 4
 === Node data ===
 path = references/commands/cli/epinio_login.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/epinio_login.md
-title = None
+title = 
 description = epinio login
 keywords = ['epinio', 'kubernetes', 'epinio login']
 doc_persona = ['epinio-developer', 'epinio-operator']
@@ -2371,7 +2151,7 @@ doc_type = ['reference']
 doc_topic = ['epinio', 'reference', 'epinio-cli', 'epinio-login']
 slug = None
 sidebar_label = epinio login
-sidebar_position = 0
+sidebar_position = None
 int_links = ['./epinio.md']
 ext_links = []
 
@@ -2382,7 +2162,7 @@ Depth = 4
 === Node data ===
 path = references/commands/cli/epinio_logout.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/epinio_logout.md
-title = None
+title = 
 description = epinio logout
 keywords = ['epinio', 'kubernetes', 'epinio logout']
 doc_persona = ['epinio-developer', 'epinio-operator']
@@ -2390,7 +2170,7 @@ doc_type = ['reference']
 doc_topic = ['epinio', 'reference', 'epinio-cli', 'epinio-logout']
 slug = None
 sidebar_label = epinio logout
-sidebar_position = 0
+sidebar_position = None
 int_links = ['./epinio.md']
 ext_links = []
 
@@ -2401,7 +2181,7 @@ Depth = 4
 === Node data ===
 path = references/commands/cli/epinio_push.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/epinio_push.md
-title = None
+title = 
 description = epinio push
 keywords = ['epinio', 'kubernetes', 'epinio push']
 doc_persona = ['epinio-developer', 'epinio-operator']
@@ -2409,7 +2189,7 @@ doc_type = ['reference']
 doc_topic = ['epinio', 'reference', 'epinio-cli', 'epinio-push']
 slug = None
 sidebar_label = epinio push
-sidebar_position = 0
+sidebar_position = None
 int_links = ['./epinio.md']
 ext_links = []
 
@@ -2420,7 +2200,7 @@ Depth = 4
 === Node data ===
 path = references/commands/cli/epinio_server.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/epinio_server.md
-title = None
+title = 
 description = epinio server
 keywords = ['epinio', 'kubernetes', 'epinio server']
 doc_persona = ['epinio-developer', 'epinio-operator']
@@ -2428,7 +2208,7 @@ doc_type = ['reference']
 doc_topic = ['epinio', 'reference', 'epinio-cli', 'epinio-server']
 slug = None
 sidebar_label = epinio server
-sidebar_position = 0
+sidebar_position = None
 int_links = ['./epinio.md']
 ext_links = []
 
@@ -2439,7 +2219,7 @@ Depth = 4
 === Node data ===
 path = references/commands/cli/epinio_target.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/epinio_target.md
-title = None
+title = 
 description = epinio target
 keywords = ['epinio', 'kubernetes', 'epinio target']
 doc_persona = ['epinio-developer', 'epinio-operator']
@@ -2447,7 +2227,7 @@ doc_type = ['reference']
 doc_topic = ['epinio', 'reference', 'epinio-cli', 'epinio-target']
 slug = None
 sidebar_label = epinio target
-sidebar_position = 0
+sidebar_position = None
 int_links = ['./epinio.md']
 ext_links = []
 
@@ -2458,7 +2238,7 @@ Depth = 4
 === Node data ===
 path = references/commands/cli/epinio_version.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/epinio_version.md
-title = None
+title = 
 description = epinio version
 keywords = ['epinio', 'kubernetes', 'epinio version']
 doc_persona = ['epinio-developer', 'epinio-operator']
@@ -2466,7 +2246,7 @@ doc_type = ['reference']
 doc_topic = ['epinio', 'reference', 'epinio-cli', 'epinio-version']
 slug = None
 sidebar_label = epinio version
-sidebar_position = 0
+sidebar_position = None
 int_links = ['./epinio.md']
 ext_links = []
 
@@ -2477,7 +2257,7 @@ Depth = 4
 === Node data ===
 path = references/commands/cli/epinio_info.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/epinio_info.md
-title = None
+title = 
 description = epinio info
 keywords = ['epinio', 'kubernetes', 'epinio info']
 doc_persona = ['epinio-developer', 'epinio-operator']
@@ -2485,7 +2265,7 @@ doc_type = ['reference']
 doc_topic = ['epinio', 'reference', 'epinio-cli', 'epinio-info']
 slug = None
 sidebar_label = epinio info
-sidebar_position = 0
+sidebar_position = None
 int_links = ['./epinio.md']
 ext_links = []
 
@@ -2496,7 +2276,7 @@ Depth = 2
 === Node data ===
 path = references/configurations.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/configurations.md
-title = None
+title = 
 description = None
 keywords = None
 doc_persona = None
@@ -2504,8 +2284,8 @@ doc_type = None
 doc_topic = None
 slug = None
 sidebar_label = Configurations
-sidebar_position = 0
-int_links = ['./commands/cli/configuration/epinio_configuration_bind.md', './commands/cli/configuration/epinio_configuration.md', './commands/cli/configuration/epinio_configuration_unbind.md']
+sidebar_position = None
+int_links = ['./commands/cli/configuration/epinio_configuration.md', './commands/cli/configuration/epinio_configuration_bind.md', './commands/cli/configuration/epinio_configuration_unbind.md']
 ext_links = []
 
 === Node ===
@@ -2515,7 +2295,7 @@ Depth = 3
 === Node data ===
 path = references/customization/appcharts.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/customization/appcharts.md
-title = None
+title = 
 description = None
 keywords = None
 doc_persona = None
@@ -2523,8 +2303,8 @@ doc_type = None
 doc_topic = None
 slug = None
 sidebar_label = Application Charts
-sidebar_position = 0
-int_links = ['routing_secrets.md', '../../howtos/other/using_custom_appcharts.md', '#configuration', '#pods', 'lb.md', '../../howtos/customization/create_custom_appcharts.md']
+sidebar_position = None
+int_links = ['#pods', 'lb.md', 'routing_secrets.md', '../../howtos/customization/create_custom_appcharts.md', '../../howtos/other/using_custom_appcharts.md', '#configuration']
 ext_links = ['https://github.com/epinio/helm-charts/tree/main/chart/application']
 
 === Node ===
@@ -2534,7 +2314,7 @@ Depth = 3
 === Node data ===
 path = references/customization/catalog.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/customization/catalog.md
-title = None
+title = 
 description = None
 keywords = None
 doc_persona = None
@@ -2542,7 +2322,7 @@ doc_type = None
 doc_topic = None
 slug = None
 sidebar_label = Service Catalog
-sidebar_position = 0
+sidebar_position = None
 int_links = ['../../howtos/customization/create_custom_service.md']
 ext_links = []
 
@@ -2553,7 +2333,7 @@ Depth = 3
 === Node data ===
 path = references/customization/export_registries.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/customization/export_registries.md
-title = None
+title = 
 description = None
 keywords = None
 doc_persona = None
@@ -2561,8 +2341,8 @@ doc_type = None
 doc_topic = None
 slug = None
 sidebar_label = Export Destination Registries
-sidebar_position = 0
-int_links = ['../../howtos/customization/setup_export_registry.md', '../../howtos/customization/export_to_oci_registries.md']
+sidebar_position = None
+int_links = ['../../howtos/customization/export_to_oci_registries.md', '../../howtos/customization/setup_export_registry.md']
 ext_links = []
 
 === Node ===
@@ -2572,7 +2352,7 @@ Depth = 3
 === Node data ===
 path = references/customization/images.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/customization/images.md
-title = None
+title = 
 description = None
 keywords = None
 doc_persona = None
@@ -2580,7 +2360,7 @@ doc_type = None
 doc_topic = None
 slug = None
 sidebar_label = Image Storage
-sidebar_position = 0
+sidebar_position = None
 int_links = []
 ext_links = ['https://docs.docker.com/registry/']
 
@@ -2591,7 +2371,7 @@ Depth = 3
 === Node data ===
 path = references/customization/lb.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/customization/lb.md
-title = None
+title = 
 description = None
 keywords = None
 doc_persona = None
@@ -2599,7 +2379,7 @@ doc_type = None
 doc_topic = None
 slug = None
 sidebar_label = Load Balancers
-sidebar_position = 0
+sidebar_position = None
 int_links = ['appcharts.md']
 ext_links = []
 
@@ -2610,7 +2390,7 @@ Depth = 3
 === Node data ===
 path = references/customization/routing_secrets.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/customization/routing_secrets.md
-title = None
+title = 
 description = None
 keywords = None
 doc_persona = None
@@ -2618,7 +2398,7 @@ doc_type = None
 doc_topic = None
 slug = None
 sidebar_label = Routing Secrets
-sidebar_position = 0
+sidebar_position = None
 int_links = ['appcharts.md']
 ext_links = []
 
@@ -2629,7 +2409,7 @@ Depth = 3
 === Node data ===
 path = references/customization/sources.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/customization/sources.md
-title = None
+title = 
 description = None
 keywords = None
 doc_persona = None
@@ -2637,7 +2417,7 @@ doc_type = None
 doc_topic = None
 slug = None
 sidebar_label = Source Code Storage
-sidebar_position = 0
+sidebar_position = None
 int_links = []
 ext_links = ['https://min.io/']
 
@@ -2656,8 +2436,8 @@ doc_type = None
 doc_topic = None
 slug = None
 sidebar_label = Buildpacks
-sidebar_position = 0
-int_links = ['../supported_applications.md', '../commands/cli/epinio_push.md', 'staging-scripts.md']
+sidebar_position = None
+int_links = ['../commands/cli/epinio_push.md', 'staging-scripts.md', '../supported_applications.md']
 ext_links = ['https://github.com/paketo-buildpacks/builder-jammy-full', 'https://buildpacks.io/']
 
 === Node ===
@@ -2675,9 +2455,9 @@ doc_type = None
 doc_topic = None
 slug = None
 sidebar_label = Staging scripts
-sidebar_position = 0
+sidebar_position = None
 int_links = ['staging.md']
-ext_links = ['https://github.com/paketo-buildpacks/builder-jammy-full', 'https://buildpacks.io/']
+ext_links = ['https://buildpacks.io/', 'https://github.com/paketo-buildpacks/builder-jammy-full']
 
 === Node ===
 Predecessor = ['references/']
@@ -2686,7 +2466,7 @@ Depth = 2
 === Node data ===
 path = references/git_configuration.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/git_configuration.md
-title = None
+title = 
 description = None
 keywords = None
 doc_persona = None
@@ -2694,7 +2474,7 @@ doc_type = None
 doc_topic = None
 slug = None
 sidebar_label = Git Configuration
-sidebar_position = 0
+sidebar_position = None
 int_links = ['../howtos/customization/create_git_configuration.md', 'commands/cli/gitconfig/epinio_gitconfig.md']
 ext_links = []
 
@@ -2705,7 +2485,7 @@ Depth = 2
 === Node data ===
 path = references/manifests.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/manifests.md
-title = None
+title = 
 description = None
 keywords = None
 doc_persona = None
@@ -2713,7 +2493,7 @@ doc_type = None
 doc_topic = None
 slug = None
 sidebar_label = Application Manifests
-sidebar_position = 0
+sidebar_position = None
 int_links = []
 ext_links = []
 
@@ -2724,7 +2504,7 @@ Depth = 2
 === Node data ===
 path = references/namespaces.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/namespaces.md
-title = None
+title = 
 description = None
 keywords = None
 doc_persona = None
@@ -2732,8 +2512,8 @@ doc_type = None
 doc_topic = None
 slug = None
 sidebar_label = Namespaces
-sidebar_position = 0
-int_links = ['docs/tutorials/namespace-tutorial.md', 'commands/cli/epinio_target.md', 'commands/cli/namespace/epinio_namespace.md']
+sidebar_position = None
+int_links = ['commands/cli/epinio_target.md', 'docs/tutorials/namespace-tutorial.md', 'commands/cli/namespace/epinio_namespace.md']
 ext_links = []
 
 === Node ===
@@ -2743,7 +2523,7 @@ Depth = 2
 === Node data ===
 path = references/services.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/services.md
-title = None
+title = 
 description = None
 keywords = None
 doc_persona = None
@@ -2751,9 +2531,9 @@ doc_type = None
 doc_topic = None
 slug = None
 sidebar_label = Services
-sidebar_position = 0
+sidebar_position = None
 int_links = ['commands/cli/service/epinio_service.md', '../howtos/customization/create_custom_service.md', './configurations.md']
-ext_links = ['https://kubernetes.io/docs/concepts/services-networking/dns-pod-service/', 'https://github.com/Azure/azure-service-operator', 'https://crossplane.io/']
+ext_links = ['https://kubernetes.io/docs/concepts/services-networking/dns-pod-service/', 'https://crossplane.io/', 'https://github.com/Azure/azure-service-operator']
 
 === Node ===
 Predecessor = ['references/']
@@ -2762,7 +2542,7 @@ Depth = 2
 === Node data ===
 path = references/settings.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/settings.md
-title = None
+title = 
 description = None
 keywords = None
 doc_persona = None
@@ -2770,8 +2550,8 @@ doc_type = None
 doc_topic = None
 slug = None
 sidebar_label = CLI Settings
-sidebar_position = 0
-int_links = ['#contents', '#location', '#commands']
+sidebar_position = None
+int_links = ['#contents', '#commands', '#location']
 ext_links = []
 
 === Node ===
@@ -2781,7 +2561,7 @@ Depth = 2
 === Node data ===
 path = references/supported_applications.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/supported_applications.md
-title = None
+title = 
 description = None
 keywords = None
 doc_persona = None
@@ -2789,9 +2569,9 @@ doc_type = None
 doc_topic = None
 slug = None
 sidebar_label = Supported Applications
-sidebar_position = 0
+sidebar_position = None
 int_links = ['../explanations/detailed-push-process.md']
-ext_links = ['https://devcenter.heroku.com/articles/procfile', 'https://github.com/paketo-buildpacks/full-builder', 'https://github.com/paketo-buildpacks/go', 'https://paketo.io/', 'https://github.com/paketo-buildpacks/php-web#configuring-custom-ini-files', 'https://github.com/paketo-buildpacks/procfile', 'https://buildpacks.io/']
+ext_links = ['https://github.com/paketo-buildpacks/full-builder', 'https://github.com/paketo-buildpacks/procfile', 'https://paketo.io/', 'https://buildpacks.io/', 'https://github.com/paketo-buildpacks/go', 'https://devcenter.heroku.com/articles/procfile', 'https://github.com/paketo-buildpacks/php-web#configuring-custom-ini-files']
 
 === Node ===
 Predecessor = ['references/']
@@ -2800,17 +2580,6 @@ Depth = 2
 === Node data ===
 path = system_requirements/
 full_path = /home/jhk/projects/suse/epinio-docs/docs/system_requirements/
-title = None
-description = None
-keywords = None
-doc_persona = None
-doc_type = None
-doc_topic = None
-slug = None
-sidebar_label = None
-sidebar_position = None
-int_links = None
-ext_links = None
 
 === Node ===
 Predecessor = ['system_requirements/']
@@ -2827,9 +2596,9 @@ doc_type = ['reference']
 doc_topic = ['epinio/reference/sys-req']
 slug = None
 sidebar_label = System requirements
-sidebar_position = 0
-int_links = ['../../installation/other_inst_scenarios/install_epinio_on_k3d.md', '../../installation/other_inst_scenarios/install_epinio_on_k3s.md', '../../installation/other_inst_scenarios/install_epinio_on_rke.md', '../../howtos/customization/provision_external_ip_for_local_kubernetes', '../../installation/other_inst_scenarios/install_epinio_on_rancher_desktop.md']
-ext_links = ['https://helm.sh/docs/intro/install/', 'https://github.com/rancher/local-path-provisioner', 'https://docs.nginx.com/nginx-ingress-controller/installation/installation-with-helm/', 'https://longhorn.io', 'https://kubernetes.io/docs/tasks/tools/#kubectl', 'https://doc.traefik.io/traefik/getting-started/install-traefik/#use-the-helm-chart', 'https://cert-manager.io/docs/installation/helm/', 'https://github.com/kubernetes-sigs/metrics-server#installation', 'https://kubernetes.io/docs/concepts/configuration/organize-cluster-access-kubeconfig/#the-kubeconfig-environment-variable']
+sidebar_position = None
+int_links = ['../../howtos/customization/provision_external_ip_for_local_kubernetes', '../../installation/other_inst_scenarios/install_epinio_on_rke.md', '../../installation/other_inst_scenarios/install_epinio_on_rancher_desktop.md', '../../installation/other_inst_scenarios/install_epinio_on_k3s.md', '../../installation/other_inst_scenarios/install_epinio_on_k3d.md']
+ext_links = ['https://cert-manager.io/docs/installation/helm/', 'https://kubernetes.io/docs/concepts/configuration/organize-cluster-access-kubeconfig/#the-kubeconfig-environment-variable', 'https://docs.nginx.com/nginx-ingress-controller/installation/installation-with-helm/', 'https://kubernetes.io/docs/tasks/tools/#kubectl', 'https://github.com/kubernetes-sigs/metrics-server#installation', 'https://longhorn.io', 'https://github.com/rancher/local-path-provisioner', 'https://helm.sh/docs/intro/install/', 'https://doc.traefik.io/traefik/getting-started/install-traefik/#use-the-helm-chart']
 
 === Node ===
 Predecessor = ['system_requirements/']
@@ -2846,9 +2615,9 @@ doc_type = ['one of how-to', 'explanation', 'tutorial', 'reference']
 doc_topic = ['root-branch']
 slug = None
 sidebar_label = Windows
-sidebar_position = 0
+sidebar_position = None
 int_links = []
-ext_links = ['https://github.com/helm/helm/releases', 'https://github.com/epinio/epinio/releases', 'https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/', 'https://gitforwindows.org/']
+ext_links = ['https://gitforwindows.org/', 'https://github.com/helm/helm/releases', 'https://github.com/epinio/epinio/releases', 'https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/']
 
 === Node ===
 Predecessor = ['references/']
@@ -2857,7 +2626,7 @@ Depth = 2
 === Node data ===
 path = references/authentication_oidc.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/authentication_oidc.md
-title = None
+title = 
 description = None
 keywords = None
 doc_persona = None
@@ -2865,7 +2634,7 @@ doc_type = None
 doc_topic = None
 slug = None
 sidebar_label = OIDC authentication
-sidebar_position = 0
+sidebar_position = None
 int_links = []
 ext_links = ['https://dexidp.io/']
 
@@ -2876,7 +2645,7 @@ Depth = 2
 === Node data ===
 path = references/authorization.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/authorization.md
-title = None
+title = 
 description = None
 keywords = None
 doc_persona = None
@@ -2884,7 +2653,7 @@ doc_type = None
 doc_topic = None
 slug = None
 sidebar_label = Authorization
-sidebar_position = 0
+sidebar_position = None
 int_links = []
 ext_links = ['https://github.com/epinio/helm-charts/blob/main/chart/epinio/values.yaml']
 
@@ -2895,7 +2664,7 @@ Depth = 2
 === Node data ===
 path = references/cert-manager.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/references/cert-manager.md
-title = None
+title = 
 description = None
 keywords = None
 doc_persona = None
@@ -2903,9 +2672,9 @@ doc_type = None
 doc_topic = None
 slug = None
 sidebar_label = Cert Manager
-sidebar_position = 0
+sidebar_position = None
 int_links = ['customization/routing_secrets.md']
-ext_links = ['https://cert-manager.io/', 'https://cert-manager.io/docs/installation/supported-releases/', 'https://letsencrypt.org/']
+ext_links = ['https://cert-manager.io/', 'https://letsencrypt.org/', 'https://cert-manager.io/docs/installation/supported-releases/']
 
 === Node ===
 Predecessor = ['root']
@@ -2914,17 +2683,6 @@ Depth = 1
 === Node data ===
 path = tutorials/
 full_path = /home/jhk/projects/suse/epinio-docs/docs/tutorials/
-title = None
-description = None
-keywords = None
-doc_persona = None
-doc_type = None
-doc_topic = None
-slug = None
-sidebar_label = None
-sidebar_position = None
-int_links = None
-ext_links = None
 
 === Node ===
 Predecessor = ['tutorials/']
@@ -2942,7 +2700,7 @@ doc_topic = None
 slug = None
 sidebar_label = None
 sidebar_position = 2
-int_links = ['references/commands/cli/namespace/epinio_namespace_create.md', 'references/commands/cli/namespace/epinio_namespace_list.md', 'references/commands/cli/namespace/epinio_namespace_delete.md', 'references/commands/cli/epinio_target.md', 'docs/installation/install_epinio.md', 'references/commands/cli/namespace/epinio_namespace_show.md']
+int_links = ['references/commands/cli/namespace/epinio_namespace_create.md', 'references/commands/cli/namespace/epinio_namespace_delete.md', 'references/commands/cli/namespace/epinio_namespace_show.md', 'references/commands/cli/namespace/epinio_namespace_list.md', 'references/commands/cli/epinio_target.md', 'docs/installation/install_epinio.md']
 ext_links = []
 
 === Node ===
@@ -2961,7 +2719,7 @@ doc_topic = None
 slug = None
 sidebar_label = Quickstart
 sidebar_position = 1
-int_links = ['../references/commands/cli/epinio_login.md', '../references/manifests.md', '../explanations/advanced.md#git-pushing', '../references/system_requirements/global.md', '../installation/install_epinio.md', '../references/supported_applications.md', '../explanations/detailed-push-process.md', '../installation/other_inst_scenarios/install_epinio_on_rke.md']
+int_links = ['../references/commands/cli/epinio_login.md', '../explanations/advanced.md#git-pushing', '../references/supported_applications.md', '../explanations/detailed-push-process.md', '../references/manifests.md', '../installation/install_epinio.md', '../references/system_requirements/global.md', '../installation/other_inst_scenarios/install_epinio_on_rke.md']
 ext_links = ['https://github.com/epinio/epinio/tree/main/assets/sample-app']
 
 === Node ===
@@ -2981,7 +2739,7 @@ slug = None
 sidebar_label = Epinio Journey: Deploy complex applications with a custom builder image
 sidebar_position = 4
 int_links = []
-ext_links = ['https://github.com/go-gitea/gitea', 'https://buildpacks.io/docs/concepts/components/buildpack/', 'https://github.com/paketo-buildpacks/go/issues/671', 'https://buildpacks.io/docs/tools/pack/', 'https://buildpacks.io/docs/concepts/components/stack/', 'https://github.com/epinio/bionic-full-stack', 'https://github.com/epinio/bionic-full-stack/commit/408e949558a437c99858ac7bb99a8b78e78935e8', 'https://github.com/epinio/example-builder-gitea', 'https://github.com/paketo-buildpacks/node-engine/blob/main/buildpack.toml#L29', 'https://github.com/paketo-buildpacks/bionic-full-stack', 'https://github.com/paketo-buildpacks/go-dist', 'https://github.com/paketo-buildpacks/node-engine', 'https://buildpacks.io/docs/concepts/components/builder/']
+ext_links = ['https://github.com/epinio/bionic-full-stack', 'https://github.com/epinio/bionic-full-stack/commit/408e949558a437c99858ac7bb99a8b78e78935e8', 'https://buildpacks.io/docs/concepts/components/stack/', 'https://buildpacks.io/docs/tools/pack/', 'https://github.com/paketo-buildpacks/node-engine', 'https://github.com/go-gitea/gitea', 'https://github.com/paketo-buildpacks/bionic-full-stack', 'https://github.com/epinio/example-builder-gitea', 'https://github.com/paketo-buildpacks/go-dist', 'https://buildpacks.io/docs/concepts/components/builder/', 'https://github.com/paketo-buildpacks/go/issues/671', 'https://buildpacks.io/docs/concepts/components/buildpack/', 'https://github.com/paketo-buildpacks/node-engine/blob/main/buildpack.toml#L29']
 
 === Node ===
 Predecessor = ['tutorials/']
@@ -2999,8 +2757,8 @@ doc_topic = None
 slug = None
 sidebar_label = Epinio journey: Single developer
 sidebar_position = 3
-int_links = ['../references/commands/cli/epinio_login.md', '#cli', '#installation', '../installation/other_inst_scenarios/install_epinio_on_rancher_desktop.md', '../explanations/detailed-push-process.md#7-stage', '#login', '../installation/install_epinio.md', '../howtos/other/port_forwarding.md', './quickstart.md']
-ext_links = ['https://k3d.io/', 'https://kubernetes.io/docs/tasks/tools/#kubectl', 'https://epinio.127.0.0.1.sslip.io', 'https://helm.sh/docs/intro/install/', 'https://paketo.io/', 'https://rancherdesktop.io/', 'https://github.com/epinio/epinio/releases/latest', 'https://github.com/rancher-sandbox/rancher-desktop/releases']
+int_links = ['./quickstart.md', '../explanations/detailed-push-process.md#7-stage', '../references/commands/cli/epinio_login.md', '#cli', '../installation/install_epinio.md', '../installation/other_inst_scenarios/install_epinio_on_rancher_desktop.md', '../howtos/other/port_forwarding.md', '#installation', '#login']
+ext_links = ['https://github.com/rancher-sandbox/rancher-desktop/releases', 'https://kubernetes.io/docs/tasks/tools/#kubectl', 'https://paketo.io/', 'https://rancherdesktop.io/', 'https://helm.sh/docs/intro/install/', 'https://epinio.127.0.0.1.sslip.io', 'https://github.com/epinio/epinio/releases/latest', 'https://k3d.io/']
 
 === Node ===
 Predecessor = ['root']
@@ -3009,7 +2767,7 @@ Depth = 1
 === Node data ===
 path = versions.md
 full_path = /home/jhk/projects/suse/epinio-docs/docs/versions.md
-title = None
+title = 
 description = None
 keywords = None
 doc_persona = None
@@ -3017,9 +2775,9 @@ doc_type = None
 doc_topic = None
 slug = None
 sidebar_label = None
-sidebar_position = 0
-int_links = ['/next', '/', '/0.6.2', '/1.0.0', '/0.7.1', '/0.9.0', '/0.8.0']
-ext_links = ['https://github.com/epinio/epinio/releases/tag/v0.6.2', 'https://github.com/epinio/epinio/releases/tag/v0.7.1', 'https://github.com/epinio/epinio/releases/tag/v1.1.0', 'https://github.com/epinio/epinio/releases/tag/v0.9.0', 'https://github.com/epinio/epinio/releases/tag/v0.8.0', 'https://github.com/epinio/epinio/releases/tag/v1.0.0']
+sidebar_position = None
+int_links = ['/0.6.2', '/next', '/1.0.0', '/0.9.0', '/0.8.0', '/0.7.1', '/']
+ext_links = ['https://github.com/epinio/epinio/releases/tag/v1.1.0', 'https://github.com/epinio/epinio/releases/tag/v0.9.0', 'https://github.com/epinio/epinio/releases/tag/v0.8.0', 'https://github.com/epinio/epinio/releases/tag/v1.0.0', 'https://github.com/epinio/epinio/releases/tag/v0.7.1', 'https://github.com/epinio/epinio/releases/tag/v0.6.2']
 
 === Node ===
 Predecessor = ['root']
@@ -3038,5 +2796,5 @@ slug = /
 sidebar_label = Introduction
 sidebar_position = 1
 int_links = ['./tutorials/quickstart.md']
-ext_links = ['https://kubernetes.io/', 'https://suse.com', 'https://paketo.io/', 'https://en.wikipedia.org/wiki/Platform_as_a_service', 'https://buildpacks.io/']
+ext_links = ['https://paketo.io/', 'https://buildpacks.io/', 'https://kubernetes.io/', 'https://suse.com', 'https://en.wikipedia.org/wiki/Platform_as_a_service']
 

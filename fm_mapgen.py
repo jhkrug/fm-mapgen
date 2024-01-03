@@ -26,34 +26,27 @@ valid_personas = ["developer", "manager", "operator"]
 
 
 class KmNode(treelib.Node):
-    def __init__(self, path, full_path, slug=None,
-                 title=None, description=None, keywords=None,
-                 sidebar_label=None, sidebar_position=None,
-                 doc_persona=None, doc_type=None, doc_topic=None,
+    def __init__(self, path, full_path, ndd=None,
                  int_links=None, ext_links=None):
         self.path = path
         self.full_path = full_path
-        self.slug = slug
-        self.title = title
-        self.description = description
-        self.keywords = keywords
-        self.sidebar_label = sidebar_label
-        self.sidebar_position = sidebar_position
-        self.doc_persona = doc_persona
-        self.doc_type = doc_type
-        self.doc_topic = doc_topic
+        try:
+            for k in valid_tags.keys():
+                setattr(self, k, ndd[k])
+        except:
+            pass
         self.int_links = int_links
         self.ext_links = ext_links
 
     def __repr__(self):
-        return f"{self.path}, {self.title}, {self.description}"
+        return f"{self.path}, {self.full_path}"
 
     def __str__(self):
         return f"{self.path}"
 
 
 def main(argv):
-    """Does all the things"""
+    """Does the things"""
     args = process_args(argv)
     front_matter = read_yaml_fm(args.yaml_filename)
 
@@ -86,59 +79,31 @@ def print_node(node, depth):
     print("Predecessor =", list(node._predecessor.values()))
     print("Successors =", list(node._successors.values())[0])
     print("Depth =", depth)
-    print_node_data(node.data)
+    print_node_data(node.data, node.is_leaf())
 
 
-def print_node_data(node_data):
+def print_node_data(node_data, node_is_leaf):
     print("=== Node data ===")
     print("path =", node_data.path)
     print("full_path =", node_data.full_path)
     for k in valid_tags.keys():
-        print(k, "=", getattr(node_data, k))
-    print("int_links =", node_data.int_links)
-    print("ext_links =", node_data.ext_links)
+        try:
+            print(k, "=", getattr(node_data, k))
+        except:
+            pass
+    if node_is_leaf:
+        print("int_links =", node_data.int_links)
+        print("ext_links =", node_data.ext_links)
     print()
 
 
 def build_node_data(id, fp, fm, doc_int_links, doc_ext_links):
-    try:
-        slug = fm['frontmatter']['slug']
-    except:
-        slug = None
-    try:
-        title = fm['frontmatter']['title']
-        if title == "":
-            title = None
-    except:
-        title = None
-    try:
-        description = fm['frontmatter']['description']
-    except:
-        description = None
-    try:
-        keywords = fm['frontmatter']['keywords']
-    except:
-        keywords = None
-    try:
-        sidebar_label = fm['frontmatter']['sidebar_label']
-    except:
-        sidebar_label = None
-    try:
-        sidebar_position = int(fm['frontmatter']['sidebar_position'])
-    except:
-        sidebar_position = 0
-    try:
-        doc_persona = fm['frontmatter']['doc-persona']
-    except:
-        doc_persona = None
-    try:
-        doc_type = fm['frontmatter']['doc-type']
-    except:
-        doc_type = None
-    try:
-        doc_topic = fm['frontmatter']['doc-topic']
-    except:
-        doc_topic = None
+    node_data_dict = {}
+    for k, v in valid_tags.items():
+        try:
+            node_data_dict[k] = fm['frontmatter'][v]
+        except:
+            node_data_dict[k] = None
     try:
         int_links = doc_int_links
     except:
@@ -147,9 +112,7 @@ def build_node_data(id, fp, fm, doc_int_links, doc_ext_links):
         ext_links = doc_ext_links
     except:
         ext_links = None
-    node_data = KmNode(id, fp, slug, title, description, keywords,
-                       sidebar_label, sidebar_position,
-                       doc_persona, doc_type, doc_topic, int_links, ext_links)
+    node_data = KmNode(id, fp, node_data_dict, int_links, ext_links)
     return node_data
 
 
