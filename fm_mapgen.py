@@ -19,7 +19,7 @@ class KmNode(treelib.Node):
                  title=None, description=None, keywords=None,
                  sidebar_label=None, sidebar_position=None,
                  doc_persona=None, doc_type=None, doc_topic=None,
-                 links=None):
+                 int_links=None, ext_links=None):
         self.path = path
         self.full_path = full_path
         self.slug = slug
@@ -31,7 +31,8 @@ class KmNode(treelib.Node):
         self.doc_persona = doc_persona
         self.doc_type = doc_type
         self.doc_topic = doc_topic
-        self.links = links
+        self.int_links = int_links
+        self.ext_links = ext_links
 
     def __repr__(self):
         return f"{self.path}, {self.title}, {self.description}"
@@ -72,8 +73,11 @@ class KmNode(treelib.Node):
     def get_doc_topic(self):
         return f"{self.doc_topic}"
 
-    def get_links(self):
-        return f"{self.links}"
+    def get_int_links(self):
+        return f"{self.int_links}"
+
+    def get_ext_links(self):
+        return f"{self.ext_links}"
 
 
 def get_node_data_field(node_data, df):
@@ -101,8 +105,10 @@ def get_node_data_field(node_data, df):
                 return node_data.get_doc_type()
             case "doc-topic":
                 return node_data.get_doc_topic()
-            case "links":
-                return node_data.get_links()
+            case "int_links":
+                return node_data.get_int_links()
+            case "ext_links":
+                return node_data.get_ext_links()
             case _:
                 return None
     except:
@@ -154,11 +160,12 @@ def print_node_data(node_data):
     print("doc-persona =", get_node_data_field(node_data, "doc-persona"))
     print("doc-type =", get_node_data_field(node_data, "doc-type"))
     print("doc-topic =", get_node_data_field(node_data, "doc-topic"))
-    print("links =", get_node_data_field(node_data, "links"))
+    print("int_links =", get_node_data_field(node_data, "int_links"))
+    print("ext_links =", get_node_data_field(node_data, "ext_links"))
     print()
 
 
-def build_node_data(id, fp, fm, doc_links):
+def build_node_data(id, fp, fm, doc_int_links, doc_ext_links):
     try:
         slug = fm['frontmatter']['slug']
     except:
@@ -196,12 +203,16 @@ def build_node_data(id, fp, fm, doc_links):
     except:
         doc_topic = None
     try:
-        links = doc_links
+        int_links = doc_int_links
     except:
-        links = None
+        int_links = None
+    try:
+        ext_links = doc_ext_links
+    except:
+        ext_links = None
     node_data = KmNode(id, fp, slug, title, description, keywords,
                        sidebar_label, sidebar_position,
-                       doc_persona, doc_type, doc_topic, links)
+                       doc_persona, doc_type, doc_topic, int_links, ext_links)
     return node_data
 
 
@@ -239,8 +250,9 @@ def build_kt(front_matter):
 
             # Get the data to populate the leaf node.
             tag = branches[-1]
-            links = extract_links(full_path)
-            node_data = build_node_data(identifier, full_path, fm, links)
+            ext_links, int_links = extract_links(full_path)
+            node_data = build_node_data(
+                identifier, full_path, fm, int_links, ext_links)
             kt.create_node(tag, identifier=identifier,
                            parent=parent, data=node_data)
     return kt
@@ -251,7 +263,15 @@ def extract_links(filename):
     html = markdown.markdown(string, output_format='html')
     links = list(set(re.findall(r'href=[\'"]?([^\'" >]+)', html)))
     links = list(filter(lambda l: l[0] != "{", links))
-    return links
+    elinks = []
+    olinks = []
+    for l in links:
+        r = re.sub("^https?://", "", l)
+        if r != l:
+            elinks.append(l)
+        else:
+            olinks.append(l)
+    return elinks, olinks
 
 
 def process_args(a):
