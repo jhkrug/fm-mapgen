@@ -1341,6 +1341,982 @@ Frontmatter Tree
         ├── 01-intro-wasi.md
         └── 02-raw-policies.md
 Frontmatter Tree
+├── architecture.md
+├── contribution-guide/
+│   ├── contributing.md
+│   └── suggesting-an-improvement.md
+├── distributing-policies.md
+├── distributing-policies/
+│   ├── custom-certificate-authorities.md
+│   ├── oci-registries-support.md
+│   ├── publish-policy-to-artifact-hub.md
+│   └── secure-supply-chain.md
+├── explanations/
+│   ├── audit-scanner/
+│   │   ├── limitations.md
+│   │   ├── policy-reports.md
+│   │   └── audit-scanner.md
+│   ├── context-aware-policies.md
+│   └── opa-comparison.md
+├── howtos/
+│   ├── audit-scanner.md
+│   └── raw-policies.md
+├── introduction.md
+├── operator-manual/
+│   ├── 01-intro.md
+│   ├── CRDs.md
+│   ├── Rancher-Fleet.md
+│   ├── airgap/
+│   │   ├── 01-requirements.md
+│   │   └── 02-install.md
+│   ├── dependency-matrix.md
+│   ├── monitor-mode.md
+│   ├── policies.md
+│   ├── policy-evaluation-timeout.md
+│   ├── policy-servers/
+│   │   ├── 01-custom-cas.md
+│   │   └── 02-private-registry.md
+│   ├── telemetry/
+│   │   ├── metrics/
+│   │   │   ├── 01-quickstart.md
+│   │   │   └── 02-reference.md
+│   │   ├── opentelemetry/
+│   │   │   └── 01-quickstart.md
+│   │   └── tracing/
+│   │       └── 01-quickstart.md
+│   ├── upgrade-path.md
+│   ├── verification-config.md
+│   └── ui-extension/
+│       ├── install.md
+│       ├── metrics.md
+│       └── tracing.md
+├── quick-start.md
+├── security/
+│   ├── 01-intro.md
+│   ├── disclosure.md
+│   ├── threat-model.md
+│   └── verifying-kubewarden.md
+├── tasks.md
+├── tasksDir/
+│   ├── mutating-policies.md
+│   ├── pod-security-admission-with-kubewarden.md
+│   └── psp-migration.md
+├── testing-policies/
+│   ├── 01-intro.md
+│   ├── 02-policy-authors.md
+│   └── 03-cluster-operators.md
+└── writing-policies/
+    ├── dotnet.md
+    ├── go/
+    │   ├── intro-go.md
+    │   ├── scaffold.md
+    │   ├── policy-settings.md
+    │   ├── validation.md
+    │   ├── logging.md
+    │   ├── e2e-tests.md
+    │   ├── automate.md
+    │   ├── distribute.md
+    │   ├── validation-with-queries.md
+    │   └── raw-policies.md
+    ├── index.md
+    ├── metadata.md
+    ├── other-languages.md
+    ├── rego/
+    │   ├── 01-intro-rego.md
+    │   ├── 02-builtin-support.md
+    │   ├── gatekeeper/
+    │   │   ├── 01-intro.md
+    │   │   ├── 02-create-policy.md
+    │   │   ├── 03-build-and-run.md
+    │   │   └── 04-distribute.md
+    │   └── open-policy-agent/
+    │       ├── 01-intro.md
+    │       ├── 02-create-policy.md
+    │       ├── 03-build-and-run.md
+    │       ├── 04-distribute.md
+    │       └── 05-raw-policies.md
+    ├── rust/
+    │   ├── 01-intro-rust.md
+    │   ├── 02-create-policy.md
+    │   ├── 03-define-policy-settings.md
+    │   ├── 04-write-validation-logic.md
+    │   ├── 05-mutation-policy.md
+    │   ├── 06-logging.md
+    │   ├── 07-build-and-distribute.md
+    │   └── 08-raw-policies.md
+    ├── spec/
+    │   ├── 01-intro-spec.md
+    │   ├── 02-settings.md
+    │   ├── 03-validating-policies.md
+    │   ├── 04-mutating-policies.md
+    │   ├── 05-context-aware-policies.md
+    │   └── host-capabilities/
+    │       ├── 01-intro-host-capabilities.md
+    │       ├── 02-signature-verifier-policies.md
+    │       ├── 03-container-registry.md
+    │       ├── 04-net.md
+    │       ├── 05-crypto.md
+    │       └── 06-kubernetes.md
+    ├── swift.md
+    ├── typescript.md
+    └── wasi/
+        ├── 01-intro-wasi.md
+        └── 02-raw-policies.md
+Frontmatter Tree
+├── architecture.md
+├── contribution-guide/
+│   ├── contributing.md
+│   └── suggesting-an-improvement.md
+├── distributing-policies.md
+├── distributing-policies/
+│   ├── custom-certificate-authorities.md
+│   ├── oci-registries-support.md
+│   ├── publish-policy-to-artifact-hub.md
+│   └── secure-supply-chain.md
+├── explanations/
+│   ├── audit-scanner/
+│   │   ├── limitations.md
+│   │   ├── policy-reports.md
+│   │   └── audit-scanner.md
+│   ├── context-aware-policies.md
+│   └── opa-comparison.md
+├── howtos/
+│   ├── audit-scanner.md
+│   └── raw-policies.md
+├── introduction.md
+├── operator-manual/
+│   ├── 01-intro.md
+│   ├── CRDs.md
+│   ├── Rancher-Fleet.md
+│   ├── airgap/
+│   │   ├── 01-requirements.md
+│   │   └── 02-install.md
+│   ├── dependency-matrix.md
+│   ├── monitor-mode.md
+│   ├── policies.md
+│   ├── policy-evaluation-timeout.md
+│   ├── policy-servers/
+│   │   ├── 01-custom-cas.md
+│   │   └── 02-private-registry.md
+│   ├── telemetry/
+│   │   ├── metrics/
+│   │   │   ├── 01-quickstart.md
+│   │   │   └── 02-reference.md
+│   │   ├── opentelemetry/
+│   │   │   └── 01-quickstart.md
+│   │   └── tracing/
+│   │       └── 01-quickstart.md
+│   ├── upgrade-path.md
+│   ├── verification-config.md
+│   └── ui-extension/
+│       ├── install.md
+│       ├── metrics.md
+│       └── tracing.md
+├── quick-start.md
+├── security/
+│   ├── 01-intro.md
+│   ├── disclosure.md
+│   ├── threat-model.md
+│   └── verifying-kubewarden.md
+├── tasks.md
+├── tasksDir/
+│   ├── mutating-policies.md
+│   ├── pod-security-admission-with-kubewarden.md
+│   └── psp-migration.md
+├── testing-policies/
+│   ├── 01-intro.md
+│   ├── 02-policy-authors.md
+│   └── 03-cluster-operators.md
+└── writing-policies/
+    ├── dotnet.md
+    ├── go/
+    │   ├── intro-go.md
+    │   ├── scaffold.md
+    │   ├── policy-settings.md
+    │   ├── validation.md
+    │   ├── logging.md
+    │   ├── e2e-tests.md
+    │   ├── automate.md
+    │   ├── distribute.md
+    │   ├── validation-with-queries.md
+    │   └── raw-policies.md
+    ├── index.md
+    ├── metadata.md
+    ├── other-languages.md
+    ├── rego/
+    │   ├── 01-intro-rego.md
+    │   ├── 02-builtin-support.md
+    │   ├── gatekeeper/
+    │   │   ├── 01-intro.md
+    │   │   ├── 02-create-policy.md
+    │   │   ├── 03-build-and-run.md
+    │   │   └── 04-distribute.md
+    │   └── open-policy-agent/
+    │       ├── 01-intro.md
+    │       ├── 02-create-policy.md
+    │       ├── 03-build-and-run.md
+    │       ├── 04-distribute.md
+    │       └── 05-raw-policies.md
+    ├── rust/
+    │   ├── 01-intro-rust.md
+    │   ├── 02-create-policy.md
+    │   ├── 03-define-policy-settings.md
+    │   ├── 04-write-validation-logic.md
+    │   ├── 05-mutation-policy.md
+    │   ├── 06-logging.md
+    │   ├── 07-build-and-distribute.md
+    │   └── 08-raw-policies.md
+    ├── spec/
+    │   ├── 01-intro-spec.md
+    │   ├── 02-settings.md
+    │   ├── 03-validating-policies.md
+    │   ├── 04-mutating-policies.md
+    │   ├── 05-context-aware-policies.md
+    │   └── host-capabilities/
+    │       ├── 01-intro-host-capabilities.md
+    │       ├── 02-signature-verifier-policies.md
+    │       ├── 03-container-registry.md
+    │       ├── 04-net.md
+    │       ├── 05-crypto.md
+    │       └── 06-kubernetes.md
+    ├── swift.md
+    ├── typescript.md
+    └── wasi/
+        ├── 01-intro-wasi.md
+        └── 02-raw-policies.md
+Frontmatter Tree
+├── architecture.md
+├── contribution-guide/
+│   ├── contributing.md
+│   └── suggesting-an-improvement.md
+├── distributing-policies.md
+├── distributing-policies/
+│   ├── custom-certificate-authorities.md
+│   ├── oci-registries-support.md
+│   ├── publish-policy-to-artifact-hub.md
+│   └── secure-supply-chain.md
+├── explanations/
+│   ├── audit-scanner/
+│   │   ├── limitations.md
+│   │   ├── policy-reports.md
+│   │   └── audit-scanner.md
+│   ├── context-aware-policies.md
+│   └── opa-comparison.md
+├── howtos/
+│   ├── audit-scanner.md
+│   └── raw-policies.md
+├── introduction.md
+├── operator-manual/
+│   ├── 01-intro.md
+│   ├── CRDs.md
+│   ├── Rancher-Fleet.md
+│   ├── airgap/
+│   │   ├── 01-requirements.md
+│   │   └── 02-install.md
+│   ├── dependency-matrix.md
+│   ├── monitor-mode.md
+│   ├── policies.md
+│   ├── policy-evaluation-timeout.md
+│   ├── policy-servers/
+│   │   ├── 01-custom-cas.md
+│   │   └── 02-private-registry.md
+│   ├── telemetry/
+│   │   ├── metrics/
+│   │   │   ├── 01-quickstart.md
+│   │   │   └── 02-reference.md
+│   │   ├── opentelemetry/
+│   │   │   └── 01-quickstart.md
+│   │   └── tracing/
+│   │       └── 01-quickstart.md
+│   ├── upgrade-path.md
+│   ├── verification-config.md
+│   └── ui-extension/
+│       ├── install.md
+│       ├── metrics.md
+│       └── tracing.md
+├── quick-start.md
+├── security/
+│   ├── 01-intro.md
+│   ├── disclosure.md
+│   ├── threat-model.md
+│   └── verifying-kubewarden.md
+├── tasks.md
+├── tasksDir/
+│   ├── mutating-policies.md
+│   ├── pod-security-admission-with-kubewarden.md
+│   └── psp-migration.md
+├── testing-policies/
+│   ├── 01-intro.md
+│   ├── 02-policy-authors.md
+│   └── 03-cluster-operators.md
+└── writing-policies/
+    ├── dotnet.md
+    ├── go/
+    │   ├── intro-go.md
+    │   ├── scaffold.md
+    │   ├── policy-settings.md
+    │   ├── validation.md
+    │   ├── logging.md
+    │   ├── e2e-tests.md
+    │   ├── automate.md
+    │   ├── distribute.md
+    │   ├── validation-with-queries.md
+    │   └── raw-policies.md
+    ├── index.md
+    ├── metadata.md
+    ├── other-languages.md
+    ├── rego/
+    │   ├── 01-intro-rego.md
+    │   ├── 02-builtin-support.md
+    │   ├── gatekeeper/
+    │   │   ├── 01-intro.md
+    │   │   ├── 02-create-policy.md
+    │   │   ├── 03-build-and-run.md
+    │   │   └── 04-distribute.md
+    │   └── open-policy-agent/
+    │       ├── 01-intro.md
+    │       ├── 02-create-policy.md
+    │       ├── 03-build-and-run.md
+    │       ├── 04-distribute.md
+    │       └── 05-raw-policies.md
+    ├── rust/
+    │   ├── 01-intro-rust.md
+    │   ├── 02-create-policy.md
+    │   ├── 03-define-policy-settings.md
+    │   ├── 04-write-validation-logic.md
+    │   ├── 05-mutation-policy.md
+    │   ├── 06-logging.md
+    │   ├── 07-build-and-distribute.md
+    │   └── 08-raw-policies.md
+    ├── spec/
+    │   ├── 01-intro-spec.md
+    │   ├── 02-settings.md
+    │   ├── 03-validating-policies.md
+    │   ├── 04-mutating-policies.md
+    │   ├── 05-context-aware-policies.md
+    │   └── host-capabilities/
+    │       ├── 01-intro-host-capabilities.md
+    │       ├── 02-signature-verifier-policies.md
+    │       ├── 03-container-registry.md
+    │       ├── 04-net.md
+    │       ├── 05-crypto.md
+    │       └── 06-kubernetes.md
+    ├── swift.md
+    ├── typescript.md
+    └── wasi/
+        ├── 01-intro-wasi.md
+        └── 02-raw-policies.md
+Frontmatter Tree
+├── architecture.md
+├── contribution-guide/
+│   ├── contributing.md
+│   └── suggesting-an-improvement.md
+├── distributing-policies.md
+├── distributing-policies/
+│   ├── custom-certificate-authorities.md
+│   ├── oci-registries-support.md
+│   ├── publish-policy-to-artifact-hub.md
+│   └── secure-supply-chain.md
+├── explanations/
+│   ├── audit-scanner/
+│   │   ├── limitations.md
+│   │   ├── policy-reports.md
+│   │   └── audit-scanner.md
+│   ├── context-aware-policies.md
+│   └── opa-comparison.md
+├── howtos/
+│   ├── audit-scanner.md
+│   └── raw-policies.md
+├── introduction.md
+├── operator-manual/
+│   ├── 01-intro.md
+│   ├── CRDs.md
+│   ├── Rancher-Fleet.md
+│   ├── airgap/
+│   │   ├── 01-requirements.md
+│   │   └── 02-install.md
+│   ├── dependency-matrix.md
+│   ├── monitor-mode.md
+│   ├── policies.md
+│   ├── policy-evaluation-timeout.md
+│   ├── policy-servers/
+│   │   ├── 01-custom-cas.md
+│   │   └── 02-private-registry.md
+│   ├── telemetry/
+│   │   ├── metrics/
+│   │   │   ├── 01-quickstart.md
+│   │   │   └── 02-reference.md
+│   │   ├── opentelemetry/
+│   │   │   └── 01-quickstart.md
+│   │   └── tracing/
+│   │       └── 01-quickstart.md
+│   ├── upgrade-path.md
+│   ├── verification-config.md
+│   └── ui-extension/
+│       ├── install.md
+│       ├── metrics.md
+│       └── tracing.md
+├── quick-start.md
+├── security/
+│   ├── 01-intro.md
+│   ├── disclosure.md
+│   ├── threat-model.md
+│   └── verifying-kubewarden.md
+├── tasks.md
+├── tasksDir/
+│   ├── mutating-policies.md
+│   ├── pod-security-admission-with-kubewarden.md
+│   └── psp-migration.md
+├── testing-policies/
+│   ├── 01-intro.md
+│   ├── 02-policy-authors.md
+│   └── 03-cluster-operators.md
+└── writing-policies/
+    ├── dotnet.md
+    ├── go/
+    │   ├── intro-go.md
+    │   ├── scaffold.md
+    │   ├── policy-settings.md
+    │   ├── validation.md
+    │   ├── logging.md
+    │   ├── e2e-tests.md
+    │   ├── automate.md
+    │   ├── distribute.md
+    │   ├── validation-with-queries.md
+    │   └── raw-policies.md
+    ├── index.md
+    ├── metadata.md
+    ├── other-languages.md
+    ├── rego/
+    │   ├── 01-intro-rego.md
+    │   ├── 02-builtin-support.md
+    │   ├── gatekeeper/
+    │   │   ├── 01-intro.md
+    │   │   ├── 02-create-policy.md
+    │   │   ├── 03-build-and-run.md
+    │   │   └── 04-distribute.md
+    │   └── open-policy-agent/
+    │       ├── 01-intro.md
+    │       ├── 02-create-policy.md
+    │       ├── 03-build-and-run.md
+    │       ├── 04-distribute.md
+    │       └── 05-raw-policies.md
+    ├── rust/
+    │   ├── 01-intro-rust.md
+    │   ├── 02-create-policy.md
+    │   ├── 03-define-policy-settings.md
+    │   ├── 04-write-validation-logic.md
+    │   ├── 05-mutation-policy.md
+    │   ├── 06-logging.md
+    │   ├── 07-build-and-distribute.md
+    │   └── 08-raw-policies.md
+    ├── spec/
+    │   ├── 01-intro-spec.md
+    │   ├── 02-settings.md
+    │   ├── 03-validating-policies.md
+    │   ├── 04-mutating-policies.md
+    │   ├── 05-context-aware-policies.md
+    │   └── host-capabilities/
+    │       ├── 01-intro-host-capabilities.md
+    │       ├── 02-signature-verifier-policies.md
+    │       ├── 03-container-registry.md
+    │       ├── 04-net.md
+    │       ├── 05-crypto.md
+    │       └── 06-kubernetes.md
+    ├── swift.md
+    ├── typescript.md
+    └── wasi/
+        ├── 01-intro-wasi.md
+        └── 02-raw-policies.md
+Frontmatter Tree
+├── architecture.md
+├── contribution-guide/
+│   ├── contributing.md
+│   └── suggesting-an-improvement.md
+├── distributing-policies.md
+├── distributing-policies/
+│   ├── custom-certificate-authorities.md
+│   ├── oci-registries-support.md
+│   ├── publish-policy-to-artifact-hub.md
+│   └── secure-supply-chain.md
+├── explanations/
+│   ├── audit-scanner/
+│   │   ├── limitations.md
+│   │   ├── policy-reports.md
+│   │   └── audit-scanner.md
+│   ├── context-aware-policies.md
+│   └── opa-comparison.md
+├── howtos/
+│   ├── audit-scanner.md
+│   └── raw-policies.md
+├── introduction.md
+├── operator-manual/
+│   ├── 01-intro.md
+│   ├── CRDs.md
+│   ├── Rancher-Fleet.md
+│   ├── airgap/
+│   │   ├── 01-requirements.md
+│   │   └── 02-install.md
+│   ├── dependency-matrix.md
+│   ├── monitor-mode.md
+│   ├── policies.md
+│   ├── policy-evaluation-timeout.md
+│   ├── policy-servers/
+│   │   ├── 01-custom-cas.md
+│   │   └── 02-private-registry.md
+│   ├── telemetry/
+│   │   ├── metrics/
+│   │   │   ├── 01-quickstart.md
+│   │   │   └── 02-reference.md
+│   │   ├── opentelemetry/
+│   │   │   └── 01-quickstart.md
+│   │   └── tracing/
+│   │       └── 01-quickstart.md
+│   ├── upgrade-path.md
+│   ├── verification-config.md
+│   └── ui-extension/
+│       ├── install.md
+│       ├── metrics.md
+│       └── tracing.md
+├── quick-start.md
+├── security/
+│   ├── 01-intro.md
+│   ├── disclosure.md
+│   ├── threat-model.md
+│   └── verifying-kubewarden.md
+├── tasks.md
+├── tasksDir/
+│   ├── mutating-policies.md
+│   ├── pod-security-admission-with-kubewarden.md
+│   └── psp-migration.md
+├── testing-policies/
+│   ├── 01-intro.md
+│   ├── 02-policy-authors.md
+│   └── 03-cluster-operators.md
+└── writing-policies/
+    ├── dotnet.md
+    ├── go/
+    │   ├── intro-go.md
+    │   ├── scaffold.md
+    │   ├── policy-settings.md
+    │   ├── validation.md
+    │   ├── logging.md
+    │   ├── e2e-tests.md
+    │   ├── automate.md
+    │   ├── distribute.md
+    │   ├── validation-with-queries.md
+    │   └── raw-policies.md
+    ├── index.md
+    ├── metadata.md
+    ├── other-languages.md
+    ├── rego/
+    │   ├── 01-intro-rego.md
+    │   ├── 02-builtin-support.md
+    │   ├── gatekeeper/
+    │   │   ├── 01-intro.md
+    │   │   ├── 02-create-policy.md
+    │   │   ├── 03-build-and-run.md
+    │   │   └── 04-distribute.md
+    │   └── open-policy-agent/
+    │       ├── 01-intro.md
+    │       ├── 02-create-policy.md
+    │       ├── 03-build-and-run.md
+    │       ├── 04-distribute.md
+    │       └── 05-raw-policies.md
+    ├── rust/
+    │   ├── 01-intro-rust.md
+    │   ├── 02-create-policy.md
+    │   ├── 03-define-policy-settings.md
+    │   ├── 04-write-validation-logic.md
+    │   ├── 05-mutation-policy.md
+    │   ├── 06-logging.md
+    │   ├── 07-build-and-distribute.md
+    │   └── 08-raw-policies.md
+    ├── spec/
+    │   ├── 01-intro-spec.md
+    │   ├── 02-settings.md
+    │   ├── 03-validating-policies.md
+    │   ├── 04-mutating-policies.md
+    │   ├── 05-context-aware-policies.md
+    │   └── host-capabilities/
+    │       ├── 01-intro-host-capabilities.md
+    │       ├── 02-signature-verifier-policies.md
+    │       ├── 03-container-registry.md
+    │       ├── 04-net.md
+    │       ├── 05-crypto.md
+    │       └── 06-kubernetes.md
+    ├── swift.md
+    ├── typescript.md
+    └── wasi/
+        ├── 01-intro-wasi.md
+        └── 02-raw-policies.md
+Frontmatter Tree
+├── architecture.md
+├── contribution-guide/
+│   ├── contributing.md
+│   └── suggesting-an-improvement.md
+├── distributing-policies.md
+├── distributing-policies/
+│   ├── custom-certificate-authorities.md
+│   ├── oci-registries-support.md
+│   ├── publish-policy-to-artifact-hub.md
+│   └── secure-supply-chain.md
+├── explanations/
+│   ├── audit-scanner/
+│   │   ├── limitations.md
+│   │   ├── policy-reports.md
+│   │   └── audit-scanner.md
+│   ├── context-aware-policies.md
+│   └── opa-comparison.md
+├── howtos/
+│   ├── audit-scanner.md
+│   └── raw-policies.md
+├── introduction.md
+├── operator-manual/
+│   ├── 01-intro.md
+│   ├── CRDs.md
+│   ├── Rancher-Fleet.md
+│   ├── airgap/
+│   │   ├── 01-requirements.md
+│   │   └── 02-install.md
+│   ├── dependency-matrix.md
+│   ├── monitor-mode.md
+│   ├── policies.md
+│   ├── policy-evaluation-timeout.md
+│   ├── policy-servers/
+│   │   ├── 01-custom-cas.md
+│   │   └── 02-private-registry.md
+│   ├── telemetry/
+│   │   ├── metrics/
+│   │   │   ├── 01-quickstart.md
+│   │   │   └── 02-reference.md
+│   │   ├── opentelemetry/
+│   │   │   └── 01-quickstart.md
+│   │   └── tracing/
+│   │       └── 01-quickstart.md
+│   ├── upgrade-path.md
+│   ├── verification-config.md
+│   └── ui-extension/
+│       ├── install.md
+│       ├── metrics.md
+│       └── tracing.md
+├── quick-start.md
+├── security/
+│   ├── 01-intro.md
+│   ├── disclosure.md
+│   ├── threat-model.md
+│   └── verifying-kubewarden.md
+├── tasks.md
+├── tasksDir/
+│   ├── mutating-policies.md
+│   ├── pod-security-admission-with-kubewarden.md
+│   └── psp-migration.md
+├── testing-policies/
+│   ├── 01-intro.md
+│   ├── 02-policy-authors.md
+│   └── 03-cluster-operators.md
+└── writing-policies/
+    ├── dotnet.md
+    ├── go/
+    │   ├── intro-go.md
+    │   ├── scaffold.md
+    │   ├── policy-settings.md
+    │   ├── validation.md
+    │   ├── logging.md
+    │   ├── e2e-tests.md
+    │   ├── automate.md
+    │   ├── distribute.md
+    │   ├── validation-with-queries.md
+    │   └── raw-policies.md
+    ├── index.md
+    ├── metadata.md
+    ├── other-languages.md
+    ├── rego/
+    │   ├── 01-intro-rego.md
+    │   ├── 02-builtin-support.md
+    │   ├── gatekeeper/
+    │   │   ├── 01-intro.md
+    │   │   ├── 02-create-policy.md
+    │   │   ├── 03-build-and-run.md
+    │   │   └── 04-distribute.md
+    │   └── open-policy-agent/
+    │       ├── 01-intro.md
+    │       ├── 02-create-policy.md
+    │       ├── 03-build-and-run.md
+    │       ├── 04-distribute.md
+    │       └── 05-raw-policies.md
+    ├── rust/
+    │   ├── 01-intro-rust.md
+    │   ├── 02-create-policy.md
+    │   ├── 03-define-policy-settings.md
+    │   ├── 04-write-validation-logic.md
+    │   ├── 05-mutation-policy.md
+    │   ├── 06-logging.md
+    │   ├── 07-build-and-distribute.md
+    │   └── 08-raw-policies.md
+    ├── spec/
+    │   ├── 01-intro-spec.md
+    │   ├── 02-settings.md
+    │   ├── 03-validating-policies.md
+    │   ├── 04-mutating-policies.md
+    │   ├── 05-context-aware-policies.md
+    │   └── host-capabilities/
+    │       ├── 01-intro-host-capabilities.md
+    │       ├── 02-signature-verifier-policies.md
+    │       ├── 03-container-registry.md
+    │       ├── 04-net.md
+    │       ├── 05-crypto.md
+    │       └── 06-kubernetes.md
+    ├── swift.md
+    ├── typescript.md
+    └── wasi/
+        ├── 01-intro-wasi.md
+        └── 02-raw-policies.md
+Frontmatter Tree
+├── architecture.md
+├── contribution-guide/
+│   ├── contributing.md
+│   └── suggesting-an-improvement.md
+├── distributing-policies.md
+├── distributing-policies/
+│   ├── custom-certificate-authorities.md
+│   ├── oci-registries-support.md
+│   ├── publish-policy-to-artifact-hub.md
+│   └── secure-supply-chain.md
+├── explanations/
+│   ├── audit-scanner/
+│   │   ├── limitations.md
+│   │   ├── policy-reports.md
+│   │   └── audit-scanner.md
+│   ├── context-aware-policies.md
+│   └── opa-comparison.md
+├── howtos/
+│   ├── audit-scanner.md
+│   └── raw-policies.md
+├── introduction.md
+├── operator-manual/
+│   ├── 01-intro.md
+│   ├── CRDs.md
+│   ├── Rancher-Fleet.md
+│   ├── airgap/
+│   │   ├── 01-requirements.md
+│   │   └── 02-install.md
+│   ├── dependency-matrix.md
+│   ├── monitor-mode.md
+│   ├── policies.md
+│   ├── policy-evaluation-timeout.md
+│   ├── policy-servers/
+│   │   ├── 01-custom-cas.md
+│   │   └── 02-private-registry.md
+│   ├── telemetry/
+│   │   ├── metrics/
+│   │   │   ├── 01-quickstart.md
+│   │   │   └── 02-reference.md
+│   │   ├── opentelemetry/
+│   │   │   └── 01-quickstart.md
+│   │   └── tracing/
+│   │       └── 01-quickstart.md
+│   ├── upgrade-path.md
+│   ├── verification-config.md
+│   └── ui-extension/
+│       ├── install.md
+│       ├── metrics.md
+│       └── tracing.md
+├── quick-start.md
+├── security/
+│   ├── 01-intro.md
+│   ├── disclosure.md
+│   ├── threat-model.md
+│   └── verifying-kubewarden.md
+├── tasks.md
+├── tasksDir/
+│   ├── mutating-policies.md
+│   ├── pod-security-admission-with-kubewarden.md
+│   └── psp-migration.md
+├── testing-policies/
+│   ├── 01-intro.md
+│   ├── 02-policy-authors.md
+│   └── 03-cluster-operators.md
+└── writing-policies/
+    ├── dotnet.md
+    ├── go/
+    │   ├── intro-go.md
+    │   ├── scaffold.md
+    │   ├── policy-settings.md
+    │   ├── validation.md
+    │   ├── logging.md
+    │   ├── e2e-tests.md
+    │   ├── automate.md
+    │   ├── distribute.md
+    │   ├── validation-with-queries.md
+    │   └── raw-policies.md
+    ├── index.md
+    ├── metadata.md
+    ├── other-languages.md
+    ├── rego/
+    │   ├── 01-intro-rego.md
+    │   ├── 02-builtin-support.md
+    │   ├── gatekeeper/
+    │   │   ├── 01-intro.md
+    │   │   ├── 02-create-policy.md
+    │   │   ├── 03-build-and-run.md
+    │   │   └── 04-distribute.md
+    │   └── open-policy-agent/
+    │       ├── 01-intro.md
+    │       ├── 02-create-policy.md
+    │       ├── 03-build-and-run.md
+    │       ├── 04-distribute.md
+    │       └── 05-raw-policies.md
+    ├── rust/
+    │   ├── 01-intro-rust.md
+    │   ├── 02-create-policy.md
+    │   ├── 03-define-policy-settings.md
+    │   ├── 04-write-validation-logic.md
+    │   ├── 05-mutation-policy.md
+    │   ├── 06-logging.md
+    │   ├── 07-build-and-distribute.md
+    │   └── 08-raw-policies.md
+    ├── spec/
+    │   ├── 01-intro-spec.md
+    │   ├── 02-settings.md
+    │   ├── 03-validating-policies.md
+    │   ├── 04-mutating-policies.md
+    │   ├── 05-context-aware-policies.md
+    │   └── host-capabilities/
+    │       ├── 01-intro-host-capabilities.md
+    │       ├── 02-signature-verifier-policies.md
+    │       ├── 03-container-registry.md
+    │       ├── 04-net.md
+    │       ├── 05-crypto.md
+    │       └── 06-kubernetes.md
+    ├── swift.md
+    ├── typescript.md
+    └── wasi/
+        ├── 01-intro-wasi.md
+        └── 02-raw-policies.md
+Frontmatter Tree
+├── architecture.md
+├── contribution-guide/
+│   ├── contributing.md
+│   └── suggesting-an-improvement.md
+├── distributing-policies.md
+├── distributing-policies/
+│   ├── custom-certificate-authorities.md
+│   ├── oci-registries-support.md
+│   ├── publish-policy-to-artifact-hub.md
+│   └── secure-supply-chain.md
+├── explanations/
+│   ├── audit-scanner/
+│   │   ├── limitations.md
+│   │   ├── policy-reports.md
+│   │   └── audit-scanner.md
+│   ├── context-aware-policies.md
+│   └── opa-comparison.md
+├── howtos/
+│   ├── audit-scanner.md
+│   └── raw-policies.md
+├── introduction.md
+├── operator-manual/
+│   ├── 01-intro.md
+│   ├── CRDs.md
+│   ├── Rancher-Fleet.md
+│   ├── airgap/
+│   │   ├── 01-requirements.md
+│   │   └── 02-install.md
+│   ├── dependency-matrix.md
+│   ├── monitor-mode.md
+│   ├── policies.md
+│   ├── policy-evaluation-timeout.md
+│   ├── policy-servers/
+│   │   ├── 01-custom-cas.md
+│   │   └── 02-private-registry.md
+│   ├── telemetry/
+│   │   ├── metrics/
+│   │   │   ├── 01-quickstart.md
+│   │   │   └── 02-reference.md
+│   │   ├── opentelemetry/
+│   │   │   └── 01-quickstart.md
+│   │   └── tracing/
+│   │       └── 01-quickstart.md
+│   ├── upgrade-path.md
+│   ├── verification-config.md
+│   └── ui-extension/
+│       ├── install.md
+│       ├── metrics.md
+│       └── tracing.md
+├── quick-start.md
+├── security/
+│   ├── 01-intro.md
+│   ├── disclosure.md
+│   ├── threat-model.md
+│   └── verifying-kubewarden.md
+├── tasks.md
+├── tasksDir/
+│   ├── mutating-policies.md
+│   ├── pod-security-admission-with-kubewarden.md
+│   └── psp-migration.md
+├── testing-policies/
+│   ├── 01-intro.md
+│   ├── 02-policy-authors.md
+│   └── 03-cluster-operators.md
+└── writing-policies/
+    ├── dotnet.md
+    ├── go/
+    │   ├── intro-go.md
+    │   ├── scaffold.md
+    │   ├── policy-settings.md
+    │   ├── validation.md
+    │   ├── logging.md
+    │   ├── e2e-tests.md
+    │   ├── automate.md
+    │   ├── distribute.md
+    │   ├── validation-with-queries.md
+    │   └── raw-policies.md
+    ├── index.md
+    ├── metadata.md
+    ├── other-languages.md
+    ├── rego/
+    │   ├── 01-intro-rego.md
+    │   ├── 02-builtin-support.md
+    │   ├── gatekeeper/
+    │   │   ├── 01-intro.md
+    │   │   ├── 02-create-policy.md
+    │   │   ├── 03-build-and-run.md
+    │   │   └── 04-distribute.md
+    │   └── open-policy-agent/
+    │       ├── 01-intro.md
+    │       ├── 02-create-policy.md
+    │       ├── 03-build-and-run.md
+    │       ├── 04-distribute.md
+    │       └── 05-raw-policies.md
+    ├── rust/
+    │   ├── 01-intro-rust.md
+    │   ├── 02-create-policy.md
+    │   ├── 03-define-policy-settings.md
+    │   ├── 04-write-validation-logic.md
+    │   ├── 05-mutation-policy.md
+    │   ├── 06-logging.md
+    │   ├── 07-build-and-distribute.md
+    │   └── 08-raw-policies.md
+    ├── spec/
+    │   ├── 01-intro-spec.md
+    │   ├── 02-settings.md
+    │   ├── 03-validating-policies.md
+    │   ├── 04-mutating-policies.md
+    │   ├── 05-context-aware-policies.md
+    │   └── host-capabilities/
+    │       ├── 01-intro-host-capabilities.md
+    │       ├── 02-signature-verifier-policies.md
+    │       ├── 03-container-registry.md
+    │       ├── 04-net.md
+    │       ├── 05-crypto.md
+    │       └── 06-kubernetes.md
+    ├── swift.md
+    ├── typescript.md
+    └── wasi/
+        ├── 01-intro-wasi.md
+        └── 02-raw-policies.md
+Frontmatter Tree
 ├── explanations/
 │   ├── advanced.md
 │   ├── detailed-push-process.md

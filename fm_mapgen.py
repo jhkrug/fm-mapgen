@@ -7,11 +7,22 @@ import treelib
 import markdown
 import re
 
-required_tags = {"title", "description", "keywords",
-                 "doc-persona", "doc-type", "doc-topic"}
-valid_tags = required_tags | {"slug", "sidebar_label", "sidebar_position"}
+required_tags = {
+    "title": "title",
+    "description": "description",
+    "keywords": "keywords",
+    "doc_persona": "doc-persona",
+    "doc_type": "doc-type",
+    "doc_topic": "doc-topic"
+}
 
-valid_personas = {"developer", "manager", "operator"}
+valid_tags = required_tags | {
+    "slug": "slug",
+    "sidebar_label": "sidebar_label",
+    "sidebar_position": "sidebar_position"
+}
+
+valid_personas = ["developer", "manager", "operator"]
 
 
 class KmNode(treelib.Node):
@@ -40,80 +51,6 @@ class KmNode(treelib.Node):
     def __str__(self):
         return f"{self.path}"
 
-    def get_path(self):
-        return f"{self.path}"
-
-    def get_full_path(self):
-        return f"{self.full_path}"
-
-    def get_slug(self):
-        return f"{self.slug}"
-
-    def get_title(self):
-        return f"{self.title}"
-
-    def get_description(self):
-        return f"{self.description}"
-
-    def get_keywords(self):
-        return f"{self.keywords}"
-
-    def get_sidebar_label(self):
-        return f"{self.sidebar_label}"
-
-    def get_sidebar_position(self):
-        return f"{self.sidebar_position}"
-
-    def get_doc_persona(self):
-        return f"{self.doc_persona}"
-
-    def get_doc_type(self):
-        return f"{self.doc_type}"
-
-    def get_doc_topic(self):
-        return f"{self.doc_topic}"
-
-    def get_int_links(self):
-        return f"{self.int_links}"
-
-    def get_ext_links(self):
-        return f"{self.ext_links}"
-
-
-def get_node_data_field(node_data, df):
-    try:
-        match df:
-            case "path":
-                return node_data.get_path()
-            case "full_path":
-                return node_data.get_full_path()
-            case "slug":
-                return node_data.get_slug()
-            case "title":
-                return node_data.get_title()
-            case "description":
-                return node_data.get_description()
-            case "keywords":
-                return node_data.get_keywords()
-            case "sidebar_label":
-                return node_data.sidebar_label()
-            case "sidebar_position":
-                return node_data.get_sidebar_position()
-            case "doc-persona":
-                return node_data.get_doc_persona()
-            case "doc-type":
-                return node_data.get_doc_type()
-            case "doc-topic":
-                return node_data.get_doc_topic()
-            case "int_links":
-                return node_data.get_int_links()
-            case "ext_links":
-                return node_data.get_ext_links()
-            case _:
-                return None
-    except:
-        return None
-
 
 def main(argv):
     """Does all the things"""
@@ -125,8 +62,7 @@ def main(argv):
     kt.to_graphviz(filename='tree.dot')
 
     if args.dump:
-        for node in kt.all_nodes_itr():
-            print_node(node)
+        print_tree(kt)
 
     if args.no_frontmatter:
         report_files_without_fm(front_matter)
@@ -139,29 +75,28 @@ def main(argv):
             report_files_without_fm_tag(front_matter, fm_tag)
 
 
-def print_node(node):
+def print_tree(kt):
+    print("tree_depth =", kt.depth())
+    for node in kt.all_nodes_itr():
+        print_node(node, kt.depth(node))
+
+
+def print_node(node, depth):
     print("=== Node ===")
     print("Predecessor =", list(node._predecessor.values()))
     print("Successors =", list(node._successors.values())[0])
+    print("Depth =", depth)
     print_node_data(node.data)
 
 
 def print_node_data(node_data):
     print("=== Node data ===")
-    print("path =", get_node_data_field(node_data, "path"))
-    print("full_path =", get_node_data_field(node_data, "full_path"))
-    print("slug =", get_node_data_field(node_data, "slug"))
-    print("title =", get_node_data_field(node_data, "title"))
-    print("description =", get_node_data_field(node_data, "description"))
-    print("keywords =", get_node_data_field(node_data, "keywords"))
-    print("sidebar_label =", get_node_data_field(node_data, "sidebar_label"))
-    print("sidebar_position =",
-          get_node_data_field(node_data, "sidebar_position"))
-    print("doc-persona =", get_node_data_field(node_data, "doc-persona"))
-    print("doc-type =", get_node_data_field(node_data, "doc-type"))
-    print("doc-topic =", get_node_data_field(node_data, "doc-topic"))
-    print("int_links =", get_node_data_field(node_data, "int_links"))
-    print("ext_links =", get_node_data_field(node_data, "ext_links"))
+    print("path =", node_data.path)
+    print("full_path =", node_data.full_path)
+    for k in valid_tags.keys():
+        print(k, "=", getattr(node_data, k))
+    print("int_links =", node_data.int_links)
+    print("ext_links =", node_data.ext_links)
     print()
 
 
@@ -172,6 +107,8 @@ def build_node_data(id, fp, fm, doc_int_links, doc_ext_links):
         slug = None
     try:
         title = fm['frontmatter']['title']
+        if title == "":
+            title = None
     except:
         title = None
     try:
@@ -263,8 +200,7 @@ def extract_links(filename):
     html = markdown.markdown(string, output_format='html')
     links = list(set(re.findall(r'href=[\'"]?([^\'" >]+)', html)))
     links = list(filter(lambda l: l[0] != "{", links))
-    elinks = []
-    olinks = []
+    olinks, elinks = [], []
     for l in links:
         r = re.sub("^https?://", "", l)
         if r != l:
@@ -343,9 +279,9 @@ def report_files_with_unrecognized_fm_tags(front_matter):
             try:
                 f = fm['frontmatter']
                 path = fm['path']
-                for tag in f:
-                    if tag not in valid_tags:
-                        printf("Tag '%s' in file: %s\n", tag, path)
+                for fm_tag in f:
+                    if fm_tag not in valid_tags.values():
+                        printf("Tag '%s' in file: %s\n", fm_tag, path)
             except:
                 # no frontmatter here
                 pass
