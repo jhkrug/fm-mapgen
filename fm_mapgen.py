@@ -7,31 +7,18 @@ import treelib
 import markdown
 import re
 
-required_tags = {
-    "title": "title",
-    "description": "description",
-    "keywords": "keywords",
-    "doc_persona": "doc-persona",
-    "doc_type": "doc-type",
-    "doc_topic": "doc-topic"
-}
-
-valid_tags = required_tags | {
-    "slug": "slug",
-    "sidebar_label": "sidebar_label",
-    "sidebar_position": "sidebar_position"
-}
-
-valid_personas = ["developer", "manager", "operator"]
+required_fm_tags = {}
+other_fm_tags = {}
+valid_fm_tags = {}
 
 
 class KmNode(treelib.Node):
-    def __init__(self, path, full_path, ndd=None,
+    def __init__(self, path, full_path, ndd: dict = {},
                  int_links=None, ext_links=None):
         self.path = path
         self.full_path = full_path
         try:
-            for k in valid_tags.keys():
+            for k in valid_fm_tags.keys():
                 setattr(self, k, ndd[k])
         except:
             pass
@@ -45,10 +32,20 @@ class KmNode(treelib.Node):
         return f"{self.path}"
 
 
+def read_config(r, o):
+    global required_fm_tags
+    global other_fm_tags
+    global valid_fm_tags
+    required_fm_tags = read_yaml(r)
+    other_fm_tags = read_yaml(o)
+    valid_fm_tags = required_fm_tags | other_fm_tags
+
+
 def main(argv):
     """Does the things"""
     args = process_args(argv)
-    front_matter = read_yaml_fm(args.yaml_filename)
+    read_config(args.required_fm_tags, args.other_fm_tags)
+    front_matter = read_yaml(args.yaml_filename)
 
     kt = build_kt(front_matter)
     kt.save2file(filename='tree.txt', key=False)
@@ -64,7 +61,7 @@ def main(argv):
     if args.fm_tag:
         report_files_without_fm_tag(front_matter, args.fm_tag)
     if args.all_fm_tags:
-        for fm_tag in required_tags:
+        for fm_tag in required_fm_tags:
             report_files_without_fm_tag(front_matter, fm_tag)
 
 
@@ -86,7 +83,7 @@ def print_node_data(node_data, node_is_leaf):
     print("=== Node data ===")
     print("path =", node_data.path)
     print("full_path =", node_data.full_path)
-    for k in valid_tags.keys():
+    for k in valid_fm_tags.keys():
         try:
             print(k, "=", getattr(node_data, k))
         except:
@@ -99,7 +96,7 @@ def print_node_data(node_data, node_is_leaf):
 
 def build_node_data(id, fp, fm, doc_int_links, doc_ext_links):
     node_data_dict = {}
-    for k, v in valid_tags.items():
+    for k, v in valid_fm_tags.items():
         try:
             node_data_dict[k] = fm['frontmatter'][v]
         except:
@@ -179,6 +176,12 @@ def process_args(a):
     arg_parser.add_argument("-f", "--yaml_filename",
                             help="A YAML file containing frontmatter to read.",
                             required=True)
+    arg_parser.add_argument("-r", "--required_fm_tags",
+                            help="A YAML file containing the required front matter tags.",
+                            required=True)
+    arg_parser.add_argument("-o", "--other_fm_tags",
+                            help="A YAML file containing the other front matter tags.",
+                            required=True)
     arg_parser.add_argument("-n", "--no-frontmatter",
                             help="Find files with no frontmatter defined.",
                             required=False, action='store_true')
@@ -198,7 +201,7 @@ def process_args(a):
     return args
 
 
-def read_yaml_fm(filename):
+def read_yaml(filename):
     with open(filename, 'r') as f:
         return yaml.safe_load(f)
 
@@ -243,7 +246,7 @@ def report_files_with_unrecognized_fm_tags(front_matter):
                 f = fm['frontmatter']
                 path = fm['path']
                 for fm_tag in f:
-                    if fm_tag not in valid_tags.values():
+                    if fm_tag not in valid_fm_tags.values():
                         printf("Tag '%s' in file: %s\n", fm_tag, path)
             except:
                 # no frontmatter here

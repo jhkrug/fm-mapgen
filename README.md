@@ -62,17 +62,22 @@ The `python fm_mapgen.py` command:
 
 ```console
 python fm_mapgen.py -h
-usage: ['-h'] [-h] -f YAML_FILENAME [-n] [-t FM_TAG] [-a] [-w]
+usage: ['-h'] [-h] -f YAML_FILENAME -r REQUIRED_FM_TAGS -o OTHER_FM_TAGS [-n] [-t FM_TAG] [-a] [-w] [-d]
 
 options:
   -h, --help            show this help message and exit
   -f YAML_FILENAME, --yaml_filename YAML_FILENAME
                         A YAML file containing frontmatter to read.
+  -r REQUIRED_FM_TAGS, --required_fm_tags REQUIRED_FM_TAGS
+                        A YAML file containing the required front matter tags.
+  -o OTHER_FM_TAGS, --other_fm_tags OTHER_FM_TAGS
+                        A YAML file containing the other front matter tags.
   -n, --no-frontmatter  Find files with no frontmatter defined.
   -t FM_TAG, --fm_tag FM_TAG
                         A YAML frontmatter tag to check files for the absence of.
   -a, --all_fm_tags     Check for absence of all required tags.
   -w, --weird_tags      Check for any strange frontmatter tags not in the valid tags list.
+  -d, --dump            Dump the tree in a readable format.
 ```
 
 There are results included from example runs using
