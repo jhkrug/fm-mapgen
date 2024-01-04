@@ -7,6 +7,7 @@ import treelib
 import markdown
 import re
 
+# These 3 are read from config files by read_config:
 required_fm_tags = {}
 other_fm_tags = {}
 valid_fm_tags = {}
@@ -95,6 +96,7 @@ def print_node_data(node_data, node_is_leaf):
 
 
 def build_node_data(id, fp, fm, doc_int_links, doc_ext_links):
+    """Puts any frontmatter data for into node_data for the tree"""
     node_data_dict = {}
     for k, v in valid_fm_tags.items():
         try:
@@ -114,6 +116,7 @@ def build_node_data(id, fp, fm, doc_int_links, doc_ext_links):
 
 
 def build_kt(front_matter):
+    """Builds the knowledge tree structure from front_matter"""
     root_dir = front_matter[0]['docstore-data']['root-dir']
     kt = treelib.Tree()
     kt.create_node("Frontmatter Tree", identifier="root", parent=None,
@@ -156,6 +159,7 @@ def build_kt(front_matter):
 
 
 def extract_links(filename):
+    """Reads markdown from filename and finds any links"""
     string = open(filename).read()
     html = markdown.markdown(string, output_format='html')
     links = list(set(re.findall(r'href=[\'"]?([^\'" >]+)', html)))
@@ -171,7 +175,6 @@ def extract_links(filename):
 
 
 def process_args(a):
-    """Command line argument processor"""
     arg_parser = argparse.ArgumentParser(a)
     arg_parser.add_argument("-f", "--yaml_filename",
                             help="A YAML file containing frontmatter to read.",
@@ -254,11 +257,6 @@ def report_files_with_unrecognized_fm_tags(front_matter):
 
 
 def error_exit(err_string):
-    """Prints an error string and exits
-
-    Args:
-        err_string (string): An error message
-    """
     print(err_string)
     sys.exit(1)
 
