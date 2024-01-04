@@ -164,14 +164,14 @@ def extract_links(filename):
     html = markdown.markdown(string, output_format='html')
     links = list(set(re.findall(r'href=[\'"]?([^\'" >]+)', html)))
     links = list(filter(lambda l: l[0] != "{", links))
-    olinks, elinks = [], []
+    o_links, e_links = [], []
     for l in links:
         r = re.sub("^https?://", "", l)
         if r != l:
-            elinks.append(l)
+            e_links.append(l)
         else:
-            olinks.append(l)
-    return elinks, olinks
+            o_links.append(l)
+    return e_links, o_links
 
 
 def process_args(a):
