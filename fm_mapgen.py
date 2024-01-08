@@ -6,6 +6,7 @@ import yaml
 import treelib
 import markdown
 import re
+import os
 
 # These 3 are read from config files by read_config:
 required_fm_tags = {}
@@ -150,7 +151,7 @@ def build_kt(front_matter):
 
             # Get the data to populate the leaf node.
             tag = branches[-1]
-            ext_links, int_links = extract_links(full_path)
+            ext_links, int_links = extract_links(full_path, root_dir)
             node_data = build_node_data(
                 identifier, full_path, fm, int_links, ext_links)
             kt.create_node(tag, identifier=identifier,
@@ -158,20 +159,29 @@ def build_kt(front_matter):
     return kt
 
 
-def extract_links(filename):
+def internal_link_resolve(l, f, r):
+    """Given an internal link l and the file, f it's from return the
+    full path, stripping the root_dir, r from the front"""
+    # Do the python equivalents of dirname(f), tack on l, then readlink
+    # to work fine with '#internal' anchors left in place.
+    n = os.path.realpath(os.path.dirname(f) + "/" + l)
+    return n.replace(r, "")
+
+
+def extract_links(filename, root_dir):
     """Reads markdown from filename and finds any links"""
     string = open(filename).read()
     html = markdown.markdown(string, output_format='html')
     links = list(set(re.findall(r'href=[\'"]?([^\'" >]+)', html)))
     links = list(filter(lambda l: l[0] != "{", links))
-    o_links, e_links = [], []
+    internal_links, external_links = [], []
     for l in links:
         r = re.sub("^https?://", "", l)
         if r != l:
-            e_links.append(l)
+            external_links.append(l)
         else:
-            o_links.append(l)
-    return e_links, o_links
+            internal_links.append(internal_link_resolve(l, filename, root_dir))
+    return external_links, internal_links
 
 
 def process_args(a):
