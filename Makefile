@@ -11,6 +11,7 @@ epinio: clean
 	python fm_mapgen.py ${CONF_OPTS} ${EP_FM} -w > outputs/epinio_weird.txt
 	python fm_mapgen.py ${CONF_OPTS} ${EP_FM} -d > outputs/epinio_dump.txt
 	mv tree.txt outputs/epinio_tree.txt
+	mv tree.json outputs/epinio_tree.json
 	mv tree.dot outputs/epinio.dot
 	dot outputs/epinio.dot -Tjpg > outputs/epinio.jpg
 
@@ -21,6 +22,7 @@ kubewarden: clean
 	python fm_mapgen.py ${CONF_OPTS} ${KW_FM} -w > outputs/kubewarden_weird.txt
 	python fm_mapgen.py ${CONF_OPTS} ${KW_FM} -d > outputs/kubewarden_dump.txt
 	mv tree.txt outputs/kubewarden_tree.txt
+	mv tree.json outputs/kubewarden_tree.json
 	mv tree.dot outputs/kubewarden.dot
 	dot outputs/kubewarden.dot -Tjpg > outputs/kubewarden.jpg
 

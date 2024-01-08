@@ -34,6 +34,20 @@ class KmNode(treelib.Node):
     def __str__(self):
         return f"{self.path}"
 
+    def print(self, node_is_leaf=False):
+        print("=== Node data ===")
+        print("path =", self.path)
+        print("full_path =", self.full_path)
+        for k in valid_fm_tags.keys():
+            try:
+                print(k, "=", getattr(self, k))
+            except:
+                pass
+        if node_is_leaf:
+            print("int_links =", self.int_links)
+            print("ext_links =", self.ext_links)
+        print()
+
 
 def read_config(r, o):
     global required_fm_tags
@@ -83,22 +97,7 @@ def print_node(node, depth):
     print("Predecessor =", list(node._predecessor.values()))
     print("Successors =", list(node._successors.values())[0])
     print("Depth =", depth)
-    print_node_data(node.data, node.is_leaf())
-
-
-def print_node_data(node_data, node_is_leaf):
-    print("=== Node data ===")
-    print("path =", node_data.path)
-    print("full_path =", node_data.full_path)
-    for k in valid_fm_tags.keys():
-        try:
-            print(k, "=", getattr(node_data, k))
-        except:
-            pass
-    if node_is_leaf:
-        print("int_links =", node_data.int_links)
-        print("ext_links =", node_data.ext_links)
-    print()
+    node.data.print(node.is_leaf())
 
 
 def build_node_data(id, fp, fm, doc_int_links, doc_ext_links):

@@ -1,6 +1,6 @@
 {
   "py/object": "treelib.tree.Tree",
-  "_identifier": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4",
+  "_identifier": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4",
   "_nodes": {
     "root": {
       "py/object": "treelib.node.Node",
@@ -8,11 +8,11 @@
       "_tag": "Frontmatter Tree",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": null
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": null
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [
           "explanations/",
           "howtos/",
           "installation/",
@@ -32,7 +32,7 @@
         "int_links": null,
         "ext_links": null
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "explanations/": {
       "py/object": "treelib.node.Node",
@@ -40,11 +40,11 @@
       "_tag": "explanations/",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "root"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "root"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [
           "explanations/advanced.md",
           "explanations/detailed-push-process.md",
           "explanations/principles.md",
@@ -61,7 +61,7 @@
         "int_links": null,
         "ext_links": null
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "explanations/advanced.md": {
       "py/object": "treelib.node.Node",
@@ -69,11 +69,11 @@
       "_tag": "advanced.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "explanations/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "explanations/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -96,27 +96,27 @@
         "sidebar_label": "Advanced topics",
         "sidebar_position": null,
         "int_links": [
-          "tutorials/quickstart.md#push-an-application",
-          "explanations/detailed-push-process.md",
-          "installation/install_epinio.md#ingress-controller",
           "howtos/other/certificate_issuers.md",
-          "references/commands/cli/epinio_push.md",
-          "howtos/customization/setup_external_registry.md",
           "howtos/customization/setup_external_s3.md",
+          "explanations/detailed-push-process.md",
+          "tutorials/quickstart.md#push-an-application",
+          "installation/install_epinio.md#ingress-controller",
+          "howtos/customization/setup_external_registry.md",
+          "references/commands/cli/epinio_push.md",
           "explanations/#container-registry"
         ],
         "ext_links": [
-          "https://github.com/kubeops/kubed",
-          "https://cert-manager.io/docs/",
-          "https://aws.amazon.com/s3/",
-          "https://doc.traefik.io/traefik/providers/kubernetes-ingress/",
-          "https://kubernetes.io/docs/concepts/services-networking/ingress/",
+          "https://github.com/minio/minio",
           "https://github.com/aquarist-labs/s3gw",
+          "https://kubernetes.io/docs/concepts/services-networking/ingress/",
           "https://artifacthub.io/packages/helm/epinio/epinio",
-          "https://github.com/minio/minio"
+          "https://cert-manager.io/docs/",
+          "https://github.com/kubeops/kubed",
+          "https://doc.traefik.io/traefik/providers/kubernetes-ingress/",
+          "https://aws.amazon.com/s3/"
         ]
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "explanations/detailed-push-process.md": {
       "py/object": "treelib.node.Node",
@@ -124,11 +124,11 @@
       "_tag": "detailed-push-process.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "explanations/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "explanations/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -151,24 +151,24 @@
         "sidebar_label": "Epinio push process",
         "sidebar_position": null,
         "int_links": [
-          "explanations/principles.md#guidelines-soft-principles",
-          "explanations/advanced.md#ingress-controller",
           "howtos/customization/setup_external_s3.md",
-          "explanations/advanced.md#container-registry"
+          "explanations/advanced.md#container-registry",
+          "explanations/advanced.md#ingress-controller",
+          "explanations/principles.md#guidelines-soft-principles"
         ],
         "ext_links": [
-          "https://github.com/epinio/helm-charts/tree/main/chart/application",
-          "https://paketo.io/",
+          "https://min.io/",
           "https://s3gw.io/",
           "https://kubernetes.io/docs/concepts/workloads/controllers/deployment/",
           "https://kubernetes.io/docs/concepts/services-networking/service/",
           "https://kubernetes.io/docs/concepts/services-networking/ingress/",
           "https://doc.traefik.io/traefik/providers/kubernetes-ingress/",
-          "https://min.io/",
-          "https://kubernetes.io/docs/concepts/workloads/controllers/job/"
+          "https://github.com/epinio/helm-charts/tree/main/chart/application",
+          "https://kubernetes.io/docs/concepts/workloads/controllers/job/",
+          "https://paketo.io/"
         ]
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "explanations/principles.md": {
       "py/object": "treelib.node.Node",
@@ -176,11 +176,11 @@
       "_tag": "principles.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "explanations/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "explanations/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -205,7 +205,7 @@
         "int_links": [],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "explanations/security.md": {
       "py/object": "treelib.node.Node",
@@ -213,11 +213,11 @@
       "_tag": "security.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "explanations/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "explanations/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -250,7 +250,7 @@
           "https://dexidp.io/"
         ]
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "howtos/": {
       "py/object": "treelib.node.Node",
@@ -258,11 +258,11 @@
       "_tag": "howtos/",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "root"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "root"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [
           "customization/",
           "operations/",
           "other/",
@@ -280,7 +280,7 @@
         "int_links": null,
         "ext_links": null
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "customization/": {
       "py/object": "treelib.node.Node",
@@ -288,11 +288,11 @@
       "_tag": "customization/",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "howtos/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "howtos/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [
           "howtos/customization/create_custom_appcharts.md",
           "howtos/customization/create_custom_service.md",
           "howtos/customization/create_git_configuration.md",
@@ -327,7 +327,7 @@
         "int_links": null,
         "ext_links": null
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "howtos/customization/create_custom_appcharts.md": {
       "py/object": "treelib.node.Node",
@@ -335,11 +335,11 @@
       "_tag": "create_custom_appcharts.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "customization/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "customization/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -371,17 +371,17 @@
         "sidebar_label": "Custom application Helm charts",
         "sidebar_position": 15,
         "int_links": [
-          "references/customization/appcharts.md#configuration",
-          "howtos/other/using_custom_appcharts.md"
+          "howtos/other/using_custom_appcharts.md",
+          "references/customization/appcharts.md#configuration"
         ],
         "ext_links": [
-          "https://github.com/epinio/helm-charts.git",
           "https://www.fluentd.org/",
-          "https://github.com/epinio/helm-charts/tree/main/chart/application",
-          "https://helm.sh/"
+          "https://helm.sh/",
+          "https://github.com/epinio/helm-charts.git",
+          "https://github.com/epinio/helm-charts/tree/main/chart/application"
         ]
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "howtos/customization/create_custom_service.md": {
       "py/object": "treelib.node.Node",
@@ -389,11 +389,11 @@
       "_tag": "create_custom_service.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "customization/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "customization/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -425,15 +425,15 @@
         "sidebar_label": "Creating a custom service",
         "sidebar_position": 13,
         "int_links": [
+          "howtos/customization/create_custom_appcharts.md",
           "howtos/customization/#user-settable",
-          "references/services.md",
-          "howtos/customization/create_custom_appcharts.md"
+          "references/services.md"
         ],
         "ext_links": [
           "https://github.com/epinio/helm-charts/blob/main/chart/epinio/templates/service-catalog.yaml"
         ]
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "howtos/customization/create_git_configuration.md": {
       "py/object": "treelib.node.Node",
@@ -441,11 +441,11 @@
       "_tag": "create_git_configuration.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "customization/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "customization/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -477,12 +477,12 @@
         "sidebar_label": "Creating a Git configuration",
         "sidebar_position": 13,
         "int_links": [
-          "references/git_configuration.md",
-          "references/commands/cli/gitconfig/epinio_gitconfig_create.md"
+          "references/commands/cli/gitconfig/epinio_gitconfig_create.md",
+          "references/git_configuration.md"
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "howtos/customization/custom_builder.md": {
       "py/object": "treelib.node.Node",
@@ -490,11 +490,11 @@
       "_tag": "custom_builder.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "customization/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "customization/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -529,17 +529,17 @@
           "tutorials/custom_builder_go.md"
         ],
         "ext_links": [
-          "https://buildpacks.io/docs/buildpack-author-guide/create-buildpack/",
           "https://github.com/epinio/helm-charts/blob/3954c214de3d7b957cfc2054ba4fa4bfa140f5a3/chart/epinio/templates/stage-scripts.yaml#L83",
-          "https://github.com/paketo-buildpacks/rfcs/blob/main/text/0026-environment-variable-configuration-of-buildpacks.md",
-          "https://paketo.io/docs/howto/create-paketo-buildpack/",
+          "https://github.com/buildpacks/lifecycle",
+          "https://buildpacks.io/docs/buildpack-author-guide/create-buildpack/",
           "https://buildpacks.io/docs/tools/pack/",
           "https://github.com/buildpacks/spec/blob/main/extensions/project-descriptor.md#projectlicenses",
+          "https://github.com/paketo-buildpacks/rfcs/blob/main/text/0026-environment-variable-configuration-of-buildpacks.md",
           "https://github.com/paketo-buildpacks/rfcs/blob/main/text/0003-replace-buildpack-yml.md",
-          "https://github.com/buildpacks/lifecycle"
+          "https://paketo.io/docs/howto/create-paketo-buildpack/"
         ]
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "howtos/customization/setup_routing_secrets.md": {
       "py/object": "treelib.node.Node",
@@ -547,11 +547,11 @@
       "_tag": "setup_routing_secrets.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "customization/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "customization/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -587,7 +587,7 @@
           "https://letsencrypt.org/"
         ]
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "howtos/customization/using_custom_service_values.md": {
       "py/object": "treelib.node.Node",
@@ -595,11 +595,11 @@
       "_tag": "using_custom_service_values.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "customization/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "customization/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -636,7 +636,7 @@
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "howtos/customization/custom_routes.md": {
       "py/object": "treelib.node.Node",
@@ -644,11 +644,11 @@
       "_tag": "custom_routes.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "customization/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "customization/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -687,7 +687,7 @@
           "https://en.wikipedia.org/wiki/Wildcard_DNS_record"
         ]
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "howtos/customization/export_to_oci_registries.md": {
       "py/object": "treelib.node.Node",
@@ -695,11 +695,11 @@
       "_tag": "export_to_oci_registries.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "customization/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "customization/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -736,7 +736,7 @@
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "howtos/customization/provision_external_ip_for_local_kubernetes.md": {
       "py/object": "treelib.node.Node",
@@ -744,11 +744,11 @@
       "_tag": "provision_external_ip_for_local_kubernetes.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "customization/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "customization/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -781,11 +781,11 @@
         "sidebar_position": 5,
         "int_links": [],
         "ext_links": [
-          "https://github.com/digitalocean/digitalocean-cloud-controller-manager",
-          "https://stedolan.github.io/jq/download/"
+          "https://stedolan.github.io/jq/download/",
+          "https://github.com/digitalocean/digitalocean-cloud-controller-manager"
         ]
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "howtos/customization/setup_export_registry.md": {
       "py/object": "treelib.node.Node",
@@ -793,11 +793,11 @@
       "_tag": "setup_export_registry.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "customization/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "customization/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -833,7 +833,7 @@
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "howtos/customization/setup_external_registry.md": {
       "py/object": "treelib.node.Node",
@@ -841,11 +841,11 @@
       "_tag": "setup_external_registry.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "customization/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "customization/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -881,7 +881,7 @@
           "https://hub.docker.com/"
         ]
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "howtos/customization/setup_external_s3.md": {
       "py/object": "treelib.node.Node",
@@ -889,11 +889,11 @@
       "_tag": "setup_external_s3.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "customization/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "customization/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -928,7 +928,7 @@
           "https://github.com/minio/minio"
         ]
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "howtos/customization/create_custom_role.md": {
       "py/object": "treelib.node.Node",
@@ -936,11 +936,11 @@
       "_tag": "create_custom_role.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "customization/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "customization/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -976,7 +976,7 @@
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "operations/": {
       "py/object": "treelib.node.Node",
@@ -984,11 +984,11 @@
       "_tag": "operations/",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "howtos/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "howtos/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [
           "howtos/operations/aws_iam_integration.md",
           "howtos/operations/install_metrics_server.md"
         ],
@@ -1003,7 +1003,7 @@
         "int_links": null,
         "ext_links": null
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "howtos/operations/aws_iam_integration.md": {
       "py/object": "treelib.node.Node",
@@ -1011,11 +1011,11 @@
       "_tag": "aws_iam_integration.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "operations/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "operations/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -1050,7 +1050,7 @@
           "https://docs.aws.amazon.com/eks/latest/userguide/enable-iam-roles-for-service-accounts.html"
         ]
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "howtos/operations/install_metrics_server.md": {
       "py/object": "treelib.node.Node",
@@ -1058,11 +1058,11 @@
       "_tag": "install_metrics_server.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "operations/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "operations/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -1099,7 +1099,7 @@
           "https://github.com/kubernetes-sigs/metrics-server"
         ]
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "other/": {
       "py/object": "treelib.node.Node",
@@ -1107,11 +1107,11 @@
       "_tag": "other/",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "howtos/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "howtos/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [
           "howtos/other/certificate_issuers.md",
           "howtos/other/gitjob_push.md",
           "howtos/other/minio.md",
@@ -1130,7 +1130,7 @@
         "int_links": null,
         "ext_links": null
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "howtos/other/certificate_issuers.md": {
       "py/object": "treelib.node.Node",
@@ -1138,11 +1138,11 @@
       "_tag": "certificate_issuers.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "other/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "other/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -1177,13 +1177,13 @@
           "installation/install_epinio.md#install-epinio"
         ],
         "ext_links": [
+          "https://letsencrypt.org/",
           "https://cert-manager.io/docs/configuration/ca/",
           "https://cert-manager.io/docs/configuration/acme/dns01/",
-          "https://letsencrypt.org/",
           "https://cert-manager.io/docs/configuration/"
         ]
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "howtos/other/gitjob_push.md": {
       "py/object": "treelib.node.Node",
@@ -1191,11 +1191,11 @@
       "_tag": "gitjob_push.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "other/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "other/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -1237,7 +1237,7 @@
           "https://github.com/rancher/gitjob#running"
         ]
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "howtos/other/minio.md": {
       "py/object": "treelib.node.Node",
@@ -1245,11 +1245,11 @@
       "_tag": "minio.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "other/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "other/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -1282,11 +1282,11 @@
         "sidebar_position": 30,
         "int_links": [],
         "ext_links": [
-          "https://min.io/docs/minio/linux/integrations/aws-cli-with-minio.html",
-          "https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html"
+          "https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html",
+          "https://min.io/docs/minio/linux/integrations/aws-cli-with-minio.html"
         ]
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "howtos/other/port_forwarding.md": {
       "py/object": "treelib.node.Node",
@@ -1294,11 +1294,11 @@
       "_tag": "port_forwarding.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "other/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "other/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -1332,7 +1332,7 @@
         "int_links": [],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "howtos/other/separate_workload_ingress.md": {
       "py/object": "treelib.node.Node",
@@ -1340,11 +1340,11 @@
       "_tag": "separate_workload_ingress.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "other/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "other/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -1378,12 +1378,12 @@
         "sidebar_label": "Ingress separation",
         "sidebar_position": 9,
         "int_links": [
-          "howtos/customization/custom_routes.md",
-          "references/customization/lb.md"
+          "references/customization/lb.md",
+          "howtos/customization/custom_routes.md"
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "howtos/other/using_custom_appcharts.md": {
       "py/object": "treelib.node.Node",
@@ -1391,11 +1391,11 @@
       "_tag": "using_custom_appcharts.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "other/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "other/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -1437,7 +1437,7 @@
           "https://helm.sh/"
         ]
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "use-develop/": {
       "py/object": "treelib.node.Node",
@@ -1445,11 +1445,11 @@
       "_tag": "use-develop/",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "howtos/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "howtos/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [
           "howtos/use-develop/debug.md",
           "howtos/use-develop/export-and-transfer.md",
           "howtos/use-develop/install_wordpress_application.md",
@@ -1467,7 +1467,7 @@
         "int_links": null,
         "ext_links": null
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "howtos/use-develop/debug.md": {
       "py/object": "treelib.node.Node",
@@ -1475,11 +1475,11 @@
       "_tag": "debug.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "use-develop/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "use-develop/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -1518,7 +1518,7 @@
           "https://paketo.io/docs/howto/java/#enable-remote-debugging"
         ]
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "howtos/use-develop/export-and-transfer.md": {
       "py/object": "treelib.node.Node",
@@ -1526,11 +1526,11 @@
       "_tag": "export-and-transfer.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "use-develop/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "use-develop/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -1569,7 +1569,7 @@
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "howtos/use-develop/install_wordpress_application.md": {
       "py/object": "treelib.node.Node",
@@ -1577,11 +1577,11 @@
       "_tag": "install_wordpress_application.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "use-develop/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "use-develop/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -1622,7 +1622,7 @@
           "https://github.com/epinio/example-wordpress#step-4---create-a-database-for-wordpress"
         ]
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "howtos/use-develop/namespaces.md": {
       "py/object": "treelib.node.Node",
@@ -1630,11 +1630,11 @@
       "_tag": "namespaces.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "use-develop/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "use-develop/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -1670,7 +1670,7 @@
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "howtos/use-develop/app_recover.md": {
       "py/object": "treelib.node.Node",
@@ -1678,11 +1678,11 @@
       "_tag": "app_recover.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "use-develop/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "use-develop/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -1716,7 +1716,7 @@
         "int_links": [],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "howtos/contribute.md": {
       "py/object": "treelib.node.Node",
@@ -1724,11 +1724,11 @@
       "_tag": "contribute.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "howtos/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "howtos/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -1755,17 +1755,17 @@
         "sidebar_position": 1,
         "int_links": [],
         "ext_links": [
-          "https://github.com/golang/go/wiki/CodeReviewComments",
-          "https://semver.org/",
-          "https://github.com/epinio/epinio/issues",
-          "https://go.dev/doc/effective_go",
           "https://github.com/kubernetes/community/blob/master/contributors/design-proposals/release/versioning.md#kubernetes-release-versioning",
-          "https://google.github.io/styleguide/go/guide",
           "https://github.com/epinio/epinio/issues/new",
-          "https://developercertificate.org/"
+          "https://developercertificate.org/",
+          "https://github.com/epinio/epinio/issues",
+          "https://github.com/golang/go/wiki/CodeReviewComments",
+          "https://google.github.io/styleguide/go/guide",
+          "https://semver.org/",
+          "https://go.dev/doc/effective_go"
         ]
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "installation/": {
       "py/object": "treelib.node.Node",
@@ -1773,11 +1773,11 @@
       "_tag": "installation/",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "root"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "root"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [
           "installation/dns_setup.md",
           "installation/install_epinio.md",
           "other_inst_scenarios/",
@@ -1796,7 +1796,7 @@
         "int_links": null,
         "ext_links": null
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "installation/dns_setup.md": {
       "py/object": "treelib.node.Node",
@@ -1804,11 +1804,11 @@
       "_tag": "dns_setup.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "installation/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "installation/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -1832,17 +1832,17 @@
         "sidebar_label": "DNS setup",
         "sidebar_position": 3,
         "int_links": [
-          "installation/install_epinio.md",
-          "installation/#config-dns",
-          "installation/#find-ip-for-ic",
+          "installation/wildcardDNS_setup.md",
           "howtos/other/certificate_issuers.md",
-          "installation/wildcardDNS_setup.md"
+          "installation/#find-ip-for-ic",
+          "installation/install_epinio.md",
+          "installation/#config-dns"
         ],
         "ext_links": [
           "https://aws.amazon.com/route53/"
         ]
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "installation/install_epinio.md": {
       "py/object": "treelib.node.Node",
@@ -1850,11 +1850,11 @@
       "_tag": "install_epinio.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "installation/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "installation/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -1879,35 +1879,35 @@
         "sidebar_label": "Install Epinio",
         "sidebar_position": 1,
         "int_links": [
-          "installation/other_inst_scenarios/install_epinio_on_rancher_desktop.md",
-          "installation/#dex",
-          "installation/other_inst_scenarios/install_epinio_on_rke.md",
-          "installation/dns_setup.md",
-          "installation/#kubed",
-          "references/system_requirements/global.md",
-          "installation/other_inst_scenarios/install_epinio_on_public_cloud.md",
-          "installation/#s3-storage",
           "installation/other_inst_scenarios/install_epinio_on_rancher.md",
           "installation/other_inst_scenarios/install_epinio_on_k3d.md",
-          "installation/wildcardDNS_setup.md",
-          "installation/#container-registry",
-          "installation/other_inst_scenarios/install_epinio_on_k3s.md",
+          "installation/other_inst_scenarios/install_epinio_on_rke.md",
+          "installation/#dex",
+          "installation/#kubed",
+          "installation/other_inst_scenarios/install_epinio_on_public_cloud.md",
+          "references/authentication_oidc.md",
+          "references/system_requirements/global.md",
           "installation/other_inst_scenarios/install_epinio_on_eks.md",
-          "references/authentication_oidc.md"
+          "installation/other_inst_scenarios/install_epinio_on_k3s.md",
+          "installation/dns_setup.md",
+          "installation/#container-registry",
+          "installation/wildcardDNS_setup.md",
+          "installation/#s3-storage",
+          "installation/other_inst_scenarios/install_epinio_on_rancher_desktop.md"
         ],
         "ext_links": [
-          "https://dexidp.io",
-          "https://github.com/epinio/helm-charts/blob/b389a4875af9f03b484a911c49a14f834ba04b64/chart/epinio/values.yaml#L107-L111",
-          "https://github.com/kubernetes/ingress-nginx/blob/main/docs/user-guide/nginx-configuration/annotations.md#custom-max-body-size",
           "https://docs.epinio.io/references/commands/cli/settings/epinio_settings_update-ca#epinio-settings-update-ca",
           "https://cert-manager.io/",
-          "https://github.com/epinio/helm-charts/blob/b389a4875af9f03b484a911c49a14f834ba04b64/chart/epinio/values.yaml#L44",
           "https://doc.traefik.io/traefik/getting-started/install-traefik/#use-the-helm-chart",
+          "https://github.com/epinio/helm-charts/blob/b389a4875af9f03b484a911c49a14f834ba04b64/chart/epinio/values.yaml#L44",
           "https://s3gw.io/",
-          "https://min.io/"
+          "https://github.com/kubernetes/ingress-nginx/blob/main/docs/user-guide/nginx-configuration/annotations.md#custom-max-body-size",
+          "https://dexidp.io",
+          "https://min.io/",
+          "https://github.com/epinio/helm-charts/blob/b389a4875af9f03b484a911c49a14f834ba04b64/chart/epinio/values.yaml#L107-L111"
         ]
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "other_inst_scenarios/": {
       "py/object": "treelib.node.Node",
@@ -1915,11 +1915,11 @@
       "_tag": "other_inst_scenarios/",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "installation/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "installation/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [
           "installation/other_inst_scenarios/install_epinio_on_eks.md",
           "installation/other_inst_scenarios/install_epinio_on_k3d.md",
           "installation/other_inst_scenarios/install_epinio_on_k3s.md",
@@ -1939,7 +1939,7 @@
         "int_links": null,
         "ext_links": null
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "installation/other_inst_scenarios/install_epinio_on_eks.md": {
       "py/object": "treelib.node.Node",
@@ -1947,11 +1947,11 @@
       "_tag": "install_epinio_on_eks.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "other_inst_scenarios/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "other_inst_scenarios/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -1977,19 +1977,19 @@
         "sidebar_position": 23,
         "int_links": [],
         "ext_links": [
-          "https://kubernetes.io/docs/tasks/tools/",
-          "https://github.com/epinio/helm-charts/releases/tag/epinio-1.6.2",
-          "https://docs.aws.amazon.com/eks/latest/userguide/eksctl.html",
-          "https://helm.sh/docs/helm/helm_get/",
-          "https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html",
           "https://docs.aws.amazon.com/eks/latest/userguide/ebs-csi.html",
           "https://github.com/cert-manager/cert-manager",
+          "https://github.com/epinio/helm-charts/releases/tag/epinio-1.6.2",
+          "https://helm.sh/docs/helm/helm_get/",
           "https://raw.githubusercontent.com/epinio/epinio/main/scripts/eks-cri-allow-http-registries.yaml",
+          "https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html",
+          "https://docs.aws.amazon.com/eks/latest/userguide/eksctl.html",
+          "https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html",
           "https://kubernetes.github.io/ingress-nginx/",
-          "https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html"
+          "https://kubernetes.io/docs/tasks/tools/"
         ]
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "installation/other_inst_scenarios/install_epinio_on_k3d.md": {
       "py/object": "treelib.node.Node",
@@ -1997,11 +1997,11 @@
       "_tag": "install_epinio_on_k3d.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "other_inst_scenarios/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "other_inst_scenarios/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -2025,17 +2025,17 @@
         "sidebar_label": "Installing Epinio on a local K3d",
         "sidebar_position": 21,
         "int_links": [
-          "installation/install_epinio.md",
           "explanations/advanced.md",
+          "installation/install_epinio.md",
           "explanations/advanced.md#traefik",
           "installation/wildcardDNS_setup.md"
         ],
         "ext_links": [
-          "https://github.com/epinio/helm-charts/releases/tag/epinio-0.7.1",
-          "https://k3d.io/"
+          "https://k3d.io/",
+          "https://github.com/epinio/helm-charts/releases/tag/epinio-0.7.1"
         ]
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "installation/other_inst_scenarios/install_epinio_on_k3s.md": {
       "py/object": "treelib.node.Node",
@@ -2043,11 +2043,11 @@
       "_tag": "install_epinio_on_k3s.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "other_inst_scenarios/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "other_inst_scenarios/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -2070,17 +2070,17 @@
         "sidebar_label": "Installing Epinio on a local K3s",
         "sidebar_position": 20,
         "int_links": [
-          "installation/install_epinio.md",
           "explanations/advanced.md",
-          "explanations/advanced.md#traefik",
-          "installation/wildcardDNS_setup"
+          "installation/install_epinio.md",
+          "installation/wildcardDNS_setup",
+          "explanations/advanced.md#traefik"
         ],
         "ext_links": [
-          "https://k3s.io/",
-          "https://github.com/epinio/helm-charts/releases/tag/epinio-0.7.1"
+          "https://github.com/epinio/helm-charts/releases/tag/epinio-0.7.1",
+          "https://k3s.io/"
         ]
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "installation/other_inst_scenarios/install_epinio_on_public_cloud.md": {
       "py/object": "treelib.node.Node",
@@ -2088,11 +2088,11 @@
       "_tag": "install_epinio_on_public_cloud.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "other_inst_scenarios/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "other_inst_scenarios/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -2120,19 +2120,19 @@
         "sidebar_label": "Installing Epinio on public clouds",
         "sidebar_position": 22,
         "int_links": [
-          "installation/other_inst_scenarios/install_epinio_on_eks.md",
-          "installation/install_epinio.md",
           "explanations/advanced.md",
-          "explanations/advanced.md#traefik"
+          "installation/install_epinio.md",
+          "explanations/advanced.md#traefik",
+          "installation/other_inst_scenarios/install_epinio_on_eks.md"
         ],
         "ext_links": [
-          "https://docs.microsoft.com/en-us/azure/aks/kubernetes-walkthrough",
-          "https://cloud.google.com/kubernetes-engine/docs/quickstart",
           "https://docs.aws.amazon.com/eks/latest/userguide/getting-started.html",
-          "https://github.com/epinio/epinio/issues/1373#issuecomment-1105231113"
+          "https://github.com/epinio/epinio/issues/1373#issuecomment-1105231113",
+          "https://docs.microsoft.com/en-us/azure/aks/kubernetes-walkthrough",
+          "https://cloud.google.com/kubernetes-engine/docs/quickstart"
         ]
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "installation/other_inst_scenarios/install_epinio_on_rancher.md": {
       "py/object": "treelib.node.Node",
@@ -2140,11 +2140,11 @@
       "_tag": "install_epinio_on_rancher.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "other_inst_scenarios/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "other_inst_scenarios/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -2171,12 +2171,12 @@
           "installation/install_epinio.md#ingress-controller"
         ],
         "ext_links": [
-          "https://github.com/epinio/helm-charts/releases/tag/epinio-1.7.1",
           "https://ranchermanager.docs.rancher.com/pages-for-subheaders/kubernetes-clusters-in-rancher-setup",
+          "https://github.com/epinio/helm-charts/releases/tag/epinio-1.7.1",
           "https://rancher.com/docs"
         ]
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "installation/other_inst_scenarios/install_epinio_on_rke.md": {
       "py/object": "treelib.node.Node",
@@ -2184,11 +2184,11 @@
       "_tag": "install_epinio_on_rke.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "other_inst_scenarios/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "other_inst_scenarios/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -2213,15 +2213,15 @@
         "sidebar_label": "Installing Epinio on RKE2",
         "sidebar_position": 19,
         "int_links": [
-          "installation/dns_setup.md",
           "installation/wildcardDNS_setup.md",
+          "installation/dns_setup.md",
           "installation/install_epinio.md"
         ],
         "ext_links": [
           "https://docs.rke2.io/install/quickstart/"
         ]
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "installation/other_inst_scenarios/install_epinio_on_rancher_desktop.md": {
       "py/object": "treelib.node.Node",
@@ -2229,11 +2229,11 @@
       "_tag": "install_epinio_on_rancher_desktop.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "other_inst_scenarios/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "other_inst_scenarios/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -2261,13 +2261,13 @@
           "installation/install_epinio_cli.md"
         ],
         "ext_links": [
-          "https://github.com/rancher-sandbox/rancher-desktop/issues/576",
-          "https://github.com/rancher-sandbox/rancher-desktop/releases",
+          "https://docs.rancherdesktop.io/getting-started/installation/#traefik-port-binding-access",
           "https://github.com/epinio/helm-charts/releases/tag/epinio-1.0.0",
-          "https://docs.rancherdesktop.io/getting-started/installation/#traefik-port-binding-access"
+          "https://github.com/rancher-sandbox/rancher-desktop/issues/576",
+          "https://github.com/rancher-sandbox/rancher-desktop/releases"
         ]
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "installation/uninstall_epinio.md": {
       "py/object": "treelib.node.Node",
@@ -2275,11 +2275,11 @@
       "_tag": "uninstall_epinio.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "installation/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "installation/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -2303,7 +2303,7 @@
         "int_links": [],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "installation/wildcardDNS_setup.md": {
       "py/object": "treelib.node.Node",
@@ -2311,11 +2311,11 @@
       "_tag": "wildcardDNS_setup.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "installation/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "installation/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -2342,13 +2342,13 @@
           "installation/dns_setup.md#ingress-controller-ip-address"
         ],
         "ext_links": [
-          "https://docs.netgate.com/pfsense/en/latest/services/dns/rebinding.html",
-          "https://github.com/kubernetes-sigs/kind",
           "https://k3d.io/",
-          "https://thekelleys.org.uk/dnsmasq/docs/dnsmasq-man.html"
+          "https://thekelleys.org.uk/dnsmasq/docs/dnsmasq-man.html",
+          "https://docs.netgate.com/pfsense/en/latest/services/dns/rebinding.html",
+          "https://github.com/kubernetes-sigs/kind"
         ]
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "installation/install_epinio_cli.md": {
       "py/object": "treelib.node.Node",
@@ -2356,11 +2356,11 @@
       "_tag": "install_epinio_cli.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "installation/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "installation/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -2391,7 +2391,7 @@
           "https://github.com/epinio/epinio/releases"
         ]
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/": {
       "py/object": "treelib.node.Node",
@@ -2399,11 +2399,11 @@
       "_tag": "references/",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "root"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "root"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [
           "references/api.md",
           "references/command_requirements.md",
           "commands/",
@@ -2430,7 +2430,7 @@
         "int_links": null,
         "ext_links": null
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/api.md": {
       "py/object": "treelib.node.Node",
@@ -2438,11 +2438,11 @@
       "_tag": "api.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "references/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "references/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -2465,7 +2465,7 @@
           "https://www.openapis.org/"
         ]
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/command_requirements.md": {
       "py/object": "treelib.node.Node",
@@ -2473,11 +2473,11 @@
       "_tag": "command_requirements.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "references/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "references/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -2498,7 +2498,7 @@
         "int_links": [],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "commands/": {
       "py/object": "treelib.node.Node",
@@ -2506,11 +2506,11 @@
       "_tag": "commands/",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "references/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "references/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [
           "cli/"
         ],
         "default_factory": {
@@ -2524,7 +2524,7 @@
         "int_links": null,
         "ext_links": null
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "cli/": {
       "py/object": "treelib.node.Node",
@@ -2532,11 +2532,11 @@
       "_tag": "cli/",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "commands/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "commands/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [
           "app/",
           "configuration/",
           "gitconfig/",
@@ -2566,7 +2566,7 @@
         "int_links": null,
         "ext_links": null
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "app/": {
       "py/object": "treelib.node.Node",
@@ -2574,11 +2574,11 @@
       "_tag": "app/",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "cli/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "cli/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [
           "chart/",
           "env/",
           "references/commands/cli/app/epinio_app.md",
@@ -2607,7 +2607,7 @@
         "int_links": null,
         "ext_links": null
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "chart/": {
       "py/object": "treelib.node.Node",
@@ -2615,11 +2615,11 @@
       "_tag": "chart/",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "app/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "app/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [
           "references/commands/cli/app/chart/epinio_app_chart.md",
           "references/commands/cli/app/chart/epinio_app_chart_default.md",
           "references/commands/cli/app/chart/epinio_app_chart_list.md",
@@ -2636,7 +2636,7 @@
         "int_links": null,
         "ext_links": null
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/commands/cli/app/chart/epinio_app_chart.md": {
       "py/object": "treelib.node.Node",
@@ -2644,11 +2644,11 @@
       "_tag": "epinio_app_chart.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "chart/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "chart/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -2681,14 +2681,14 @@
         "sidebar_label": "epinio app chart",
         "sidebar_position": null,
         "int_links": [
-          "references/commands/cli/app/chart/epinio_app_chart_show.md",
           "references/commands/cli/app/epinio_app.md",
-          "references/commands/cli/app/chart/epinio_app_chart_list.md",
-          "references/commands/cli/app/chart/epinio_app_chart_default.md"
+          "references/commands/cli/app/chart/epinio_app_chart_show.md",
+          "references/commands/cli/app/chart/epinio_app_chart_default.md",
+          "references/commands/cli/app/chart/epinio_app_chart_list.md"
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/commands/cli/app/chart/epinio_app_chart_default.md": {
       "py/object": "treelib.node.Node",
@@ -2696,11 +2696,11 @@
       "_tag": "epinio_app_chart_default.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "chart/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "chart/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -2737,7 +2737,7 @@
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/commands/cli/app/chart/epinio_app_chart_list.md": {
       "py/object": "treelib.node.Node",
@@ -2745,11 +2745,11 @@
       "_tag": "epinio_app_chart_list.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "chart/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "chart/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -2786,7 +2786,7 @@
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/commands/cli/app/chart/epinio_app_chart_show.md": {
       "py/object": "treelib.node.Node",
@@ -2794,11 +2794,11 @@
       "_tag": "epinio_app_chart_show.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "chart/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "chart/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -2835,7 +2835,7 @@
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "env/": {
       "py/object": "treelib.node.Node",
@@ -2843,11 +2843,11 @@
       "_tag": "env/",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "app/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "app/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [
           "references/commands/cli/app/env/epinio_app_env.md",
           "references/commands/cli/app/env/epinio_app_env_list.md",
           "references/commands/cli/app/env/epinio_app_env_set.md",
@@ -2865,7 +2865,7 @@
         "int_links": null,
         "ext_links": null
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/commands/cli/app/env/epinio_app_env.md": {
       "py/object": "treelib.node.Node",
@@ -2873,11 +2873,11 @@
       "_tag": "epinio_app_env.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "env/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "env/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -2910,15 +2910,15 @@
         "sidebar_label": "epinio app env",
         "sidebar_position": null,
         "int_links": [
+          "references/commands/cli/app/epinio_app.md",
+          "references/commands/cli/app/env/epinio_app_env_list.md",
           "references/commands/cli/app/env/epinio_app_env_set.md",
           "references/commands/cli/app/env/epinio_app_env_unset.md",
-          "references/commands/cli/app/env/epinio_app_env_show.md",
-          "references/commands/cli/app/epinio_app.md",
-          "references/commands/cli/app/env/epinio_app_env_list.md"
+          "references/commands/cli/app/env/epinio_app_env_show.md"
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/commands/cli/app/env/epinio_app_env_list.md": {
       "py/object": "treelib.node.Node",
@@ -2926,11 +2926,11 @@
       "_tag": "epinio_app_env_list.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "env/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "env/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -2967,7 +2967,7 @@
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/commands/cli/app/env/epinio_app_env_set.md": {
       "py/object": "treelib.node.Node",
@@ -2975,11 +2975,11 @@
       "_tag": "epinio_app_env_set.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "env/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "env/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -3016,7 +3016,7 @@
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/commands/cli/app/env/epinio_app_env_show.md": {
       "py/object": "treelib.node.Node",
@@ -3024,11 +3024,11 @@
       "_tag": "epinio_app_env_show.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "env/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "env/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -3065,7 +3065,7 @@
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/commands/cli/app/env/epinio_app_env_unset.md": {
       "py/object": "treelib.node.Node",
@@ -3073,11 +3073,11 @@
       "_tag": "epinio_app_env_unset.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "env/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "env/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -3114,7 +3114,7 @@
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/commands/cli/app/epinio_app.md": {
       "py/object": "treelib.node.Node",
@@ -3122,11 +3122,11 @@
       "_tag": "epinio_app.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "app/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "app/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -3159,26 +3159,26 @@
         "sidebar_label": "epinio app",
         "sidebar_position": null,
         "int_links": [
-          "references/commands/cli/app/epinio_app_delete.md",
-          "references/commands/cli/epinio.md",
           "references/commands/cli/app/env/epinio_app_env.md",
           "references/commands/cli/app/epinio_app_list.md",
+          "references/commands/cli/app/epinio_app_port-forward.md",
+          "references/commands/cli/app/epinio_app_export.md",
+          "references/commands/cli/app/epinio_app_create.md",
+          "references/commands/cli/epinio.md",
+          "references/commands/cli/app/epinio_app_logs.md",
+          "references/commands/cli/app/epinio_app_exec.md",
+          "references/commands/cli/app/epinio_app_manifest.md",
           "references/commands/cli/app/epinio_app_restage.md",
+          "references/commands/cli/app/epinio_app_update.md",
+          "references/commands/cli/app/epinio_app_delete.md",
           "references/commands/cli/app/epinio_app_restart.md",
           "references/commands/cli/app/epinio_app_show.md",
-          "references/commands/cli/app/epinio_app_update.md",
-          "references/commands/cli/app/epinio_app_exec.md",
           "references/commands/cli/app/chart/epinio_app_chart.md",
-          "references/commands/cli/app/epinio_app_manifest.md",
-          "references/commands/cli/app/epinio_app_create.md",
-          "references/commands/cli/app/epinio_app_export.md",
-          "references/commands/cli/app/epinio_app_logs.md",
-          "references/commands/cli/app/epinio_app_port-forward.md",
           "references/commands/cli/epinio_push.md"
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/commands/cli/app/epinio_app_create.md": {
       "py/object": "treelib.node.Node",
@@ -3186,11 +3186,11 @@
       "_tag": "epinio_app_create.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "app/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "app/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -3227,7 +3227,7 @@
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/commands/cli/app/epinio_app_delete.md": {
       "py/object": "treelib.node.Node",
@@ -3235,11 +3235,11 @@
       "_tag": "epinio_app_delete.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "app/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "app/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -3276,7 +3276,7 @@
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/commands/cli/app/epinio_app_exec.md": {
       "py/object": "treelib.node.Node",
@@ -3284,11 +3284,11 @@
       "_tag": "epinio_app_exec.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "app/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "app/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -3325,7 +3325,7 @@
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/commands/cli/app/epinio_app_export.md": {
       "py/object": "treelib.node.Node",
@@ -3333,11 +3333,11 @@
       "_tag": "epinio_app_export.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "app/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "app/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -3374,7 +3374,7 @@
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/commands/cli/app/epinio_app_list.md": {
       "py/object": "treelib.node.Node",
@@ -3382,11 +3382,11 @@
       "_tag": "epinio_app_list.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "app/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "app/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -3423,7 +3423,7 @@
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/commands/cli/app/epinio_app_logs.md": {
       "py/object": "treelib.node.Node",
@@ -3431,11 +3431,11 @@
       "_tag": "epinio_app_logs.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "app/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "app/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -3472,7 +3472,7 @@
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/commands/cli/app/epinio_app_manifest.md": {
       "py/object": "treelib.node.Node",
@@ -3480,11 +3480,11 @@
       "_tag": "epinio_app_manifest.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "app/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "app/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -3521,7 +3521,7 @@
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/commands/cli/app/epinio_app_port-forward.md": {
       "py/object": "treelib.node.Node",
@@ -3529,11 +3529,11 @@
       "_tag": "epinio_app_port-forward.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "app/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "app/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -3570,7 +3570,7 @@
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/commands/cli/app/epinio_app_push.md": {
       "py/object": "treelib.node.Node",
@@ -3578,11 +3578,11 @@
       "_tag": "epinio_app_push.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "app/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "app/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -3619,7 +3619,7 @@
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/commands/cli/app/epinio_app_restage.md": {
       "py/object": "treelib.node.Node",
@@ -3627,11 +3627,11 @@
       "_tag": "epinio_app_restage.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "app/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "app/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -3668,7 +3668,7 @@
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/commands/cli/app/epinio_app_restart.md": {
       "py/object": "treelib.node.Node",
@@ -3676,11 +3676,11 @@
       "_tag": "epinio_app_restart.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "app/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "app/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -3717,7 +3717,7 @@
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/commands/cli/app/epinio_app_show.md": {
       "py/object": "treelib.node.Node",
@@ -3725,11 +3725,11 @@
       "_tag": "epinio_app_show.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "app/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "app/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -3766,7 +3766,7 @@
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/commands/cli/app/epinio_app_update.md": {
       "py/object": "treelib.node.Node",
@@ -3774,11 +3774,11 @@
       "_tag": "epinio_app_update.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "app/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "app/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -3815,7 +3815,7 @@
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "configuration/": {
       "py/object": "treelib.node.Node",
@@ -3823,11 +3823,11 @@
       "_tag": "configuration/",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "cli/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "cli/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [
           "references/commands/cli/configuration/epinio_configuration.md",
           "references/commands/cli/configuration/epinio_configuration_bind.md",
           "references/commands/cli/configuration/epinio_configuration_create.md",
@@ -3848,7 +3848,7 @@
         "int_links": null,
         "ext_links": null
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/commands/cli/configuration/epinio_configuration.md": {
       "py/object": "treelib.node.Node",
@@ -3856,11 +3856,11 @@
       "_tag": "epinio_configuration.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "configuration/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "configuration/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -3893,18 +3893,18 @@
         "sidebar_label": "epinio configuration",
         "sidebar_position": null,
         "int_links": [
-          "references/commands/cli/configuration/epinio_configuration_unbind.md",
-          "references/commands/cli/configuration/epinio_configuration_show.md",
-          "references/commands/cli/epinio.md",
-          "references/commands/cli/configuration/epinio_configuration_create.md",
           "references/commands/cli/configuration/epinio_configuration_delete.md",
-          "references/commands/cli/configuration/epinio_configuration_list.md",
+          "references/commands/cli/epinio.md",
+          "references/commands/cli/configuration/epinio_configuration_show.md",
+          "references/commands/cli/configuration/epinio_configuration_create.md",
           "references/commands/cli/configuration/epinio_configuration_bind.md",
+          "references/commands/cli/configuration/epinio_configuration_list.md",
+          "references/commands/cli/configuration/epinio_configuration_unbind.md",
           "references/commands/cli/configuration/epinio_configuration_update.md"
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/commands/cli/configuration/epinio_configuration_bind.md": {
       "py/object": "treelib.node.Node",
@@ -3912,11 +3912,11 @@
       "_tag": "epinio_configuration_bind.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "configuration/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "configuration/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -3953,7 +3953,7 @@
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/commands/cli/configuration/epinio_configuration_create.md": {
       "py/object": "treelib.node.Node",
@@ -3961,11 +3961,11 @@
       "_tag": "epinio_configuration_create.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "configuration/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "configuration/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -4002,7 +4002,7 @@
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/commands/cli/configuration/epinio_configuration_delete.md": {
       "py/object": "treelib.node.Node",
@@ -4010,11 +4010,11 @@
       "_tag": "epinio_configuration_delete.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "configuration/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "configuration/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -4051,7 +4051,7 @@
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/commands/cli/configuration/epinio_configuration_list.md": {
       "py/object": "treelib.node.Node",
@@ -4059,11 +4059,11 @@
       "_tag": "epinio_configuration_list.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "configuration/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "configuration/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -4100,7 +4100,7 @@
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/commands/cli/configuration/epinio_configuration_show.md": {
       "py/object": "treelib.node.Node",
@@ -4108,11 +4108,11 @@
       "_tag": "epinio_configuration_show.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "configuration/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "configuration/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -4149,7 +4149,7 @@
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/commands/cli/configuration/epinio_configuration_unbind.md": {
       "py/object": "treelib.node.Node",
@@ -4157,11 +4157,11 @@
       "_tag": "epinio_configuration_unbind.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "configuration/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "configuration/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -4198,7 +4198,7 @@
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/commands/cli/configuration/epinio_configuration_update.md": {
       "py/object": "treelib.node.Node",
@@ -4206,11 +4206,11 @@
       "_tag": "epinio_configuration_update.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "configuration/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "configuration/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -4247,7 +4247,7 @@
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "gitconfig/": {
       "py/object": "treelib.node.Node",
@@ -4255,11 +4255,11 @@
       "_tag": "gitconfig/",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "cli/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "cli/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [
           "references/commands/cli/gitconfig/epinio_gitconfig.md",
           "references/commands/cli/gitconfig/epinio_gitconfig_create.md",
           "references/commands/cli/gitconfig/epinio_gitconfig_delete.md",
@@ -4277,7 +4277,7 @@
         "int_links": null,
         "ext_links": null
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/commands/cli/gitconfig/epinio_gitconfig.md": {
       "py/object": "treelib.node.Node",
@@ -4285,11 +4285,11 @@
       "_tag": "epinio_gitconfig.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "gitconfig/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "gitconfig/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -4322,15 +4322,15 @@
         "sidebar_label": "epinio gitconfig",
         "sidebar_position": null,
         "int_links": [
-          "references/commands/cli/gitconfig/epinio_gitconfig_list.md",
           "references/commands/cli/epinio.md",
-          "references/commands/cli/gitconfig/epinio_gitconfig_show.md",
           "references/commands/cli/gitconfig/epinio_gitconfig_delete.md",
+          "references/commands/cli/gitconfig/epinio_gitconfig_list.md",
+          "references/commands/cli/gitconfig/epinio_gitconfig_show.md",
           "references/commands/cli/gitconfig/epinio_gitconfig_create.md"
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/commands/cli/gitconfig/epinio_gitconfig_create.md": {
       "py/object": "treelib.node.Node",
@@ -4338,11 +4338,11 @@
       "_tag": "epinio_gitconfig_create.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "gitconfig/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "gitconfig/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -4379,7 +4379,7 @@
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/commands/cli/gitconfig/epinio_gitconfig_delete.md": {
       "py/object": "treelib.node.Node",
@@ -4387,11 +4387,11 @@
       "_tag": "epinio_gitconfig_delete.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "gitconfig/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "gitconfig/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -4428,7 +4428,7 @@
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/commands/cli/gitconfig/epinio_gitconfig_list.md": {
       "py/object": "treelib.node.Node",
@@ -4436,11 +4436,11 @@
       "_tag": "epinio_gitconfig_list.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "gitconfig/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "gitconfig/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -4477,7 +4477,7 @@
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/commands/cli/gitconfig/epinio_gitconfig_show.md": {
       "py/object": "treelib.node.Node",
@@ -4485,11 +4485,11 @@
       "_tag": "epinio_gitconfig_show.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "gitconfig/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "gitconfig/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -4526,7 +4526,7 @@
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "namespace/": {
       "py/object": "treelib.node.Node",
@@ -4534,11 +4534,11 @@
       "_tag": "namespace/",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "cli/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "cli/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [
           "references/commands/cli/namespace/epinio_namespace.md",
           "references/commands/cli/namespace/epinio_namespace_create.md",
           "references/commands/cli/namespace/epinio_namespace_delete.md",
@@ -4556,7 +4556,7 @@
         "int_links": null,
         "ext_links": null
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/commands/cli/namespace/epinio_namespace.md": {
       "py/object": "treelib.node.Node",
@@ -4564,11 +4564,11 @@
       "_tag": "epinio_namespace.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "namespace/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "namespace/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -4601,15 +4601,15 @@
         "sidebar_label": "epinio namespace",
         "sidebar_position": null,
         "int_links": [
-          "references/commands/cli/namespace/epinio_namespace_create.md",
           "references/commands/cli/namespace/epinio_namespace_delete.md",
+          "references/commands/cli/namespace/epinio_namespace_show.md",
           "references/commands/cli/epinio.md",
-          "references/commands/cli/namespace/epinio_namespace_list.md",
-          "references/commands/cli/namespace/epinio_namespace_show.md"
+          "references/commands/cli/namespace/epinio_namespace_create.md",
+          "references/commands/cli/namespace/epinio_namespace_list.md"
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/commands/cli/namespace/epinio_namespace_create.md": {
       "py/object": "treelib.node.Node",
@@ -4617,11 +4617,11 @@
       "_tag": "epinio_namespace_create.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "namespace/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "namespace/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -4658,7 +4658,7 @@
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/commands/cli/namespace/epinio_namespace_delete.md": {
       "py/object": "treelib.node.Node",
@@ -4666,11 +4666,11 @@
       "_tag": "epinio_namespace_delete.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "namespace/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "namespace/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -4707,7 +4707,7 @@
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/commands/cli/namespace/epinio_namespace_list.md": {
       "py/object": "treelib.node.Node",
@@ -4715,11 +4715,11 @@
       "_tag": "epinio_namespace_list.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "namespace/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "namespace/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -4756,7 +4756,7 @@
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/commands/cli/namespace/epinio_namespace_show.md": {
       "py/object": "treelib.node.Node",
@@ -4764,11 +4764,11 @@
       "_tag": "epinio_namespace_show.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "namespace/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "namespace/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -4805,7 +4805,7 @@
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "service/": {
       "py/object": "treelib.node.Node",
@@ -4813,11 +4813,11 @@
       "_tag": "service/",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "cli/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "cli/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [
           "references/commands/cli/service/epinio_service.md",
           "references/commands/cli/service/epinio_service_bind.md",
           "references/commands/cli/service/epinio_service_catalog.md",
@@ -4840,7 +4840,7 @@
         "int_links": null,
         "ext_links": null
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/commands/cli/service/epinio_service.md": {
       "py/object": "treelib.node.Node",
@@ -4848,11 +4848,11 @@
       "_tag": "epinio_service.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "service/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "service/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -4885,20 +4885,20 @@
         "sidebar_label": "epinio service",
         "sidebar_position": null,
         "int_links": [
-          "references/commands/cli/service/epinio_service_bind.md",
-          "references/commands/cli/epinio.md",
-          "references/commands/cli/service/epinio_service_show.md",
-          "references/commands/cli/service/epinio_service_catalog.md",
-          "references/commands/cli/service/epinio_service_list.md",
-          "references/commands/cli/service/epinio_service_unbind.md",
-          "references/commands/cli/service/epinio_service_delete.md",
-          "references/commands/cli/service/epinio_service_update.md",
           "references/commands/cli/service/epinio_service_port-forward.md",
-          "references/commands/cli/service/epinio_service_create.md"
+          "references/commands/cli/service/epinio_service_update.md",
+          "references/commands/cli/epinio.md",
+          "references/commands/cli/service/epinio_service_create.md",
+          "references/commands/cli/service/epinio_service_unbind.md",
+          "references/commands/cli/service/epinio_service_list.md",
+          "references/commands/cli/service/epinio_service_bind.md",
+          "references/commands/cli/service/epinio_service_delete.md",
+          "references/commands/cli/service/epinio_service_catalog.md",
+          "references/commands/cli/service/epinio_service_show.md"
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/commands/cli/service/epinio_service_bind.md": {
       "py/object": "treelib.node.Node",
@@ -4906,11 +4906,11 @@
       "_tag": "epinio_service_bind.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "service/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "service/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -4947,7 +4947,7 @@
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/commands/cli/service/epinio_service_catalog.md": {
       "py/object": "treelib.node.Node",
@@ -4955,11 +4955,11 @@
       "_tag": "epinio_service_catalog.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "service/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "service/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -4996,7 +4996,7 @@
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/commands/cli/service/epinio_service_create.md": {
       "py/object": "treelib.node.Node",
@@ -5004,11 +5004,11 @@
       "_tag": "epinio_service_create.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "service/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "service/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -5045,7 +5045,7 @@
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/commands/cli/service/epinio_service_delete.md": {
       "py/object": "treelib.node.Node",
@@ -5053,11 +5053,11 @@
       "_tag": "epinio_service_delete.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "service/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "service/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -5094,7 +5094,7 @@
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/commands/cli/service/epinio_service_list.md": {
       "py/object": "treelib.node.Node",
@@ -5102,11 +5102,11 @@
       "_tag": "epinio_service_list.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "service/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "service/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -5143,7 +5143,7 @@
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/commands/cli/service/epinio_service_port-forward.md": {
       "py/object": "treelib.node.Node",
@@ -5151,11 +5151,11 @@
       "_tag": "epinio_service_port-forward.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "service/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "service/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -5192,7 +5192,7 @@
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/commands/cli/service/epinio_service_show.md": {
       "py/object": "treelib.node.Node",
@@ -5200,11 +5200,11 @@
       "_tag": "epinio_service_show.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "service/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "service/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -5241,7 +5241,7 @@
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/commands/cli/service/epinio_service_unbind.md": {
       "py/object": "treelib.node.Node",
@@ -5249,11 +5249,11 @@
       "_tag": "epinio_service_unbind.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "service/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "service/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -5290,7 +5290,7 @@
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/commands/cli/service/epinio_service_update.md": {
       "py/object": "treelib.node.Node",
@@ -5298,11 +5298,11 @@
       "_tag": "epinio_service_update.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "service/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "service/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -5339,7 +5339,7 @@
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "settings/": {
       "py/object": "treelib.node.Node",
@@ -5347,11 +5347,11 @@
       "_tag": "settings/",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "cli/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "cli/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [
           "references/commands/cli/settings/epinio_settings.md",
           "references/commands/cli/settings/epinio_settings_colors.md",
           "references/commands/cli/settings/epinio_settings_show.md",
@@ -5368,7 +5368,7 @@
         "int_links": null,
         "ext_links": null
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/commands/cli/settings/epinio_settings.md": {
       "py/object": "treelib.node.Node",
@@ -5376,11 +5376,11 @@
       "_tag": "epinio_settings.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "settings/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "settings/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -5413,14 +5413,14 @@
         "sidebar_label": "epinio settings",
         "sidebar_position": null,
         "int_links": [
-          "references/commands/cli/epinio.md",
-          "references/commands/cli/settings/epinio_settings_update-ca.md",
           "references/commands/cli/settings/epinio_settings_show.md",
-          "references/commands/cli/settings/epinio_settings_colors.md"
+          "references/commands/cli/settings/epinio_settings_update-ca.md",
+          "references/commands/cli/settings/epinio_settings_colors.md",
+          "references/commands/cli/epinio.md"
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/commands/cli/settings/epinio_settings_colors.md": {
       "py/object": "treelib.node.Node",
@@ -5428,11 +5428,11 @@
       "_tag": "epinio_settings_colors.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "settings/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "settings/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -5469,7 +5469,7 @@
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/commands/cli/settings/epinio_settings_show.md": {
       "py/object": "treelib.node.Node",
@@ -5477,11 +5477,11 @@
       "_tag": "epinio_settings_show.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "settings/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "settings/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -5518,7 +5518,7 @@
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/commands/cli/settings/epinio_settings_update-ca.md": {
       "py/object": "treelib.node.Node",
@@ -5526,11 +5526,11 @@
       "_tag": "epinio_settings_update-ca.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "settings/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "settings/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -5567,7 +5567,7 @@
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/commands/cli/epinio.md": {
       "py/object": "treelib.node.Node",
@@ -5575,11 +5575,11 @@
       "_tag": "epinio.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "cli/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "cli/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -5612,26 +5612,26 @@
         "sidebar_label": "epinio cli",
         "sidebar_position": null,
         "int_links": [
-          "references/commands/cli/epinio_export-registries.md",
-          "references/commands/cli/epinio_client-sync.md",
-          "references/commands/cli/namespace/epinio_namespace.md",
-          "references/commands/cli/app/epinio_app.md",
-          "references/commands/cli/settings/epinio_settings.md",
-          "references/commands/cli/epinio_target.md",
-          "references/commands/cli/gitconfig/epinio_gitconfig.md",
-          "references/commands/cli/epinio_login.md",
-          "references/commands/cli/configuration/epinio_configuration.md",
-          "references/commands/cli/epinio_info.md",
-          "references/commands/cli/service/epinio_service.md",
-          "references/commands/cli/epinio_completion.md",
-          "references/commands/cli/epinio_logout.md",
           "references/commands/cli/epinio_version.md",
+          "references/commands/cli/epinio_logout.md",
           "references/commands/cli/epinio_server.md",
-          "references/commands/cli/epinio_push.md"
+          "references/commands/cli/namespace/epinio_namespace.md",
+          "references/commands/cli/service/epinio_service.md",
+          "references/commands/cli/epinio_push.md",
+          "references/commands/cli/epinio_login.md",
+          "references/commands/cli/epinio_target.md",
+          "references/commands/cli/epinio_export-registries.md",
+          "references/commands/cli/configuration/epinio_configuration.md",
+          "references/commands/cli/gitconfig/epinio_gitconfig.md",
+          "references/commands/cli/epinio_info.md",
+          "references/commands/cli/settings/epinio_settings.md",
+          "references/commands/cli/epinio_completion.md",
+          "references/commands/cli/app/epinio_app.md",
+          "references/commands/cli/epinio_client-sync.md"
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/commands/cli/epinio_client-sync.md": {
       "py/object": "treelib.node.Node",
@@ -5639,11 +5639,11 @@
       "_tag": "epinio_client-sync.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "cli/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "cli/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -5680,7 +5680,7 @@
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/commands/cli/epinio_completion.md": {
       "py/object": "treelib.node.Node",
@@ -5688,11 +5688,11 @@
       "_tag": "epinio_completion.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "cli/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "cli/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -5729,7 +5729,7 @@
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/commands/cli/epinio_export-registries.md": {
       "py/object": "treelib.node.Node",
@@ -5737,11 +5737,11 @@
       "_tag": "epinio_export-registries.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "cli/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "cli/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -5778,7 +5778,7 @@
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/commands/cli/epinio_login.md": {
       "py/object": "treelib.node.Node",
@@ -5786,11 +5786,11 @@
       "_tag": "epinio_login.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "cli/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "cli/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -5827,7 +5827,7 @@
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/commands/cli/epinio_logout.md": {
       "py/object": "treelib.node.Node",
@@ -5835,11 +5835,11 @@
       "_tag": "epinio_logout.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "cli/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "cli/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -5876,7 +5876,7 @@
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/commands/cli/epinio_push.md": {
       "py/object": "treelib.node.Node",
@@ -5884,11 +5884,11 @@
       "_tag": "epinio_push.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "cli/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "cli/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -5925,7 +5925,7 @@
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/commands/cli/epinio_server.md": {
       "py/object": "treelib.node.Node",
@@ -5933,11 +5933,11 @@
       "_tag": "epinio_server.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "cli/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "cli/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -5974,7 +5974,7 @@
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/commands/cli/epinio_target.md": {
       "py/object": "treelib.node.Node",
@@ -5982,11 +5982,11 @@
       "_tag": "epinio_target.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "cli/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "cli/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -6023,7 +6023,7 @@
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/commands/cli/epinio_version.md": {
       "py/object": "treelib.node.Node",
@@ -6031,11 +6031,11 @@
       "_tag": "epinio_version.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "cli/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "cli/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -6072,7 +6072,7 @@
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/commands/cli/epinio_info.md": {
       "py/object": "treelib.node.Node",
@@ -6080,11 +6080,11 @@
       "_tag": "epinio_info.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "cli/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "cli/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -6121,7 +6121,7 @@
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/configurations.md": {
       "py/object": "treelib.node.Node",
@@ -6129,11 +6129,11 @@
       "_tag": "configurations.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "references/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "references/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -6152,13 +6152,13 @@
         "sidebar_label": "Configurations",
         "sidebar_position": null,
         "int_links": [
-          "references/commands/cli/configuration/epinio_configuration_bind.md",
+          "references/commands/cli/configuration/epinio_configuration.md",
           "references/commands/cli/configuration/epinio_configuration_unbind.md",
-          "references/commands/cli/configuration/epinio_configuration.md"
+          "references/commands/cli/configuration/epinio_configuration_bind.md"
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/customization/appcharts.md": {
       "py/object": "treelib.node.Node",
@@ -6166,11 +6166,11 @@
       "_tag": "appcharts.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "customization/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "customization/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -6189,18 +6189,18 @@
         "sidebar_label": "Application Charts",
         "sidebar_position": null,
         "int_links": [
-          "howtos/other/using_custom_appcharts.md",
-          "references/customization/#configuration",
           "references/customization/lb.md",
           "references/customization/routing_secrets.md",
+          "references/customization/#configuration",
           "howtos/customization/create_custom_appcharts.md",
+          "howtos/other/using_custom_appcharts.md",
           "references/customization/#pods"
         ],
         "ext_links": [
           "https://github.com/epinio/helm-charts/tree/main/chart/application"
         ]
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/customization/catalog.md": {
       "py/object": "treelib.node.Node",
@@ -6208,11 +6208,11 @@
       "_tag": "catalog.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "customization/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "customization/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -6235,7 +6235,7 @@
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/customization/export_registries.md": {
       "py/object": "treelib.node.Node",
@@ -6243,11 +6243,11 @@
       "_tag": "export_registries.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "customization/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "customization/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -6271,7 +6271,7 @@
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/customization/images.md": {
       "py/object": "treelib.node.Node",
@@ -6279,11 +6279,11 @@
       "_tag": "images.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "customization/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "customization/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -6306,7 +6306,7 @@
           "https://docs.docker.com/registry/"
         ]
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/customization/lb.md": {
       "py/object": "treelib.node.Node",
@@ -6314,11 +6314,11 @@
       "_tag": "lb.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "customization/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "customization/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -6341,7 +6341,7 @@
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/customization/routing_secrets.md": {
       "py/object": "treelib.node.Node",
@@ -6349,11 +6349,11 @@
       "_tag": "routing_secrets.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "customization/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "customization/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -6376,7 +6376,7 @@
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/customization/sources.md": {
       "py/object": "treelib.node.Node",
@@ -6384,11 +6384,11 @@
       "_tag": "sources.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "customization/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "customization/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -6411,7 +6411,7 @@
           "https://min.io/"
         ]
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/customization/staging.md": {
       "py/object": "treelib.node.Node",
@@ -6419,11 +6419,11 @@
       "_tag": "staging.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "customization/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "customization/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -6447,16 +6447,16 @@
         "sidebar_label": "Buildpacks",
         "sidebar_position": null,
         "int_links": [
-          "references/customization/staging-scripts.md",
           "references/commands/cli/epinio_push.md",
-          "references/supported_applications.md"
+          "references/supported_applications.md",
+          "references/customization/staging-scripts.md"
         ],
         "ext_links": [
-          "https://github.com/paketo-buildpacks/builder-jammy-full",
-          "https://buildpacks.io/"
+          "https://buildpacks.io/",
+          "https://github.com/paketo-buildpacks/builder-jammy-full"
         ]
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/customization/staging-scripts.md": {
       "py/object": "treelib.node.Node",
@@ -6464,11 +6464,11 @@
       "_tag": "staging-scripts.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "customization/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "customization/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -6499,7 +6499,7 @@
           "https://buildpacks.io/"
         ]
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/git_configuration.md": {
       "py/object": "treelib.node.Node",
@@ -6507,11 +6507,11 @@
       "_tag": "git_configuration.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "references/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "references/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -6530,12 +6530,12 @@
         "sidebar_label": "Git Configuration",
         "sidebar_position": null,
         "int_links": [
-          "references/commands/cli/gitconfig/epinio_gitconfig.md",
-          "howtos/customization/create_git_configuration.md"
+          "howtos/customization/create_git_configuration.md",
+          "references/commands/cli/gitconfig/epinio_gitconfig.md"
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/manifests.md": {
       "py/object": "treelib.node.Node",
@@ -6543,11 +6543,11 @@
       "_tag": "manifests.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "references/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "references/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -6568,7 +6568,7 @@
         "int_links": [],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/namespaces.md": {
       "py/object": "treelib.node.Node",
@@ -6576,11 +6576,11 @@
       "_tag": "namespaces.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "references/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "references/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -6599,13 +6599,13 @@
         "sidebar_label": "Namespaces",
         "sidebar_position": null,
         "int_links": [
+          "references/commands/cli/epinio_target.md",
           "references/commands/cli/namespace/epinio_namespace.md",
-          "references/docs/tutorials/namespace-tutorial.md",
-          "references/commands/cli/epinio_target.md"
+          "references/docs/tutorials/namespace-tutorial.md"
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/services.md": {
       "py/object": "treelib.node.Node",
@@ -6613,11 +6613,11 @@
       "_tag": "services.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "references/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "references/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -6641,12 +6641,12 @@
           "references/configurations.md"
         ],
         "ext_links": [
-          "https://kubernetes.io/docs/concepts/services-networking/dns-pod-service/",
           "https://crossplane.io/",
+          "https://kubernetes.io/docs/concepts/services-networking/dns-pod-service/",
           "https://github.com/Azure/azure-service-operator"
         ]
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/settings.md": {
       "py/object": "treelib.node.Node",
@@ -6654,11 +6654,11 @@
       "_tag": "settings.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "references/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "references/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -6678,12 +6678,12 @@
         "sidebar_position": null,
         "int_links": [
           "references/#commands",
-          "references/#contents",
-          "references/#location"
+          "references/#location",
+          "references/#contents"
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/supported_applications.md": {
       "py/object": "treelib.node.Node",
@@ -6691,11 +6691,11 @@
       "_tag": "supported_applications.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "references/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "references/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -6717,16 +6717,16 @@
           "explanations/detailed-push-process.md"
         ],
         "ext_links": [
-          "https://devcenter.heroku.com/articles/procfile",
-          "https://github.com/paketo-buildpacks/php-web#configuring-custom-ini-files",
-          "https://paketo.io/",
-          "https://github.com/paketo-buildpacks/full-builder",
-          "https://github.com/paketo-buildpacks/procfile",
           "https://buildpacks.io/",
-          "https://github.com/paketo-buildpacks/go"
+          "https://github.com/paketo-buildpacks/procfile",
+          "https://github.com/paketo-buildpacks/full-builder",
+          "https://github.com/paketo-buildpacks/php-web#configuring-custom-ini-files",
+          "https://github.com/paketo-buildpacks/go",
+          "https://devcenter.heroku.com/articles/procfile",
+          "https://paketo.io/"
         ]
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "system_requirements/": {
       "py/object": "treelib.node.Node",
@@ -6734,11 +6734,11 @@
       "_tag": "system_requirements/",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "references/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "references/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [
           "references/system_requirements/global.md",
           "references/system_requirements/windows.md"
         ],
@@ -6753,7 +6753,7 @@
         "int_links": null,
         "ext_links": null
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/system_requirements/global.md": {
       "py/object": "treelib.node.Node",
@@ -6761,11 +6761,11 @@
       "_tag": "global.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "system_requirements/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "system_requirements/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -6796,25 +6796,25 @@
         "sidebar_label": "System requirements",
         "sidebar_position": null,
         "int_links": [
-          "howtos/customization/provision_external_ip_for_local_kubernetes",
-          "installation/other_inst_scenarios/install_epinio_on_rancher_desktop.md",
           "installation/other_inst_scenarios/install_epinio_on_rke.md",
+          "installation/other_inst_scenarios/install_epinio_on_k3d.md",
+          "installation/other_inst_scenarios/install_epinio_on_rancher_desktop.md",
           "installation/other_inst_scenarios/install_epinio_on_k3s.md",
-          "installation/other_inst_scenarios/install_epinio_on_k3d.md"
+          "howtos/customization/provision_external_ip_for_local_kubernetes"
         ],
         "ext_links": [
-          "https://docs.nginx.com/nginx-ingress-controller/installation/installation-with-helm/",
+          "https://kubernetes.io/docs/tasks/tools/#kubectl",
           "https://kubernetes.io/docs/concepts/configuration/organize-cluster-access-kubeconfig/#the-kubeconfig-environment-variable",
+          "https://helm.sh/docs/intro/install/",
           "https://cert-manager.io/docs/installation/helm/",
+          "https://docs.nginx.com/nginx-ingress-controller/installation/installation-with-helm/",
           "https://longhorn.io",
           "https://doc.traefik.io/traefik/getting-started/install-traefik/#use-the-helm-chart",
-          "https://helm.sh/docs/intro/install/",
-          "https://kubernetes.io/docs/tasks/tools/#kubectl",
-          "https://github.com/kubernetes-sigs/metrics-server#installation",
-          "https://github.com/rancher/local-path-provisioner"
+          "https://github.com/rancher/local-path-provisioner",
+          "https://github.com/kubernetes-sigs/metrics-server#installation"
         ]
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/system_requirements/windows.md": {
       "py/object": "treelib.node.Node",
@@ -6822,11 +6822,11 @@
       "_tag": "windows.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "system_requirements/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "system_requirements/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -6858,13 +6858,13 @@
         "sidebar_position": null,
         "int_links": [],
         "ext_links": [
-          "https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/",
-          "https://gitforwindows.org/",
+          "https://github.com/helm/helm/releases",
           "https://github.com/epinio/epinio/releases",
-          "https://github.com/helm/helm/releases"
+          "https://gitforwindows.org/",
+          "https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/"
         ]
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/authentication_oidc.md": {
       "py/object": "treelib.node.Node",
@@ -6872,11 +6872,11 @@
       "_tag": "authentication_oidc.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "references/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "references/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -6899,7 +6899,7 @@
           "https://dexidp.io/"
         ]
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/authorization.md": {
       "py/object": "treelib.node.Node",
@@ -6907,11 +6907,11 @@
       "_tag": "authorization.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "references/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "references/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -6934,7 +6934,7 @@
           "https://github.com/epinio/helm-charts/blob/main/chart/epinio/values.yaml"
         ]
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "references/cert-manager.md": {
       "py/object": "treelib.node.Node",
@@ -6942,11 +6942,11 @@
       "_tag": "cert-manager.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "references/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "references/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -6968,12 +6968,12 @@
           "references/customization/routing_secrets.md"
         ],
         "ext_links": [
+          "https://letsencrypt.org/",
           "https://cert-manager.io/",
-          "https://cert-manager.io/docs/installation/supported-releases/",
-          "https://letsencrypt.org/"
+          "https://cert-manager.io/docs/installation/supported-releases/"
         ]
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "tutorials/": {
       "py/object": "treelib.node.Node",
@@ -6981,11 +6981,11 @@
       "_tag": "tutorials/",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "root"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "root"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [
           "tutorials/namespace-tutorial.md",
           "tutorials/quickstart.md",
           "tutorials/custom_builder_go.md",
@@ -7002,7 +7002,7 @@
         "int_links": null,
         "ext_links": null
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "tutorials/namespace-tutorial.md": {
       "py/object": "treelib.node.Node",
@@ -7010,11 +7010,11 @@
       "_tag": "namespace-tutorial.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "tutorials/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "tutorials/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -7037,16 +7037,16 @@
         "sidebar_label": null,
         "sidebar_position": 2,
         "int_links": [
-          "tutorials/references/commands/cli/namespace/epinio_namespace_delete.md",
+          "tutorials/references/commands/cli/namespace/epinio_namespace_list.md",
           "tutorials/references/commands/cli/namespace/epinio_namespace_show.md",
-          "tutorials/references/commands/cli/epinio_target.md",
-          "tutorials/references/commands/cli/namespace/epinio_namespace_create.md",
           "tutorials/docs/installation/install_epinio.md",
-          "tutorials/references/commands/cli/namespace/epinio_namespace_list.md"
+          "tutorials/references/commands/cli/namespace/epinio_namespace_create.md",
+          "tutorials/references/commands/cli/epinio_target.md",
+          "tutorials/references/commands/cli/namespace/epinio_namespace_delete.md"
         ],
         "ext_links": []
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "tutorials/quickstart.md": {
       "py/object": "treelib.node.Node",
@@ -7054,11 +7054,11 @@
       "_tag": "quickstart.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "tutorials/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "tutorials/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -7082,20 +7082,20 @@
         "sidebar_label": "Quickstart",
         "sidebar_position": 1,
         "int_links": [
-          "references/manifests.md",
           "installation/install_epinio.md",
-          "explanations/advanced.md#git-pushing",
-          "installation/other_inst_scenarios/install_epinio_on_rke.md",
-          "explanations/detailed-push-process.md",
-          "references/supported_applications.md",
+          "references/manifests.md",
           "references/system_requirements/global.md",
-          "references/commands/cli/epinio_login.md"
+          "installation/other_inst_scenarios/install_epinio_on_rke.md",
+          "references/supported_applications.md",
+          "references/commands/cli/epinio_login.md",
+          "explanations/advanced.md#git-pushing",
+          "explanations/detailed-push-process.md"
         ],
         "ext_links": [
           "https://github.com/epinio/epinio/tree/main/assets/sample-app"
         ]
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "tutorials/custom_builder_go.md": {
       "py/object": "treelib.node.Node",
@@ -7103,11 +7103,11 @@
       "_tag": "custom_builder_go.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "tutorials/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "tutorials/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -7133,22 +7133,22 @@
         "sidebar_position": 4,
         "int_links": [],
         "ext_links": [
-          "https://github.com/epinio/example-builder-gitea",
-          "https://buildpacks.io/docs/concepts/components/stack/",
-          "https://buildpacks.io/docs/concepts/components/buildpack/",
-          "https://github.com/epinio/bionic-full-stack/commit/408e949558a437c99858ac7bb99a8b78e78935e8",
-          "https://buildpacks.io/docs/tools/pack/",
           "https://github.com/paketo-buildpacks/go/issues/671",
-          "https://github.com/paketo-buildpacks/go-dist",
-          "https://github.com/paketo-buildpacks/node-engine/blob/main/buildpack.toml#L29",
           "https://github.com/epinio/bionic-full-stack",
-          "https://github.com/paketo-buildpacks/bionic-full-stack",
-          "https://github.com/paketo-buildpacks/node-engine",
+          "https://github.com/epinio/bionic-full-stack/commit/408e949558a437c99858ac7bb99a8b78e78935e8",
+          "https://buildpacks.io/docs/concepts/components/stack/",
           "https://buildpacks.io/docs/concepts/components/builder/",
-          "https://github.com/go-gitea/gitea"
+          "https://buildpacks.io/docs/concepts/components/buildpack/",
+          "https://github.com/epinio/example-builder-gitea",
+          "https://buildpacks.io/docs/tools/pack/",
+          "https://github.com/paketo-buildpacks/node-engine",
+          "https://github.com/paketo-buildpacks/go-dist",
+          "https://github.com/go-gitea/gitea",
+          "https://github.com/paketo-buildpacks/node-engine/blob/main/buildpack.toml#L29",
+          "https://github.com/paketo-buildpacks/bionic-full-stack"
         ]
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "tutorials/single-dev-workflow.md": {
       "py/object": "treelib.node.Node",
@@ -7156,11 +7156,11 @@
       "_tag": "single-dev-workflow.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "tutorials/"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "tutorials/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -7184,28 +7184,28 @@
         "sidebar_label": "Epinio journey: Single developer",
         "sidebar_position": 3,
         "int_links": [
+          "tutorials/#login",
           "installation/install_epinio.md",
+          "howtos/other/port_forwarding.md",
+          "tutorials/#cli",
           "tutorials/quickstart.md",
           "explanations/detailed-push-process.md#7-stage",
-          "howtos/other/port_forwarding.md",
           "installation/other_inst_scenarios/install_epinio_on_rancher_desktop.md",
-          "tutorials/#cli",
           "references/commands/cli/epinio_login.md",
-          "tutorials/#login",
           "tutorials/#installation"
         ],
         "ext_links": [
-          "https://rancherdesktop.io/",
-          "https://epinio.127.0.0.1.sslip.io",
+          "https://kubernetes.io/docs/tasks/tools/#kubectl",
           "https://helm.sh/docs/intro/install/",
-          "https://paketo.io/",
-          "https://k3d.io/",
-          "https://github.com/rancher-sandbox/rancher-desktop/releases",
+          "https://epinio.127.0.0.1.sslip.io",
           "https://github.com/epinio/epinio/releases/latest",
-          "https://kubernetes.io/docs/tasks/tools/#kubectl"
+          "https://k3d.io/",
+          "https://rancherdesktop.io/",
+          "https://github.com/rancher-sandbox/rancher-desktop/releases",
+          "https://paketo.io/"
         ]
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "versions.md": {
       "py/object": "treelib.node.Node",
@@ -7213,11 +7213,11 @@
       "_tag": "versions.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "root"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "root"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -7236,24 +7236,24 @@
         "sidebar_label": null,
         "sidebar_position": null,
         "int_links": [
-          "next",
-          "/home/jhk/projects/suse/epinio-docs/docs",
-          "0.8.0",
-          "0.6.2",
           "1.0.0",
           "0.7.1",
+          "next",
+          "0.8.0",
+          "0.6.2",
+          "/home/jhk/projects/suse/epinio-docs/docs",
           "0.9.0"
         ],
         "ext_links": [
+          "https://github.com/epinio/epinio/releases/tag/v1.0.0",
           "https://github.com/epinio/epinio/releases/tag/v0.8.0",
           "https://github.com/epinio/epinio/releases/tag/v0.9.0",
-          "https://github.com/epinio/epinio/releases/tag/v1.0.0",
           "https://github.com/epinio/epinio/releases/tag/v0.6.2",
           "https://github.com/epinio/epinio/releases/tag/v0.7.1",
           "https://github.com/epinio/epinio/releases/tag/v1.1.0"
         ]
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     },
     "intro.md": {
       "py/object": "treelib.node.Node",
@@ -7261,11 +7261,11 @@
       "_tag": "intro.md",
       "expanded": true,
       "_predecessor": {
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": "root"
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": "root"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4": [],
+        "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -7293,14 +7293,14 @@
           "tutorials/quickstart.md"
         ],
         "ext_links": [
-          "https://suse.com",
-          "https://paketo.io/",
           "https://en.wikipedia.org/wiki/Platform_as_a_service",
           "https://buildpacks.io/",
-          "https://kubernetes.io/"
+          "https://kubernetes.io/",
+          "https://suse.com",
+          "https://paketo.io/"
         ]
       },
-      "_initial_tree_id": "ab4d2ac0-ae19-11ee-b227-c85ea9b440c4"
+      "_initial_tree_id": "c00c0dee-ae1b-11ee-81f2-c85ea9b440c4"
     }
   },
   "root": "root"
