@@ -17,17 +17,18 @@ valid_fm_tags = {}
 
 class KmNode(treelib.Node):
     """
-    Knowledge Map Node is used to store data about a markdown file
-    for those nodes at the leaves of the tree, i.e. the actual *.md files.
+    Knowledge Map Node is used to store data about a markdown file for those
+    nodes at the leaves of the tree, i.e. the actual *.md files.
 
-    Path and full_path are stored along with a dictionary for each of
-    internal and external links.
+    Path and full_path are stored along with a dictionary for each of internal
+    and external links.
 
-    The main body of the data is defined by a couple of configuration
-    YAML files. These config files are read by read_config and define the
+    The main body of the data is defined by a couple of configuration YAML
+    files. These config files are read by read_config and define the
     dictionaries required_fm_tags and other_fm_tags which when combined form
-    valid_fm_tags. This valid_fm_tags defines the data items to be read from
-    the document front matter to be processed.
+    valid_fm_tags. This valid_fm_tags defines the data items to be read from the
+    document front matter to be processed.
+
     """
 
     def __init__(self, path, full_path, ndd: dict = {},
@@ -162,7 +163,7 @@ def build_km(front_matter):
                 pb = branch + "/"
                 try:
                     if not km.contains(pb):
-                        node_data = KmNode(pb, root_dir + pb)
+                        node_data = KmNode(pb, root_dir + "/" + pb)
                         km.create_node(pb, identifier=pb,
                                        parent=parent, data=node_data)
                 except:
@@ -181,11 +182,12 @@ def build_km(front_matter):
 
 def internal_link_resolve(l, f, r):
     """Given an internal link l and the file, f it's from return the
-    full path, stripping the root_dir, r from the front"""
+    full path, stripping the root_dir, r from the front."""
     # Do the python equivalents of dirname(f), tack on l, then readlink
     # to work fine with '#internal' anchors left in place.
     n = os.path.realpath(os.path.dirname(f) + "/" + l)
-    return n.replace(r, "")
+    n = n.replace(r, "")
+    return n
 
 
 def extract_links(filename, root_dir):

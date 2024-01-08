@@ -1,4 +1,4 @@
-Data generated: 2024-01-08 15:56:15+01:00
+Data generated: 2024-01-08 23:58:18+01:00
 Files with no, or empty frontmatter fm_tag: keywords ---
 /home/jhk/projects/suse/kubewarden-docs/docs/contribution-guide/contributing.md
 /home/jhk/projects/suse/kubewarden-docs/docs/contribution-guide/suggesting-an-improvement.md

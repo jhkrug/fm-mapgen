@@ -1,7 +1,7 @@
 ---
 - docstore-data:
     root-dir: /home/jhk/projects/suse/kubewarden-docs/docs
-    gen-date: 2024-01-08T15:56:15+01:00
+    gen-date: 2024-01-08T23:58:18+01:00
 - path: /home/jhk/projects/suse/kubewarden-docs/docs/architecture.md
   frontmatter:
     sidebar_label: "Architecture"
