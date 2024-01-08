@@ -1,0 +1,4984 @@
+{
+  "py/object": "treelib.tree.Tree",
+  "_identifier": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4",
+  "_nodes": {
+    "root": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "root",
+      "_tag": "Frontmatter Tree",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": null
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [
+          "architecture.md",
+          "contribution-guide/",
+          "distributing-policies.md",
+          "distributing-policies/",
+          "explanations/",
+          "howtos/",
+          "introduction.md",
+          "operator-manual/",
+          "quick-start.md",
+          "security/",
+          "tasks.md",
+          "tasksDir/",
+          "testing-policies/",
+          "writing-policies/"
+        ],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": null,
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/",
+        "int_links": null,
+        "ext_links": null
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "architecture.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "architecture.md",
+      "_tag": "architecture.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "root"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "architecture.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/architecture.md",
+        "title": "Architecture",
+        "description": "The Kubewarden architecture",
+        "keywords": [
+          "kubewarden",
+          "kubernetes",
+          "architecture"
+        ],
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": "Architecture",
+        "sidebar_position": null,
+        "int_links": [
+          "explanations/audit-scanner/audit-scanner.md",
+          "writing-policies/spec/01-intro-spec.md",
+          "writing-policies/index.md"
+        ],
+        "ext_links": [
+          "https://github.com/kubewarden/audit-scanner",
+          "https://kubernetes.io/docs/reference/access-authn-authz/extensible-admission-controllers/",
+          "https://github.com/kubewarden/kubewarden-controller",
+          "https://kubernetes.io/docs/reference/access-authn-authz/extensible-admission-controllers/#webhook-request-and-response",
+          "https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/",
+          "https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/",
+          "https://github.com/kubewarden/policy-server"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "contribution-guide/": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "contribution-guide/",
+      "_tag": "contribution-guide/",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "root"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [
+          "contribution-guide/contributing.md",
+          "contribution-guide/suggesting-an-improvement.md"
+        ],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "contribution-guide/",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/contribution-guide/",
+        "int_links": null,
+        "ext_links": null
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "contribution-guide/contributing.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "contribution-guide/contributing.md",
+      "_tag": "contributing.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "contribution-guide/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "contribution-guide/contributing.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/contribution-guide/contributing.md",
+        "title": null,
+        "description": null,
+        "keywords": null,
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": null,
+        "sidebar_position": null,
+        "int_links": [
+          "contribution-guide/suggesting-an-improvement",
+          "contribution-guide/#"
+        ],
+        "ext_links": [
+          "https://git-scm.com/",
+          "https://mdxjs.com/",
+          "https://docusaurus.io/",
+          "https://github.com/kubewarden/docs",
+          "https://lab.github.com/"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "contribution-guide/suggesting-an-improvement.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "contribution-guide/suggesting-an-improvement.md",
+      "_tag": "suggesting-an-improvement.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "contribution-guide/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "contribution-guide/suggesting-an-improvement.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/contribution-guide/suggesting-an-improvement.md",
+        "title": null,
+        "description": null,
+        "keywords": null,
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": null,
+        "sidebar_position": null,
+        "int_links": [],
+        "ext_links": [
+          "https://github.com/join",
+          "https://github.com/kubewarden/docs",
+          "https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/configuring-notifications",
+          "https://github.com/orgs/kubewarden/teams/kubewarden-documentation",
+          "https://github.com/kubewarden/docs/issues/new/choose"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "distributing-policies.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "distributing-policies.md",
+      "_tag": "distributing-policies.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "root"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "distributing-policies.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/distributing-policies.md",
+        "title": "Distributing policies",
+        "description": "A description of how Kubewarden policies are distributed from OCI-compliant repositories.",
+        "keywords": [
+          "oci",
+          "kubewarden",
+          "policy",
+          "wasm",
+          "webassembly"
+        ],
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": "Distributing policies",
+        "sidebar_position": null,
+        "int_links": [
+          "&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#110;&#97;&#109;&#101;&#46;&#115;&#117;&#114;&#110;&#97;&#109;&#101;&#64;&#101;&#120;&#97;&#109;&#112;&#108;&#101;&#46;&#99;&#111;&#109;"
+        ],
+        "ext_links": [
+          "https://github.com/opencontainers/image-spec",
+          "https://ghcr.io",
+          "https://aws.amazon.com/ecr/",
+          "https://github.com/kubewarden/kwctl",
+          "https://cloud.google.com/artifact-registry/",
+          "https://github.com/distribution/distribution",
+          "https://azure.microsoft.com/en-us/products/container-registry/"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "distributing-policies/": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "distributing-policies/",
+      "_tag": "distributing-policies/",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "root"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [
+          "distributing-policies/custom-certificate-authorities.md",
+          "distributing-policies/oci-registries-support.md",
+          "distributing-policies/publish-policy-to-artifact-hub.md",
+          "distributing-policies/secure-supply-chain.md"
+        ],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "distributing-policies/",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/distributing-policies/",
+        "int_links": null,
+        "ext_links": null
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "distributing-policies/custom-certificate-authorities.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "distributing-policies/custom-certificate-authorities.md",
+      "_tag": "custom-certificate-authorities.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "distributing-policies/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "distributing-policies/custom-certificate-authorities.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/distributing-policies/custom-certificate-authorities.md",
+        "title": "",
+        "description": null,
+        "keywords": null,
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": "Custom Certificate Authorities",
+        "sidebar_position": null,
+        "int_links": [
+          "distributing-policies/operator-manual/policy-servers/01-custom-cas.md"
+        ],
+        "ext_links": [
+          "https://github.com/kubewarden/kubewarden-controller"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "distributing-policies/oci-registries-support.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "distributing-policies/oci-registries-support.md",
+      "_tag": "oci-registries-support.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "distributing-policies/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "distributing-policies/oci-registries-support.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/distributing-policies/oci-registries-support.md",
+        "title": "OCI registry support",
+        "description": "OCI registry support",
+        "keywords": null,
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": "OCI registry support",
+        "sidebar_position": null,
+        "int_links": [],
+        "ext_links": [
+          "https://github.com/google/go-containerregistry/blob/main/cmd/crane/README.md",
+          "https://github.com/containers/skopeo/pull/1705",
+          "https://learn.microsoft.com/en-us/azure/container-registry/container-registry-oci-artifacts",
+          "https://docs.docker.com/docker-hub/oci-artifacts/",
+          "https://github.com/kubewarden/docs/edit/main/docs/distributing-policies/oci-registries-support.md",
+          "https://bundle.bar/docs/#open-container-initiative-oci",
+          "https://access.redhat.com/documentation/en-us/red_hat_quay/3/html/use_red_hat_quay/oci-intro#other-oci-artifacts-with-quay",
+          "https://cloud.google.com/artifact-registry",
+          "https://github.com/distribution/distribution",
+          "https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry",
+          "https://goharbor.io/",
+          "https://aws.amazon.com/ecr/",
+          "https://bundle.bar",
+          "https://jfrog.com/artifactory/",
+          "https://cloud.google.com/anthos-config-management/docs/how-to/sync-oci-artifacts-from-artifact-registry",
+          "https://cloud.ibm.com/docs/Registry?topic=Registry-registry_helm_charts",
+          "https://github.com/kubewarden/kwctl",
+          "https://github.com/container-registry/",
+          "https://jfrog.com/help/r/jfrog-artifactory-documentation/docker-registry",
+          "https://github.com/containers/skopeo",
+          "https://www.docker.com/blog/announcing-docker-hub-oci-artifacts-support/",
+          "https://aws.amazon.com/blogs/containers/oci-artifact-support-in-amazon-ecr/",
+          "https://hub.docker.com/",
+          "https://access.redhat.com/products/red-hat-quay/",
+          "https://cloud.ibm.com/docs/Registry",
+          "https://github.com/distribution/distribution/releases/tag/v2.7.0",
+          "https://quay.io",
+          "https://github.com/kubewarden/kwctl/issues/59",
+          "https://azure.microsoft.com/en-us/products/container-registry/",
+          "https://github.com/opencontainers/artifacts"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "distributing-policies/publish-policy-to-artifact-hub.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "distributing-policies/publish-policy-to-artifact-hub.md",
+      "_tag": "publish-policy-to-artifact-hub.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "distributing-policies/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "distributing-policies/publish-policy-to-artifact-hub.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/distributing-policies/publish-policy-to-artifact-hub.md",
+        "title": "",
+        "description": null,
+        "keywords": null,
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": "Publish to Artifact Hub",
+        "sidebar_position": null,
+        "int_links": [
+          "distributing-policies"
+        ],
+        "ext_links": [
+          "https://github.com/kubewarden/github-actions",
+          "https://cncf.io",
+          "https://github.com/artifacthub/hub/blob/master/docs/metadata/artifacthub-pkg.yml",
+          "https://artifacthub.io/control-panel/repositories?page=1",
+          "https://artifacthub.io/docs/topics/repositories/#verified-publisher",
+          "https://artifacthub.io/docs/topics/repositories/#kubewarden-policies-repositories",
+          "https://github.com/artifacthub/hub/blob/master/docs/metadata/artifacthub-repo.yml",
+          "https://artifacthub.io/"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "distributing-policies/secure-supply-chain.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "distributing-policies/secure-supply-chain.md",
+      "_tag": "secure-supply-chain.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "distributing-policies/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "distributing-policies/secure-supply-chain.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/distributing-policies/secure-supply-chain.md",
+        "title": "Secure supply chain",
+        "description": "A secure supply chain infrastructure using Kubewarden.",
+        "keywords": [
+          "kubewarden",
+          "kubernetes",
+          "secure supply chain",
+          "infrastructure"
+        ],
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": "Secure supply chain",
+        "sidebar_position": null,
+        "int_links": [
+          "distributing-policies/#signature-config-reference"
+        ],
+        "ext_links": [
+          "https://docs.sigstore.dev/",
+          "https://github.com/sigstore/cosign",
+          "https://docs.sigstore.dev/cosign/installation/",
+          "https://github.com/sigstore/rekor",
+          "https://github.com/SigStore/fulcio",
+          "https://sigstore.dev/",
+          "https://github.com/kubewarden/kwctl",
+          "https://docs.sigstore.dev/cosign/installation/#github-action"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "explanations/": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "explanations/",
+      "_tag": "explanations/",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "root"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [
+          "audit-scanner/",
+          "explanations/context-aware-policies.md",
+          "explanations/opa-comparison.md"
+        ],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "explanations/",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/explanations/",
+        "int_links": null,
+        "ext_links": null
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "audit-scanner/": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "audit-scanner/",
+      "_tag": "audit-scanner/",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "explanations/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [
+          "explanations/audit-scanner/limitations.md",
+          "explanations/audit-scanner/policy-reports.md",
+          "explanations/audit-scanner/audit-scanner.md"
+        ],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "audit-scanner/",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/audit-scanner/",
+        "int_links": null,
+        "ext_links": null
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "explanations/audit-scanner/limitations.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "explanations/audit-scanner/limitations.md",
+      "_tag": "limitations.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "audit-scanner/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "explanations/audit-scanner/limitations.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/explanations/audit-scanner/limitations.md",
+        "title": "Audit Scanner - Limitations",
+        "description": "The limitation of the audit scanner",
+        "keywords": [
+          "kubewarden",
+          "kubernetes",
+          "audit scanner"
+        ],
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": "Limitations",
+        "sidebar_position": null,
+        "int_links": [],
+        "ext_links": []
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "explanations/audit-scanner/policy-reports.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "explanations/audit-scanner/policy-reports.md",
+      "_tag": "policy-reports.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "audit-scanner/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "explanations/audit-scanner/policy-reports.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/explanations/audit-scanner/policy-reports.md",
+        "title": "Audit Scanner - Policy Reports",
+        "description": "The policy reports that the Audit Scanner produces.",
+        "keywords": [
+          "kubewarden",
+          "kubernetes",
+          "audit scanner"
+        ],
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": "Policy Reports",
+        "sidebar_position": null,
+        "int_links": [
+          "howtos/audit-scanner"
+        ],
+        "ext_links": [
+          "https://kyverno.github.io/policy-reporter",
+          "https://htmlpreview.github.io/?https://github.com/kubernetes-sigs/wg-policy-prototypes/blob/045372e558b896695b2daae92e8c7a04d4d40282/policy-report/docs/index.html",
+          "https://github.com/kubernetes-sigs/wg-policy-prototypes"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "explanations/audit-scanner/audit-scanner.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "explanations/audit-scanner/audit-scanner.md",
+      "_tag": "audit-scanner.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "audit-scanner/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "explanations/audit-scanner/audit-scanner.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/explanations/audit-scanner/audit-scanner.md",
+        "title": "What is the Audit Scanner?",
+        "description": "An overview of the Kubewarden Audit Scanner.",
+        "keywords": [
+          "kubewarden",
+          "audit scanner",
+          "kubernetes"
+        ],
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": "What is the Audit Scanner?",
+        "sidebar_position": null,
+        "int_links": [
+          "explanations/howtos/audit-scanner",
+          "writing-policies/index.md",
+          "explanations/audit-scanner/policy-reports.md"
+        ],
+        "ext_links": [
+          "https://kubernetes.io/docs/reference/access-authn-authz/rbac/#user-facing-roles"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "explanations/context-aware-policies.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "explanations/context-aware-policies.md",
+      "_tag": "context-aware-policies.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "explanations/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "explanations/context-aware-policies.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/explanations/context-aware-policies.md",
+        "title": "Context aware policies",
+        "description": "A description of Kubewarden context aware policies, what they are and how they are useful.",
+        "keywords": [
+          "kubewarden",
+          "context-aware policy",
+          "clusteradmissionpolicy",
+          "admissionpolicy",
+          "admissionrequest",
+          "cluster administrator"
+        ],
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": "Context aware policies",
+        "sidebar_position": null,
+        "int_links": [
+          "writing-policies/spec/05-context-aware-policies.md"
+        ],
+        "ext_links": [
+          "https://kubernetes.io/docs/concepts/security/service-accounts/"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "explanations/opa-comparison.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "explanations/opa-comparison.md",
+      "_tag": "opa-comparison.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "explanations/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "explanations/opa-comparison.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/explanations/opa-comparison.md",
+        "title": "Kubewarden vs OPA Gatekeeper",
+        "description": null,
+        "keywords": null,
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": "Kubewarden vs OPA Gatekeeper",
+        "sidebar_position": null,
+        "int_links": [
+          "explanations/#deployment-mode",
+          "explanations/#cicd-integration",
+          "explanations/#context-aware",
+          "explanations/#writing-policies",
+          "explanations/#kubernetes-integration",
+          "explanations/#background-checks",
+          "explanations/#policy-distribution"
+        ],
+        "ext_links": [
+          "https://docs.github.com/en/code-security/dependabot/working-with-dependabot",
+          "https://github.com/kubernetes-sigs/wg-policy-prototypes/tree/master/policy-report",
+          "https://sigstore.dev",
+          "https://open-policy-agent.github.io/gatekeeper/website/docs/audit#constraint-status",
+          "https://github.com/open-policy-agent/kube-mgmt",
+          "https://www.updatecli.io/",
+          "https://www.openpolicyagent.org/docs/latest/#rego",
+          "https://www.openpolicyagent.org/docs/latest/policy-testing/",
+          "https://www.mend.io/renovate/",
+          "https://open-policy-agent.github.io/gatekeeper/website/docs/mutation",
+          "https://en.wikipedia.org/wiki/Domain-specific_language",
+          "https://github.com/kubewarden/kwctl",
+          "https://github.com/kubewarden/docs/",
+          "https://docs.kubewarden.io/writing-policies/rego/intro-rego"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "howtos/": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "howtos/",
+      "_tag": "howtos/",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "root"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [
+          "howtos/audit-scanner.md",
+          "howtos/raw-policies.md"
+        ],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "howtos/",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/howtos/",
+        "int_links": null,
+        "ext_links": null
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "howtos/audit-scanner.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "howtos/audit-scanner.md",
+      "_tag": "audit-scanner.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "howtos/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "howtos/audit-scanner.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/howtos/audit-scanner.md",
+        "title": "Audit Scanner Installation",
+        "description": null,
+        "keywords": null,
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": "Audit Scanner Installation",
+        "sidebar_position": null,
+        "int_links": [
+          "explanations/audit-scanner",
+          "quick-start.md"
+        ],
+        "ext_links": [
+          "https://kyverno.github.io/policy-reporter",
+          "https://github.com/kubewarden/helm-charts/blob/main/charts/kubewarden-controller/values.yaml",
+          "https://kubernetes.io/docs/concepts/workloads/controllers/cron-jobs",
+          "https://github.com/kyverno/policy-reporter/blob/policy-reporter-2.19.4/charts/policy-reporter/charts/ui/values.yaml#L172-L189",
+          "https://github.com/kubernetes-sigs/wg-policy-prototypes"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "howtos/raw-policies.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "howtos/raw-policies.md",
+      "_tag": "raw-policies.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "howtos/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "howtos/raw-policies.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/howtos/raw-policies.md",
+        "title": "Raw policies",
+        "description": null,
+        "keywords": null,
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": "Raw policies",
+        "sidebar_position": null,
+        "int_links": [
+          "writing-policies/wasi/02-raw-policies.md",
+          "writing-policies/rego/open-policy-agent/05-raw-policies.md",
+          "explanations/context-aware-policies.md",
+          "writing-policies/rust/08-raw-policies.md",
+          "writing-policies/go/raw-policies.md"
+        ],
+        "ext_links": [
+          "https://github.com/kubewarden/raw-mutation-policy",
+          "https://github.com/kubewarden/raw-validation-policy"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "introduction.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "introduction.md",
+      "_tag": "introduction.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "root"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "introduction.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/introduction.md",
+        "title": "Introduction",
+        "description": "Introducing Kubewarden, a CNCF Sandbox project.",
+        "keywords": [
+          "kubewarden",
+          "cncf",
+          "cncf sandbox",
+          "kubernetes"
+        ],
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": "/",
+        "sidebar_label": "Introduction",
+        "sidebar_position": null,
+        "int_links": [],
+        "ext_links": [
+          "https://www.rancher.com/",
+          "https://github.com/opencontainers/artifacts",
+          "https://cncf.io",
+          "https://webassembly.org/"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "operator-manual/": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "operator-manual/",
+      "_tag": "operator-manual/",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "root"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [
+          "operator-manual/01-intro.md",
+          "operator-manual/CRDs.md",
+          "operator-manual/Rancher-Fleet.md",
+          "airgap/",
+          "operator-manual/dependency-matrix.md",
+          "operator-manual/monitor-mode.md",
+          "operator-manual/policies.md",
+          "operator-manual/policy-evaluation-timeout.md",
+          "policy-servers/",
+          "telemetry/",
+          "operator-manual/upgrade-path.md",
+          "operator-manual/verification-config.md",
+          "ui-extension/"
+        ],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "operator-manual/",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/",
+        "int_links": null,
+        "ext_links": null
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "operator-manual/01-intro.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "operator-manual/01-intro.md",
+      "_tag": "01-intro.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "operator-manual/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "operator-manual/01-intro.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/01-intro.md",
+        "title": "",
+        "description": null,
+        "keywords": null,
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": "Operator Manual",
+        "sidebar_position": null,
+        "int_links": [],
+        "ext_links": []
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "operator-manual/CRDs.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "operator-manual/CRDs.md",
+      "_tag": "CRDs.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "operator-manual/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "operator-manual/CRDs.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/CRDs.md",
+        "title": "Custom Resource Definitions (CRD)",
+        "description": null,
+        "keywords": null,
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": "Custom Resources Definitions (CRDs)",
+        "sidebar_position": null,
+        "int_links": [
+          "operator-manual/#rawextension",
+          "operator-manual/#contextawareresource",
+          "operator-manual/#admissionpolicylist",
+          "operator-manual/#policyspec",
+          "operator-manual/#clusteradmissionpolicy",
+          "operator-manual/#policieskubewardeniov1alpha2",
+          "operator-manual/#policymode",
+          "operator-manual/#policieskubewardeniov1",
+          "operator-manual/#admissionpolicy",
+          "operator-manual/#clusteradmissionpolicyspec",
+          "operator-manual/#policystatus",
+          "operator-manual/#policyserversecurity",
+          "operator-manual/#admissionpolicyspec",
+          "operator-manual/#policyserver",
+          "operator-manual/#policyserverspec",
+          "operator-manual/#policyserverlist",
+          "operator-manual/#clusteradmissionpolicylist"
+        ],
+        "ext_links": [
+          "https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.25/#labelselector-v1-meta",
+          "https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.25/#listmeta-v1-meta",
+          "https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.25/#objectmeta-v1-meta",
+          "https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.25/#rulewithoperations-v1-admissionregistration",
+          "https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.25/#sideeffectclass-v1-admissionregistration",
+          "https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.25/#failurepolicytype-v1-admissionregistration",
+          "https://doc.crds.dev/github.com/kubewarden/kubewarden-controller",
+          "https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.25/#podsecuritycontext-v1-core",
+          "https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.25/#matchpolicytype-v1-admissionregistration",
+          "https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.25/#securitycontext-v1-core",
+          "https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.25/#envvar-v1-core"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "operator-manual/Rancher-Fleet.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "operator-manual/Rancher-Fleet.md",
+      "_tag": "Rancher-Fleet.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "operator-manual/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "operator-manual/Rancher-Fleet.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/Rancher-Fleet.md",
+        "title": "Managing Kubewarden with Rancher Fleet",
+        "description": "Managing Kubewarden with Rancher Fleet.",
+        "keywords": [
+          "kubernetes",
+          "kubewarden",
+          "rancher fleet"
+        ],
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": "Rancher Fleet",
+        "sidebar_position": null,
+        "int_links": [],
+        "ext_links": [
+          "https://github.com/kubewarden/fleet-example",
+          "https://fleet.rancher.io/concepts",
+          "https://docs.kubewarden.io/quick-start",
+          "https://fleet.rancher.io/ref-fleet-yaml",
+          "https://fleet.rancher.io/"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "airgap/": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "airgap/",
+      "_tag": "airgap/",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "operator-manual/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [
+          "operator-manual/airgap/01-requirements.md",
+          "operator-manual/airgap/02-install.md"
+        ],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "airgap/",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/airgap/",
+        "int_links": null,
+        "ext_links": null
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "operator-manual/airgap/01-requirements.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "operator-manual/airgap/01-requirements.md",
+      "_tag": "01-requirements.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "airgap/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "operator-manual/airgap/01-requirements.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/airgap/01-requirements.md",
+        "title": "",
+        "description": null,
+        "keywords": null,
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": "Requirements",
+        "sidebar_position": null,
+        "int_links": [
+          "distributing-policies/oci-registries-support"
+        ],
+        "ext_links": [
+          "https://github.com/kubewarden/kwctl"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "operator-manual/airgap/02-install.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "operator-manual/airgap/02-install.md",
+      "_tag": "02-install.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "airgap/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "operator-manual/airgap/02-install.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/airgap/02-install.md",
+        "title": "",
+        "description": null,
+        "keywords": null,
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": "Installation",
+        "sidebar_position": null,
+        "int_links": [
+          "security/verifying-kubewarden#helm-charts",
+          "operator-manual/policy-servers/private-registry",
+          "distributing-policies/custom-certificate-authorities.md",
+          "security/verifying-kubewarden#container-images"
+        ],
+        "ext_links": [
+          "https://github.com/kubewarden/utils",
+          "https://github.com/kyverno/policy-reporter/tree/policy-reporter-2.19.4/charts/policy-reporter",
+          "https://github.com/kubewarden/helm-charts/releases/",
+          "https://github.com/kubewarden/kwctl/tree/main/scripts"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "operator-manual/dependency-matrix.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "operator-manual/dependency-matrix.md",
+      "_tag": "dependency-matrix.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "operator-manual/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "operator-manual/dependency-matrix.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/dependency-matrix.md",
+        "title": "Dependency matrix",
+        "description": "Dependency matrix of Kubewarden.",
+        "keywords": [
+          "dependency",
+          "dependencies",
+          "CRD",
+          "charts",
+          "matrix"
+        ],
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": "Dependency matrix",
+        "sidebar_position": null,
+        "int_links": [],
+        "ext_links": [
+          "https://opentelemetry.io"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "operator-manual/monitor-mode.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "operator-manual/monitor-mode.md",
+      "_tag": "monitor-mode.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "operator-manual/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "operator-manual/monitor-mode.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/monitor-mode.md",
+        "title": "Monitor mode",
+        "description": "The Kubewarden monitor mode and how to activate it.",
+        "keywords": [
+          "kubernetes",
+          "kubewarden",
+          "monitor mode"
+        ],
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": "Monitor mode",
+        "sidebar_position": null,
+        "int_links": [
+          "operator-manual/CRDs#admissionpolicyspec"
+        ],
+        "ext_links": []
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "operator-manual/policies.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "operator-manual/policies.md",
+      "_tag": "policies.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "operator-manual/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "operator-manual/policies.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/policies.md",
+        "title": "Configuring policies",
+        "description": "Dependency matrix of Kubewarden.",
+        "keywords": [
+          "policies",
+          "ClusterAdmissionPolicies",
+          "AdmissionPolicies",
+          "configuration",
+          "namespaces"
+        ],
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": "Configuring policies",
+        "sidebar_position": null,
+        "int_links": [
+          "operator-manual/CRDs#clusteradmissionpolicy"
+        ],
+        "ext_links": []
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "operator-manual/policy-evaluation-timeout.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "operator-manual/policy-evaluation-timeout.md",
+      "_tag": "policy-evaluation-timeout.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "operator-manual/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "operator-manual/policy-evaluation-timeout.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/policy-evaluation-timeout.md",
+        "title": "",
+        "description": null,
+        "keywords": null,
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": "Policy evaluation timeout",
+        "sidebar_position": null,
+        "int_links": [
+          "writing-policies/go/intro-go.md",
+          "writing-policies/rust/01-intro-rust.md",
+          "writing-policies/rego/01-intro-rego.md",
+          "writing-policies/index.md"
+        ],
+        "ext_links": [
+          "https://en.wikipedia.org/wiki/Turing_completeness",
+          "https://en.wikipedia.org/wiki/Infinite_loop",
+          "https://doc.crds.dev/github.com/kubewarden/kubewarden-controller/policies.kubewarden.io/PolicyServer/v1@v1.4.2",
+          "https://kubernetes.io/docs/reference/access-authn-authz/extensible-admission-controllers/",
+          "https://en.wikipedia.org/wiki/Webhook",
+          "https://en.wikipedia.org/wiki/Deadlock",
+          "https://kubernetes.io/docs/reference/access-authn-authz/extensible-admission-controllers/#timeouts"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "policy-servers/": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "policy-servers/",
+      "_tag": "policy-servers/",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "operator-manual/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [
+          "operator-manual/policy-servers/01-custom-cas.md",
+          "operator-manual/policy-servers/02-private-registry.md"
+        ],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "policy-servers/",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/policy-servers/",
+        "int_links": null,
+        "ext_links": null
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "operator-manual/policy-servers/01-custom-cas.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "operator-manual/policy-servers/01-custom-cas.md",
+      "_tag": "01-custom-cas.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "policy-servers/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "operator-manual/policy-servers/01-custom-cas.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/policy-servers/01-custom-cas.md",
+        "title": "",
+        "description": null,
+        "keywords": null,
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": "Using Custom CAs",
+        "sidebar_position": null,
+        "int_links": [
+          "distributing-policies/custom-certificate-authorities.md",
+          "operator-manual/policy-servers/distributing-policies/custom-certificate-authorities.md"
+        ],
+        "ext_links": []
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "operator-manual/policy-servers/02-private-registry.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "operator-manual/policy-servers/02-private-registry.md",
+      "_tag": "02-private-registry.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "policy-servers/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "operator-manual/policy-servers/02-private-registry.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/policy-servers/02-private-registry.md",
+        "title": "",
+        "description": null,
+        "keywords": null,
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": "Using private registries",
+        "sidebar_position": null,
+        "int_links": [],
+        "ext_links": [
+          "https://kubernetes.io/docs/concepts/configuration/secret/#docker-config-secrets"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "telemetry/": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "telemetry/",
+      "_tag": "telemetry/",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "operator-manual/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [
+          "metrics/",
+          "opentelemetry/",
+          "tracing/"
+        ],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "telemetry/",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/telemetry/",
+        "int_links": null,
+        "ext_links": null
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "metrics/": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "metrics/",
+      "_tag": "metrics/",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "telemetry/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [
+          "operator-manual/telemetry/metrics/01-quickstart.md",
+          "operator-manual/telemetry/metrics/02-reference.md"
+        ],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "metrics/",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/metrics/",
+        "int_links": null,
+        "ext_links": null
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "operator-manual/telemetry/metrics/01-quickstart.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "operator-manual/telemetry/metrics/01-quickstart.md",
+      "_tag": "01-quickstart.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "metrics/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "operator-manual/telemetry/metrics/01-quickstart.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/telemetry/metrics/01-quickstart.md",
+        "title": "",
+        "description": null,
+        "keywords": null,
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": "Metrics Quickstart",
+        "sidebar_position": null,
+        "int_links": [
+          "operator-manual/telemetry/opentelemetry/01-quickstart.md#install-opentelemetry"
+        ],
+        "ext_links": [
+          "https://github.com/prometheus-operator/prometheus-operator/blob/master/Documentation/design.md#servicemonitor",
+          "https://grafana.com/grafana/dashboards/15314",
+          "https://prometheus.io/",
+          "https://grafana.com/docs/grafana/latest/dashboards/export-import/#import-dashboard",
+          "https://github.com/kubewarden/policy-server/releases/latest/download/kubewarden-dashboard.json",
+          "https://github.com/prometheus-operator/prometheus-operator"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "operator-manual/telemetry/metrics/02-reference.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "operator-manual/telemetry/metrics/02-reference.md",
+      "_tag": "02-reference.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "metrics/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "operator-manual/telemetry/metrics/02-reference.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/telemetry/metrics/02-reference.md",
+        "title": "",
+        "description": null,
+        "keywords": null,
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": "Metrics Reference Documentation",
+        "sidebar_position": null,
+        "int_links": [
+          "operator-manual/telemetry/metrics/#kubewarden_policy_evaluations_total"
+        ],
+        "ext_links": []
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "opentelemetry/": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "opentelemetry/",
+      "_tag": "opentelemetry/",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "telemetry/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [
+          "operator-manual/telemetry/opentelemetry/01-quickstart.md"
+        ],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "opentelemetry/",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/opentelemetry/",
+        "int_links": null,
+        "ext_links": null
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "operator-manual/telemetry/opentelemetry/01-quickstart.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "operator-manual/telemetry/opentelemetry/01-quickstart.md",
+      "_tag": "01-quickstart.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "opentelemetry/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "operator-manual/telemetry/opentelemetry/01-quickstart.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/telemetry/opentelemetry/01-quickstart.md",
+        "title": "",
+        "description": null,
+        "keywords": null,
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": "Open Telemetry Quickstart",
+        "sidebar_position": null,
+        "int_links": [],
+        "ext_links": [
+          "https://minikube.sigs.k8s.io/docs/drivers/kvm2/",
+          "https://cert-manager.io/docs/installation/",
+          "https://github.com/open-telemetry/opentelemetry-operator",
+          "https://minikube.sigs.k8s.io/docs/",
+          "https://opentelemetry.io/docs/",
+          "https://opentelemetry.io/",
+          "https://github.com/open-telemetry/opentelemetry-operator#opentelemetry-operator-vs-kubernetes-vs-cert-manager"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "tracing/": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "tracing/",
+      "_tag": "tracing/",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "telemetry/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [
+          "operator-manual/telemetry/tracing/01-quickstart.md"
+        ],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "tracing/",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/tracing/",
+        "int_links": null,
+        "ext_links": null
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "operator-manual/telemetry/tracing/01-quickstart.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "operator-manual/telemetry/tracing/01-quickstart.md",
+      "_tag": "01-quickstart.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "tracing/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "operator-manual/telemetry/tracing/01-quickstart.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/telemetry/tracing/01-quickstart.md",
+        "title": "",
+        "description": null,
+        "keywords": null,
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": "Tracing Quickstart",
+        "sidebar_position": null,
+        "int_links": [
+          "operator-manual/telemetry/opentelemetry/01-quickstart.md#install-opentelemetry"
+        ],
+        "ext_links": [
+          "https://github.com/kubewarden/safe-labels-policy",
+          "https://github.com/jaegertracing/helm-charts/blob/main/charts/jaeger-operator/COMPATIBILITY.md",
+          "https://www.jaegertracing.io/docs/latest/operator/",
+          "https://github.com/jaegertracing/jaeger-operator",
+          "https://www.jaegertracing.io/"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "operator-manual/upgrade-path.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "operator-manual/upgrade-path.md",
+      "_tag": "upgrade-path.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "operator-manual/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "operator-manual/upgrade-path.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/upgrade-path.md",
+        "title": "Upgrade path",
+        "description": "Upgrade path for the Kubewarden stack.",
+        "keywords": [
+          "upgrade path",
+          "support"
+        ],
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": "Upgrade path",
+        "sidebar_position": null,
+        "int_links": [],
+        "ext_links": [
+          "https://semver.org/"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "operator-manual/verification-config.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "operator-manual/verification-config.md",
+      "_tag": "verification-config.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "operator-manual/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "operator-manual/verification-config.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/verification-config.md",
+        "title": "",
+        "description": null,
+        "keywords": null,
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": "Verification Config",
+        "sidebar_position": null,
+        "int_links": [],
+        "ext_links": []
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "ui-extension/": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "ui-extension/",
+      "_tag": "ui-extension/",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "operator-manual/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [
+          "operator-manual/ui-extension/install.md",
+          "operator-manual/ui-extension/metrics.md",
+          "operator-manual/ui-extension/tracing.md"
+        ],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "ui-extension/",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/ui-extension/",
+        "int_links": null,
+        "ext_links": null
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "operator-manual/ui-extension/install.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "operator-manual/ui-extension/install.md",
+      "_tag": "install.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "ui-extension/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "operator-manual/ui-extension/install.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/install.md",
+        "title": "",
+        "description": null,
+        "keywords": null,
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": "Quickstart",
+        "sidebar_position": null,
+        "int_links": [
+          "operator-manual/ui-extension/metrics.md",
+          "operator-manual/ui-extension/tracing.md"
+        ],
+        "ext_links": [
+          "https://github.com/kubewarden/helm-charts/tree/main/charts/kubewarden-defaults",
+          "https://github.com/rancher/rancher",
+          "https://artifacthub.io/packages/search?kind=13"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "operator-manual/ui-extension/metrics.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "operator-manual/ui-extension/metrics.md",
+      "_tag": "metrics.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "ui-extension/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "operator-manual/ui-extension/metrics.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/metrics.md",
+        "title": null,
+        "description": null,
+        "keywords": null,
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": null,
+        "sidebar_position": null,
+        "int_links": [
+          "operator-manual/telemetry/metrics/01-quickstart.md#install-prometheus",
+          "operator-manual/telemetry/metrics/01-quickstart.md"
+        ],
+        "ext_links": []
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "operator-manual/ui-extension/tracing.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "operator-manual/ui-extension/tracing.md",
+      "_tag": "tracing.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "ui-extension/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "operator-manual/ui-extension/tracing.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/tracing.md",
+        "title": null,
+        "description": null,
+        "keywords": null,
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": null,
+        "sidebar_position": null,
+        "int_links": [
+          "operator-manual/telemetry/opentelemetry/01-quickstart.md#install-opentelemetry",
+          "operator-manual/telemetry/tracing/01-quickstart.md#install-jaeger"
+        ],
+        "ext_links": [
+          "https://www.jaegertracing.io/docs/latest/operator/",
+          "https://www.jaegertracing.io/"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "quick-start.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "quick-start.md",
+      "_tag": "quick-start.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "root"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "quick-start.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/quick-start.md",
+        "title": "Quick start",
+        "description": "Getting started with Kubewarden, installing the Kubewarden stack and taking care of prerequisites and authentication",
+        "keywords": [
+          "Kubewarden",
+          "installation",
+          "quick start",
+          "policyserver",
+          "clusteradmissionpolicy",
+          "admissionpolicy"
+        ],
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": "Quick start",
+        "sidebar_position": null,
+        "int_links": [
+          "operator-manual/CRDs.md",
+          "writing-policies/rego/01-intro-rego.md",
+          "/home/jhk/projects/suse/kubewarden-docs/howtos/audit-scanner"
+        ],
+        "ext_links": [
+          "https://github.com/kubewarden/kubewarden-controller/blob/main/docs/crds/README.asciidoc",
+          "https://github.com/topics/kubewarden-policy",
+          "https://github.com/opencontainers/artifacts",
+          "https://github.com/kubewarden/policy-server/pkgs/container/policy-server",
+          "https://cert-manager.io/docs/installation/",
+          "https://doc.crds.dev/github.com/kubewarden/kubewarden-controller",
+          "https://github.com/kubewarden/kubewarden-controller/releases/tag/v0.4.0",
+          "https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.20/#validatingwebhookconfiguration-v1-admissionregistration-k8s-io",
+          "https://github.com/kubewarden/pod-privileged-policy",
+          "https://charts.kubewarden.io/#configuration",
+          "https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens",
+          "https://artifacthub.io/packages/search?kind=13"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "security/": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "security/",
+      "_tag": "security/",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "root"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [
+          "security/01-intro.md",
+          "security/disclosure.md",
+          "security/threat-model.md",
+          "security/verifying-kubewarden.md"
+        ],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "security/",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/security/",
+        "int_links": null,
+        "ext_links": null
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "security/01-intro.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "security/01-intro.md",
+      "_tag": "01-intro.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "security/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "security/01-intro.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/security/01-intro.md",
+        "title": "",
+        "description": null,
+        "keywords": null,
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": "Security",
+        "sidebar_position": null,
+        "int_links": [],
+        "ext_links": []
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "security/disclosure.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "security/disclosure.md",
+      "_tag": "disclosure.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "security/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "security/disclosure.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/security/disclosure.md",
+        "title": "",
+        "description": null,
+        "keywords": null,
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": "Security Disclosure",
+        "sidebar_position": null,
+        "int_links": [],
+        "ext_links": [
+          "https://en.wikipedia.org/wiki/Responsible_disclosure"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "security/threat-model.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "security/threat-model.md",
+      "_tag": "threat-model.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "security/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "security/threat-model.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/security/threat-model.md",
+        "title": "Threat Model",
+        "description": null,
+        "keywords": [
+          "kubernetes",
+          "admission control threat model",
+          "kubewarden"
+        ],
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": "Threat Model",
+        "sidebar_position": null,
+        "int_links": [],
+        "ext_links": [
+          "https://artifacthub.io/packages/kubewarden/capabilities-psp/capabilities-psp",
+          "https://github.com/kubewarden/deprecated-api-versions-policy",
+          "https://github.com/kubernetes/sig-security/tree/main/sig-security-docs/papers/admission-control",
+          "https://github.com/kubernetes/community/tree/master/sig-security"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "security/verifying-kubewarden.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "security/verifying-kubewarden.md",
+      "_tag": "verifying-kubewarden.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "security/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "security/verifying-kubewarden.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/security/verifying-kubewarden.md",
+        "title": "",
+        "description": null,
+        "keywords": null,
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": "Verifying Kubewarden",
+        "sidebar_position": null,
+        "int_links": [],
+        "ext_links": [
+          "https://github.com/cvila84/helm-image",
+          "https://github.com/orgs/kubewarden/packages?tab=packages&amp;q=charts",
+          "https://docs.sigstore.dev",
+          "https://docs.sigstore.dev/signing/signing_with_blobs/",
+          "https://github.com/kubewarden/kwctl/releases/"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "tasks.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "tasks.md",
+      "_tag": "tasks.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "root"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "tasks.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/tasks.md",
+        "title": "Common tasks",
+        "description": "Description of some common tasks undertaken after installing Kubewarden. Provides examples of these tasks using kwctl",
+        "keywords": [
+          "kubewarden",
+          "kubernetes",
+          "kwctl",
+          "policy",
+          "policyserver",
+          "clusteradmissionpolicy",
+          "admissionpolicy"
+        ],
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": "Common tasks",
+        "sidebar_position": null,
+        "int_links": [
+          "quick-start.md#install",
+          "distributing-policies",
+          "quick-start.md#example-enforce-your-first-policy",
+          "writing-policies",
+          "&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#107;&#117;&#98;&#101;&#119;&#97;&#114;&#100;&#101;&#110;&#64;&#115;&#117;&#115;&#101;&#46;&#100;&#101;"
+        ],
+        "ext_links": [
+          "https://kubernetes.io/docs/reference/",
+          "https://github.com/opencontainers/distribution-spec/blob/main/spec.md",
+          "https://www.kubewarden.io/blog/2021/06/kwctl-intro-for-kubernetes-administrators/",
+          "https://www.rust-lang.org/tools/install",
+          "https://artifacthub.io/packages/search?kind=13&amp;sort=relevance&amp;page=1",
+          "https://kubernetes.io/blog/2021/04/06/podsecuritypolicy-deprecation-past-present-and-future/",
+          "https://www.kubewarden.io/blog/2022/07/artifact-hub-supports-kubewarden/",
+          "https://hub.kubewarden.io",
+          "https://github.com/kubewarden/kwctl",
+          "https://github.com/kubewarden/kwctl/releases"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "tasksDir/": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "tasksDir/",
+      "_tag": "tasksDir/",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "root"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [
+          "tasksDir/mutating-policies.md",
+          "tasksDir/pod-security-admission-with-kubewarden.md",
+          "tasksDir/psp-migration.md"
+        ],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "tasksDir/",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/tasksDir/",
+        "int_links": null,
+        "ext_links": null
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "tasksDir/mutating-policies.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "tasksDir/mutating-policies.md",
+      "_tag": "mutating-policies.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "tasksDir/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "tasksDir/mutating-policies.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/tasksDir/mutating-policies.md",
+        "title": "Mutating policies",
+        "description": "Explains mutating policies in the context of Kubewarden",
+        "keywords": [
+          "kubewarden policy mutating kubernetes clusteradmissionpolicy admissionpolicy"
+        ],
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": "Mutating policies",
+        "sidebar_position": null,
+        "int_links": [],
+        "ext_links": [
+          "https://github.com/kubewarden/user-group-psp-policy"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "tasksDir/pod-security-admission-with-kubewarden.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "tasksDir/pod-security-admission-with-kubewarden.md",
+      "_tag": "pod-security-admission-with-kubewarden.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "tasksDir/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "tasksDir/pod-security-admission-with-kubewarden.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/tasksDir/pod-security-admission-with-kubewarden.md",
+        "title": " Using Pod Security Admission with Kubewarden",
+        "description": "Using Pod Security Admission with Kubewarden, since the Kubernetes 1.25 release.",
+        "keywords": [
+          "kubewarden",
+          "pod security admission",
+          "pod security policy",
+          "kubernetes"
+        ],
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": "Pod Security Admission with KW",
+        "sidebar_position": null,
+        "int_links": [
+          "tasksDir/psp-migration.md",
+          "quick-start.md"
+        ],
+        "ext_links": [
+          "https://kubernetes.io/docs/concepts/security/pod-security-standards/",
+          "https://kubernetes.io/docs/concepts/security/pod-security-admission/",
+          "https://artifacthub.io/packages/kubewarden/user-group-psp/user-group-psp"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "tasksDir/psp-migration.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "tasksDir/psp-migration.md",
+      "_tag": "psp-migration.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "tasksDir/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "tasksDir/psp-migration.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/tasksDir/psp-migration.md",
+        "title": "PodSecurityPolicy migration",
+        "description": "Discusses PSP migration to Kubewarden policies after Kubernetes v1.25.",
+        "keywords": [
+          "kubewarden",
+          "kubernetes",
+          "appvia",
+          "psp",
+          "podsecuritypolicy"
+        ],
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": "PSP migration",
+        "sidebar_position": null,
+        "int_links": [
+          "tasksDir/#mapping-kuberwarden-policies-to-psp-fields"
+        ],
+        "ext_links": [
+          "https://kubernetes.io/docs/concepts/security/pod-security-policy/#volumes-and-file-systems",
+          "https://github.com/kubewarden/utils/blob/main/scripts/psp-to-kubewarden",
+          "https://github.com/kubewarden/capabilities-psp-policy",
+          "https://github.com/appvia/psp-migration",
+          "https://github.com/kubewarden/volumes-psp-policy",
+          "https://kubernetes.io/docs/concepts/security/pod-security-policy/#privilege-escalation",
+          "https://kubernetes.io/docs/concepts/security/pod-security-policy/#apparmor",
+          "https://kubernetes.io/docs/concepts/security/pod-security-policy/#host-namespaces",
+          "https://github.com/kubewarden/seccomp-psp-policy",
+          "https://github.com/kubewarden/flexvolume-drivers-psp-policy",
+          "https://github.com/kubewarden/allowed-proc-mount-types-psp-policy",
+          "https://kubernetes.io/docs/concepts/security/pod-security-policy/#users-and-groups",
+          "https://github.com/kubewarden/sysctl-psp-policy",
+          "https://github.com/kubewarden/readonly-root-filesystem-psp-policy",
+          "https://github.com/kubewarden/hostpaths-psp-policy",
+          "https://kubernetes.io/docs/concepts/security/pod-security-policy/#selinux",
+          "https://kubernetes.io/docs/concepts/security/pod-security-policy/#capabilities",
+          "https://github.com/kubewarden/host-namespaces-psp-policy",
+          "https://kubernetes.io/docs/concepts/security/pod-security-policy/#allowedprocmounttypes",
+          "https://github.com/kubewarden/selinux-psp-policy",
+          "https://github.com/kubewarden/allow-privilege-escalation-psp-policy",
+          "https://github.com/kubewarden/allowed-fsgroups-psp-policy",
+          "https://kubernetes.io/docs/concepts/security/pod-security-policy/#flexvolume-drivers",
+          "https://kubernetes.io/docs/concepts/security/pod-security-policy/",
+          "https://github.com/kubewarden/apparmor-psp-policy",
+          "https://github.com/kubewarden/user-group-psp-policy",
+          "https://kubernetes.io/docs/concepts/security/pod-security-policy/#privileged",
+          "https://github.com/kubewarden/pod-privileged-policy"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "testing-policies/": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "testing-policies/",
+      "_tag": "testing-policies/",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "root"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [
+          "testing-policies/01-intro.md",
+          "testing-policies/02-policy-authors.md",
+          "testing-policies/03-cluster-operators.md"
+        ],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "testing-policies/",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/testing-policies/",
+        "int_links": null,
+        "ext_links": null
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "testing-policies/01-intro.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "testing-policies/01-intro.md",
+      "_tag": "01-intro.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "testing-policies/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "testing-policies/01-intro.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/testing-policies/01-intro.md",
+        "title": "Policy testing",
+        "description": "The two personas using Kubewarden policies are policy authors and cluster operators.",
+        "keywords": [
+          "kubewarden",
+          "persons",
+          "policy author",
+          "cluster operator"
+        ],
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": "Policy testing",
+        "sidebar_position": null,
+        "int_links": [],
+        "ext_links": []
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "testing-policies/02-policy-authors.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "testing-policies/02-policy-authors.md",
+      "_tag": "02-policy-authors.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "testing-policies/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "testing-policies/02-policy-authors.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/testing-policies/02-policy-authors.md",
+        "title": "Testing for policy authors",
+        "description": "An introduction to testing Kubewarden policies for policy authors.",
+        "keywords": [
+          "kubewarden",
+          "policy testing",
+          "policy author",
+          "rust",
+          "go",
+          "assemblyscript",
+          "development environment"
+        ],
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": "Policy authors",
+        "sidebar_position": null,
+        "int_links": [
+          "testing-policies/writing-policies/go/e2e-tests.md",
+          "testing-policies/writing-policies/rust/01-intro-rust.md",
+          "testing-policies/writing-policies/go/intro-go.md"
+        ],
+        "ext_links": [
+          "https://github.com/kubewarden/ingress-policy",
+          "https://github.com/kubewarden/psp-apparmor",
+          "https://github.com/bats-core/bats-core",
+          "https://github.com/kubewarden/kwctl"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "testing-policies/03-cluster-operators.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "testing-policies/03-cluster-operators.md",
+      "_tag": "03-cluster-operators.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "testing-policies/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "testing-policies/03-cluster-operators.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/testing-policies/03-cluster-operators.md",
+        "title": "Testing for cluster operators",
+        "description": "An introduction to testing Kubewarden policies for cluster operators.",
+        "keywords": null,
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": "Cluster operators",
+        "sidebar_position": null,
+        "int_links": [
+          "testing-policies/writing-policies/go/e2e-tests.md"
+        ],
+        "ext_links": [
+          "https://github.com/kubewarden/psp-apparmor",
+          "https://github.com/bats-core/bats-core",
+          "https://github.com/kubewarden/kwctl",
+          "https://github.com/kubewarden/psp-apparmor#configuration",
+          "https://github.com/kubewarden/kwctl/releases"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "writing-policies/": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "writing-policies/",
+      "_tag": "writing-policies/",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "root"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [
+          "writing-policies/dotnet.md",
+          "go/",
+          "writing-policies/index.md",
+          "writing-policies/metadata.md",
+          "writing-policies/other-languages.md",
+          "rego/",
+          "rust/",
+          "spec/",
+          "writing-policies/swift.md",
+          "writing-policies/typescript.md",
+          "wasi/"
+        ],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "writing-policies/",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/",
+        "int_links": null,
+        "ext_links": null
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "writing-policies/dotnet.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "writing-policies/dotnet.md",
+      "_tag": "dotnet.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "writing-policies/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "writing-policies/dotnet.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/dotnet.md",
+        "title": "C#",
+        "description": "Kubewarden policies using C# and .NET",
+        "keywords": [
+          "kubewarden",
+          "kubernetes",
+          "writing policies",
+          "c#",
+          ".net"
+        ],
+        "doc_persona": [
+          "kubewarden-policy-developer"
+        ],
+        "doc_type": [
+          "how-to",
+          "explanation",
+          "tutorial",
+          "reference"
+        ],
+        "doc_topic": [
+          "kubewarden",
+          "writing-policies",
+          "c#"
+        ],
+        "slug": null,
+        "sidebar_label": "C#",
+        "sidebar_position": null,
+        "int_links": [],
+        "ext_links": [
+          "https://github.com/kubewarden/policy-sdk-dotnet/issues",
+          "https://github.com/kubewarden/policy-sdk-dotnet/tree/main/example",
+          "https://github.com/SteveSandersonMS/dotnet-wasi-sdk",
+          "https://github.com/kubewarden/policy-sdk-dotnet",
+          "https://www.nuget.org/packages/KubernetesClient.Models"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "go/": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "go/",
+      "_tag": "go/",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "writing-policies/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [
+          "writing-policies/go/intro-go.md",
+          "writing-policies/go/scaffold.md",
+          "writing-policies/go/policy-settings.md",
+          "writing-policies/go/validation.md",
+          "writing-policies/go/logging.md",
+          "writing-policies/go/e2e-tests.md",
+          "writing-policies/go/automate.md",
+          "writing-policies/go/distribute.md",
+          "writing-policies/go/validation-with-queries.md",
+          "writing-policies/go/raw-policies.md"
+        ],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "go/",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/go/",
+        "int_links": null,
+        "ext_links": null
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "writing-policies/go/intro-go.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "writing-policies/go/intro-go.md",
+      "_tag": "intro-go.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "go/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "writing-policies/go/intro-go.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/intro-go.md",
+        "title": "Writing policies in Go",
+        "description": "A tutorial introduction to writing policies in Go.",
+        "keywords": [
+          "kubewarden",
+          "kubernetes",
+          "writing policies in Go"
+        ],
+        "doc_persona": [
+          "kubewarden-developer"
+        ],
+        "doc_type": [
+          "tutorial"
+        ],
+        "doc_topic": [
+          "kubewarden",
+          "writing-policies",
+          "go",
+          "introduction"
+        ],
+        "slug": null,
+        "sidebar_label": "Writing policies in Go",
+        "sidebar_position": 8,
+        "int_links": [
+          "writing-policies/go/testing-policies/01-intro.md"
+        ],
+        "ext_links": [
+          "https://tinygo.org/",
+          "https://github.com/kubewarden/go-policy-template",
+          "https://en.wikipedia.org/wiki/Set_(abstract_data_type)",
+          "https://github.com/deckarep/golang-set",
+          "https://github.com/tidwall/gjson",
+          "https://tinygo.org/getting-started/",
+          "https://github.com/kubewarden/kwctl/releases",
+          "https://tinygo.org/lang-support/",
+          "https://wapc.io",
+          "https://hub.docker.com/r/tinygo/tinygo-dev",
+          "https://github.com/bats-core/bats-core",
+          "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io",
+          "https://github.com/kubewarden/k8s-objects",
+          "https://hub.docker.com/r/tinygo/tinygo",
+          "https://github.com/kubewarden/policy-sdk-go"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "writing-policies/go/scaffold.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "writing-policies/go/scaffold.md",
+      "_tag": "scaffold.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "go/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "writing-policies/go/scaffold.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/scaffold.md",
+        "title": "Creating a new validation policy",
+        "description": "Creating a new validation policy for Kubewarden using Go.",
+        "keywords": [
+          "kubewarden",
+          "kubernetes",
+          "writing policies in Go",
+          "new validation policy"
+        ],
+        "doc_persona": [
+          "kubewarden-developer"
+        ],
+        "doc_type": [
+          "tutorial"
+        ],
+        "doc_topic": [
+          "kubewarden",
+          "writing-policies",
+          "go",
+          "creating a new validation policy"
+        ],
+        "slug": null,
+        "sidebar_label": "New validation policy",
+        "sidebar_position": 16,
+        "int_links": [],
+        "ext_links": [
+          "https://github.com/bats-core/bats-core",
+          "https://github.com/kubewarden/go-policy-template"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "writing-policies/go/policy-settings.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "writing-policies/go/policy-settings.md",
+      "_tag": "policy-settings.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "go/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "writing-policies/go/policy-settings.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/policy-settings.md",
+        "title": "Defining policy settings",
+        "description": "Defining policy setting for a Kubewarden policy written in Go.",
+        "keywords": [
+          "kubewarden",
+          "kubernetes",
+          "defining policy settings",
+          "Go"
+        ],
+        "doc_persona": [
+          "kubewarden-developer"
+        ],
+        "doc_type": [
+          "tutorial"
+        ],
+        "doc_topic": [
+          "kubewarden",
+          "writing-policies",
+          "go",
+          "defining-policy-settings"
+        ],
+        "slug": null,
+        "sidebar_label": "Defining policy settings",
+        "sidebar_position": 24,
+        "int_links": [
+          "writing-policies/go/writing-policies/index.md#the-validationrequest-object",
+          "writing-policies/go/writing-policies/index.md#the-validate_settings-entry-point"
+        ],
+        "ext_links": [
+          "https://pkg.go.dev/github.com/kubewarden/policy-sdk-go@v0.2.1/protocol#ValidationRequest",
+          "https://github.com/WebAssembly/threads",
+          "https://github.com/deckarep/golang-set",
+          "https://pkg.go.dev/github.com/deckarep/golang-set?utm_source=godoc#NewThreadUnsafeSet",
+          "https://github.com/kubewarden/policy-sdk-go"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "writing-policies/go/validation.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "writing-policies/go/validation.md",
+      "_tag": "validation.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "go/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "writing-policies/go/validation.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/validation.md",
+        "title": "Writing the validation logic",
+        "description": "A tutorial on writing validation logic for a Kubewarden policy using Go.",
+        "keywords": [
+          "kubewarden",
+          "kubernetes",
+          "writing policies",
+          "golang",
+          "go"
+        ],
+        "doc_persona": [
+          "kubewarden-developer"
+        ],
+        "doc_type": [
+          "tutorial"
+        ],
+        "doc_topic": [
+          "kubewarden",
+          "writing-policies",
+          "golang",
+          "validation-logic"
+        ],
+        "slug": null,
+        "sidebar_label": "Validation logic",
+        "sidebar_position": 32,
+        "int_links": [
+          "writing-policies/spec/validating-policies",
+          "writing-policies/go/validation-with-queries"
+        ],
+        "ext_links": [
+          "https://stedolan.github.io/jq/"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "writing-policies/go/logging.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "writing-policies/go/logging.md",
+      "_tag": "logging.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "go/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "writing-policies/go/logging.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/logging.md",
+        "title": "Logging",
+        "description": "A tutorial introduction to logging when using Go to write a Kubewarden policy.",
+        "keywords": [
+          "kubewarden",
+          "kubernetes",
+          "writing policies",
+          "golang",
+          "go",
+          "logging"
+        ],
+        "doc_persona": [
+          "kubewarden-developer"
+        ],
+        "doc_type": [
+          "tutorial"
+        ],
+        "doc_topic": [
+          "kubewarden",
+          "writing-policies",
+          "golang",
+          "logging"
+        ],
+        "slug": null,
+        "sidebar_label": "Logging",
+        "sidebar_position": 48,
+        "int_links": [],
+        "ext_links": [
+          "https://github.com/francoispqt/onelog#benchmarks",
+          "https://pkg.go.dev/github.com/francoispqt/onelog?utm_source=godoc",
+          "https://github.com/francoispqt/onelog",
+          "https://www.jaegertracing.io/"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "writing-policies/go/e2e-tests.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "writing-policies/go/e2e-tests.md",
+      "_tag": "e2e-tests.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "go/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "writing-policies/go/e2e-tests.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/e2e-tests.md",
+        "title": "End-to-end testing",
+        "description": "A tutorial introduction to end-to-end testing for writing Kubewarden policies in the Go language.",
+        "keywords": [
+          "kubewarden",
+          "kubernetes",
+          "writing policies",
+          "end-to-end testing",
+          "golang",
+          "go"
+        ],
+        "doc_persona": [
+          "kubewarden-developer"
+        ],
+        "doc_type": [
+          "tutorial"
+        ],
+        "doc_topic": [
+          "kubewarden",
+          "writing-policies",
+          "golang",
+          "end-to-end-testing"
+        ],
+        "slug": null,
+        "sidebar_label": "End-to-end testing",
+        "sidebar_position": 40,
+        "int_links": [
+          "writing-policies/go/testing-policies/01-intro.md"
+        ],
+        "ext_links": [
+          "https://github.com/bats-core/bats-core",
+          "https://github.com/kubewarden/kwctl/releases"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "writing-policies/go/automate.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "writing-policies/go/automate.md",
+      "_tag": "automate.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "go/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "writing-policies/go/automate.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/automate.md",
+        "title": "Integrating with GitHub Actions",
+        "description": "Integrating with GitHub actions when developing policies for Kubewarden in Go.",
+        "keywords": [
+          "kubewarden",
+          "kubernetes",
+          "github",
+          "integration"
+        ],
+        "doc_persona": [
+          "kubewarden-developer"
+        ],
+        "doc_type": [
+          "tutorial"
+        ],
+        "doc_topic": [
+          "kubewarden",
+          "writing-policies",
+          "golang",
+          "github-action-integration"
+        ],
+        "slug": null,
+        "sidebar_label": "GitHub Actions",
+        "sidebar_position": 56,
+        "int_links": [],
+        "ext_links": []
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "writing-policies/go/distribute.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "writing-policies/go/distribute.md",
+      "_tag": "distribute.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "go/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "writing-policies/go/distribute.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/distribute.md",
+        "title": "Distributing policy",
+        "description": "Distributing Kubewarden policies developed with Go.",
+        "keywords": [
+          "kubewarden",
+          "kubernetes",
+          "distributing kubewarden policies"
+        ],
+        "doc_persona": [
+          "kubewarden-developer",
+          "kubewarden-operator"
+        ],
+        "doc_type": [
+          "tutorial"
+        ],
+        "doc_topic": [
+          "kubewarden",
+          "writing-policies",
+          "go",
+          "distributing-policies"
+        ],
+        "slug": null,
+        "sidebar_label": "Distributing policy",
+        "sidebar_position": "080",
+        "int_links": [
+          "writing-policies/go/distributing-policies.md"
+        ],
+        "ext_links": [
+          "https://github.com/kubewarden/safe-labels-policy"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "writing-policies/go/validation-with-queries.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "writing-policies/go/validation-with-queries.md",
+      "_tag": "validation-with-queries.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "go/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "writing-policies/go/validation-with-queries.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/validation-with-queries.md",
+        "title": "Validation using JSON queries",
+        "description": "Validation using JSON queries with Kubewarden policies in Go.",
+        "keywords": [
+          "kubewarden",
+          "kubernetes",
+          "validation using JSON queries"
+        ],
+        "doc_persona": [
+          "kubewarden-developer"
+        ],
+        "doc_type": [
+          "tutorial"
+        ],
+        "doc_topic": [
+          "kubewarden",
+          "writing-policies",
+          "golang",
+          "validation-using-json"
+        ],
+        "slug": null,
+        "sidebar_label": "Validation using JSON queries",
+        "sidebar_position": "090",
+        "int_links": [
+          "writing-policies/go/validation"
+        ],
+        "ext_links": [
+          "https://github.com/tidwall/gjson"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "writing-policies/go/raw-policies.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "writing-policies/go/raw-policies.md",
+      "_tag": "raw-policies.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "go/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "writing-policies/go/raw-policies.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/raw-policies.md",
+        "title": "Writing raw policies",
+        "description": "Writing raw Kubewarden policies using Go.",
+        "keywords": [
+          "kubewarden",
+          "kubernetes",
+          "writing policies",
+          "raw",
+          "go"
+        ],
+        "doc_persona": [
+          "kubewarden-developer"
+        ],
+        "doc_type": [
+          "tutorial"
+        ],
+        "doc_topic": [
+          "kubewarden",
+          "writing-policies",
+          "golang",
+          "raw-policies"
+        ],
+        "slug": null,
+        "sidebar_label": "Raw policies",
+        "sidebar_position": 100,
+        "int_links": [
+          "writing-policies/go/validation.md",
+          "howtos/raw-policies.md",
+          "writing-policies/metadata.md"
+        ],
+        "ext_links": [
+          "https://github.com/kubewarden/go-policy-template"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "writing-policies/index.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "writing-policies/index.md",
+      "_tag": "index.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "writing-policies/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "writing-policies/index.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/index.md",
+        "title": "Writing Kubewarden policies",
+        "description": "An introduction to writing Kubewarden policies.",
+        "keywords": [
+          "kubewarden",
+          "kubernetes",
+          "writing policies"
+        ],
+        "doc_persona": [
+          "kubewarden-policy-developer"
+        ],
+        "doc_type": [
+          "explanation"
+        ],
+        "doc_topic": [
+          "writing-policies"
+        ],
+        "slug": null,
+        "sidebar_label": "Writing Policies",
+        "sidebar_position": null,
+        "int_links": [],
+        "ext_links": [
+          "https://github.com/appcypher/awesome-wasm-langs",
+          "https://github.com/wapc",
+          "https://en.wikipedia.org/wiki/Plug-in_%28computing%29",
+          "https://github.com/kubewarden/policy-server",
+          "https://webassembly.org/"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "writing-policies/metadata.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "writing-policies/metadata.md",
+      "_tag": "metadata.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "writing-policies/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "writing-policies/metadata.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/metadata.md",
+        "title": "Policy metadata",
+        "description": "Using policy metadata when developing a Kubewarden policy.",
+        "keywords": [
+          "kubewraden",
+          "kubernetes policy development",
+          "policy metadata"
+        ],
+        "doc_persona": [
+          "kubewarden-developer"
+        ],
+        "doc_type": [
+          "how-to",
+          "tutorial"
+        ],
+        "doc_topic": [
+          "kubewarden",
+          "writing-polices",
+          "policy-metadata"
+        ],
+        "slug": null,
+        "sidebar_label": "Policy metadata",
+        "sidebar_position": null,
+        "int_links": [
+          "explanations/audit-scanner#limitations",
+          "howtos/raw-policies.md",
+          "distributing-policies.md"
+        ],
+        "ext_links": []
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "writing-policies/other-languages.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "writing-policies/other-languages.md",
+      "_tag": "other-languages.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "writing-policies/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "writing-policies/other-languages.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/other-languages.md",
+        "title": "Other languages",
+        "description": "Writing Kubewarden policies in other languages",
+        "keywords": [
+          "kubewarden",
+          "kubernetes",
+          "writing policies",
+          "other languages"
+        ],
+        "doc_persona": [
+          "kubewarden-policy-developer"
+        ],
+        "doc_type": [
+          "how-to",
+          "tutorial"
+        ],
+        "doc_topic": [
+          "kubewarden",
+          "writing-policies",
+          "other-languages"
+        ],
+        "slug": null,
+        "sidebar_label": "Other languages",
+        "sidebar_position": null,
+        "int_links": [],
+        "ext_links": [
+          "https://github.com/kubewarden/docs"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "rego/": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "rego/",
+      "_tag": "rego/",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "writing-policies/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [
+          "writing-policies/rego/01-intro-rego.md",
+          "writing-policies/rego/02-builtin-support.md",
+          "gatekeeper/",
+          "open-policy-agent/"
+        ],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "rego/",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/rego/",
+        "int_links": null,
+        "ext_links": null
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "writing-policies/rego/01-intro-rego.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "writing-policies/rego/01-intro-rego.md",
+      "_tag": "01-intro-rego.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "rego/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "writing-policies/rego/01-intro-rego.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rego/01-intro-rego.md",
+        "title": "",
+        "description": null,
+        "keywords": null,
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": "Introduction to Rego",
+        "sidebar_position": null,
+        "int_links": [
+          "writing-policies/rego/writing-policies/rego/open-policy-agent/01-intro.md",
+          "writing-policies/rego/writing-policies/rego/gatekeeper/01-intro.md",
+          "writing-policies/spec/05-context-aware-policies.md"
+        ],
+        "ext_links": [
+          "https://www.openpolicyagent.org/docs/latest/policy-language/",
+          "https://github.com/open-policy-agent/kube-mgmt"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "writing-policies/rego/02-builtin-support.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "writing-policies/rego/02-builtin-support.md",
+      "_tag": "02-builtin-support.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "rego/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "writing-policies/rego/02-builtin-support.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rego/02-builtin-support.md",
+        "title": "",
+        "description": null,
+        "keywords": null,
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": "Builtin Support",
+        "sidebar_position": null,
+        "int_links": [],
+        "ext_links": [
+          "https://www.openpolicyagent.org/docs/latest/policy-reference/#built-in-functions",
+          "https://github.com/kubewarden/policy-evaluator/issues/56"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "gatekeeper/": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "gatekeeper/",
+      "_tag": "gatekeeper/",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "rego/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [
+          "writing-policies/rego/gatekeeper/01-intro.md",
+          "writing-policies/rego/gatekeeper/02-create-policy.md",
+          "writing-policies/rego/gatekeeper/03-build-and-run.md",
+          "writing-policies/rego/gatekeeper/04-distribute.md"
+        ],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "gatekeeper/",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/gatekeeper/",
+        "int_links": null,
+        "ext_links": null
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "writing-policies/rego/gatekeeper/01-intro.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "writing-policies/rego/gatekeeper/01-intro.md",
+      "_tag": "01-intro.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "gatekeeper/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "writing-policies/rego/gatekeeper/01-intro.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rego/gatekeeper/01-intro.md",
+        "title": "",
+        "description": null,
+        "keywords": null,
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": "Introduction",
+        "sidebar_position": null,
+        "int_links": [
+          "writing-policies/rego/builtin-support"
+        ],
+        "ext_links": []
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "writing-policies/rego/gatekeeper/02-create-policy.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "writing-policies/rego/gatekeeper/02-create-policy.md",
+      "_tag": "02-create-policy.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "gatekeeper/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "writing-policies/rego/gatekeeper/02-create-policy.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rego/gatekeeper/02-create-policy.md",
+        "title": "",
+        "description": null,
+        "keywords": null,
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": "Create a New Policy",
+        "sidebar_position": null,
+        "int_links": [
+          "writing-policies/rego/open-policy-agent/create-policy"
+        ],
+        "ext_links": [
+          "https://github.com/kubewarden/gatekeeper-policy-template"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "writing-policies/rego/gatekeeper/03-build-and-run.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "writing-policies/rego/gatekeeper/03-build-and-run.md",
+      "_tag": "03-build-and-run.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "gatekeeper/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "writing-policies/rego/gatekeeper/03-build-and-run.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rego/gatekeeper/03-build-and-run.md",
+        "title": "",
+        "description": null,
+        "keywords": null,
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": "Build and Run",
+        "sidebar_position": null,
+        "int_links": [],
+        "ext_links": []
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "writing-policies/rego/gatekeeper/04-distribute.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "writing-policies/rego/gatekeeper/04-distribute.md",
+      "_tag": "04-distribute.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "gatekeeper/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "writing-policies/rego/gatekeeper/04-distribute.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rego/gatekeeper/04-distribute.md",
+        "title": "",
+        "description": null,
+        "keywords": null,
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": "Distribute",
+        "sidebar_position": null,
+        "int_links": [],
+        "ext_links": []
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "open-policy-agent/": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "open-policy-agent/",
+      "_tag": "open-policy-agent/",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "rego/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [
+          "writing-policies/rego/open-policy-agent/01-intro.md",
+          "writing-policies/rego/open-policy-agent/02-create-policy.md",
+          "writing-policies/rego/open-policy-agent/03-build-and-run.md",
+          "writing-policies/rego/open-policy-agent/04-distribute.md",
+          "writing-policies/rego/open-policy-agent/05-raw-policies.md"
+        ],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "open-policy-agent/",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/open-policy-agent/",
+        "int_links": null,
+        "ext_links": null
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "writing-policies/rego/open-policy-agent/01-intro.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "writing-policies/rego/open-policy-agent/01-intro.md",
+      "_tag": "01-intro.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "open-policy-agent/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "writing-policies/rego/open-policy-agent/01-intro.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rego/open-policy-agent/01-intro.md",
+        "title": "",
+        "description": null,
+        "keywords": null,
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": "Introduction",
+        "sidebar_position": null,
+        "int_links": [
+          "writing-policies/rego/builtin-support"
+        ],
+        "ext_links": []
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "writing-policies/rego/open-policy-agent/02-create-policy.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "writing-policies/rego/open-policy-agent/02-create-policy.md",
+      "_tag": "02-create-policy.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "open-policy-agent/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "writing-policies/rego/open-policy-agent/02-create-policy.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rego/open-policy-agent/02-create-policy.md",
+        "title": "",
+        "description": null,
+        "keywords": null,
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": "Create a New Policy",
+        "sidebar_position": null,
+        "int_links": [],
+        "ext_links": [
+          "https://www.openpolicyagent.org/docs/latest/policy-language/",
+          "https://github.com/open-policy-agent/opa/releases",
+          "https://github.com/kubewarden/opa-policy-template",
+          "https://github.com/kubewarden/kwctl/releases"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "writing-policies/rego/open-policy-agent/03-build-and-run.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "writing-policies/rego/open-policy-agent/03-build-and-run.md",
+      "_tag": "03-build-and-run.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "open-policy-agent/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "writing-policies/rego/open-policy-agent/03-build-and-run.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rego/open-policy-agent/03-build-and-run.md",
+        "title": "",
+        "description": null,
+        "keywords": null,
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": "Build and Run",
+        "sidebar_position": null,
+        "int_links": [],
+        "ext_links": []
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "writing-policies/rego/open-policy-agent/04-distribute.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "writing-policies/rego/open-policy-agent/04-distribute.md",
+      "_tag": "04-distribute.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "open-policy-agent/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "writing-policies/rego/open-policy-agent/04-distribute.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rego/open-policy-agent/04-distribute.md",
+        "title": "",
+        "description": null,
+        "keywords": null,
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": "Distribute",
+        "sidebar_position": null,
+        "int_links": [],
+        "ext_links": []
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "writing-policies/rego/open-policy-agent/05-raw-policies.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "writing-policies/rego/open-policy-agent/05-raw-policies.md",
+      "_tag": "05-raw-policies.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "open-policy-agent/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "writing-policies/rego/open-policy-agent/05-raw-policies.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rego/open-policy-agent/05-raw-policies.md",
+        "title": "Raw policies",
+        "description": null,
+        "keywords": null,
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": "Raw policies",
+        "sidebar_position": null,
+        "int_links": [
+          "writing-policies/metadata.md",
+          "writing-policies/rego/open-policy-agent/02-create-policy.md",
+          "howtos/raw-policies.md"
+        ],
+        "ext_links": [
+          "https://github.com/kubewarden/opa-policy-template"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "rust/": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "rust/",
+      "_tag": "rust/",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "writing-policies/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [
+          "writing-policies/rust/01-intro-rust.md",
+          "writing-policies/rust/02-create-policy.md",
+          "writing-policies/rust/03-define-policy-settings.md",
+          "writing-policies/rust/04-write-validation-logic.md",
+          "writing-policies/rust/05-mutation-policy.md",
+          "writing-policies/rust/06-logging.md",
+          "writing-policies/rust/07-build-and-distribute.md",
+          "writing-policies/rust/08-raw-policies.md"
+        ],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "rust/",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/rust/",
+        "int_links": null,
+        "ext_links": null
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "writing-policies/rust/01-intro-rust.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "writing-policies/rust/01-intro-rust.md",
+      "_tag": "01-intro-rust.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "rust/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "writing-policies/rust/01-intro-rust.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rust/01-intro-rust.md",
+        "title": "Rust",
+        "description": "An introduction to writing Kubewarden policies with Rust.",
+        "keywords": [
+          "kubewarden",
+          "kubernetes",
+          "writing policies",
+          "introduction"
+        ],
+        "doc_persona": [
+          "kubewarden-developer",
+          "kubewarden-developer-rust"
+        ],
+        "doc_type": [
+          "tutorial"
+        ],
+        "doc_topic": [
+          "kubewarden",
+          "writing-policies",
+          "rust",
+          "introduction"
+        ],
+        "slug": null,
+        "sidebar_label": null,
+        "sidebar_position": null,
+        "int_links": [],
+        "ext_links": [
+          "https://www.rust-lang.org/",
+          "https://github.com/kubewarden/rust-policy-template",
+          "https://github.com/cargo-generate/cargo-generate",
+          "https://crates.io/crates/kubewarden-policy-sdk",
+          "https://github.com/rust-lang/rustup",
+          "https://rust-lang.github.io/rustup/installation/index.html",
+          "https://docs.rs/kubewarden-policy-sdk/0.1.0"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "writing-policies/rust/02-create-policy.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "writing-policies/rust/02-create-policy.md",
+      "_tag": "02-create-policy.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "rust/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "writing-policies/rust/02-create-policy.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rust/02-create-policy.md",
+        "title": "Creating a policy",
+        "description": "Creating a Kubewarden policy using Rust.",
+        "keywords": [
+          "kubewarden",
+          "kubernetes",
+          "policy creation"
+        ],
+        "doc_persona": [
+          "kubewarden-developer",
+          "kubewarden-developer-rust"
+        ],
+        "doc_type": [
+          "tutorial"
+        ],
+        "doc_topic": [
+          "kubewarden",
+          "writing-policies",
+          "rust",
+          "creating-policies"
+        ],
+        "slug": null,
+        "sidebar_label": "Creating a policy",
+        "sidebar_position": null,
+        "int_links": [],
+        "ext_links": [
+          "https://github.com/kubewarden/rust-policy-template",
+          "https://docs.github.com/en/packages/working-with-a-github-packages-registry/enabling-improved-container-support-with-the-container-registry#enabling-the-container-registry-for-your-personal-account",
+          "https://pkgs.org/download/openssl-devel"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "writing-policies/rust/03-define-policy-settings.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "writing-policies/rust/03-define-policy-settings.md",
+      "_tag": "03-define-policy-settings.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "rust/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "writing-policies/rust/03-define-policy-settings.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rust/03-define-policy-settings.md",
+        "title": "Defining policy settings",
+        "description": "Defining policy settings for a Kubewarden policy developed using Rust",
+        "keywords": [
+          "kubewarden",
+          "kubernetes",
+          "writing policies",
+          "policy settings",
+          "rust"
+        ],
+        "doc_persona": [
+          "kubewarden-developer",
+          "kubewarden-developer-rust"
+        ],
+        "doc_type": [
+          "tutorial"
+        ],
+        "doc_topic": [
+          "kubewarden",
+          "writing-policies",
+          "rust",
+          "policy-settings"
+        ],
+        "slug": null,
+        "sidebar_label": "Defining policy settings",
+        "sidebar_position": null,
+        "int_links": [],
+        "ext_links": [
+          "https://doc.rust-lang.org/stable/book/ch11-00-testing.html"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "writing-policies/rust/04-write-validation-logic.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "writing-policies/rust/04-write-validation-logic.md",
+      "_tag": "04-write-validation-logic.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "rust/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "writing-policies/rust/04-write-validation-logic.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rust/04-write-validation-logic.md",
+        "title": "Writing validation logic",
+        "description": "Writing validation logic in Rust for a Kubewarden policy",
+        "keywords": [
+          "kubewarden",
+          "kubernetes",
+          "policy",
+          "writing",
+          "rust",
+          "validation logic"
+        ],
+        "doc_persona": [
+          "kubewarden-developer",
+          "kubewarden-developer-rust"
+        ],
+        "doc_type": [
+          "tutorial"
+        ],
+        "doc_topic": [
+          "kubewarden",
+          "writing-policies",
+          "rust",
+          "validation-logic"
+        ],
+        "slug": null,
+        "sidebar_label": "Writing validation logic",
+        "sidebar_position": null,
+        "int_links": [],
+        "ext_links": [
+          "https://arnavion.github.io/k8s-openapi/v0.11.x/k8s_openapi/api/core/v1/struct.Pod.html",
+          "https://en.wikipedia.org/wiki/Test_fixture#Software"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "writing-policies/rust/05-mutation-policy.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "writing-policies/rust/05-mutation-policy.md",
+      "_tag": "05-mutation-policy.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "rust/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "writing-policies/rust/05-mutation-policy.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rust/05-mutation-policy.md",
+        "title": "Creating a new mutation policy",
+        "description": "Creating a new mutation policy using Rust",
+        "keywords": [
+          "kubewarden",
+          "kubernetes",
+          "creating a new mutation policy",
+          "mutation policy",
+          "rust"
+        ],
+        "doc_persona": [
+          "kubewarden-developer",
+          "kubewarden-developer-rust"
+        ],
+        "doc_type": [
+          "tutorial"
+        ],
+        "doc_topic": [
+          "kubewarden",
+          "writing-policies",
+          "rust",
+          "new-mutation-policy"
+        ],
+        "slug": null,
+        "sidebar_label": "Creating a new mutation policy",
+        "sidebar_position": null,
+        "int_links": [],
+        "ext_links": [
+          "https://docs.rs/kubewarden-policy-sdk/0.1.0/kubewarden_policy_sdk/fn.mutate_request.html",
+          "https://docs.rs/kubewarden-policy-sdk/0.1.0/kubewarden_policy_sdk/fn.accept_request.html"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "writing-policies/rust/06-logging.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "writing-policies/rust/06-logging.md",
+      "_tag": "06-logging.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "rust/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "writing-policies/rust/06-logging.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rust/06-logging.md",
+        "title": "Logging",
+        "description": "How to use logging functionality when writing a Kubewarden policy in Rust.",
+        "keywords": [
+          "Kubewarden",
+          "kubernetes",
+          "logging"
+        ],
+        "doc_persona": [
+          "kubewarden-developer",
+          "kubewarden-developer-rust"
+        ],
+        "doc_type": [
+          "tutorial"
+        ],
+        "doc_topic": [
+          "kubewarden",
+          "writing-policies",
+          "rust",
+          "logging"
+        ],
+        "slug": null,
+        "sidebar_label": "Logging",
+        "sidebar_position": null,
+        "int_links": [],
+        "ext_links": [
+          "https://docs.rs/slog/2.7.0/slog/macro.log.html",
+          "https://github.com/slog-rs/slog",
+          "https://docs.rs/slog/2.7.0/slog/index.html"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "writing-policies/rust/07-build-and-distribute.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "writing-policies/rust/07-build-and-distribute.md",
+      "_tag": "07-build-and-distribute.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "rust/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "writing-policies/rust/07-build-and-distribute.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rust/07-build-and-distribute.md",
+        "title": "Building and distributing policies",
+        "description": "Building and distributing Kubewarden policies developed with Rust.",
+        "keywords": [
+          "kubewarden",
+          "kubernetes",
+          "writing policies",
+          "rust",
+          "build and distribute"
+        ],
+        "doc_persona": [
+          "kubewarden-developer",
+          "kubewarden-developer-rust",
+          "kubewarden-operator"
+        ],
+        "doc_type": [
+          "tutorial"
+        ],
+        "doc_topic": [
+          "kubewarden",
+          "writing-policies",
+          "rust",
+          "build-and-distribute"
+        ],
+        "slug": null,
+        "sidebar_label": "Building and distributing policies",
+        "sidebar_position": null,
+        "int_links": [
+          "writing-policies/rust/distributing-policies.md"
+        ],
+        "ext_links": [
+          "https://github.com/search?l=Rust&amp;q=topic%3Apolicy-as-code+org%3Akubewarden&amp;type=Repositories"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "writing-policies/rust/08-raw-policies.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "writing-policies/rust/08-raw-policies.md",
+      "_tag": "08-raw-policies.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "rust/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "writing-policies/rust/08-raw-policies.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rust/08-raw-policies.md",
+        "title": "Raw policies",
+        "description": null,
+        "keywords": null,
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": "Raw policies",
+        "sidebar_position": null,
+        "int_links": [
+          "writing-policies/rust/05-mutation-policy.md",
+          "howtos/raw-policies.md",
+          "writing-policies/metadata.md"
+        ],
+        "ext_links": [
+          "https://github.com/kubewarden/rust-policy-template"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "spec/": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "spec/",
+      "_tag": "spec/",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "writing-policies/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [
+          "writing-policies/spec/01-intro-spec.md",
+          "writing-policies/spec/02-settings.md",
+          "writing-policies/spec/03-validating-policies.md",
+          "writing-policies/spec/04-mutating-policies.md",
+          "writing-policies/spec/05-context-aware-policies.md",
+          "host-capabilities/"
+        ],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "spec/",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/spec/",
+        "int_links": null,
+        "ext_links": null
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "writing-policies/spec/01-intro-spec.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "writing-policies/spec/01-intro-spec.md",
+      "_tag": "01-intro-spec.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "spec/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "writing-policies/spec/01-intro-spec.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/01-intro-spec.md",
+        "title": "",
+        "description": null,
+        "keywords": null,
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": "Policy Communication Specification",
+        "sidebar_position": null,
+        "int_links": [],
+        "ext_links": []
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "writing-policies/spec/02-settings.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "writing-policies/spec/02-settings.md",
+      "_tag": "02-settings.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "spec/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "writing-policies/spec/02-settings.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/02-settings.md",
+        "title": "",
+        "description": null,
+        "keywords": null,
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": "Policy Settings",
+        "sidebar_position": null,
+        "int_links": [],
+        "ext_links": [
+          "https://github.com/chimera-kube/policy-server",
+          "https://github.com/kubewarden/psp-capabilities"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "writing-policies/spec/03-validating-policies.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "writing-policies/spec/03-validating-policies.md",
+      "_tag": "03-validating-policies.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "spec/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "writing-policies/spec/03-validating-policies.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/03-validating-policies.md",
+        "title": "",
+        "description": null,
+        "keywords": null,
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": "Validating Policies",
+        "sidebar_position": null,
+        "int_links": [
+          "howtos/raw-policies.md"
+        ],
+        "ext_links": [
+          "https://godoc.org/k8s.io/api/admission/v1#AdmissionReview",
+          "https://godoc.org/k8s.io/api/admission/v1#AdmissionRequest"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "writing-policies/spec/04-mutating-policies.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "writing-policies/spec/04-mutating-policies.md",
+      "_tag": "04-mutating-policies.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "spec/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "writing-policies/spec/04-mutating-policies.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/04-mutating-policies.md",
+        "title": "",
+        "description": null,
+        "keywords": null,
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": "Mutating Policies",
+        "sidebar_position": null,
+        "int_links": [],
+        "ext_links": []
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "writing-policies/spec/05-context-aware-policies.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "writing-policies/spec/05-context-aware-policies.md",
+      "_tag": "05-context-aware-policies.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "spec/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "writing-policies/spec/05-context-aware-policies.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/05-context-aware-policies.md",
+        "title": "",
+        "description": null,
+        "keywords": null,
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": "Context Aware Policies",
+        "sidebar_position": null,
+        "int_links": [
+          "writing-policies/spec/docs/writing-policies/spec/host-capabilities/06-kubernetes.md"
+        ],
+        "ext_links": [
+          "https://doc.crds.dev/github.com/kubewarden/kubewarden-controller/policies.kubewarden.io/ClusterAdmissionPolicy/v1#spec-contextAwareResources",
+          "https://docs.rs/kubewarden-policy-sdk/0.8.7/kubewarden_policy_sdk",
+          "https://pkg.go.dev/github.com/kubewarden/policy-sdk-go",
+          "https://github.com/open-policy-agent/kube-mgmt"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "host-capabilities/": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "host-capabilities/",
+      "_tag": "host-capabilities/",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "spec/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [
+          "writing-policies/spec/host-capabilities/01-intro-host-capabilities.md",
+          "writing-policies/spec/host-capabilities/02-signature-verifier-policies.md",
+          "writing-policies/spec/host-capabilities/03-container-registry.md",
+          "writing-policies/spec/host-capabilities/04-net.md",
+          "writing-policies/spec/host-capabilities/05-crypto.md",
+          "writing-policies/spec/host-capabilities/06-kubernetes.md"
+        ],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "host-capabilities/",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/host-capabilities/",
+        "int_links": null,
+        "ext_links": null
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "writing-policies/spec/host-capabilities/01-intro-host-capabilities.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "writing-policies/spec/host-capabilities/01-intro-host-capabilities.md",
+      "_tag": "01-intro-host-capabilities.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "host-capabilities/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "writing-policies/spec/host-capabilities/01-intro-host-capabilities.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/01-intro-host-capabilities.md",
+        "title": "",
+        "description": null,
+        "keywords": null,
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": "Host Capabilities Specification",
+        "sidebar_position": null,
+        "int_links": [],
+        "ext_links": [
+          "https://wapc.io/",
+          "https://en.wikipedia.org/wiki/Remote_procedure_call"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "writing-policies/spec/host-capabilities/02-signature-verifier-policies.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "writing-policies/spec/host-capabilities/02-signature-verifier-policies.md",
+      "_tag": "02-signature-verifier-policies.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "host-capabilities/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "writing-policies/spec/host-capabilities/02-signature-verifier-policies.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/02-signature-verifier-policies.md",
+        "title": "",
+        "description": null,
+        "keywords": null,
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": "Signature Verifier Policies",
+        "sidebar_position": null,
+        "int_links": [
+          "distributing-policies/secure-supply-chain.md"
+        ],
+        "ext_links": [
+          "https://www.sigstore.dev/",
+          "https://github.com/kubewarden/verify-image-signatures"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "writing-policies/spec/host-capabilities/03-container-registry.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "writing-policies/spec/host-capabilities/03-container-registry.md",
+      "_tag": "03-container-registry.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "host-capabilities/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "writing-policies/spec/host-capabilities/03-container-registry.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/03-container-registry.md",
+        "title": "",
+        "description": null,
+        "keywords": null,
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": "Container Registry Capabilities",
+        "sidebar_position": null,
+        "int_links": [],
+        "ext_links": []
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "writing-policies/spec/host-capabilities/04-net.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "writing-policies/spec/host-capabilities/04-net.md",
+      "_tag": "04-net.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "host-capabilities/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "writing-policies/spec/host-capabilities/04-net.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/04-net.md",
+        "title": "",
+        "description": null,
+        "keywords": null,
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": "Network Capabilities",
+        "sidebar_position": null,
+        "int_links": [],
+        "ext_links": []
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "writing-policies/spec/host-capabilities/05-crypto.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "writing-policies/spec/host-capabilities/05-crypto.md",
+      "_tag": "05-crypto.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "host-capabilities/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "writing-policies/spec/host-capabilities/05-crypto.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/05-crypto.md",
+        "title": "",
+        "description": null,
+        "keywords": null,
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": "Cryptographic Capabilities",
+        "sidebar_position": null,
+        "int_links": [],
+        "ext_links": []
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "writing-policies/spec/host-capabilities/06-kubernetes.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "writing-policies/spec/host-capabilities/06-kubernetes.md",
+      "_tag": "06-kubernetes.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "host-capabilities/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "writing-policies/spec/host-capabilities/06-kubernetes.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/06-kubernetes.md",
+        "title": "",
+        "description": null,
+        "keywords": null,
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": "Kubernetes Capabilities",
+        "sidebar_position": null,
+        "int_links": [],
+        "ext_links": []
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "writing-policies/swift.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "writing-policies/swift.md",
+      "_tag": "swift.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "writing-policies/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "writing-policies/swift.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/swift.md",
+        "title": "Swift",
+        "description": "Kubewarden policies with Swift",
+        "keywords": [
+          "kubewarden",
+          "kubernetes",
+          "writing policies",
+          "swift"
+        ],
+        "doc_persona": [
+          "kubewarden-policy-developer"
+        ],
+        "doc_type": [
+          "how-to"
+        ],
+        "doc_topic": [
+          "kubewarden",
+          "writing-policies",
+          "swift"
+        ],
+        "slug": null,
+        "sidebar_label": "Swift",
+        "sidebar_position": null,
+        "int_links": [],
+        "ext_links": [
+          "https://github.com/kubewarden/swift-policy-template",
+          "https://github.com/kubewarden/pod-runtime-class-policy/tree/swift-implementation",
+          "https://swift.org/",
+          "https://github.com/kubewarden/policy-sdk-swift",
+          "https://swiftwasm.org/"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "writing-policies/typescript.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "writing-policies/typescript.md",
+      "_tag": "typescript.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "writing-policies/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "writing-policies/typescript.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/typescript.md",
+        "title": "Typescript",
+        "description": "Writing Kubewarden policies with Typescript",
+        "keywords": [
+          "at least one"
+        ],
+        "doc_persona": [
+          "default"
+        ],
+        "doc_type": [
+          "one of how-to",
+          "explanation",
+          "tutorial",
+          "reference"
+        ],
+        "doc_topic": [
+          "root-branch"
+        ],
+        "slug": null,
+        "sidebar_label": "Typescript",
+        "sidebar_position": null,
+        "int_links": [],
+        "ext_links": [
+          "https://github.com/AssemblyScript/assemblyscript/issues/292",
+          "https://www.typescriptlang.org/",
+          "https://www.assemblyscript.org/",
+          "https://github.com/kubewarden/pod-privileged-policy/tree/assemblyscript-implementation"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "wasi/": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "wasi/",
+      "_tag": "wasi/",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "writing-policies/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [
+          "writing-policies/wasi/01-intro-wasi.md",
+          "writing-policies/wasi/02-raw-policies.md"
+        ],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "wasi/",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/wasi/",
+        "int_links": null,
+        "ext_links": null
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "writing-policies/wasi/01-intro-wasi.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "writing-policies/wasi/01-intro-wasi.md",
+      "_tag": "01-intro-wasi.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "wasi/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "writing-policies/wasi/01-intro-wasi.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/wasi/01-intro-wasi.md",
+        "title": "WASI",
+        "description": "Using WASI to develop Kubewarden policies.",
+        "keywords": [
+          "kubewarden",
+          "kubernetes",
+          "wasi"
+        ],
+        "doc_persona": [
+          "kubewarden-developer"
+        ],
+        "doc_type": [
+          "how-to",
+          "explanation"
+        ],
+        "doc_topic": [
+          "kubewarden",
+          "writing-policies",
+          "wasi"
+        ],
+        "slug": null,
+        "sidebar_label": null,
+        "sidebar_position": null,
+        "int_links": [
+          "writing-policies/go/intro-go.md",
+          "writing-policies/spec/03-validating-policies.md",
+          "writing-policies/spec/host-capabilities/01-intro-host-capabilities.md",
+          "writing-policies/spec/04-mutating-policies.md",
+          "explanations/context-aware-policies.md",
+          "writing-policies/spec/02-settings.md",
+          "writing-policies/spec/01-intro-spec.md"
+        ],
+        "ext_links": [
+          "https://github.com/kubewarden/go-wasi-policy-template",
+          "https://github.com/wapc",
+          "https://github.com/golang/go/issues/42372",
+          "https://github.com/google/cel-go",
+          "https://github.com/kyverno/kyverno/",
+          "https://wasi.dev/"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    },
+    "writing-policies/wasi/02-raw-policies.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "writing-policies/wasi/02-raw-policies.md",
+      "_tag": "02-raw-policies.md",
+      "expanded": true,
+      "_predecessor": {
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": "wasi/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "writing-policies/wasi/02-raw-policies.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/wasi/02-raw-policies.md",
+        "title": "Writing raw policies",
+        "description": "Using Kubewarden for writing raw policies.",
+        "keywords": [
+          "kubewarden",
+          "kubernetes",
+          "raw policies"
+        ],
+        "doc_persona": [
+          "kubewarden-developer"
+        ],
+        "doc_type": [
+          "explanation",
+          "tutorial"
+        ],
+        "doc_topic": [
+          "kubewarden",
+          "writing-policies",
+          "raw-policies"
+        ],
+        "slug": null,
+        "sidebar_label": "Raw policies",
+        "sidebar_position": null,
+        "int_links": [
+          "howtos/raw-policies.md",
+          "writing-policies/wasi/01-intro-wasi.md",
+          "writing-policies/metadata.md"
+        ],
+        "ext_links": [
+          "https://github.com/kubewarden/go-wasi-policy-template"
+        ]
+      },
+      "_initial_tree_id": "ac9ba4ba-ae19-11ee-b5e2-c85ea9b440c4"
+    }
+  },
+  "root": "root"
+}

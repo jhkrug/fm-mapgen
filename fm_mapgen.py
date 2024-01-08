@@ -7,6 +7,7 @@ import treelib
 import markdown
 import re
 import os
+import jsonpickle
 
 # These 3 are read from config files by read_config:
 required_fm_tags = {}
@@ -52,6 +53,10 @@ def main(argv):
     kt = build_kt(front_matter)
     kt.save2file(filename='tree.txt', key=False)
     kt.to_graphviz(filename='tree.dot')
+
+    json_kt = jsonpickle.encode(kt, keys=True, indent=2)
+    with open("tree.json", "w") as jf:
+        jf.write(str(json_kt))
 
     if args.dump:
         print_tree(kt)
@@ -186,30 +191,38 @@ def extract_links(filename, root_dir):
 
 def process_args(a):
     arg_parser = argparse.ArgumentParser(a)
-    arg_parser.add_argument("-f", "--yaml_filename",
-                            help="A YAML file containing frontmatter to read.",
-                            required=True)
-    arg_parser.add_argument("-r", "--required_fm_tags",
-                            help="A YAML file containing the required front matter tags.",
-                            required=True)
-    arg_parser.add_argument("-o", "--other_fm_tags",
-                            help="A YAML file containing the other front matter tags.",
-                            required=True)
-    arg_parser.add_argument("-n", "--no-frontmatter",
-                            help="Find files with no frontmatter defined.",
-                            required=False, action='store_true')
-    arg_parser.add_argument("-t", "--fm_tag",
-                            help="A YAML frontmatter tag to check files for the absence of.",
-                            required=False)
-    arg_parser.add_argument("-a", "--all_fm_tags",
-                            help="Check for absence of all required tags.",
-                            required=False, action='store_true')
-    arg_parser.add_argument("-w", "--weird_tags",
-                            help="Check for any strange frontmatter tags not in the valid tags list.",
-                            required=False, action='store_true')
-    arg_parser.add_argument("-d", "--dump",
-                            help="Dump the tree in a readable format.",
-                            required=False, action='store_true')
+    arg_parser.add_argument(
+        "-f", "--yaml_filename",
+        help="A YAML file containing frontmatter to read.",
+        required=True)
+    arg_parser.add_argument(
+        "-r", "--required_fm_tags",
+        help="A YAML file containing the required front matter tags.",
+        required=True)
+    arg_parser.add_argument(
+        "-o", "--other_fm_tags",
+        help="A YAML file containing the other front matter tags.",
+        required=True)
+    arg_parser.add_argument(
+        "-n", "--no-frontmatter",
+        help="Find files with no frontmatter defined.",
+        required=False, action='store_true')
+    arg_parser.add_argument(
+        "-t", "--fm_tag",
+        help="A YAML frontmatter tag to check files for the absence of.",
+        required=False)
+    arg_parser.add_argument(
+        "-a", "--all_fm_tags",
+        help="Check for absence of all required tags.",
+        required=False, action='store_true')
+    arg_parser.add_argument(
+        "-w", "--weird_tags",
+        help="Check for strange frontmatter tags not in the valid tags list.",
+        required=False, action='store_true')
+    arg_parser.add_argument(
+        "-d", "--dump",
+        help="Dump the tree in a readable format.",
+        required=False, action='store_true')
     args = arg_parser.parse_args()
     return args
 
