@@ -16,15 +16,31 @@ valid_fm_tags = {}
 
 
 class KmNode(treelib.Node):
+    """
+    Knowledge Map Node is used to store data about a markdown file
+    for those nodes at the leaves of the tree, i.e. the actual *.md files.
+
+    Path and full_path are stored along with a dictionary for each of
+    internal and external links.
+
+    The main body of the data is defined by a couple of configuration
+    YAML files. These config files are read by read_config and define the
+    dictionaries required_fm_tags and other_fm_tags which when combined form
+    valid_fm_tags. This valid_fm_tags defines the data items to be read from
+    the document front matter to be processed.
+    """
+
     def __init__(self, path, full_path, ndd: dict = {},
                  int_links=None, ext_links=None):
         self.path = path
         self.full_path = full_path
+
         try:
             for k in valid_fm_tags.keys():
                 setattr(self, k, ndd[k])
         except:
             pass
+
         self.int_links = int_links
         self.ext_links = ext_links
 
@@ -64,16 +80,16 @@ def main(argv):
     read_config(args.required_fm_tags, args.other_fm_tags)
     front_matter = read_yaml(args.yaml_filename)
 
-    kt = build_kt(front_matter)
-    kt.save2file(filename='tree.txt', key=False)
-    kt.to_graphviz(filename='tree.dot')
+    km = build_km(front_matter)
+    km.save2file(filename='tree.txt', key=False)
+    km.to_graphviz(filename='tree.dot')
 
-    json_kt = jsonpickle.encode(kt, keys=True, indent=2)
-    with open("tree.json", "w") as jf:
-        jf.write(str(json_kt))
+    json_km = jsonpickle.encode(km, keys=True, indent=2)
+    with open("tree.json", "w") as f:
+        f.write(str(json_km))
 
     if args.dump:
-        print_tree(kt)
+        print_km(km)
 
     if args.no_frontmatter:
         report_files_without_fm(front_matter)
@@ -86,10 +102,10 @@ def main(argv):
             report_files_without_fm_tag(front_matter, fm_tag)
 
 
-def print_tree(kt):
-    print("tree_depth =", kt.depth())
-    for node in kt.all_nodes_itr():
-        print_node(node, kt.depth(node))
+def print_km(km):
+    print("knowledge_map =", km.depth())
+    for node in km.all_nodes_itr():
+        print_node(node, km.depth(node))
 
 
 def print_node(node, depth):
@@ -120,11 +136,11 @@ def build_node_data(id, fp, fm, doc_int_links, doc_ext_links):
     return node_data
 
 
-def build_kt(front_matter):
+def build_km(front_matter):
     """Builds the knowledge tree structure from front_matter"""
     root_dir = front_matter[0]['docstore-data']['root-dir']
-    kt = treelib.Tree()
-    kt.create_node("Frontmatter Tree", identifier="root", parent=None,
+    km = treelib.Tree()
+    km.create_node("Frontmatter Tree", identifier="root", parent=None,
                    data=KmNode(None, root_dir))
     for fm in front_matter:
         try:
@@ -145,9 +161,9 @@ def build_kt(front_matter):
                 # Does parent.branch exist already?
                 pb = branch + "/"
                 try:
-                    if not kt.contains(pb):
+                    if not km.contains(pb):
                         node_data = KmNode(pb, root_dir + pb)
-                        kt.create_node(pb, identifier=pb,
+                        km.create_node(pb, identifier=pb,
                                        parent=parent, data=node_data)
                 except:
                     pass
@@ -158,9 +174,9 @@ def build_kt(front_matter):
             ext_links, int_links = extract_links(full_path, root_dir)
             node_data = build_node_data(
                 identifier, full_path, fm, int_links, ext_links)
-            kt.create_node(tag, identifier=identifier,
+            km.create_node(tag, identifier=identifier,
                            parent=parent, data=node_data)
-    return kt
+    return km
 
 
 def internal_link_resolve(l, f, r):

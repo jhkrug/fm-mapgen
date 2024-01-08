@@ -1,4 +1,4 @@
-Data generated: 2023-12-31 10:47:40+00:00
+Data generated: 2024-01-08 15:56:15+01:00
 Files with no, or empty frontmatter fm_tag: title ---
 /home/jhk/projects/suse/kubewarden-docs/docs/contribution-guide/contributing.md
 /home/jhk/projects/suse/kubewarden-docs/docs/contribution-guide/suggesting-an-improvement.md
@@ -7,7 +7,6 @@ Files with no, or empty frontmatter fm_tag: title ---
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/01-intro.md
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/airgap/01-requirements.md
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/airgap/02-install.md
-/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/policy-evaluation-timeout.md
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/policy-servers/01-custom-cas.md
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/policy-servers/02-private-registry.md
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/telemetry/metrics/01-quickstart.md
@@ -15,9 +14,10 @@ Files with no, or empty frontmatter fm_tag: title ---
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/telemetry/opentelemetry/01-quickstart.md
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/telemetry/tracing/01-quickstart.md
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/verification-config.md
-/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/install.md
-/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/metrics.md
-/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/tracing.md
+/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/01-install.md
+/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/02-metrics.md
+/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/03-tracing.md
+/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/policy-evaluation-timeout.md
 /home/jhk/projects/suse/kubewarden-docs/docs/security/01-intro.md
 /home/jhk/projects/suse/kubewarden-docs/docs/security/disclosure.md
 /home/jhk/projects/suse/kubewarden-docs/docs/security/verifying-kubewarden.md
@@ -54,7 +54,6 @@ Files with no, or empty frontmatter fm_tag: description ---
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/CRDs.md
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/airgap/01-requirements.md
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/airgap/02-install.md
-/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/policy-evaluation-timeout.md
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/policy-servers/01-custom-cas.md
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/policy-servers/02-private-registry.md
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/telemetry/metrics/01-quickstart.md
@@ -62,9 +61,10 @@ Files with no, or empty frontmatter fm_tag: description ---
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/telemetry/opentelemetry/01-quickstart.md
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/telemetry/tracing/01-quickstart.md
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/verification-config.md
-/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/install.md
-/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/metrics.md
-/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/tracing.md
+/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/01-install.md
+/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/02-metrics.md
+/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/03-tracing.md
+/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/policy-evaluation-timeout.md
 /home/jhk/projects/suse/kubewarden-docs/docs/security/01-intro.md
 /home/jhk/projects/suse/kubewarden-docs/docs/security/disclosure.md
 /home/jhk/projects/suse/kubewarden-docs/docs/security/threat-model.md
@@ -105,7 +105,6 @@ Files with no, or empty frontmatter fm_tag: keywords ---
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/CRDs.md
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/airgap/01-requirements.md
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/airgap/02-install.md
-/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/policy-evaluation-timeout.md
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/policy-servers/01-custom-cas.md
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/policy-servers/02-private-registry.md
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/telemetry/metrics/01-quickstart.md
@@ -113,9 +112,10 @@ Files with no, or empty frontmatter fm_tag: keywords ---
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/telemetry/opentelemetry/01-quickstart.md
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/telemetry/tracing/01-quickstart.md
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/verification-config.md
-/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/install.md
-/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/metrics.md
-/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/tracing.md
+/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/01-install.md
+/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/02-metrics.md
+/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/03-tracing.md
+/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/policy-evaluation-timeout.md
 /home/jhk/projects/suse/kubewarden-docs/docs/security/01-intro.md
 /home/jhk/projects/suse/kubewarden-docs/docs/security/disclosure.md
 /home/jhk/projects/suse/kubewarden-docs/docs/security/verifying-kubewarden.md
@@ -168,7 +168,6 @@ Files with no, or empty frontmatter fm_tag: doc_persona ---
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/dependency-matrix.md
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/monitor-mode.md
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/policies.md
-/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/policy-evaluation-timeout.md
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/policy-servers/01-custom-cas.md
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/policy-servers/02-private-registry.md
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/telemetry/metrics/01-quickstart.md
@@ -177,9 +176,10 @@ Files with no, or empty frontmatter fm_tag: doc_persona ---
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/telemetry/tracing/01-quickstart.md
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/upgrade-path.md
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/verification-config.md
-/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/install.md
-/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/metrics.md
-/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/tracing.md
+/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/01-install.md
+/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/02-metrics.md
+/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/03-tracing.md
+/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/policy-evaluation-timeout.md
 /home/jhk/projects/suse/kubewarden-docs/docs/quick-start.md
 /home/jhk/projects/suse/kubewarden-docs/docs/security/01-intro.md
 /home/jhk/projects/suse/kubewarden-docs/docs/security/disclosure.md
@@ -193,16 +193,6 @@ Files with no, or empty frontmatter fm_tag: doc_persona ---
 /home/jhk/projects/suse/kubewarden-docs/docs/testing-policies/02-policy-authors.md
 /home/jhk/projects/suse/kubewarden-docs/docs/testing-policies/03-cluster-operators.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/dotnet.md
-/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/intro-go.md
-/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/scaffold.md
-/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/policy-settings.md
-/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/validation.md
-/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/logging.md
-/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/e2e-tests.md
-/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/automate.md
-/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/distribute.md
-/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/validation-with-queries.md
-/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/raw-policies.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/index.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/metadata.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/other-languages.md
@@ -238,8 +228,18 @@ Files with no, or empty frontmatter fm_tag: doc_persona ---
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/06-kubernetes.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/swift.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/typescript.md
-/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/wasi/01-intro-wasi.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/wasi/02-raw-policies.md
+/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/wasi/01-intro-wasi.md
+/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/automate.md
+/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/distribute.md
+/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/e2e-tests.md
+/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/intro-go.md
+/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/logging.md
+/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/policy-settings.md
+/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/raw-policies.md
+/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/scaffold.md
+/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/validation-with-queries.md
+/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/validation.md
 Files with no, or empty frontmatter fm_tag: doc_type ---
 /home/jhk/projects/suse/kubewarden-docs/docs/architecture.md
 /home/jhk/projects/suse/kubewarden-docs/docs/contribution-guide/contributing.md
@@ -265,7 +265,6 @@ Files with no, or empty frontmatter fm_tag: doc_type ---
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/dependency-matrix.md
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/monitor-mode.md
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/policies.md
-/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/policy-evaluation-timeout.md
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/policy-servers/01-custom-cas.md
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/policy-servers/02-private-registry.md
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/telemetry/metrics/01-quickstart.md
@@ -274,9 +273,10 @@ Files with no, or empty frontmatter fm_tag: doc_type ---
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/telemetry/tracing/01-quickstart.md
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/upgrade-path.md
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/verification-config.md
-/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/install.md
-/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/metrics.md
-/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/tracing.md
+/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/01-install.md
+/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/02-metrics.md
+/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/03-tracing.md
+/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/policy-evaluation-timeout.md
 /home/jhk/projects/suse/kubewarden-docs/docs/quick-start.md
 /home/jhk/projects/suse/kubewarden-docs/docs/security/01-intro.md
 /home/jhk/projects/suse/kubewarden-docs/docs/security/disclosure.md
@@ -290,16 +290,6 @@ Files with no, or empty frontmatter fm_tag: doc_type ---
 /home/jhk/projects/suse/kubewarden-docs/docs/testing-policies/02-policy-authors.md
 /home/jhk/projects/suse/kubewarden-docs/docs/testing-policies/03-cluster-operators.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/dotnet.md
-/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/intro-go.md
-/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/scaffold.md
-/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/policy-settings.md
-/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/validation.md
-/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/logging.md
-/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/e2e-tests.md
-/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/automate.md
-/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/distribute.md
-/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/validation-with-queries.md
-/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/raw-policies.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/index.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/metadata.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/other-languages.md
@@ -335,8 +325,18 @@ Files with no, or empty frontmatter fm_tag: doc_type ---
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/06-kubernetes.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/swift.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/typescript.md
-/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/wasi/01-intro-wasi.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/wasi/02-raw-policies.md
+/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/wasi/01-intro-wasi.md
+/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/automate.md
+/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/distribute.md
+/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/e2e-tests.md
+/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/intro-go.md
+/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/logging.md
+/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/policy-settings.md
+/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/raw-policies.md
+/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/scaffold.md
+/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/validation-with-queries.md
+/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/validation.md
 Files with no, or empty frontmatter fm_tag: doc_topic ---
 /home/jhk/projects/suse/kubewarden-docs/docs/architecture.md
 /home/jhk/projects/suse/kubewarden-docs/docs/contribution-guide/contributing.md
@@ -362,7 +362,6 @@ Files with no, or empty frontmatter fm_tag: doc_topic ---
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/dependency-matrix.md
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/monitor-mode.md
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/policies.md
-/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/policy-evaluation-timeout.md
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/policy-servers/01-custom-cas.md
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/policy-servers/02-private-registry.md
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/telemetry/metrics/01-quickstart.md
@@ -371,9 +370,10 @@ Files with no, or empty frontmatter fm_tag: doc_topic ---
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/telemetry/tracing/01-quickstart.md
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/upgrade-path.md
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/verification-config.md
-/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/install.md
-/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/metrics.md
-/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/tracing.md
+/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/01-install.md
+/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/02-metrics.md
+/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/03-tracing.md
+/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/policy-evaluation-timeout.md
 /home/jhk/projects/suse/kubewarden-docs/docs/quick-start.md
 /home/jhk/projects/suse/kubewarden-docs/docs/security/01-intro.md
 /home/jhk/projects/suse/kubewarden-docs/docs/security/disclosure.md
@@ -387,16 +387,6 @@ Files with no, or empty frontmatter fm_tag: doc_topic ---
 /home/jhk/projects/suse/kubewarden-docs/docs/testing-policies/02-policy-authors.md
 /home/jhk/projects/suse/kubewarden-docs/docs/testing-policies/03-cluster-operators.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/dotnet.md
-/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/intro-go.md
-/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/scaffold.md
-/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/policy-settings.md
-/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/validation.md
-/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/logging.md
-/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/e2e-tests.md
-/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/automate.md
-/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/distribute.md
-/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/validation-with-queries.md
-/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/raw-policies.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/index.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/metadata.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/other-languages.md
@@ -432,5 +422,15 @@ Files with no, or empty frontmatter fm_tag: doc_topic ---
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/06-kubernetes.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/swift.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/typescript.md
-/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/wasi/01-intro-wasi.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/wasi/02-raw-policies.md
+/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/wasi/01-intro-wasi.md
+/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/automate.md
+/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/distribute.md
+/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/e2e-tests.md
+/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/intro-go.md
+/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/logging.md
+/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/policy-settings.md
+/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/raw-policies.md
+/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/scaffold.md
+/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/validation-with-queries.md
+/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/validation.md

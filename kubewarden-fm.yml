@@ -1,7 +1,7 @@
 ---
 - docstore-data:
-    root-dir: /home/jhk/projects/suse/kubewarden-docs/docs/
-    gen-date: 2023-12-31T10:47:40+00:00
+    root-dir: /home/jhk/projects/suse/kubewarden-docs/docs
+    gen-date: 2024-01-08T15:56:15+01:00
 - path: /home/jhk/projects/suse/kubewarden-docs/docs/architecture.md
   frontmatter:
     sidebar_label: "Architecture"
@@ -120,10 +120,6 @@
     title: "Configuring policies"
     description: Dependency matrix of Kubewarden.
     keywords: [policies, ClusterAdmissionPolicies, AdmissionPolicies, configuration, namespaces]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/policy-evaluation-timeout.md
-  frontmatter:
-    sidebar_label: "Policy evaluation timeout"
-    title: ""
 - path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/policy-servers/01-custom-cas.md
   frontmatter:
     sidebar_label: "Using Custom CAs"
@@ -158,14 +154,18 @@
   frontmatter:
     sidebar_label: "Verification Config"
     title: ""
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/install.md
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/01-install.md
   frontmatter:
     sidebar_label: "Quickstart"
     title: ""
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/metrics.md
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/02-metrics.md
   frontmatter:
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/tracing.md
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/03-tracing.md
   frontmatter:
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/policy-evaluation-timeout.md
+  frontmatter:
+    sidebar_label: "Policy evaluation timeout"
+    title: ""
 - path: /home/jhk/projects/suse/kubewarden-docs/docs/quick-start.md
   frontmatter:
     sidebar_label: "Quick start"
@@ -240,106 +240,6 @@
     doc-type: [how-to, explanation, tutorial, reference]
     doc-topic: [kubewarden, writing-policies, c#]
     doc-persona: [kubewarden-policy-developer]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/intro-go.md
-  frontmatter:
-    sidebar_label: Writing policies in Go
-    sidebar_position: 010
-    title: Writing policies in Go
-    description: A tutorial introduction to writing policies in Go.
-    keywords: [kubewarden, kubernetes, writing policies in Go]
-    doc-type: [tutorial]
-    doc-topic: [kubewarden, writing-policies, go, introduction]
-    doc-persona: [kubewarden-developer]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/scaffold.md
-  frontmatter:
-    sidebar_label: New validation policy
-    sidebar_position: 020
-    title: Creating a new validation policy
-    description: Creating a new validation policy for Kubewarden using Go.
-    keywords: [kubewarden, kubernetes, writing policies in Go, new validation policy]
-    doc-type: [tutorial]
-    doc-topic: [kubewarden, writing-policies, go, creating a new validation policy]
-    doc-persona: [kubewarden-developer]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/policy-settings.md
-  frontmatter:
-    sidebar_label: Defining policy settings
-    sidebar_position: 030
-    title: Defining policy settings
-    description: Defining policy setting for a Kubewarden policy written in Go.
-    keywords: [kubewarden, kubernetes, defining policy settings, Go]
-    doc-type: [tutorial]
-    doc-topic: [kubewarden, writing-policies, go, defining-policy-settings]
-    doc-persona: [kubewarden-developer]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/validation.md
-  frontmatter:
-    sidebar_label: Validation logic
-    sidebar_position: 040
-    title: Writing the validation logic
-    description: A tutorial on writing validation logic for a Kubewarden policy using Go.
-    keywords: [kubewarden, kubernetes, writing policies, golang, go]
-    doc-type: [tutorial]
-    doc-topic: [kubewarden, writing-policies, golang, validation-logic]
-    doc-persona: [kubewarden-developer]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/logging.md
-  frontmatter:
-    sidebar_label: Logging
-    sidebar_position: 060
-    title: Logging
-    description: A tutorial introduction to logging when using Go to write a Kubewarden policy.
-    keywords: [kubewarden, kubernetes, writing policies, golang, go, logging]
-    doc-type: [tutorial]
-    doc-topic: [kubewarden, writing-policies, golang, logging]
-    doc-persona: [kubewarden-developer]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/e2e-tests.md
-  frontmatter:
-    sidebar_label: End-to-end testing
-    sidebar_position: 050
-    title: End-to-end testing
-    description: A tutorial introduction to end-to-end testing for writing Kubewarden policies in the Go language.
-    keywords: [kubewarden, kubernetes, writing policies, end-to-end testing, golang, go]
-    doc-type: [tutorial]
-    doc-topic: [kubewarden, writing-policies, golang, end-to-end-testing]
-    doc-persona: [kubewarden-developer]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/automate.md
-  frontmatter:
-    sidebar_label: GitHub Actions
-    sidebar_position: 070
-    title: Integrating with GitHub Actions
-    description: Integrating with GitHub actions when developing policies for Kubewarden in Go.
-    keywords: [kubewarden, kubernetes, github, integration]
-    doc-type: [tutorial]
-    doc-topic: [kubewarden, writing-policies, golang, github-action-integration]
-    doc-persona: [kubewarden-developer]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/distribute.md
-  frontmatter:
-    sidebar_label: Distributing policy
-    sidebar_position: 080
-    title: Distributing policy
-    description: Distributing Kubewarden policies developed with Go.
-    keywords: [kubewarden, kubernetes, distributing kubewarden policies]
-    doc-type: [tutorial]
-    doc-topic: [kubewarden, writing-policies, go, distributing-policies]
-    doc-persona: [kubewarden-developer, kubewarden-operator]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/validation-with-queries.md
-  frontmatter:
-    sidebar_label: Validation using JSON queries
-    sidebar_position: 090
-    title: Validation using JSON queries
-    description: Validation using JSON queries with Kubewarden policies in Go.
-    keywords: [kubewarden, kubernetes, validation using JSON queries]
-    doc-type: [tutorial]
-    doc-topic: [kubewarden, writing-policies, golang, validation-using-json]
-    doc-persona: [kubewarden-developer]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/raw-policies.md
-  frontmatter:
-    sidebar_label: Raw policies
-    sidebar_position: 100
-    title: Writing raw policies
-    description: Writing raw Kubewarden policies using Go.
-    keywords: [kubewarden, kubernetes, writing policies, raw, go]
-    doc-type: [tutorial]
-    doc-topic: [kubewarden, writing-policies, golang, raw-policies]
-    doc-persona: [kubewarden-developer]
 - path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/index.md
   frontmatter:
     sidebar_label: "Writing Policies"
@@ -539,14 +439,6 @@
     doc-type: [one of how-to, explanation, tutorial, reference]
     doc-topic: [root-branch]
     doc-persona: [default]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/wasi/01-intro-wasi.md
-  frontmatter:
-    title: WASI
-    description: Using WASI to develop Kubewarden policies.
-    keywords: [kubewarden, kubernetes, wasi]
-    doc-type: [how-to, explanation]
-    doc-topic: [kubewarden, writing-policies, wasi]
-    doc-persona: [kubewarden-developer]
 - path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/wasi/02-raw-policies.md
   frontmatter:
     sidebar_label: Raw policies
@@ -555,4 +447,112 @@
     keywords: [kubewarden, kubernetes, raw policies]
     doc-type: [explanation, tutorial]
     doc-topic: [kubewarden, writing-policies, raw-policies]
+    doc-persona: [kubewarden-developer]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/wasi/01-intro-wasi.md
+  frontmatter:
+    title: WASI
+    description: Using WASI to develop Kubewarden policies.
+    keywords: [kubewarden, kubernetes, wasi]
+    doc-type: [how-to, explanation]
+    doc-topic: [kubewarden, writing-policies, wasi]
+    doc-persona: [kubewarden-developer]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/automate.md
+  frontmatter:
+    sidebar_label: GitHub Actions
+    sidebar_position: 070
+    title: Integrating with GitHub Actions
+    description: Integrating with GitHub actions when developing policies for Kubewarden in Go.
+    keywords: [kubewarden, kubernetes, github, integration]
+    doc-type: [tutorial]
+    doc-topic: [kubewarden, writing-policies, golang, github-action-integration]
+    doc-persona: [kubewarden-developer]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/distribute.md
+  frontmatter:
+    sidebar_label: Distributing policy
+    sidebar_position: 080
+    title: Distributing policy
+    description: Distributing Kubewarden policies developed with Go.
+    keywords: [kubewarden, kubernetes, distributing kubewarden policies]
+    doc-type: [tutorial]
+    doc-topic: [kubewarden, writing-policies, go, distributing-policies]
+    doc-persona: [kubewarden-developer, kubewarden-operator]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/e2e-tests.md
+  frontmatter:
+    sidebar_label: End-to-end testing
+    sidebar_position: 050
+    title: End-to-end testing
+    description: A tutorial introduction to end-to-end testing for writing Kubewarden policies in the Go language.
+    keywords: [kubewarden, kubernetes, writing policies, end-to-end testing, golang, go]
+    doc-type: [tutorial]
+    doc-topic: [kubewarden, writing-policies, golang, end-to-end-testing]
+    doc-persona: [kubewarden-developer]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/intro-go.md
+  frontmatter:
+    sidebar_label: Writing policies in Go
+    sidebar_position: 010
+    title: Writing policies in Go
+    description: A tutorial introduction to writing policies in Go.
+    keywords: [kubewarden, kubernetes, writing policies in Go]
+    doc-type: [tutorial]
+    doc-topic: [kubewarden, writing-policies, go, introduction]
+    doc-persona: [kubewarden-developer]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/logging.md
+  frontmatter:
+    sidebar_label: Logging
+    sidebar_position: 060
+    title: Logging
+    description: A tutorial introduction to logging when using Go to write a Kubewarden policy.
+    keywords: [kubewarden, kubernetes, writing policies, golang, go, logging]
+    doc-type: [tutorial]
+    doc-topic: [kubewarden, writing-policies, golang, logging]
+    doc-persona: [kubewarden-developer]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/policy-settings.md
+  frontmatter:
+    sidebar_label: Defining policy settings
+    sidebar_position: 030
+    title: Defining policy settings
+    description: Defining policy setting for a Kubewarden policy written in Go.
+    keywords: [kubewarden, kubernetes, defining policy settings, Go]
+    doc-type: [tutorial]
+    doc-topic: [kubewarden, writing-policies, go, defining-policy-settings]
+    doc-persona: [kubewarden-developer]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/raw-policies.md
+  frontmatter:
+    sidebar_label: Raw policies
+    sidebar_position: 100
+    title: Writing raw policies
+    description: Writing raw Kubewarden policies using Go.
+    keywords: [kubewarden, kubernetes, writing policies, raw, go]
+    doc-type: [tutorial]
+    doc-topic: [kubewarden, writing-policies, golang, raw-policies]
+    doc-persona: [kubewarden-developer]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/scaffold.md
+  frontmatter:
+    sidebar_label: New validation policy
+    sidebar_position: 020
+    title: Creating a new validation policy
+    description: Creating a new validation policy for Kubewarden using Go.
+    keywords: [kubewarden, kubernetes, writing policies in Go, new validation policy]
+    doc-type: [tutorial]
+    doc-topic: [kubewarden, writing-policies, go, creating a new validation policy]
+    doc-persona: [kubewarden-developer]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/validation-with-queries.md
+  frontmatter:
+    sidebar_label: Validation using JSON queries
+    sidebar_position: 090
+    title: Validation using JSON queries
+    description: Validation using JSON queries with Kubewarden policies in Go.
+    keywords: [kubewarden, kubernetes, validation using JSON queries]
+    doc-type: [tutorial]
+    doc-topic: [kubewarden, writing-policies, golang, validation-using-json]
+    doc-persona: [kubewarden-developer]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/validation.md
+  frontmatter:
+    sidebar_label: Validation logic
+    sidebar_position: 040
+    title: Writing the validation logic
+    description: A tutorial on writing validation logic for a Kubewarden policy using Go.
+    keywords: [kubewarden, kubernetes, writing policies, golang, go]
+    doc-type: [tutorial]
+    doc-topic: [kubewarden, writing-policies, golang, validation-logic]
     doc-persona: [kubewarden-developer]
