@@ -2,17 +2,19 @@
 
 import sys
 import argparse
-import yaml
+from ruamel.yaml import YAML
 import treelib
 import markdown
 import re
 import os
 import jsonpickle
+import pathlib
 
 # These 3 are read from config files by read_config:
 required_fm_tags = {}
 other_fm_tags = {}
 valid_fm_tags = {}
+sort_fm_tag = None
 
 
 class KmNode(treelib.Node):
@@ -66,31 +68,50 @@ class KmNode(treelib.Node):
         print()
 
 
-def read_config(r, o):
+def read_config(r, o, c):
     global required_fm_tags
     global other_fm_tags
     global valid_fm_tags
+    global sort_fm_tag
     required_fm_tags = read_yaml(r)
     other_fm_tags = read_yaml(o)
     valid_fm_tags = required_fm_tags | other_fm_tags
+    config = read_yaml(c)
+    try:
+        for k, v in config.items():
+            try:
+                if k == "node_sort_key":
+                    sort_fm_tag = v
+            except:
+                sort_fm_tag = None
+    except:
+        pass
 
 
 def main(argv):
     """Does the things"""
     args = process_args(argv)
-    read_config(args.required_fm_tags, args.other_fm_tags)
+    read_config(args.required_fm_tags, args.other_fm_tags, args.configuration)
     front_matter = read_yaml(args.yaml_filename)
 
     km = build_km(front_matter)
-    km.save2file(filename='tree.txt', key=False)
-    km.to_graphviz(filename='tree.dot')
+    try:
+        pathlib.Path.unlink("tree.txt")
+    except:
+        pass
+    km.save2file(filename="tree.txt", key=False)
+    try:
+        pathlib.Path.unlink("tree.dot")
+    except:
+        pass
+    km.to_graphviz(filename="tree.dot")
 
     json_km = jsonpickle.encode(km, keys=True, indent=2)
     with open("tree.json", "w") as f:
         f.write(str(json_km))
 
     if args.dump:
-        print_km(km)
+        print_km(km, sorted=True)
 
     if args.no_frontmatter:
         report_files_without_fm(front_matter)
@@ -103,13 +124,25 @@ def main(argv):
             report_files_without_fm_tag(front_matter, fm_tag)
 
 
-def print_km(km):
-    print("knowledge_map =", km.depth())
-    for node in km.all_nodes_itr():
-        print_node(node, km.depth(node))
+def get_sort_val(node: treelib.Node):
+    sv = 0
+    try:
+        sv = int(getattr(node.data, sort_fm_tag))
+        if sv == None:
+            sv = 0
+    except:
+        sv = 0
+    return sv
 
 
-def print_node(node, depth):
+def print_km(km: treelib.Tree, sorted=False):
+    print("knowledge_map, depth =", km.depth())
+    g = km.expand_tree(mode=2, key=get_sort_val, sorting=sorted)
+    for x in g:
+        print_node(km[x])
+
+
+def print_node(node, depth=0):
     print("=== Node ===")
     print("Predecessor =", list(node._predecessor.values()))
     print("Successors =", list(node._successors.values())[0])
@@ -221,6 +254,10 @@ def process_args(a):
         help="A YAML file containing the other front matter tags.",
         required=True)
     arg_parser.add_argument(
+        "-c", "--configuration",
+        help="A YAML file containing optional configuration.",
+        required=False)
+    arg_parser.add_argument(
         "-n", "--no-frontmatter",
         help="Find files with no frontmatter defined.",
         required=False, action='store_true')
@@ -245,8 +282,11 @@ def process_args(a):
 
 
 def read_yaml(filename):
-    with open(filename, 'r') as f:
-        return yaml.safe_load(f)
+    try:
+        with open(filename, 'r') as f:
+            return YAML(typ='safe').load(f)
+    except:
+        return None
 
 
 def report_files_without_fm(front_matter):

@@ -2,8 +2,8 @@ CONF_OPTS = -r required_fm_tags.yml -o other_fm_tags.yml
 EP_DOCS = /home/jhk/projects/suse/epinio-docs/docs
 EP_FMY = epinio-fm.yml
 KW_FMY = kubewarden-fm.yml
-EP_FM_OPTS = -f ${EP_FMY}
-KW_FM_OPTS = -f ${KW_FMY}
+EP_FM_OPTS = -f ${EP_FMY} -c config.yml
+KW_FM_OPTS = -f ${KW_FMY} -c config.yml
 KW_DOCS = /home/jhk/projects/suse/kubewarden-docs/docs
 
 all: epinio kubewarden

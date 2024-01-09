@@ -2,6 +2,7 @@ autopep8==2.0.4
 jsonpickle==3.0.2
 Markdown==3.5.1
 pycodestyle==2.11.1
-PyYAML==6.0.1
+ruamel.yaml==0.18.5
+ruamel.yaml.clib==0.2.8
 six==1.16.0
 treelib==1.7.0
