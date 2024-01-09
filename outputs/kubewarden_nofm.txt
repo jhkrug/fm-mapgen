@@ -1,6 +1,6 @@
-Data generated: 2024-01-09 12:50:10
+Data generated: 2024-01-09 17:23:16
 No front matter files ---
 /home/jhk/projects/suse/kubewarden-docs/docs/contribution-guide/contributing.md
 /home/jhk/projects/suse/kubewarden-docs/docs/contribution-guide/suggesting-an-improvement.md
-/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/02-metrics.md
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/03-tracing.md
+/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/02-metrics.md

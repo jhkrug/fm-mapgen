@@ -8,7 +8,6 @@ import markdown
 import re
 import os
 import jsonpickle
-import pathlib
 
 # These 3 are read from config files by read_config:
 required_fm_tags = {}
@@ -96,12 +95,12 @@ def main(argv):
 
     km = build_km(front_matter)
     try:
-        pathlib.Path.unlink("tree.txt")
+        os.remove("tree.txt")
     except:
         pass
     km.save2file(filename="tree.txt", key=False)
     try:
-        pathlib.Path.unlink("tree.dot")
+        os.remove("tree.dot")
     except:
         pass
     km.to_graphviz(filename="tree.dot")
@@ -127,7 +126,7 @@ def main(argv):
 def get_sort_val(node: treelib.Node):
     sv = 0
     try:
-        sv = int(getattr(node.data, sort_fm_tag))
+        sv = int(getattr(node.data, sort_fm_tag))  # type: ignore
         if sv == None:
             sv = 0
     except:
@@ -282,11 +281,8 @@ def process_args(a):
 
 
 def read_yaml(filename):
-    try:
-        with open(filename, 'r') as f:
-            return YAML(typ='safe').load(f)
-    except:
-        return None
+    with open(filename, 'r') as f:
+        return YAML(typ='safe').load(f)
 
 
 def report_files_without_fm(front_matter):

@@ -1,23 +1,11 @@
 ---
 - docstore-data:
     root-dir: /home/jhk/projects/suse/kubewarden-docs/docs
-    gen-date: 2024-01-09T13:50:10+01:00
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/architecture.md
-  frontmatter:
-    sidebar_label: "Architecture"
-    title: "Architecture"
-    description: The Kubewarden architecture
-    keywords: [kubewarden, kubernetes, architecture]
+    gen-date: 2024-01-09T18:23:16+01:00
 - path: /home/jhk/projects/suse/kubewarden-docs/docs/contribution-guide/contributing.md
   frontmatter:
 - path: /home/jhk/projects/suse/kubewarden-docs/docs/contribution-guide/suggesting-an-improvement.md
   frontmatter:
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/distributing-policies.md
-  frontmatter:
-    sidebar_label: "Distributing policies"
-    title: Distributing policies
-    description: A description of how Kubewarden policies are distributed from OCI-compliant repositories.
-    keywords: [oci, kubewarden, policy, wasm, webassembly]
 - path: /home/jhk/projects/suse/kubewarden-docs/docs/distributing-policies/custom-certificate-authorities.md
   frontmatter:
     sidebar_label: "Custom Certificate Authorities"
@@ -37,6 +25,12 @@
     title: "Secure supply chain"
     description: A secure supply chain infrastructure using Kubewarden.
     keywords: [kubewarden, kubernetes, secure supply chain, infrastructure]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/explanations/audit-scanner/audit-scanner.md
+  frontmatter:
+    sidebar_label: "What is the Audit Scanner?"
+    title: "What is the Audit Scanner?"
+    description: An overview of the Kubewarden Audit Scanner.
+    keywords: [kubewarden, audit scanner, kubernetes]
 - path: /home/jhk/projects/suse/kubewarden-docs/docs/explanations/audit-scanner/limitations.md
   frontmatter:
     sidebar_label: "Limitations"
@@ -49,12 +43,6 @@
     title: "Audit Scanner - Policy Reports"
     description: The policy reports that the Audit Scanner produces.
     keywords: [kubewarden, kubernetes, audit scanner]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/explanations/audit-scanner/audit-scanner.md
-  frontmatter:
-    sidebar_label: "What is the Audit Scanner?"
-    title: "What is the Audit Scanner?"
-    description: An overview of the Kubewarden Audit Scanner.
-    keywords: [kubewarden, audit scanner, kubernetes]
 - path: /home/jhk/projects/suse/kubewarden-docs/docs/explanations/context-aware-policies.md
   frontmatter:
     sidebar_label: "Context aware policies"
@@ -73,27 +61,6 @@
   frontmatter:
     sidebar_label: "Raw policies"
     title: "Raw policies"
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/introduction.md
-  frontmatter:
-    slug: /
-    sidebar_label: "Introduction"
-    title: "Introduction"
-    description: Introducing Kubewarden, a CNCF Sandbox project.
-    keywords: [kubewarden, cncf, cncf sandbox, kubernetes]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/01-intro.md
-  frontmatter:
-    sidebar_label: "Operator Manual"
-    title: ""
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/CRDs.md
-  frontmatter:
-    sidebar_label: "Custom Resources Definitions (CRDs)"
-    title: "Custom Resource Definitions (CRD)"
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/Rancher-Fleet.md
-  frontmatter:
-    sidebar_label: "Rancher Fleet"
-    title: "Managing Kubewarden with Rancher Fleet"
-    description: Managing Kubewarden with Rancher Fleet.
-    keywords: [kubernetes, kubewarden, rancher fleet]
 - path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/airgap/01-requirements.md
   frontmatter:
     sidebar_label: "Requirements"
@@ -102,24 +69,6 @@
   frontmatter:
     sidebar_label: "Installation"
     title: ""
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/dependency-matrix.md
-  frontmatter:
-    sidebar_label: "Dependency matrix"
-    title: "Dependency matrix"
-    description: Dependency matrix of Kubewarden.
-    keywords: [dependency, dependencies, CRD, charts, matrix]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/monitor-mode.md
-  frontmatter:
-    sidebar_label: "Monitor mode"
-    title: "Monitor mode"
-    description: The Kubewarden monitor mode and how to activate it.
-    keywords: [kubernetes, kubewarden, monitor mode]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/policies.md
-  frontmatter:
-    sidebar_label: "Configuring policies"
-    title: "Configuring policies"
-    description: Dependency matrix of Kubewarden.
-    keywords: [policies, ClusterAdmissionPolicies, AdmissionPolicies, configuration, namespaces]
 - path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/policy-servers/01-custom-cas.md
   frontmatter:
     sidebar_label: "Using Custom CAs"
@@ -144,6 +93,50 @@
   frontmatter:
     sidebar_label: "Tracing Quickstart"
     title: ""
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/03-tracing.md
+  frontmatter:
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/01-install.md
+  frontmatter:
+    sidebar_label: "Quickstart"
+    title: ""
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/02-metrics.md
+  frontmatter:
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/01-intro.md
+  frontmatter:
+    sidebar_label: "Operator Manual"
+    title: ""
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/CRDs.md
+  frontmatter:
+    sidebar_label: "Custom Resources Definitions (CRDs)"
+    title: "Custom Resource Definitions (CRD)"
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/Rancher-Fleet.md
+  frontmatter:
+    sidebar_label: "Rancher Fleet"
+    title: "Managing Kubewarden with Rancher Fleet"
+    description: Managing Kubewarden with Rancher Fleet.
+    keywords: [kubernetes, kubewarden, rancher fleet]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/dependency-matrix.md
+  frontmatter:
+    sidebar_label: "Dependency matrix"
+    title: "Dependency matrix"
+    description: Dependency matrix of Kubewarden.
+    keywords: [dependency, dependencies, CRD, charts, matrix]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/monitor-mode.md
+  frontmatter:
+    sidebar_label: "Monitor mode"
+    title: "Monitor mode"
+    description: The Kubewarden monitor mode and how to activate it.
+    keywords: [kubernetes, kubewarden, monitor mode]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/policies.md
+  frontmatter:
+    sidebar_label: "Configuring policies"
+    title: "Configuring policies"
+    description: Dependency matrix of Kubewarden.
+    keywords: [policies, ClusterAdmissionPolicies, AdmissionPolicies, configuration, namespaces]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/policy-evaluation-timeout.md
+  frontmatter:
+    sidebar_label: "Policy evaluation timeout"
+    title: ""
 - path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/upgrade-path.md
   frontmatter:
     sidebar_label: "Upgrade path"
@@ -154,24 +147,6 @@
   frontmatter:
     sidebar_label: "Verification Config"
     title: ""
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/01-install.md
-  frontmatter:
-    sidebar_label: "Quickstart"
-    title: ""
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/02-metrics.md
-  frontmatter:
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/03-tracing.md
-  frontmatter:
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/policy-evaluation-timeout.md
-  frontmatter:
-    sidebar_label: "Policy evaluation timeout"
-    title: ""
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/quick-start.md
-  frontmatter:
-    sidebar_label: "Quick start"
-    title: "Quick start"
-    description: Getting started with Kubewarden, installing the Kubewarden stack and taking care of prerequisites and authentication
-    keywords: [Kubewarden, installation, quick start, policyserver, clusteradmissionpolicy, admissionpolicy]
 - path: /home/jhk/projects/suse/kubewarden-docs/docs/security/01-intro.md
   frontmatter:
     sidebar_label: "Security"
@@ -190,12 +165,6 @@
   frontmatter:
     sidebar_label: "Verifying Kubewarden"
     title: ""
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/tasks.md
-  frontmatter:
-    sidebar_label: "Common tasks"
-    title: "Common tasks"
-    description: Description of some common tasks undertaken after installing Kubewarden. Provides examples of these tasks using kwctl
-    keywords: [kubewarden, kubernetes, kwctl, policy, policyserver, clusteradmissionpolicy, admissionpolicy]
 - path: /home/jhk/projects/suse/kubewarden-docs/docs/tasksDir/mutating-policies.md
   frontmatter:
     sidebar_label: "Mutating policies"
@@ -231,50 +200,6 @@
     sidebar_label: "Cluster operators"
     title: "Testing for cluster operators"
     description: An introduction to testing Kubewarden policies for cluster operators.
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/dotnet.md
-  frontmatter:
-    sidebar_label: C#
-    title: C#
-    description: Kubewarden policies using C# and .NET
-    keywords: [kubewarden, kubernetes, writing policies, c#, .net]
-    doc-type: [how-to, explanation, tutorial, reference]
-    doc-topic: [kubewarden, writing-policies, c#]
-    doc-persona: [kubewarden-policy-developer]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/index.md
-  frontmatter:
-    sidebar_label: "Writing Policies"
-    title: "Writing Kubewarden policies"
-    description: An introduction to writing Kubewarden policies.
-    keywords: [kubewarden, kubernetes, writing policies]
-    doc-type: [explanation]
-    doc-topic: [writing-policies]
-    doc-persona: [kubewarden-policy-developer]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/metadata.md
-  frontmatter:
-    sidebar_label: Policy metadata
-    title: Policy metadata
-    description: Using policy metadata when developing a Kubewarden policy.
-    keywords: [kubewraden, kubernetes policy development, policy metadata]
-    doc-type: [how-to, tutorial]
-    doc-topic: [kubewarden, writing-polices, policy-metadata]
-    doc-persona: [kubewarden-developer]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/other-languages.md
-  frontmatter:
-    sidebar_label: Other languages
-    title: Other languages
-    description: Writing Kubewarden policies in other languages
-    keywords: [kubewarden, kubernetes, writing policies, other languages]
-    doc-type: [how-to, tutorial]
-    doc-topic: [kubewarden, writing-policies, other-languages]
-    doc-persona: [kubewarden-policy-developer]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rego/01-intro-rego.md
-  frontmatter:
-    sidebar_label: "Introduction to Rego"
-    title: ""
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rego/02-builtin-support.md
-  frontmatter:
-    sidebar_label: "Builtin Support"
-    title: ""
 - path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rego/gatekeeper/01-intro.md
   frontmatter:
     sidebar_label: "Introduction"
@@ -311,6 +236,14 @@
   frontmatter:
     sidebar_label: "Raw policies"
     title: "Raw policies"
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rego/01-intro-rego.md
+  frontmatter:
+    sidebar_label: "Introduction to Rego"
+    title: ""
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rego/02-builtin-support.md
+  frontmatter:
+    sidebar_label: "Builtin Support"
+    title: ""
 - path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rust/01-intro-rust.md
   frontmatter:
     title: "Rust"
@@ -377,6 +310,30 @@
   frontmatter:
     sidebar_label: "Raw policies"
     title: "Raw policies"
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/01-intro-host-capabilities.md
+  frontmatter:
+    sidebar_label: "Host Capabilities Specification"
+    title: ""
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/02-signature-verifier-policies.md
+  frontmatter:
+    sidebar_label: "Signature Verifier Policies"
+    title: ""
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/04-net.md
+  frontmatter:
+    sidebar_label: "Network Capabilities"
+    title: ""
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/05-crypto.md
+  frontmatter:
+    sidebar_label: "Cryptographic Capabilities"
+    title: ""
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/06-kubernetes.md
+  frontmatter:
+    sidebar_label: "Kubernetes Capabilities"
+    title: ""
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/03-container-registry.md
+  frontmatter:
+    sidebar_label: "Container Registry Capabilities"
+    title: ""
 - path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/01-intro-spec.md
   frontmatter:
     sidebar_label: "Policy Communication Specification"
@@ -397,48 +354,14 @@
   frontmatter:
     sidebar_label: "Context Aware Policies"
     title: ""
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/01-intro-host-capabilities.md
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/wasi/01-intro-wasi.md
   frontmatter:
-    sidebar_label: "Host Capabilities Specification"
-    title: ""
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/02-signature-verifier-policies.md
-  frontmatter:
-    sidebar_label: "Signature Verifier Policies"
-    title: ""
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/03-container-registry.md
-  frontmatter:
-    sidebar_label: "Container Registry Capabilities"
-    title: ""
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/04-net.md
-  frontmatter:
-    sidebar_label: "Network Capabilities"
-    title: ""
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/05-crypto.md
-  frontmatter:
-    sidebar_label: "Cryptographic Capabilities"
-    title: ""
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/06-kubernetes.md
-  frontmatter:
-    sidebar_label: "Kubernetes Capabilities"
-    title: ""
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/swift.md
-  frontmatter:
-    sidebar_label: Swift
-    title: Swift
-    description: Kubewarden policies with Swift
-    keywords: [kubewarden, kubernetes, writing policies, swift]
-    doc-type: [how-to]
-    doc-topic: [kubewarden, writing-policies, swift]
-    doc-persona: [kubewarden-policy-developer]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/typescript.md
-  frontmatter:
-    sidebar_label: Typescript
-    title: Typescript
-    description: Writing Kubewarden policies with Typescript
-    keywords: [at least one]
-    doc-type: [one of how-to, explanation, tutorial, reference]
-    doc-topic: [root-branch]
-    doc-persona: [default]
+    title: WASI
+    description: Using WASI to develop Kubewarden policies.
+    keywords: [kubewarden, kubernetes, wasi]
+    doc-type: [how-to, explanation]
+    doc-topic: [kubewarden, writing-policies, wasi]
+    doc-persona: [kubewarden-developer]
 - path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/wasi/02-raw-policies.md
   frontmatter:
     sidebar_label: Raw policies
@@ -447,14 +370,6 @@
     keywords: [kubewarden, kubernetes, raw policies]
     doc-type: [explanation, tutorial]
     doc-topic: [kubewarden, writing-policies, raw-policies]
-    doc-persona: [kubewarden-developer]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/wasi/01-intro-wasi.md
-  frontmatter:
-    title: WASI
-    description: Using WASI to develop Kubewarden policies.
-    keywords: [kubewarden, kubernetes, wasi]
-    doc-type: [how-to, explanation]
-    doc-topic: [kubewarden, writing-policies, wasi]
     doc-persona: [kubewarden-developer]
 - path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/automate.md
   frontmatter:
@@ -485,6 +400,16 @@
     keywords: [kubewarden, kubernetes, writing policies, end-to-end testing, golang, go]
     doc-type: [tutorial]
     doc-topic: [kubewarden, writing-policies, golang, end-to-end-testing]
+    doc-persona: [kubewarden-developer]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/intro-go.md
+  frontmatter:
+    sidebar_label: Writing policies in Go
+    sidebar_position: 010
+    title: Writing policies in Go
+    description: A tutorial introduction to writing policies in Go.
+    keywords: [kubewarden, kubernetes, writing policies in Go]
+    doc-type: [tutorial]
+    doc-topic: [kubewarden, writing-policies, go, introduction]
     doc-persona: [kubewarden-developer]
 - path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/logging.md
   frontmatter:
@@ -546,13 +471,88 @@
     doc-type: [tutorial]
     doc-topic: [kubewarden, writing-policies, golang, validation-logic]
     doc-persona: [kubewarden-developer]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/intro-go.md
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/dotnet.md
   frontmatter:
-    sidebar_label: Writing policies in Go
-    sidebar_position: 010
-    title: Writing policies in Go
-    description: A tutorial introduction to writing policies in Go.
-    keywords: [kubewarden, kubernetes, writing policies in Go]
-    doc-type: [tutorial]
-    doc-topic: [kubewarden, writing-policies, go, introduction]
+    sidebar_label: C#
+    title: C#
+    description: Kubewarden policies using C# and .NET
+    keywords: [kubewarden, kubernetes, writing policies, c#, .net]
+    doc-type: [how-to, explanation, tutorial, reference]
+    doc-topic: [kubewarden, writing-policies, c#]
+    doc-persona: [kubewarden-policy-developer]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/index.md
+  frontmatter:
+    sidebar_label: "Writing Policies"
+    title: "Writing Kubewarden policies"
+    description: An introduction to writing Kubewarden policies.
+    keywords: [kubewarden, kubernetes, writing policies]
+    doc-type: [explanation]
+    doc-topic: [writing-policies]
+    doc-persona: [kubewarden-policy-developer]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/metadata.md
+  frontmatter:
+    sidebar_label: Policy metadata
+    title: Policy metadata
+    description: Using policy metadata when developing a Kubewarden policy.
+    keywords: [kubewraden, kubernetes policy development, policy metadata]
+    doc-type: [how-to, tutorial]
+    doc-topic: [kubewarden, writing-polices, policy-metadata]
     doc-persona: [kubewarden-developer]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/other-languages.md
+  frontmatter:
+    sidebar_label: Other languages
+    title: Other languages
+    description: Writing Kubewarden policies in other languages
+    keywords: [kubewarden, kubernetes, writing policies, other languages]
+    doc-type: [how-to, tutorial]
+    doc-topic: [kubewarden, writing-policies, other-languages]
+    doc-persona: [kubewarden-policy-developer]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/swift.md
+  frontmatter:
+    sidebar_label: Swift
+    title: Swift
+    description: Kubewarden policies with Swift
+    keywords: [kubewarden, kubernetes, writing policies, swift]
+    doc-type: [how-to]
+    doc-topic: [kubewarden, writing-policies, swift]
+    doc-persona: [kubewarden-policy-developer]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/typescript.md
+  frontmatter:
+    sidebar_label: Typescript
+    title: Typescript
+    description: Writing Kubewarden policies with Typescript
+    keywords: [at least one]
+    doc-type: [one of how-to, explanation, tutorial, reference]
+    doc-topic: [root-branch]
+    doc-persona: [default]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/architecture.md
+  frontmatter:
+    sidebar_label: "Architecture"
+    title: "Architecture"
+    description: The Kubewarden architecture
+    keywords: [kubewarden, kubernetes, architecture]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/distributing-policies.md
+  frontmatter:
+    sidebar_label: "Distributing policies"
+    title: Distributing policies
+    description: A description of how Kubewarden policies are distributed from OCI-compliant repositories.
+    keywords: [oci, kubewarden, policy, wasm, webassembly]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/introduction.md
+  frontmatter:
+    slug: /
+    sidebar_label: "Introduction"
+    title: "Introduction"
+    description: Introducing Kubewarden, a CNCF Sandbox project.
+    keywords: [kubewarden, cncf, cncf sandbox, kubernetes]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/quick-start.md
+  frontmatter:
+    sidebar_label: "Quick start"
+    title: "Quick start"
+    description: Getting started with Kubewarden, installing the Kubewarden stack and taking care of prerequisites and authentication
+    keywords: [Kubewarden, installation, quick start, policyserver, clusteradmissionpolicy, admissionpolicy]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/tasks.md
+  frontmatter:
+    sidebar_label: "Common tasks"
+    title: "Common tasks"
+    description: Description of some common tasks undertaken after installing Kubewarden. Provides examples of these tasks using kwctl
+    keywords: [kubewarden, kubernetes, kwctl, policy, policyserver, clusteradmissionpolicy, admissionpolicy]
