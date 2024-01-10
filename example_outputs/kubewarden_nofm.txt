@@ -1,4 +1,4 @@
-Data generated: 2024-01-10 12:32:32
+Data generated: 2024-01-10 12:55:54
 No front matter files ---
 /home/jhk/projects/suse/kubewarden-docs/docs/contribution-guide/contributing.md
 /home/jhk/projects/suse/kubewarden-docs/docs/contribution-guide/suggesting-an-improvement.md

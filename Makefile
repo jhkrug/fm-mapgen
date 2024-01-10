@@ -34,5 +34,6 @@ kubewarden: clean
 
 
 clean:
+	mkdir -p outputs
 	rm -f tree.txt tree.dot tree.json
 	rm -f outputs/*

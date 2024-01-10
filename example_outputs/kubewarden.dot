@@ -1,5 +1,5 @@
 digraph tree {
-	"root" [label="Frontmatter Tree", shape=circle]
+	"root" [label="Frontmatter Map", shape=circle]
 	"/" [label="/", shape=circle]
 	"contribution-guide/" [label="contribution-guide/", shape=circle]
 	"distributing-policies/" [label="distributing-policies/", shape=circle]
