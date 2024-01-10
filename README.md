@@ -84,4 +84,4 @@ There are results included from example runs using
 [Kubewarden](https://github.com/kubewarden/docs) and
 [Epinio](https://github.com/epinio/docs) docs repositories.
 
-Check the outputs in the `outputs` directory.
+Check the inputs/outputs in the `example_inputs` and `example_outputs` directories.

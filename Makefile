@@ -8,6 +8,10 @@ KW_DOCS = /home/jhk/projects/suse/kubewarden-docs/docs
 
 all: epinio kubewarden
 
+update_examples:
+	cp inputs/* example_inputs
+	cp outputs/* example_outputs
+
 epinio: clean
 	./collect-fm ${EP_DOCS} > ${EP_FMY}
 	python fm_mapgen.py ${CONF_OPTS} ${EP_FM_OPTS} -n > outputs/epinio_nofm.txt
