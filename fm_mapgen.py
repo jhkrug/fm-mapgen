@@ -172,10 +172,10 @@ def build_node_data(id, fp, fm, doc_int_links, doc_ext_links):
 
 
 def build_km(front_matter):
-    """Builds the knowledge tree structure from front_matter"""
+    """Builds the knowledge map structure from front_matter"""
     root_dir = front_matter[0]['docstore-data']['root-dir']
     km = treelib.Tree()
-    km.create_node("Frontmatter Tree", identifier="root", parent=None,
+    km.create_node("Frontmatter Map", identifier="root", parent=None,
                    data=KmNode(None, root_dir))
     for fm in front_matter:
         try:
@@ -243,12 +243,12 @@ def extract_links(filename, root_dir):
 def process_args(a):
     arg_parser = argparse.ArgumentParser(a)
     arg_parser.add_argument(
-        "-f", "--yaml_filename",
-        help="A YAML file containing frontmatter to read.",
-        required=True)
-    arg_parser.add_argument(
         "-c", "--configuration",
         help="A YAML file with configuration, at minimum required_fm_tags",
+        required=True)
+    arg_parser.add_argument(
+        "-f", "--yaml_filename",
+        help="A YAML file containing frontmatter to read.",
         required=True)
     arg_parser.add_argument(
         "-n", "--no-frontmatter",
@@ -260,7 +260,7 @@ def process_args(a):
         required=False)
     arg_parser.add_argument(
         "-a", "--all_fm_tags",
-        help="Check for absence of all required tags.",
+        help="Check for absence of any required tags.",
         required=False, action='store_true')
     arg_parser.add_argument(
         "-w", "--weird_tags",
@@ -268,7 +268,7 @@ def process_args(a):
         required=False, action='store_true')
     arg_parser.add_argument(
         "-d", "--dump",
-        help="Dump the tree in a readable format.",
+        help="Dump the map in a readable format.",
         required=False, action='store_true')
     args = arg_parser.parse_args()
     return args
