@@ -9,7 +9,7 @@ import re
 import os
 import jsonpickle
 
-# These 3 are read from config files by read_config:
+# These are read from a YAML configuration file by read_config:
 required_fm_tags = {}
 other_fm_tags = {}
 valid_fm_tags = {}
@@ -67,30 +67,32 @@ class KmNode(treelib.Node):
         print()
 
 
-def read_config(r, o, c):
+def read_config(c):
     global required_fm_tags
     global other_fm_tags
     global valid_fm_tags
     global sort_fm_tag
-    required_fm_tags = read_yaml(r)
-    other_fm_tags = read_yaml(o)
-    valid_fm_tags = required_fm_tags | other_fm_tags
-    config = read_yaml(c)
+
+    config_yaml = read_yaml(c)
     try:
-        for k, v in config.items():
-            try:
-                if k == "node_sort_key":
-                    sort_fm_tag = v
-            except:
-                sort_fm_tag = None
+        required_fm_tags = config_yaml['required_fm_tags']
     except:
-        pass
+        error_exit("Can't read required_fm_tags from config.")
+    try:
+        other_fm_tags = config_yaml['other_fm_tags']
+    except:
+        other_fm_tags = {}
+    try:
+        sort_fm_tag = config_yaml['sorting']['node_sort_key']
+    except:
+        sort_fm_tag = None
+    valid_fm_tags = required_fm_tags | other_fm_tags
 
 
 def main(argv):
     """Does the things"""
     args = process_args(argv)
-    read_config(args.required_fm_tags, args.other_fm_tags, args.configuration)
+    read_config(args.configuration)
     front_matter = read_yaml(args.yaml_filename)
 
     km = build_km(front_matter)
@@ -98,12 +100,13 @@ def main(argv):
         os.remove("tree.txt")
     except:
         pass
-    km.save2file(filename="tree.txt", key=False)
+    # km.save2file(filename="tree.txt", key=False)
+    km.save2file(filename="tree.txt", key=get_sort_val)
     try:
         os.remove("tree.dot")
     except:
         pass
-    km.to_graphviz(filename="tree.dot")
+    km.to_graphviz(filename="tree.dot", key=get_sort_val)
 
     json_km = jsonpickle.encode(km, keys=True, indent=2)
     with open("tree.json", "w") as f:
@@ -245,17 +248,9 @@ def process_args(a):
         help="A YAML file containing frontmatter to read.",
         required=True)
     arg_parser.add_argument(
-        "-r", "--required_fm_tags",
-        help="A YAML file containing the required front matter tags.",
-        required=True)
-    arg_parser.add_argument(
-        "-o", "--other_fm_tags",
-        help="A YAML file containing the other front matter tags.",
-        required=True)
-    arg_parser.add_argument(
         "-c", "--configuration",
-        help="A YAML file containing optional configuration.",
-        required=False)
+        help="A YAML file with configuration, at minimum required_fm_tags",
+        required=True)
     arg_parser.add_argument(
         "-n", "--no-frontmatter",
         help="Find files with no frontmatter defined.",

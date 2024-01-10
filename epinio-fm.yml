@@ -1,7 +1,7 @@
 ---
 - docstore-data:
     root-dir: /home/jhk/projects/suse/epinio-docs/docs
-    gen-date: 2024-01-09T18:23:14+01:00
+    gen-date: 2024-01-10T13:14:59+01:00
 - path: /home/jhk/projects/suse/epinio-docs/docs/explanations/advanced.md
   frontmatter:
     sidebar_label: "Advanced topics"
@@ -36,6 +36,16 @@
     doc-type: [how-to]
     doc-topic: [epinio, how-to, customize, custom-app-helm-chart]
     doc-persona: [epinio-operator]
+- path: /home/jhk/projects/suse/epinio-docs/docs/howtos/customization/create_custom_role.md
+  frontmatter:
+    sidebar_label: "Creating A custom role"
+    sidebar_position: 14
+    title: "Creating a custom role"
+    description: Creating a custom role in Epinio.
+    keywords: [epinio, kubernetes, create custom role]
+    doc-type: [how-to]
+    doc-topic: [epinio, how-to, customize, create-custom-role]
+    doc-persona: [epinio-operator]
 - path: /home/jhk/projects/suse/epinio-docs/docs/howtos/customization/create_custom_service.md
   frontmatter:
     sidebar_label: Creating a custom service
@@ -66,26 +76,6 @@
     doc-type: [how-to]
     doc-topic: [epinio, how-to, customize, create-custom-builder]
     doc-persona: [epinio-operator]
-- path: /home/jhk/projects/suse/epinio-docs/docs/howtos/customization/setup_routing_secrets.md
-  frontmatter:
-    sidebar_label: Setting up routing secrets
-    sidebar_position: 10
-    title: Setting up routing secrets for use by applications
-    description: How to set up routing secrets for use by applications
-    keywords: [epinio, kubernetes, setup routing secrets]
-    doc-type: [how-to]
-    doc-topic: [epinio, how-to, custom, setup-routing-secrets]
-    doc-persona: [epinio-operator]
-- path: /home/jhk/projects/suse/epinio-docs/docs/howtos/customization/using_custom_service_values.md
-  frontmatter:
-    sidebar_label: Custom values for service Helm charts
-    sidebar_position: 17
-    title: Custom values for service Helm charts
-    description: How to specify custom values for service Helm charts
-    keywords: [epinio, kubernetes, custom service values]
-    doc-type: [how-to]
-    doc-topic: [epinio, how-to, customize, custom-service-values]
-    doc-persona: [epinio-operator, epinio-user]
 - path: /home/jhk/projects/suse/epinio-docs/docs/howtos/customization/custom_routes.md
   frontmatter:
     sidebar_label: Setting up custom routes
@@ -146,16 +136,26 @@
     doc-type: [how-to]
     doc-topic: [how-to, custom, external-s3-storage]
     doc-persona: [epinio-operator]
-- path: /home/jhk/projects/suse/epinio-docs/docs/howtos/customization/create_custom_role.md
+- path: /home/jhk/projects/suse/epinio-docs/docs/howtos/customization/setup_routing_secrets.md
   frontmatter:
-    sidebar_label: "Creating A custom role"
-    sidebar_position: 14
-    title: "Creating a custom role"
-    description: Creating a custom role in Epinio.
-    keywords: [epinio, kubernetes, create custom role]
+    sidebar_label: Setting up routing secrets
+    sidebar_position: 10
+    title: Setting up routing secrets for use by applications
+    description: How to set up routing secrets for use by applications
+    keywords: [epinio, kubernetes, setup routing secrets]
     doc-type: [how-to]
-    doc-topic: [epinio, how-to, customize, create-custom-role]
+    doc-topic: [epinio, how-to, custom, setup-routing-secrets]
     doc-persona: [epinio-operator]
+- path: /home/jhk/projects/suse/epinio-docs/docs/howtos/customization/using_custom_service_values.md
+  frontmatter:
+    sidebar_label: Custom values for service Helm charts
+    sidebar_position: 17
+    title: Custom values for service Helm charts
+    description: How to specify custom values for service Helm charts
+    keywords: [epinio, kubernetes, custom service values]
+    doc-type: [how-to]
+    doc-topic: [epinio, how-to, customize, custom-service-values]
+    doc-persona: [epinio-operator, epinio-user]
 - path: /home/jhk/projects/suse/epinio-docs/docs/howtos/operations/aws_iam_integration.md
   frontmatter:
     sidebar_label: "AWS IAM integration"
@@ -234,6 +234,16 @@
     doc-type: [how-to]
     doc-topic: [epinio, how-to, other, custom-app-chart]
     doc-persona: [epinio-developer, epinio-operator]
+- path: /home/jhk/projects/suse/epinio-docs/docs/howtos/use-develop/app_recover.md
+  frontmatter:
+    sidebar_label: Recovering applications after CRD cycling
+    sidebar_position: 4
+    title: Recovering applications after CRD cycling
+    description: How to recover applications after cycling the Epinio CRDs
+    keywords: [epinio, kubernetes, application recovery, crd]
+    doc-type: [how-to]
+    doc-topic: [epinio, how-to, recovery]
+    doc-persona: [epinio-operator]
 - path: /home/jhk/projects/suse/epinio-docs/docs/howtos/use-develop/debug.md
   frontmatter:
     sidebar_label: Debugging an application
@@ -274,16 +284,6 @@
     doc-type: [how-to]
     doc-topic: [epinio, how-to, multiple-namespace]
     doc-persona: [epinio-developer, epinio-operator]
-- path: /home/jhk/projects/suse/epinio-docs/docs/howtos/use-develop/app_recover.md
-  frontmatter:
-    sidebar_label: Recovering applications after CRD cycling
-    sidebar_position: 4
-    title: Recovering applications after CRD cycling
-    description: How to recover applications after cycling the Epinio CRDs
-    keywords: [epinio, kubernetes, application recovery, crd]
-    doc-type: [how-to]
-    doc-topic: [epinio, how-to, recovery]
-    doc-persona: [epinio-operator]
 - path: /home/jhk/projects/suse/epinio-docs/docs/howtos/contribute.md
   frontmatter:
     sidebar_label: "Contributing to Epinio"
@@ -293,20 +293,6 @@
     keywords: [epinio, contributing]
     doc-type: [how-to]
     doc-topic: [contribute-to-epinio]
-- path: /home/jhk/projects/suse/epinio-docs/docs/installation/dns_setup.md
-  frontmatter:
-    sidebar_label: "DNS setup"
-    sidebar_position: 3
-    title: "DNS setup"
-    description: How to setup DNS for Epinio and associated issues.
-    keywords: [epinio, kubernetes, k8s, DNS]
-- path: /home/jhk/projects/suse/epinio-docs/docs/installation/install_epinio.md
-  frontmatter:
-    sidebar_label: "Install Epinio"
-    sidebar_position: 1
-    title: "Installing Epinio"
-    description: How to install Epinio
-    keywords: [epinio, kubernetes, k8s, installation, install]
 - path: /home/jhk/projects/suse/epinio-docs/docs/installation/other_inst_scenarios/install_epinio_on_eks.md
   frontmatter:
     sidebar_label: "Installing Epinio on EKS"
@@ -342,13 +328,6 @@
     title: "Installing Epinio on Rancher"
     description: How to install Epinio on Rancher
     keywords: [epinio, kubernetes, rancher]
-- path: /home/jhk/projects/suse/epinio-docs/docs/installation/other_inst_scenarios/install_epinio_on_rke.md
-  frontmatter:
-    sidebar_label: "Installing Epinio on RKE2"
-    sidebar_position: 19
-    title: "Installing Epinio on RKE2"
-    description: Installing Epinio with RKE2. The needed environment and prerequisites.
-    keywords: [epinio, k8s, kubernetes, rke2, installation]
 - path: /home/jhk/projects/suse/epinio-docs/docs/installation/other_inst_scenarios/install_epinio_on_rancher_desktop.md
   frontmatter:
     sidebar_label: "Installing Epinio on Rancher Desktop (RD)"
@@ -356,6 +335,34 @@
     title: "Installing Epinio on Rancher Desktop (RD)"
     description: How to install Epinio using a local Rancher Desktop installation.
     keywords: [epinio, kubernetes, rancher, rancher desktop]
+- path: /home/jhk/projects/suse/epinio-docs/docs/installation/other_inst_scenarios/install_epinio_on_rke.md
+  frontmatter:
+    sidebar_label: "Installing Epinio on RKE2"
+    sidebar_position: 19
+    title: "Installing Epinio on RKE2"
+    description: Installing Epinio with RKE2. The needed environment and prerequisites.
+    keywords: [epinio, k8s, kubernetes, rke2, installation]
+- path: /home/jhk/projects/suse/epinio-docs/docs/installation/dns_setup.md
+  frontmatter:
+    sidebar_label: "DNS setup"
+    sidebar_position: 3
+    title: "DNS setup"
+    description: How to setup DNS for Epinio and associated issues.
+    keywords: [epinio, kubernetes, k8s, DNS]
+- path: /home/jhk/projects/suse/epinio-docs/docs/installation/install_epinio.md
+  frontmatter:
+    sidebar_label: "Install Epinio"
+    sidebar_position: 1
+    title: "Installing Epinio"
+    description: How to install Epinio
+    keywords: [epinio, kubernetes, k8s, installation, install]
+- path: /home/jhk/projects/suse/epinio-docs/docs/installation/install_epinio_cli.md
+  frontmatter:
+    sidebar_label: "Install the Epinio CLI"
+    sidebar_position: 2
+    title: "Install the Epinio CLI"
+    description: How to install the Epinio CLI on Windows, Linux and Mac
+    keywords: [epinio, install, cli, windows, mac, linux, homebrew]
 - path: /home/jhk/projects/suse/epinio-docs/docs/installation/uninstall_epinio.md
   frontmatter:
     sidebar_label: "Uninstall Epinio"
@@ -370,22 +377,6 @@
     title: "Wildcard DNS setup"
     description: The description
     keywords: [epinio, wildcard dns, dns]
-- path: /home/jhk/projects/suse/epinio-docs/docs/installation/install_epinio_cli.md
-  frontmatter:
-    sidebar_label: "Install the Epinio CLI"
-    sidebar_position: 2
-    title: "Install the Epinio CLI"
-    description: How to install the Epinio CLI on Windows, Linux and Mac
-    keywords: [epinio, install, cli, windows, mac, linux, homebrew]
-- path: /home/jhk/projects/suse/epinio-docs/docs/references/api.md
-  frontmatter:
-    sidebar_label: "API"
-    title: ""
-- path: /home/jhk/projects/suse/epinio-docs/docs/references/command_requirements.md
-  frontmatter:
-    sidebar_label: "Command Requirements"
-    sidebar_position: 2
-    title: ""
 - path: /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/app/chart/epinio_app_chart.md
   frontmatter:
     sidebar_label: epinio app chart
@@ -755,33 +746,6 @@
     doc-type: [reference]
     doc-topic: [epinio, reference, epinio-cli, epinio-namespace-show]
     doc-persona: [epinio-developer, epinio-operator]
-- path: /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/service/epinio_service.md
-  frontmatter:
-    sidebar_label: epinio service
-    title: ""
-    description: epinio service
-    keywords: [epinio, kubernetes, epinio service]
-    doc-type: [reference]
-    doc-topic: [epinio, reference, epinio-cli, epinio-service]
-    doc-persona: [epinio-developer, epinio-operator]
-- path: /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/service/epinio_service_bind.md
-  frontmatter:
-    sidebar_label: epinio service bind
-    title: ""
-    description: epinio service bind
-    keywords: [epinio, kubernetes, epinio service bind]
-    doc-type: [reference]
-    doc-topic: [epinio, reference, epinio-cli, epinio-service-bind]
-    doc-persona: [epinio-developer, epinio-operator]
-- path: /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/service/epinio_service_catalog.md
-  frontmatter:
-    sidebar_label: epinio service catalog
-    title: ""
-    description: epinio service catalog
-    keywords: [epinio, kubernetes, epinio service catalog]
-    doc-type: [reference]
-    doc-topic: [epinio, reference, epinio-cli, epinio-service-catalog]
-    doc-persona: [epinio-developer, epinio-operator]
 - path: /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/service/epinio_service_create.md
   frontmatter:
     sidebar_label: epinio service create
@@ -845,6 +809,33 @@
     doc-type: [reference]
     doc-topic: [epinio, reference, epinio-cli, epinio-service-update]
     doc-persona: [epinio-developer, epinio-operator]
+- path: /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/service/epinio_service.md
+  frontmatter:
+    sidebar_label: epinio service
+    title: ""
+    description: epinio service
+    keywords: [epinio, kubernetes, epinio service]
+    doc-type: [reference]
+    doc-topic: [epinio, reference, epinio-cli, epinio-service]
+    doc-persona: [epinio-developer, epinio-operator]
+- path: /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/service/epinio_service_bind.md
+  frontmatter:
+    sidebar_label: epinio service bind
+    title: ""
+    description: epinio service bind
+    keywords: [epinio, kubernetes, epinio service bind]
+    doc-type: [reference]
+    doc-topic: [epinio, reference, epinio-cli, epinio-service-bind]
+    doc-persona: [epinio-developer, epinio-operator]
+- path: /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/service/epinio_service_catalog.md
+  frontmatter:
+    sidebar_label: epinio service catalog
+    title: ""
+    description: epinio service catalog
+    keywords: [epinio, kubernetes, epinio service catalog]
+    doc-type: [reference]
+    doc-topic: [epinio, reference, epinio-cli, epinio-service-catalog]
+    doc-persona: [epinio-developer, epinio-operator]
 - path: /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/settings/epinio_settings.md
   frontmatter:
     sidebar_label: epinio settings
@@ -881,6 +872,15 @@
     doc-type: [reference]
     doc-topic: [epinio, reference, epinio-cli, epinio-settings-update-ca]
     doc-persona: [epinio-developer, epinio-operator]
+- path: /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/epinio_version.md
+  frontmatter:
+    sidebar_label: epinio version
+    title: ""
+    description: epinio version
+    keywords: [epinio, kubernetes, epinio version]
+    doc-type: [reference]
+    doc-topic: [epinio, reference, epinio-cli, epinio-version]
+    doc-persona: [epinio-developer, epinio-operator]
 - path: /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/epinio.md
   frontmatter:
     sidebar_label: epinio cli
@@ -916,6 +916,15 @@
     keywords: [epinio, kubernetes, epinio export-registries]
     doc-type: [reference]
     doc-topic: [epinio, reference, epinio-cli, epinio-export-registries]
+    doc-persona: [epinio-developer, epinio-operator]
+- path: /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/epinio_info.md
+  frontmatter:
+    sidebar_label: epinio info
+    title: ""
+    description: epinio info
+    keywords: [epinio, kubernetes, epinio info]
+    doc-type: [reference]
+    doc-topic: [epinio, reference, epinio-cli, epinio-info]
     doc-persona: [epinio-developer, epinio-operator]
 - path: /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/epinio_login.md
   frontmatter:
@@ -962,28 +971,6 @@
     doc-type: [reference]
     doc-topic: [epinio, reference, epinio-cli, epinio-target]
     doc-persona: [epinio-developer, epinio-operator]
-- path: /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/epinio_version.md
-  frontmatter:
-    sidebar_label: epinio version
-    title: ""
-    description: epinio version
-    keywords: [epinio, kubernetes, epinio version]
-    doc-type: [reference]
-    doc-topic: [epinio, reference, epinio-cli, epinio-version]
-    doc-persona: [epinio-developer, epinio-operator]
-- path: /home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/epinio_info.md
-  frontmatter:
-    sidebar_label: epinio info
-    title: ""
-    description: epinio info
-    keywords: [epinio, kubernetes, epinio info]
-    doc-type: [reference]
-    doc-topic: [epinio, reference, epinio-cli, epinio-info]
-    doc-persona: [epinio-developer, epinio-operator]
-- path: /home/jhk/projects/suse/epinio-docs/docs/references/configurations.md
-  frontmatter:
-    sidebar_label: "Configurations"
-    title: ""
 - path: /home/jhk/projects/suse/epinio-docs/docs/references/customization/appcharts.md
   frontmatter:
     title: ""
@@ -1012,18 +999,61 @@
   frontmatter:
     title: ""
     sidebar_label: "Source Code Storage"
-- path: /home/jhk/projects/suse/epinio-docs/docs/references/customization/staging.md
-  frontmatter:
-    title: "Customization point: Buildpacks"
-    sidebar_label: "Buildpacks"
-    description: Using buildpacks in Epinio.
-    keywords: [kubernetes, epinio, application development, buildpacks]
 - path: /home/jhk/projects/suse/epinio-docs/docs/references/customization/staging-scripts.md
   frontmatter:
     title: "Customization point: Staging scripts"
     sidebar_label: "Staging scripts"
     description: Using staging scripts with Epinio.
     keywords: [epinio, application development, staging scripts, kubernetes]
+- path: /home/jhk/projects/suse/epinio-docs/docs/references/customization/staging.md
+  frontmatter:
+    title: "Customization point: Buildpacks"
+    sidebar_label: "Buildpacks"
+    description: Using buildpacks in Epinio.
+    keywords: [kubernetes, epinio, application development, buildpacks]
+- path: /home/jhk/projects/suse/epinio-docs/docs/references/system_requirements/global.md
+  frontmatter:
+    sidebar_label: System requirements
+    title: System requirements
+    description: System requirements for the Epinio Kubernetes development environment.
+    keywords: [epinio, kubernetes, global system requirements, development environment]
+    doc-type: [reference]
+    doc-topic: [epinio/reference/sys-req]
+    doc-persona: [epinio-developer, epinio-operator]
+- path: /home/jhk/projects/suse/epinio-docs/docs/references/system_requirements/windows.md
+  frontmatter:
+    sidebar_label: Windows
+    title: Windows installation requirements for Epinio
+    description: Windows installation requirements for the Epinio Kubernetes development environment.
+    keywords: [epinio, kubernetes]
+    doc-type: [one of how-to, explanation, tutorial, reference]
+    doc-topic: [root-branch]
+    doc-persona: [default]
+- path: /home/jhk/projects/suse/epinio-docs/docs/references/api.md
+  frontmatter:
+    sidebar_label: "API"
+    title: ""
+- path: /home/jhk/projects/suse/epinio-docs/docs/references/authentication_oidc.md
+  frontmatter:
+    sidebar_label: "OIDC authentication"
+    title: ""
+- path: /home/jhk/projects/suse/epinio-docs/docs/references/authorization.md
+  frontmatter:
+    sidebar_label: "Authorization"
+    title: ""
+- path: /home/jhk/projects/suse/epinio-docs/docs/references/cert-manager.md
+  frontmatter:
+    sidebar_label: "Cert Manager"
+    title: ""
+- path: /home/jhk/projects/suse/epinio-docs/docs/references/command_requirements.md
+  frontmatter:
+    sidebar_label: "Command Requirements"
+    sidebar_position: 2
+    title: ""
+- path: /home/jhk/projects/suse/epinio-docs/docs/references/configurations.md
+  frontmatter:
+    sidebar_label: "Configurations"
+    title: ""
 - path: /home/jhk/projects/suse/epinio-docs/docs/references/git_configuration.md
   frontmatter:
     sidebar_label: "Git Configuration"
@@ -1048,36 +1078,13 @@
   frontmatter:
     sidebar_label: "Supported Applications"
     title: ""
-- path: /home/jhk/projects/suse/epinio-docs/docs/references/system_requirements/global.md
+- path: /home/jhk/projects/suse/epinio-docs/docs/tutorials/custom_builder_go.md
   frontmatter:
-    sidebar_label: System requirements
-    title: System requirements
-    description: System requirements for the Epinio Kubernetes development environment.
-    keywords: [epinio, kubernetes, global system requirements, development environment]
-    doc-type: [reference]
-    doc-topic: [epinio/reference/sys-req]
-    doc-persona: [epinio-developer, epinio-operator]
-- path: /home/jhk/projects/suse/epinio-docs/docs/references/system_requirements/windows.md
-  frontmatter:
-    sidebar_label: Windows
-    title: Windows installation requirements for Epinio
-    description: Windows installation requirements for the Epinio Kubernetes development environment.
-    keywords: [epinio, kubernetes]
-    doc-type: [one of how-to, explanation, tutorial, reference]
-    doc-topic: [root-branch]
-    doc-persona: [default]
-- path: /home/jhk/projects/suse/epinio-docs/docs/references/authentication_oidc.md
-  frontmatter:
-    sidebar_label: "OIDC authentication"
-    title: ""
-- path: /home/jhk/projects/suse/epinio-docs/docs/references/authorization.md
-  frontmatter:
-    sidebar_label: "Authorization"
-    title: ""
-- path: /home/jhk/projects/suse/epinio-docs/docs/references/cert-manager.md
-  frontmatter:
-    sidebar_label: "Cert Manager"
-    title: ""
+    sidebar_label: "Epinio Journey: Deploy complex applications with a custom builder image"
+    sidebar_position: 4
+    title: "Deploying a complex application"
+    description: A walk-through for a more complex application deployment with Epinio.
+    keywords: [Epinio, kubernetes, application development, application deployment, complex application]
 - path: /home/jhk/projects/suse/epinio-docs/docs/tutorials/namespace-tutorial.md
   frontmatter:
     sidebar_position: 2
@@ -1091,13 +1098,6 @@
     title: "Quickstart"
     description: Get started quickly with Epinio.
     keywords: [epinio, kubernetes, quickstart, installation]
-- path: /home/jhk/projects/suse/epinio-docs/docs/tutorials/custom_builder_go.md
-  frontmatter:
-    sidebar_label: "Epinio Journey: Deploy complex applications with a custom builder image"
-    sidebar_position: 4
-    title: "Deploying a complex application"
-    description: A walk-through for a more complex application deployment with Epinio.
-    keywords: [Epinio, kubernetes, application development, application deployment, complex application]
 - path: /home/jhk/projects/suse/epinio-docs/docs/tutorials/single-dev-workflow.md
   frontmatter:
     sidebar_label: "Epinio journey: Single developer"
@@ -1105,9 +1105,6 @@
     title: "The Epinio single developer journey"
     description: How a single developer works with Epinio
     keywords: [epinio, developer, development, kubernetes]
-- path: /home/jhk/projects/suse/epinio-docs/docs/versions.md
-  frontmatter:
-    title: ""
 - path: /home/jhk/projects/suse/epinio-docs/docs/intro.md
   frontmatter:
     slug: /
@@ -1116,3 +1113,6 @@
     title: "Introduction"
     description: An introduction to Epinio and how it benefits developers
     keywords: [epinio, kubernetes, developer, operator, deployment]
+- path: /home/jhk/projects/suse/epinio-docs/docs/versions.md
+  frontmatter:
+    title: ""

@@ -1,7 +1,7 @@
 ---
 - docstore-data:
     root-dir: /home/jhk/projects/suse/kubewarden-docs/docs
-    gen-date: 2024-01-09T18:23:16+01:00
+    gen-date: 2024-01-10T13:15:01+01:00
 - path: /home/jhk/projects/suse/kubewarden-docs/docs/contribution-guide/contributing.md
   frontmatter:
 - path: /home/jhk/projects/suse/kubewarden-docs/docs/contribution-guide/suggesting-an-improvement.md
@@ -318,6 +318,10 @@
   frontmatter:
     sidebar_label: "Signature Verifier Policies"
     title: ""
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/03-container-registry.md
+  frontmatter:
+    sidebar_label: "Container Registry Capabilities"
+    title: ""
 - path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/04-net.md
   frontmatter:
     sidebar_label: "Network Capabilities"
@@ -329,10 +333,6 @@
 - path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/06-kubernetes.md
   frontmatter:
     sidebar_label: "Kubernetes Capabilities"
-    title: ""
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/03-container-registry.md
-  frontmatter:
-    sidebar_label: "Container Registry Capabilities"
     title: ""
 - path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/01-intro-spec.md
   frontmatter:
@@ -370,6 +370,26 @@
     keywords: [kubewarden, kubernetes, raw policies]
     doc-type: [explanation, tutorial]
     doc-topic: [kubewarden, writing-policies, raw-policies]
+    doc-persona: [kubewarden-developer]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/validation-with-queries.md
+  frontmatter:
+    sidebar_label: Validation using JSON queries
+    sidebar_position: 090
+    title: Validation using JSON queries
+    description: Validation using JSON queries with Kubewarden policies in Go.
+    keywords: [kubewarden, kubernetes, validation using JSON queries]
+    doc-type: [tutorial]
+    doc-topic: [kubewarden, writing-policies, golang, validation-using-json]
+    doc-persona: [kubewarden-developer]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/validation.md
+  frontmatter:
+    sidebar_label: Validation logic
+    sidebar_position: 040
+    title: Writing the validation logic
+    description: A tutorial on writing validation logic for a Kubewarden policy using Go.
+    keywords: [kubewarden, kubernetes, writing policies, golang, go]
+    doc-type: [tutorial]
+    doc-topic: [kubewarden, writing-policies, golang, validation-logic]
     doc-persona: [kubewarden-developer]
 - path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/automate.md
   frontmatter:
@@ -450,26 +470,6 @@
     keywords: [kubewarden, kubernetes, writing policies in Go, new validation policy]
     doc-type: [tutorial]
     doc-topic: [kubewarden, writing-policies, go, creating a new validation policy]
-    doc-persona: [kubewarden-developer]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/validation-with-queries.md
-  frontmatter:
-    sidebar_label: Validation using JSON queries
-    sidebar_position: 090
-    title: Validation using JSON queries
-    description: Validation using JSON queries with Kubewarden policies in Go.
-    keywords: [kubewarden, kubernetes, validation using JSON queries]
-    doc-type: [tutorial]
-    doc-topic: [kubewarden, writing-policies, golang, validation-using-json]
-    doc-persona: [kubewarden-developer]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/validation.md
-  frontmatter:
-    sidebar_label: Validation logic
-    sidebar_position: 040
-    title: Writing the validation logic
-    description: A tutorial on writing validation logic for a Kubewarden policy using Go.
-    keywords: [kubewarden, kubernetes, writing policies, golang, go]
-    doc-type: [tutorial]
-    doc-topic: [kubewarden, writing-policies, golang, validation-logic]
     doc-persona: [kubewarden-developer]
 - path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/dotnet.md
   frontmatter:

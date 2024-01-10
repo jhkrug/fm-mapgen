@@ -1,1 +1,20 @@
-node_sort_key: sidebar_position
+---
+
+required_fm_tags:
+  title: title
+  description: description
+  keywords: keywords
+  doc_persona: doc-persona
+  doc_type: doc-type
+  doc_topic: doc-topic
+
+other_fm_tags:
+  slug: slug
+  sidebar_label: sidebar_label
+  sidebar_position: sidebar_position
+
+sorting:
+  sort: True
+  node_sort_key: sidebar_position
+
+...

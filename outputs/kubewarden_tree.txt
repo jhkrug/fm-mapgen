@@ -87,10 +87,10 @@ Frontmatter Tree
     │   │   ├── host-capabilities/
     │   │   │   ├── 01-intro-host-capabilities.md
     │   │   │   ├── 02-signature-verifier-policies.md
+    │   │   │   ├── 03-container-registry.md
     │   │   │   ├── 04-net.md
     │   │   │   ├── 05-crypto.md
-    │   │   │   ├── 06-kubernetes.md
-    │   │   │   └── 03-container-registry.md
+    │   │   │   └── 06-kubernetes.md
     │   │   ├── 01-intro-spec.md
     │   │   ├── 02-settings.md
     │   │   ├── 03-validating-policies.md
@@ -100,16 +100,16 @@ Frontmatter Tree
     │   │   ├── 01-intro-wasi.md
     │   │   └── 02-raw-policies.md
     │   ├── go/
+    │   │   ├── intro-go.md
+    │   │   ├── scaffold.md
+    │   │   ├── policy-settings.md
+    │   │   ├── validation.md
+    │   │   ├── e2e-tests.md
+    │   │   ├── logging.md
     │   │   ├── automate.md
     │   │   ├── distribute.md
-    │   │   ├── e2e-tests.md
-    │   │   ├── intro-go.md
-    │   │   ├── logging.md
-    │   │   ├── policy-settings.md
-    │   │   ├── raw-policies.md
-    │   │   ├── scaffold.md
     │   │   ├── validation-with-queries.md
-    │   │   └── validation.md
+    │   │   └── raw-policies.md
     │   ├── dotnet.md
     │   ├── index.md
     │   ├── metadata.md

@@ -1,4 +1,4 @@
-Data generated: 2024-01-09 17:23:16
+Data generated: 2024-01-10 12:15:01
 Files with no, or empty frontmatter fm_tag: title ---
 /home/jhk/projects/suse/kubewarden-docs/docs/contribution-guide/contributing.md
 /home/jhk/projects/suse/kubewarden-docs/docs/contribution-guide/suggesting-an-improvement.md
@@ -33,10 +33,10 @@ Files with no, or empty frontmatter fm_tag: title ---
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rego/02-builtin-support.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/01-intro-host-capabilities.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/02-signature-verifier-policies.md
+/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/03-container-registry.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/04-net.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/05-crypto.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/06-kubernetes.md
-/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/03-container-registry.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/01-intro-spec.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/02-settings.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/03-validating-policies.md
@@ -83,10 +83,10 @@ Files with no, or empty frontmatter fm_tag: description ---
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rust/08-raw-policies.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/01-intro-host-capabilities.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/02-signature-verifier-policies.md
+/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/03-container-registry.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/04-net.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/05-crypto.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/06-kubernetes.md
-/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/03-container-registry.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/01-intro-spec.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/02-settings.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/03-validating-policies.md
@@ -134,10 +134,10 @@ Files with no, or empty frontmatter fm_tag: keywords ---
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rust/08-raw-policies.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/01-intro-host-capabilities.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/02-signature-verifier-policies.md
+/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/03-container-registry.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/04-net.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/05-crypto.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/06-kubernetes.md
-/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/03-container-registry.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/01-intro-spec.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/02-settings.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/03-validating-policies.md
@@ -208,10 +208,10 @@ Files with no, or empty frontmatter fm_tag: doc_persona ---
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rust/08-raw-policies.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/01-intro-host-capabilities.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/02-signature-verifier-policies.md
+/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/03-container-registry.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/04-net.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/05-crypto.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/06-kubernetes.md
-/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/03-container-registry.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/01-intro-spec.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/02-settings.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/03-validating-policies.md
@@ -219,6 +219,8 @@ Files with no, or empty frontmatter fm_tag: doc_persona ---
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/05-context-aware-policies.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/wasi/01-intro-wasi.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/wasi/02-raw-policies.md
+/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/validation-with-queries.md
+/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/validation.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/automate.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/distribute.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/e2e-tests.md
@@ -227,8 +229,6 @@ Files with no, or empty frontmatter fm_tag: doc_persona ---
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/policy-settings.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/raw-policies.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/scaffold.md
-/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/validation-with-queries.md
-/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/validation.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/dotnet.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/index.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/metadata.md
@@ -305,10 +305,10 @@ Files with no, or empty frontmatter fm_tag: doc_type ---
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rust/08-raw-policies.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/01-intro-host-capabilities.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/02-signature-verifier-policies.md
+/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/03-container-registry.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/04-net.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/05-crypto.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/06-kubernetes.md
-/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/03-container-registry.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/01-intro-spec.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/02-settings.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/03-validating-policies.md
@@ -316,6 +316,8 @@ Files with no, or empty frontmatter fm_tag: doc_type ---
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/05-context-aware-policies.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/wasi/01-intro-wasi.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/wasi/02-raw-policies.md
+/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/validation-with-queries.md
+/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/validation.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/automate.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/distribute.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/e2e-tests.md
@@ -324,8 +326,6 @@ Files with no, or empty frontmatter fm_tag: doc_type ---
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/policy-settings.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/raw-policies.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/scaffold.md
-/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/validation-with-queries.md
-/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/validation.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/dotnet.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/index.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/metadata.md
@@ -402,10 +402,10 @@ Files with no, or empty frontmatter fm_tag: doc_topic ---
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rust/08-raw-policies.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/01-intro-host-capabilities.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/02-signature-verifier-policies.md
+/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/03-container-registry.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/04-net.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/05-crypto.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/06-kubernetes.md
-/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/03-container-registry.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/01-intro-spec.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/02-settings.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/03-validating-policies.md
@@ -413,6 +413,8 @@ Files with no, or empty frontmatter fm_tag: doc_topic ---
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/05-context-aware-policies.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/wasi/01-intro-wasi.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/wasi/02-raw-policies.md
+/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/validation-with-queries.md
+/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/validation.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/automate.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/distribute.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/e2e-tests.md
@@ -421,8 +423,6 @@ Files with no, or empty frontmatter fm_tag: doc_topic ---
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/policy-settings.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/raw-policies.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/scaffold.md
-/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/validation-with-queries.md
-/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/validation.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/dotnet.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/index.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/metadata.md

@@ -1,20 +1,20 @@
 digraph tree {
 	"root" [label="Frontmatter Tree", shape=circle]
 	"/" [label="/", shape=circle]
-	"/architecture.md" [label="architecture.md", shape=circle]
 	"contribution-guide/" [label="contribution-guide/", shape=circle]
-	"/distributing-policies.md" [label="distributing-policies.md", shape=circle]
 	"distributing-policies/" [label="distributing-policies/", shape=circle]
 	"explanations/" [label="explanations/", shape=circle]
 	"howtos/" [label="howtos/", shape=circle]
-	"/introduction.md" [label="introduction.md", shape=circle]
 	"operator-manual/" [label="operator-manual/", shape=circle]
-	"/quick-start.md" [label="quick-start.md", shape=circle]
 	"security/" [label="security/", shape=circle]
-	"/tasks.md" [label="tasks.md", shape=circle]
 	"tasksDir/" [label="tasksDir/", shape=circle]
 	"testing-policies/" [label="testing-policies/", shape=circle]
 	"writing-policies/" [label="writing-policies/", shape=circle]
+	"/architecture.md" [label="architecture.md", shape=circle]
+	"/distributing-policies.md" [label="distributing-policies.md", shape=circle]
+	"/introduction.md" [label="introduction.md", shape=circle]
+	"/quick-start.md" [label="quick-start.md", shape=circle]
+	"/tasks.md" [label="tasks.md", shape=circle]
 	"/contribution-guide/contributing.md" [label="contributing.md", shape=circle]
 	"/contribution-guide/suggesting-an-improvement.md" [label="suggesting-an-improvement.md", shape=circle]
 	"/distributing-policies/custom-certificate-authorities.md" [label="custom-certificate-authorities.md", shape=circle]
@@ -26,17 +26,17 @@ digraph tree {
 	"/explanations/opa-comparison.md" [label="opa-comparison.md", shape=circle]
 	"/howtos/audit-scanner.md" [label="audit-scanner.md", shape=circle]
 	"/howtos/raw-policies.md" [label="raw-policies.md", shape=circle]
+	"airgap/" [label="airgap/", shape=circle]
+	"policy-servers/" [label="policy-servers/", shape=circle]
+	"telemetry/" [label="telemetry/", shape=circle]
+	"ui-extension/" [label="ui-extension/", shape=circle]
 	"/operator-manual/01-intro.md" [label="01-intro.md", shape=circle]
 	"/operator-manual/CRDs.md" [label="CRDs.md", shape=circle]
 	"/operator-manual/Rancher-Fleet.md" [label="Rancher-Fleet.md", shape=circle]
-	"airgap/" [label="airgap/", shape=circle]
 	"/operator-manual/dependency-matrix.md" [label="dependency-matrix.md", shape=circle]
 	"/operator-manual/monitor-mode.md" [label="monitor-mode.md", shape=circle]
 	"/operator-manual/policies.md" [label="policies.md", shape=circle]
 	"/operator-manual/policy-evaluation-timeout.md" [label="policy-evaluation-timeout.md", shape=circle]
-	"policy-servers/" [label="policy-servers/", shape=circle]
-	"telemetry/" [label="telemetry/", shape=circle]
-	"ui-extension/" [label="ui-extension/", shape=circle]
 	"/operator-manual/upgrade-path.md" [label="upgrade-path.md", shape=circle]
 	"/operator-manual/verification-config.md" [label="verification-config.md", shape=circle]
 	"/security/01-intro.md" [label="01-intro.md", shape=circle]
@@ -49,17 +49,17 @@ digraph tree {
 	"/testing-policies/01-intro.md" [label="01-intro.md", shape=circle]
 	"/testing-policies/02-policy-authors.md" [label="02-policy-authors.md", shape=circle]
 	"/testing-policies/03-cluster-operators.md" [label="03-cluster-operators.md", shape=circle]
-	"/writing-policies/dotnet.md" [label="dotnet.md", shape=circle]
-	"go/" [label="go/", shape=circle]
-	"/writing-policies/index.md" [label="index.md", shape=circle]
-	"/writing-policies/metadata.md" [label="metadata.md", shape=circle]
-	"/writing-policies/other-languages.md" [label="other-languages.md", shape=circle]
 	"rego/" [label="rego/", shape=circle]
 	"rust/" [label="rust/", shape=circle]
 	"spec/" [label="spec/", shape=circle]
+	"wasi/" [label="wasi/", shape=circle]
+	"go/" [label="go/", shape=circle]
+	"/writing-policies/dotnet.md" [label="dotnet.md", shape=circle]
+	"/writing-policies/index.md" [label="index.md", shape=circle]
+	"/writing-policies/metadata.md" [label="metadata.md", shape=circle]
+	"/writing-policies/other-languages.md" [label="other-languages.md", shape=circle]
 	"/writing-policies/swift.md" [label="swift.md", shape=circle]
 	"/writing-policies/typescript.md" [label="typescript.md", shape=circle]
-	"wasi/" [label="wasi/", shape=circle]
 	"/explanations/audit-scanner/audit-scanner.md" [label="audit-scanner.md", shape=circle]
 	"/explanations/audit-scanner/limitations.md" [label="limitations.md", shape=circle]
 	"/explanations/audit-scanner/policy-reports.md" [label="policy-reports.md", shape=circle]
@@ -70,23 +70,13 @@ digraph tree {
 	"metrics/" [label="metrics/", shape=circle]
 	"opentelemetry/" [label="opentelemetry/", shape=circle]
 	"tracing/" [label="tracing/", shape=circle]
+	"/operator-manual/ui-extension/03-tracing.md" [label="03-tracing.md", shape=circle]
 	"/operator-manual/ui-extension/01-install.md" [label="01-install.md", shape=circle]
 	"/operator-manual/ui-extension/02-metrics.md" [label="02-metrics.md", shape=circle]
-	"/operator-manual/ui-extension/03-tracing.md" [label="03-tracing.md", shape=circle]
-	"/writing-policies/go/automate.md" [label="automate.md", shape=circle]
-	"/writing-policies/go/distribute.md" [label="distribute.md", shape=circle]
-	"/writing-policies/go/e2e-tests.md" [label="e2e-tests.md", shape=circle]
-	"/writing-policies/go/intro-go.md" [label="intro-go.md", shape=circle]
-	"/writing-policies/go/logging.md" [label="logging.md", shape=circle]
-	"/writing-policies/go/policy-settings.md" [label="policy-settings.md", shape=circle]
-	"/writing-policies/go/raw-policies.md" [label="raw-policies.md", shape=circle]
-	"/writing-policies/go/scaffold.md" [label="scaffold.md", shape=circle]
-	"/writing-policies/go/validation-with-queries.md" [label="validation-with-queries.md", shape=circle]
-	"/writing-policies/go/validation.md" [label="validation.md", shape=circle]
-	"/writing-policies/rego/01-intro-rego.md" [label="01-intro-rego.md", shape=circle]
-	"/writing-policies/rego/02-builtin-support.md" [label="02-builtin-support.md", shape=circle]
 	"gatekeeper/" [label="gatekeeper/", shape=circle]
 	"open-policy-agent/" [label="open-policy-agent/", shape=circle]
+	"/writing-policies/rego/01-intro-rego.md" [label="01-intro-rego.md", shape=circle]
+	"/writing-policies/rego/02-builtin-support.md" [label="02-builtin-support.md", shape=circle]
 	"/writing-policies/rust/01-intro-rust.md" [label="01-intro-rust.md", shape=circle]
 	"/writing-policies/rust/02-create-policy.md" [label="02-create-policy.md", shape=circle]
 	"/writing-policies/rust/03-define-policy-settings.md" [label="03-define-policy-settings.md", shape=circle]
@@ -95,14 +85,24 @@ digraph tree {
 	"/writing-policies/rust/06-logging.md" [label="06-logging.md", shape=circle]
 	"/writing-policies/rust/07-build-and-distribute.md" [label="07-build-and-distribute.md", shape=circle]
 	"/writing-policies/rust/08-raw-policies.md" [label="08-raw-policies.md", shape=circle]
+	"host-capabilities/" [label="host-capabilities/", shape=circle]
 	"/writing-policies/spec/01-intro-spec.md" [label="01-intro-spec.md", shape=circle]
 	"/writing-policies/spec/02-settings.md" [label="02-settings.md", shape=circle]
 	"/writing-policies/spec/03-validating-policies.md" [label="03-validating-policies.md", shape=circle]
 	"/writing-policies/spec/04-mutating-policies.md" [label="04-mutating-policies.md", shape=circle]
 	"/writing-policies/spec/05-context-aware-policies.md" [label="05-context-aware-policies.md", shape=circle]
-	"host-capabilities/" [label="host-capabilities/", shape=circle]
 	"/writing-policies/wasi/01-intro-wasi.md" [label="01-intro-wasi.md", shape=circle]
 	"/writing-policies/wasi/02-raw-policies.md" [label="02-raw-policies.md", shape=circle]
+	"/writing-policies/go/intro-go.md" [label="intro-go.md", shape=circle]
+	"/writing-policies/go/scaffold.md" [label="scaffold.md", shape=circle]
+	"/writing-policies/go/policy-settings.md" [label="policy-settings.md", shape=circle]
+	"/writing-policies/go/validation.md" [label="validation.md", shape=circle]
+	"/writing-policies/go/e2e-tests.md" [label="e2e-tests.md", shape=circle]
+	"/writing-policies/go/logging.md" [label="logging.md", shape=circle]
+	"/writing-policies/go/automate.md" [label="automate.md", shape=circle]
+	"/writing-policies/go/distribute.md" [label="distribute.md", shape=circle]
+	"/writing-policies/go/validation-with-queries.md" [label="validation-with-queries.md", shape=circle]
+	"/writing-policies/go/raw-policies.md" [label="raw-policies.md", shape=circle]
 	"/operator-manual/telemetry/metrics/01-quickstart.md" [label="01-quickstart.md", shape=circle]
 	"/operator-manual/telemetry/metrics/02-reference.md" [label="02-reference.md", shape=circle]
 	"/operator-manual/telemetry/opentelemetry/01-quickstart.md" [label="01-quickstart.md", shape=circle]
@@ -196,16 +196,6 @@ digraph tree {
 	"ui-extension/" -> "/operator-manual/ui-extension/03-tracing.md"
 	"ui-extension/" -> "/operator-manual/ui-extension/01-install.md"
 	"ui-extension/" -> "/operator-manual/ui-extension/02-metrics.md"
-	"go/" -> "/writing-policies/go/automate.md"
-	"go/" -> "/writing-policies/go/distribute.md"
-	"go/" -> "/writing-policies/go/e2e-tests.md"
-	"go/" -> "/writing-policies/go/intro-go.md"
-	"go/" -> "/writing-policies/go/logging.md"
-	"go/" -> "/writing-policies/go/policy-settings.md"
-	"go/" -> "/writing-policies/go/raw-policies.md"
-	"go/" -> "/writing-policies/go/scaffold.md"
-	"go/" -> "/writing-policies/go/validation-with-queries.md"
-	"go/" -> "/writing-policies/go/validation.md"
 	"rego/" -> "gatekeeper/"
 	"rego/" -> "open-policy-agent/"
 	"rego/" -> "/writing-policies/rego/01-intro-rego.md"
@@ -226,6 +216,16 @@ digraph tree {
 	"spec/" -> "/writing-policies/spec/05-context-aware-policies.md"
 	"wasi/" -> "/writing-policies/wasi/01-intro-wasi.md"
 	"wasi/" -> "/writing-policies/wasi/02-raw-policies.md"
+	"go/" -> "/writing-policies/go/validation-with-queries.md"
+	"go/" -> "/writing-policies/go/validation.md"
+	"go/" -> "/writing-policies/go/automate.md"
+	"go/" -> "/writing-policies/go/distribute.md"
+	"go/" -> "/writing-policies/go/e2e-tests.md"
+	"go/" -> "/writing-policies/go/intro-go.md"
+	"go/" -> "/writing-policies/go/logging.md"
+	"go/" -> "/writing-policies/go/policy-settings.md"
+	"go/" -> "/writing-policies/go/raw-policies.md"
+	"go/" -> "/writing-policies/go/scaffold.md"
 	"metrics/" -> "/operator-manual/telemetry/metrics/01-quickstart.md"
 	"metrics/" -> "/operator-manual/telemetry/metrics/02-reference.md"
 	"opentelemetry/" -> "/operator-manual/telemetry/opentelemetry/01-quickstart.md"
@@ -241,8 +241,8 @@ digraph tree {
 	"open-policy-agent/" -> "/writing-policies/rego/open-policy-agent/05-raw-policies.md"
 	"host-capabilities/" -> "/writing-policies/spec/host-capabilities/01-intro-host-capabilities.md"
 	"host-capabilities/" -> "/writing-policies/spec/host-capabilities/02-signature-verifier-policies.md"
+	"host-capabilities/" -> "/writing-policies/spec/host-capabilities/03-container-registry.md"
 	"host-capabilities/" -> "/writing-policies/spec/host-capabilities/04-net.md"
 	"host-capabilities/" -> "/writing-policies/spec/host-capabilities/05-crypto.md"
 	"host-capabilities/" -> "/writing-policies/spec/host-capabilities/06-kubernetes.md"
-	"host-capabilities/" -> "/writing-policies/spec/host-capabilities/03-container-registry.md"
 }
