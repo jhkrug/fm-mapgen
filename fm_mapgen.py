@@ -128,7 +128,7 @@ def main(argv):
 def get_sort_val(node: treelib.Node):
     sv = 0
     try:
-        sv = int(getattr(node.data, sort_fm_tag))  # type: ignore
+        sv = int(getattr(node.data, str(sort_fm_tag)))
         if sv == None:
             sv = 0
     except:
@@ -217,8 +217,8 @@ def build_km(front_matter):
 def internal_link_resolve(l, f, r):
     """Given an internal link l and the file, f it's from return the
     full path, stripping the root_dir, r from the front."""
-    # Do the python equivalents of dirname(f), tack on l, then readlink
-    # to work fine with '#internal' anchors left in place.
+    # Do the python equivalents of dirname(f), tack on l, then readlink(f)
+    # Seems to work fine with '#internal' anchors left in place.
     n = os.path.realpath(os.path.dirname(f) + "/" + l)
     n = n.replace(r, "")
     return n
