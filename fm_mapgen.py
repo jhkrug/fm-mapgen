@@ -121,7 +121,7 @@ def main(argv):
     if args.fm_tag:
         report_files_without_fm_tag(front_matter, args.fm_tag)
     if args.all_fm_tags:
-        for fm_tag in required_fm_tags:
+        for fm_tag in required_fm_tags.values():
             report_files_without_fm_tag(front_matter, fm_tag)
 
 
@@ -281,7 +281,7 @@ def read_yaml(filename):
 
 def report_files_without_fm(front_matter):
     """Report on any markdown files missing frontmatter"""
-    print("No front matter files ---")
+    print("=== No front matter files:")
     for f in front_matter:
         try:
             if f['docstore-data']:
@@ -293,7 +293,7 @@ def report_files_without_fm(front_matter):
 
 def report_files_without_fm_tag(front_matter, fm_tag):
     """Report on any markdown files missing the fm_tag"""
-    printf("Files with no, or empty frontmatter fm_tag: %s ---\n", fm_tag)
+    printf("=== Files with no, or empty frontmatter fm_tag: %s:\n", fm_tag)
     for f in front_matter:
         try:
             if f['docstore-data']:
@@ -309,7 +309,7 @@ def report_files_without_fm_tag(front_matter, fm_tag):
 
 def report_files_with_unrecognized_fm_tags(front_matter):
     """Any files with weird fm_tags"""
-    printf("Files with weird frontmatter tags\n")
+    printf("=== Files with weird frontmatter tags:\n")
     for fm in front_matter:
         try:
             if fm['docstore-data']:

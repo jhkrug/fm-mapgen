@@ -1,11 +1,27 @@
 ---
 - docstore-data:
     root-dir: /home/jhk/projects/suse/kubewarden-docs/docs
-    gen-date: 2024-01-10T14:02:26+01:00
+    gen-date: 2024-01-10T18:34:59+01:00
 - path: /home/jhk/projects/suse/kubewarden-docs/docs/contribution-guide/contributing.md
   frontmatter:
+    sidebar_label: Contributing to documentation
+    sidebar_position: 00001
+    title: Contributing to Kubewarden documentation
+    description: Contributing to kubewarden documentation.
+    keywords: [kubewarden, documentation, contributing]
+    doc-type: [explanation]
+    doc-topic: [contribution-guide, docs-contribution]
+    doc-persona: [kubewarden-developer, kubewarden-operator, kubewarden-manager]
 - path: /home/jhk/projects/suse/kubewarden-docs/docs/contribution-guide/suggesting-an-improvement.md
   frontmatter:
+    sidebar_label: Suggesting improvements
+    sidebar_position: 00010
+    title: Suggesting an improvement
+    description: Suggesting an improvement.
+    keywords: [kubewarden, documentation, suggesting an improvement]
+    doc-type: [explanation, tutorial]
+    doc-topic: [contribution-guide, docs-contribution, improvement]
+    doc-persona: [kubewarden-developer, kubewarden-operator, kubewarden-manager]
 - path: /home/jhk/projects/suse/kubewarden-docs/docs/distributing-policies/custom-certificate-authorities.md
   frontmatter:
     sidebar_label: "Custom Certificate Authorities"
@@ -93,14 +109,28 @@
   frontmatter:
     sidebar_label: "Tracing Quickstart"
     title: ""
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/03-tracing.md
-  frontmatter:
 - path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/01-install.md
   frontmatter:
     sidebar_label: "Quickstart"
     title: ""
 - path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/02-metrics.md
   frontmatter:
+    sidebar_label: Monitoring
+    title: Monitoring
+    description: Monitoring and metrics for Kubewarden.
+    keywords: [kubewarden, kubernetes, user interface extension, metrics, monitoring]
+    doc-type: [tutorial, reference]
+    doc-topic: [operator-manual, metrics-and-monitoring]
+    doc-persona: [kubewarden-operator, kubewarden-manager]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/03-tracing.md
+  frontmatter:
+    sidebar_label: Tracing
+    title: Tracing
+    description: Tracing for Kubewarden.
+    keywords: [kubewarden, kubernetes, tracing]
+    doc-type: [explanation, tutorial]
+    doc-topic: [operator-manual, ui-extension, tracing]
+    doc-persona: [default]
 - path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/01-intro.md
   frontmatter:
     sidebar_label: "Operator Manual"
@@ -371,26 +401,6 @@
     doc-type: [explanation, tutorial]
     doc-topic: [kubewarden, writing-policies, raw-policies]
     doc-persona: [kubewarden-developer]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/validation-with-queries.md
-  frontmatter:
-    sidebar_label: Validation using JSON queries
-    sidebar_position: 090
-    title: Validation using JSON queries
-    description: Validation using JSON queries with Kubewarden policies in Go.
-    keywords: [kubewarden, kubernetes, validation using JSON queries]
-    doc-type: [tutorial]
-    doc-topic: [kubewarden, writing-policies, golang, validation-using-json]
-    doc-persona: [kubewarden-developer]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/validation.md
-  frontmatter:
-    sidebar_label: Validation logic
-    sidebar_position: 040
-    title: Writing the validation logic
-    description: A tutorial on writing validation logic for a Kubewarden policy using Go.
-    keywords: [kubewarden, kubernetes, writing policies, golang, go]
-    doc-type: [tutorial]
-    doc-topic: [kubewarden, writing-policies, golang, validation-logic]
-    doc-persona: [kubewarden-developer]
 - path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/automate.md
   frontmatter:
     sidebar_label: GitHub Actions
@@ -470,6 +480,26 @@
     keywords: [kubewarden, kubernetes, writing policies in Go, new validation policy]
     doc-type: [tutorial]
     doc-topic: [kubewarden, writing-policies, go, creating a new validation policy]
+    doc-persona: [kubewarden-developer]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/validation-with-queries.md
+  frontmatter:
+    sidebar_label: Validation using JSON queries
+    sidebar_position: 090
+    title: Validation using JSON queries
+    description: Validation using JSON queries with Kubewarden policies in Go.
+    keywords: [kubewarden, kubernetes, validation using JSON queries]
+    doc-type: [tutorial]
+    doc-topic: [kubewarden, writing-policies, golang, validation-using-json]
+    doc-persona: [kubewarden-developer]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/validation.md
+  frontmatter:
+    sidebar_label: Validation logic
+    sidebar_position: 040
+    title: Writing the validation logic
+    description: A tutorial on writing validation logic for a Kubewarden policy using Go.
+    keywords: [kubewarden, kubernetes, writing policies, golang, go]
+    doc-type: [tutorial]
+    doc-topic: [kubewarden, writing-policies, golang, validation-logic]
     doc-persona: [kubewarden-developer]
 - path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/dotnet.md
   frontmatter:

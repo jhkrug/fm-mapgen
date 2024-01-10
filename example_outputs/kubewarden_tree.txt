@@ -34,9 +34,9 @@ Frontmatter Map
     │   │   └── tracing/
     │   │       └── 01-quickstart.md
     │   ├── ui-extension/
-    │   │   ├── 03-tracing.md
     │   │   ├── 01-install.md
-    │   │   └── 02-metrics.md
+    │   │   ├── 02-metrics.md
+    │   │   └── 03-tracing.md
     │   ├── 01-intro.md
     │   ├── CRDs.md
     │   ├── Rancher-Fleet.md
