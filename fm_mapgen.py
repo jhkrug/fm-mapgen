@@ -100,7 +100,6 @@ def main(argv):
         os.remove("tree.txt")
     except:
         pass
-    # km.save2file(filename="tree.txt", key=False)
     km.save2file(filename="tree.txt", key=get_sort_val)
     try:
         os.remove("tree.dot")
