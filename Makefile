@@ -6,7 +6,10 @@ EP_FM_OPTS = -f ${EP_FMY}
 KW_FM_OPTS = -f ${KW_FMY}
 KW_DOCS = /home/jhk/projects/suse/kubewarden-docs/docs
 
-all: epinio kubewarden
+all: test epinio kubewarden
+
+test:
+	python -m pytest tests
 
 update_examples:
 	cp inputs/* example_inputs
