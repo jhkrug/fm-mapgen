@@ -1,27 +1,11 @@
 ---
 - docstore-data:
     root-dir: /home/jhk/projects/suse/kubewarden-docs/docs
-    gen-date: 2024-01-10T18:34:59+01:00
+    gen-date: 2024-01-11T10:48:21+01:00
 - path: /home/jhk/projects/suse/kubewarden-docs/docs/contribution-guide/contributing.md
   frontmatter:
-    sidebar_label: Contributing to documentation
-    sidebar_position: 00001
-    title: Contributing to Kubewarden documentation
-    description: Contributing to kubewarden documentation.
-    keywords: [kubewarden, documentation, contributing]
-    doc-type: [explanation]
-    doc-topic: [contribution-guide, docs-contribution]
-    doc-persona: [kubewarden-developer, kubewarden-operator, kubewarden-manager]
 - path: /home/jhk/projects/suse/kubewarden-docs/docs/contribution-guide/suggesting-an-improvement.md
   frontmatter:
-    sidebar_label: Suggesting improvements
-    sidebar_position: 00010
-    title: Suggesting an improvement
-    description: Suggesting an improvement.
-    keywords: [kubewarden, documentation, suggesting an improvement]
-    doc-type: [explanation, tutorial]
-    doc-topic: [contribution-guide, docs-contribution, improvement]
-    doc-persona: [kubewarden-developer, kubewarden-operator, kubewarden-manager]
 - path: /home/jhk/projects/suse/kubewarden-docs/docs/distributing-policies/custom-certificate-authorities.md
   frontmatter:
     sidebar_label: "Custom Certificate Authorities"
@@ -109,28 +93,14 @@
   frontmatter:
     sidebar_label: "Tracing Quickstart"
     title: ""
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/03-tracing.md
+  frontmatter:
 - path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/01-install.md
   frontmatter:
     sidebar_label: "Quickstart"
     title: ""
 - path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/02-metrics.md
   frontmatter:
-    sidebar_label: Monitoring
-    title: Monitoring
-    description: Monitoring and metrics for Kubewarden.
-    keywords: [kubewarden, kubernetes, user interface extension, metrics, monitoring]
-    doc-type: [tutorial, reference]
-    doc-topic: [operator-manual, metrics-and-monitoring]
-    doc-persona: [kubewarden-operator, kubewarden-manager]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/03-tracing.md
-  frontmatter:
-    sidebar_label: Tracing
-    title: Tracing
-    description: Tracing for Kubewarden.
-    keywords: [kubewarden, kubernetes, tracing]
-    doc-type: [explanation, tutorial]
-    doc-topic: [operator-manual, ui-extension, tracing]
-    doc-persona: [default]
 - path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/01-intro.md
   frontmatter:
     sidebar_label: "Operator Manual"

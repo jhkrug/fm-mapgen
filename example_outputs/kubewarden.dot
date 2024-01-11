@@ -70,9 +70,9 @@ digraph tree {
 	"metrics/" [label="metrics/", shape=circle]
 	"opentelemetry/" [label="opentelemetry/", shape=circle]
 	"tracing/" [label="tracing/", shape=circle]
+	"/operator-manual/ui-extension/03-tracing.md" [label="03-tracing.md", shape=circle]
 	"/operator-manual/ui-extension/01-install.md" [label="01-install.md", shape=circle]
 	"/operator-manual/ui-extension/02-metrics.md" [label="02-metrics.md", shape=circle]
-	"/operator-manual/ui-extension/03-tracing.md" [label="03-tracing.md", shape=circle]
 	"gatekeeper/" [label="gatekeeper/", shape=circle]
 	"open-policy-agent/" [label="open-policy-agent/", shape=circle]
 	"/writing-policies/rego/01-intro-rego.md" [label="01-intro-rego.md", shape=circle]
@@ -193,9 +193,9 @@ digraph tree {
 	"telemetry/" -> "metrics/"
 	"telemetry/" -> "opentelemetry/"
 	"telemetry/" -> "tracing/"
+	"ui-extension/" -> "/operator-manual/ui-extension/03-tracing.md"
 	"ui-extension/" -> "/operator-manual/ui-extension/01-install.md"
 	"ui-extension/" -> "/operator-manual/ui-extension/02-metrics.md"
-	"ui-extension/" -> "/operator-manual/ui-extension/03-tracing.md"
 	"rego/" -> "gatekeeper/"
 	"rego/" -> "open-policy-agent/"
 	"rego/" -> "/writing-policies/rego/01-intro-rego.md"

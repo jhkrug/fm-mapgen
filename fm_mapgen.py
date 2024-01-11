@@ -33,7 +33,7 @@ class KmNode(treelib.Node):
     """
 
     def __init__(self, path, full_path, ndd: dict = {},
-                 int_links=None, ext_links=None):
+                 int_links=None, ext_links=None, can_links=None):
         self.path = path
         self.full_path = full_path
 
@@ -45,6 +45,7 @@ class KmNode(treelib.Node):
 
         self.int_links = int_links
         self.ext_links = ext_links
+        self.can_links = can_links
 
     def __repr__(self):
         return f"{self.path}, {self.full_path}"
@@ -56,14 +57,15 @@ class KmNode(treelib.Node):
         print("=== Node data ===")
         print("path =", self.path)
         print("full_path =", self.full_path)
-        for k in valid_fm_tags.keys():
-            try:
-                print(k, "=", getattr(self, k))
-            except:
-                pass
         if node_is_leaf:
+            for k in valid_fm_tags.keys():
+                try:
+                    print(k, "=", getattr(self, k))
+                except:
+                    pass
             print("int_links =", self.int_links)
             print("ext_links =", self.ext_links)
+            print("can_links =", self.can_links)
         print()
 
 
@@ -138,20 +140,23 @@ def get_sort_val(node: treelib.Node):
 
 def print_km(km: treelib.Tree, sorted=False):
     print("knowledge_map, depth =", km.depth())
-    g = km.expand_tree(mode=2, key=get_sort_val, sorting=sorted)
+    # mode = 1, 2, 3 for DEPTH, WIDTH, ZIGZAG
+    g = km.expand_tree(mode=1, key=get_sort_val, sorting=sorted)
     for x in g:
-        print_node(km[x])
+        print_node(km[x], km.depth(x))
 
 
 def print_node(node, depth=0):
     print("=== Node ===")
+    print("identifier =", node.identifier)
     print("Predecessor =", list(node._predecessor.values()))
     print("Successors =", list(node._successors.values())[0])
     print("Depth =", depth)
     node.data.print(node.is_leaf())
 
 
-def build_node_data(id, fp, fm, doc_int_links, doc_ext_links):
+def build_node_data(id, fp, fm,
+                    doc_int_links, doc_ext_links, doc_can_links) -> KmNode:
     """Puts any frontmatter data for into node_data for the tree"""
     node_data_dict = {}
     for k, v in valid_fm_tags.items():
@@ -167,7 +172,11 @@ def build_node_data(id, fp, fm, doc_int_links, doc_ext_links):
         ext_links = doc_ext_links
     except:
         ext_links = None
-    node_data = KmNode(id, fp, node_data_dict, int_links, ext_links)
+    try:
+        can_links = doc_can_links
+    except:
+        can_links = None
+    node_data = KmNode(id, fp, node_data_dict, int_links, ext_links, can_links)
     return node_data
 
 
@@ -206,9 +215,10 @@ def build_km(front_matter):
 
             # Get the data to populate the leaf node.
             tag = branches[-1]
-            ext_links, int_links = extract_links(full_path, root_dir)
+            ext_links, int_links, can_links = extract_links(
+                full_path, root_dir)
             node_data = build_node_data(
-                identifier, full_path, fm, int_links, ext_links)
+                identifier, full_path, fm, int_links, ext_links, can_links)
             km.create_node(tag, identifier=identifier,
                            parent=parent, data=node_data)
     return km
@@ -237,7 +247,10 @@ def extract_links(filename, root_dir):
             external_links.append(l)
         else:
             internal_links.append(internal_link_resolve(l, filename, root_dir))
-    return external_links, internal_links
+    canonical_links = list(
+        set(re.findall(r'rel=[\'"]canonical[\'"] href=[\'"]?([^\'" >]+)', html)))
+    canonical_links = list(filter(lambda l: l[0] != "{", canonical_links))
+    return external_links, internal_links, canonical_links
 
 
 def process_args(a):

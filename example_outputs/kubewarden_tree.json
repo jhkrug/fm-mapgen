@@ -1,6 +1,6 @@
 {
   "py/object": "treelib.tree.Tree",
-  "_identifier": "95044b74-afde-11ee-ad4f-c85ea9b440c4",
+  "_identifier": "8f73a014-b066-11ee-b8e3-c85ea9b440c4",
   "_nodes": {
     "root": {
       "py/object": "treelib.node.Node",
@@ -8,11 +8,11 @@
       "_tag": "Frontmatter Map",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": null
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": null
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [
           "/"
         ],
         "default_factory": {
@@ -24,9 +24,10 @@
         "path": null,
         "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs",
         "int_links": null,
-        "ext_links": null
+        "ext_links": null,
+        "can_links": null
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/": {
       "py/object": "treelib.node.Node",
@@ -34,11 +35,11 @@
       "_tag": "/",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "root"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "root"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [
           "contribution-guide/",
           "distributing-policies/",
           "explanations/",
@@ -63,9 +64,10 @@
         "path": "/",
         "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs//",
         "int_links": null,
-        "ext_links": null
+        "ext_links": null,
+        "can_links": null
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "contribution-guide/": {
       "py/object": "treelib.node.Node",
@@ -73,11 +75,11 @@
       "_tag": "contribution-guide/",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [
           "/contribution-guide/contributing.md",
           "/contribution-guide/suggesting-an-improvement.md"
         ],
@@ -90,9 +92,10 @@
         "path": "contribution-guide/",
         "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/contribution-guide/",
         "int_links": null,
-        "ext_links": null
+        "ext_links": null,
+        "can_links": null
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/contribution-guide/contributing.md": {
       "py/object": "treelib.node.Node",
@@ -100,11 +103,11 @@
       "_tag": "contributing.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "contribution-guide/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "contribution-guide/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -113,38 +116,29 @@
         "py/object": "__main__.KmNode",
         "path": "/contribution-guide/contributing.md",
         "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/contribution-guide/contributing.md",
-        "title": "Contributing to Kubewarden documentation",
-        "description": "Contributing to kubewarden documentation.",
-        "keywords": [
-          "kubewarden",
-          "documentation",
-          "contributing"
-        ],
-        "doc_persona": [
-          "kubewarden-developer",
-          "kubewarden-operator",
-          "kubewarden-manager"
-        ],
-        "doc_type": [
-          "explanation"
-        ],
-        "doc_topic": [
-          "contribution-guide",
-          "docs-contribution"
-        ],
+        "title": null,
+        "description": null,
+        "keywords": null,
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
         "slug": null,
-        "sidebar_label": "Contributing to documentation",
-        "sidebar_position": 1,
+        "sidebar_label": null,
+        "sidebar_position": null,
         "int_links": [
+          "/contribution-guide/#",
           "/contribution-guide/suggesting-an-improvement"
         ],
         "ext_links": [
-          "https://github.com/kubewarden/docs",
+          "https://docusaurus.io/",
           "https://mdxjs.com/",
-          "https://docusaurus.io/"
-        ]
+          "https://git-scm.com/",
+          "https://lab.github.com/",
+          "https://github.com/kubewarden/docs"
+        ],
+        "can_links": []
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/contribution-guide/suggesting-an-improvement.md": {
       "py/object": "treelib.node.Node",
@@ -152,11 +146,11 @@
       "_tag": "suggesting-an-improvement.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "contribution-guide/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "contribution-guide/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -165,40 +159,26 @@
         "py/object": "__main__.KmNode",
         "path": "/contribution-guide/suggesting-an-improvement.md",
         "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/contribution-guide/suggesting-an-improvement.md",
-        "title": "Suggesting an improvement",
-        "description": "Suggesting an improvement.",
-        "keywords": [
-          "kubewarden",
-          "documentation",
-          "suggesting an improvement"
-        ],
-        "doc_persona": [
-          "kubewarden-developer",
-          "kubewarden-operator",
-          "kubewarden-manager"
-        ],
-        "doc_type": [
-          "explanation",
-          "tutorial"
-        ],
-        "doc_topic": [
-          "contribution-guide",
-          "docs-contribution",
-          "improvement"
-        ],
+        "title": null,
+        "description": null,
+        "keywords": null,
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
         "slug": null,
-        "sidebar_label": "Suggesting improvements",
-        "sidebar_position": 10,
+        "sidebar_label": null,
+        "sidebar_position": null,
         "int_links": [],
         "ext_links": [
           "https://github.com/kubewarden/docs/issues/new/choose",
-          "https://github.com/orgs/kubewarden/teams/kubewarden-documentation",
+          "https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/configuring-notifications",
           "https://github.com/join",
           "https://github.com/kubewarden/docs",
-          "https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/configuring-notifications"
-        ]
+          "https://github.com/orgs/kubewarden/teams/kubewarden-documentation"
+        ],
+        "can_links": []
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "distributing-policies/": {
       "py/object": "treelib.node.Node",
@@ -206,11 +186,11 @@
       "_tag": "distributing-policies/",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [
           "/distributing-policies/custom-certificate-authorities.md",
           "/distributing-policies/oci-registries-support.md",
           "/distributing-policies/publish-policy-to-artifact-hub.md",
@@ -225,9 +205,10 @@
         "path": "distributing-policies/",
         "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/distributing-policies/",
         "int_links": null,
-        "ext_links": null
+        "ext_links": null,
+        "can_links": null
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/distributing-policies/custom-certificate-authorities.md": {
       "py/object": "treelib.node.Node",
@@ -235,11 +216,11 @@
       "_tag": "custom-certificate-authorities.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "distributing-policies/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "distributing-policies/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -261,10 +242,14 @@
           "/distributing-policies/operator-manual/policy-servers/01-custom-cas.md"
         ],
         "ext_links": [
+          "https://docs.kubewarden.io/distributing-policies/custom-certificate-authorities",
           "https://github.com/kubewarden/kubewarden-controller"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/distributing-policies/custom-certificate-authorities"
         ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/distributing-policies/oci-registries-support.md": {
       "py/object": "treelib.node.Node",
@@ -272,11 +257,11 @@
       "_tag": "oci-registries-support.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "distributing-policies/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "distributing-policies/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -296,39 +281,43 @@
         "sidebar_position": null,
         "int_links": [],
         "ext_links": [
-          "https://bundle.bar/docs/#open-container-initiative-oci",
-          "https://access.redhat.com/products/red-hat-quay/",
           "https://learn.microsoft.com/en-us/azure/container-registry/container-registry-oci-artifacts",
-          "https://github.com/kubewarden/kwctl",
-          "https://github.com/containers/skopeo/pull/1705",
-          "https://github.com/google/go-containerregistry/blob/main/cmd/crane/README.md",
-          "https://hub.docker.com/",
-          "https://github.com/distribution/distribution/releases/tag/v2.7.0",
           "https://access.redhat.com/documentation/en-us/red_hat_quay/3/html/use_red_hat_quay/oci-intro#other-oci-artifacts-with-quay",
-          "https://cloud.google.com/anthos-config-management/docs/how-to/sync-oci-artifacts-from-artifact-registry",
-          "https://jfrog.com/help/r/jfrog-artifactory-documentation/docker-registry",
-          "https://github.com/distribution/distribution",
-          "https://github.com/container-registry/",
-          "https://github.com/kubewarden/kwctl/issues/59",
-          "https://cloud.google.com/artifact-registry",
-          "https://aws.amazon.com/ecr/",
-          "https://cloud.ibm.com/docs/Registry?topic=Registry-registry_helm_charts",
-          "https://github.com/containers/skopeo",
+          "https://docs.docker.com/docker-hub/oci-artifacts/",
+          "https://cloud.ibm.com/docs/Registry",
           "https://github.com/opencontainers/artifacts",
+          "https://hub.docker.com/",
+          "https://cloud.ibm.com/docs/Registry?topic=Registry-registry_helm_charts",
+          "https://github.com/google/go-containerregistry/blob/main/cmd/crane/README.md",
+          "https://github.com/containers/skopeo",
+          "https://aws.amazon.com/blogs/containers/oci-artifact-support-in-amazon-ecr/",
+          "https://github.com/container-registry/",
+          "https://jfrog.com/artifactory/",
+          "https://github.com/distribution/distribution",
+          "https://github.com/containers/skopeo/pull/1705",
+          "https://goharbor.io/",
+          "https://www.docker.com/blog/announcing-docker-hub-oci-artifacts-support/",
+          "https://cloud.google.com/artifact-registry",
+          "https://jfrog.com/help/r/jfrog-artifactory-documentation/docker-registry",
+          "https://cloud.google.com/anthos-config-management/docs/how-to/sync-oci-artifacts-from-artifact-registry",
+          "https://bundle.bar/docs/#open-container-initiative-oci",
+          "https://aws.amazon.com/ecr/",
+          "https://github.com/kubewarden/kwctl/issues/59",
+          "https://github.com/distribution/distribution/releases/tag/v2.7.0",
+          "https://access.redhat.com/products/red-hat-quay/",
           "https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry",
+          "https://quay.io",
+          "https://github.com/kubewarden/docs/edit/main/docs/distributing-policies/oci-registries-support.md",
           "https://azure.microsoft.com/en-us/products/container-registry/",
           "https://bundle.bar",
-          "https://docs.docker.com/docker-hub/oci-artifacts/",
-          "https://github.com/kubewarden/docs/edit/main/docs/distributing-policies/oci-registries-support.md",
-          "https://www.docker.com/blog/announcing-docker-hub-oci-artifacts-support/",
-          "https://quay.io",
-          "https://cloud.ibm.com/docs/Registry",
-          "https://jfrog.com/artifactory/",
-          "https://goharbor.io/",
-          "https://aws.amazon.com/blogs/containers/oci-artifact-support-in-amazon-ecr/"
+          "https://github.com/kubewarden/kwctl",
+          "https://docs.kubewarden.io/distributing-policies/oci-registries-support"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/distributing-policies/oci-registries-support"
         ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/distributing-policies/publish-policy-to-artifact-hub.md": {
       "py/object": "treelib.node.Node",
@@ -336,11 +325,11 @@
       "_tag": "publish-policy-to-artifact-hub.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "distributing-policies/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "distributing-policies/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -362,17 +351,21 @@
           "/distributing-policies"
         ],
         "ext_links": [
+          "https://github.com/kubewarden/github-actions",
           "https://github.com/artifacthub/hub/blob/master/docs/metadata/artifacthub-pkg.yml",
+          "https://docs.kubewarden.io/distributing-policies/publish-policy-to-artifact-hub",
+          "https://github.com/artifacthub/hub/blob/master/docs/metadata/artifacthub-repo.yml",
+          "https://artifacthub.io/docs/topics/repositories/#verified-publisher",
+          "https://artifacthub.io/",
           "https://artifacthub.io/docs/topics/repositories/#kubewarden-policies-repositories",
           "https://cncf.io",
-          "https://artifacthub.io/control-panel/repositories?page=1",
-          "https://github.com/kubewarden/github-actions",
-          "https://github.com/artifacthub/hub/blob/master/docs/metadata/artifacthub-repo.yml",
-          "https://artifacthub.io/",
-          "https://artifacthub.io/docs/topics/repositories/#verified-publisher"
+          "https://artifacthub.io/control-panel/repositories?page=1"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/distributing-policies/publish-policy-to-artifact-hub"
         ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/distributing-policies/secure-supply-chain.md": {
       "py/object": "treelib.node.Node",
@@ -380,11 +373,11 @@
       "_tag": "secure-supply-chain.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "distributing-policies/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "distributing-policies/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -411,17 +404,21 @@
           "/distributing-policies/#signature-config-reference"
         ],
         "ext_links": [
-          "https://github.com/kubewarden/kwctl",
-          "https://docs.sigstore.dev/",
-          "https://github.com/SigStore/fulcio",
+          "https://docs.sigstore.dev/cosign/installation/#github-action",
+          "https://docs.kubewarden.io/distributing-policies/secure-supply-chain",
           "https://github.com/sigstore/rekor",
           "https://github.com/sigstore/cosign",
-          "https://docs.sigstore.dev/cosign/installation/",
-          "https://docs.sigstore.dev/cosign/installation/#github-action",
-          "https://sigstore.dev/"
+          "https://github.com/SigStore/fulcio",
+          "https://github.com/kubewarden/kwctl",
+          "https://docs.sigstore.dev/",
+          "https://sigstore.dev/",
+          "https://docs.sigstore.dev/cosign/installation/"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/distributing-policies/secure-supply-chain"
         ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "explanations/": {
       "py/object": "treelib.node.Node",
@@ -429,11 +426,11 @@
       "_tag": "explanations/",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [
           "audit-scanner/",
           "/explanations/context-aware-policies.md",
           "/explanations/opa-comparison.md"
@@ -447,9 +444,10 @@
         "path": "explanations/",
         "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/explanations/",
         "int_links": null,
-        "ext_links": null
+        "ext_links": null,
+        "can_links": null
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "audit-scanner/": {
       "py/object": "treelib.node.Node",
@@ -457,11 +455,11 @@
       "_tag": "audit-scanner/",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "explanations/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "explanations/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [
           "/explanations/audit-scanner/audit-scanner.md",
           "/explanations/audit-scanner/limitations.md",
           "/explanations/audit-scanner/policy-reports.md"
@@ -475,9 +473,10 @@
         "path": "audit-scanner/",
         "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/audit-scanner/",
         "int_links": null,
-        "ext_links": null
+        "ext_links": null,
+        "can_links": null
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/explanations/audit-scanner/audit-scanner.md": {
       "py/object": "treelib.node.Node",
@@ -485,11 +484,11 @@
       "_tag": "audit-scanner.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "audit-scanner/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "audit-scanner/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -512,15 +511,19 @@
         "sidebar_label": "What is the Audit Scanner?",
         "sidebar_position": null,
         "int_links": [
-          "/writing-policies/index.md",
           "/explanations/audit-scanner/policy-reports.md",
+          "/writing-policies/index.md",
           "/explanations/howtos/audit-scanner"
         ],
         "ext_links": [
+          "https://docs.kubewarden.io/explanations/audit-scanner/audit-scanner",
           "https://kubernetes.io/docs/reference/access-authn-authz/rbac/#user-facing-roles"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/explanations/audit-scanner/audit-scanner"
         ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/explanations/audit-scanner/limitations.md": {
       "py/object": "treelib.node.Node",
@@ -528,11 +531,11 @@
       "_tag": "limitations.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "audit-scanner/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "audit-scanner/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -555,9 +558,14 @@
         "sidebar_label": "Limitations",
         "sidebar_position": null,
         "int_links": [],
-        "ext_links": []
+        "ext_links": [
+          "https://docs.kubewarden.io/explanations/audit-scanner/limitations"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/explanations/audit-scanner/limitations"
+        ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/explanations/audit-scanner/policy-reports.md": {
       "py/object": "treelib.node.Node",
@@ -565,11 +573,11 @@
       "_tag": "policy-reports.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "audit-scanner/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "audit-scanner/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -595,12 +603,16 @@
           "/howtos/audit-scanner"
         ],
         "ext_links": [
-          "https://kyverno.github.io/policy-reporter",
+          "https://github.com/kubernetes-sigs/wg-policy-prototypes",
           "https://htmlpreview.github.io/?https://github.com/kubernetes-sigs/wg-policy-prototypes/blob/045372e558b896695b2daae92e8c7a04d4d40282/policy-report/docs/index.html",
-          "https://github.com/kubernetes-sigs/wg-policy-prototypes"
+          "https://docs.kubewarden.io/explanations/audit-scanner/policy-reports",
+          "https://kyverno.github.io/policy-reporter"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/explanations/audit-scanner/policy-reports"
         ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/explanations/context-aware-policies.md": {
       "py/object": "treelib.node.Node",
@@ -608,11 +620,11 @@
       "_tag": "context-aware-policies.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "explanations/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "explanations/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -641,10 +653,14 @@
           "/writing-policies/spec/05-context-aware-policies.md"
         ],
         "ext_links": [
+          "https://docs.kubewarden.io/explanations/context-aware-policies",
           "https://kubernetes.io/docs/concepts/security/service-accounts/"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/explanations/context-aware-policies"
         ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/explanations/opa-comparison.md": {
       "py/object": "treelib.node.Node",
@@ -652,11 +668,11 @@
       "_tag": "opa-comparison.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "explanations/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "explanations/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -675,32 +691,36 @@
         "sidebar_label": "Kubewarden vs OPA Gatekeeper",
         "sidebar_position": null,
         "int_links": [
-          "/explanations/#cicd-integration",
-          "/explanations/#context-aware",
-          "/explanations/#background-checks",
+          "/explanations/#policy-distribution",
           "/explanations/#writing-policies",
+          "/explanations/#context-aware",
+          "/explanations/#cicd-integration",
           "/explanations/#deployment-mode",
-          "/explanations/#kubernetes-integration",
-          "/explanations/#policy-distribution"
+          "/explanations/#background-checks",
+          "/explanations/#kubernetes-integration"
         ],
         "ext_links": [
-          "https://open-policy-agent.github.io/gatekeeper/website/docs/mutation",
-          "https://github.com/kubernetes-sigs/wg-policy-prototypes/tree/master/policy-report",
+          "https://docs.kubewarden.io/writing-policies/rego/intro-rego",
+          "https://docs.kubewarden.io/explanations/opa-comparison",
+          "https://www.updatecli.io/",
           "https://www.openpolicyagent.org/docs/latest/#rego",
-          "https://docs.github.com/en/code-security/dependabot/working-with-dependabot",
-          "https://github.com/kubewarden/kwctl",
-          "https://www.mend.io/renovate/",
+          "https://github.com/kubernetes-sigs/wg-policy-prototypes/tree/master/policy-report",
+          "https://open-policy-agent.github.io/gatekeeper/website/docs/mutation",
           "https://en.wikipedia.org/wiki/Domain-specific_language",
           "https://open-policy-agent.github.io/gatekeeper/website/docs/audit#constraint-status",
-          "https://sigstore.dev",
-          "https://docs.kubewarden.io/writing-policies/rego/intro-rego",
-          "https://www.updatecli.io/",
+          "https://github.com/kubewarden/docs/",
           "https://www.openpolicyagent.org/docs/latest/policy-testing/",
           "https://github.com/open-policy-agent/kube-mgmt",
-          "https://github.com/kubewarden/docs/"
+          "https://www.mend.io/renovate/",
+          "https://docs.github.com/en/code-security/dependabot/working-with-dependabot",
+          "https://sigstore.dev",
+          "https://github.com/kubewarden/kwctl"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/explanations/opa-comparison"
         ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "howtos/": {
       "py/object": "treelib.node.Node",
@@ -708,11 +728,11 @@
       "_tag": "howtos/",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [
           "/howtos/audit-scanner.md",
           "/howtos/raw-policies.md"
         ],
@@ -725,9 +745,10 @@
         "path": "howtos/",
         "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/howtos/",
         "int_links": null,
-        "ext_links": null
+        "ext_links": null,
+        "can_links": null
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/howtos/audit-scanner.md": {
       "py/object": "treelib.node.Node",
@@ -735,11 +756,11 @@
       "_tag": "audit-scanner.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "howtos/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "howtos/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -758,18 +779,22 @@
         "sidebar_label": "Audit Scanner Installation",
         "sidebar_position": null,
         "int_links": [
-          "/explanations/audit-scanner",
-          "/quick-start.md"
+          "/quick-start.md",
+          "/explanations/audit-scanner"
         ],
         "ext_links": [
-          "https://kyverno.github.io/policy-reporter",
           "https://github.com/kubernetes-sigs/wg-policy-prototypes",
+          "https://docs.kubewarden.io/howtos/audit-scanner",
+          "https://kyverno.github.io/policy-reporter",
           "https://github.com/kubewarden/helm-charts/blob/main/charts/kubewarden-controller/values.yaml",
           "https://kubernetes.io/docs/concepts/workloads/controllers/cron-jobs",
           "https://github.com/kyverno/policy-reporter/blob/policy-reporter-2.19.4/charts/policy-reporter/charts/ui/values.yaml#L172-L189"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/howtos/audit-scanner"
         ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/howtos/raw-policies.md": {
       "py/object": "treelib.node.Node",
@@ -777,11 +802,11 @@
       "_tag": "raw-policies.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "howtos/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "howtos/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -800,18 +825,22 @@
         "sidebar_label": "Raw policies",
         "sidebar_position": null,
         "int_links": [
-          "/writing-policies/go/raw-policies.md",
+          "/writing-policies/wasi/02-raw-policies.md",
           "/writing-policies/rego/open-policy-agent/05-raw-policies.md",
           "/writing-policies/rust/08-raw-policies.md",
-          "/writing-policies/wasi/02-raw-policies.md",
+          "/writing-policies/go/raw-policies.md",
           "/explanations/context-aware-policies.md"
         ],
         "ext_links": [
-          "https://github.com/kubewarden/raw-validation-policy",
-          "https://github.com/kubewarden/raw-mutation-policy"
+          "https://docs.kubewarden.io/howtos/raw-policies",
+          "https://github.com/kubewarden/raw-mutation-policy",
+          "https://github.com/kubewarden/raw-validation-policy"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/howtos/raw-policies"
         ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "operator-manual/": {
       "py/object": "treelib.node.Node",
@@ -819,11 +848,11 @@
       "_tag": "operator-manual/",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [
           "airgap/",
           "policy-servers/",
           "telemetry/",
@@ -847,9 +876,10 @@
         "path": "operator-manual/",
         "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/",
         "int_links": null,
-        "ext_links": null
+        "ext_links": null,
+        "can_links": null
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "airgap/": {
       "py/object": "treelib.node.Node",
@@ -857,11 +887,11 @@
       "_tag": "airgap/",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "operator-manual/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "operator-manual/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [
           "/operator-manual/airgap/01-requirements.md",
           "/operator-manual/airgap/02-install.md"
         ],
@@ -874,9 +904,10 @@
         "path": "airgap/",
         "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/airgap/",
         "int_links": null,
-        "ext_links": null
+        "ext_links": null,
+        "can_links": null
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/operator-manual/airgap/01-requirements.md": {
       "py/object": "treelib.node.Node",
@@ -884,11 +915,11 @@
       "_tag": "01-requirements.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "airgap/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "airgap/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -910,10 +941,14 @@
           "/distributing-policies/oci-registries-support"
         ],
         "ext_links": [
-          "https://github.com/kubewarden/kwctl"
+          "https://github.com/kubewarden/kwctl",
+          "https://docs.kubewarden.io/operator-manual/airgap/requirements"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/operator-manual/airgap/requirements"
         ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/operator-manual/airgap/02-install.md": {
       "py/object": "treelib.node.Node",
@@ -921,11 +956,11 @@
       "_tag": "02-install.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "airgap/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "airgap/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -944,19 +979,23 @@
         "sidebar_label": "Installation",
         "sidebar_position": null,
         "int_links": [
-          "/operator-manual/policy-servers/private-registry",
-          "/security/verifying-kubewarden#container-images",
           "/distributing-policies/custom-certificate-authorities.md",
-          "/security/verifying-kubewarden#helm-charts"
+          "/security/verifying-kubewarden#helm-charts",
+          "/operator-manual/policy-servers/private-registry",
+          "/security/verifying-kubewarden#container-images"
         ],
         "ext_links": [
+          "https://github.com/kubewarden/utils",
           "https://github.com/kyverno/policy-reporter/tree/policy-reporter-2.19.4/charts/policy-reporter",
-          "https://github.com/kubewarden/kwctl/tree/main/scripts",
+          "https://docs.kubewarden.io/operator-manual/airgap/install",
           "https://github.com/kubewarden/helm-charts/releases/",
-          "https://github.com/kubewarden/utils"
+          "https://github.com/kubewarden/kwctl/tree/main/scripts"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/operator-manual/airgap/install"
         ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "policy-servers/": {
       "py/object": "treelib.node.Node",
@@ -964,11 +1003,11 @@
       "_tag": "policy-servers/",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "operator-manual/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "operator-manual/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [
           "/operator-manual/policy-servers/01-custom-cas.md",
           "/operator-manual/policy-servers/02-private-registry.md"
         ],
@@ -981,9 +1020,10 @@
         "path": "policy-servers/",
         "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/policy-servers/",
         "int_links": null,
-        "ext_links": null
+        "ext_links": null,
+        "can_links": null
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/operator-manual/policy-servers/01-custom-cas.md": {
       "py/object": "treelib.node.Node",
@@ -991,11 +1031,11 @@
       "_tag": "01-custom-cas.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "policy-servers/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "policy-servers/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -1017,9 +1057,14 @@
           "/distributing-policies/custom-certificate-authorities.md",
           "/operator-manual/policy-servers/distributing-policies/custom-certificate-authorities.md"
         ],
-        "ext_links": []
+        "ext_links": [
+          "https://docs.kubewarden.io/operator-manual/policy-servers/custom-cas"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/operator-manual/policy-servers/custom-cas"
+        ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/operator-manual/policy-servers/02-private-registry.md": {
       "py/object": "treelib.node.Node",
@@ -1027,11 +1072,11 @@
       "_tag": "02-private-registry.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "policy-servers/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "policy-servers/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -1051,10 +1096,14 @@
         "sidebar_position": null,
         "int_links": [],
         "ext_links": [
-          "https://kubernetes.io/docs/concepts/configuration/secret/#docker-config-secrets"
+          "https://kubernetes.io/docs/concepts/configuration/secret/#docker-config-secrets",
+          "https://docs.kubewarden.io/operator-manual/policy-servers/private-registry"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/operator-manual/policy-servers/private-registry"
         ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "telemetry/": {
       "py/object": "treelib.node.Node",
@@ -1062,11 +1111,11 @@
       "_tag": "telemetry/",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "operator-manual/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "operator-manual/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [
           "metrics/",
           "opentelemetry/",
           "tracing/"
@@ -1080,9 +1129,10 @@
         "path": "telemetry/",
         "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/telemetry/",
         "int_links": null,
-        "ext_links": null
+        "ext_links": null,
+        "can_links": null
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "metrics/": {
       "py/object": "treelib.node.Node",
@@ -1090,11 +1140,11 @@
       "_tag": "metrics/",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "telemetry/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "telemetry/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [
           "/operator-manual/telemetry/metrics/01-quickstart.md",
           "/operator-manual/telemetry/metrics/02-reference.md"
         ],
@@ -1107,9 +1157,10 @@
         "path": "metrics/",
         "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/metrics/",
         "int_links": null,
-        "ext_links": null
+        "ext_links": null,
+        "can_links": null
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/operator-manual/telemetry/metrics/01-quickstart.md": {
       "py/object": "treelib.node.Node",
@@ -1117,11 +1168,11 @@
       "_tag": "01-quickstart.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "metrics/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "metrics/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -1143,15 +1194,19 @@
           "/operator-manual/telemetry/opentelemetry/01-quickstart.md#install-opentelemetry"
         ],
         "ext_links": [
-          "https://github.com/kubewarden/policy-server/releases/latest/download/kubewarden-dashboard.json",
           "https://prometheus.io/",
-          "https://github.com/prometheus-operator/prometheus-operator/blob/master/Documentation/design.md#servicemonitor",
-          "https://grafana.com/grafana/dashboards/15314",
+          "https://grafana.com/docs/grafana/latest/dashboards/export-import/#import-dashboard",
           "https://github.com/prometheus-operator/prometheus-operator",
-          "https://grafana.com/docs/grafana/latest/dashboards/export-import/#import-dashboard"
+          "https://grafana.com/grafana/dashboards/15314",
+          "https://docs.kubewarden.io/operator-manual/telemetry/metrics/quickstart",
+          "https://github.com/kubewarden/policy-server/releases/latest/download/kubewarden-dashboard.json",
+          "https://github.com/prometheus-operator/prometheus-operator/blob/master/Documentation/design.md#servicemonitor"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/operator-manual/telemetry/metrics/quickstart"
         ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/operator-manual/telemetry/metrics/02-reference.md": {
       "py/object": "treelib.node.Node",
@@ -1159,11 +1214,11 @@
       "_tag": "02-reference.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "metrics/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "metrics/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -1184,9 +1239,14 @@
         "int_links": [
           "/operator-manual/telemetry/metrics/#kubewarden_policy_evaluations_total"
         ],
-        "ext_links": []
+        "ext_links": [
+          "https://docs.kubewarden.io/operator-manual/telemetry/metrics/reference"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/operator-manual/telemetry/metrics/reference"
+        ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "opentelemetry/": {
       "py/object": "treelib.node.Node",
@@ -1194,11 +1254,11 @@
       "_tag": "opentelemetry/",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "telemetry/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "telemetry/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [
           "/operator-manual/telemetry/opentelemetry/01-quickstart.md"
         ],
         "default_factory": {
@@ -1210,9 +1270,10 @@
         "path": "opentelemetry/",
         "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/opentelemetry/",
         "int_links": null,
-        "ext_links": null
+        "ext_links": null,
+        "can_links": null
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/operator-manual/telemetry/opentelemetry/01-quickstart.md": {
       "py/object": "treelib.node.Node",
@@ -1220,11 +1281,11 @@
       "_tag": "01-quickstart.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "opentelemetry/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "opentelemetry/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -1245,15 +1306,19 @@
         "int_links": [],
         "ext_links": [
           "https://github.com/open-telemetry/opentelemetry-operator",
-          "https://minikube.sigs.k8s.io/docs/",
-          "https://minikube.sigs.k8s.io/docs/drivers/kvm2/",
-          "https://opentelemetry.io/docs/",
+          "https://cert-manager.io/docs/installation/",
           "https://github.com/open-telemetry/opentelemetry-operator#opentelemetry-operator-vs-kubernetes-vs-cert-manager",
           "https://opentelemetry.io/",
-          "https://cert-manager.io/docs/installation/"
+          "https://minikube.sigs.k8s.io/docs/drivers/kvm2/",
+          "https://docs.kubewarden.io/operator-manual/telemetry/opentelemetry/quickstart",
+          "https://opentelemetry.io/docs/",
+          "https://minikube.sigs.k8s.io/docs/"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/operator-manual/telemetry/opentelemetry/quickstart"
         ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "tracing/": {
       "py/object": "treelib.node.Node",
@@ -1261,11 +1326,11 @@
       "_tag": "tracing/",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "telemetry/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "telemetry/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [
           "/operator-manual/telemetry/tracing/01-quickstart.md"
         ],
         "default_factory": {
@@ -1277,9 +1342,10 @@
         "path": "tracing/",
         "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/tracing/",
         "int_links": null,
-        "ext_links": null
+        "ext_links": null,
+        "can_links": null
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/operator-manual/telemetry/tracing/01-quickstart.md": {
       "py/object": "treelib.node.Node",
@@ -1287,11 +1353,11 @@
       "_tag": "01-quickstart.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "tracing/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "tracing/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -1314,13 +1380,17 @@
         ],
         "ext_links": [
           "https://github.com/jaegertracing/helm-charts/blob/main/charts/jaeger-operator/COMPATIBILITY.md",
-          "https://github.com/kubewarden/safe-labels-policy",
-          "https://www.jaegertracing.io/",
           "https://www.jaegertracing.io/docs/latest/operator/",
-          "https://github.com/jaegertracing/jaeger-operator"
+          "https://github.com/kubewarden/safe-labels-policy",
+          "https://github.com/jaegertracing/jaeger-operator",
+          "https://docs.kubewarden.io/operator-manual/telemetry/tracing/quickstart",
+          "https://www.jaegertracing.io/"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/operator-manual/telemetry/tracing/quickstart"
         ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "ui-extension/": {
       "py/object": "treelib.node.Node",
@@ -1328,14 +1398,14 @@
       "_tag": "ui-extension/",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "operator-manual/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "operator-manual/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [
+          "/operator-manual/ui-extension/03-tracing.md",
           "/operator-manual/ui-extension/01-install.md",
-          "/operator-manual/ui-extension/02-metrics.md",
-          "/operator-manual/ui-extension/03-tracing.md"
+          "/operator-manual/ui-extension/02-metrics.md"
         ],
         "default_factory": {
           "py/type": "builtins.list"
@@ -1346,9 +1416,50 @@
         "path": "ui-extension/",
         "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/ui-extension/",
         "int_links": null,
-        "ext_links": null
+        "ext_links": null,
+        "can_links": null
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
+    },
+    "/operator-manual/ui-extension/03-tracing.md": {
+      "py/object": "treelib.node.Node",
+      "_identifier": "/operator-manual/ui-extension/03-tracing.md",
+      "_tag": "03-tracing.md",
+      "expanded": true,
+      "_predecessor": {
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "ui-extension/"
+      },
+      "_successors": {
+        "py/object": "collections.defaultdict",
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
+        "default_factory": {
+          "py/type": "builtins.list"
+        }
+      },
+      "data": {
+        "py/object": "__main__.KmNode",
+        "path": "/operator-manual/ui-extension/03-tracing.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/03-tracing.md",
+        "title": null,
+        "description": null,
+        "keywords": null,
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": null,
+        "sidebar_position": null,
+        "int_links": [
+          "/operator-manual/telemetry/tracing/01-quickstart.md#install-jaeger",
+          "/operator-manual/telemetry/opentelemetry/01-quickstart.md#install-opentelemetry"
+        ],
+        "ext_links": [
+          "https://www.jaegertracing.io/docs/latest/operator/",
+          "https://www.jaegertracing.io/"
+        ],
+        "can_links": []
+      },
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/operator-manual/ui-extension/01-install.md": {
       "py/object": "treelib.node.Node",
@@ -1356,11 +1467,11 @@
       "_tag": "01-install.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "ui-extension/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "ui-extension/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -1379,19 +1490,23 @@
         "sidebar_label": "Quickstart",
         "sidebar_position": null,
         "int_links": [
+          "/operator-manual/ui-extension/02-metrics.md",
           "/operator-manual/ui-extension/03-tracing.md",
-          "/operator-manual/ui-extension/#airgap-installation",
-          "/operator-manual/ui-extension/02-metrics.md"
+          "/operator-manual/ui-extension/#airgap-installation"
         ],
         "ext_links": [
-          "https://artifacthub.io/packages/search?kind=13",
-          "https://github.com/rancher/rancher",
+          "https://docs.kubewarden.io/operator-manual/ui-extension/install",
+          "https://github.com/kubewarden/helm-charts/tree/main/charts/kubewarden-defaults",
           "https://ranchermanager.docs.rancher.com/getting-started/installation-and-upgrade/other-installation-methods/air-gapped-helm-cli-install/publish-images#1-find-the-required-assets-for-your-rancher-version",
+          "https://github.com/rancher/rancher",
           "https://ranchermanager.docs.rancher.com/how-to-guides/new-user-guides/kubernetes-resources-setup/secrets",
-          "https://github.com/kubewarden/helm-charts/tree/main/charts/kubewarden-defaults"
+          "https://artifacthub.io/packages/search?kind=13"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/operator-manual/ui-extension/install"
         ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/operator-manual/ui-extension/02-metrics.md": {
       "py/object": "treelib.node.Node",
@@ -1399,11 +1514,11 @@
       "_tag": "02-metrics.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "ui-extension/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "ui-extension/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -1412,89 +1527,27 @@
         "py/object": "__main__.KmNode",
         "path": "/operator-manual/ui-extension/02-metrics.md",
         "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/02-metrics.md",
-        "title": "Monitoring",
-        "description": "Monitoring and metrics for Kubewarden.",
-        "keywords": [
-          "kubewarden",
-          "kubernetes",
-          "user interface extension",
-          "metrics",
-          "monitoring"
-        ],
-        "doc_persona": [
-          "kubewarden-operator",
-          "kubewarden-manager"
-        ],
-        "doc_type": [
-          "tutorial",
-          "reference"
-        ],
-        "doc_topic": [
-          "operator-manual",
-          "metrics-and-monitoring"
-        ],
+        "title": null,
+        "description": null,
+        "keywords": null,
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
         "slug": null,
-        "sidebar_label": "Monitoring",
+        "sidebar_label": null,
         "sidebar_position": null,
         "int_links": [
           "/operator-manual/telemetry/metrics/01-quickstart.md#install-prometheus",
           "/operator-manual/telemetry/metrics/01-quickstart.md"
         ],
-        "ext_links": []
-      },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
-    },
-    "/operator-manual/ui-extension/03-tracing.md": {
-      "py/object": "treelib.node.Node",
-      "_identifier": "/operator-manual/ui-extension/03-tracing.md",
-      "_tag": "03-tracing.md",
-      "expanded": true,
-      "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "ui-extension/"
-      },
-      "_successors": {
-        "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
-        "default_factory": {
-          "py/type": "builtins.list"
-        }
-      },
-      "data": {
-        "py/object": "__main__.KmNode",
-        "path": "/operator-manual/ui-extension/03-tracing.md",
-        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/03-tracing.md",
-        "title": "Tracing",
-        "description": "Tracing for Kubewarden.",
-        "keywords": [
-          "kubewarden",
-          "kubernetes",
-          "tracing"
-        ],
-        "doc_persona": [
-          "default"
-        ],
-        "doc_type": [
-          "explanation",
-          "tutorial"
-        ],
-        "doc_topic": [
-          "operator-manual",
-          "ui-extension",
-          "tracing"
-        ],
-        "slug": null,
-        "sidebar_label": "Tracing",
-        "sidebar_position": null,
-        "int_links": [
-          "/operator-manual/telemetry/opentelemetry/01-quickstart.md#install-opentelemetry",
-          "/operator-manual/telemetry/tracing/01-quickstart.md#install-jaeger"
-        ],
         "ext_links": [
-          "https://www.jaegertracing.io/",
-          "https://www.jaegertracing.io/docs/latest/operator/"
+          "https://docs.kubewarden.io/operator-manual/ui-extension/metrics"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/operator-manual/ui-extension/metrics"
         ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/operator-manual/01-intro.md": {
       "py/object": "treelib.node.Node",
@@ -1502,11 +1555,11 @@
       "_tag": "01-intro.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "operator-manual/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "operator-manual/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -1525,9 +1578,14 @@
         "sidebar_label": "Operator Manual",
         "sidebar_position": null,
         "int_links": [],
-        "ext_links": []
+        "ext_links": [
+          "https://docs.kubewarden.io/operator-manual/intro"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/operator-manual/intro"
+        ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/operator-manual/CRDs.md": {
       "py/object": "treelib.node.Node",
@@ -1535,11 +1593,11 @@
       "_tag": "CRDs.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "operator-manual/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "operator-manual/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -1558,39 +1616,43 @@
         "sidebar_label": "Custom Resources Definitions (CRDs)",
         "sidebar_position": null,
         "int_links": [
-          "/operator-manual/#admissionpolicy",
-          "/operator-manual/#admissionpolicylist",
+          "/operator-manual/#policieskubewardeniov1alpha2",
+          "/operator-manual/#policyserverlist",
+          "/operator-manual/#policystatus",
+          "/operator-manual/#policieskubewardeniov1",
+          "/operator-manual/#policyserver",
           "/operator-manual/#policyserverspec",
           "/operator-manual/#clusteradmissionpolicy",
-          "/operator-manual/#admissionpolicyspec",
-          "/operator-manual/#policieskubewardeniov1",
-          "/operator-manual/#policyserverlist",
           "/operator-manual/#policyserversecurity",
-          "/operator-manual/#policystatus",
-          "/operator-manual/#clusteradmissionpolicyspec",
-          "/operator-manual/#contextawareresource",
-          "/operator-manual/#policyserver",
-          "/operator-manual/#policieskubewardeniov1alpha2",
-          "/operator-manual/#rawextension",
-          "/operator-manual/#policymode",
+          "/operator-manual/#admissionpolicylist",
           "/operator-manual/#clusteradmissionpolicylist",
-          "/operator-manual/#policyspec"
+          "/operator-manual/#contextawareresource",
+          "/operator-manual/#admissionpolicyspec",
+          "/operator-manual/#admissionpolicy",
+          "/operator-manual/#rawextension",
+          "/operator-manual/#policyspec",
+          "/operator-manual/#clusteradmissionpolicyspec",
+          "/operator-manual/#policymode"
         ],
         "ext_links": [
-          "https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.25/#labelselector-v1-meta",
-          "https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.25/#failurepolicytype-v1-admissionregistration",
-          "https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.25/#securitycontext-v1-core",
-          "https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.25/#rulewithoperations-v1-admissionregistration",
-          "https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.25/#matchpolicytype-v1-admissionregistration",
-          "https://doc.crds.dev/github.com/kubewarden/kubewarden-controller",
           "https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.25/#envvar-v1-core",
-          "https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.25/#podsecuritycontext-v1-core",
-          "https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.25/#objectmeta-v1-meta",
+          "https://doc.crds.dev/github.com/kubewarden/kubewarden-controller",
+          "https://docs.kubewarden.io/operator-manual/CRDs",
+          "https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.25/#rulewithoperations-v1-admissionregistration",
+          "https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.25/#securitycontext-v1-core",
+          "https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.25/#labelselector-v1-meta",
           "https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.25/#sideeffectclass-v1-admissionregistration",
-          "https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.25/#listmeta-v1-meta"
+          "https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.25/#matchpolicytype-v1-admissionregistration",
+          "https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.25/#failurepolicytype-v1-admissionregistration",
+          "https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.25/#podsecuritycontext-v1-core",
+          "https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.25/#listmeta-v1-meta",
+          "https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.25/#objectmeta-v1-meta"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/operator-manual/CRDs"
         ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/operator-manual/Rancher-Fleet.md": {
       "py/object": "treelib.node.Node",
@@ -1598,11 +1660,11 @@
       "_tag": "Rancher-Fleet.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "operator-manual/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "operator-manual/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -1626,14 +1688,18 @@
         "sidebar_position": null,
         "int_links": [],
         "ext_links": [
-          "https://fleet.rancher.io/ref-fleet-yaml",
-          "https://docs.kubewarden.io/quick-start",
           "https://fleet.rancher.io/",
           "https://github.com/kubewarden/fleet-example",
-          "https://fleet.rancher.io/concepts"
+          "https://fleet.rancher.io/concepts",
+          "https://docs.kubewarden.io/quick-start",
+          "https://fleet.rancher.io/ref-fleet-yaml",
+          "https://docs.kubewarden.io/operator-manual/Rancher-Fleet"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/operator-manual/Rancher-Fleet"
         ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/operator-manual/dependency-matrix.md": {
       "py/object": "treelib.node.Node",
@@ -1641,11 +1707,11 @@
       "_tag": "dependency-matrix.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "operator-manual/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "operator-manual/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -1671,10 +1737,14 @@
         "sidebar_position": null,
         "int_links": [],
         "ext_links": [
-          "https://opentelemetry.io"
+          "https://opentelemetry.io",
+          "https://docs.kubewarden.io/operator-manual/dependency-matrix"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/operator-manual/dependency-matrix"
         ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/operator-manual/monitor-mode.md": {
       "py/object": "treelib.node.Node",
@@ -1682,11 +1752,11 @@
       "_tag": "monitor-mode.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "operator-manual/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "operator-manual/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -1711,9 +1781,14 @@
         "int_links": [
           "/operator-manual/CRDs#admissionpolicyspec"
         ],
-        "ext_links": []
+        "ext_links": [
+          "https://docs.kubewarden.io/operator-manual/monitor-mode"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/operator-manual/monitor-mode"
+        ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/operator-manual/policies.md": {
       "py/object": "treelib.node.Node",
@@ -1721,11 +1796,11 @@
       "_tag": "policies.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "operator-manual/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "operator-manual/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -1752,9 +1827,14 @@
         "int_links": [
           "/operator-manual/CRDs#clusteradmissionpolicy"
         ],
-        "ext_links": []
+        "ext_links": [
+          "https://docs.kubewarden.io/operator-manual/policies"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/operator-manual/policies"
+        ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/operator-manual/policy-evaluation-timeout.md": {
       "py/object": "treelib.node.Node",
@@ -1762,11 +1842,11 @@
       "_tag": "policy-evaluation-timeout.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "operator-manual/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "operator-manual/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -1791,16 +1871,20 @@
           "/writing-policies/go/intro-go.md"
         ],
         "ext_links": [
-          "https://kubernetes.io/docs/reference/access-authn-authz/extensible-admission-controllers/#timeouts",
-          "https://en.wikipedia.org/wiki/Turing_completeness",
+          "https://docs.kubewarden.io/operator-manual/policy-evaluation-timeout",
           "https://en.wikipedia.org/wiki/Deadlock",
           "https://en.wikipedia.org/wiki/Webhook",
           "https://kubernetes.io/docs/reference/access-authn-authz/extensible-admission-controllers/",
+          "https://doc.crds.dev/github.com/kubewarden/kubewarden-controller/policies.kubewarden.io/PolicyServer/v1@v1.4.2",
+          "https://kubernetes.io/docs/reference/access-authn-authz/extensible-admission-controllers/#timeouts",
           "https://en.wikipedia.org/wiki/Infinite_loop",
-          "https://doc.crds.dev/github.com/kubewarden/kubewarden-controller/policies.kubewarden.io/PolicyServer/v1@v1.4.2"
+          "https://en.wikipedia.org/wiki/Turing_completeness"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/operator-manual/policy-evaluation-timeout"
         ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/operator-manual/upgrade-path.md": {
       "py/object": "treelib.node.Node",
@@ -1808,11 +1892,11 @@
       "_tag": "upgrade-path.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "operator-manual/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "operator-manual/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -1835,10 +1919,14 @@
         "sidebar_position": null,
         "int_links": [],
         "ext_links": [
+          "https://docs.kubewarden.io/operator-manual/upgrade-path",
           "https://semver.org/"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/operator-manual/upgrade-path"
         ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/operator-manual/verification-config.md": {
       "py/object": "treelib.node.Node",
@@ -1846,11 +1934,11 @@
       "_tag": "verification-config.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "operator-manual/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "operator-manual/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -1869,9 +1957,14 @@
         "sidebar_label": "Verification Config",
         "sidebar_position": null,
         "int_links": [],
-        "ext_links": []
+        "ext_links": [
+          "https://docs.kubewarden.io/operator-manual/verification-config"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/operator-manual/verification-config"
+        ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "security/": {
       "py/object": "treelib.node.Node",
@@ -1879,11 +1972,11 @@
       "_tag": "security/",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [
           "/security/01-intro.md",
           "/security/disclosure.md",
           "/security/threat-model.md",
@@ -1898,9 +1991,10 @@
         "path": "security/",
         "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/security/",
         "int_links": null,
-        "ext_links": null
+        "ext_links": null,
+        "can_links": null
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/security/01-intro.md": {
       "py/object": "treelib.node.Node",
@@ -1908,11 +2002,11 @@
       "_tag": "01-intro.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "security/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "security/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -1931,9 +2025,14 @@
         "sidebar_label": "Security",
         "sidebar_position": null,
         "int_links": [],
-        "ext_links": []
+        "ext_links": [
+          "https://docs.kubewarden.io/security/intro"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/security/intro"
+        ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/security/disclosure.md": {
       "py/object": "treelib.node.Node",
@@ -1941,11 +2040,11 @@
       "_tag": "disclosure.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "security/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "security/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -1965,10 +2064,14 @@
         "sidebar_position": null,
         "int_links": [],
         "ext_links": [
-          "https://en.wikipedia.org/wiki/Responsible_disclosure"
+          "https://en.wikipedia.org/wiki/Responsible_disclosure",
+          "https://docs.kubewarden.io/security/disclosure"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/security/disclosure"
         ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/security/threat-model.md": {
       "py/object": "treelib.node.Node",
@@ -1976,11 +2079,11 @@
       "_tag": "threat-model.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "security/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "security/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -2004,13 +2107,17 @@
         "sidebar_position": null,
         "int_links": [],
         "ext_links": [
+          "https://github.com/kubernetes/sig-security/tree/main/sig-security-docs/papers/admission-control",
           "https://artifacthub.io/packages/kubewarden/capabilities-psp/capabilities-psp",
           "https://github.com/kubernetes/community/tree/master/sig-security",
-          "https://github.com/kubernetes/sig-security/tree/main/sig-security-docs/papers/admission-control",
-          "https://github.com/kubewarden/deprecated-api-versions-policy"
+          "https://github.com/kubewarden/deprecated-api-versions-policy",
+          "https://docs.kubewarden.io/security/threat-model"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/security/threat-model"
         ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/security/verifying-kubewarden.md": {
       "py/object": "treelib.node.Node",
@@ -2018,11 +2125,11 @@
       "_tag": "verifying-kubewarden.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "security/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "security/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -2043,13 +2150,17 @@
         "int_links": [],
         "ext_links": [
           "https://docs.sigstore.dev/signing/signing_with_blobs/",
-          "https://docs.sigstore.dev",
-          "https://github.com/kubewarden/kwctl/releases/",
+          "https://docs.kubewarden.io/security/verifying-kubewarden",
           "https://github.com/orgs/kubewarden/packages?tab=packages&amp;q=charts",
-          "https://github.com/cvila84/helm-image"
+          "https://github.com/cvila84/helm-image",
+          "https://github.com/kubewarden/kwctl/releases/",
+          "https://docs.sigstore.dev"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/security/verifying-kubewarden"
         ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "tasksDir/": {
       "py/object": "treelib.node.Node",
@@ -2057,11 +2168,11 @@
       "_tag": "tasksDir/",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [
           "/tasksDir/mutating-policies.md",
           "/tasksDir/pod-security-admission-with-kubewarden.md",
           "/tasksDir/psp-migration.md"
@@ -2075,9 +2186,10 @@
         "path": "tasksDir/",
         "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/tasksDir/",
         "int_links": null,
-        "ext_links": null
+        "ext_links": null,
+        "can_links": null
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/tasksDir/mutating-policies.md": {
       "py/object": "treelib.node.Node",
@@ -2085,11 +2197,11 @@
       "_tag": "mutating-policies.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "tasksDir/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "tasksDir/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -2111,10 +2223,14 @@
         "sidebar_position": null,
         "int_links": [],
         "ext_links": [
+          "https://docs.kubewarden.io/tasksDir/mutating-policies",
           "https://github.com/kubewarden/user-group-psp-policy"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/tasksDir/mutating-policies"
         ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/tasksDir/pod-security-admission-with-kubewarden.md": {
       "py/object": "treelib.node.Node",
@@ -2122,11 +2238,11 @@
       "_tag": "pod-security-admission-with-kubewarden.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "tasksDir/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "tasksDir/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -2150,16 +2266,20 @@
         "sidebar_label": "Pod Security Admission with KW",
         "sidebar_position": null,
         "int_links": [
-          "/quick-start.md",
-          "/tasksDir/psp-migration.md"
+          "/tasksDir/psp-migration.md",
+          "/quick-start.md"
         ],
         "ext_links": [
+          "https://kubernetes.io/docs/concepts/security/pod-security-standards/",
+          "https://docs.kubewarden.io/tasksDir/pod-security-admission-with-kubewarden",
           "https://kubernetes.io/docs/concepts/security/pod-security-admission/",
-          "https://artifacthub.io/packages/kubewarden/user-group-psp/user-group-psp",
-          "https://kubernetes.io/docs/concepts/security/pod-security-standards/"
+          "https://artifacthub.io/packages/kubewarden/user-group-psp/user-group-psp"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/tasksDir/pod-security-admission-with-kubewarden"
         ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/tasksDir/psp-migration.md": {
       "py/object": "treelib.node.Node",
@@ -2167,11 +2287,11 @@
       "_tag": "psp-migration.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "tasksDir/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "tasksDir/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -2199,37 +2319,41 @@
           "/tasksDir/#mapping-kuberwarden-policies-to-psp-fields"
         ],
         "ext_links": [
-          "https://github.com/kubewarden/allow-privilege-escalation-psp-policy",
-          "https://kubernetes.io/docs/concepts/security/pod-security-policy/#privilege-escalation",
-          "https://github.com/kubewarden/seccomp-psp-policy",
-          "https://github.com/kubewarden/selinux-psp-policy",
-          "https://kubernetes.io/docs/concepts/security/pod-security-policy/#selinux",
-          "https://github.com/kubewarden/capabilities-psp-policy",
           "https://kubernetes.io/docs/concepts/security/pod-security-policy/#allowedprocmounttypes",
-          "https://github.com/kubewarden/host-namespaces-psp-policy",
-          "https://kubernetes.io/docs/concepts/security/pod-security-policy/#users-and-groups",
-          "https://kubernetes.io/docs/concepts/security/pod-security-policy/",
-          "https://github.com/kubewarden/user-group-psp-policy",
-          "https://github.com/kubewarden/hostpaths-psp-policy",
-          "https://github.com/kubewarden/sysctl-psp-policy",
           "https://kubernetes.io/docs/concepts/security/pod-security-policy/#privileged",
-          "https://github.com/kubewarden/allowed-fsgroups-psp-policy",
-          "https://github.com/kubewarden/readonly-root-filesystem-psp-policy",
-          "https://github.com/kubewarden/utils/blob/main/scripts/psp-to-kubewarden",
-          "https://kubernetes.io/docs/concepts/security/pod-security-policy/#host-namespaces",
-          "https://kubernetes.io/docs/concepts/security/pod-security-policy/#capabilities",
-          "https://github.com/kubewarden/apparmor-psp-policy",
-          "https://github.com/appvia/psp-migration",
+          "https://github.com/kubewarden/sysctl-psp-policy",
+          "https://github.com/kubewarden/hostpaths-psp-policy",
+          "https://github.com/kubewarden/flexvolume-drivers-psp-policy",
           "https://kubernetes.io/docs/concepts/security/pod-security-policy/#volumes-and-file-systems",
-          "https://kubernetes.io/docs/concepts/security/pod-security-policy/#flexvolume-drivers",
-          "https://kubernetes.io/docs/concepts/security/pod-security-policy/#apparmor",
-          "https://github.com/kubewarden/volumes-psp-policy",
-          "https://github.com/kubewarden/pod-privileged-policy",
           "https://github.com/kubewarden/allowed-proc-mount-types-psp-policy",
-          "https://github.com/kubewarden/flexvolume-drivers-psp-policy"
+          "https://github.com/kubewarden/capabilities-psp-policy",
+          "https://github.com/kubewarden/user-group-psp-policy",
+          "https://github.com/kubewarden/seccomp-psp-policy",
+          "https://github.com/kubewarden/allow-privilege-escalation-psp-policy",
+          "https://kubernetes.io/docs/concepts/security/pod-security-policy/",
+          "https://kubernetes.io/docs/concepts/security/pod-security-policy/#apparmor",
+          "https://github.com/kubewarden/pod-privileged-policy",
+          "https://kubernetes.io/docs/concepts/security/pod-security-policy/#capabilities",
+          "https://kubernetes.io/docs/concepts/security/pod-security-policy/#users-and-groups",
+          "https://github.com/kubewarden/selinux-psp-policy",
+          "https://kubernetes.io/docs/concepts/security/pod-security-policy/#flexvolume-drivers",
+          "https://github.com/kubewarden/volumes-psp-policy",
+          "https://github.com/kubewarden/apparmor-psp-policy",
+          "https://github.com/kubewarden/utils/blob/main/scripts/psp-to-kubewarden",
+          "https://github.com/kubewarden/readonly-root-filesystem-psp-policy",
+          "https://docs.kubewarden.io/tasksDir/psp-migration",
+          "https://github.com/kubewarden/allowed-fsgroups-psp-policy",
+          "https://github.com/kubewarden/host-namespaces-psp-policy",
+          "https://kubernetes.io/docs/concepts/security/pod-security-policy/#host-namespaces",
+          "https://kubernetes.io/docs/concepts/security/pod-security-policy/#privilege-escalation",
+          "https://kubernetes.io/docs/concepts/security/pod-security-policy/#selinux",
+          "https://github.com/appvia/psp-migration"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/tasksDir/psp-migration"
         ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "testing-policies/": {
       "py/object": "treelib.node.Node",
@@ -2237,11 +2361,11 @@
       "_tag": "testing-policies/",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [
           "/testing-policies/01-intro.md",
           "/testing-policies/02-policy-authors.md",
           "/testing-policies/03-cluster-operators.md"
@@ -2255,9 +2379,10 @@
         "path": "testing-policies/",
         "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/testing-policies/",
         "int_links": null,
-        "ext_links": null
+        "ext_links": null,
+        "can_links": null
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/testing-policies/01-intro.md": {
       "py/object": "treelib.node.Node",
@@ -2265,11 +2390,11 @@
       "_tag": "01-intro.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "testing-policies/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "testing-policies/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -2293,9 +2418,14 @@
         "sidebar_label": "Policy testing",
         "sidebar_position": null,
         "int_links": [],
-        "ext_links": []
+        "ext_links": [
+          "https://docs.kubewarden.io/testing-policies/intro"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/testing-policies/intro"
+        ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/testing-policies/02-policy-authors.md": {
       "py/object": "treelib.node.Node",
@@ -2303,11 +2433,11 @@
       "_tag": "02-policy-authors.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "testing-policies/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "testing-policies/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -2334,18 +2464,22 @@
         "sidebar_label": "Policy authors",
         "sidebar_position": null,
         "int_links": [
-          "/testing-policies/writing-policies/rust/01-intro-rust.md",
+          "/testing-policies/writing-policies/go/e2e-tests.md",
           "/testing-policies/writing-policies/go/intro-go.md",
-          "/testing-policies/writing-policies/go/e2e-tests.md"
+          "/testing-policies/writing-policies/rust/01-intro-rust.md"
         ],
         "ext_links": [
+          "https://docs.kubewarden.io/testing-policies/policy-authors",
+          "https://github.com/kubewarden/ingress-policy",
           "https://github.com/kubewarden/kwctl",
-          "https://github.com/bats-core/bats-core",
           "https://github.com/kubewarden/psp-apparmor",
-          "https://github.com/kubewarden/ingress-policy"
+          "https://github.com/bats-core/bats-core"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/testing-policies/policy-authors"
         ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/testing-policies/03-cluster-operators.md": {
       "py/object": "treelib.node.Node",
@@ -2353,11 +2487,11 @@
       "_tag": "03-cluster-operators.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "testing-policies/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "testing-policies/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -2379,14 +2513,18 @@
           "/testing-policies/writing-policies/go/e2e-tests.md"
         ],
         "ext_links": [
-          "https://github.com/kubewarden/kwctl",
-          "https://github.com/bats-core/bats-core",
-          "https://github.com/kubewarden/psp-apparmor",
           "https://github.com/kubewarden/psp-apparmor#configuration",
+          "https://docs.kubewarden.io/testing-policies/cluster-operators",
+          "https://github.com/kubewarden/kwctl",
+          "https://github.com/kubewarden/psp-apparmor",
+          "https://github.com/bats-core/bats-core",
           "https://github.com/kubewarden/kwctl/releases"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/testing-policies/cluster-operators"
         ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "writing-policies/": {
       "py/object": "treelib.node.Node",
@@ -2394,11 +2532,11 @@
       "_tag": "writing-policies/",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [
           "rego/",
           "rust/",
           "spec/",
@@ -2420,9 +2558,10 @@
         "path": "writing-policies/",
         "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/",
         "int_links": null,
-        "ext_links": null
+        "ext_links": null,
+        "can_links": null
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "rego/": {
       "py/object": "treelib.node.Node",
@@ -2430,11 +2569,11 @@
       "_tag": "rego/",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "writing-policies/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "writing-policies/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [
           "gatekeeper/",
           "open-policy-agent/",
           "/writing-policies/rego/01-intro-rego.md",
@@ -2449,9 +2588,10 @@
         "path": "rego/",
         "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/rego/",
         "int_links": null,
-        "ext_links": null
+        "ext_links": null,
+        "can_links": null
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "gatekeeper/": {
       "py/object": "treelib.node.Node",
@@ -2459,11 +2599,11 @@
       "_tag": "gatekeeper/",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "rego/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "rego/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [
           "/writing-policies/rego/gatekeeper/01-intro.md",
           "/writing-policies/rego/gatekeeper/02-create-policy.md",
           "/writing-policies/rego/gatekeeper/03-build-and-run.md",
@@ -2478,9 +2618,10 @@
         "path": "gatekeeper/",
         "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/gatekeeper/",
         "int_links": null,
-        "ext_links": null
+        "ext_links": null,
+        "can_links": null
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/writing-policies/rego/gatekeeper/01-intro.md": {
       "py/object": "treelib.node.Node",
@@ -2488,11 +2629,11 @@
       "_tag": "01-intro.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "gatekeeper/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "gatekeeper/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -2513,9 +2654,14 @@
         "int_links": [
           "/writing-policies/rego/builtin-support"
         ],
-        "ext_links": []
+        "ext_links": [
+          "https://docs.kubewarden.io/writing-policies/rego/gatekeeper/intro"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/writing-policies/rego/gatekeeper/intro"
+        ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/writing-policies/rego/gatekeeper/02-create-policy.md": {
       "py/object": "treelib.node.Node",
@@ -2523,11 +2669,11 @@
       "_tag": "02-create-policy.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "gatekeeper/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "gatekeeper/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -2549,10 +2695,14 @@
           "/writing-policies/rego/open-policy-agent/create-policy"
         ],
         "ext_links": [
+          "https://docs.kubewarden.io/writing-policies/rego/gatekeeper/create-policy",
           "https://github.com/kubewarden/gatekeeper-policy-template"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/writing-policies/rego/gatekeeper/create-policy"
         ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/writing-policies/rego/gatekeeper/03-build-and-run.md": {
       "py/object": "treelib.node.Node",
@@ -2560,11 +2710,11 @@
       "_tag": "03-build-and-run.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "gatekeeper/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "gatekeeper/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -2583,9 +2733,14 @@
         "sidebar_label": "Build and Run",
         "sidebar_position": null,
         "int_links": [],
-        "ext_links": []
+        "ext_links": [
+          "https://docs.kubewarden.io/writing-policies/rego/gatekeeper/build-and-run"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/writing-policies/rego/gatekeeper/build-and-run"
+        ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/writing-policies/rego/gatekeeper/04-distribute.md": {
       "py/object": "treelib.node.Node",
@@ -2593,11 +2748,11 @@
       "_tag": "04-distribute.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "gatekeeper/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "gatekeeper/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -2616,9 +2771,14 @@
         "sidebar_label": "Distribute",
         "sidebar_position": null,
         "int_links": [],
-        "ext_links": []
+        "ext_links": [
+          "https://docs.kubewarden.io/writing-policies/rego/gatekeeper/distribute"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/writing-policies/rego/gatekeeper/distribute"
+        ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "open-policy-agent/": {
       "py/object": "treelib.node.Node",
@@ -2626,11 +2786,11 @@
       "_tag": "open-policy-agent/",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "rego/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "rego/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [
           "/writing-policies/rego/open-policy-agent/01-intro.md",
           "/writing-policies/rego/open-policy-agent/02-create-policy.md",
           "/writing-policies/rego/open-policy-agent/03-build-and-run.md",
@@ -2646,9 +2806,10 @@
         "path": "open-policy-agent/",
         "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/open-policy-agent/",
         "int_links": null,
-        "ext_links": null
+        "ext_links": null,
+        "can_links": null
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/writing-policies/rego/open-policy-agent/01-intro.md": {
       "py/object": "treelib.node.Node",
@@ -2656,11 +2817,11 @@
       "_tag": "01-intro.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "open-policy-agent/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "open-policy-agent/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -2681,9 +2842,14 @@
         "int_links": [
           "/writing-policies/rego/builtin-support"
         ],
-        "ext_links": []
+        "ext_links": [
+          "https://docs.kubewarden.io/writing-policies/rego/open-policy-agent/intro"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/writing-policies/rego/open-policy-agent/intro"
+        ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/writing-policies/rego/open-policy-agent/02-create-policy.md": {
       "py/object": "treelib.node.Node",
@@ -2691,11 +2857,11 @@
       "_tag": "02-create-policy.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "open-policy-agent/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "open-policy-agent/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -2715,13 +2881,17 @@
         "sidebar_position": null,
         "int_links": [],
         "ext_links": [
-          "https://github.com/kubewarden/kwctl/releases",
+          "https://docs.kubewarden.io/writing-policies/rego/open-policy-agent/create-policy",
           "https://github.com/kubewarden/opa-policy-template",
           "https://www.openpolicyagent.org/docs/latest/policy-language/",
-          "https://github.com/open-policy-agent/opa/releases"
+          "https://github.com/open-policy-agent/opa/releases",
+          "https://github.com/kubewarden/kwctl/releases"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/writing-policies/rego/open-policy-agent/create-policy"
         ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/writing-policies/rego/open-policy-agent/03-build-and-run.md": {
       "py/object": "treelib.node.Node",
@@ -2729,11 +2899,11 @@
       "_tag": "03-build-and-run.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "open-policy-agent/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "open-policy-agent/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -2752,9 +2922,14 @@
         "sidebar_label": "Build and Run",
         "sidebar_position": null,
         "int_links": [],
-        "ext_links": []
+        "ext_links": [
+          "https://docs.kubewarden.io/writing-policies/rego/open-policy-agent/build-and-run"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/writing-policies/rego/open-policy-agent/build-and-run"
+        ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/writing-policies/rego/open-policy-agent/04-distribute.md": {
       "py/object": "treelib.node.Node",
@@ -2762,11 +2937,11 @@
       "_tag": "04-distribute.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "open-policy-agent/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "open-policy-agent/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -2785,9 +2960,14 @@
         "sidebar_label": "Distribute",
         "sidebar_position": null,
         "int_links": [],
-        "ext_links": []
+        "ext_links": [
+          "https://docs.kubewarden.io/writing-policies/rego/open-policy-agent/distribute"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/writing-policies/rego/open-policy-agent/distribute"
+        ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/writing-policies/rego/open-policy-agent/05-raw-policies.md": {
       "py/object": "treelib.node.Node",
@@ -2795,11 +2975,11 @@
       "_tag": "05-raw-policies.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "open-policy-agent/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "open-policy-agent/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -2819,14 +2999,18 @@
         "sidebar_position": null,
         "int_links": [
           "/writing-policies/metadata.md",
-          "/howtos/raw-policies.md",
-          "/writing-policies/rego/open-policy-agent/02-create-policy.md"
+          "/writing-policies/rego/open-policy-agent/02-create-policy.md",
+          "/howtos/raw-policies.md"
         ],
         "ext_links": [
+          "https://docs.kubewarden.io/writing-policies/rego/open-policy-agent/raw-policies",
           "https://github.com/kubewarden/opa-policy-template"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/writing-policies/rego/open-policy-agent/raw-policies"
         ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/writing-policies/rego/01-intro-rego.md": {
       "py/object": "treelib.node.Node",
@@ -2834,11 +3018,11 @@
       "_tag": "01-intro-rego.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "rego/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "rego/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -2857,16 +3041,20 @@
         "sidebar_label": "Introduction to Rego",
         "sidebar_position": null,
         "int_links": [
+          "/writing-policies/rego/writing-policies/rego/gatekeeper/01-intro.md",
           "/writing-policies/spec/05-context-aware-policies.md",
-          "/writing-policies/rego/writing-policies/rego/open-policy-agent/01-intro.md",
-          "/writing-policies/rego/writing-policies/rego/gatekeeper/01-intro.md"
+          "/writing-policies/rego/writing-policies/rego/open-policy-agent/01-intro.md"
         ],
         "ext_links": [
-          "https://www.openpolicyagent.org/docs/latest/policy-language/",
-          "https://github.com/open-policy-agent/kube-mgmt"
+          "https://docs.kubewarden.io/writing-policies/rego/intro-rego",
+          "https://github.com/open-policy-agent/kube-mgmt",
+          "https://www.openpolicyagent.org/docs/latest/policy-language/"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/writing-policies/rego/intro-rego"
         ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/writing-policies/rego/02-builtin-support.md": {
       "py/object": "treelib.node.Node",
@@ -2874,11 +3062,11 @@
       "_tag": "02-builtin-support.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "rego/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "rego/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -2898,11 +3086,15 @@
         "sidebar_position": null,
         "int_links": [],
         "ext_links": [
+          "https://github.com/kubewarden/policy-evaluator/issues/56",
           "https://www.openpolicyagent.org/docs/latest/policy-reference/#built-in-functions",
-          "https://github.com/kubewarden/policy-evaluator/issues/56"
+          "https://docs.kubewarden.io/writing-policies/rego/builtin-support"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/writing-policies/rego/builtin-support"
         ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "rust/": {
       "py/object": "treelib.node.Node",
@@ -2910,11 +3102,11 @@
       "_tag": "rust/",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "writing-policies/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "writing-policies/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [
           "/writing-policies/rust/01-intro-rust.md",
           "/writing-policies/rust/02-create-policy.md",
           "/writing-policies/rust/03-define-policy-settings.md",
@@ -2933,9 +3125,10 @@
         "path": "rust/",
         "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/rust/",
         "int_links": null,
-        "ext_links": null
+        "ext_links": null,
+        "can_links": null
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/writing-policies/rust/01-intro-rust.md": {
       "py/object": "treelib.node.Node",
@@ -2943,11 +3136,11 @@
       "_tag": "01-intro-rust.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "rust/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "rust/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -2983,15 +3176,19 @@
         "int_links": [],
         "ext_links": [
           "https://crates.io/crates/kubewarden-policy-sdk",
-          "https://github.com/rust-lang/rustup",
-          "https://github.com/cargo-generate/cargo-generate",
-          "https://docs.rs/kubewarden-policy-sdk/0.1.0",
+          "https://rust-lang.github.io/rustup/installation/index.html",
           "https://github.com/kubewarden/rust-policy-template",
+          "https://github.com/cargo-generate/cargo-generate",
           "https://www.rust-lang.org/",
-          "https://rust-lang.github.io/rustup/installation/index.html"
+          "https://docs.kubewarden.io/writing-policies/rust/intro-rust",
+          "https://github.com/rust-lang/rustup",
+          "https://docs.rs/kubewarden-policy-sdk/0.1.0"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/writing-policies/rust/intro-rust"
         ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/writing-policies/rust/02-create-policy.md": {
       "py/object": "treelib.node.Node",
@@ -2999,11 +3196,11 @@
       "_tag": "02-create-policy.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "rust/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "rust/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -3037,12 +3234,16 @@
         "sidebar_position": null,
         "int_links": [],
         "ext_links": [
-          "https://pkgs.org/download/openssl-devel",
           "https://github.com/kubewarden/rust-policy-template",
-          "https://docs.github.com/en/packages/working-with-a-github-packages-registry/enabling-improved-container-support-with-the-container-registry#enabling-the-container-registry-for-your-personal-account"
+          "https://pkgs.org/download/openssl-devel",
+          "https://docs.github.com/en/packages/working-with-a-github-packages-registry/enabling-improved-container-support-with-the-container-registry#enabling-the-container-registry-for-your-personal-account",
+          "https://docs.kubewarden.io/writing-policies/rust/create-policy"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/writing-policies/rust/create-policy"
         ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/writing-policies/rust/03-define-policy-settings.md": {
       "py/object": "treelib.node.Node",
@@ -3050,11 +3251,11 @@
       "_tag": "03-define-policy-settings.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "rust/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "rust/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -3090,10 +3291,14 @@
         "sidebar_position": null,
         "int_links": [],
         "ext_links": [
+          "https://docs.kubewarden.io/writing-policies/rust/define-policy-settings",
           "https://doc.rust-lang.org/stable/book/ch11-00-testing.html"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/writing-policies/rust/define-policy-settings"
         ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/writing-policies/rust/04-write-validation-logic.md": {
       "py/object": "treelib.node.Node",
@@ -3101,11 +3306,11 @@
       "_tag": "04-write-validation-logic.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "rust/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "rust/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -3142,11 +3347,15 @@
         "sidebar_position": null,
         "int_links": [],
         "ext_links": [
-          "https://en.wikipedia.org/wiki/Test_fixture#Software",
-          "https://arnavion.github.io/k8s-openapi/v0.11.x/k8s_openapi/api/core/v1/struct.Pod.html"
+          "https://docs.kubewarden.io/writing-policies/rust/write-validation-logic",
+          "https://arnavion.github.io/k8s-openapi/v0.11.x/k8s_openapi/api/core/v1/struct.Pod.html",
+          "https://en.wikipedia.org/wiki/Test_fixture#Software"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/writing-policies/rust/write-validation-logic"
         ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/writing-policies/rust/05-mutation-policy.md": {
       "py/object": "treelib.node.Node",
@@ -3154,11 +3363,11 @@
       "_tag": "05-mutation-policy.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "rust/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "rust/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -3195,10 +3404,14 @@
         "int_links": [],
         "ext_links": [
           "https://docs.rs/kubewarden-policy-sdk/0.1.0/kubewarden_policy_sdk/fn.mutate_request.html",
+          "https://docs.kubewarden.io/writing-policies/rust/mutation-policy",
           "https://docs.rs/kubewarden-policy-sdk/0.1.0/kubewarden_policy_sdk/fn.accept_request.html"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/writing-policies/rust/mutation-policy"
         ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/writing-policies/rust/06-logging.md": {
       "py/object": "treelib.node.Node",
@@ -3206,11 +3419,11 @@
       "_tag": "06-logging.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "rust/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "rust/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -3246,10 +3459,14 @@
         "ext_links": [
           "https://docs.rs/slog/2.7.0/slog/index.html",
           "https://github.com/slog-rs/slog",
-          "https://docs.rs/slog/2.7.0/slog/macro.log.html"
+          "https://docs.rs/slog/2.7.0/slog/macro.log.html",
+          "https://docs.kubewarden.io/writing-policies/rust/logging"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/writing-policies/rust/logging"
         ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/writing-policies/rust/07-build-and-distribute.md": {
       "py/object": "treelib.node.Node",
@@ -3257,11 +3474,11 @@
       "_tag": "07-build-and-distribute.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "rust/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "rust/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -3300,10 +3517,14 @@
           "/writing-policies/rust/distributing-policies.md"
         ],
         "ext_links": [
-          "https://github.com/search?l=Rust&amp;q=topic%3Apolicy-as-code+org%3Akubewarden&amp;type=Repositories"
+          "https://github.com/search?l=Rust&amp;q=topic%3Apolicy-as-code+org%3Akubewarden&amp;type=Repositories",
+          "https://docs.kubewarden.io/writing-policies/rust/build-and-distribute"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/writing-policies/rust/build-and-distribute"
         ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/writing-policies/rust/08-raw-policies.md": {
       "py/object": "treelib.node.Node",
@@ -3311,11 +3532,11 @@
       "_tag": "08-raw-policies.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "rust/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "rust/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -3334,15 +3555,19 @@
         "sidebar_label": "Raw policies",
         "sidebar_position": null,
         "int_links": [
-          "/howtos/raw-policies.md",
           "/writing-policies/metadata.md",
+          "/howtos/raw-policies.md",
           "/writing-policies/rust/05-mutation-policy.md"
         ],
         "ext_links": [
-          "https://github.com/kubewarden/rust-policy-template"
+          "https://github.com/kubewarden/rust-policy-template",
+          "https://docs.kubewarden.io/writing-policies/rust/raw-policies"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/writing-policies/rust/raw-policies"
         ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "spec/": {
       "py/object": "treelib.node.Node",
@@ -3350,11 +3575,11 @@
       "_tag": "spec/",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "writing-policies/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "writing-policies/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [
           "host-capabilities/",
           "/writing-policies/spec/01-intro-spec.md",
           "/writing-policies/spec/02-settings.md",
@@ -3371,9 +3596,10 @@
         "path": "spec/",
         "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/spec/",
         "int_links": null,
-        "ext_links": null
+        "ext_links": null,
+        "can_links": null
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "host-capabilities/": {
       "py/object": "treelib.node.Node",
@@ -3381,11 +3607,11 @@
       "_tag": "host-capabilities/",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "spec/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "spec/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [
           "/writing-policies/spec/host-capabilities/01-intro-host-capabilities.md",
           "/writing-policies/spec/host-capabilities/02-signature-verifier-policies.md",
           "/writing-policies/spec/host-capabilities/03-container-registry.md",
@@ -3402,9 +3628,10 @@
         "path": "host-capabilities/",
         "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/host-capabilities/",
         "int_links": null,
-        "ext_links": null
+        "ext_links": null,
+        "can_links": null
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/writing-policies/spec/host-capabilities/01-intro-host-capabilities.md": {
       "py/object": "treelib.node.Node",
@@ -3412,11 +3639,11 @@
       "_tag": "01-intro-host-capabilities.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "host-capabilities/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "host-capabilities/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -3437,10 +3664,14 @@
         "int_links": [],
         "ext_links": [
           "https://en.wikipedia.org/wiki/Remote_procedure_call",
-          "https://wapc.io/"
+          "https://wapc.io/",
+          "https://docs.kubewarden.io/writing-policies/spec/host-capabilities/intro-host-capabilities"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/writing-policies/spec/host-capabilities/intro-host-capabilities"
         ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/writing-policies/spec/host-capabilities/02-signature-verifier-policies.md": {
       "py/object": "treelib.node.Node",
@@ -3448,11 +3679,11 @@
       "_tag": "02-signature-verifier-policies.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "host-capabilities/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "host-capabilities/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -3474,11 +3705,15 @@
           "/distributing-policies/secure-supply-chain.md"
         ],
         "ext_links": [
-          "https://github.com/kubewarden/verify-image-signatures",
-          "https://www.sigstore.dev/"
+          "https://docs.kubewarden.io/writing-policies/spec/host-capabilities/signature-verifier-policies",
+          "https://www.sigstore.dev/",
+          "https://github.com/kubewarden/verify-image-signatures"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/writing-policies/spec/host-capabilities/signature-verifier-policies"
         ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/writing-policies/spec/host-capabilities/03-container-registry.md": {
       "py/object": "treelib.node.Node",
@@ -3486,11 +3721,11 @@
       "_tag": "03-container-registry.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "host-capabilities/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "host-capabilities/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -3509,9 +3744,14 @@
         "sidebar_label": "Container Registry Capabilities",
         "sidebar_position": null,
         "int_links": [],
-        "ext_links": []
+        "ext_links": [
+          "https://docs.kubewarden.io/writing-policies/spec/host-capabilities/container-registry"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/writing-policies/spec/host-capabilities/container-registry"
+        ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/writing-policies/spec/host-capabilities/04-net.md": {
       "py/object": "treelib.node.Node",
@@ -3519,11 +3759,11 @@
       "_tag": "04-net.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "host-capabilities/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "host-capabilities/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -3542,9 +3782,14 @@
         "sidebar_label": "Network Capabilities",
         "sidebar_position": null,
         "int_links": [],
-        "ext_links": []
+        "ext_links": [
+          "https://docs.kubewarden.io/writing-policies/spec/host-capabilities/net"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/writing-policies/spec/host-capabilities/net"
+        ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/writing-policies/spec/host-capabilities/05-crypto.md": {
       "py/object": "treelib.node.Node",
@@ -3552,11 +3797,11 @@
       "_tag": "05-crypto.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "host-capabilities/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "host-capabilities/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -3575,9 +3820,14 @@
         "sidebar_label": "Cryptographic Capabilities",
         "sidebar_position": null,
         "int_links": [],
-        "ext_links": []
+        "ext_links": [
+          "https://docs.kubewarden.io/writing-policies/spec/host-capabilities/crypto"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/writing-policies/spec/host-capabilities/crypto"
+        ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/writing-policies/spec/host-capabilities/06-kubernetes.md": {
       "py/object": "treelib.node.Node",
@@ -3585,11 +3835,11 @@
       "_tag": "06-kubernetes.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "host-capabilities/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "host-capabilities/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -3608,9 +3858,14 @@
         "sidebar_label": "Kubernetes Capabilities",
         "sidebar_position": null,
         "int_links": [],
-        "ext_links": []
+        "ext_links": [
+          "https://docs.kubewarden.io/writing-policies/spec/host-capabilities/kubernetes"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/writing-policies/spec/host-capabilities/kubernetes"
+        ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/writing-policies/spec/01-intro-spec.md": {
       "py/object": "treelib.node.Node",
@@ -3618,11 +3873,11 @@
       "_tag": "01-intro-spec.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "spec/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "spec/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -3641,9 +3896,14 @@
         "sidebar_label": "Policy Communication Specification",
         "sidebar_position": null,
         "int_links": [],
-        "ext_links": []
+        "ext_links": [
+          "https://docs.kubewarden.io/writing-policies/spec/intro-spec"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/writing-policies/spec/intro-spec"
+        ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/writing-policies/spec/02-settings.md": {
       "py/object": "treelib.node.Node",
@@ -3651,11 +3911,11 @@
       "_tag": "02-settings.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "spec/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "spec/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -3675,11 +3935,15 @@
         "sidebar_position": null,
         "int_links": [],
         "ext_links": [
+          "https://docs.kubewarden.io/writing-policies/spec/settings",
           "https://github.com/kubewarden/psp-capabilities",
           "https://github.com/chimera-kube/policy-server"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/writing-policies/spec/settings"
         ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/writing-policies/spec/03-validating-policies.md": {
       "py/object": "treelib.node.Node",
@@ -3687,11 +3951,11 @@
       "_tag": "03-validating-policies.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "spec/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "spec/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -3713,11 +3977,15 @@
           "/howtos/raw-policies.md"
         ],
         "ext_links": [
+          "https://godoc.org/k8s.io/api/admission/v1#AdmissionRequest",
           "https://godoc.org/k8s.io/api/admission/v1#AdmissionReview",
-          "https://godoc.org/k8s.io/api/admission/v1#AdmissionRequest"
+          "https://docs.kubewarden.io/writing-policies/spec/validating-policies"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/writing-policies/spec/validating-policies"
         ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/writing-policies/spec/04-mutating-policies.md": {
       "py/object": "treelib.node.Node",
@@ -3725,11 +3993,11 @@
       "_tag": "04-mutating-policies.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "spec/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "spec/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -3748,9 +4016,14 @@
         "sidebar_label": "Mutating Policies",
         "sidebar_position": null,
         "int_links": [],
-        "ext_links": []
+        "ext_links": [
+          "https://docs.kubewarden.io/writing-policies/spec/mutating-policies"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/writing-policies/spec/mutating-policies"
+        ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/writing-policies/spec/05-context-aware-policies.md": {
       "py/object": "treelib.node.Node",
@@ -3758,11 +4031,11 @@
       "_tag": "05-context-aware-policies.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "spec/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "spec/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -3785,12 +4058,16 @@
         ],
         "ext_links": [
           "https://doc.crds.dev/github.com/kubewarden/kubewarden-controller/policies.kubewarden.io/ClusterAdmissionPolicy/v1#spec-contextAwareResources",
+          "https://docs.kubewarden.io/writing-policies/spec/context-aware-policies",
+          "https://github.com/open-policy-agent/kube-mgmt",
           "https://docs.rs/kubewarden-policy-sdk/0.8.7/kubewarden_policy_sdk",
-          "https://pkg.go.dev/github.com/kubewarden/policy-sdk-go",
-          "https://github.com/open-policy-agent/kube-mgmt"
+          "https://pkg.go.dev/github.com/kubewarden/policy-sdk-go"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/writing-policies/spec/context-aware-policies"
         ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "wasi/": {
       "py/object": "treelib.node.Node",
@@ -3798,11 +4075,11 @@
       "_tag": "wasi/",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "writing-policies/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "writing-policies/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [
           "/writing-policies/wasi/01-intro-wasi.md",
           "/writing-policies/wasi/02-raw-policies.md"
         ],
@@ -3815,9 +4092,10 @@
         "path": "wasi/",
         "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/wasi/",
         "int_links": null,
-        "ext_links": null
+        "ext_links": null,
+        "can_links": null
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/writing-policies/wasi/01-intro-wasi.md": {
       "py/object": "treelib.node.Node",
@@ -3825,11 +4103,11 @@
       "_tag": "01-intro-wasi.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "wasi/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "wasi/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -3861,24 +4139,28 @@
         "sidebar_label": null,
         "sidebar_position": null,
         "int_links": [
-          "/writing-policies/go/intro-go.md",
-          "/writing-policies/spec/01-intro-spec.md",
-          "/explanations/context-aware-policies.md",
           "/writing-policies/spec/host-capabilities/01-intro-host-capabilities.md",
-          "/writing-policies/spec/04-mutating-policies.md",
+          "/explanations/context-aware-policies.md",
           "/writing-policies/spec/02-settings.md",
-          "/writing-policies/spec/03-validating-policies.md"
+          "/writing-policies/spec/01-intro-spec.md",
+          "/writing-policies/go/intro-go.md",
+          "/writing-policies/spec/03-validating-policies.md",
+          "/writing-policies/spec/04-mutating-policies.md"
         ],
         "ext_links": [
           "https://github.com/golang/go/issues/42372",
           "https://github.com/google/cel-go",
+          "https://docs.kubewarden.io/writing-policies/wasi/intro-wasi",
           "https://github.com/wapc",
           "https://wasi.dev/",
-          "https://github.com/kubewarden/go-wasi-policy-template",
-          "https://github.com/kyverno/kyverno/"
+          "https://github.com/kyverno/kyverno/",
+          "https://github.com/kubewarden/go-wasi-policy-template"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/writing-policies/wasi/intro-wasi"
         ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/writing-policies/wasi/02-raw-policies.md": {
       "py/object": "treelib.node.Node",
@@ -3886,11 +4168,11 @@
       "_tag": "02-raw-policies.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "wasi/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "wasi/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -3922,15 +4204,19 @@
         "sidebar_label": "Raw policies",
         "sidebar_position": null,
         "int_links": [
-          "/howtos/raw-policies.md",
           "/writing-policies/metadata.md",
+          "/howtos/raw-policies.md",
           "/writing-policies/wasi/01-intro-wasi.md"
         ],
         "ext_links": [
+          "https://docs.kubewarden.io/writing-policies/wasi/raw-policies",
           "https://github.com/kubewarden/go-wasi-policy-template"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/writing-policies/wasi/raw-policies"
         ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "go/": {
       "py/object": "treelib.node.Node",
@@ -3938,11 +4224,11 @@
       "_tag": "go/",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "writing-policies/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "writing-policies/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [
           "/writing-policies/go/automate.md",
           "/writing-policies/go/distribute.md",
           "/writing-policies/go/e2e-tests.md",
@@ -3963,9 +4249,10 @@
         "path": "go/",
         "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/go/",
         "int_links": null,
-        "ext_links": null
+        "ext_links": null,
+        "can_links": null
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/writing-policies/go/automate.md": {
       "py/object": "treelib.node.Node",
@@ -3973,11 +4260,11 @@
       "_tag": "automate.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "go/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "go/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -4010,9 +4297,14 @@
         "sidebar_label": "GitHub Actions",
         "sidebar_position": 70,
         "int_links": [],
-        "ext_links": []
+        "ext_links": [
+          "https://docs.kubewarden.io/writing-policies/go/automate"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/writing-policies/go/automate"
+        ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/writing-policies/go/distribute.md": {
       "py/object": "treelib.node.Node",
@@ -4020,11 +4312,11 @@
       "_tag": "distribute.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "go/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "go/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -4060,10 +4352,14 @@
           "/writing-policies/go/distributing-policies.md"
         ],
         "ext_links": [
+          "https://docs.kubewarden.io/writing-policies/go/distribute",
           "https://github.com/kubewarden/safe-labels-policy"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/writing-policies/go/distribute"
         ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/writing-policies/go/e2e-tests.md": {
       "py/object": "treelib.node.Node",
@@ -4071,11 +4367,11 @@
       "_tag": "e2e-tests.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "go/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "go/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -4113,11 +4409,15 @@
           "/writing-policies/go/testing-policies/01-intro.md"
         ],
         "ext_links": [
-          "https://github.com/kubewarden/kwctl/releases",
-          "https://github.com/bats-core/bats-core"
+          "https://github.com/bats-core/bats-core",
+          "https://docs.kubewarden.io/writing-policies/go/e2e-tests",
+          "https://github.com/kubewarden/kwctl/releases"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/writing-policies/go/e2e-tests"
         ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/writing-policies/go/intro-go.md": {
       "py/object": "treelib.node.Node",
@@ -4125,11 +4425,11 @@
       "_tag": "intro-go.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "go/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "go/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -4165,23 +4465,27 @@
         ],
         "ext_links": [
           "https://github.com/kubewarden/k8s-objects",
-          "https://github.com/kubewarden/go-policy-template",
-          "https://hub.docker.com/r/tinygo/tinygo",
-          "https://tinygo.org/lang-support/",
-          "https://github.com/bats-core/bats-core",
-          "https://en.wikipedia.org/wiki/Set_(abstract_data_type)",
-          "https://tinygo.org/getting-started/",
           "https://github.com/tidwall/gjson",
+          "https://docs.kubewarden.io/writing-policies/go/intro-go",
+          "https://hub.docker.com/r/tinygo/tinygo",
           "https://wapc.io",
-          "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io",
           "https://github.com/kubewarden/policy-sdk-go",
+          "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io",
+          "https://tinygo.org/lang-support/",
           "https://tinygo.org/",
-          "https://github.com/kubewarden/kwctl/releases",
+          "https://tinygo.org/getting-started/",
           "https://github.com/deckarep/golang-set",
-          "https://hub.docker.com/r/tinygo/tinygo-dev"
+          "https://github.com/kubewarden/go-policy-template",
+          "https://github.com/bats-core/bats-core",
+          "https://hub.docker.com/r/tinygo/tinygo-dev",
+          "https://github.com/kubewarden/kwctl/releases",
+          "https://en.wikipedia.org/wiki/Set_(abstract_data_type)"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/writing-policies/go/intro-go"
         ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/writing-policies/go/logging.md": {
       "py/object": "treelib.node.Node",
@@ -4189,11 +4493,11 @@
       "_tag": "logging.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "go/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "go/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -4229,13 +4533,17 @@
         "sidebar_position": 60,
         "int_links": [],
         "ext_links": [
-          "https://www.jaegertracing.io/",
           "https://github.com/francoispqt/onelog",
+          "https://pkg.go.dev/github.com/francoispqt/onelog?utm_source=godoc",
           "https://github.com/francoispqt/onelog#benchmarks",
-          "https://pkg.go.dev/github.com/francoispqt/onelog?utm_source=godoc"
+          "https://docs.kubewarden.io/writing-policies/go/logging",
+          "https://www.jaegertracing.io/"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/writing-policies/go/logging"
         ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/writing-policies/go/policy-settings.md": {
       "py/object": "treelib.node.Node",
@@ -4243,11 +4551,11 @@
       "_tag": "policy-settings.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "go/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "go/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -4280,18 +4588,22 @@
         "sidebar_label": "Defining policy settings",
         "sidebar_position": 30,
         "int_links": [
-          "/writing-policies/go/writing-policies/index.md#the-validationrequest-object",
-          "/writing-policies/go/writing-policies/index.md#the-validate_settings-entry-point"
+          "/writing-policies/go/writing-policies/index.md#the-validate_settings-entry-point",
+          "/writing-policies/go/writing-policies/index.md#the-validationrequest-object"
         ],
         "ext_links": [
-          "https://pkg.go.dev/github.com/kubewarden/policy-sdk-go@v0.2.1/protocol#ValidationRequest",
+          "https://docs.kubewarden.io/writing-policies/go/policy-settings",
           "https://pkg.go.dev/github.com/deckarep/golang-set?utm_source=godoc#NewThreadUnsafeSet",
+          "https://github.com/WebAssembly/threads",
           "https://github.com/kubewarden/policy-sdk-go",
           "https://github.com/deckarep/golang-set",
-          "https://github.com/WebAssembly/threads"
+          "https://pkg.go.dev/github.com/kubewarden/policy-sdk-go@v0.2.1/protocol#ValidationRequest"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/writing-policies/go/policy-settings"
         ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/writing-policies/go/raw-policies.md": {
       "py/object": "treelib.node.Node",
@@ -4299,11 +4611,11 @@
       "_tag": "raw-policies.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "go/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "go/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -4337,15 +4649,19 @@
         "sidebar_label": "Raw policies",
         "sidebar_position": 100,
         "int_links": [
-          "/howtos/raw-policies.md",
+          "/writing-policies/go/validation.md",
           "/writing-policies/metadata.md",
-          "/writing-policies/go/validation.md"
+          "/howtos/raw-policies.md"
         ],
         "ext_links": [
+          "https://docs.kubewarden.io/writing-policies/go/raw-policies",
           "https://github.com/kubewarden/go-policy-template"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/writing-policies/go/raw-policies"
         ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/writing-policies/go/scaffold.md": {
       "py/object": "treelib.node.Node",
@@ -4353,11 +4669,11 @@
       "_tag": "scaffold.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "go/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "go/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -4392,10 +4708,14 @@
         "int_links": [],
         "ext_links": [
           "https://github.com/kubewarden/go-policy-template",
-          "https://github.com/bats-core/bats-core"
+          "https://github.com/bats-core/bats-core",
+          "https://docs.kubewarden.io/writing-policies/go/scaffold"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/writing-policies/go/scaffold"
         ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/writing-policies/go/validation-with-queries.md": {
       "py/object": "treelib.node.Node",
@@ -4403,11 +4723,11 @@
       "_tag": "validation-with-queries.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "go/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "go/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -4442,10 +4762,14 @@
           "/writing-policies/go/validation"
         ],
         "ext_links": [
+          "https://docs.kubewarden.io/writing-policies/go/validation-with-queries",
           "https://github.com/tidwall/gjson"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/writing-policies/go/validation-with-queries"
         ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/writing-policies/go/validation.md": {
       "py/object": "treelib.node.Node",
@@ -4453,11 +4777,11 @@
       "_tag": "validation.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "go/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "go/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -4491,14 +4815,18 @@
         "sidebar_label": "Validation logic",
         "sidebar_position": 40,
         "int_links": [
-          "/writing-policies/go/validation-with-queries",
-          "/writing-policies/spec/validating-policies"
+          "/writing-policies/spec/validating-policies",
+          "/writing-policies/go/validation-with-queries"
         ],
         "ext_links": [
+          "https://docs.kubewarden.io/writing-policies/go/validation",
           "https://stedolan.github.io/jq/"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/writing-policies/go/validation"
         ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/writing-policies/dotnet.md": {
       "py/object": "treelib.node.Node",
@@ -4506,11 +4834,11 @@
       "_tag": "dotnet.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "writing-policies/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "writing-policies/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -4547,14 +4875,18 @@
         "sidebar_position": null,
         "int_links": [],
         "ext_links": [
-          "https://github.com/kubewarden/policy-sdk-dotnet/tree/main/example",
-          "https://github.com/SteveSandersonMS/dotnet-wasi-sdk",
-          "https://github.com/kubewarden/policy-sdk-dotnet",
           "https://github.com/kubewarden/policy-sdk-dotnet/issues",
-          "https://www.nuget.org/packages/KubernetesClient.Models"
+          "https://github.com/kubewarden/policy-sdk-dotnet",
+          "https://docs.kubewarden.io/writing-policies/dotnet",
+          "https://www.nuget.org/packages/KubernetesClient.Models",
+          "https://github.com/kubewarden/policy-sdk-dotnet/tree/main/example",
+          "https://github.com/SteveSandersonMS/dotnet-wasi-sdk"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/writing-policies/dotnet"
         ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/writing-policies/index.md": {
       "py/object": "treelib.node.Node",
@@ -4562,11 +4894,11 @@
       "_tag": "index.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "writing-policies/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "writing-policies/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -4596,14 +4928,18 @@
         "sidebar_position": null,
         "int_links": [],
         "ext_links": [
-          "https://en.wikipedia.org/wiki/Plug-in_%28computing%29",
+          "https://github.com/kubewarden/policy-server",
+          "https://webassembly.org/",
           "https://github.com/appcypher/awesome-wasm-langs",
           "https://github.com/wapc",
-          "https://webassembly.org/",
-          "https://github.com/kubewarden/policy-server"
+          "https://docs.kubewarden.io/writing-policies/index",
+          "https://en.wikipedia.org/wiki/Plug-in_%28computing%29"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/writing-policies/index"
         ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/writing-policies/metadata.md": {
       "py/object": "treelib.node.Node",
@@ -4611,11 +4947,11 @@
       "_tag": "metadata.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "writing-policies/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "writing-policies/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -4651,9 +4987,14 @@
           "/distributing-policies.md",
           "/explanations/audit-scanner#limitations"
         ],
-        "ext_links": []
+        "ext_links": [
+          "https://docs.kubewarden.io/writing-policies/metadata"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/writing-policies/metadata"
+        ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/writing-policies/other-languages.md": {
       "py/object": "treelib.node.Node",
@@ -4661,11 +5002,11 @@
       "_tag": "other-languages.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "writing-policies/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "writing-policies/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -4699,10 +5040,14 @@
         "sidebar_position": null,
         "int_links": [],
         "ext_links": [
+          "https://docs.kubewarden.io/writing-policies/other-languages",
           "https://github.com/kubewarden/docs"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/writing-policies/other-languages"
         ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/writing-policies/swift.md": {
       "py/object": "treelib.node.Node",
@@ -4710,11 +5055,11 @@
       "_tag": "swift.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "writing-policies/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "writing-policies/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -4748,13 +5093,17 @@
         "int_links": [],
         "ext_links": [
           "https://swiftwasm.org/",
+          "https://github.com/kubewarden/policy-sdk-swift",
           "https://github.com/kubewarden/pod-runtime-class-policy/tree/swift-implementation",
           "https://github.com/kubewarden/swift-policy-template",
-          "https://github.com/kubewarden/policy-sdk-swift",
+          "https://docs.kubewarden.io/writing-policies/swift",
           "https://swift.org/"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/writing-policies/swift"
         ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/writing-policies/typescript.md": {
       "py/object": "treelib.node.Node",
@@ -4762,11 +5111,11 @@
       "_tag": "typescript.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "writing-policies/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "writing-policies/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -4797,13 +5146,17 @@
         "sidebar_position": null,
         "int_links": [],
         "ext_links": [
-          "https://www.assemblyscript.org/",
           "https://github.com/AssemblyScript/assemblyscript/issues/292",
+          "https://www.assemblyscript.org/",
           "https://www.typescriptlang.org/",
-          "https://github.com/kubewarden/pod-privileged-policy/tree/assemblyscript-implementation"
+          "https://github.com/kubewarden/pod-privileged-policy/tree/assemblyscript-implementation",
+          "https://docs.kubewarden.io/writing-policies/typescript"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/writing-policies/typescript"
         ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/architecture.md": {
       "py/object": "treelib.node.Node",
@@ -4811,11 +5164,11 @@
       "_tag": "architecture.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -4838,21 +5191,25 @@
         "sidebar_label": "Architecture",
         "sidebar_position": null,
         "int_links": [
-          "/writing-policies/index.md",
           "/writing-policies/spec/01-intro-spec.md",
-          "/explanations/audit-scanner/audit-scanner.md"
+          "/explanations/audit-scanner/audit-scanner.md",
+          "/writing-policies/index.md"
         ],
         "ext_links": [
-          "https://github.com/kubewarden/audit-scanner",
-          "https://kubernetes.io/docs/reference/access-authn-authz/extensible-admission-controllers/#webhook-request-and-response",
+          "https://github.com/kubewarden/policy-server",
           "https://github.com/kubewarden/kubewarden-controller",
+          "https://docs.kubewarden.io/architecture",
           "https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/",
-          "https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/",
           "https://kubernetes.io/docs/reference/access-authn-authz/extensible-admission-controllers/",
-          "https://github.com/kubewarden/policy-server"
+          "https://kubernetes.io/docs/reference/access-authn-authz/extensible-admission-controllers/#webhook-request-and-response",
+          "https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/",
+          "https://github.com/kubewarden/audit-scanner"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/architecture"
         ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/distributing-policies.md": {
       "py/object": "treelib.node.Node",
@@ -4860,11 +5217,11 @@
       "_tag": "distributing-policies.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -4892,16 +5249,20 @@
           "/&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#110;&#97;&#109;&#101;&#46;&#115;&#117;&#114;&#110;&#97;&#109;&#101;&#64;&#101;&#120;&#97;&#109;&#112;&#108;&#101;&#46;&#99;&#111;&#109;"
         ],
         "ext_links": [
-          "https://github.com/kubewarden/kwctl",
+          "https://github.com/distribution/distribution",
+          "https://docs.kubewarden.io/distributing-policies",
+          "https://ghcr.io",
           "https://azure.microsoft.com/en-us/products/container-registry/",
-          "https://aws.amazon.com/ecr/",
+          "https://github.com/kubewarden/kwctl",
           "https://github.com/opencontainers/image-spec",
           "https://cloud.google.com/artifact-registry/",
-          "https://ghcr.io",
-          "https://github.com/distribution/distribution"
+          "https://aws.amazon.com/ecr/"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/distributing-policies"
         ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/introduction.md": {
       "py/object": "treelib.node.Node",
@@ -4909,11 +5270,11 @@
       "_tag": "introduction.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -4938,13 +5299,17 @@
         "sidebar_position": null,
         "int_links": [],
         "ext_links": [
-          "https://github.com/opencontainers/artifacts",
-          "https://cncf.io",
+          "https://webassembly.org/",
+          "https://docs.kubewarden.io",
           "https://www.rancher.com/",
-          "https://webassembly.org/"
+          "https://cncf.io",
+          "https://github.com/opencontainers/artifacts"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io"
         ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/quick-start.md": {
       "py/object": "treelib.node.Node",
@@ -4952,11 +5317,11 @@
       "_tag": "quick-start.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -4987,21 +5352,25 @@
           "/home/jhk/projects/suse/kubewarden-docs/howtos/audit-scanner"
         ],
         "ext_links": [
-          "https://artifacthub.io/packages/search?kind=13",
-          "https://doc.crds.dev/github.com/kubewarden/kubewarden-controller",
-          "https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.20/#validatingwebhookconfiguration-v1-admissionregistration-k8s-io",
           "https://charts.kubewarden.io/#configuration",
+          "https://cert-manager.io/docs/installation/",
+          "https://github.com/kubewarden/pod-privileged-policy",
+          "https://artifacthub.io/packages/search?kind=13",
           "https://github.com/topics/kubewarden-policy",
+          "https://github.com/kubewarden/kubewarden-controller/blob/main/docs/crds/README.asciidoc",
+          "https://github.com/kubewarden/kubewarden-controller/releases/tag/v0.4.0",
+          "https://docs.kubewarden.io/quick-start",
           "https://github.com/kubewarden/policy-server/pkgs/container/policy-server",
           "https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens",
-          "https://github.com/opencontainers/artifacts",
-          "https://github.com/kubewarden/kubewarden-controller/blob/main/docs/crds/README.asciidoc",
-          "https://github.com/kubewarden/pod-privileged-policy",
-          "https://github.com/kubewarden/kubewarden-controller/releases/tag/v0.4.0",
-          "https://cert-manager.io/docs/installation/"
+          "https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.20/#validatingwebhookconfiguration-v1-admissionregistration-k8s-io",
+          "https://doc.crds.dev/github.com/kubewarden/kubewarden-controller",
+          "https://github.com/opencontainers/artifacts"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/quick-start"
         ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     },
     "/tasks.md": {
       "py/object": "treelib.node.Node",
@@ -5009,11 +5378,11 @@
       "_tag": "tasks.md",
       "expanded": true,
       "_predecessor": {
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": "/"
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": "/"
       },
       "_successors": {
         "py/object": "collections.defaultdict",
-        "95044b74-afde-11ee-ad4f-c85ea9b440c4": [],
+        "8f73a014-b066-11ee-b8e3-c85ea9b440c4": [],
         "default_factory": {
           "py/type": "builtins.list"
         }
@@ -5040,26 +5409,30 @@
         "sidebar_label": "Common tasks",
         "sidebar_position": null,
         "int_links": [
-          "/quick-start.md#install",
-          "/distributing-policies",
           "/&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#107;&#117;&#98;&#101;&#119;&#97;&#114;&#100;&#101;&#110;&#64;&#115;&#117;&#115;&#101;&#46;&#100;&#101;",
+          "/quick-start.md#example-enforce-your-first-policy",
           "/writing-policies",
-          "/quick-start.md#example-enforce-your-first-policy"
+          "/distributing-policies",
+          "/quick-start.md#install"
         ],
         "ext_links": [
+          "https://docs.kubewarden.io/tasks",
+          "https://kubernetes.io/blog/2021/04/06/podsecuritypolicy-deprecation-past-present-and-future/",
+          "https://github.com/opencontainers/distribution-spec/blob/main/spec.md",
           "https://www.rust-lang.org/tools/install",
-          "https://artifacthub.io/packages/search?kind=13&amp;sort=relevance&amp;page=1",
+          "https://github.com/kubewarden/kwctl",
           "https://www.kubewarden.io/blog/2021/06/kwctl-intro-for-kubernetes-administrators/",
           "https://www.kubewarden.io/blog/2022/07/artifact-hub-supports-kubewarden/",
-          "https://github.com/kubewarden/kwctl",
-          "https://github.com/opencontainers/distribution-spec/blob/main/spec.md",
-          "https://kubernetes.io/blog/2021/04/06/podsecuritypolicy-deprecation-past-present-and-future/",
           "https://kubernetes.io/docs/reference/",
+          "https://artifacthub.io/packages/search?kind=13&amp;sort=relevance&amp;page=1",
           "https://hub.kubewarden.io",
           "https://github.com/kubewarden/kwctl/releases"
+        ],
+        "can_links": [
+          "https://docs.kubewarden.io/tasks"
         ]
       },
-      "_initial_tree_id": "95044b74-afde-11ee-ad4f-c85ea9b440c4"
+      "_initial_tree_id": "8f73a014-b066-11ee-b8e3-c85ea9b440c4"
     }
   },
   "root": "root"
