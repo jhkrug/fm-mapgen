@@ -1,7 +1,7 @@
 ---
 - docstore-data:
     root-dir: /home/jhk/projects/suse/epinio-docs/docs
-    gen-date: 2024-01-11T10:48:19+01:00
+    gen-date: 2024-01-11T11:43:46+01:00
 - path: /home/jhk/projects/suse/epinio-docs/docs/explanations/advanced.md
   frontmatter:
     sidebar_label: "Advanced topics"

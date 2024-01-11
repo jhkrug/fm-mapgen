@@ -1,7 +1,7 @@
 ---
 - docstore-data:
     root-dir: /home/jhk/projects/suse/kubewarden-docs/docs
-    gen-date: 2024-01-11T10:48:21+01:00
+    gen-date: 2024-01-11T11:43:48+01:00
 - path: /home/jhk/projects/suse/kubewarden-docs/docs/contribution-guide/contributing.md
   frontmatter:
 - path: /home/jhk/projects/suse/kubewarden-docs/docs/contribution-guide/suggesting-an-improvement.md
