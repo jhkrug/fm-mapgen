@@ -1,7 +1,5 @@
-Data generated: 2024-01-11 10:43:48
+Data generated: 2024-01-11 16:25:28
 === Files with no, or empty frontmatter fm_tag: keywords:
-/home/jhk/projects/suse/kubewarden-docs/docs/contribution-guide/contributing.md
-/home/jhk/projects/suse/kubewarden-docs/docs/contribution-guide/suggesting-an-improvement.md
 /home/jhk/projects/suse/kubewarden-docs/docs/distributing-policies/custom-certificate-authorities.md
 /home/jhk/projects/suse/kubewarden-docs/docs/distributing-policies/oci-registries-support.md
 /home/jhk/projects/suse/kubewarden-docs/docs/distributing-policies/publish-policy-to-artifact-hub.md
@@ -16,13 +14,11 @@ Data generated: 2024-01-11 10:43:48
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/telemetry/metrics/02-reference.md
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/telemetry/opentelemetry/01-quickstart.md
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/telemetry/tracing/01-quickstart.md
-/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/03-tracing.md
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/01-install.md
-/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/02-metrics.md
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/01-intro.md
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/CRDs.md
-/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/policy-evaluation-timeout.md
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/verification-config.md
+/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/policy-evaluation-timeout.md
 /home/jhk/projects/suse/kubewarden-docs/docs/security/01-intro.md
 /home/jhk/projects/suse/kubewarden-docs/docs/security/disclosure.md
 /home/jhk/projects/suse/kubewarden-docs/docs/security/verifying-kubewarden.md

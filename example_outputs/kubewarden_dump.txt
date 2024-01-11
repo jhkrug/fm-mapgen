@@ -1,4 +1,4 @@
-Data generated: 2024-01-11 10:43:48
+Data generated: 2024-01-11 16:25:28
 knowledge_map, depth = 5
 === Node ===
 identifier = root
@@ -35,18 +35,18 @@ Depth = 3
 === Node data ===
 path = /contribution-guide/contributing.md
 full_path = /home/jhk/projects/suse/kubewarden-docs/docs/contribution-guide/contributing.md
-title = None
-description = None
-keywords = None
-doc_persona = None
-doc_type = None
-doc_topic = None
+title = Contributing to Kubewarden documentation
+description = Contributing to kubewarden documentation.
+keywords = ['kubewarden', 'documentation', 'contributing']
+doc_persona = ['kubewarden-developer', 'kubewarden-operator', 'kubewarden-manager']
+doc_type = ['explanation']
+doc_topic = ['contribution-guide', 'docs-contribution']
 slug = None
-sidebar_label = None
-sidebar_position = None
-int_links = ['/contribution-guide/#', '/contribution-guide/suggesting-an-improvement']
-ext_links = ['https://lab.github.com/', 'https://github.com/kubewarden/docs', 'https://git-scm.com/', 'https://docusaurus.io/', 'https://mdxjs.com/']
-canonical_link = None
+sidebar_label = Contributing to documentation
+sidebar_position = 1
+int_links = ['/contribution-guide/suggesting-an-improvement']
+ext_links = ['https://docusaurus.io/', 'https://github.com/kubewarden/docs', 'https://docs.kubewarden.io/contribution-guide/contributing', 'https://mdxjs.com/']
+canonical_link = https://docs.kubewarden.io/contribution-guide/contributing
 
 === Node ===
 identifier = /contribution-guide/suggesting-an-improvement.md
@@ -56,18 +56,18 @@ Depth = 3
 === Node data ===
 path = /contribution-guide/suggesting-an-improvement.md
 full_path = /home/jhk/projects/suse/kubewarden-docs/docs/contribution-guide/suggesting-an-improvement.md
-title = None
-description = None
-keywords = None
-doc_persona = None
-doc_type = None
-doc_topic = None
+title = Suggesting an improvement
+description = Suggesting an improvement.
+keywords = ['kubewarden', 'documentation', 'suggesting an improvement']
+doc_persona = ['kubewarden-developer', 'kubewarden-operator', 'kubewarden-manager']
+doc_type = ['explanation', 'tutorial']
+doc_topic = ['contribution-guide', 'docs-contribution', 'improvement']
 slug = None
-sidebar_label = None
-sidebar_position = None
+sidebar_label = Suggesting improvements
+sidebar_position = 10
 int_links = []
-ext_links = ['https://github.com/kubewarden/docs', 'https://github.com/orgs/kubewarden/teams/kubewarden-documentation', 'https://github.com/join', 'https://github.com/kubewarden/docs/issues/new/choose', 'https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/configuring-notifications']
-canonical_link = None
+ext_links = ['https://docs.kubewarden.io/contribution-guide/suggesting-an-improvement', 'https://github.com/orgs/kubewarden/teams/kubewarden-documentation', 'https://github.com/kubewarden/docs/issues/new/choose', 'https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/configuring-notifications', 'https://github.com/kubewarden/docs', 'https://github.com/join']
+canonical_link = https://docs.kubewarden.io/contribution-guide/suggesting-an-improvement
 
 === Node ===
 identifier = distributing-policies/
@@ -117,7 +117,7 @@ slug = None
 sidebar_label = OCI registry support
 sidebar_position = None
 int_links = []
-ext_links = ['https://github.com/opencontainers/artifacts', 'https://cloud.ibm.com/docs/Registry?topic=Registry-registry_helm_charts', 'https://github.com/containers/skopeo', 'https://docs.docker.com/docker-hub/oci-artifacts/', 'https://cloud.ibm.com/docs/Registry', 'https://github.com/container-registry/', 'https://github.com/google/go-containerregistry/blob/main/cmd/crane/README.md', 'https://access.redhat.com/products/red-hat-quay/', 'https://github.com/containers/skopeo/pull/1705', 'https://azure.microsoft.com/en-us/products/container-registry/', 'https://quay.io', 'https://www.docker.com/blog/announcing-docker-hub-oci-artifacts-support/', 'https://hub.docker.com/', 'https://aws.amazon.com/ecr/', 'https://aws.amazon.com/blogs/containers/oci-artifact-support-in-amazon-ecr/', 'https://learn.microsoft.com/en-us/azure/container-registry/container-registry-oci-artifacts', 'https://github.com/kubewarden/docs/edit/main/docs/distributing-policies/oci-registries-support.md', 'https://jfrog.com/help/r/jfrog-artifactory-documentation/docker-registry', 'https://cloud.google.com/anthos-config-management/docs/how-to/sync-oci-artifacts-from-artifact-registry', 'https://github.com/kubewarden/kwctl/issues/59', 'https://github.com/kubewarden/kwctl', 'https://docs.kubewarden.io/distributing-policies/oci-registries-support', 'https://goharbor.io/', 'https://access.redhat.com/documentation/en-us/red_hat_quay/3/html/use_red_hat_quay/oci-intro#other-oci-artifacts-with-quay', 'https://github.com/distribution/distribution/releases/tag/v2.7.0', 'https://bundle.bar/docs/#open-container-initiative-oci', 'https://cloud.google.com/artifact-registry', 'https://github.com/distribution/distribution', 'https://jfrog.com/artifactory/', 'https://bundle.bar', 'https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry']
+ext_links = ['https://access.redhat.com/products/red-hat-quay/', 'https://docs.kubewarden.io/distributing-policies/oci-registries-support', 'https://quay.io', 'https://www.docker.com/blog/announcing-docker-hub-oci-artifacts-support/', 'https://cloud.google.com/anthos-config-management/docs/how-to/sync-oci-artifacts-from-artifact-registry', 'https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry', 'https://github.com/kubewarden/kwctl/issues/59', 'https://github.com/containers/skopeo/pull/1705', 'https://cloud.google.com/artifact-registry', 'https://hub.docker.com/', 'https://aws.amazon.com/blogs/containers/oci-artifact-support-in-amazon-ecr/', 'https://bundle.bar/docs/#open-container-initiative-oci', 'https://goharbor.io/', 'https://github.com/container-registry/', 'https://github.com/kubewarden/kwctl', 'https://azure.microsoft.com/en-us/products/container-registry/', 'https://docs.docker.com/docker-hub/oci-artifacts/', 'https://github.com/kubewarden/docs/edit/main/docs/distributing-policies/oci-registries-support.md', 'https://access.redhat.com/documentation/en-us/red_hat_quay/3/html/use_red_hat_quay/oci-intro#other-oci-artifacts-with-quay', 'https://learn.microsoft.com/en-us/azure/container-registry/container-registry-oci-artifacts', 'https://github.com/distribution/distribution/releases/tag/v2.7.0', 'https://cloud.ibm.com/docs/Registry?topic=Registry-registry_helm_charts', 'https://github.com/google/go-containerregistry/blob/main/cmd/crane/README.md', 'https://github.com/distribution/distribution', 'https://jfrog.com/help/r/jfrog-artifactory-documentation/docker-registry', 'https://jfrog.com/artifactory/', 'https://cloud.ibm.com/docs/Registry', 'https://aws.amazon.com/ecr/', 'https://bundle.bar', 'https://github.com/opencontainers/artifacts', 'https://github.com/containers/skopeo']
 canonical_link = https://docs.kubewarden.io/distributing-policies/oci-registries-support
 
 === Node ===
@@ -138,7 +138,7 @@ slug = None
 sidebar_label = Publish to Artifact Hub
 sidebar_position = None
 int_links = ['/distributing-policies']
-ext_links = ['https://docs.kubewarden.io/distributing-policies/publish-policy-to-artifact-hub', 'https://github.com/kubewarden/github-actions', 'https://github.com/artifacthub/hub/blob/master/docs/metadata/artifacthub-repo.yml', 'https://artifacthub.io/', 'https://cncf.io', 'https://artifacthub.io/control-panel/repositories?page=1', 'https://artifacthub.io/docs/topics/repositories/#kubewarden-policies-repositories', 'https://github.com/artifacthub/hub/blob/master/docs/metadata/artifacthub-pkg.yml', 'https://artifacthub.io/docs/topics/repositories/#verified-publisher']
+ext_links = ['https://artifacthub.io/', 'https://cncf.io', 'https://artifacthub.io/docs/topics/repositories/#kubewarden-policies-repositories', 'https://artifacthub.io/control-panel/repositories?page=1', 'https://github.com/artifacthub/hub/blob/master/docs/metadata/artifacthub-repo.yml', 'https://artifacthub.io/docs/topics/repositories/#verified-publisher', 'https://github.com/artifacthub/hub/blob/master/docs/metadata/artifacthub-pkg.yml', 'https://docs.kubewarden.io/distributing-policies/publish-policy-to-artifact-hub', 'https://github.com/kubewarden/github-actions']
 canonical_link = https://docs.kubewarden.io/distributing-policies/publish-policy-to-artifact-hub
 
 === Node ===
@@ -159,7 +159,7 @@ slug = None
 sidebar_label = Secure supply chain
 sidebar_position = None
 int_links = ['/distributing-policies/#signature-config-reference']
-ext_links = ['https://docs.sigstore.dev/cosign/installation/', 'https://docs.kubewarden.io/distributing-policies/secure-supply-chain', 'https://github.com/sigstore/cosign', 'https://github.com/kubewarden/kwctl', 'https://docs.sigstore.dev/cosign/installation/#github-action', 'https://sigstore.dev/', 'https://docs.sigstore.dev/', 'https://github.com/SigStore/fulcio', 'https://github.com/sigstore/rekor']
+ext_links = ['https://docs.sigstore.dev/cosign/installation/#github-action', 'https://github.com/SigStore/fulcio', 'https://docs.sigstore.dev/', 'https://github.com/kubewarden/kwctl', 'https://docs.sigstore.dev/cosign/installation/', 'https://sigstore.dev/', 'https://github.com/sigstore/rekor', 'https://docs.kubewarden.io/distributing-policies/secure-supply-chain', 'https://github.com/sigstore/cosign']
 canonical_link = https://docs.kubewarden.io/distributing-policies/secure-supply-chain
 
 === Node ===
@@ -197,8 +197,8 @@ doc_topic = None
 slug = None
 sidebar_label = What is the Audit Scanner?
 sidebar_position = None
-int_links = ['/writing-policies/index.md', '/explanations/howtos/audit-scanner', '/explanations/audit-scanner/policy-reports.md']
-ext_links = ['https://kubernetes.io/docs/reference/access-authn-authz/rbac/#user-facing-roles', 'https://docs.kubewarden.io/explanations/audit-scanner/audit-scanner']
+int_links = ['/writing-policies/index.md', '/explanations/audit-scanner/policy-reports.md', '/explanations/howtos/audit-scanner']
+ext_links = ['https://docs.kubewarden.io/explanations/audit-scanner/audit-scanner', 'https://kubernetes.io/docs/reference/access-authn-authz/rbac/#user-facing-roles']
 canonical_link = https://docs.kubewarden.io/explanations/audit-scanner/audit-scanner
 
 === Node ===
@@ -240,7 +240,7 @@ slug = None
 sidebar_label = Policy Reports
 sidebar_position = None
 int_links = ['/howtos/audit-scanner']
-ext_links = ['https://github.com/kubernetes-sigs/wg-policy-prototypes', 'https://kyverno.github.io/policy-reporter', 'https://htmlpreview.github.io/?https://github.com/kubernetes-sigs/wg-policy-prototypes/blob/045372e558b896695b2daae92e8c7a04d4d40282/policy-report/docs/index.html', 'https://docs.kubewarden.io/explanations/audit-scanner/policy-reports']
+ext_links = ['https://kyverno.github.io/policy-reporter', 'https://htmlpreview.github.io/?https://github.com/kubernetes-sigs/wg-policy-prototypes/blob/045372e558b896695b2daae92e8c7a04d4d40282/policy-report/docs/index.html', 'https://docs.kubewarden.io/explanations/audit-scanner/policy-reports', 'https://github.com/kubernetes-sigs/wg-policy-prototypes']
 canonical_link = https://docs.kubewarden.io/explanations/audit-scanner/policy-reports
 
 === Node ===
@@ -261,7 +261,7 @@ slug = None
 sidebar_label = Context aware policies
 sidebar_position = None
 int_links = ['/writing-policies/spec/05-context-aware-policies.md']
-ext_links = ['https://docs.kubewarden.io/explanations/context-aware-policies', 'https://kubernetes.io/docs/concepts/security/service-accounts/']
+ext_links = ['https://kubernetes.io/docs/concepts/security/service-accounts/', 'https://docs.kubewarden.io/explanations/context-aware-policies']
 canonical_link = https://docs.kubewarden.io/explanations/context-aware-policies
 
 === Node ===
@@ -281,8 +281,8 @@ doc_topic = None
 slug = None
 sidebar_label = Kubewarden vs OPA Gatekeeper
 sidebar_position = None
-int_links = ['/explanations/#cicd-integration', '/explanations/#kubernetes-integration', '/explanations/#deployment-mode', '/explanations/#policy-distribution', '/explanations/#writing-policies', '/explanations/#context-aware', '/explanations/#background-checks']
-ext_links = ['https://docs.github.com/en/code-security/dependabot/working-with-dependabot', 'https://www.updatecli.io/', 'https://sigstore.dev', 'https://en.wikipedia.org/wiki/Domain-specific_language', 'https://www.openpolicyagent.org/docs/latest/policy-testing/', 'https://docs.kubewarden.io/writing-policies/rego/intro-rego', 'https://docs.kubewarden.io/explanations/opa-comparison', 'https://www.openpolicyagent.org/docs/latest/#rego', 'https://github.com/open-policy-agent/kube-mgmt', 'https://github.com/kubewarden/kwctl', 'https://open-policy-agent.github.io/gatekeeper/website/docs/audit#constraint-status', 'https://www.mend.io/renovate/', 'https://github.com/kubewarden/docs/', 'https://open-policy-agent.github.io/gatekeeper/website/docs/mutation', 'https://github.com/kubernetes-sigs/wg-policy-prototypes/tree/master/policy-report']
+int_links = ['/explanations/#deployment-mode', '/explanations/#context-aware', '/explanations/#policy-distribution', '/explanations/#writing-policies', '/explanations/#background-checks', '/explanations/#cicd-integration', '/explanations/#kubernetes-integration']
+ext_links = ['https://docs.github.com/en/code-security/dependabot/working-with-dependabot', 'https://www.openpolicyagent.org/docs/latest/policy-testing/', 'https://docs.kubewarden.io/explanations/opa-comparison', 'https://www.mend.io/renovate/', 'https://github.com/kubernetes-sigs/wg-policy-prototypes/tree/master/policy-report', 'https://github.com/open-policy-agent/kube-mgmt', 'https://github.com/kubewarden/kwctl', 'https://github.com/kubewarden/docs/', 'https://www.openpolicyagent.org/docs/latest/#rego', 'https://open-policy-agent.github.io/gatekeeper/website/docs/mutation', 'https://docs.kubewarden.io/writing-policies/rego/intro-rego', 'https://en.wikipedia.org/wiki/Domain-specific_language', 'https://sigstore.dev', 'https://www.updatecli.io/', 'https://open-policy-agent.github.io/gatekeeper/website/docs/audit#constraint-status']
 canonical_link = https://docs.kubewarden.io/explanations/opa-comparison
 
 === Node ===
@@ -311,8 +311,8 @@ doc_topic = None
 slug = None
 sidebar_label = Audit Scanner Installation
 sidebar_position = None
-int_links = ['/explanations/audit-scanner', '/quick-start.md']
-ext_links = ['https://docs.kubewarden.io/howtos/audit-scanner', 'https://github.com/kubernetes-sigs/wg-policy-prototypes', 'https://kubernetes.io/docs/concepts/workloads/controllers/cron-jobs', 'https://github.com/kyverno/policy-reporter/blob/policy-reporter-2.19.4/charts/policy-reporter/charts/ui/values.yaml#L172-L189', 'https://github.com/kubewarden/helm-charts/blob/main/charts/kubewarden-controller/values.yaml', 'https://kyverno.github.io/policy-reporter']
+int_links = ['/quick-start.md', '/explanations/audit-scanner']
+ext_links = ['https://kyverno.github.io/policy-reporter', 'https://docs.kubewarden.io/howtos/audit-scanner', 'https://github.com/kyverno/policy-reporter/blob/policy-reporter-2.19.4/charts/policy-reporter/charts/ui/values.yaml#L172-L189', 'https://kubernetes.io/docs/concepts/workloads/controllers/cron-jobs', 'https://github.com/kubernetes-sigs/wg-policy-prototypes', 'https://github.com/kubewarden/helm-charts/blob/main/charts/kubewarden-controller/values.yaml']
 canonical_link = https://docs.kubewarden.io/howtos/audit-scanner
 
 === Node ===
@@ -332,14 +332,14 @@ doc_topic = None
 slug = None
 sidebar_label = Raw policies
 sidebar_position = None
-int_links = ['/explanations/context-aware-policies.md', '/writing-policies/go/raw-policies.md', '/writing-policies/rego/open-policy-agent/05-raw-policies.md', '/writing-policies/rust/08-raw-policies.md', '/writing-policies/wasi/02-raw-policies.md']
-ext_links = ['https://docs.kubewarden.io/howtos/raw-policies', 'https://github.com/kubewarden/raw-validation-policy', 'https://github.com/kubewarden/raw-mutation-policy']
+int_links = ['/writing-policies/rego/open-policy-agent/05-raw-policies.md', '/writing-policies/rust/08-raw-policies.md', '/writing-policies/go/10-raw-policies.md', '/writing-policies/wasi/02-raw-policies.md', '/explanations/context-aware-policies.md']
+ext_links = ['https://github.com/kubewarden/raw-validation-policy', 'https://docs.kubewarden.io/howtos/raw-policies', 'https://github.com/kubewarden/raw-mutation-policy']
 canonical_link = https://docs.kubewarden.io/howtos/raw-policies
 
 === Node ===
 identifier = operator-manual/
 Predecessor = ['/']
-Successors = ['airgap/', 'policy-servers/', 'telemetry/', 'ui-extension/', '/operator-manual/01-intro.md', '/operator-manual/CRDs.md', '/operator-manual/Rancher-Fleet.md', '/operator-manual/dependency-matrix.md', '/operator-manual/monitor-mode.md', '/operator-manual/policies.md', '/operator-manual/policy-evaluation-timeout.md', '/operator-manual/upgrade-path.md', '/operator-manual/verification-config.md']
+Successors = ['airgap/', 'policy-servers/', 'telemetry/', 'ui-extension/', '/operator-manual/01-intro.md', '/operator-manual/CRDs.md', '/operator-manual/Rancher-Fleet.md', '/operator-manual/dependency-matrix.md', '/operator-manual/monitor-mode.md', '/operator-manual/policies.md', '/operator-manual/upgrade-path.md', '/operator-manual/verification-config.md', '/operator-manual/policy-evaluation-timeout.md']
 Depth = 2
 === Node data ===
 path = operator-manual/
@@ -372,7 +372,7 @@ slug = None
 sidebar_label = Requirements
 sidebar_position = None
 int_links = ['/distributing-policies/oci-registries-support']
-ext_links = ['https://docs.kubewarden.io/operator-manual/airgap/requirements', 'https://github.com/kubewarden/kwctl']
+ext_links = ['https://github.com/kubewarden/kwctl', 'https://docs.kubewarden.io/operator-manual/airgap/requirements']
 canonical_link = https://docs.kubewarden.io/operator-manual/airgap/requirements
 
 === Node ===
@@ -392,8 +392,8 @@ doc_topic = None
 slug = None
 sidebar_label = Installation
 sidebar_position = None
-int_links = ['/security/verifying-kubewarden#helm-charts', '/security/verifying-kubewarden#container-images', '/distributing-policies/custom-certificate-authorities.md', '/operator-manual/policy-servers/private-registry']
-ext_links = ['https://docs.kubewarden.io/operator-manual/airgap/install', 'https://github.com/kyverno/policy-reporter/tree/policy-reporter-2.19.4/charts/policy-reporter', 'https://github.com/kubewarden/utils', 'https://github.com/kubewarden/kwctl/tree/main/scripts', 'https://github.com/kubewarden/helm-charts/releases/']
+int_links = ['/distributing-policies/custom-certificate-authorities.md', '/security/verifying-kubewarden#container-images', '/operator-manual/policy-servers/private-registry', '/security/verifying-kubewarden#helm-charts']
+ext_links = ['https://github.com/kubewarden/utils', 'https://github.com/kyverno/policy-reporter/tree/policy-reporter-2.19.4/charts/policy-reporter', 'https://docs.kubewarden.io/operator-manual/airgap/install', 'https://github.com/kubewarden/kwctl/tree/main/scripts', 'https://github.com/kubewarden/helm-charts/releases/']
 canonical_link = https://docs.kubewarden.io/operator-manual/airgap/install
 
 === Node ===
@@ -483,7 +483,7 @@ slug = None
 sidebar_label = Metrics Quickstart
 sidebar_position = None
 int_links = ['/operator-manual/telemetry/opentelemetry/01-quickstart.md#install-opentelemetry']
-ext_links = ['https://github.com/kubewarden/policy-server/releases/latest/download/kubewarden-dashboard.json', 'https://github.com/prometheus-operator/prometheus-operator/blob/master/Documentation/design.md#servicemonitor', 'https://prometheus.io/', 'https://github.com/prometheus-operator/prometheus-operator', 'https://grafana.com/grafana/dashboards/15314', 'https://docs.kubewarden.io/operator-manual/telemetry/metrics/quickstart', 'https://grafana.com/docs/grafana/latest/dashboards/export-import/#import-dashboard']
+ext_links = ['https://github.com/prometheus-operator/prometheus-operator/blob/master/Documentation/design.md#servicemonitor', 'https://github.com/prometheus-operator/prometheus-operator', 'https://grafana.com/grafana/dashboards/15314', 'https://github.com/kubewarden/policy-server/releases/latest/download/kubewarden-dashboard.json', 'https://docs.kubewarden.io/operator-manual/telemetry/metrics/quickstart', 'https://prometheus.io/', 'https://grafana.com/docs/grafana/latest/dashboards/export-import/#import-dashboard']
 canonical_link = https://docs.kubewarden.io/operator-manual/telemetry/metrics/quickstart
 
 === Node ===
@@ -534,7 +534,7 @@ slug = None
 sidebar_label = Open Telemetry Quickstart
 sidebar_position = None
 int_links = []
-ext_links = ['https://opentelemetry.io/docs/', 'https://minikube.sigs.k8s.io/docs/', 'https://cert-manager.io/docs/installation/', 'https://github.com/open-telemetry/opentelemetry-operator#opentelemetry-operator-vs-kubernetes-vs-cert-manager', 'https://github.com/open-telemetry/opentelemetry-operator', 'https://opentelemetry.io/', 'https://docs.kubewarden.io/operator-manual/telemetry/opentelemetry/quickstart', 'https://minikube.sigs.k8s.io/docs/drivers/kvm2/']
+ext_links = ['https://opentelemetry.io/docs/', 'https://opentelemetry.io/', 'https://minikube.sigs.k8s.io/docs/', 'https://minikube.sigs.k8s.io/docs/drivers/kvm2/', 'https://cert-manager.io/docs/installation/', 'https://github.com/open-telemetry/opentelemetry-operator', 'https://github.com/open-telemetry/opentelemetry-operator#opentelemetry-operator-vs-kubernetes-vs-cert-manager', 'https://docs.kubewarden.io/operator-manual/telemetry/opentelemetry/quickstart']
 canonical_link = https://docs.kubewarden.io/operator-manual/telemetry/opentelemetry/quickstart
 
 === Node ===
@@ -564,38 +564,17 @@ slug = None
 sidebar_label = Tracing Quickstart
 sidebar_position = None
 int_links = ['/operator-manual/telemetry/opentelemetry/01-quickstart.md#install-opentelemetry']
-ext_links = ['https://www.jaegertracing.io/', 'https://www.jaegertracing.io/docs/latest/operator/', 'https://github.com/jaegertracing/jaeger-operator', 'https://github.com/jaegertracing/helm-charts/blob/main/charts/jaeger-operator/COMPATIBILITY.md', 'https://docs.kubewarden.io/operator-manual/telemetry/tracing/quickstart', 'https://github.com/kubewarden/safe-labels-policy']
+ext_links = ['https://github.com/kubewarden/safe-labels-policy', 'https://github.com/jaegertracing/helm-charts/blob/main/charts/jaeger-operator/COMPATIBILITY.md', 'https://www.jaegertracing.io/docs/latest/operator/', 'https://www.jaegertracing.io/', 'https://github.com/jaegertracing/jaeger-operator', 'https://docs.kubewarden.io/operator-manual/telemetry/tracing/quickstart']
 canonical_link = https://docs.kubewarden.io/operator-manual/telemetry/tracing/quickstart
 
 === Node ===
 identifier = ui-extension/
 Predecessor = ['operator-manual/']
-Successors = ['/operator-manual/ui-extension/03-tracing.md', '/operator-manual/ui-extension/01-install.md', '/operator-manual/ui-extension/02-metrics.md']
+Successors = ['/operator-manual/ui-extension/01-install.md', '/operator-manual/ui-extension/02-metrics.md', '/operator-manual/ui-extension/03-tracing.md']
 Depth = 3
 === Node data ===
 path = ui-extension/
 full_path = /home/jhk/projects/suse/kubewarden-docs/docs/ui-extension/
-
-=== Node ===
-identifier = /operator-manual/ui-extension/03-tracing.md
-Predecessor = ['ui-extension/']
-Successors = []
-Depth = 4
-=== Node data ===
-path = /operator-manual/ui-extension/03-tracing.md
-full_path = /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/03-tracing.md
-title = None
-description = None
-keywords = None
-doc_persona = None
-doc_type = None
-doc_topic = None
-slug = None
-sidebar_label = None
-sidebar_position = None
-int_links = ['/operator-manual/telemetry/opentelemetry/01-quickstart.md#install-opentelemetry', '/operator-manual/telemetry/tracing/01-quickstart.md#install-jaeger']
-ext_links = ['https://www.jaegertracing.io/', 'https://www.jaegertracing.io/docs/latest/operator/']
-canonical_link = None
 
 === Node ===
 identifier = /operator-manual/ui-extension/01-install.md
@@ -614,8 +593,8 @@ doc_topic = None
 slug = None
 sidebar_label = Quickstart
 sidebar_position = None
-int_links = ['/operator-manual/ui-extension/#airgap-installation', '/operator-manual/ui-extension/03-tracing.md', '/operator-manual/ui-extension/02-metrics.md']
-ext_links = ['https://github.com/kubewarden/helm-charts/tree/main/charts/kubewarden-defaults', 'https://docs.kubewarden.io/operator-manual/ui-extension/install', 'https://ranchermanager.docs.rancher.com/how-to-guides/new-user-guides/kubernetes-resources-setup/secrets', 'https://github.com/rancher/rancher', 'https://artifacthub.io/packages/search?kind=13', 'https://ranchermanager.docs.rancher.com/getting-started/installation-and-upgrade/other-installation-methods/air-gapped-helm-cli-install/publish-images#1-find-the-required-assets-for-your-rancher-version']
+int_links = ['/operator-manual/ui-extension/02-metrics.md', '/operator-manual/ui-extension/#airgap-installation', '/operator-manual/ui-extension/03-tracing.md']
+ext_links = ['https://github.com/rancher/rancher', 'https://docs.kubewarden.io/operator-manual/ui-extension/install', 'https://ranchermanager.docs.rancher.com/getting-started/installation-and-upgrade/other-installation-methods/air-gapped-helm-cli-install/publish-images#1-find-the-required-assets-for-your-rancher-version', 'https://ranchermanager.docs.rancher.com/how-to-guides/new-user-guides/kubernetes-resources-setup/secrets', 'https://github.com/kubewarden/helm-charts/tree/main/charts/kubewarden-defaults', 'https://artifacthub.io/packages/search?kind=13']
 canonical_link = https://docs.kubewarden.io/operator-manual/ui-extension/install
 
 === Node ===
@@ -626,18 +605,39 @@ Depth = 4
 === Node data ===
 path = /operator-manual/ui-extension/02-metrics.md
 full_path = /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/02-metrics.md
-title = None
-description = None
-keywords = None
-doc_persona = None
-doc_type = None
-doc_topic = None
+title = Monitoring
+description = Monitoring and metrics for Kubewarden.
+keywords = ['kubewarden', 'kubernetes', 'user interface extension', 'metrics', 'monitoring']
+doc_persona = ['kubewarden-operator', 'kubewarden-manager']
+doc_type = ['tutorial', 'reference']
+doc_topic = ['operator-manual', 'metrics-and-monitoring']
 slug = None
-sidebar_label = None
+sidebar_label = Monitoring
 sidebar_position = None
-int_links = ['/operator-manual/telemetry/metrics/01-quickstart.md#install-prometheus', '/operator-manual/telemetry/metrics/01-quickstart.md']
+int_links = ['/operator-manual/telemetry/metrics/01-quickstart.md', '/operator-manual/telemetry/metrics/01-quickstart.md#install-prometheus']
 ext_links = ['https://docs.kubewarden.io/operator-manual/ui-extension/metrics']
 canonical_link = https://docs.kubewarden.io/operator-manual/ui-extension/metrics
+
+=== Node ===
+identifier = /operator-manual/ui-extension/03-tracing.md
+Predecessor = ['ui-extension/']
+Successors = []
+Depth = 4
+=== Node data ===
+path = /operator-manual/ui-extension/03-tracing.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/03-tracing.md
+title = Tracing
+description = Tracing for Kubewarden.
+keywords = ['kubewarden', 'kubernetes', 'tracing']
+doc_persona = ['default']
+doc_type = ['explanation', 'tutorial']
+doc_topic = ['operator-manual', 'ui-extension', 'tracing']
+slug = None
+sidebar_label = Tracing
+sidebar_position = None
+int_links = ['/operator-manual/telemetry/opentelemetry/01-quickstart.md#install-opentelemetry', '/operator-manual/telemetry/tracing/01-quickstart.md#install-jaeger']
+ext_links = ['https://www.jaegertracing.io/docs/latest/operator/', 'https://docs.kubewarden.io/operator-manual/ui-extension/tracing', 'https://www.jaegertracing.io/']
+canonical_link = https://docs.kubewarden.io/operator-manual/ui-extension/tracing
 
 === Node ===
 identifier = /operator-manual/01-intro.md
@@ -677,8 +677,8 @@ doc_topic = None
 slug = None
 sidebar_label = Custom Resources Definitions (CRDs)
 sidebar_position = None
-int_links = ['/operator-manual/#policyserverlist', '/operator-manual/#admissionpolicy', '/operator-manual/#policieskubewardeniov1', '/operator-manual/#policystatus', '/operator-manual/#admissionpolicylist', '/operator-manual/#rawextension', '/operator-manual/#clusteradmissionpolicylist', '/operator-manual/#policieskubewardeniov1alpha2', '/operator-manual/#contextawareresource', '/operator-manual/#admissionpolicyspec', '/operator-manual/#clusteradmissionpolicyspec', '/operator-manual/#policyserversecurity', '/operator-manual/#clusteradmissionpolicy', '/operator-manual/#policymode', '/operator-manual/#policyspec', '/operator-manual/#policyserver', '/operator-manual/#policyserverspec']
-ext_links = ['https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.25/#envvar-v1-core', 'https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.25/#failurepolicytype-v1-admissionregistration', 'https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.25/#securitycontext-v1-core', 'https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.25/#labelselector-v1-meta', 'https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.25/#matchpolicytype-v1-admissionregistration', 'https://docs.kubewarden.io/operator-manual/CRDs', 'https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.25/#listmeta-v1-meta', 'https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.25/#sideeffectclass-v1-admissionregistration', 'https://doc.crds.dev/github.com/kubewarden/kubewarden-controller', 'https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.25/#objectmeta-v1-meta', 'https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.25/#podsecuritycontext-v1-core', 'https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.25/#rulewithoperations-v1-admissionregistration']
+int_links = ['/operator-manual/#policyserversecurity', '/operator-manual/#policystatus', '/operator-manual/#policymode', '/operator-manual/#policyserverspec', '/operator-manual/#clusteradmissionpolicylist', '/operator-manual/#policyspec', '/operator-manual/#admissionpolicyspec', '/operator-manual/#policieskubewardeniov1', '/operator-manual/#clusteradmissionpolicy', '/operator-manual/#rawextension', '/operator-manual/#contextawareresource', '/operator-manual/#admissionpolicy', '/operator-manual/#policieskubewardeniov1alpha2', '/operator-manual/#policyserver', '/operator-manual/#clusteradmissionpolicyspec', '/operator-manual/#admissionpolicylist', '/operator-manual/#policyserverlist']
+ext_links = ['https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.25/#matchpolicytype-v1-admissionregistration', 'https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.25/#objectmeta-v1-meta', 'https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.25/#rulewithoperations-v1-admissionregistration', 'https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.25/#envvar-v1-core', 'https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.25/#podsecuritycontext-v1-core', 'https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.25/#sideeffectclass-v1-admissionregistration', 'https://doc.crds.dev/github.com/kubewarden/kubewarden-controller', 'https://docs.kubewarden.io/operator-manual/CRDs', 'https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.25/#listmeta-v1-meta', 'https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.25/#labelselector-v1-meta', 'https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.25/#failurepolicytype-v1-admissionregistration', 'https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.25/#securitycontext-v1-core']
 canonical_link = https://docs.kubewarden.io/operator-manual/CRDs
 
 === Node ===
@@ -699,7 +699,7 @@ slug = None
 sidebar_label = Rancher Fleet
 sidebar_position = None
 int_links = []
-ext_links = ['https://docs.kubewarden.io/quick-start', 'https://fleet.rancher.io/concepts', 'https://github.com/kubewarden/fleet-example', 'https://fleet.rancher.io/ref-fleet-yaml', 'https://docs.kubewarden.io/operator-manual/Rancher-Fleet', 'https://fleet.rancher.io/']
+ext_links = ['https://fleet.rancher.io/concepts', 'https://fleet.rancher.io/ref-fleet-yaml', 'https://docs.kubewarden.io/operator-manual/Rancher-Fleet', 'https://docs.kubewarden.io/quick-start', 'https://github.com/kubewarden/fleet-example', 'https://fleet.rancher.io/']
 canonical_link = https://docs.kubewarden.io/operator-manual/Rancher-Fleet
 
 === Node ===
@@ -720,7 +720,7 @@ slug = None
 sidebar_label = Dependency matrix
 sidebar_position = None
 int_links = []
-ext_links = ['https://opentelemetry.io', 'https://docs.kubewarden.io/operator-manual/dependency-matrix']
+ext_links = ['https://docs.kubewarden.io/operator-manual/dependency-matrix', 'https://opentelemetry.io']
 canonical_link = https://docs.kubewarden.io/operator-manual/dependency-matrix
 
 === Node ===
@@ -766,27 +766,6 @@ ext_links = ['https://docs.kubewarden.io/operator-manual/policies']
 canonical_link = https://docs.kubewarden.io/operator-manual/policies
 
 === Node ===
-identifier = /operator-manual/policy-evaluation-timeout.md
-Predecessor = ['operator-manual/']
-Successors = []
-Depth = 3
-=== Node data ===
-path = /operator-manual/policy-evaluation-timeout.md
-full_path = /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/policy-evaluation-timeout.md
-title = 
-description = None
-keywords = None
-doc_persona = None
-doc_type = None
-doc_topic = None
-slug = None
-sidebar_label = Policy evaluation timeout
-sidebar_position = None
-int_links = ['/writing-policies/go/intro-go.md', '/writing-policies/rego/01-intro-rego.md', '/writing-policies/index.md', '/writing-policies/rust/01-intro-rust.md']
-ext_links = ['https://en.wikipedia.org/wiki/Turing_completeness', 'https://kubernetes.io/docs/reference/access-authn-authz/extensible-admission-controllers/', 'https://en.wikipedia.org/wiki/Webhook', 'https://docs.kubewarden.io/operator-manual/policy-evaluation-timeout', 'https://en.wikipedia.org/wiki/Infinite_loop', 'https://en.wikipedia.org/wiki/Deadlock', 'https://kubernetes.io/docs/reference/access-authn-authz/extensible-admission-controllers/#timeouts', 'https://doc.crds.dev/github.com/kubewarden/kubewarden-controller/policies.kubewarden.io/PolicyServer/v1@v1.4.2']
-canonical_link = https://docs.kubewarden.io/operator-manual/policy-evaluation-timeout
-
-=== Node ===
 identifier = /operator-manual/upgrade-path.md
 Predecessor = ['operator-manual/']
 Successors = []
@@ -827,6 +806,27 @@ sidebar_position = None
 int_links = []
 ext_links = ['https://docs.kubewarden.io/operator-manual/verification-config']
 canonical_link = https://docs.kubewarden.io/operator-manual/verification-config
+
+=== Node ===
+identifier = /operator-manual/policy-evaluation-timeout.md
+Predecessor = ['operator-manual/']
+Successors = []
+Depth = 3
+=== Node data ===
+path = /operator-manual/policy-evaluation-timeout.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/policy-evaluation-timeout.md
+title = 
+description = None
+keywords = None
+doc_persona = None
+doc_type = None
+doc_topic = None
+slug = None
+sidebar_label = Policy evaluation timeout
+sidebar_position = None
+int_links = ['/writing-policies/rego/01-intro-rego.md', '/writing-policies/go/01-intro-go.md', '/writing-policies/rust/01-intro-rust.md', '/writing-policies/index.md']
+ext_links = ['https://kubernetes.io/docs/reference/access-authn-authz/extensible-admission-controllers/', 'https://en.wikipedia.org/wiki/Deadlock', 'https://kubernetes.io/docs/reference/access-authn-authz/extensible-admission-controllers/#timeouts', 'https://en.wikipedia.org/wiki/Infinite_loop', 'https://en.wikipedia.org/wiki/Webhook', 'https://docs.kubewarden.io/operator-manual/policy-evaluation-timeout', 'https://en.wikipedia.org/wiki/Turing_completeness', 'https://doc.crds.dev/github.com/kubewarden/kubewarden-controller/policies.kubewarden.io/PolicyServer/v1@v1.4.2']
+canonical_link = https://docs.kubewarden.io/operator-manual/policy-evaluation-timeout
 
 === Node ===
 identifier = security/
@@ -876,7 +876,7 @@ slug = None
 sidebar_label = Security Disclosure
 sidebar_position = None
 int_links = []
-ext_links = ['https://en.wikipedia.org/wiki/Responsible_disclosure', 'https://docs.kubewarden.io/security/disclosure']
+ext_links = ['https://docs.kubewarden.io/security/disclosure', 'https://en.wikipedia.org/wiki/Responsible_disclosure']
 canonical_link = https://docs.kubewarden.io/security/disclosure
 
 === Node ===
@@ -897,7 +897,7 @@ slug = None
 sidebar_label = Threat Model
 sidebar_position = None
 int_links = []
-ext_links = ['https://docs.kubewarden.io/security/threat-model', 'https://github.com/kubewarden/deprecated-api-versions-policy', 'https://artifacthub.io/packages/kubewarden/capabilities-psp/capabilities-psp', 'https://github.com/kubernetes/community/tree/master/sig-security', 'https://github.com/kubernetes/sig-security/tree/main/sig-security-docs/papers/admission-control']
+ext_links = ['https://artifacthub.io/packages/kubewarden/capabilities-psp/capabilities-psp', 'https://github.com/kubernetes/community/tree/master/sig-security', 'https://docs.kubewarden.io/security/threat-model', 'https://github.com/kubewarden/deprecated-api-versions-policy', 'https://github.com/kubernetes/sig-security/tree/main/sig-security-docs/papers/admission-control']
 canonical_link = https://docs.kubewarden.io/security/threat-model
 
 === Node ===
@@ -918,7 +918,7 @@ slug = None
 sidebar_label = Verifying Kubewarden
 sidebar_position = None
 int_links = []
-ext_links = ['https://docs.sigstore.dev', 'https://github.com/orgs/kubewarden/packages?tab=packages&amp;q=charts', 'https://docs.sigstore.dev/signing/signing_with_blobs/', 'https://docs.kubewarden.io/security/verifying-kubewarden', 'https://github.com/kubewarden/kwctl/releases/', 'https://github.com/cvila84/helm-image']
+ext_links = ['https://docs.sigstore.dev/signing/signing_with_blobs/', 'https://github.com/orgs/kubewarden/packages?tab=packages&amp;q=charts', 'https://docs.kubewarden.io/security/verifying-kubewarden', 'https://github.com/cvila84/helm-image', 'https://github.com/kubewarden/kwctl/releases/', 'https://docs.sigstore.dev']
 canonical_link = https://docs.kubewarden.io/security/verifying-kubewarden
 
 === Node ===
@@ -948,7 +948,7 @@ slug = None
 sidebar_label = Mutating policies
 sidebar_position = None
 int_links = []
-ext_links = ['https://github.com/kubewarden/user-group-psp-policy', 'https://docs.kubewarden.io/tasksDir/mutating-policies']
+ext_links = ['https://docs.kubewarden.io/tasksDir/mutating-policies', 'https://github.com/kubewarden/user-group-psp-policy']
 canonical_link = https://docs.kubewarden.io/tasksDir/mutating-policies
 
 === Node ===
@@ -969,7 +969,7 @@ slug = None
 sidebar_label = Pod Security Admission with KW
 sidebar_position = None
 int_links = ['/tasksDir/psp-migration.md', '/quick-start.md']
-ext_links = ['https://kubernetes.io/docs/concepts/security/pod-security-standards/', 'https://docs.kubewarden.io/tasksDir/pod-security-admission-with-kubewarden', 'https://kubernetes.io/docs/concepts/security/pod-security-admission/', 'https://artifacthub.io/packages/kubewarden/user-group-psp/user-group-psp']
+ext_links = ['https://artifacthub.io/packages/kubewarden/user-group-psp/user-group-psp', 'https://docs.kubewarden.io/tasksDir/pod-security-admission-with-kubewarden', 'https://kubernetes.io/docs/concepts/security/pod-security-standards/', 'https://kubernetes.io/docs/concepts/security/pod-security-admission/']
 canonical_link = https://docs.kubewarden.io/tasksDir/pod-security-admission-with-kubewarden
 
 === Node ===
@@ -990,7 +990,7 @@ slug = None
 sidebar_label = PSP migration
 sidebar_position = None
 int_links = ['/tasksDir/#mapping-kuberwarden-policies-to-psp-fields']
-ext_links = ['https://github.com/kubewarden/selinux-psp-policy', 'https://docs.kubewarden.io/tasksDir/psp-migration', 'https://kubernetes.io/docs/concepts/security/pod-security-policy/#apparmor', 'https://github.com/kubewarden/allowed-fsgroups-psp-policy', 'https://kubernetes.io/docs/concepts/security/pod-security-policy/#privilege-escalation', 'https://github.com/kubewarden/host-namespaces-psp-policy', 'https://kubernetes.io/docs/concepts/security/pod-security-policy/#volumes-and-file-systems', 'https://kubernetes.io/docs/concepts/security/pod-security-policy/#allowedprocmounttypes', 'https://github.com/kubewarden/readonly-root-filesystem-psp-policy', 'https://github.com/kubewarden/flexvolume-drivers-psp-policy', 'https://kubernetes.io/docs/concepts/security/pod-security-policy/#host-namespaces', 'https://kubernetes.io/docs/concepts/security/pod-security-policy/#capabilities', 'https://github.com/kubewarden/capabilities-psp-policy', 'https://github.com/kubewarden/allowed-proc-mount-types-psp-policy', 'https://github.com/kubewarden/hostpaths-psp-policy', 'https://github.com/appvia/psp-migration', 'https://github.com/kubewarden/utils/blob/main/scripts/psp-to-kubewarden', 'https://kubernetes.io/docs/concepts/security/pod-security-policy/#flexvolume-drivers', 'https://github.com/kubewarden/sysctl-psp-policy', 'https://github.com/kubewarden/pod-privileged-policy', 'https://github.com/kubewarden/allow-privilege-escalation-psp-policy', 'https://github.com/kubewarden/volumes-psp-policy', 'https://github.com/kubewarden/user-group-psp-policy', 'https://kubernetes.io/docs/concepts/security/pod-security-policy/#selinux', 'https://github.com/kubewarden/seccomp-psp-policy', 'https://kubernetes.io/docs/concepts/security/pod-security-policy/#privileged', 'https://kubernetes.io/docs/concepts/security/pod-security-policy/', 'https://github.com/kubewarden/apparmor-psp-policy', 'https://kubernetes.io/docs/concepts/security/pod-security-policy/#users-and-groups']
+ext_links = ['https://github.com/kubewarden/readonly-root-filesystem-psp-policy', 'https://docs.kubewarden.io/tasksDir/psp-migration', 'https://github.com/kubewarden/volumes-psp-policy', 'https://github.com/kubewarden/host-namespaces-psp-policy', 'https://github.com/kubewarden/pod-privileged-policy', 'https://github.com/kubewarden/hostpaths-psp-policy', 'https://github.com/kubewarden/selinux-psp-policy', 'https://github.com/kubewarden/sysctl-psp-policy', 'https://github.com/kubewarden/apparmor-psp-policy', 'https://github.com/kubewarden/flexvolume-drivers-psp-policy', 'https://kubernetes.io/docs/concepts/security/pod-security-policy/#allowedprocmounttypes', 'https://kubernetes.io/docs/concepts/security/pod-security-policy/#users-and-groups', 'https://github.com/kubewarden/capabilities-psp-policy', 'https://kubernetes.io/docs/concepts/security/pod-security-policy/#volumes-and-file-systems', 'https://kubernetes.io/docs/concepts/security/pod-security-policy/#selinux', 'https://github.com/kubewarden/allowed-proc-mount-types-psp-policy', 'https://kubernetes.io/docs/concepts/security/pod-security-policy/', 'https://kubernetes.io/docs/concepts/security/pod-security-policy/#host-namespaces', 'https://github.com/kubewarden/utils/blob/main/scripts/psp-to-kubewarden', 'https://kubernetes.io/docs/concepts/security/pod-security-policy/#privileged', 'https://github.com/appvia/psp-migration', 'https://kubernetes.io/docs/concepts/security/pod-security-policy/#capabilities', 'https://github.com/kubewarden/allowed-fsgroups-psp-policy', 'https://github.com/kubewarden/seccomp-psp-policy', 'https://kubernetes.io/docs/concepts/security/pod-security-policy/#flexvolume-drivers', 'https://github.com/kubewarden/allow-privilege-escalation-psp-policy', 'https://kubernetes.io/docs/concepts/security/pod-security-policy/#apparmor', 'https://github.com/kubewarden/user-group-psp-policy', 'https://kubernetes.io/docs/concepts/security/pod-security-policy/#privilege-escalation']
 canonical_link = https://docs.kubewarden.io/tasksDir/psp-migration
 
 === Node ===
@@ -1040,8 +1040,8 @@ doc_topic = None
 slug = None
 sidebar_label = Policy authors
 sidebar_position = None
-int_links = ['/testing-policies/writing-policies/go/intro-go.md', '/testing-policies/writing-policies/rust/01-intro-rust.md', '/testing-policies/writing-policies/go/e2e-tests.md']
-ext_links = ['https://github.com/kubewarden/kwctl', 'https://github.com/bats-core/bats-core', 'https://github.com/kubewarden/ingress-policy', 'https://docs.kubewarden.io/testing-policies/policy-authors', 'https://github.com/kubewarden/psp-apparmor']
+int_links = ['/testing-policies/writing-policies/go/01-intro-go.md', '/testing-policies/writing-policies/rust/01-intro-rust.md', '/testing-policies/writing-policies/go/05-e2e-tests.md']
+ext_links = ['https://github.com/kubewarden/psp-apparmor', 'https://github.com/kubewarden/ingress-policy', 'https://docs.kubewarden.io/testing-policies/policy-authors', 'https://github.com/kubewarden/kwctl', 'https://github.com/bats-core/bats-core']
 canonical_link = https://docs.kubewarden.io/testing-policies/policy-authors
 
 === Node ===
@@ -1061,14 +1061,14 @@ doc_topic = None
 slug = None
 sidebar_label = Cluster operators
 sidebar_position = None
-int_links = ['/testing-policies/writing-policies/go/e2e-tests.md']
-ext_links = ['https://github.com/kubewarden/kwctl', 'https://github.com/bats-core/bats-core', 'https://github.com/kubewarden/psp-apparmor#configuration', 'https://github.com/kubewarden/kwctl/releases', 'https://github.com/kubewarden/psp-apparmor', 'https://docs.kubewarden.io/testing-policies/cluster-operators']
+int_links = ['/testing-policies/writing-policies/go/05-e2e-tests.md']
+ext_links = ['https://github.com/kubewarden/psp-apparmor', 'https://docs.kubewarden.io/testing-policies/cluster-operators', 'https://github.com/kubewarden/kwctl/releases', 'https://github.com/kubewarden/kwctl', 'https://github.com/kubewarden/psp-apparmor#configuration', 'https://github.com/bats-core/bats-core']
 canonical_link = https://docs.kubewarden.io/testing-policies/cluster-operators
 
 === Node ===
 identifier = writing-policies/
 Predecessor = ['/']
-Successors = ['rego/', 'rust/', 'spec/', 'wasi/', 'go/', '/writing-policies/dotnet.md', '/writing-policies/index.md', '/writing-policies/metadata.md', '/writing-policies/other-languages.md', '/writing-policies/swift.md', '/writing-policies/typescript.md']
+Successors = ['rego/', 'rust/', 'spec/', 'wasi/', '/writing-policies/dotnet.md', '/writing-policies/index.md', '/writing-policies/metadata.md', '/writing-policies/other-languages.md', '/writing-policies/swift.md', '/writing-policies/typescript.md', 'go/']
 Depth = 2
 === Node data ===
 path = writing-policies/
@@ -1131,7 +1131,7 @@ slug = None
 sidebar_label = Create a New Policy
 sidebar_position = None
 int_links = ['/writing-policies/rego/open-policy-agent/create-policy']
-ext_links = ['https://docs.kubewarden.io/writing-policies/rego/gatekeeper/create-policy', 'https://github.com/kubewarden/gatekeeper-policy-template']
+ext_links = ['https://github.com/kubewarden/gatekeeper-policy-template', 'https://docs.kubewarden.io/writing-policies/rego/gatekeeper/create-policy']
 canonical_link = https://docs.kubewarden.io/writing-policies/rego/gatekeeper/create-policy
 
 === Node ===
@@ -1224,7 +1224,7 @@ slug = None
 sidebar_label = Create a New Policy
 sidebar_position = None
 int_links = []
-ext_links = ['https://www.openpolicyagent.org/docs/latest/policy-language/', 'https://github.com/kubewarden/opa-policy-template', 'https://github.com/kubewarden/kwctl/releases', 'https://docs.kubewarden.io/writing-policies/rego/open-policy-agent/create-policy', 'https://github.com/open-policy-agent/opa/releases']
+ext_links = ['https://www.openpolicyagent.org/docs/latest/policy-language/', 'https://github.com/kubewarden/opa-policy-template', 'https://docs.kubewarden.io/writing-policies/rego/open-policy-agent/create-policy', 'https://github.com/kubewarden/kwctl/releases', 'https://github.com/open-policy-agent/opa/releases']
 canonical_link = https://docs.kubewarden.io/writing-policies/rego/open-policy-agent/create-policy
 
 === Node ===
@@ -1286,7 +1286,7 @@ doc_topic = None
 slug = None
 sidebar_label = Raw policies
 sidebar_position = None
-int_links = ['/howtos/raw-policies.md', '/writing-policies/metadata.md', '/writing-policies/rego/open-policy-agent/02-create-policy.md']
+int_links = ['/writing-policies/rego/open-policy-agent/02-create-policy.md', '/writing-policies/metadata.md', '/howtos/raw-policies.md']
 ext_links = ['https://github.com/kubewarden/opa-policy-template', 'https://docs.kubewarden.io/writing-policies/rego/open-policy-agent/raw-policies']
 canonical_link = https://docs.kubewarden.io/writing-policies/rego/open-policy-agent/raw-policies
 
@@ -1308,7 +1308,7 @@ slug = None
 sidebar_label = Introduction to Rego
 sidebar_position = None
 int_links = ['/writing-policies/rego/writing-policies/rego/open-policy-agent/01-intro.md', '/writing-policies/rego/writing-policies/rego/gatekeeper/01-intro.md', '/writing-policies/spec/05-context-aware-policies.md']
-ext_links = ['https://github.com/open-policy-agent/kube-mgmt', 'https://www.openpolicyagent.org/docs/latest/policy-language/', 'https://docs.kubewarden.io/writing-policies/rego/intro-rego']
+ext_links = ['https://www.openpolicyagent.org/docs/latest/policy-language/', 'https://docs.kubewarden.io/writing-policies/rego/intro-rego', 'https://github.com/open-policy-agent/kube-mgmt']
 canonical_link = https://docs.kubewarden.io/writing-policies/rego/intro-rego
 
 === Node ===
@@ -1329,7 +1329,7 @@ slug = None
 sidebar_label = Builtin Support
 sidebar_position = None
 int_links = []
-ext_links = ['https://docs.kubewarden.io/writing-policies/rego/builtin-support', 'https://www.openpolicyagent.org/docs/latest/policy-reference/#built-in-functions', 'https://github.com/kubewarden/policy-evaluator/issues/56']
+ext_links = ['https://www.openpolicyagent.org/docs/latest/policy-reference/#built-in-functions', 'https://github.com/kubewarden/policy-evaluator/issues/56', 'https://docs.kubewarden.io/writing-policies/rego/builtin-support']
 canonical_link = https://docs.kubewarden.io/writing-policies/rego/builtin-support
 
 === Node ===
@@ -1359,7 +1359,7 @@ slug = None
 sidebar_label = None
 sidebar_position = None
 int_links = []
-ext_links = ['https://github.com/kubewarden/rust-policy-template', 'https://github.com/cargo-generate/cargo-generate', 'https://rust-lang.github.io/rustup/installation/index.html', 'https://www.rust-lang.org/', 'https://github.com/rust-lang/rustup', 'https://docs.kubewarden.io/writing-policies/rust/intro-rust', 'https://docs.rs/kubewarden-policy-sdk/0.1.0', 'https://crates.io/crates/kubewarden-policy-sdk']
+ext_links = ['https://github.com/kubewarden/rust-policy-template', 'https://docs.kubewarden.io/writing-policies/rust/intro-rust', 'https://crates.io/crates/kubewarden-policy-sdk', 'https://github.com/rust-lang/rustup', 'https://docs.rs/kubewarden-policy-sdk/0.1.0', 'https://www.rust-lang.org/', 'https://rust-lang.github.io/rustup/installation/index.html', 'https://github.com/cargo-generate/cargo-generate']
 canonical_link = https://docs.kubewarden.io/writing-policies/rust/intro-rust
 
 === Node ===
@@ -1380,7 +1380,7 @@ slug = None
 sidebar_label = Creating a policy
 sidebar_position = None
 int_links = []
-ext_links = ['https://docs.kubewarden.io/writing-policies/rust/create-policy', 'https://pkgs.org/download/openssl-devel', 'https://github.com/kubewarden/rust-policy-template', 'https://docs.github.com/en/packages/working-with-a-github-packages-registry/enabling-improved-container-support-with-the-container-registry#enabling-the-container-registry-for-your-personal-account']
+ext_links = ['https://github.com/kubewarden/rust-policy-template', 'https://docs.kubewarden.io/writing-policies/rust/create-policy', 'https://pkgs.org/download/openssl-devel', 'https://docs.github.com/en/packages/working-with-a-github-packages-registry/enabling-improved-container-support-with-the-container-registry#enabling-the-container-registry-for-your-personal-account']
 canonical_link = https://docs.kubewarden.io/writing-policies/rust/create-policy
 
 === Node ===
@@ -1443,7 +1443,7 @@ slug = None
 sidebar_label = Creating a new mutation policy
 sidebar_position = None
 int_links = []
-ext_links = ['https://docs.kubewarden.io/writing-policies/rust/mutation-policy', 'https://docs.rs/kubewarden-policy-sdk/0.1.0/kubewarden_policy_sdk/fn.accept_request.html', 'https://docs.rs/kubewarden-policy-sdk/0.1.0/kubewarden_policy_sdk/fn.mutate_request.html']
+ext_links = ['https://docs.rs/kubewarden-policy-sdk/0.1.0/kubewarden_policy_sdk/fn.mutate_request.html', 'https://docs.kubewarden.io/writing-policies/rust/mutation-policy', 'https://docs.rs/kubewarden-policy-sdk/0.1.0/kubewarden_policy_sdk/fn.accept_request.html']
 canonical_link = https://docs.kubewarden.io/writing-policies/rust/mutation-policy
 
 === Node ===
@@ -1464,7 +1464,7 @@ slug = None
 sidebar_label = Logging
 sidebar_position = None
 int_links = []
-ext_links = ['https://docs.kubewarden.io/writing-policies/rust/logging', 'https://github.com/slog-rs/slog', 'https://docs.rs/slog/2.7.0/slog/macro.log.html', 'https://docs.rs/slog/2.7.0/slog/index.html']
+ext_links = ['https://github.com/slog-rs/slog', 'https://docs.rs/slog/2.7.0/slog/macro.log.html', 'https://docs.rs/slog/2.7.0/slog/index.html', 'https://docs.kubewarden.io/writing-policies/rust/logging']
 canonical_link = https://docs.kubewarden.io/writing-policies/rust/logging
 
 === Node ===
@@ -1505,7 +1505,7 @@ doc_topic = None
 slug = None
 sidebar_label = Raw policies
 sidebar_position = None
-int_links = ['/writing-policies/rust/05-mutation-policy.md', '/writing-policies/metadata.md', '/howtos/raw-policies.md']
+int_links = ['/howtos/raw-policies.md', '/writing-policies/metadata.md', '/writing-policies/rust/05-mutation-policy.md']
 ext_links = ['https://github.com/kubewarden/rust-policy-template', 'https://docs.kubewarden.io/writing-policies/rust/raw-policies']
 canonical_link = https://docs.kubewarden.io/writing-policies/rust/raw-policies
 
@@ -1566,7 +1566,7 @@ slug = None
 sidebar_label = Signature Verifier Policies
 sidebar_position = None
 int_links = ['/distributing-policies/secure-supply-chain.md']
-ext_links = ['https://docs.kubewarden.io/writing-policies/spec/host-capabilities/signature-verifier-policies', 'https://www.sigstore.dev/', 'https://github.com/kubewarden/verify-image-signatures']
+ext_links = ['https://www.sigstore.dev/', 'https://github.com/kubewarden/verify-image-signatures', 'https://docs.kubewarden.io/writing-policies/spec/host-capabilities/signature-verifier-policies']
 canonical_link = https://docs.kubewarden.io/writing-policies/spec/host-capabilities/signature-verifier-policies
 
 === Node ===
@@ -1692,7 +1692,7 @@ slug = None
 sidebar_label = Policy Settings
 sidebar_position = None
 int_links = []
-ext_links = ['https://docs.kubewarden.io/writing-policies/spec/settings', 'https://github.com/kubewarden/psp-capabilities', 'https://github.com/chimera-kube/policy-server']
+ext_links = ['https://docs.kubewarden.io/writing-policies/spec/settings', 'https://github.com/chimera-kube/policy-server', 'https://github.com/kubewarden/psp-capabilities']
 canonical_link = https://docs.kubewarden.io/writing-policies/spec/settings
 
 === Node ===
@@ -1713,7 +1713,7 @@ slug = None
 sidebar_label = Validating Policies
 sidebar_position = None
 int_links = ['/howtos/raw-policies.md']
-ext_links = ['https://docs.kubewarden.io/writing-policies/spec/validating-policies', 'https://godoc.org/k8s.io/api/admission/v1#AdmissionReview', 'https://godoc.org/k8s.io/api/admission/v1#AdmissionRequest']
+ext_links = ['https://docs.kubewarden.io/writing-policies/spec/validating-policies', 'https://godoc.org/k8s.io/api/admission/v1#AdmissionRequest', 'https://godoc.org/k8s.io/api/admission/v1#AdmissionReview']
 canonical_link = https://docs.kubewarden.io/writing-policies/spec/validating-policies
 
 === Node ===
@@ -1755,38 +1755,17 @@ slug = None
 sidebar_label = Context Aware Policies
 sidebar_position = None
 int_links = ['/writing-policies/spec/docs/writing-policies/spec/host-capabilities/06-kubernetes.md']
-ext_links = ['https://pkg.go.dev/github.com/kubewarden/policy-sdk-go', 'https://docs.kubewarden.io/writing-policies/spec/context-aware-policies', 'https://github.com/open-policy-agent/kube-mgmt', 'https://doc.crds.dev/github.com/kubewarden/kubewarden-controller/policies.kubewarden.io/ClusterAdmissionPolicy/v1#spec-contextAwareResources', 'https://docs.rs/kubewarden-policy-sdk/0.8.7/kubewarden_policy_sdk']
+ext_links = ['https://pkg.go.dev/github.com/kubewarden/policy-sdk-go', 'https://doc.crds.dev/github.com/kubewarden/kubewarden-controller/policies.kubewarden.io/ClusterAdmissionPolicy/v1#spec-contextAwareResources', 'https://docs.rs/kubewarden-policy-sdk/0.8.7/kubewarden_policy_sdk', 'https://github.com/open-policy-agent/kube-mgmt', 'https://docs.kubewarden.io/writing-policies/spec/context-aware-policies']
 canonical_link = https://docs.kubewarden.io/writing-policies/spec/context-aware-policies
 
 === Node ===
 identifier = wasi/
 Predecessor = ['writing-policies/']
-Successors = ['/writing-policies/wasi/01-intro-wasi.md', '/writing-policies/wasi/02-raw-policies.md']
+Successors = ['/writing-policies/wasi/02-raw-policies.md', '/writing-policies/wasi/01-intro-wasi.md']
 Depth = 3
 === Node data ===
 path = wasi/
 full_path = /home/jhk/projects/suse/kubewarden-docs/docs/wasi/
-
-=== Node ===
-identifier = /writing-policies/wasi/01-intro-wasi.md
-Predecessor = ['wasi/']
-Successors = []
-Depth = 4
-=== Node data ===
-path = /writing-policies/wasi/01-intro-wasi.md
-full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/wasi/01-intro-wasi.md
-title = WASI
-description = Using WASI to develop Kubewarden policies.
-keywords = ['kubewarden', 'kubernetes', 'wasi']
-doc_persona = ['kubewarden-developer']
-doc_type = ['how-to', 'explanation']
-doc_topic = ['kubewarden', 'writing-policies', 'wasi']
-slug = None
-sidebar_label = None
-sidebar_position = None
-int_links = ['/writing-policies/go/intro-go.md', '/writing-policies/spec/01-intro-spec.md', '/writing-policies/spec/03-validating-policies.md', '/writing-policies/spec/04-mutating-policies.md', '/writing-policies/spec/host-capabilities/01-intro-host-capabilities.md', '/writing-policies/spec/02-settings.md', '/explanations/context-aware-policies.md']
-ext_links = ['https://github.com/kubewarden/go-wasi-policy-template', 'https://wasi.dev/', 'https://github.com/kyverno/kyverno/', 'https://github.com/golang/go/issues/42372', 'https://github.com/wapc', 'https://github.com/google/cel-go', 'https://docs.kubewarden.io/writing-policies/wasi/intro-wasi']
-canonical_link = https://docs.kubewarden.io/writing-policies/wasi/intro-wasi
 
 === Node ===
 identifier = /writing-policies/wasi/02-raw-policies.md
@@ -1805,228 +1784,30 @@ doc_topic = ['kubewarden', 'writing-policies', 'raw-policies']
 slug = None
 sidebar_label = Raw policies
 sidebar_position = None
-int_links = ['/writing-policies/wasi/01-intro-wasi.md', '/writing-policies/metadata.md', '/howtos/raw-policies.md']
+int_links = ['/howtos/raw-policies.md', '/writing-policies/metadata.md', '/writing-policies/wasi/01-intro-wasi.md']
 ext_links = ['https://github.com/kubewarden/go-wasi-policy-template', 'https://docs.kubewarden.io/writing-policies/wasi/raw-policies']
 canonical_link = https://docs.kubewarden.io/writing-policies/wasi/raw-policies
 
 === Node ===
-identifier = go/
-Predecessor = ['writing-policies/']
-Successors = ['/writing-policies/go/automate.md', '/writing-policies/go/distribute.md', '/writing-policies/go/e2e-tests.md', '/writing-policies/go/intro-go.md', '/writing-policies/go/logging.md', '/writing-policies/go/policy-settings.md', '/writing-policies/go/raw-policies.md', '/writing-policies/go/scaffold.md', '/writing-policies/go/validation-with-queries.md', '/writing-policies/go/validation.md']
-Depth = 3
-=== Node data ===
-path = go/
-full_path = /home/jhk/projects/suse/kubewarden-docs/docs/go/
-
-=== Node ===
-identifier = /writing-policies/go/intro-go.md
-Predecessor = ['go/']
+identifier = /writing-policies/wasi/01-intro-wasi.md
+Predecessor = ['wasi/']
 Successors = []
 Depth = 4
 === Node data ===
-path = /writing-policies/go/intro-go.md
-full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/intro-go.md
-title = Writing policies in Go
-description = A tutorial introduction to writing policies in Go.
-keywords = ['kubewarden', 'kubernetes', 'writing policies in Go']
+path = /writing-policies/wasi/01-intro-wasi.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/wasi/01-intro-wasi.md
+title = WASI
+description = Using WASI to develop Kubewarden policies.
+keywords = ['kubewarden', 'kubernetes', 'wasi']
 doc_persona = ['kubewarden-developer']
-doc_type = ['tutorial']
-doc_topic = ['kubewarden', 'writing-policies', 'go', 'introduction']
+doc_type = ['how-to', 'explanation']
+doc_topic = ['kubewarden', 'writing-policies', 'wasi']
 slug = None
-sidebar_label = Writing policies in Go
-sidebar_position = 10
-int_links = ['/writing-policies/go/testing-policies/01-intro.md']
-ext_links = ['https://github.com/kubewarden/policy-sdk-go', 'https://docs.kubewarden.io/writing-policies/go/intro-go', 'https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io', 'https://tinygo.org/', 'https://en.wikipedia.org/wiki/Set_(abstract_data_type)', 'https://github.com/bats-core/bats-core', 'https://github.com/deckarep/golang-set', 'https://tinygo.org/getting-started/', 'https://hub.docker.com/r/tinygo/tinygo-dev', 'https://github.com/kubewarden/kwctl/releases', 'https://github.com/kubewarden/k8s-objects', 'https://github.com/kubewarden/go-policy-template', 'https://tinygo.org/lang-support/', 'https://wapc.io', 'https://hub.docker.com/r/tinygo/tinygo', 'https://github.com/tidwall/gjson']
-canonical_link = https://docs.kubewarden.io/writing-policies/go/intro-go
-
-=== Node ===
-identifier = /writing-policies/go/scaffold.md
-Predecessor = ['go/']
-Successors = []
-Depth = 4
-=== Node data ===
-path = /writing-policies/go/scaffold.md
-full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/scaffold.md
-title = Creating a new validation policy
-description = Creating a new validation policy for Kubewarden using Go.
-keywords = ['kubewarden', 'kubernetes', 'writing policies in Go', 'new validation policy']
-doc_persona = ['kubewarden-developer']
-doc_type = ['tutorial']
-doc_topic = ['kubewarden', 'writing-policies', 'go', 'creating a new validation policy']
-slug = None
-sidebar_label = New validation policy
-sidebar_position = 20
-int_links = []
-ext_links = ['https://docs.kubewarden.io/writing-policies/go/scaffold', 'https://github.com/kubewarden/go-policy-template', 'https://github.com/bats-core/bats-core']
-canonical_link = https://docs.kubewarden.io/writing-policies/go/scaffold
-
-=== Node ===
-identifier = /writing-policies/go/policy-settings.md
-Predecessor = ['go/']
-Successors = []
-Depth = 4
-=== Node data ===
-path = /writing-policies/go/policy-settings.md
-full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/policy-settings.md
-title = Defining policy settings
-description = Defining policy setting for a Kubewarden policy written in Go.
-keywords = ['kubewarden', 'kubernetes', 'defining policy settings', 'Go']
-doc_persona = ['kubewarden-developer']
-doc_type = ['tutorial']
-doc_topic = ['kubewarden', 'writing-policies', 'go', 'defining-policy-settings']
-slug = None
-sidebar_label = Defining policy settings
-sidebar_position = 30
-int_links = ['/writing-policies/go/writing-policies/index.md#the-validate_settings-entry-point', '/writing-policies/go/writing-policies/index.md#the-validationrequest-object']
-ext_links = ['https://github.com/kubewarden/policy-sdk-go', 'https://docs.kubewarden.io/writing-policies/go/policy-settings', 'https://github.com/deckarep/golang-set', 'https://pkg.go.dev/github.com/kubewarden/policy-sdk-go@v0.2.1/protocol#ValidationRequest', 'https://github.com/WebAssembly/threads', 'https://pkg.go.dev/github.com/deckarep/golang-set?utm_source=godoc#NewThreadUnsafeSet']
-canonical_link = https://docs.kubewarden.io/writing-policies/go/policy-settings
-
-=== Node ===
-identifier = /writing-policies/go/validation.md
-Predecessor = ['go/']
-Successors = []
-Depth = 4
-=== Node data ===
-path = /writing-policies/go/validation.md
-full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/validation.md
-title = Writing the validation logic
-description = A tutorial on writing validation logic for a Kubewarden policy using Go.
-keywords = ['kubewarden', 'kubernetes', 'writing policies', 'golang', 'go']
-doc_persona = ['kubewarden-developer']
-doc_type = ['tutorial']
-doc_topic = ['kubewarden', 'writing-policies', 'golang', 'validation-logic']
-slug = None
-sidebar_label = Validation logic
-sidebar_position = 40
-int_links = ['/writing-policies/go/validation-with-queries', '/writing-policies/spec/validating-policies']
-ext_links = ['https://stedolan.github.io/jq/', 'https://docs.kubewarden.io/writing-policies/go/validation']
-canonical_link = https://docs.kubewarden.io/writing-policies/go/validation
-
-=== Node ===
-identifier = /writing-policies/go/e2e-tests.md
-Predecessor = ['go/']
-Successors = []
-Depth = 4
-=== Node data ===
-path = /writing-policies/go/e2e-tests.md
-full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/e2e-tests.md
-title = End-to-end testing
-description = A tutorial introduction to end-to-end testing for writing Kubewarden policies in the Go language.
-keywords = ['kubewarden', 'kubernetes', 'writing policies', 'end-to-end testing', 'golang', 'go']
-doc_persona = ['kubewarden-developer']
-doc_type = ['tutorial']
-doc_topic = ['kubewarden', 'writing-policies', 'golang', 'end-to-end-testing']
-slug = None
-sidebar_label = End-to-end testing
-sidebar_position = 50
-int_links = ['/writing-policies/go/testing-policies/01-intro.md']
-ext_links = ['https://docs.kubewarden.io/writing-policies/go/e2e-tests', 'https://github.com/kubewarden/kwctl/releases', 'https://github.com/bats-core/bats-core']
-canonical_link = https://docs.kubewarden.io/writing-policies/go/e2e-tests
-
-=== Node ===
-identifier = /writing-policies/go/logging.md
-Predecessor = ['go/']
-Successors = []
-Depth = 4
-=== Node data ===
-path = /writing-policies/go/logging.md
-full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/logging.md
-title = Logging
-description = A tutorial introduction to logging when using Go to write a Kubewarden policy.
-keywords = ['kubewarden', 'kubernetes', 'writing policies', 'golang', 'go', 'logging']
-doc_persona = ['kubewarden-developer']
-doc_type = ['tutorial']
-doc_topic = ['kubewarden', 'writing-policies', 'golang', 'logging']
-slug = None
-sidebar_label = Logging
-sidebar_position = 60
-int_links = []
-ext_links = ['https://www.jaegertracing.io/', 'https://pkg.go.dev/github.com/francoispqt/onelog?utm_source=godoc', 'https://docs.kubewarden.io/writing-policies/go/logging', 'https://github.com/francoispqt/onelog', 'https://github.com/francoispqt/onelog#benchmarks']
-canonical_link = https://docs.kubewarden.io/writing-policies/go/logging
-
-=== Node ===
-identifier = /writing-policies/go/automate.md
-Predecessor = ['go/']
-Successors = []
-Depth = 4
-=== Node data ===
-path = /writing-policies/go/automate.md
-full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/automate.md
-title = Integrating with GitHub Actions
-description = Integrating with GitHub actions when developing policies for Kubewarden in Go.
-keywords = ['kubewarden', 'kubernetes', 'github', 'integration']
-doc_persona = ['kubewarden-developer']
-doc_type = ['tutorial']
-doc_topic = ['kubewarden', 'writing-policies', 'golang', 'github-action-integration']
-slug = None
-sidebar_label = GitHub Actions
-sidebar_position = 70
-int_links = []
-ext_links = ['https://docs.kubewarden.io/writing-policies/go/automate']
-canonical_link = https://docs.kubewarden.io/writing-policies/go/automate
-
-=== Node ===
-identifier = /writing-policies/go/distribute.md
-Predecessor = ['go/']
-Successors = []
-Depth = 4
-=== Node data ===
-path = /writing-policies/go/distribute.md
-full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/distribute.md
-title = Distributing policy
-description = Distributing Kubewarden policies developed with Go.
-keywords = ['kubewarden', 'kubernetes', 'distributing kubewarden policies']
-doc_persona = ['kubewarden-developer', 'kubewarden-operator']
-doc_type = ['tutorial']
-doc_topic = ['kubewarden', 'writing-policies', 'go', 'distributing-policies']
-slug = None
-sidebar_label = Distributing policy
-sidebar_position = 80
-int_links = ['/writing-policies/go/distributing-policies.md']
-ext_links = ['https://docs.kubewarden.io/writing-policies/go/distribute', 'https://github.com/kubewarden/safe-labels-policy']
-canonical_link = https://docs.kubewarden.io/writing-policies/go/distribute
-
-=== Node ===
-identifier = /writing-policies/go/validation-with-queries.md
-Predecessor = ['go/']
-Successors = []
-Depth = 4
-=== Node data ===
-path = /writing-policies/go/validation-with-queries.md
-full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/validation-with-queries.md
-title = Validation using JSON queries
-description = Validation using JSON queries with Kubewarden policies in Go.
-keywords = ['kubewarden', 'kubernetes', 'validation using JSON queries']
-doc_persona = ['kubewarden-developer']
-doc_type = ['tutorial']
-doc_topic = ['kubewarden', 'writing-policies', 'golang', 'validation-using-json']
-slug = None
-sidebar_label = Validation using JSON queries
-sidebar_position = 90
-int_links = ['/writing-policies/go/validation']
-ext_links = ['https://docs.kubewarden.io/writing-policies/go/validation-with-queries', 'https://github.com/tidwall/gjson']
-canonical_link = https://docs.kubewarden.io/writing-policies/go/validation-with-queries
-
-=== Node ===
-identifier = /writing-policies/go/raw-policies.md
-Predecessor = ['go/']
-Successors = []
-Depth = 4
-=== Node data ===
-path = /writing-policies/go/raw-policies.md
-full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/raw-policies.md
-title = Writing raw policies
-description = Writing raw Kubewarden policies using Go.
-keywords = ['kubewarden', 'kubernetes', 'writing policies', 'raw', 'go']
-doc_persona = ['kubewarden-developer']
-doc_type = ['tutorial']
-doc_topic = ['kubewarden', 'writing-policies', 'golang', 'raw-policies']
-slug = None
-sidebar_label = Raw policies
-sidebar_position = 100
-int_links = ['/writing-policies/metadata.md', '/howtos/raw-policies.md', '/writing-policies/go/validation.md']
-ext_links = ['https://docs.kubewarden.io/writing-policies/go/raw-policies', 'https://github.com/kubewarden/go-policy-template']
-canonical_link = https://docs.kubewarden.io/writing-policies/go/raw-policies
+sidebar_label = None
+sidebar_position = None
+int_links = ['/writing-policies/spec/host-capabilities/01-intro-host-capabilities.md', '/writing-policies/spec/02-settings.md', '/writing-policies/spec/03-validating-policies.md', '/writing-policies/go/01-intro-go.md', '/writing-policies/spec/01-intro-spec.md', '/explanations/context-aware-policies.md', '/writing-policies/spec/04-mutating-policies.md']
+ext_links = ['https://github.com/kubewarden/go-wasi-policy-template', 'https://github.com/wapc', 'https://docs.kubewarden.io/writing-policies/wasi/intro-wasi', 'https://wasi.dev/', 'https://github.com/kyverno/kyverno/', 'https://github.com/golang/go/issues/42372', 'https://github.com/google/cel-go']
+canonical_link = https://docs.kubewarden.io/writing-policies/wasi/intro-wasi
 
 === Node ===
 identifier = /writing-policies/dotnet.md
@@ -2046,7 +1827,7 @@ slug = None
 sidebar_label = C#
 sidebar_position = None
 int_links = []
-ext_links = ['https://github.com/kubewarden/policy-sdk-dotnet', 'https://www.nuget.org/packages/KubernetesClient.Models', 'https://github.com/kubewarden/policy-sdk-dotnet/tree/main/example', 'https://github.com/SteveSandersonMS/dotnet-wasi-sdk', 'https://github.com/kubewarden/policy-sdk-dotnet/issues', 'https://docs.kubewarden.io/writing-policies/dotnet']
+ext_links = ['https://github.com/SteveSandersonMS/dotnet-wasi-sdk', 'https://docs.kubewarden.io/writing-policies/dotnet', 'https://github.com/kubewarden/policy-sdk-dotnet/tree/main/example', 'https://www.nuget.org/packages/KubernetesClient.Models', 'https://github.com/kubewarden/policy-sdk-dotnet', 'https://github.com/kubewarden/policy-sdk-dotnet/issues']
 canonical_link = https://docs.kubewarden.io/writing-policies/dotnet
 
 === Node ===
@@ -2067,7 +1848,7 @@ slug = None
 sidebar_label = Writing Policies
 sidebar_position = None
 int_links = []
-ext_links = ['https://en.wikipedia.org/wiki/Plug-in_%28computing%29', 'https://webassembly.org/', 'https://github.com/wapc', 'https://github.com/appcypher/awesome-wasm-langs', 'https://github.com/kubewarden/policy-server', 'https://docs.kubewarden.io/writing-policies/index']
+ext_links = ['https://webassembly.org/', 'https://github.com/kubewarden/policy-server', 'https://github.com/wapc', 'https://en.wikipedia.org/wiki/Plug-in_%28computing%29', 'https://github.com/appcypher/awesome-wasm-langs', 'https://docs.kubewarden.io/writing-policies/index']
 canonical_link = https://docs.kubewarden.io/writing-policies/index
 
 === Node ===
@@ -2087,7 +1868,7 @@ doc_topic = ['kubewarden', 'writing-polices', 'policy-metadata']
 slug = None
 sidebar_label = Policy metadata
 sidebar_position = None
-int_links = ['/distributing-policies.md', '/explanations/audit-scanner#limitations', '/howtos/raw-policies.md']
+int_links = ['/explanations/audit-scanner#limitations', '/distributing-policies.md', '/howtos/raw-policies.md']
 ext_links = ['https://docs.kubewarden.io/writing-policies/metadata']
 canonical_link = https://docs.kubewarden.io/writing-policies/metadata
 
@@ -2130,7 +1911,7 @@ slug = None
 sidebar_label = Swift
 sidebar_position = None
 int_links = []
-ext_links = ['https://github.com/kubewarden/pod-runtime-class-policy/tree/swift-implementation', 'https://swiftwasm.org/', 'https://github.com/kubewarden/policy-sdk-swift', 'https://github.com/kubewarden/swift-policy-template', 'https://swift.org/', 'https://docs.kubewarden.io/writing-policies/swift']
+ext_links = ['https://swift.org/', 'https://github.com/kubewarden/pod-runtime-class-policy/tree/swift-implementation', 'https://github.com/kubewarden/swift-policy-template', 'https://docs.kubewarden.io/writing-policies/swift', 'https://github.com/kubewarden/policy-sdk-swift', 'https://swiftwasm.org/']
 canonical_link = https://docs.kubewarden.io/writing-policies/swift
 
 === Node ===
@@ -2151,8 +1932,227 @@ slug = None
 sidebar_label = Typescript
 sidebar_position = None
 int_links = []
-ext_links = ['https://www.typescriptlang.org/', 'https://github.com/AssemblyScript/assemblyscript/issues/292', 'https://www.assemblyscript.org/', 'https://docs.kubewarden.io/writing-policies/typescript', 'https://github.com/kubewarden/pod-privileged-policy/tree/assemblyscript-implementation']
+ext_links = ['https://github.com/kubewarden/pod-privileged-policy/tree/assemblyscript-implementation', 'https://docs.kubewarden.io/writing-policies/typescript', 'https://www.assemblyscript.org/', 'https://www.typescriptlang.org/', 'https://github.com/AssemblyScript/assemblyscript/issues/292']
 canonical_link = https://docs.kubewarden.io/writing-policies/typescript
+
+=== Node ===
+identifier = go/
+Predecessor = ['writing-policies/']
+Successors = ['/writing-policies/go/01-intro-go.md', '/writing-policies/go/02-scaffold.md', '/writing-policies/go/03-policy-settings.md', '/writing-policies/go/04-validation.md', '/writing-policies/go/05-e2e-tests.md', '/writing-policies/go/06-logging.md', '/writing-policies/go/07-automate.md', '/writing-policies/go/08-distribute.md', '/writing-policies/go/09-validation-with-queries.md', '/writing-policies/go/10-raw-policies.md']
+Depth = 3
+=== Node data ===
+path = go/
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/go/
+
+=== Node ===
+identifier = /writing-policies/go/01-intro-go.md
+Predecessor = ['go/']
+Successors = []
+Depth = 4
+=== Node data ===
+path = /writing-policies/go/01-intro-go.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/01-intro-go.md
+title = Writing policies in Go
+description = A tutorial introduction to writing policies in Go.
+keywords = ['kubewarden', 'kubernetes', 'writing policies in Go']
+doc_persona = ['kubewarden-developer']
+doc_type = ['tutorial']
+doc_topic = ['kubewarden', 'writing-policies', 'go', 'introduction']
+slug = None
+sidebar_label = Writing policies in Go
+sidebar_position = 10
+int_links = ['/writing-policies/go/testing-policies/01-intro.md']
+ext_links = ['https://hub.docker.com/r/tinygo/tinygo', 'https://en.wikipedia.org/wiki/Set_(abstract_data_type)', 'https://hub.docker.com/r/tinygo/tinygo-dev', 'https://github.com/kubewarden/policy-sdk-go', 'https://wapc.io', 'https://github.com/tidwall/gjson', 'https://github.com/kubewarden/go-policy-template', 'https://docs.kubewarden.io/writing-policies/go/intro-go', 'https://github.com/kubewarden/kwctl/releases', 'https://tinygo.org/', 'https://github.com/kubewarden/k8s-objects', 'https://github.com/deckarep/golang-set', 'https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io', 'https://tinygo.org/getting-started/', 'https://tinygo.org/lang-support/', 'https://github.com/bats-core/bats-core']
+canonical_link = https://docs.kubewarden.io/writing-policies/go/intro-go
+
+=== Node ===
+identifier = /writing-policies/go/02-scaffold.md
+Predecessor = ['go/']
+Successors = []
+Depth = 4
+=== Node data ===
+path = /writing-policies/go/02-scaffold.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/02-scaffold.md
+title = Creating a new validation policy
+description = Creating a new validation policy for Kubewarden using Go.
+keywords = ['kubewarden', 'kubernetes', 'writing policies in Go', 'new validation policy']
+doc_persona = ['kubewarden-developer']
+doc_type = ['tutorial']
+doc_topic = ['kubewarden', 'writing-policies', 'go', 'creating a new validation policy']
+slug = None
+sidebar_label = New validation policy
+sidebar_position = 20
+int_links = []
+ext_links = ['https://github.com/kubewarden/go-policy-template', 'https://docs.kubewarden.io/writing-policies/go/scaffold', 'https://github.com/bats-core/bats-core']
+canonical_link = https://docs.kubewarden.io/writing-policies/go/scaffold
+
+=== Node ===
+identifier = /writing-policies/go/03-policy-settings.md
+Predecessor = ['go/']
+Successors = []
+Depth = 4
+=== Node data ===
+path = /writing-policies/go/03-policy-settings.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/03-policy-settings.md
+title = Defining policy settings
+description = Defining policy setting for a Kubewarden policy written in Go.
+keywords = ['kubewarden', 'kubernetes', 'defining policy settings', 'Go']
+doc_persona = ['kubewarden-developer']
+doc_type = ['tutorial']
+doc_topic = ['kubewarden', 'writing-policies', 'go', 'defining-policy-settings']
+slug = None
+sidebar_label = Defining policy settings
+sidebar_position = 30
+int_links = ['/writing-policies/go/writing-policies/index.md#the-validationrequest-object', '/writing-policies/go/writing-policies/index.md#the-validate_settings-entry-point']
+ext_links = ['https://github.com/kubewarden/policy-sdk-go', 'https://docs.kubewarden.io/writing-policies/go/policy-settings', 'https://github.com/WebAssembly/threads', 'https://github.com/deckarep/golang-set', 'https://pkg.go.dev/github.com/deckarep/golang-set?utm_source=godoc#NewThreadUnsafeSet', 'https://pkg.go.dev/github.com/kubewarden/policy-sdk-go@v0.2.1/protocol#ValidationRequest']
+canonical_link = https://docs.kubewarden.io/writing-policies/go/policy-settings
+
+=== Node ===
+identifier = /writing-policies/go/04-validation.md
+Predecessor = ['go/']
+Successors = []
+Depth = 4
+=== Node data ===
+path = /writing-policies/go/04-validation.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/04-validation.md
+title = Writing the validation logic
+description = A tutorial on writing validation logic for a Kubewarden policy using Go.
+keywords = ['kubewarden', 'kubernetes', 'writing policies', 'golang', 'go']
+doc_persona = ['kubewarden-developer']
+doc_type = ['tutorial']
+doc_topic = ['kubewarden', 'writing-policies', 'golang', 'validation-logic']
+slug = None
+sidebar_label = Validation logic
+sidebar_position = 40
+int_links = ['/writing-policies/go/validation-with-queries', '/writing-policies/spec/validating-policies']
+ext_links = ['https://docs.kubewarden.io/writing-policies/go/validation', 'https://stedolan.github.io/jq/']
+canonical_link = https://docs.kubewarden.io/writing-policies/go/validation
+
+=== Node ===
+identifier = /writing-policies/go/05-e2e-tests.md
+Predecessor = ['go/']
+Successors = []
+Depth = 4
+=== Node data ===
+path = /writing-policies/go/05-e2e-tests.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/05-e2e-tests.md
+title = End-to-end testing
+description = A tutorial introduction to end-to-end testing for writing Kubewarden policies in the Go language.
+keywords = ['kubewarden', 'kubernetes', 'writing policies', 'end-to-end testing', 'golang', 'go']
+doc_persona = ['kubewarden-developer']
+doc_type = ['tutorial']
+doc_topic = ['kubewarden', 'writing-policies', 'golang', 'end-to-end-testing']
+slug = None
+sidebar_label = End-to-end testing
+sidebar_position = 50
+int_links = ['/writing-policies/go/testing-policies/01-intro.md']
+ext_links = ['https://github.com/kubewarden/kwctl/releases', 'https://docs.kubewarden.io/writing-policies/go/e2e-tests', 'https://github.com/bats-core/bats-core']
+canonical_link = https://docs.kubewarden.io/writing-policies/go/e2e-tests
+
+=== Node ===
+identifier = /writing-policies/go/06-logging.md
+Predecessor = ['go/']
+Successors = []
+Depth = 4
+=== Node data ===
+path = /writing-policies/go/06-logging.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/06-logging.md
+title = Logging
+description = A tutorial introduction to logging when using Go to write a Kubewarden policy.
+keywords = ['kubewarden', 'kubernetes', 'writing policies', 'golang', 'go', 'logging']
+doc_persona = ['kubewarden-developer']
+doc_type = ['tutorial']
+doc_topic = ['kubewarden', 'writing-policies', 'golang', 'logging']
+slug = None
+sidebar_label = Logging
+sidebar_position = 60
+int_links = []
+ext_links = ['https://github.com/francoispqt/onelog', 'https://github.com/francoispqt/onelog#benchmarks', 'https://www.jaegertracing.io/', 'https://docs.kubewarden.io/writing-policies/go/logging', 'https://pkg.go.dev/github.com/francoispqt/onelog?utm_source=godoc']
+canonical_link = https://docs.kubewarden.io/writing-policies/go/logging
+
+=== Node ===
+identifier = /writing-policies/go/07-automate.md
+Predecessor = ['go/']
+Successors = []
+Depth = 4
+=== Node data ===
+path = /writing-policies/go/07-automate.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/07-automate.md
+title = Integrating with GitHub Actions
+description = Integrating with GitHub actions when developing policies for Kubewarden in Go.
+keywords = ['kubewarden', 'kubernetes', 'github', 'integration']
+doc_persona = ['kubewarden-developer']
+doc_type = ['tutorial']
+doc_topic = ['kubewarden', 'writing-policies', 'golang', 'github-action-integration']
+slug = None
+sidebar_label = GitHub Actions
+sidebar_position = 70
+int_links = []
+ext_links = ['https://docs.kubewarden.io/writing-policies/go/automate']
+canonical_link = https://docs.kubewarden.io/writing-policies/go/automate
+
+=== Node ===
+identifier = /writing-policies/go/08-distribute.md
+Predecessor = ['go/']
+Successors = []
+Depth = 4
+=== Node data ===
+path = /writing-policies/go/08-distribute.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/08-distribute.md
+title = Distributing policy
+description = Distributing Kubewarden policies developed with Go.
+keywords = ['kubewarden', 'kubernetes', 'distributing kubewarden policies']
+doc_persona = ['kubewarden-developer', 'kubewarden-operator']
+doc_type = ['tutorial']
+doc_topic = ['kubewarden', 'writing-policies', 'go', 'distributing-policies']
+slug = None
+sidebar_label = Distributing policy
+sidebar_position = 80
+int_links = ['/writing-policies/go/distributing-policies.md']
+ext_links = ['https://github.com/kubewarden/safe-labels-policy', 'https://docs.kubewarden.io/writing-policies/go/distribute']
+canonical_link = https://docs.kubewarden.io/writing-policies/go/distribute
+
+=== Node ===
+identifier = /writing-policies/go/09-validation-with-queries.md
+Predecessor = ['go/']
+Successors = []
+Depth = 4
+=== Node data ===
+path = /writing-policies/go/09-validation-with-queries.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/09-validation-with-queries.md
+title = Validation using JSON queries
+description = Validation using JSON queries with Kubewarden policies in Go.
+keywords = ['kubewarden', 'kubernetes', 'validation using JSON queries']
+doc_persona = ['kubewarden-developer']
+doc_type = ['tutorial']
+doc_topic = ['kubewarden', 'writing-policies', 'golang', 'validation-using-json']
+slug = None
+sidebar_label = Validation using JSON queries
+sidebar_position = 90
+int_links = ['/writing-policies/go/validation']
+ext_links = ['https://github.com/tidwall/gjson', 'https://docs.kubewarden.io/writing-policies/go/validation-with-queries']
+canonical_link = https://docs.kubewarden.io/writing-policies/go/validation-with-queries
+
+=== Node ===
+identifier = /writing-policies/go/10-raw-policies.md
+Predecessor = ['go/']
+Successors = []
+Depth = 4
+=== Node data ===
+path = /writing-policies/go/10-raw-policies.md
+full_path = /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/10-raw-policies.md
+title = Writing raw policies
+description = Writing raw Kubewarden policies using Go.
+keywords = ['kubewarden', 'kubernetes', 'writing policies', 'raw', 'go']
+doc_persona = ['kubewarden-developer']
+doc_type = ['tutorial']
+doc_topic = ['kubewarden', 'writing-policies', 'golang', 'raw-policies']
+slug = None
+sidebar_label = Raw policies
+sidebar_position = 100
+int_links = ['/howtos/raw-policies.md', '/writing-policies/go/04-validation.md', '/writing-policies/metadata.md']
+ext_links = ['https://github.com/kubewarden/go-policy-template', 'https://docs.kubewarden.io/writing-policies/go/raw-policies']
+canonical_link = https://docs.kubewarden.io/writing-policies/go/raw-policies
 
 === Node ===
 identifier = /architecture.md
@@ -2171,8 +2171,8 @@ doc_topic = None
 slug = None
 sidebar_label = Architecture
 sidebar_position = None
-int_links = ['/writing-policies/index.md', '/writing-policies/spec/01-intro-spec.md', '/explanations/audit-scanner/audit-scanner.md']
-ext_links = ['https://github.com/kubewarden/audit-scanner', 'https://kubernetes.io/docs/reference/access-authn-authz/extensible-admission-controllers/', 'https://docs.kubewarden.io/architecture', 'https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/', 'https://kubernetes.io/docs/reference/access-authn-authz/extensible-admission-controllers/#webhook-request-and-response', 'https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/', 'https://github.com/kubewarden/policy-server', 'https://github.com/kubewarden/kubewarden-controller']
+int_links = ['/writing-policies/index.md', '/explanations/audit-scanner/audit-scanner.md', '/writing-policies/spec/01-intro-spec.md']
+ext_links = ['https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/', 'https://github.com/kubewarden/policy-server', 'https://docs.kubewarden.io/architecture', 'https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/', 'https://github.com/kubewarden/kubewarden-controller', 'https://kubernetes.io/docs/reference/access-authn-authz/extensible-admission-controllers/#webhook-request-and-response', 'https://kubernetes.io/docs/reference/access-authn-authz/extensible-admission-controllers/', 'https://github.com/kubewarden/audit-scanner']
 canonical_link = https://docs.kubewarden.io/architecture
 
 === Node ===
@@ -2193,7 +2193,7 @@ slug = None
 sidebar_label = Distributing policies
 sidebar_position = None
 int_links = ['/&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#110;&#97;&#109;&#101;&#46;&#115;&#117;&#114;&#110;&#97;&#109;&#101;&#64;&#101;&#120;&#97;&#109;&#112;&#108;&#101;&#46;&#99;&#111;&#109;']
-ext_links = ['https://github.com/kubewarden/kwctl', 'https://azure.microsoft.com/en-us/products/container-registry/', 'https://docs.kubewarden.io/distributing-policies', 'https://github.com/opencontainers/image-spec', 'https://ghcr.io', 'https://github.com/distribution/distribution', 'https://cloud.google.com/artifact-registry/', 'https://aws.amazon.com/ecr/']
+ext_links = ['https://github.com/distribution/distribution', 'https://cloud.google.com/artifact-registry/', 'https://ghcr.io', 'https://aws.amazon.com/ecr/', 'https://docs.kubewarden.io/distributing-policies', 'https://github.com/opencontainers/image-spec', 'https://github.com/kubewarden/kwctl', 'https://azure.microsoft.com/en-us/products/container-registry/']
 canonical_link = https://docs.kubewarden.io/distributing-policies
 
 === Node ===
@@ -2214,7 +2214,7 @@ slug = /
 sidebar_label = Introduction
 sidebar_position = None
 int_links = []
-ext_links = ['https://github.com/opencontainers/artifacts', 'https://webassembly.org/', 'https://cncf.io', 'https://docs.kubewarden.io', 'https://www.rancher.com/']
+ext_links = ['https://cncf.io', 'https://webassembly.org/', 'https://www.rancher.com/', 'https://github.com/opencontainers/artifacts', 'https://docs.kubewarden.io']
 canonical_link = https://docs.kubewarden.io
 
 === Node ===
@@ -2234,8 +2234,8 @@ doc_topic = None
 slug = None
 sidebar_label = Quick start
 sidebar_position = None
-int_links = ['/home/jhk/projects/suse/kubewarden-docs/howtos/audit-scanner', '/operator-manual/CRDs.md', '/writing-policies/rego/01-intro-rego.md']
-ext_links = ['https://doc.crds.dev/github.com/kubewarden/kubewarden-controller', 'https://github.com/opencontainers/artifacts', 'https://github.com/topics/kubewarden-policy', 'https://docs.kubewarden.io/quick-start', 'https://github.com/kubewarden/kubewarden-controller/releases/tag/v0.4.0', 'https://charts.kubewarden.io/#configuration', 'https://github.com/kubewarden/kubewarden-controller/blob/main/docs/crds/README.asciidoc', 'https://cert-manager.io/docs/installation/', 'https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens', 'https://github.com/kubewarden/policy-server/pkgs/container/policy-server', 'https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.20/#validatingwebhookconfiguration-v1-admissionregistration-k8s-io', 'https://github.com/kubewarden/pod-privileged-policy', 'https://artifacthub.io/packages/search?kind=13']
+int_links = ['/home/jhk/projects/suse/kubewarden-docs/howtos/audit-scanner', '/writing-policies/rego/01-intro-rego.md', '/operator-manual/CRDs.md']
+ext_links = ['https://github.com/kubewarden/policy-server/pkgs/container/policy-server', 'https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens', 'https://doc.crds.dev/github.com/kubewarden/kubewarden-controller', 'https://cert-manager.io/docs/installation/', 'https://charts.kubewarden.io/#configuration', 'https://docs.kubewarden.io/quick-start', 'https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.20/#validatingwebhookconfiguration-v1-admissionregistration-k8s-io', 'https://github.com/topics/kubewarden-policy', 'https://github.com/opencontainers/artifacts', 'https://github.com/kubewarden/kubewarden-controller/releases/tag/v0.4.0', 'https://artifacthub.io/packages/search?kind=13', 'https://github.com/kubewarden/kubewarden-controller/blob/main/docs/crds/README.asciidoc', 'https://github.com/kubewarden/pod-privileged-policy']
 canonical_link = https://docs.kubewarden.io/quick-start
 
 === Node ===
@@ -2255,7 +2255,7 @@ doc_topic = None
 slug = None
 sidebar_label = Common tasks
 sidebar_position = None
-int_links = ['/writing-policies', '/quick-start.md#install', '/&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#107;&#117;&#98;&#101;&#119;&#97;&#114;&#100;&#101;&#110;&#64;&#115;&#117;&#115;&#101;&#46;&#100;&#101;', '/quick-start.md#example-enforce-your-first-policy', '/distributing-policies']
-ext_links = ['https://github.com/kubewarden/kwctl', 'https://www.rust-lang.org/tools/install', 'https://hub.kubewarden.io', 'https://www.kubewarden.io/blog/2021/06/kwctl-intro-for-kubernetes-administrators/', 'https://artifacthub.io/packages/search?kind=13&amp;sort=relevance&amp;page=1', 'https://docs.kubewarden.io/tasks', 'https://github.com/kubewarden/kwctl/releases', 'https://www.kubewarden.io/blog/2022/07/artifact-hub-supports-kubewarden/', 'https://kubernetes.io/blog/2021/04/06/podsecuritypolicy-deprecation-past-present-and-future/', 'https://github.com/opencontainers/distribution-spec/blob/main/spec.md', 'https://kubernetes.io/docs/reference/']
+int_links = ['/writing-policies', '/quick-start.md#example-enforce-your-first-policy', '/distributing-policies', '/&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#107;&#117;&#98;&#101;&#119;&#97;&#114;&#100;&#101;&#110;&#64;&#115;&#117;&#115;&#101;&#46;&#100;&#101;', '/quick-start.md#install']
+ext_links = ['https://artifacthub.io/packages/search?kind=13&amp;sort=relevance&amp;page=1', 'https://kubernetes.io/blog/2021/04/06/podsecuritypolicy-deprecation-past-present-and-future/', 'https://www.kubewarden.io/blog/2022/07/artifact-hub-supports-kubewarden/', 'https://hub.kubewarden.io', 'https://kubernetes.io/docs/reference/', 'https://www.rust-lang.org/tools/install', 'https://github.com/opencontainers/distribution-spec/blob/main/spec.md', 'https://docs.kubewarden.io/tasks', 'https://github.com/kubewarden/kwctl/releases', 'https://github.com/kubewarden/kwctl', 'https://www.kubewarden.io/blog/2021/06/kwctl-intro-for-kubernetes-administrators/']
 canonical_link = https://docs.kubewarden.io/tasks
 

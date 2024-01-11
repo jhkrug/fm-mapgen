@@ -34,18 +34,18 @@ Frontmatter Map
     │   │   └── tracing/
     │   │       └── 01-quickstart.md
     │   ├── ui-extension/
-    │   │   ├── 03-tracing.md
     │   │   ├── 01-install.md
-    │   │   └── 02-metrics.md
+    │   │   ├── 02-metrics.md
+    │   │   └── 03-tracing.md
     │   ├── 01-intro.md
     │   ├── CRDs.md
     │   ├── Rancher-Fleet.md
     │   ├── dependency-matrix.md
     │   ├── monitor-mode.md
     │   ├── policies.md
-    │   ├── policy-evaluation-timeout.md
     │   ├── upgrade-path.md
-    │   └── verification-config.md
+    │   ├── verification-config.md
+    │   └── policy-evaluation-timeout.md
     ├── security/
     │   ├── 01-intro.md
     │   ├── disclosure.md
@@ -97,25 +97,25 @@ Frontmatter Map
     │   │   ├── 04-mutating-policies.md
     │   │   └── 05-context-aware-policies.md
     │   ├── wasi/
-    │   │   ├── 01-intro-wasi.md
-    │   │   └── 02-raw-policies.md
-    │   ├── go/
-    │   │   ├── intro-go.md
-    │   │   ├── scaffold.md
-    │   │   ├── policy-settings.md
-    │   │   ├── validation.md
-    │   │   ├── e2e-tests.md
-    │   │   ├── logging.md
-    │   │   ├── automate.md
-    │   │   ├── distribute.md
-    │   │   ├── validation-with-queries.md
-    │   │   └── raw-policies.md
+    │   │   ├── 02-raw-policies.md
+    │   │   └── 01-intro-wasi.md
     │   ├── dotnet.md
     │   ├── index.md
     │   ├── metadata.md
     │   ├── other-languages.md
     │   ├── swift.md
-    │   └── typescript.md
+    │   ├── typescript.md
+    │   └── go/
+    │       ├── 01-intro-go.md
+    │       ├── 02-scaffold.md
+    │       ├── 03-policy-settings.md
+    │       ├── 04-validation.md
+    │       ├── 05-e2e-tests.md
+    │       ├── 06-logging.md
+    │       ├── 07-automate.md
+    │       ├── 08-distribute.md
+    │       ├── 09-validation-with-queries.md
+    │       └── 10-raw-policies.md
     ├── architecture.md
     ├── distributing-policies.md
     ├── introduction.md

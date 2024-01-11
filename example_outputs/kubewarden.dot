@@ -36,9 +36,9 @@ digraph tree {
 	"/operator-manual/dependency-matrix.md" [label="dependency-matrix.md", shape=circle]
 	"/operator-manual/monitor-mode.md" [label="monitor-mode.md", shape=circle]
 	"/operator-manual/policies.md" [label="policies.md", shape=circle]
-	"/operator-manual/policy-evaluation-timeout.md" [label="policy-evaluation-timeout.md", shape=circle]
 	"/operator-manual/upgrade-path.md" [label="upgrade-path.md", shape=circle]
 	"/operator-manual/verification-config.md" [label="verification-config.md", shape=circle]
+	"/operator-manual/policy-evaluation-timeout.md" [label="policy-evaluation-timeout.md", shape=circle]
 	"/security/01-intro.md" [label="01-intro.md", shape=circle]
 	"/security/disclosure.md" [label="disclosure.md", shape=circle]
 	"/security/threat-model.md" [label="threat-model.md", shape=circle]
@@ -53,13 +53,13 @@ digraph tree {
 	"rust/" [label="rust/", shape=circle]
 	"spec/" [label="spec/", shape=circle]
 	"wasi/" [label="wasi/", shape=circle]
-	"go/" [label="go/", shape=circle]
 	"/writing-policies/dotnet.md" [label="dotnet.md", shape=circle]
 	"/writing-policies/index.md" [label="index.md", shape=circle]
 	"/writing-policies/metadata.md" [label="metadata.md", shape=circle]
 	"/writing-policies/other-languages.md" [label="other-languages.md", shape=circle]
 	"/writing-policies/swift.md" [label="swift.md", shape=circle]
 	"/writing-policies/typescript.md" [label="typescript.md", shape=circle]
+	"go/" [label="go/", shape=circle]
 	"/explanations/audit-scanner/audit-scanner.md" [label="audit-scanner.md", shape=circle]
 	"/explanations/audit-scanner/limitations.md" [label="limitations.md", shape=circle]
 	"/explanations/audit-scanner/policy-reports.md" [label="policy-reports.md", shape=circle]
@@ -70,9 +70,9 @@ digraph tree {
 	"metrics/" [label="metrics/", shape=circle]
 	"opentelemetry/" [label="opentelemetry/", shape=circle]
 	"tracing/" [label="tracing/", shape=circle]
-	"/operator-manual/ui-extension/03-tracing.md" [label="03-tracing.md", shape=circle]
 	"/operator-manual/ui-extension/01-install.md" [label="01-install.md", shape=circle]
 	"/operator-manual/ui-extension/02-metrics.md" [label="02-metrics.md", shape=circle]
+	"/operator-manual/ui-extension/03-tracing.md" [label="03-tracing.md", shape=circle]
 	"gatekeeper/" [label="gatekeeper/", shape=circle]
 	"open-policy-agent/" [label="open-policy-agent/", shape=circle]
 	"/writing-policies/rego/01-intro-rego.md" [label="01-intro-rego.md", shape=circle]
@@ -91,18 +91,18 @@ digraph tree {
 	"/writing-policies/spec/03-validating-policies.md" [label="03-validating-policies.md", shape=circle]
 	"/writing-policies/spec/04-mutating-policies.md" [label="04-mutating-policies.md", shape=circle]
 	"/writing-policies/spec/05-context-aware-policies.md" [label="05-context-aware-policies.md", shape=circle]
-	"/writing-policies/wasi/01-intro-wasi.md" [label="01-intro-wasi.md", shape=circle]
 	"/writing-policies/wasi/02-raw-policies.md" [label="02-raw-policies.md", shape=circle]
-	"/writing-policies/go/intro-go.md" [label="intro-go.md", shape=circle]
-	"/writing-policies/go/scaffold.md" [label="scaffold.md", shape=circle]
-	"/writing-policies/go/policy-settings.md" [label="policy-settings.md", shape=circle]
-	"/writing-policies/go/validation.md" [label="validation.md", shape=circle]
-	"/writing-policies/go/e2e-tests.md" [label="e2e-tests.md", shape=circle]
-	"/writing-policies/go/logging.md" [label="logging.md", shape=circle]
-	"/writing-policies/go/automate.md" [label="automate.md", shape=circle]
-	"/writing-policies/go/distribute.md" [label="distribute.md", shape=circle]
-	"/writing-policies/go/validation-with-queries.md" [label="validation-with-queries.md", shape=circle]
-	"/writing-policies/go/raw-policies.md" [label="raw-policies.md", shape=circle]
+	"/writing-policies/wasi/01-intro-wasi.md" [label="01-intro-wasi.md", shape=circle]
+	"/writing-policies/go/01-intro-go.md" [label="01-intro-go.md", shape=circle]
+	"/writing-policies/go/02-scaffold.md" [label="02-scaffold.md", shape=circle]
+	"/writing-policies/go/03-policy-settings.md" [label="03-policy-settings.md", shape=circle]
+	"/writing-policies/go/04-validation.md" [label="04-validation.md", shape=circle]
+	"/writing-policies/go/05-e2e-tests.md" [label="05-e2e-tests.md", shape=circle]
+	"/writing-policies/go/06-logging.md" [label="06-logging.md", shape=circle]
+	"/writing-policies/go/07-automate.md" [label="07-automate.md", shape=circle]
+	"/writing-policies/go/08-distribute.md" [label="08-distribute.md", shape=circle]
+	"/writing-policies/go/09-validation-with-queries.md" [label="09-validation-with-queries.md", shape=circle]
+	"/writing-policies/go/10-raw-policies.md" [label="10-raw-policies.md", shape=circle]
 	"/operator-manual/telemetry/metrics/01-quickstart.md" [label="01-quickstart.md", shape=circle]
 	"/operator-manual/telemetry/metrics/02-reference.md" [label="02-reference.md", shape=circle]
 	"/operator-manual/telemetry/opentelemetry/01-quickstart.md" [label="01-quickstart.md", shape=circle]
@@ -159,9 +159,9 @@ digraph tree {
 	"operator-manual/" -> "/operator-manual/dependency-matrix.md"
 	"operator-manual/" -> "/operator-manual/monitor-mode.md"
 	"operator-manual/" -> "/operator-manual/policies.md"
-	"operator-manual/" -> "/operator-manual/policy-evaluation-timeout.md"
 	"operator-manual/" -> "/operator-manual/upgrade-path.md"
 	"operator-manual/" -> "/operator-manual/verification-config.md"
+	"operator-manual/" -> "/operator-manual/policy-evaluation-timeout.md"
 	"security/" -> "/security/01-intro.md"
 	"security/" -> "/security/disclosure.md"
 	"security/" -> "/security/threat-model.md"
@@ -176,13 +176,13 @@ digraph tree {
 	"writing-policies/" -> "rust/"
 	"writing-policies/" -> "spec/"
 	"writing-policies/" -> "wasi/"
-	"writing-policies/" -> "go/"
 	"writing-policies/" -> "/writing-policies/dotnet.md"
 	"writing-policies/" -> "/writing-policies/index.md"
 	"writing-policies/" -> "/writing-policies/metadata.md"
 	"writing-policies/" -> "/writing-policies/other-languages.md"
 	"writing-policies/" -> "/writing-policies/swift.md"
 	"writing-policies/" -> "/writing-policies/typescript.md"
+	"writing-policies/" -> "go/"
 	"audit-scanner/" -> "/explanations/audit-scanner/audit-scanner.md"
 	"audit-scanner/" -> "/explanations/audit-scanner/limitations.md"
 	"audit-scanner/" -> "/explanations/audit-scanner/policy-reports.md"
@@ -193,9 +193,9 @@ digraph tree {
 	"telemetry/" -> "metrics/"
 	"telemetry/" -> "opentelemetry/"
 	"telemetry/" -> "tracing/"
-	"ui-extension/" -> "/operator-manual/ui-extension/03-tracing.md"
 	"ui-extension/" -> "/operator-manual/ui-extension/01-install.md"
 	"ui-extension/" -> "/operator-manual/ui-extension/02-metrics.md"
+	"ui-extension/" -> "/operator-manual/ui-extension/03-tracing.md"
 	"rego/" -> "gatekeeper/"
 	"rego/" -> "open-policy-agent/"
 	"rego/" -> "/writing-policies/rego/01-intro-rego.md"
@@ -214,18 +214,18 @@ digraph tree {
 	"spec/" -> "/writing-policies/spec/03-validating-policies.md"
 	"spec/" -> "/writing-policies/spec/04-mutating-policies.md"
 	"spec/" -> "/writing-policies/spec/05-context-aware-policies.md"
-	"wasi/" -> "/writing-policies/wasi/01-intro-wasi.md"
 	"wasi/" -> "/writing-policies/wasi/02-raw-policies.md"
-	"go/" -> "/writing-policies/go/automate.md"
-	"go/" -> "/writing-policies/go/distribute.md"
-	"go/" -> "/writing-policies/go/e2e-tests.md"
-	"go/" -> "/writing-policies/go/intro-go.md"
-	"go/" -> "/writing-policies/go/logging.md"
-	"go/" -> "/writing-policies/go/policy-settings.md"
-	"go/" -> "/writing-policies/go/raw-policies.md"
-	"go/" -> "/writing-policies/go/scaffold.md"
-	"go/" -> "/writing-policies/go/validation-with-queries.md"
-	"go/" -> "/writing-policies/go/validation.md"
+	"wasi/" -> "/writing-policies/wasi/01-intro-wasi.md"
+	"go/" -> "/writing-policies/go/01-intro-go.md"
+	"go/" -> "/writing-policies/go/02-scaffold.md"
+	"go/" -> "/writing-policies/go/03-policy-settings.md"
+	"go/" -> "/writing-policies/go/04-validation.md"
+	"go/" -> "/writing-policies/go/05-e2e-tests.md"
+	"go/" -> "/writing-policies/go/06-logging.md"
+	"go/" -> "/writing-policies/go/07-automate.md"
+	"go/" -> "/writing-policies/go/08-distribute.md"
+	"go/" -> "/writing-policies/go/09-validation-with-queries.md"
+	"go/" -> "/writing-policies/go/10-raw-policies.md"
 	"metrics/" -> "/operator-manual/telemetry/metrics/01-quickstart.md"
 	"metrics/" -> "/operator-manual/telemetry/metrics/02-reference.md"
 	"opentelemetry/" -> "/operator-manual/telemetry/opentelemetry/01-quickstart.md"
