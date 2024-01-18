@@ -88,8 +88,9 @@ class KmNodeData():
 def create_folder_structure_json(path, km, root_dir):
     # Initialize the result dictionary with folder
     # name, type, and an empty list for children
-    result = {'name': os.path.basename(path),
-              'type': 'folder', 'children': []}
+    name = os.path.basename(path)
+    result = {"name": "/" + name,
+              "type": "folder", "successor": []}
 
     # Check if the path is a directory
     if not os.path.isdir(path):
@@ -102,18 +103,20 @@ def create_folder_structure_json(path, km, root_dir):
 
         # If the entry is a directory, recursively call the function
         if os.path.isdir(entry_path):
-            result['children'].append(
+            result["successor"].append(
                 create_folder_structure_json(entry_path, km, root_dir))
         # If the entry is a file, create a dictionary with name and type
         else:
             rel_path = entry_path.replace(root_dir, "")
-            n: treelib.Node = km.get_node(rel_path)
+            nd: treelib.Node = km.get_node(rel_path)
             try:
-                nd = n.data.__dict__
-                result['children'].append(
-                    {'name': entry, 'type': 'file', 'data': nd})
+                ndc = nd.data.__dict__.copy()
+                ndc.pop("path")
+                ndc.pop("full_path")
+                result["successor"].append(
+                    {"name": rel_path, "type": "file", "data": ndc})
             except:
-                result['children'].append({'name': entry, 'type': 'file'})
+                result["successor"].append({"name": rel_path, "type": "file"})
 
     return result
 

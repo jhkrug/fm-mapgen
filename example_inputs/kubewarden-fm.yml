@@ -1,7 +1,7 @@
 ---
 - docstore-data:
     root-dir: /home/jhk/projects/suse/kubewarden-docs/docs
-    gen-date: 2024-01-18T17:03:36+01:00
+    gen-date: 2024-01-18T22:05:02+01:00
 - path: /home/jhk/projects/suse/kubewarden-docs/docs/contribution-guide/contributing.md
   frontmatter:
     sidebar_label: Contributing to documentation

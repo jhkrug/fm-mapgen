@@ -1,25 +1,23 @@
 {
-  "name": "docs",
+  "name": "/docs",
   "type": "folder",
-  "children": [
+  "successor": [
     {
-      "name": "explanations",
+      "name": "/explanations",
       "type": "folder",
-      "children": [
+      "successor": [
         {
-          "name": "_category_.json",
+          "name": "/explanations/_category_.json",
           "type": "file"
         },
         {
-          "name": "epinio-push-detailed.svg",
+          "name": "/explanations/epinio-push-detailed.svg",
           "type": "file"
         },
         {
-          "name": "advanced.md",
+          "name": "/explanations/advanced.md",
           "type": "file",
           "data": {
-            "path": "/explanations/advanced.md",
-            "full_path": "/home/jhk/projects/suse/epinio-docs/docs/explanations/advanced.md",
             "title": "Advanced topics",
             "description": "Advanced topics in Epinio application development environments",
             "keywords": [
@@ -34,35 +32,33 @@
             "sidebar_label": "Advanced topics",
             "sidebar_position": null,
             "int_links": [
-              "/installation/install_epinio.md#ingress-controller",
-              "/howtos/customization/setup_external_s3.md",
-              "/explanations/detailed-push-process.md",
-              "/explanations/#container-registry",
-              "/tutorials/quickstart.md#push-an-application",
               "/references/commands/cli/epinio_push.md",
               "/howtos/other/certificate_issuers.md",
-              "/howtos/customization/setup_external_registry.md"
+              "/howtos/customization/setup_external_registry.md",
+              "/tutorials/quickstart.md#push-an-application",
+              "/explanations/#container-registry",
+              "/installation/install_epinio.md#ingress-controller",
+              "/howtos/customization/setup_external_s3.md",
+              "/explanations/detailed-push-process.md"
             ],
             "ext_links": [
               "https://doc.traefik.io/traefik/providers/kubernetes-ingress/",
-              "https://github.com/aquarist-labs/s3gw",
+              "https://kubernetes.io/docs/concepts/services-networking/ingress/",
               "https://cert-manager.io/docs/",
+              "https://aws.amazon.com/s3/",
+              "https://github.com/aquarist-labs/s3gw",
               "https://docs.epinio.io/explanations/advanced",
               "https://github.com/kubeops/kubed",
-              "https://kubernetes.io/docs/concepts/services-networking/ingress/",
-              "https://artifacthub.io/packages/helm/epinio/epinio",
-              "https://aws.amazon.com/s3/",
-              "https://github.com/minio/minio"
+              "https://github.com/minio/minio",
+              "https://artifacthub.io/packages/helm/epinio/epinio"
             ],
             "can_link": "https://docs.epinio.io/explanations/advanced"
           }
         },
         {
-          "name": "detailed-push-process.md",
+          "name": "/explanations/detailed-push-process.md",
           "type": "file",
           "data": {
-            "path": "/explanations/detailed-push-process.md",
-            "full_path": "/home/jhk/projects/suse/epinio-docs/docs/explanations/detailed-push-process.md",
             "title": "The Epinio push process in detail",
             "description": "The Epinio push process in detail",
             "keywords": [
@@ -77,32 +73,30 @@
             "sidebar_label": "Epinio push process",
             "sidebar_position": null,
             "int_links": [
-              "/howtos/customization/setup_external_s3.md",
               "/explanations/advanced.md#container-registry",
               "/explanations/advanced.md#ingress-controller",
-              "/explanations/principles.md#guidelines-soft-principles"
+              "/explanations/principles.md#guidelines-soft-principles",
+              "/howtos/customization/setup_external_s3.md"
             ],
             "ext_links": [
-              "https://kubernetes.io/docs/concepts/workloads/controllers/job/",
-              "https://paketo.io/",
-              "https://docs.epinio.io/explanations/detailed-push-process",
               "https://doc.traefik.io/traefik/providers/kubernetes-ingress/",
-              "https://github.com/epinio/helm-charts/tree/main/chart/application",
-              "https://kubernetes.io/docs/concepts/services-networking/service/",
               "https://kubernetes.io/docs/concepts/services-networking/ingress/",
               "https://s3gw.io/",
+              "https://kubernetes.io/docs/concepts/workloads/controllers/job/",
+              "https://kubernetes.io/docs/concepts/services-networking/service/",
               "https://min.io/",
-              "https://kubernetes.io/docs/concepts/workloads/controllers/deployment/"
+              "https://paketo.io/",
+              "https://kubernetes.io/docs/concepts/workloads/controllers/deployment/",
+              "https://github.com/epinio/helm-charts/tree/main/chart/application",
+              "https://docs.epinio.io/explanations/detailed-push-process"
             ],
             "can_link": "https://docs.epinio.io/explanations/detailed-push-process"
           }
         },
         {
-          "name": "principles.md",
+          "name": "/explanations/principles.md",
           "type": "file",
           "data": {
-            "path": "/explanations/principles.md",
-            "full_path": "/home/jhk/projects/suse/epinio-docs/docs/explanations/principles.md",
             "title": "Epinio design principles",
             "description": "The design principles Epinio is based upon.",
             "keywords": [
@@ -123,11 +117,9 @@
           }
         },
         {
-          "name": "security.md",
+          "name": "/explanations/security.md",
           "type": "file",
           "data": {
-            "path": "/explanations/security.md",
-            "full_path": "/home/jhk/projects/suse/epinio-docs/docs/explanations/security.md",
             "title": "Epinio security",
             "description": "Epinio security, concepts and context",
             "keywords": [
@@ -147,10 +139,10 @@
               "/howtos/other/certificate_issuers.md"
             ],
             "ext_links": [
+              "https://dexidp.io/",
               "https://docs.epinio.io/installation/install_epinio_cli#verify-file-checksum-signature",
               "https://docs.epinio.io/explanations/security",
-              "https://letsencrypt.org/",
-              "https://dexidp.io/"
+              "https://letsencrypt.org/"
             ],
             "can_link": "https://docs.epinio.io/explanations/security"
           }
@@ -158,27 +150,25 @@
       ]
     },
     {
-      "name": "howtos",
+      "name": "/howtos",
       "type": "folder",
-      "children": [
+      "successor": [
         {
-          "name": "_category_.json",
+          "name": "/howtos/_category_.json",
           "type": "file"
         },
         {
-          "name": "customization",
+          "name": "/customization",
           "type": "folder",
-          "children": [
+          "successor": [
             {
-              "name": "_category_.json",
+              "name": "/howtos/customization/_category_.json",
               "type": "file"
             },
             {
-              "name": "create_custom_appcharts.md",
+              "name": "/howtos/customization/create_custom_appcharts.md",
               "type": "file",
               "data": {
-                "path": "/howtos/customization/create_custom_appcharts.md",
-                "full_path": "/home/jhk/projects/suse/epinio-docs/docs/howtos/customization/create_custom_appcharts.md",
                 "title": "Creating custom application Helm charts",
                 "description": "How to create custom application Helm charts",
                 "keywords": [
@@ -202,25 +192,23 @@
                 "sidebar_label": "Custom application Helm charts",
                 "sidebar_position": 15,
                 "int_links": [
-                  "/howtos/other/using_custom_appcharts.md",
-                  "/references/customization/appcharts.md#configuration"
+                  "/references/customization/appcharts.md#configuration",
+                  "/howtos/other/using_custom_appcharts.md"
                 ],
                 "ext_links": [
                   "https://github.com/epinio/helm-charts.git",
-                  "https://github.com/epinio/helm-charts/tree/main/chart/application",
+                  "https://www.fluentd.org/",
                   "https://helm.sh/",
                   "https://docs.epinio.io/howtos/customization/create_custom_appcharts",
-                  "https://www.fluentd.org/"
+                  "https://github.com/epinio/helm-charts/tree/main/chart/application"
                 ],
                 "can_link": "https://docs.epinio.io/howtos/customization/create_custom_appcharts"
               }
             },
             {
-              "name": "create_custom_role.md",
+              "name": "/howtos/customization/create_custom_role.md",
               "type": "file",
               "data": {
-                "path": "/howtos/customization/create_custom_role.md",
-                "full_path": "/home/jhk/projects/suse/epinio-docs/docs/howtos/customization/create_custom_role.md",
                 "title": "Creating a custom role",
                 "description": "Creating a custom role in Epinio.",
                 "keywords": [
@@ -253,11 +241,9 @@
               }
             },
             {
-              "name": "create_custom_service.md",
+              "name": "/howtos/customization/create_custom_service.md",
               "type": "file",
               "data": {
-                "path": "/howtos/customization/create_custom_service.md",
-                "full_path": "/home/jhk/projects/suse/epinio-docs/docs/howtos/customization/create_custom_service.md",
                 "title": "Creating a custom service",
                 "description": "How to create a custom service",
                 "keywords": [
@@ -282,22 +268,20 @@
                 "sidebar_position": 13,
                 "int_links": [
                   "/howtos/customization/#user-settable",
-                  "/references/services.md",
-                  "/howtos/customization/create_custom_appcharts.md"
+                  "/howtos/customization/create_custom_appcharts.md",
+                  "/references/services.md"
                 ],
                 "ext_links": [
-                  "https://docs.epinio.io/howtos/customization/create_custom_service",
-                  "https://github.com/epinio/helm-charts/blob/main/chart/epinio/templates/service-catalog.yaml"
+                  "https://github.com/epinio/helm-charts/blob/main/chart/epinio/templates/service-catalog.yaml",
+                  "https://docs.epinio.io/howtos/customization/create_custom_service"
                 ],
                 "can_link": "https://docs.epinio.io/howtos/customization/create_custom_service"
               }
             },
             {
-              "name": "create_git_configuration.md",
+              "name": "/howtos/customization/create_git_configuration.md",
               "type": "file",
               "data": {
-                "path": "/howtos/customization/create_git_configuration.md",
-                "full_path": "/home/jhk/projects/suse/epinio-docs/docs/howtos/customization/create_git_configuration.md",
                 "title": "Creating a Git configuration",
                 "description": "How to create a Git configuration",
                 "keywords": [
@@ -321,8 +305,8 @@
                 "sidebar_label": "Creating a Git configuration",
                 "sidebar_position": 13,
                 "int_links": [
-                  "/references/commands/cli/gitconfig/epinio_gitconfig_create.md",
-                  "/references/git_configuration.md"
+                  "/references/git_configuration.md",
+                  "/references/commands/cli/gitconfig/epinio_gitconfig_create.md"
                 ],
                 "ext_links": [
                   "https://docs.epinio.io/howtos/customization/create_git_configuration"
@@ -331,11 +315,9 @@
               }
             },
             {
-              "name": "custom_builder.md",
+              "name": "/howtos/customization/custom_builder.md",
               "type": "file",
               "data": {
-                "path": "/howtos/customization/custom_builder.md",
-                "full_path": "/home/jhk/projects/suse/epinio-docs/docs/howtos/customization/custom_builder.md",
                 "title": "Creating a custom builder",
                 "description": "How to create a custom builder",
                 "keywords": [
@@ -362,25 +344,23 @@
                   "/tutorials/custom_builder_go.md"
                 ],
                 "ext_links": [
-                  "https://github.com/buildpacks/lifecycle",
                   "https://paketo.io/docs/howto/create-paketo-buildpack/",
-                  "https://docs.epinio.io/howtos/customization/custom_builder",
-                  "https://github.com/buildpacks/spec/blob/main/extensions/project-descriptor.md#projectlicenses",
-                  "https://github.com/paketo-buildpacks/rfcs/blob/main/text/0003-replace-buildpack-yml.md",
-                  "https://github.com/paketo-buildpacks/rfcs/blob/main/text/0026-environment-variable-configuration-of-buildpacks.md",
-                  "https://buildpacks.io/docs/buildpack-author-guide/create-buildpack/",
                   "https://buildpacks.io/docs/tools/pack/",
-                  "https://github.com/epinio/helm-charts/blob/3954c214de3d7b957cfc2054ba4fa4bfa140f5a3/chart/epinio/templates/stage-scripts.yaml#L83"
+                  "https://docs.epinio.io/howtos/customization/custom_builder",
+                  "https://github.com/epinio/helm-charts/blob/3954c214de3d7b957cfc2054ba4fa4bfa140f5a3/chart/epinio/templates/stage-scripts.yaml#L83",
+                  "https://buildpacks.io/docs/buildpack-author-guide/create-buildpack/",
+                  "https://github.com/buildpacks/spec/blob/main/extensions/project-descriptor.md#projectlicenses",
+                  "https://github.com/buildpacks/lifecycle",
+                  "https://github.com/paketo-buildpacks/rfcs/blob/main/text/0026-environment-variable-configuration-of-buildpacks.md",
+                  "https://github.com/paketo-buildpacks/rfcs/blob/main/text/0003-replace-buildpack-yml.md"
                 ],
                 "can_link": "https://docs.epinio.io/howtos/customization/custom_builder"
               }
             },
             {
-              "name": "custom_routes.md",
+              "name": "/howtos/customization/custom_routes.md",
               "type": "file",
               "data": {
-                "path": "/howtos/customization/custom_routes.md",
-                "full_path": "/home/jhk/projects/suse/epinio-docs/docs/howtos/customization/custom_routes.md",
                 "title": "Setting up custom routes",
                 "description": "How to set up custom routes",
                 "keywords": [
@@ -415,11 +395,9 @@
               }
             },
             {
-              "name": "export_to_oci_registries.md",
+              "name": "/howtos/customization/export_to_oci_registries.md",
               "type": "file",
               "data": {
-                "path": "/howtos/customization/export_to_oci_registries.md",
-                "full_path": "/home/jhk/projects/suse/epinio-docs/docs/howtos/customization/export_to_oci_registries.md",
                 "title": "Exporting applications to an OCI registry",
                 "description": "Exporting applications to an OCI registry",
                 "keywords": [
@@ -453,11 +431,9 @@
               }
             },
             {
-              "name": "provision_external_ip_for_local_kubernetes.md",
+              "name": "/howtos/customization/provision_external_ip_for_local_kubernetes.md",
               "type": "file",
               "data": {
-                "path": "/howtos/customization/provision_external_ip_for_local_kubernetes.md",
-                "full_path": "/home/jhk/projects/suse/epinio-docs/docs/howtos/customization/provision_external_ip_for_local_kubernetes.md",
                 "title": "Provisioning an external IP address for local Kubernetes",
                 "description": "Provisioning an external IP address for local Kubernetes",
                 "keywords": [
@@ -481,19 +457,17 @@
                 "sidebar_label": "An External IP address for local Kubernetes",
                 "sidebar_position": 5,
                 "ext_links": [
-                  "https://github.com/digitalocean/digitalocean-cloud-controller-manager",
+                  "https://docs.epinio.io/howtos/customization/provision_external_ip_for_local_kubernetes",
                   "https://stedolan.github.io/jq/download/",
-                  "https://docs.epinio.io/howtos/customization/provision_external_ip_for_local_kubernetes"
+                  "https://github.com/digitalocean/digitalocean-cloud-controller-manager"
                 ],
                 "can_link": "https://docs.epinio.io/howtos/customization/provision_external_ip_for_local_kubernetes"
               }
             },
             {
-              "name": "setup_export_registry.md",
+              "name": "/howtos/customization/setup_export_registry.md",
               "type": "file",
               "data": {
-                "path": "/howtos/customization/setup_export_registry.md",
-                "full_path": "/home/jhk/projects/suse/epinio-docs/docs/howtos/customization/setup_export_registry.md",
                 "title": "Setting up an export destination registry",
                 "description": "How to set up an export destination registry",
                 "keywords": [
@@ -526,11 +500,9 @@
               }
             },
             {
-              "name": "setup_external_registry.md",
+              "name": "/howtos/customization/setup_external_registry.md",
               "type": "file",
               "data": {
-                "path": "/howtos/customization/setup_external_registry.md",
-                "full_path": "/home/jhk/projects/suse/epinio-docs/docs/howtos/customization/setup_external_registry.md",
                 "title": "How to set up an external container registry",
                 "description": "How to setup an external container registry",
                 "keywords": [
@@ -554,18 +526,16 @@
                 "sidebar_label": "Setting up an external container registry",
                 "sidebar_position": 8,
                 "ext_links": [
-                  "https://docs.epinio.io/howtos/customization/setup_external_registry",
-                  "https://hub.docker.com/"
+                  "https://hub.docker.com/",
+                  "https://docs.epinio.io/howtos/customization/setup_external_registry"
                 ],
                 "can_link": "https://docs.epinio.io/howtos/customization/setup_external_registry"
               }
             },
             {
-              "name": "setup_external_s3.md",
+              "name": "/howtos/customization/setup_external_s3.md",
               "type": "file",
               "data": {
-                "path": "/howtos/customization/setup_external_s3.md",
-                "full_path": "/home/jhk/projects/suse/epinio-docs/docs/howtos/customization/setup_external_s3.md",
                 "title": "How to set up external S3 storage",
                 "description": "How to set up external S3 storage",
                 "keywords": [
@@ -588,18 +558,16 @@
                 "sidebar_label": "Setting up external S3 storage",
                 "sidebar_position": 7,
                 "ext_links": [
-                  "https://docs.epinio.io/howtos/customization/setup_external_s3",
-                  "https://github.com/minio/minio"
+                  "https://github.com/minio/minio",
+                  "https://docs.epinio.io/howtos/customization/setup_external_s3"
                 ],
                 "can_link": "https://docs.epinio.io/howtos/customization/setup_external_s3"
               }
             },
             {
-              "name": "setup_routing_secrets.md",
+              "name": "/howtos/customization/setup_routing_secrets.md",
               "type": "file",
               "data": {
-                "path": "/howtos/customization/setup_routing_secrets.md",
-                "full_path": "/home/jhk/projects/suse/epinio-docs/docs/howtos/customization/setup_routing_secrets.md",
                 "title": "Setting up routing secrets for use by applications",
                 "description": "How to set up routing secrets for use by applications",
                 "keywords": [
@@ -630,11 +598,9 @@
               }
             },
             {
-              "name": "using_custom_service_values.md",
+              "name": "/howtos/customization/using_custom_service_values.md",
               "type": "file",
               "data": {
-                "path": "/howtos/customization/using_custom_service_values.md",
-                "full_path": "/home/jhk/projects/suse/epinio-docs/docs/howtos/customization/using_custom_service_values.md",
                 "title": "Custom values for service Helm charts",
                 "description": "How to specify custom values for service Helm charts",
                 "keywords": [
@@ -670,19 +636,17 @@
           ]
         },
         {
-          "name": "operations",
+          "name": "/operations",
           "type": "folder",
-          "children": [
+          "successor": [
             {
-              "name": "_category_.json",
+              "name": "/howtos/operations/_category_.json",
               "type": "file"
             },
             {
-              "name": "aws_iam_integration.md",
+              "name": "/howtos/operations/aws_iam_integration.md",
               "type": "file",
               "data": {
-                "path": "/howtos/operations/aws_iam_integration.md",
-                "full_path": "/home/jhk/projects/suse/epinio-docs/docs/howtos/operations/aws_iam_integration.md",
                 "title": "AWS IAM integration",
                 "description": "How-to use Amazon Web Services (AWS) Identity and Access Management (IAM) with Epinio.",
                 "keywords": [
@@ -705,18 +669,16 @@
                 "sidebar_label": "AWS IAM integration",
                 "sidebar_position": 27,
                 "ext_links": [
-                  "https://docs.aws.amazon.com/eks/latest/userguide/enable-iam-roles-for-service-accounts.html",
-                  "https://docs.epinio.io/howtos/operations/aws_iam_integration"
+                  "https://docs.epinio.io/howtos/operations/aws_iam_integration",
+                  "https://docs.aws.amazon.com/eks/latest/userguide/enable-iam-roles-for-service-accounts.html"
                 ],
                 "can_link": "https://docs.epinio.io/howtos/operations/aws_iam_integration"
               }
             },
             {
-              "name": "install_metrics_server.md",
+              "name": "/howtos/operations/install_metrics_server.md",
               "type": "file",
               "data": {
-                "path": "/howtos/operations/install_metrics_server.md",
-                "full_path": "/home/jhk/projects/suse/epinio-docs/docs/howtos/operations/install_metrics_server.md",
                 "title": "Installing a metrics server",
                 "description": "Installing a metrics server for an Epinio environment.",
                 "keywords": [
@@ -742,8 +704,8 @@
                   "/references/commands/cli/app/epinio_app_show.md"
                 ],
                 "ext_links": [
-                  "https://docs.epinio.io/howtos/operations/install_metrics_server",
-                  "https://github.com/kubernetes-sigs/metrics-server"
+                  "https://github.com/kubernetes-sigs/metrics-server",
+                  "https://docs.epinio.io/howtos/operations/install_metrics_server"
                 ],
                 "can_link": "https://docs.epinio.io/howtos/operations/install_metrics_server"
               }
@@ -751,19 +713,17 @@
           ]
         },
         {
-          "name": "other",
+          "name": "/other",
           "type": "folder",
-          "children": [
+          "successor": [
             {
-              "name": "_category_.json",
+              "name": "/howtos/other/_category_.json",
               "type": "file"
             },
             {
-              "name": "certificate_issuers.md",
+              "name": "/howtos/other/certificate_issuers.md",
               "type": "file",
               "data": {
-                "path": "/howtos/other/certificate_issuers.md",
-                "full_path": "/home/jhk/projects/suse/epinio-docs/docs/howtos/other/certificate_issuers.md",
                 "title": "Set up and use certificate issuers",
                 "description": "How to set up and use certificate issuers",
                 "keywords": [
@@ -790,21 +750,19 @@
                   "/installation/install_epinio.md#install-epinio"
                 ],
                 "ext_links": [
-                  "https://cert-manager.io/docs/configuration/acme/dns01/",
-                  "https://docs.epinio.io/howtos/other/certificate_issuers",
-                  "https://letsencrypt.org/",
                   "https://cert-manager.io/docs/configuration/",
-                  "https://cert-manager.io/docs/configuration/ca/"
+                  "https://docs.epinio.io/howtos/other/certificate_issuers",
+                  "https://cert-manager.io/docs/configuration/acme/dns01/",
+                  "https://cert-manager.io/docs/configuration/ca/",
+                  "https://letsencrypt.org/"
                 ],
                 "can_link": "https://docs.epinio.io/howtos/other/certificate_issuers"
               }
             },
             {
-              "name": "gitjob_push.md",
+              "name": "/howtos/other/gitjob_push.md",
               "type": "file",
               "data": {
-                "path": "/howtos/other/gitjob_push.md",
-                "full_path": "/home/jhk/projects/suse/epinio-docs/docs/howtos/other/gitjob_push.md",
                 "title": "Pushing with a Git job",
                 "description": "How to do an Epinio push with a Git job.",
                 "keywords": [
@@ -833,20 +791,18 @@
                   "/installation/other_inst_scenarios/install_epinio_on_rancher.md"
                 ],
                 "ext_links": [
-                  "https://docs.epinio.io/howtos/other/gitjob_push",
                   "https://github.com/rancher/gitjob#webhook",
-                  "https://github.com/rancher/gitjob#running",
-                  "https://fleet.rancher.io/"
+                  "https://docs.epinio.io/howtos/other/gitjob_push",
+                  "https://fleet.rancher.io/",
+                  "https://github.com/rancher/gitjob#running"
                 ],
                 "can_link": "https://docs.epinio.io/howtos/other/gitjob_push"
               }
             },
             {
-              "name": "minio.md",
+              "name": "/howtos/other/minio.md",
               "type": "file",
               "data": {
-                "path": "/howtos/other/minio.md",
-                "full_path": "/home/jhk/projects/suse/epinio-docs/docs/howtos/other/minio.md",
                 "title": "Accessing Epinio's internal MinIO service",
                 "description": "How to access Epinio's internal MinIO service",
                 "keywords": [
@@ -878,11 +834,9 @@
               }
             },
             {
-              "name": "port_forwarding.md",
+              "name": "/howtos/other/port_forwarding.md",
               "type": "file",
               "data": {
-                "path": "/howtos/other/port_forwarding.md",
-                "full_path": "/home/jhk/projects/suse/epinio-docs/docs/howtos/other/port_forwarding.md",
                 "title": "Setting up and using port forwarding",
                 "description": "How to set up and use port forwarding",
                 "keywords": [
@@ -912,11 +866,9 @@
               }
             },
             {
-              "name": "separate_workload_ingress.md",
+              "name": "/howtos/other/separate_workload_ingress.md",
               "type": "file",
               "data": {
-                "path": "/howtos/other/separate_workload_ingress.md",
-                "full_path": "/home/jhk/projects/suse/epinio-docs/docs/howtos/other/separate_workload_ingress.md",
                 "title": "Separating application Ingress from Epinio API server Ingress",
                 "description": "How to separate application Ingress from Epinio API server Ingress",
                 "keywords": [
@@ -952,11 +904,9 @@
               }
             },
             {
-              "name": "using_custom_appcharts.md",
+              "name": "/howtos/other/using_custom_appcharts.md",
               "type": "file",
               "data": {
-                "path": "/howtos/other/using_custom_appcharts.md",
-                "full_path": "/home/jhk/projects/suse/epinio-docs/docs/howtos/other/using_custom_appcharts.md",
                 "title": "Using custom application Helm charts",
                 "description": "How to use custom application Helm charts.",
                 "keywords": [
@@ -981,14 +931,14 @@
                 "sidebar_label": "Custom application Helm charts",
                 "sidebar_position": 16,
                 "int_links": [
+                  "/references/commands/cli/app/epinio_app_update.md",
                   "/howtos/customization/create_custom_appcharts.md",
-                  "/references/commands/cli/app/epinio_app_create.md",
                   "/references/commands/cli/epinio_push.md",
-                  "/references/commands/cli/app/epinio_app_update.md"
+                  "/references/commands/cli/app/epinio_app_create.md"
                 ],
                 "ext_links": [
-                  "https://docs.epinio.io/howtos/other/using_custom_appcharts",
-                  "https://helm.sh/"
+                  "https://helm.sh/",
+                  "https://docs.epinio.io/howtos/other/using_custom_appcharts"
                 ],
                 "can_link": "https://docs.epinio.io/howtos/other/using_custom_appcharts"
               }
@@ -996,19 +946,17 @@
           ]
         },
         {
-          "name": "use-develop",
+          "name": "/use-develop",
           "type": "folder",
-          "children": [
+          "successor": [
             {
-              "name": "_category_.json",
+              "name": "/howtos/use-develop/_category_.json",
               "type": "file"
             },
             {
-              "name": "app_recover.md",
+              "name": "/howtos/use-develop/app_recover.md",
               "type": "file",
               "data": {
-                "path": "/howtos/use-develop/app_recover.md",
-                "full_path": "/home/jhk/projects/suse/epinio-docs/docs/howtos/use-develop/app_recover.md",
                 "title": "Recovering applications after CRD cycling",
                 "description": "How to recover applications after cycling the Epinio CRDs",
                 "keywords": [
@@ -1038,11 +986,9 @@
               }
             },
             {
-              "name": "debug.md",
+              "name": "/howtos/use-develop/debug.md",
               "type": "file",
               "data": {
-                "path": "/howtos/use-develop/debug.md",
-                "full_path": "/home/jhk/projects/suse/epinio-docs/docs/howtos/use-develop/debug.md",
                 "title": "Debugging an application",
                 "description": "How to debug an Epinio application.",
                 "keywords": [
@@ -1077,11 +1023,9 @@
               }
             },
             {
-              "name": "export-and-transfer.md",
+              "name": "/howtos/use-develop/export-and-transfer.md",
               "type": "file",
               "data": {
-                "path": "/howtos/use-develop/export-and-transfer.md",
-                "full_path": "/home/jhk/projects/suse/epinio-docs/docs/howtos/use-develop/export-and-transfer.md",
                 "title": "Application export from Epinio and transfer to another cluster",
                 "description": "How to export an application from Epinio and transfer it to another cluster.",
                 "keywords": [
@@ -1117,11 +1061,9 @@
               }
             },
             {
-              "name": "install_wordpress_application.md",
+              "name": "/howtos/use-develop/install_wordpress_application.md",
               "type": "file",
               "data": {
-                "path": "/howtos/use-develop/install_wordpress_application.md",
-                "full_path": "/home/jhk/projects/suse/epinio-docs/docs/howtos/use-develop/install_wordpress_application.md",
                 "title": "Installing WordPress with Epinio",
                 "description": "How to install WordPress using Epinio.",
                 "keywords": [
@@ -1150,19 +1092,17 @@
                   "/references/services.md"
                 ],
                 "ext_links": [
-                  "https://paketo.io/docs/howto/php/#configure-php-with-a-custom-ini-file",
                   "https://docs.epinio.io/howtos/use-develop/install_wordpress_application",
-                  "https://github.com/epinio/example-wordpress#step-4---create-a-database-for-wordpress"
+                  "https://github.com/epinio/example-wordpress#step-4---create-a-database-for-wordpress",
+                  "https://paketo.io/docs/howto/php/#configure-php-with-a-custom-ini-file"
                 ],
                 "can_link": "https://docs.epinio.io/howtos/use-develop/install_wordpress_application"
               }
             },
             {
-              "name": "namespaces.md",
+              "name": "/howtos/use-develop/namespaces.md",
               "type": "file",
               "data": {
-                "path": "/howtos/use-develop/namespaces.md",
-                "full_path": "/home/jhk/projects/suse/epinio-docs/docs/howtos/use-develop/namespaces.md",
                 "title": "Working with multiple namespaces",
                 "description": "How to use Epinio to work with multiple namespaces",
                 "keywords": [
@@ -1197,11 +1137,9 @@
           ]
         },
         {
-          "name": "contribute.md",
+          "name": "/howtos/contribute.md",
           "type": "file",
           "data": {
-            "path": "/howtos/contribute.md",
-            "full_path": "/home/jhk/projects/suse/epinio-docs/docs/howtos/contribute.md",
             "title": "Contributing to Epinio",
             "description": "How to go about contributing to Epinio. What you need to know.",
             "keywords": [
@@ -1219,15 +1157,15 @@
             "sidebar_label": "Contributing to Epinio",
             "sidebar_position": 1,
             "ext_links": [
-              "https://github.com/golang/go/wiki/CodeReviewComments",
-              "https://semver.org/",
+              "https://github.com/epinio/epinio/issues",
+              "https://docs.epinio.io/howtos/contribute",
+              "https://github.com/kubernetes/community/blob/master/contributors/design-proposals/release/versioning.md#kubernetes-release-versioning",
               "https://developercertificate.org/",
               "https://go.dev/doc/effective_go",
               "https://github.com/epinio/epinio/issues/new",
-              "https://github.com/kubernetes/community/blob/master/contributors/design-proposals/release/versioning.md#kubernetes-release-versioning",
-              "https://docs.epinio.io/howtos/contribute",
+              "https://semver.org/",
               "https://google.github.io/styleguide/go/guide",
-              "https://github.com/epinio/epinio/issues"
+              "https://github.com/golang/go/wiki/CodeReviewComments"
             ],
             "can_link": "https://docs.epinio.io/howtos/contribute"
           }
@@ -1235,27 +1173,25 @@
       ]
     },
     {
-      "name": "installation",
+      "name": "/installation",
       "type": "folder",
-      "children": [
+      "successor": [
         {
-          "name": "_category_.json",
+          "name": "/installation/_category_.json",
           "type": "file"
         },
         {
-          "name": "other_inst_scenarios",
+          "name": "/other_inst_scenarios",
           "type": "folder",
-          "children": [
+          "successor": [
             {
-              "name": "_category_.json",
+              "name": "/installation/other_inst_scenarios/_category_.json",
               "type": "file"
             },
             {
-              "name": "install_epinio_on_eks.md",
+              "name": "/installation/other_inst_scenarios/install_epinio_on_eks.md",
               "type": "file",
               "data": {
-                "path": "/installation/other_inst_scenarios/install_epinio_on_eks.md",
-                "full_path": "/home/jhk/projects/suse/epinio-docs/docs/installation/other_inst_scenarios/install_epinio_on_eks.md",
                 "title": "Installing Epinio on EKS",
                 "description": "How to install Epinio on EKS, the Elastic Kubernetes Service.",
                 "keywords": [
@@ -1272,27 +1208,25 @@
                 "sidebar_label": "Installing Epinio on EKS",
                 "sidebar_position": 23,
                 "ext_links": [
-                  "https://kubernetes.io/docs/tasks/tools/",
-                  "https://kubernetes.github.io/ingress-nginx/",
-                  "https://docs.aws.amazon.com/eks/latest/userguide/ebs-csi.html",
-                  "https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html",
-                  "https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html",
-                  "https://docs.aws.amazon.com/eks/latest/userguide/eksctl.html",
-                  "https://raw.githubusercontent.com/epinio/epinio/main/scripts/eks-cri-allow-http-registries.yaml",
                   "https://docs.epinio.io/installation/other_inst_scenarios/install_epinio_on_eks",
+                  "https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html",
+                  "https://raw.githubusercontent.com/epinio/epinio/main/scripts/eks-cri-allow-http-registries.yaml",
+                  "https://github.com/cert-manager/cert-manager",
+                  "https://docs.aws.amazon.com/eks/latest/userguide/eksctl.html",
+                  "https://kubernetes.io/docs/tasks/tools/",
+                  "https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html",
                   "https://helm.sh/docs/helm/helm_get/",
                   "https://github.com/epinio/helm-charts/releases/tag/epinio-1.6.2",
-                  "https://github.com/cert-manager/cert-manager"
+                  "https://docs.aws.amazon.com/eks/latest/userguide/ebs-csi.html",
+                  "https://kubernetes.github.io/ingress-nginx/"
                 ],
                 "can_link": "https://docs.epinio.io/installation/other_inst_scenarios/install_epinio_on_eks"
               }
             },
             {
-              "name": "install_epinio_on_k3d.md",
+              "name": "/installation/other_inst_scenarios/install_epinio_on_k3d.md",
               "type": "file",
               "data": {
-                "path": "/installation/other_inst_scenarios/install_epinio_on_k3d.md",
-                "full_path": "/home/jhk/projects/suse/epinio-docs/docs/installation/other_inst_scenarios/install_epinio_on_k3d.md",
                 "title": "Installing Epinio on a local K3d",
                 "description": "How to install Epinio on a locally hosted K3d system.",
                 "keywords": [
@@ -1309,24 +1243,22 @@
                 "sidebar_position": 21,
                 "int_links": [
                   "/installation/wildcardDNS_setup.md",
-                  "/installation/install_epinio.md",
                   "/explanations/advanced.md#traefik",
+                  "/installation/install_epinio.md",
                   "/explanations/advanced.md"
                 ],
                 "ext_links": [
-                  "https://k3d.io/",
+                  "https://github.com/epinio/helm-charts/releases/tag/epinio-0.7.1",
                   "https://docs.epinio.io/installation/other_inst_scenarios/install_epinio_on_k3d",
-                  "https://github.com/epinio/helm-charts/releases/tag/epinio-0.7.1"
+                  "https://k3d.io/"
                 ],
                 "can_link": "https://docs.epinio.io/installation/other_inst_scenarios/install_epinio_on_k3d"
               }
             },
             {
-              "name": "install_epinio_on_k3s.md",
+              "name": "/installation/other_inst_scenarios/install_epinio_on_k3s.md",
               "type": "file",
               "data": {
-                "path": "/installation/other_inst_scenarios/install_epinio_on_k3s.md",
-                "full_path": "/home/jhk/projects/suse/epinio-docs/docs/installation/other_inst_scenarios/install_epinio_on_k3s.md",
                 "title": "Installing Epinio on a local K3s",
                 "description": "Information about installing Epinio on a local K3s cluster.",
                 "keywords": [
@@ -1341,10 +1273,10 @@
                 "sidebar_label": "Installing Epinio on a local K3s",
                 "sidebar_position": 20,
                 "int_links": [
-                  "/installation/install_epinio.md",
                   "/explanations/advanced.md#traefik",
-                  "/explanations/advanced.md",
-                  "/installation/wildcardDNS_setup"
+                  "/installation/wildcardDNS_setup",
+                  "/installation/install_epinio.md",
+                  "/explanations/advanced.md"
                 ],
                 "ext_links": [
                   "https://docs.epinio.io/installation/other_inst_scenarios/install_epinio_on_k3s",
@@ -1355,11 +1287,9 @@
               }
             },
             {
-              "name": "install_epinio_on_public_cloud.md",
+              "name": "/installation/other_inst_scenarios/install_epinio_on_public_cloud.md",
               "type": "file",
               "data": {
-                "path": "/installation/other_inst_scenarios/install_epinio_on_public_cloud.md",
-                "full_path": "/home/jhk/projects/suse/epinio-docs/docs/installation/other_inst_scenarios/install_epinio_on_public_cloud.md",
                 "title": "Installing Epinio on public clouds",
                 "description": "Installing Epinio on Kubernetes services provided by public cloud providers, such as Google, Amazon and Microsoft.",
                 "keywords": [
@@ -1379,27 +1309,25 @@
                 "sidebar_label": "Installing Epinio on public clouds",
                 "sidebar_position": 22,
                 "int_links": [
-                  "/installation/install_epinio.md",
                   "/explanations/advanced.md#traefik",
                   "/installation/other_inst_scenarios/install_epinio_on_eks.md",
+                  "/installation/install_epinio.md",
                   "/explanations/advanced.md"
                 ],
                 "ext_links": [
-                  "https://docs.microsoft.com/en-us/azure/aks/kubernetes-walkthrough",
+                  "https://cloud.google.com/kubernetes-engine/docs/quickstart",
                   "https://github.com/epinio/epinio/issues/1373#issuecomment-1105231113",
                   "https://docs.aws.amazon.com/eks/latest/userguide/getting-started.html",
-                  "https://cloud.google.com/kubernetes-engine/docs/quickstart",
-                  "https://docs.epinio.io/installation/other_inst_scenarios/install_epinio_on_public_cloud"
+                  "https://docs.epinio.io/installation/other_inst_scenarios/install_epinio_on_public_cloud",
+                  "https://docs.microsoft.com/en-us/azure/aks/kubernetes-walkthrough"
                 ],
                 "can_link": "https://docs.epinio.io/installation/other_inst_scenarios/install_epinio_on_public_cloud"
               }
             },
             {
-              "name": "install_epinio_on_rancher.md",
+              "name": "/installation/other_inst_scenarios/install_epinio_on_rancher.md",
               "type": "file",
               "data": {
-                "path": "/installation/other_inst_scenarios/install_epinio_on_rancher.md",
-                "full_path": "/home/jhk/projects/suse/epinio-docs/docs/installation/other_inst_scenarios/install_epinio_on_rancher.md",
                 "title": "Installing Epinio on Rancher",
                 "description": "How to install Epinio on Rancher",
                 "keywords": [
@@ -1418,8 +1346,8 @@
                   "/installation/install_epinio.md#ingress-controller"
                 ],
                 "ext_links": [
-                  "https://ranchermanager.docs.rancher.com/pages-for-subheaders/kubernetes-clusters-in-rancher-setup",
                   "https://github.com/epinio/helm-charts/releases/tag/epinio-1.7.1",
+                  "https://ranchermanager.docs.rancher.com/pages-for-subheaders/kubernetes-clusters-in-rancher-setup",
                   "https://rancher.com/docs",
                   "https://docs.epinio.io/installation/other_inst_scenarios/install_epinio_on_rancher"
                 ],
@@ -1427,11 +1355,9 @@
               }
             },
             {
-              "name": "install_epinio_on_rancher_desktop.md",
+              "name": "/installation/other_inst_scenarios/install_epinio_on_rancher_desktop.md",
               "type": "file",
               "data": {
-                "path": "/installation/other_inst_scenarios/install_epinio_on_rancher_desktop.md",
-                "full_path": "/home/jhk/projects/suse/epinio-docs/docs/installation/other_inst_scenarios/install_epinio_on_rancher_desktop.md",
                 "title": "Installing Epinio on Rancher Desktop (RD)",
                 "description": "How to install Epinio using a local Rancher Desktop installation.",
                 "keywords": [
@@ -1452,20 +1378,18 @@
                 ],
                 "ext_links": [
                   "https://github.com/rancher-sandbox/rancher-desktop/issues/576",
-                  "https://github.com/epinio/helm-charts/releases/tag/epinio-1.0.0",
-                  "https://github.com/rancher-sandbox/rancher-desktop/releases",
                   "https://docs.rancherdesktop.io/getting-started/installation/#traefik-port-binding-access",
-                  "https://docs.epinio.io/installation/other_inst_scenarios/install_epinio_on_rancher_desktop"
+                  "https://github.com/rancher-sandbox/rancher-desktop/releases",
+                  "https://docs.epinio.io/installation/other_inst_scenarios/install_epinio_on_rancher_desktop",
+                  "https://github.com/epinio/helm-charts/releases/tag/epinio-1.0.0"
                 ],
                 "can_link": "https://docs.epinio.io/installation/other_inst_scenarios/install_epinio_on_rancher_desktop"
               }
             },
             {
-              "name": "install_epinio_on_rke.md",
+              "name": "/installation/other_inst_scenarios/install_epinio_on_rke.md",
               "type": "file",
               "data": {
-                "path": "/installation/other_inst_scenarios/install_epinio_on_rke.md",
-                "full_path": "/home/jhk/projects/suse/epinio-docs/docs/installation/other_inst_scenarios/install_epinio_on_rke.md",
                 "title": "Installing Epinio on RKE2",
                 "description": "Installing Epinio with RKE2. The needed environment and prerequisites.",
                 "keywords": [
@@ -1483,12 +1407,12 @@
                 "sidebar_position": 19,
                 "int_links": [
                   "/installation/wildcardDNS_setup.md",
-                  "/installation/dns_setup.md",
-                  "/installation/install_epinio.md"
+                  "/installation/install_epinio.md",
+                  "/installation/dns_setup.md"
                 ],
                 "ext_links": [
-                  "https://docs.rke2.io/install/quickstart/",
-                  "https://docs.epinio.io/installation/other_inst_scenarios/install_epinio_on_rke"
+                  "https://docs.epinio.io/installation/other_inst_scenarios/install_epinio_on_rke",
+                  "https://docs.rke2.io/install/quickstart/"
                 ],
                 "can_link": "https://docs.epinio.io/installation/other_inst_scenarios/install_epinio_on_rke"
               }
@@ -1496,11 +1420,9 @@
           ]
         },
         {
-          "name": "dns_setup.md",
+          "name": "/installation/dns_setup.md",
           "type": "file",
           "data": {
-            "path": "/installation/dns_setup.md",
-            "full_path": "/home/jhk/projects/suse/epinio-docs/docs/installation/dns_setup.md",
             "title": "DNS setup",
             "description": "How to setup DNS for Epinio and associated issues.",
             "keywords": [
@@ -1516,11 +1438,11 @@
             "sidebar_label": "DNS setup",
             "sidebar_position": 3,
             "int_links": [
-              "/installation/#find-ip-for-ic",
-              "/installation/install_epinio.md",
-              "/installation/#config-dns",
+              "/installation/wildcardDNS_setup.md",
               "/howtos/other/certificate_issuers.md",
-              "/installation/wildcardDNS_setup.md"
+              "/installation/#config-dns",
+              "/installation/install_epinio.md",
+              "/installation/#find-ip-for-ic"
             ],
             "ext_links": [
               "https://aws.amazon.com/route53/",
@@ -1530,11 +1452,9 @@
           }
         },
         {
-          "name": "install_epinio.md",
+          "name": "/installation/install_epinio.md",
           "type": "file",
           "data": {
-            "path": "/installation/install_epinio.md",
-            "full_path": "/home/jhk/projects/suse/epinio-docs/docs/installation/install_epinio.md",
             "title": "Installing Epinio",
             "description": "How to install Epinio",
             "keywords": [
@@ -1551,43 +1471,41 @@
             "sidebar_label": "Install Epinio",
             "sidebar_position": 1,
             "int_links": [
-              "/installation/dns_setup.md",
-              "/installation/other_inst_scenarios/install_epinio_on_k3d.md",
-              "/installation/#s3-storage",
-              "/installation/other_inst_scenarios/install_epinio_on_rancher.md",
-              "/references/system_requirements/global.md",
-              "/installation/other_inst_scenarios/install_epinio_on_eks.md",
-              "/references/authentication_oidc.md",
-              "/installation/#kubed",
-              "/installation/other_inst_scenarios/install_epinio_on_public_cloud.md",
-              "/installation/other_inst_scenarios/install_epinio_on_k3s.md",
               "/installation/other_inst_scenarios/install_epinio_on_rancher_desktop.md",
-              "/installation/#container-registry",
-              "/installation/wildcardDNS_setup.md",
               "/installation/other_inst_scenarios/install_epinio_on_rke.md",
-              "/installation/#dex"
+              "/installation/dns_setup.md",
+              "/installation/#kubed",
+              "/installation/#container-registry",
+              "/references/authentication_oidc.md",
+              "/installation/other_inst_scenarios/install_epinio_on_public_cloud.md",
+              "/references/system_requirements/global.md",
+              "/installation/#dex",
+              "/installation/other_inst_scenarios/install_epinio_on_eks.md",
+              "/installation/wildcardDNS_setup.md",
+              "/installation/other_inst_scenarios/install_epinio_on_k3s.md",
+              "/installation/other_inst_scenarios/install_epinio_on_k3d.md",
+              "/installation/other_inst_scenarios/install_epinio_on_rancher.md",
+              "/installation/#s3-storage"
             ],
             "ext_links": [
-              "https://doc.traefik.io/traefik/getting-started/install-traefik/#use-the-helm-chart",
-              "https://docs.epinio.io/references/commands/cli/settings/epinio_settings_update-ca#epinio-settings-update-ca",
-              "https://min.io/",
               "https://docs.epinio.io/installation/install_epinio",
-              "https://github.com/kubernetes/ingress-nginx/blob/main/docs/user-guide/nginx-configuration/annotations.md#custom-max-body-size",
-              "https://cert-manager.io/",
-              "https://dexidp.io",
-              "https://github.com/epinio/helm-charts/blob/b389a4875af9f03b484a911c49a14f834ba04b64/chart/epinio/values.yaml#L107-L111",
               "https://s3gw.io/",
-              "https://github.com/epinio/helm-charts/blob/b389a4875af9f03b484a911c49a14f834ba04b64/chart/epinio/values.yaml#L44"
+              "https://docs.epinio.io/references/commands/cli/settings/epinio_settings_update-ca#epinio-settings-update-ca",
+              "https://github.com/epinio/helm-charts/blob/b389a4875af9f03b484a911c49a14f834ba04b64/chart/epinio/values.yaml#L44",
+              "https://doc.traefik.io/traefik/getting-started/install-traefik/#use-the-helm-chart",
+              "https://dexidp.io",
+              "https://cert-manager.io/",
+              "https://github.com/kubernetes/ingress-nginx/blob/main/docs/user-guide/nginx-configuration/annotations.md#custom-max-body-size",
+              "https://github.com/epinio/helm-charts/blob/b389a4875af9f03b484a911c49a14f834ba04b64/chart/epinio/values.yaml#L107-L111",
+              "https://min.io/"
             ],
             "can_link": "https://docs.epinio.io/installation/install_epinio"
           }
         },
         {
-          "name": "install_epinio_cli.md",
+          "name": "/installation/install_epinio_cli.md",
           "type": "file",
           "data": {
-            "path": "/installation/install_epinio_cli.md",
-            "full_path": "/home/jhk/projects/suse/epinio-docs/docs/installation/install_epinio_cli.md",
             "title": "Install the Epinio CLI",
             "description": "How to install the Epinio CLI on Windows, Linux and Mac",
             "keywords": [
@@ -1606,18 +1524,16 @@
             "sidebar_label": "Install the Epinio CLI",
             "sidebar_position": 2,
             "ext_links": [
-              "https://docs.epinio.io/installation/install_epinio_cli",
-              "https://github.com/epinio/epinio/releases"
+              "https://github.com/epinio/epinio/releases",
+              "https://docs.epinio.io/installation/install_epinio_cli"
             ],
             "can_link": "https://docs.epinio.io/installation/install_epinio_cli"
           }
         },
         {
-          "name": "uninstall_epinio.md",
+          "name": "/installation/uninstall_epinio.md",
           "type": "file",
           "data": {
-            "path": "/installation/uninstall_epinio.md",
-            "full_path": "/home/jhk/projects/suse/epinio-docs/docs/installation/uninstall_epinio.md",
             "title": "Uninstall Epinio",
             "description": "Uninstalling Epinio and the implications of doing so.",
             "keywords": [
@@ -1637,11 +1553,9 @@
           }
         },
         {
-          "name": "wildcardDNS_setup.md",
+          "name": "/installation/wildcardDNS_setup.md",
           "type": "file",
           "data": {
-            "path": "/installation/wildcardDNS_setup.md",
-            "full_path": "/home/jhk/projects/suse/epinio-docs/docs/installation/wildcardDNS_setup.md",
             "title": "Wildcard DNS setup",
             "description": "The description",
             "keywords": [
@@ -1660,11 +1574,11 @@
               "/installation/dns_setup.md"
             ],
             "ext_links": [
-              "https://k3d.io/",
-              "https://github.com/kubernetes-sigs/kind",
               "https://thekelleys.org.uk/dnsmasq/docs/dnsmasq-man.html",
+              "https://docs.netgate.com/pfsense/en/latest/services/dns/rebinding.html",
               "https://docs.epinio.io/installation/wildcardDNS_setup",
-              "https://docs.netgate.com/pfsense/en/latest/services/dns/rebinding.html"
+              "https://github.com/kubernetes-sigs/kind",
+              "https://k3d.io/"
             ],
             "can_link": "https://docs.epinio.io/installation/wildcardDNS_setup"
           }
@@ -1672,51 +1586,49 @@
       ]
     },
     {
-      "name": "references",
+      "name": "/references",
       "type": "folder",
-      "children": [
+      "successor": [
         {
-          "name": "_category_.json",
+          "name": "/references/_category_.json",
           "type": "file"
         },
         {
-          "name": "commands",
+          "name": "/commands",
           "type": "folder",
-          "children": [
+          "successor": [
             {
-              "name": "_category_.json",
+              "name": "/references/commands/_category_.json",
               "type": "file"
             },
             {
-              "name": "cli",
+              "name": "/cli",
               "type": "folder",
-              "children": [
+              "successor": [
                 {
-                  "name": "_category_.json",
+                  "name": "/references/commands/cli/_category_.json",
                   "type": "file"
                 },
                 {
-                  "name": "app",
+                  "name": "/app",
                   "type": "folder",
-                  "children": [
+                  "successor": [
                     {
-                      "name": "_category_.json",
+                      "name": "/references/commands/cli/app/_category_.json",
                       "type": "file"
                     },
                     {
-                      "name": "chart",
+                      "name": "/chart",
                       "type": "folder",
-                      "children": [
+                      "successor": [
                         {
-                          "name": "_category_.json",
+                          "name": "/references/commands/cli/app/chart/_category_.json",
                           "type": "file"
                         },
                         {
-                          "name": "epinio_app_chart.md",
+                          "name": "/references/commands/cli/app/chart/epinio_app_chart.md",
                           "type": "file",
                           "data": {
-                            "path": "/references/commands/cli/app/chart/epinio_app_chart.md",
-                            "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/app/chart/epinio_app_chart.md",
                             "title": "",
                             "description": "epinio app chart",
                             "keywords": [
@@ -1741,10 +1653,10 @@
                             "sidebar_label": "epinio app chart",
                             "sidebar_position": null,
                             "int_links": [
-                              "/references/commands/cli/app/chart/epinio_app_chart_show.md",
+                              "/references/commands/cli/app/chart/epinio_app_chart_default.md",
                               "/references/commands/cli/app/chart/epinio_app_chart_list.md",
                               "/references/commands/cli/app/epinio_app.md",
-                              "/references/commands/cli/app/chart/epinio_app_chart_default.md"
+                              "/references/commands/cli/app/chart/epinio_app_chart_show.md"
                             ],
                             "ext_links": [
                               "https://docs.epinio.io/references/commands/cli/app/chart/epinio_app_chart"
@@ -1753,11 +1665,9 @@
                           }
                         },
                         {
-                          "name": "epinio_app_chart_default.md",
+                          "name": "/references/commands/cli/app/chart/epinio_app_chart_default.md",
                           "type": "file",
                           "data": {
-                            "path": "/references/commands/cli/app/chart/epinio_app_chart_default.md",
-                            "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/app/chart/epinio_app_chart_default.md",
                             "title": "",
                             "description": "epinio app chart default",
                             "keywords": [
@@ -1791,11 +1701,9 @@
                           }
                         },
                         {
-                          "name": "epinio_app_chart_list.md",
+                          "name": "/references/commands/cli/app/chart/epinio_app_chart_list.md",
                           "type": "file",
                           "data": {
-                            "path": "/references/commands/cli/app/chart/epinio_app_chart_list.md",
-                            "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/app/chart/epinio_app_chart_list.md",
                             "title": "",
                             "description": "epinio app chart list",
                             "keywords": [
@@ -1829,11 +1737,9 @@
                           }
                         },
                         {
-                          "name": "epinio_app_chart_show.md",
+                          "name": "/references/commands/cli/app/chart/epinio_app_chart_show.md",
                           "type": "file",
                           "data": {
-                            "path": "/references/commands/cli/app/chart/epinio_app_chart_show.md",
-                            "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/app/chart/epinio_app_chart_show.md",
                             "title": "",
                             "description": "epinio app chart show",
                             "keywords": [
@@ -1869,19 +1775,17 @@
                       ]
                     },
                     {
-                      "name": "env",
+                      "name": "/env",
                       "type": "folder",
-                      "children": [
+                      "successor": [
                         {
-                          "name": "_category_.json",
+                          "name": "/references/commands/cli/app/env/_category_.json",
                           "type": "file"
                         },
                         {
-                          "name": "epinio_app_env.md",
+                          "name": "/references/commands/cli/app/env/epinio_app_env.md",
                           "type": "file",
                           "data": {
-                            "path": "/references/commands/cli/app/env/epinio_app_env.md",
-                            "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/app/env/epinio_app_env.md",
                             "title": "",
                             "description": "epinio app env",
                             "keywords": [
@@ -1907,10 +1811,10 @@
                             "sidebar_position": null,
                             "int_links": [
                               "/references/commands/cli/app/env/epinio_app_env_show.md",
-                              "/references/commands/cli/app/env/epinio_app_env_unset.md",
                               "/references/commands/cli/app/env/epinio_app_env_set.md",
+                              "/references/commands/cli/app/epinio_app.md",
                               "/references/commands/cli/app/env/epinio_app_env_list.md",
-                              "/references/commands/cli/app/epinio_app.md"
+                              "/references/commands/cli/app/env/epinio_app_env_unset.md"
                             ],
                             "ext_links": [
                               "https://docs.epinio.io/references/commands/cli/app/env/epinio_app_env"
@@ -1919,11 +1823,9 @@
                           }
                         },
                         {
-                          "name": "epinio_app_env_list.md",
+                          "name": "/references/commands/cli/app/env/epinio_app_env_list.md",
                           "type": "file",
                           "data": {
-                            "path": "/references/commands/cli/app/env/epinio_app_env_list.md",
-                            "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/app/env/epinio_app_env_list.md",
                             "title": "",
                             "description": "epinio app env list",
                             "keywords": [
@@ -1957,11 +1859,9 @@
                           }
                         },
                         {
-                          "name": "epinio_app_env_set.md",
+                          "name": "/references/commands/cli/app/env/epinio_app_env_set.md",
                           "type": "file",
                           "data": {
-                            "path": "/references/commands/cli/app/env/epinio_app_env_set.md",
-                            "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/app/env/epinio_app_env_set.md",
                             "title": "",
                             "description": "epinio app env set",
                             "keywords": [
@@ -1995,11 +1895,9 @@
                           }
                         },
                         {
-                          "name": "epinio_app_env_show.md",
+                          "name": "/references/commands/cli/app/env/epinio_app_env_show.md",
                           "type": "file",
                           "data": {
-                            "path": "/references/commands/cli/app/env/epinio_app_env_show.md",
-                            "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/app/env/epinio_app_env_show.md",
                             "title": "",
                             "description": "epinio app env show",
                             "keywords": [
@@ -2033,11 +1931,9 @@
                           }
                         },
                         {
-                          "name": "epinio_app_env_unset.md",
+                          "name": "/references/commands/cli/app/env/epinio_app_env_unset.md",
                           "type": "file",
                           "data": {
-                            "path": "/references/commands/cli/app/env/epinio_app_env_unset.md",
-                            "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/app/env/epinio_app_env_unset.md",
                             "title": "",
                             "description": "epinio app env unset",
                             "keywords": [
@@ -2073,11 +1969,9 @@
                       ]
                     },
                     {
-                      "name": "epinio_app.md",
+                      "name": "/references/commands/cli/app/epinio_app.md",
                       "type": "file",
                       "data": {
-                        "path": "/references/commands/cli/app/epinio_app.md",
-                        "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/app/epinio_app.md",
                         "title": "",
                         "description": "epinio app",
                         "keywords": [
@@ -2102,22 +1996,22 @@
                         "sidebar_label": "epinio app",
                         "sidebar_position": null,
                         "int_links": [
+                          "/references/commands/cli/app/epinio_app_list.md",
                           "/references/commands/cli/app/chart/epinio_app_chart.md",
-                          "/references/commands/cli/app/env/epinio_app_env.md",
-                          "/references/commands/cli/app/epinio_app_manifest.md",
                           "/references/commands/cli/app/epinio_app_restage.md",
-                          "/references/commands/cli/app/epinio_app_update.md",
+                          "/references/commands/cli/app/epinio_app_port-forward.md",
+                          "/references/commands/cli/app/epinio_app_exec.md",
+                          "/references/commands/cli/app/epinio_app_restart.md",
+                          "/references/commands/cli/app/epinio_app_show.md",
+                          "/references/commands/cli/app/env/epinio_app_env.md",
                           "/references/commands/cli/app/epinio_app_export.md",
+                          "/references/commands/cli/app/epinio_app_manifest.md",
+                          "/references/commands/cli/epinio_push.md",
+                          "/references/commands/cli/app/epinio_app_update.md",
                           "/references/commands/cli/app/epinio_app_create.md",
                           "/references/commands/cli/app/epinio_app_logs.md",
-                          "/references/commands/cli/app/epinio_app_show.md",
-                          "/references/commands/cli/app/epinio_app_restart.md",
-                          "/references/commands/cli/app/epinio_app_port-forward.md",
-                          "/references/commands/cli/epinio_push.md",
                           "/references/commands/cli/epinio.md",
-                          "/references/commands/cli/app/epinio_app_exec.md",
-                          "/references/commands/cli/app/epinio_app_delete.md",
-                          "/references/commands/cli/app/epinio_app_list.md"
+                          "/references/commands/cli/app/epinio_app_delete.md"
                         ],
                         "ext_links": [
                           "https://docs.epinio.io/references/commands/cli/app/epinio_app"
@@ -2126,11 +2020,9 @@
                       }
                     },
                     {
-                      "name": "epinio_app_create.md",
+                      "name": "/references/commands/cli/app/epinio_app_create.md",
                       "type": "file",
                       "data": {
-                        "path": "/references/commands/cli/app/epinio_app_create.md",
-                        "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/app/epinio_app_create.md",
                         "title": "",
                         "description": "epinio app create",
                         "keywords": [
@@ -2164,11 +2056,9 @@
                       }
                     },
                     {
-                      "name": "epinio_app_delete.md",
+                      "name": "/references/commands/cli/app/epinio_app_delete.md",
                       "type": "file",
                       "data": {
-                        "path": "/references/commands/cli/app/epinio_app_delete.md",
-                        "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/app/epinio_app_delete.md",
                         "title": "",
                         "description": "epinio app delete",
                         "keywords": [
@@ -2202,11 +2092,9 @@
                       }
                     },
                     {
-                      "name": "epinio_app_exec.md",
+                      "name": "/references/commands/cli/app/epinio_app_exec.md",
                       "type": "file",
                       "data": {
-                        "path": "/references/commands/cli/app/epinio_app_exec.md",
-                        "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/app/epinio_app_exec.md",
                         "title": "",
                         "description": "epinio app exec",
                         "keywords": [
@@ -2240,11 +2128,9 @@
                       }
                     },
                     {
-                      "name": "epinio_app_export.md",
+                      "name": "/references/commands/cli/app/epinio_app_export.md",
                       "type": "file",
                       "data": {
-                        "path": "/references/commands/cli/app/epinio_app_export.md",
-                        "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/app/epinio_app_export.md",
                         "title": "",
                         "description": "epinio app export",
                         "keywords": [
@@ -2278,11 +2164,9 @@
                       }
                     },
                     {
-                      "name": "epinio_app_list.md",
+                      "name": "/references/commands/cli/app/epinio_app_list.md",
                       "type": "file",
                       "data": {
-                        "path": "/references/commands/cli/app/epinio_app_list.md",
-                        "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/app/epinio_app_list.md",
                         "title": "",
                         "description": "epinio app list",
                         "keywords": [
@@ -2316,11 +2200,9 @@
                       }
                     },
                     {
-                      "name": "epinio_app_logs.md",
+                      "name": "/references/commands/cli/app/epinio_app_logs.md",
                       "type": "file",
                       "data": {
-                        "path": "/references/commands/cli/app/epinio_app_logs.md",
-                        "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/app/epinio_app_logs.md",
                         "title": "",
                         "description": "epinio app logs",
                         "keywords": [
@@ -2354,11 +2236,9 @@
                       }
                     },
                     {
-                      "name": "epinio_app_manifest.md",
+                      "name": "/references/commands/cli/app/epinio_app_manifest.md",
                       "type": "file",
                       "data": {
-                        "path": "/references/commands/cli/app/epinio_app_manifest.md",
-                        "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/app/epinio_app_manifest.md",
                         "title": "",
                         "description": "epinio app manifest",
                         "keywords": [
@@ -2392,11 +2272,9 @@
                       }
                     },
                     {
-                      "name": "epinio_app_port-forward.md",
+                      "name": "/references/commands/cli/app/epinio_app_port-forward.md",
                       "type": "file",
                       "data": {
-                        "path": "/references/commands/cli/app/epinio_app_port-forward.md",
-                        "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/app/epinio_app_port-forward.md",
                         "title": "",
                         "description": "epinio app port-forward",
                         "keywords": [
@@ -2430,11 +2308,9 @@
                       }
                     },
                     {
-                      "name": "epinio_app_push.md",
+                      "name": "/references/commands/cli/app/epinio_app_push.md",
                       "type": "file",
                       "data": {
-                        "path": "/references/commands/cli/app/epinio_app_push.md",
-                        "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/app/epinio_app_push.md",
                         "title": "",
                         "description": "epinio app push",
                         "keywords": [
@@ -2468,11 +2344,9 @@
                       }
                     },
                     {
-                      "name": "epinio_app_restage.md",
+                      "name": "/references/commands/cli/app/epinio_app_restage.md",
                       "type": "file",
                       "data": {
-                        "path": "/references/commands/cli/app/epinio_app_restage.md",
-                        "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/app/epinio_app_restage.md",
                         "title": "",
                         "description": "epinio app restage",
                         "keywords": [
@@ -2506,11 +2380,9 @@
                       }
                     },
                     {
-                      "name": "epinio_app_restart.md",
+                      "name": "/references/commands/cli/app/epinio_app_restart.md",
                       "type": "file",
                       "data": {
-                        "path": "/references/commands/cli/app/epinio_app_restart.md",
-                        "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/app/epinio_app_restart.md",
                         "title": "",
                         "description": "epinio app restart",
                         "keywords": [
@@ -2544,11 +2416,9 @@
                       }
                     },
                     {
-                      "name": "epinio_app_show.md",
+                      "name": "/references/commands/cli/app/epinio_app_show.md",
                       "type": "file",
                       "data": {
-                        "path": "/references/commands/cli/app/epinio_app_show.md",
-                        "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/app/epinio_app_show.md",
                         "title": "",
                         "description": "epinio app show",
                         "keywords": [
@@ -2582,11 +2452,9 @@
                       }
                     },
                     {
-                      "name": "epinio_app_update.md",
+                      "name": "/references/commands/cli/app/epinio_app_update.md",
                       "type": "file",
                       "data": {
-                        "path": "/references/commands/cli/app/epinio_app_update.md",
-                        "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/app/epinio_app_update.md",
                         "title": "",
                         "description": "epinio app update",
                         "keywords": [
@@ -2622,19 +2490,17 @@
                   ]
                 },
                 {
-                  "name": "configuration",
+                  "name": "/configuration",
                   "type": "folder",
-                  "children": [
+                  "successor": [
                     {
-                      "name": "_category_.json",
+                      "name": "/references/commands/cli/configuration/_category_.json",
                       "type": "file"
                     },
                     {
-                      "name": "epinio_configuration.md",
+                      "name": "/references/commands/cli/configuration/epinio_configuration.md",
                       "type": "file",
                       "data": {
-                        "path": "/references/commands/cli/configuration/epinio_configuration.md",
-                        "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/configuration/epinio_configuration.md",
                         "title": "",
                         "description": "epinio configuration",
                         "keywords": [
@@ -2659,14 +2525,14 @@
                         "sidebar_label": "epinio configuration",
                         "sidebar_position": null,
                         "int_links": [
-                          "/references/commands/cli/configuration/epinio_configuration_delete.md",
+                          "/references/commands/cli/configuration/epinio_configuration_list.md",
                           "/references/commands/cli/configuration/epinio_configuration_create.md",
                           "/references/commands/cli/configuration/epinio_configuration_bind.md",
+                          "/references/commands/cli/configuration/epinio_configuration_delete.md",
                           "/references/commands/cli/configuration/epinio_configuration_show.md",
+                          "/references/commands/cli/configuration/epinio_configuration_update.md",
                           "/references/commands/cli/configuration/epinio_configuration_unbind.md",
-                          "/references/commands/cli/configuration/epinio_configuration_list.md",
-                          "/references/commands/cli/epinio.md",
-                          "/references/commands/cli/configuration/epinio_configuration_update.md"
+                          "/references/commands/cli/epinio.md"
                         ],
                         "ext_links": [
                           "https://docs.epinio.io/references/commands/cli/configuration/epinio_configuration"
@@ -2675,11 +2541,9 @@
                       }
                     },
                     {
-                      "name": "epinio_configuration_bind.md",
+                      "name": "/references/commands/cli/configuration/epinio_configuration_bind.md",
                       "type": "file",
                       "data": {
-                        "path": "/references/commands/cli/configuration/epinio_configuration_bind.md",
-                        "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/configuration/epinio_configuration_bind.md",
                         "title": "",
                         "description": "epinio configuration bind",
                         "keywords": [
@@ -2713,11 +2577,9 @@
                       }
                     },
                     {
-                      "name": "epinio_configuration_create.md",
+                      "name": "/references/commands/cli/configuration/epinio_configuration_create.md",
                       "type": "file",
                       "data": {
-                        "path": "/references/commands/cli/configuration/epinio_configuration_create.md",
-                        "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/configuration/epinio_configuration_create.md",
                         "title": "",
                         "description": "epinio configuration create",
                         "keywords": [
@@ -2751,11 +2613,9 @@
                       }
                     },
                     {
-                      "name": "epinio_configuration_delete.md",
+                      "name": "/references/commands/cli/configuration/epinio_configuration_delete.md",
                       "type": "file",
                       "data": {
-                        "path": "/references/commands/cli/configuration/epinio_configuration_delete.md",
-                        "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/configuration/epinio_configuration_delete.md",
                         "title": "",
                         "description": "epinio configuration delete",
                         "keywords": [
@@ -2789,11 +2649,9 @@
                       }
                     },
                     {
-                      "name": "epinio_configuration_list.md",
+                      "name": "/references/commands/cli/configuration/epinio_configuration_list.md",
                       "type": "file",
                       "data": {
-                        "path": "/references/commands/cli/configuration/epinio_configuration_list.md",
-                        "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/configuration/epinio_configuration_list.md",
                         "title": "",
                         "description": "epinio configuration list",
                         "keywords": [
@@ -2827,11 +2685,9 @@
                       }
                     },
                     {
-                      "name": "epinio_configuration_show.md",
+                      "name": "/references/commands/cli/configuration/epinio_configuration_show.md",
                       "type": "file",
                       "data": {
-                        "path": "/references/commands/cli/configuration/epinio_configuration_show.md",
-                        "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/configuration/epinio_configuration_show.md",
                         "title": "",
                         "description": "epinio configuration show",
                         "keywords": [
@@ -2865,11 +2721,9 @@
                       }
                     },
                     {
-                      "name": "epinio_configuration_unbind.md",
+                      "name": "/references/commands/cli/configuration/epinio_configuration_unbind.md",
                       "type": "file",
                       "data": {
-                        "path": "/references/commands/cli/configuration/epinio_configuration_unbind.md",
-                        "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/configuration/epinio_configuration_unbind.md",
                         "title": "",
                         "description": "epinio configuration unbind",
                         "keywords": [
@@ -2903,11 +2757,9 @@
                       }
                     },
                     {
-                      "name": "epinio_configuration_update.md",
+                      "name": "/references/commands/cli/configuration/epinio_configuration_update.md",
                       "type": "file",
                       "data": {
-                        "path": "/references/commands/cli/configuration/epinio_configuration_update.md",
-                        "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/configuration/epinio_configuration_update.md",
                         "title": "",
                         "description": "epinio configuration update",
                         "keywords": [
@@ -2943,19 +2795,17 @@
                   ]
                 },
                 {
-                  "name": "gitconfig",
+                  "name": "/gitconfig",
                   "type": "folder",
-                  "children": [
+                  "successor": [
                     {
-                      "name": "_category_.json",
+                      "name": "/references/commands/cli/gitconfig/_category_.json",
                       "type": "file"
                     },
                     {
-                      "name": "epinio_gitconfig.md",
+                      "name": "/references/commands/cli/gitconfig/epinio_gitconfig.md",
                       "type": "file",
                       "data": {
-                        "path": "/references/commands/cli/gitconfig/epinio_gitconfig.md",
-                        "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/gitconfig/epinio_gitconfig.md",
                         "title": "",
                         "description": "epinio gitconfig",
                         "keywords": [
@@ -2980,11 +2830,11 @@
                         "sidebar_label": "epinio gitconfig",
                         "sidebar_position": null,
                         "int_links": [
-                          "/references/commands/cli/gitconfig/epinio_gitconfig_create.md",
-                          "/references/commands/cli/gitconfig/epinio_gitconfig_delete.md",
-                          "/references/commands/cli/gitconfig/epinio_gitconfig_list.md",
                           "/references/commands/cli/gitconfig/epinio_gitconfig_show.md",
-                          "/references/commands/cli/epinio.md"
+                          "/references/commands/cli/gitconfig/epinio_gitconfig_delete.md",
+                          "/references/commands/cli/gitconfig/epinio_gitconfig_create.md",
+                          "/references/commands/cli/epinio.md",
+                          "/references/commands/cli/gitconfig/epinio_gitconfig_list.md"
                         ],
                         "ext_links": [
                           "https://docs.epinio.io/references/commands/cli/gitconfig/epinio_gitconfig"
@@ -2993,11 +2843,9 @@
                       }
                     },
                     {
-                      "name": "epinio_gitconfig_create.md",
+                      "name": "/references/commands/cli/gitconfig/epinio_gitconfig_create.md",
                       "type": "file",
                       "data": {
-                        "path": "/references/commands/cli/gitconfig/epinio_gitconfig_create.md",
-                        "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/gitconfig/epinio_gitconfig_create.md",
                         "title": "",
                         "description": "epinio gitconfig create",
                         "keywords": [
@@ -3031,11 +2879,9 @@
                       }
                     },
                     {
-                      "name": "epinio_gitconfig_delete.md",
+                      "name": "/references/commands/cli/gitconfig/epinio_gitconfig_delete.md",
                       "type": "file",
                       "data": {
-                        "path": "/references/commands/cli/gitconfig/epinio_gitconfig_delete.md",
-                        "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/gitconfig/epinio_gitconfig_delete.md",
                         "title": "",
                         "description": "epinio gitconfig delete",
                         "keywords": [
@@ -3069,11 +2915,9 @@
                       }
                     },
                     {
-                      "name": "epinio_gitconfig_list.md",
+                      "name": "/references/commands/cli/gitconfig/epinio_gitconfig_list.md",
                       "type": "file",
                       "data": {
-                        "path": "/references/commands/cli/gitconfig/epinio_gitconfig_list.md",
-                        "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/gitconfig/epinio_gitconfig_list.md",
                         "title": "",
                         "description": "epinio gitconfig list",
                         "keywords": [
@@ -3107,11 +2951,9 @@
                       }
                     },
                     {
-                      "name": "epinio_gitconfig_show.md",
+                      "name": "/references/commands/cli/gitconfig/epinio_gitconfig_show.md",
                       "type": "file",
                       "data": {
-                        "path": "/references/commands/cli/gitconfig/epinio_gitconfig_show.md",
-                        "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/gitconfig/epinio_gitconfig_show.md",
                         "title": "",
                         "description": "epinio gitconfig show",
                         "keywords": [
@@ -3147,19 +2989,17 @@
                   ]
                 },
                 {
-                  "name": "namespace",
+                  "name": "/namespace",
                   "type": "folder",
-                  "children": [
+                  "successor": [
                     {
-                      "name": "_category_.json",
+                      "name": "/references/commands/cli/namespace/_category_.json",
                       "type": "file"
                     },
                     {
-                      "name": "epinio_namespace.md",
+                      "name": "/references/commands/cli/namespace/epinio_namespace.md",
                       "type": "file",
                       "data": {
-                        "path": "/references/commands/cli/namespace/epinio_namespace.md",
-                        "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/namespace/epinio_namespace.md",
                         "title": "",
                         "description": "epinio namespace",
                         "keywords": [
@@ -3184,11 +3024,11 @@
                         "sidebar_label": "epinio namespace",
                         "sidebar_position": null,
                         "int_links": [
-                          "/references/commands/cli/namespace/epinio_namespace_create.md",
+                          "/references/commands/cli/namespace/epinio_namespace_delete.md",
+                          "/references/commands/cli/namespace/epinio_namespace_list.md",
                           "/references/commands/cli/namespace/epinio_namespace_show.md",
                           "/references/commands/cli/epinio.md",
-                          "/references/commands/cli/namespace/epinio_namespace_list.md",
-                          "/references/commands/cli/namespace/epinio_namespace_delete.md"
+                          "/references/commands/cli/namespace/epinio_namespace_create.md"
                         ],
                         "ext_links": [
                           "https://docs.epinio.io/references/commands/cli/namespace/epinio_namespace"
@@ -3197,11 +3037,9 @@
                       }
                     },
                     {
-                      "name": "epinio_namespace_create.md",
+                      "name": "/references/commands/cli/namespace/epinio_namespace_create.md",
                       "type": "file",
                       "data": {
-                        "path": "/references/commands/cli/namespace/epinio_namespace_create.md",
-                        "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/namespace/epinio_namespace_create.md",
                         "title": "",
                         "description": "epinio namespace create",
                         "keywords": [
@@ -3235,11 +3073,9 @@
                       }
                     },
                     {
-                      "name": "epinio_namespace_delete.md",
+                      "name": "/references/commands/cli/namespace/epinio_namespace_delete.md",
                       "type": "file",
                       "data": {
-                        "path": "/references/commands/cli/namespace/epinio_namespace_delete.md",
-                        "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/namespace/epinio_namespace_delete.md",
                         "title": "",
                         "description": "epinio namespace delete",
                         "keywords": [
@@ -3273,11 +3109,9 @@
                       }
                     },
                     {
-                      "name": "epinio_namespace_list.md",
+                      "name": "/references/commands/cli/namespace/epinio_namespace_list.md",
                       "type": "file",
                       "data": {
-                        "path": "/references/commands/cli/namespace/epinio_namespace_list.md",
-                        "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/namespace/epinio_namespace_list.md",
                         "title": "",
                         "description": "epinio namespace list",
                         "keywords": [
@@ -3311,11 +3145,9 @@
                       }
                     },
                     {
-                      "name": "epinio_namespace_show.md",
+                      "name": "/references/commands/cli/namespace/epinio_namespace_show.md",
                       "type": "file",
                       "data": {
-                        "path": "/references/commands/cli/namespace/epinio_namespace_show.md",
-                        "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/namespace/epinio_namespace_show.md",
                         "title": "",
                         "description": "epinio namespace show",
                         "keywords": [
@@ -3351,19 +3183,17 @@
                   ]
                 },
                 {
-                  "name": "service",
+                  "name": "/service",
                   "type": "folder",
-                  "children": [
+                  "successor": [
                     {
-                      "name": "_category_.json",
+                      "name": "/references/commands/cli/service/_category_.json",
                       "type": "file"
                     },
                     {
-                      "name": "epinio_service_create.md",
+                      "name": "/references/commands/cli/service/epinio_service_create.md",
                       "type": "file",
                       "data": {
-                        "path": "/references/commands/cli/service/epinio_service_create.md",
-                        "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/service/epinio_service_create.md",
                         "title": "",
                         "description": "epinio service create",
                         "keywords": [
@@ -3397,11 +3227,9 @@
                       }
                     },
                     {
-                      "name": "epinio_service_delete.md",
+                      "name": "/references/commands/cli/service/epinio_service_delete.md",
                       "type": "file",
                       "data": {
-                        "path": "/references/commands/cli/service/epinio_service_delete.md",
-                        "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/service/epinio_service_delete.md",
                         "title": "",
                         "description": "epinio service delete",
                         "keywords": [
@@ -3435,11 +3263,9 @@
                       }
                     },
                     {
-                      "name": "epinio_service_list.md",
+                      "name": "/references/commands/cli/service/epinio_service_list.md",
                       "type": "file",
                       "data": {
-                        "path": "/references/commands/cli/service/epinio_service_list.md",
-                        "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/service/epinio_service_list.md",
                         "title": "",
                         "description": "epinio service list",
                         "keywords": [
@@ -3473,11 +3299,9 @@
                       }
                     },
                     {
-                      "name": "epinio_service_port-forward.md",
+                      "name": "/references/commands/cli/service/epinio_service_port-forward.md",
                       "type": "file",
                       "data": {
-                        "path": "/references/commands/cli/service/epinio_service_port-forward.md",
-                        "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/service/epinio_service_port-forward.md",
                         "title": "",
                         "description": "epinio service port-forward",
                         "keywords": [
@@ -3511,11 +3335,9 @@
                       }
                     },
                     {
-                      "name": "epinio_service_show.md",
+                      "name": "/references/commands/cli/service/epinio_service_show.md",
                       "type": "file",
                       "data": {
-                        "path": "/references/commands/cli/service/epinio_service_show.md",
-                        "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/service/epinio_service_show.md",
                         "title": "",
                         "description": "epinio service show",
                         "keywords": [
@@ -3549,11 +3371,9 @@
                       }
                     },
                     {
-                      "name": "epinio_service_unbind.md",
+                      "name": "/references/commands/cli/service/epinio_service_unbind.md",
                       "type": "file",
                       "data": {
-                        "path": "/references/commands/cli/service/epinio_service_unbind.md",
-                        "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/service/epinio_service_unbind.md",
                         "title": "",
                         "description": "epinio service unbind",
                         "keywords": [
@@ -3587,11 +3407,9 @@
                       }
                     },
                     {
-                      "name": "epinio_service_update.md",
+                      "name": "/references/commands/cli/service/epinio_service_update.md",
                       "type": "file",
                       "data": {
-                        "path": "/references/commands/cli/service/epinio_service_update.md",
-                        "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/service/epinio_service_update.md",
                         "title": "",
                         "description": "epinio service update",
                         "keywords": [
@@ -3625,11 +3443,9 @@
                       }
                     },
                     {
-                      "name": "epinio_service.md",
+                      "name": "/references/commands/cli/service/epinio_service.md",
                       "type": "file",
                       "data": {
-                        "path": "/references/commands/cli/service/epinio_service.md",
-                        "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/service/epinio_service.md",
                         "title": "",
                         "description": "epinio service",
                         "keywords": [
@@ -3654,16 +3470,16 @@
                         "sidebar_label": "epinio service",
                         "sidebar_position": null,
                         "int_links": [
+                          "/references/commands/cli/service/epinio_service_unbind.md",
                           "/references/commands/cli/service/epinio_service_create.md",
-                          "/references/commands/cli/service/epinio_service_show.md",
-                          "/references/commands/cli/service/epinio_service_catalog.md",
-                          "/references/commands/cli/service/epinio_service_delete.md",
                           "/references/commands/cli/service/epinio_service_update.md",
                           "/references/commands/cli/service/epinio_service_list.md",
+                          "/references/commands/cli/service/epinio_service_bind.md",
                           "/references/commands/cli/service/epinio_service_port-forward.md",
+                          "/references/commands/cli/service/epinio_service_catalog.md",
+                          "/references/commands/cli/service/epinio_service_show.md",
                           "/references/commands/cli/epinio.md",
-                          "/references/commands/cli/service/epinio_service_unbind.md",
-                          "/references/commands/cli/service/epinio_service_bind.md"
+                          "/references/commands/cli/service/epinio_service_delete.md"
                         ],
                         "ext_links": [
                           "https://docs.epinio.io/references/commands/cli/service/epinio_service"
@@ -3672,11 +3488,9 @@
                       }
                     },
                     {
-                      "name": "epinio_service_bind.md",
+                      "name": "/references/commands/cli/service/epinio_service_bind.md",
                       "type": "file",
                       "data": {
-                        "path": "/references/commands/cli/service/epinio_service_bind.md",
-                        "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/service/epinio_service_bind.md",
                         "title": "",
                         "description": "epinio service bind",
                         "keywords": [
@@ -3710,11 +3524,9 @@
                       }
                     },
                     {
-                      "name": "epinio_service_catalog.md",
+                      "name": "/references/commands/cli/service/epinio_service_catalog.md",
                       "type": "file",
                       "data": {
-                        "path": "/references/commands/cli/service/epinio_service_catalog.md",
-                        "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/service/epinio_service_catalog.md",
                         "title": "",
                         "description": "epinio service catalog",
                         "keywords": [
@@ -3750,19 +3562,17 @@
                   ]
                 },
                 {
-                  "name": "settings",
+                  "name": "/settings",
                   "type": "folder",
-                  "children": [
+                  "successor": [
                     {
-                      "name": "_category_.json",
+                      "name": "/references/commands/cli/settings/_category_.json",
                       "type": "file"
                     },
                     {
-                      "name": "epinio_settings.md",
+                      "name": "/references/commands/cli/settings/epinio_settings.md",
                       "type": "file",
                       "data": {
-                        "path": "/references/commands/cli/settings/epinio_settings.md",
-                        "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/settings/epinio_settings.md",
                         "title": "",
                         "description": "epinio settings",
                         "keywords": [
@@ -3788,9 +3598,9 @@
                         "sidebar_position": null,
                         "int_links": [
                           "/references/commands/cli/settings/epinio_settings_update-ca.md",
+                          "/references/commands/cli/settings/epinio_settings_colors.md",
                           "/references/commands/cli/settings/epinio_settings_show.md",
-                          "/references/commands/cli/epinio.md",
-                          "/references/commands/cli/settings/epinio_settings_colors.md"
+                          "/references/commands/cli/epinio.md"
                         ],
                         "ext_links": [
                           "https://docs.epinio.io/references/commands/cli/settings/epinio_settings"
@@ -3799,11 +3609,9 @@
                       }
                     },
                     {
-                      "name": "epinio_settings_colors.md",
+                      "name": "/references/commands/cli/settings/epinio_settings_colors.md",
                       "type": "file",
                       "data": {
-                        "path": "/references/commands/cli/settings/epinio_settings_colors.md",
-                        "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/settings/epinio_settings_colors.md",
                         "title": "",
                         "description": "epinio settings colors",
                         "keywords": [
@@ -3837,11 +3645,9 @@
                       }
                     },
                     {
-                      "name": "epinio_settings_show.md",
+                      "name": "/references/commands/cli/settings/epinio_settings_show.md",
                       "type": "file",
                       "data": {
-                        "path": "/references/commands/cli/settings/epinio_settings_show.md",
-                        "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/settings/epinio_settings_show.md",
                         "title": "",
                         "description": "epinio settings show",
                         "keywords": [
@@ -3875,11 +3681,9 @@
                       }
                     },
                     {
-                      "name": "epinio_settings_update-ca.md",
+                      "name": "/references/commands/cli/settings/epinio_settings_update-ca.md",
                       "type": "file",
                       "data": {
-                        "path": "/references/commands/cli/settings/epinio_settings_update-ca.md",
-                        "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/settings/epinio_settings_update-ca.md",
                         "title": "",
                         "description": "epinio settings update-ca",
                         "keywords": [
@@ -3915,11 +3719,9 @@
                   ]
                 },
                 {
-                  "name": "epinio_version.md",
+                  "name": "/references/commands/cli/epinio_version.md",
                   "type": "file",
                   "data": {
-                    "path": "/references/commands/cli/epinio_version.md",
-                    "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/epinio_version.md",
                     "title": "",
                     "description": "epinio version",
                     "keywords": [
@@ -3953,11 +3755,9 @@
                   }
                 },
                 {
-                  "name": "epinio.md",
+                  "name": "/references/commands/cli/epinio.md",
                   "type": "file",
                   "data": {
-                    "path": "/references/commands/cli/epinio.md",
-                    "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/epinio.md",
                     "title": "",
                     "description": "epinio cli",
                     "keywords": [
@@ -3982,22 +3782,22 @@
                     "sidebar_label": "epinio cli",
                     "sidebar_position": null,
                     "int_links": [
-                      "/references/commands/cli/epinio_export-registries.md",
-                      "/references/commands/cli/epinio_target.md",
-                      "/references/commands/cli/service/epinio_service.md",
                       "/references/commands/cli/epinio_completion.md",
-                      "/references/commands/cli/app/epinio_app.md",
-                      "/references/commands/cli/settings/epinio_settings.md",
-                      "/references/commands/cli/epinio_login.md",
-                      "/references/commands/cli/namespace/epinio_namespace.md",
-                      "/references/commands/cli/epinio_server.md",
-                      "/references/commands/cli/epinio_info.md",
-                      "/references/commands/cli/gitconfig/epinio_gitconfig.md",
                       "/references/commands/cli/epinio_push.md",
-                      "/references/commands/cli/configuration/epinio_configuration.md",
-                      "/references/commands/cli/epinio_logout.md",
+                      "/references/commands/cli/epinio_export-registries.md",
+                      "/references/commands/cli/namespace/epinio_namespace.md",
+                      "/references/commands/cli/settings/epinio_settings.md",
                       "/references/commands/cli/epinio_client-sync.md",
-                      "/references/commands/cli/epinio_version.md"
+                      "/references/commands/cli/gitconfig/epinio_gitconfig.md",
+                      "/references/commands/cli/epinio_login.md",
+                      "/references/commands/cli/app/epinio_app.md",
+                      "/references/commands/cli/epinio_server.md",
+                      "/references/commands/cli/epinio_logout.md",
+                      "/references/commands/cli/epinio_version.md",
+                      "/references/commands/cli/configuration/epinio_configuration.md",
+                      "/references/commands/cli/epinio_info.md",
+                      "/references/commands/cli/service/epinio_service.md",
+                      "/references/commands/cli/epinio_target.md"
                     ],
                     "ext_links": [
                       "https://docs.epinio.io/references/commands/cli/epinio"
@@ -4006,11 +3806,9 @@
                   }
                 },
                 {
-                  "name": "epinio_client-sync.md",
+                  "name": "/references/commands/cli/epinio_client-sync.md",
                   "type": "file",
                   "data": {
-                    "path": "/references/commands/cli/epinio_client-sync.md",
-                    "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/epinio_client-sync.md",
                     "title": "",
                     "description": "epinio client-sync",
                     "keywords": [
@@ -4044,11 +3842,9 @@
                   }
                 },
                 {
-                  "name": "epinio_completion.md",
+                  "name": "/references/commands/cli/epinio_completion.md",
                   "type": "file",
                   "data": {
-                    "path": "/references/commands/cli/epinio_completion.md",
-                    "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/epinio_completion.md",
                     "title": "",
                     "description": "epinio completion",
                     "keywords": [
@@ -4082,11 +3878,9 @@
                   }
                 },
                 {
-                  "name": "epinio_export-registries.md",
+                  "name": "/references/commands/cli/epinio_export-registries.md",
                   "type": "file",
                   "data": {
-                    "path": "/references/commands/cli/epinio_export-registries.md",
-                    "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/epinio_export-registries.md",
                     "title": "",
                     "description": "epinio export-registries",
                     "keywords": [
@@ -4120,11 +3914,9 @@
                   }
                 },
                 {
-                  "name": "epinio_info.md",
+                  "name": "/references/commands/cli/epinio_info.md",
                   "type": "file",
                   "data": {
-                    "path": "/references/commands/cli/epinio_info.md",
-                    "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/epinio_info.md",
                     "title": "",
                     "description": "epinio info",
                     "keywords": [
@@ -4158,11 +3950,9 @@
                   }
                 },
                 {
-                  "name": "epinio_login.md",
+                  "name": "/references/commands/cli/epinio_login.md",
                   "type": "file",
                   "data": {
-                    "path": "/references/commands/cli/epinio_login.md",
-                    "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/epinio_login.md",
                     "title": "",
                     "description": "epinio login",
                     "keywords": [
@@ -4196,11 +3986,9 @@
                   }
                 },
                 {
-                  "name": "epinio_logout.md",
+                  "name": "/references/commands/cli/epinio_logout.md",
                   "type": "file",
                   "data": {
-                    "path": "/references/commands/cli/epinio_logout.md",
-                    "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/epinio_logout.md",
                     "title": "",
                     "description": "epinio logout",
                     "keywords": [
@@ -4234,11 +4022,9 @@
                   }
                 },
                 {
-                  "name": "epinio_push.md",
+                  "name": "/references/commands/cli/epinio_push.md",
                   "type": "file",
                   "data": {
-                    "path": "/references/commands/cli/epinio_push.md",
-                    "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/epinio_push.md",
                     "title": "",
                     "description": "epinio push",
                     "keywords": [
@@ -4272,11 +4058,9 @@
                   }
                 },
                 {
-                  "name": "epinio_server.md",
+                  "name": "/references/commands/cli/epinio_server.md",
                   "type": "file",
                   "data": {
-                    "path": "/references/commands/cli/epinio_server.md",
-                    "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/epinio_server.md",
                     "title": "",
                     "description": "epinio server",
                     "keywords": [
@@ -4310,11 +4094,9 @@
                   }
                 },
                 {
-                  "name": "epinio_target.md",
+                  "name": "/references/commands/cli/epinio_target.md",
                   "type": "file",
                   "data": {
-                    "path": "/references/commands/cli/epinio_target.md",
-                    "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/commands/cli/epinio_target.md",
                     "title": "",
                     "description": "epinio target",
                     "keywords": [
@@ -4352,19 +4134,17 @@
           ]
         },
         {
-          "name": "customization",
+          "name": "/customization",
           "type": "folder",
-          "children": [
+          "successor": [
             {
-              "name": "_category_.json",
+              "name": "/references/customization/_category_.json",
               "type": "file"
             },
             {
-              "name": "appcharts.md",
+              "name": "/references/customization/appcharts.md",
               "type": "file",
               "data": {
-                "path": "/references/customization/appcharts.md",
-                "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/customization/appcharts.md",
                 "title": "",
                 "description": null,
                 "keywords": null,
@@ -4375,26 +4155,24 @@
                 "sidebar_label": "Application Charts",
                 "sidebar_position": null,
                 "int_links": [
-                  "/references/customization/routing_secrets.md",
-                  "/references/customization/#configuration",
                   "/references/customization/#pods",
                   "/howtos/customization/create_custom_appcharts.md",
-                  "/references/customization/lb.md",
-                  "/howtos/other/using_custom_appcharts.md"
+                  "/howtos/other/using_custom_appcharts.md",
+                  "/references/customization/#configuration",
+                  "/references/customization/routing_secrets.md",
+                  "/references/customization/lb.md"
                 ],
                 "ext_links": [
-                  "https://github.com/epinio/helm-charts/tree/main/chart/application",
-                  "https://docs.epinio.io/references/customization/appcharts"
+                  "https://docs.epinio.io/references/customization/appcharts",
+                  "https://github.com/epinio/helm-charts/tree/main/chart/application"
                 ],
                 "can_link": "https://docs.epinio.io/references/customization/appcharts"
               }
             },
             {
-              "name": "catalog.md",
+              "name": "/references/customization/catalog.md",
               "type": "file",
               "data": {
-                "path": "/references/customization/catalog.md",
-                "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/customization/catalog.md",
                 "title": "",
                 "description": null,
                 "keywords": null,
@@ -4414,11 +4192,9 @@
               }
             },
             {
-              "name": "export_registries.md",
+              "name": "/references/customization/export_registries.md",
               "type": "file",
               "data": {
-                "path": "/references/customization/export_registries.md",
-                "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/customization/export_registries.md",
                 "title": "",
                 "description": null,
                 "keywords": null,
@@ -4439,11 +4215,9 @@
               }
             },
             {
-              "name": "images.md",
+              "name": "/references/customization/images.md",
               "type": "file",
               "data": {
-                "path": "/references/customization/images.md",
-                "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/customization/images.md",
                 "title": "",
                 "description": null,
                 "keywords": null,
@@ -4454,18 +4228,16 @@
                 "sidebar_label": "Image Storage",
                 "sidebar_position": null,
                 "ext_links": [
-                  "https://docs.docker.com/registry/",
-                  "https://docs.epinio.io/references/customization/images"
+                  "https://docs.epinio.io/references/customization/images",
+                  "https://docs.docker.com/registry/"
                 ],
                 "can_link": "https://docs.epinio.io/references/customization/images"
               }
             },
             {
-              "name": "lb.md",
+              "name": "/references/customization/lb.md",
               "type": "file",
               "data": {
-                "path": "/references/customization/lb.md",
-                "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/customization/lb.md",
                 "title": "",
                 "description": null,
                 "keywords": null,
@@ -4485,11 +4257,9 @@
               }
             },
             {
-              "name": "routing_secrets.md",
+              "name": "/references/customization/routing_secrets.md",
               "type": "file",
               "data": {
-                "path": "/references/customization/routing_secrets.md",
-                "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/customization/routing_secrets.md",
                 "title": "",
                 "description": null,
                 "keywords": null,
@@ -4509,11 +4279,9 @@
               }
             },
             {
-              "name": "sources.md",
+              "name": "/references/customization/sources.md",
               "type": "file",
               "data": {
-                "path": "/references/customization/sources.md",
-                "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/customization/sources.md",
                 "title": "",
                 "description": null,
                 "keywords": null,
@@ -4531,11 +4299,9 @@
               }
             },
             {
-              "name": "staging-scripts.md",
+              "name": "/references/customization/staging-scripts.md",
               "type": "file",
               "data": {
-                "path": "/references/customization/staging-scripts.md",
-                "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/customization/staging-scripts.md",
                 "title": "Customization point: Staging scripts",
                 "description": "Using staging scripts with Epinio.",
                 "keywords": [
@@ -4554,19 +4320,17 @@
                   "/references/customization/staging.md"
                 ],
                 "ext_links": [
+                  "https://github.com/paketo-buildpacks/builder-jammy-full",
                   "https://buildpacks.io/",
-                  "https://docs.epinio.io/references/customization/staging-scripts",
-                  "https://github.com/paketo-buildpacks/builder-jammy-full"
+                  "https://docs.epinio.io/references/customization/staging-scripts"
                 ],
                 "can_link": "https://docs.epinio.io/references/customization/staging-scripts"
               }
             },
             {
-              "name": "staging.md",
+              "name": "/references/customization/staging.md",
               "type": "file",
               "data": {
-                "path": "/references/customization/staging.md",
-                "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/customization/staging.md",
                 "title": "Customization point: Buildpacks",
                 "description": "Using buildpacks in Epinio.",
                 "keywords": [
@@ -4583,8 +4347,8 @@
                 "sidebar_position": null,
                 "int_links": [
                   "/references/supported_applications.md",
-                  "/references/commands/cli/epinio_push.md",
-                  "/references/customization/staging-scripts.md"
+                  "/references/customization/staging-scripts.md",
+                  "/references/commands/cli/epinio_push.md"
                 ],
                 "ext_links": [
                   "https://docs.epinio.io/references/customization/staging",
@@ -4597,23 +4361,21 @@
           ]
         },
         {
-          "name": "epinio-push-simple.svg",
+          "name": "/references/epinio-push-simple.svg",
           "type": "file"
         },
         {
-          "name": "system_requirements",
+          "name": "/system_requirements",
           "type": "folder",
-          "children": [
+          "successor": [
             {
-              "name": "_category_.json",
+              "name": "/references/system_requirements/_category_.json",
               "type": "file"
             },
             {
-              "name": "global.md",
+              "name": "/references/system_requirements/global.md",
               "type": "file",
               "data": {
-                "path": "/references/system_requirements/global.md",
-                "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/system_requirements/global.md",
                 "title": "System requirements",
                 "description": "System requirements for the Epinio Kubernetes development environment.",
                 "keywords": [
@@ -4636,33 +4398,31 @@
                 "sidebar_label": "System requirements",
                 "sidebar_position": null,
                 "int_links": [
-                  "/installation/other_inst_scenarios/install_epinio_on_rke.md",
-                  "/installation/other_inst_scenarios/install_epinio_on_k3s.md",
-                  "/installation/other_inst_scenarios/install_epinio_on_k3d.md",
                   "/installation/other_inst_scenarios/install_epinio_on_rancher_desktop.md",
-                  "/howtos/customization/provision_external_ip_for_local_kubernetes"
+                  "/installation/other_inst_scenarios/install_epinio_on_k3d.md",
+                  "/howtos/customization/provision_external_ip_for_local_kubernetes",
+                  "/installation/other_inst_scenarios/install_epinio_on_rke.md",
+                  "/installation/other_inst_scenarios/install_epinio_on_k3s.md"
                 ],
                 "ext_links": [
                   "https://doc.traefik.io/traefik/getting-started/install-traefik/#use-the-helm-chart",
-                  "https://github.com/kubernetes-sigs/metrics-server#installation",
                   "https://github.com/rancher/local-path-provisioner",
+                  "https://docs.epinio.io/references/system_requirements/global",
+                  "https://kubernetes.io/docs/tasks/tools/#kubectl",
+                  "https://github.com/kubernetes-sigs/metrics-server#installation",
+                  "https://docs.nginx.com/nginx-ingress-controller/installation/installation-with-helm/",
+                  "https://kubernetes.io/docs/concepts/configuration/organize-cluster-access-kubeconfig/#the-kubeconfig-environment-variable",
                   "https://cert-manager.io/docs/installation/helm/",
                   "https://longhorn.io",
-                  "https://docs.epinio.io/references/system_requirements/global",
-                  "https://kubernetes.io/docs/concepts/configuration/organize-cluster-access-kubeconfig/#the-kubeconfig-environment-variable",
-                  "https://docs.nginx.com/nginx-ingress-controller/installation/installation-with-helm/",
-                  "https://helm.sh/docs/intro/install/",
-                  "https://kubernetes.io/docs/tasks/tools/#kubectl"
+                  "https://helm.sh/docs/intro/install/"
                 ],
                 "can_link": "https://docs.epinio.io/references/system_requirements/global"
               }
             },
             {
-              "name": "windows.md",
+              "name": "/references/system_requirements/windows.md",
               "type": "file",
               "data": {
-                "path": "/references/system_requirements/windows.md",
-                "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/system_requirements/windows.md",
                 "title": "Windows installation requirements for Epinio",
                 "description": "Windows installation requirements for the Epinio Kubernetes development environment.",
                 "keywords": [
@@ -4686,10 +4446,10 @@
                 "sidebar_position": null,
                 "ext_links": [
                   "https://gitforwindows.org/",
-                  "https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/",
-                  "https://github.com/epinio/epinio/releases",
+                  "https://github.com/helm/helm/releases",
                   "https://docs.epinio.io/references/system_requirements/windows",
-                  "https://github.com/helm/helm/releases"
+                  "https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/",
+                  "https://github.com/epinio/epinio/releases"
                 ],
                 "can_link": "https://docs.epinio.io/references/system_requirements/windows"
               }
@@ -4697,11 +4457,9 @@
           ]
         },
         {
-          "name": "api.md",
+          "name": "/references/api.md",
           "type": "file",
           "data": {
-            "path": "/references/api.md",
-            "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/api.md",
             "title": "",
             "description": null,
             "keywords": null,
@@ -4712,18 +4470,16 @@
             "sidebar_label": "API",
             "sidebar_position": null,
             "ext_links": [
-              "https://docs.epinio.io/references/api",
-              "https://www.openapis.org/"
+              "https://www.openapis.org/",
+              "https://docs.epinio.io/references/api"
             ],
             "can_link": "https://docs.epinio.io/references/api"
           }
         },
         {
-          "name": "authentication_oidc.md",
+          "name": "/references/authentication_oidc.md",
           "type": "file",
           "data": {
-            "path": "/references/authentication_oidc.md",
-            "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/authentication_oidc.md",
             "title": "",
             "description": null,
             "keywords": null,
@@ -4734,18 +4490,16 @@
             "sidebar_label": "OIDC authentication",
             "sidebar_position": null,
             "ext_links": [
-              "https://docs.epinio.io/references/authentication_oidc",
-              "https://dexidp.io/"
+              "https://dexidp.io/",
+              "https://docs.epinio.io/references/authentication_oidc"
             ],
             "can_link": "https://docs.epinio.io/references/authentication_oidc"
           }
         },
         {
-          "name": "authorization.md",
+          "name": "/references/authorization.md",
           "type": "file",
           "data": {
-            "path": "/references/authorization.md",
-            "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/authorization.md",
             "title": "",
             "description": null,
             "keywords": null,
@@ -4763,11 +4517,9 @@
           }
         },
         {
-          "name": "cert-manager.md",
+          "name": "/references/cert-manager.md",
           "type": "file",
           "data": {
-            "path": "/references/cert-manager.md",
-            "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/cert-manager.md",
             "title": "",
             "description": null,
             "keywords": null,
@@ -4781,20 +4533,18 @@
               "/references/customization/routing_secrets.md"
             ],
             "ext_links": [
+              "https://cert-manager.io/docs/installation/supported-releases/",
               "https://cert-manager.io/",
               "https://letsencrypt.org/",
-              "https://docs.epinio.io/references/cert-manager",
-              "https://cert-manager.io/docs/installation/supported-releases/"
+              "https://docs.epinio.io/references/cert-manager"
             ],
             "can_link": "https://docs.epinio.io/references/cert-manager"
           }
         },
         {
-          "name": "command_requirements.md",
+          "name": "/references/command_requirements.md",
           "type": "file",
           "data": {
-            "path": "/references/command_requirements.md",
-            "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/command_requirements.md",
             "title": "",
             "description": null,
             "keywords": null,
@@ -4811,11 +4561,9 @@
           }
         },
         {
-          "name": "configurations.md",
+          "name": "/references/configurations.md",
           "type": "file",
           "data": {
-            "path": "/references/configurations.md",
-            "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/configurations.md",
             "title": "",
             "description": null,
             "keywords": null,
@@ -4826,9 +4574,9 @@
             "sidebar_label": "Configurations",
             "sidebar_position": null,
             "int_links": [
-              "/references/commands/cli/configuration/epinio_configuration_bind.md",
+              "/references/commands/cli/configuration/epinio_configuration.md",
               "/references/commands/cli/configuration/epinio_configuration_unbind.md",
-              "/references/commands/cli/configuration/epinio_configuration.md"
+              "/references/commands/cli/configuration/epinio_configuration_bind.md"
             ],
             "ext_links": [
               "https://docs.epinio.io/references/configurations"
@@ -4837,11 +4585,9 @@
           }
         },
         {
-          "name": "git_configuration.md",
+          "name": "/references/git_configuration.md",
           "type": "file",
           "data": {
-            "path": "/references/git_configuration.md",
-            "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/git_configuration.md",
             "title": "",
             "description": null,
             "keywords": null,
@@ -4852,8 +4598,8 @@
             "sidebar_label": "Git Configuration",
             "sidebar_position": null,
             "int_links": [
-              "/howtos/customization/create_git_configuration.md",
-              "/references/commands/cli/gitconfig/epinio_gitconfig.md"
+              "/references/commands/cli/gitconfig/epinio_gitconfig.md",
+              "/howtos/customization/create_git_configuration.md"
             ],
             "ext_links": [
               "https://docs.epinio.io/references/git_configuration"
@@ -4862,11 +4608,9 @@
           }
         },
         {
-          "name": "manifests.md",
+          "name": "/references/manifests.md",
           "type": "file",
           "data": {
-            "path": "/references/manifests.md",
-            "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/manifests.md",
             "title": "",
             "description": null,
             "keywords": null,
@@ -4883,11 +4627,9 @@
           }
         },
         {
-          "name": "namespaces.md",
+          "name": "/references/namespaces.md",
           "type": "file",
           "data": {
-            "path": "/references/namespaces.md",
-            "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/namespaces.md",
             "title": "",
             "description": null,
             "keywords": null,
@@ -4898,9 +4640,9 @@
             "sidebar_label": "Namespaces",
             "sidebar_position": null,
             "int_links": [
-              "/references/commands/cli/namespace/epinio_namespace.md",
               "/references/docs/tutorials/namespace-tutorial.md",
-              "/references/commands/cli/epinio_target.md"
+              "/references/commands/cli/epinio_target.md",
+              "/references/commands/cli/namespace/epinio_namespace.md"
             ],
             "ext_links": [
               "https://docs.epinio.io/references/namespaces"
@@ -4909,11 +4651,9 @@
           }
         },
         {
-          "name": "services.md",
+          "name": "/references/services.md",
           "type": "file",
           "data": {
-            "path": "/references/services.md",
-            "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/services.md",
             "title": "",
             "description": null,
             "keywords": null,
@@ -4925,24 +4665,22 @@
             "sidebar_position": null,
             "int_links": [
               "/howtos/customization/create_custom_service.md",
-              "/references/configurations.md",
-              "/references/commands/cli/service/epinio_service.md"
+              "/references/commands/cli/service/epinio_service.md",
+              "/references/configurations.md"
             ],
             "ext_links": [
-              "https://github.com/Azure/azure-service-operator",
-              "https://crossplane.io/",
               "https://docs.epinio.io/references/services",
-              "https://kubernetes.io/docs/concepts/services-networking/dns-pod-service/"
+              "https://crossplane.io/",
+              "https://kubernetes.io/docs/concepts/services-networking/dns-pod-service/",
+              "https://github.com/Azure/azure-service-operator"
             ],
             "can_link": "https://docs.epinio.io/references/services"
           }
         },
         {
-          "name": "settings.md",
+          "name": "/references/settings.md",
           "type": "file",
           "data": {
-            "path": "/references/settings.md",
-            "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/settings.md",
             "title": "",
             "description": null,
             "keywords": null,
@@ -4953,9 +4691,9 @@
             "sidebar_label": "CLI Settings",
             "sidebar_position": null,
             "int_links": [
+              "/references/#location",
               "/references/#contents",
-              "/references/#commands",
-              "/references/#location"
+              "/references/#commands"
             ],
             "ext_links": [
               "https://docs.epinio.io/references/settings"
@@ -4964,11 +4702,9 @@
           }
         },
         {
-          "name": "supported_applications.md",
+          "name": "/references/supported_applications.md",
           "type": "file",
           "data": {
-            "path": "/references/supported_applications.md",
-            "full_path": "/home/jhk/projects/suse/epinio-docs/docs/references/supported_applications.md",
             "title": "",
             "description": null,
             "keywords": null,
@@ -4982,14 +4718,14 @@
               "/explanations/detailed-push-process.md"
             ],
             "ext_links": [
+              "https://docs.epinio.io/references/supported_applications",
               "https://paketo.io/",
-              "https://devcenter.heroku.com/articles/procfile",
-              "https://github.com/paketo-buildpacks/php-web#configuring-custom-ini-files",
               "https://buildpacks.io/",
               "https://github.com/paketo-buildpacks/full-builder",
-              "https://github.com/paketo-buildpacks/procfile",
+              "https://github.com/paketo-buildpacks/php-web#configuring-custom-ini-files",
               "https://github.com/paketo-buildpacks/go",
-              "https://docs.epinio.io/references/supported_applications"
+              "https://devcenter.heroku.com/articles/procfile",
+              "https://github.com/paketo-buildpacks/procfile"
             ],
             "can_link": "https://docs.epinio.io/references/supported_applications"
           }
@@ -4997,19 +4733,17 @@
       ]
     },
     {
-      "name": "tutorials",
+      "name": "/tutorials",
       "type": "folder",
-      "children": [
+      "successor": [
         {
-          "name": "_category_.json",
+          "name": "/tutorials/_category_.json",
           "type": "file"
         },
         {
-          "name": "custom_builder_go.md",
+          "name": "/tutorials/custom_builder_go.md",
           "type": "file",
           "data": {
-            "path": "/tutorials/custom_builder_go.md",
-            "full_path": "/home/jhk/projects/suse/epinio-docs/docs/tutorials/custom_builder_go.md",
             "title": "Deploying a complex application",
             "description": "A walk-through for a more complex application deployment with Epinio.",
             "keywords": [
@@ -5026,30 +4760,28 @@
             "sidebar_label": "Epinio Journey: Deploy complex applications with a custom builder image",
             "sidebar_position": 4,
             "ext_links": [
-              "https://docs.epinio.io/tutorials/custom_builder_go",
-              "https://buildpacks.io/docs/concepts/components/buildpack/",
               "https://github.com/epinio/example-builder-gitea",
               "https://github.com/epinio/bionic-full-stack/commit/408e949558a437c99858ac7bb99a8b78e78935e8",
-              "https://github.com/paketo-buildpacks/go/issues/671",
-              "https://buildpacks.io/docs/concepts/components/builder/",
-              "https://github.com/paketo-buildpacks/node-engine/blob/main/buildpack.toml#L29",
-              "https://github.com/paketo-buildpacks/go-dist",
-              "https://buildpacks.io/docs/concepts/components/stack/",
               "https://buildpacks.io/docs/tools/pack/",
+              "https://docs.epinio.io/tutorials/custom_builder_go",
+              "https://github.com/paketo-buildpacks/bionic-full-stack",
+              "https://buildpacks.io/docs/concepts/components/buildpack/",
+              "https://github.com/paketo-buildpacks/go/issues/671",
               "https://github.com/go-gitea/gitea",
-              "https://github.com/paketo-buildpacks/node-engine",
               "https://github.com/epinio/bionic-full-stack",
-              "https://github.com/paketo-buildpacks/bionic-full-stack"
+              "https://github.com/paketo-buildpacks/go-dist",
+              "https://github.com/paketo-buildpacks/node-engine/blob/main/buildpack.toml#L29",
+              "https://github.com/paketo-buildpacks/node-engine",
+              "https://buildpacks.io/docs/concepts/components/builder/",
+              "https://buildpacks.io/docs/concepts/components/stack/"
             ],
             "can_link": "https://docs.epinio.io/tutorials/custom_builder_go"
           }
         },
         {
-          "name": "namespace-tutorial.md",
+          "name": "/tutorials/namespace-tutorial.md",
           "type": "file",
           "data": {
-            "path": "/tutorials/namespace-tutorial.md",
-            "full_path": "/home/jhk/projects/suse/epinio-docs/docs/tutorials/namespace-tutorial.md",
             "title": "Namespaces",
             "description": "Tutorial about Epinio namespaces.",
             "keywords": [
@@ -5064,12 +4796,12 @@
             "sidebar_label": null,
             "sidebar_position": 2,
             "int_links": [
-              "/tutorials/references/commands/cli/namespace/epinio_namespace_create.md",
-              "/tutorials/references/commands/cli/namespace/epinio_namespace_show.md",
-              "/tutorials/references/commands/cli/epinio_target.md",
               "/tutorials/references/commands/cli/namespace/epinio_namespace_delete.md",
-              "/tutorials/references/commands/cli/namespace/epinio_namespace_list.md",
-              "/tutorials/docs/installation/install_epinio.md"
+              "/tutorials/docs/installation/install_epinio.md",
+              "/tutorials/references/commands/cli/epinio_target.md",
+              "/tutorials/references/commands/cli/namespace/epinio_namespace_show.md",
+              "/tutorials/references/commands/cli/namespace/epinio_namespace_create.md",
+              "/tutorials/references/commands/cli/namespace/epinio_namespace_list.md"
             ],
             "ext_links": [
               "https://docs.epinio.io/tutorials/namespace-tutorial"
@@ -5078,11 +4810,9 @@
           }
         },
         {
-          "name": "quickstart.md",
+          "name": "/tutorials/quickstart.md",
           "type": "file",
           "data": {
-            "path": "/tutorials/quickstart.md",
-            "full_path": "/home/jhk/projects/suse/epinio-docs/docs/tutorials/quickstart.md",
             "title": "Quickstart",
             "description": "Get started quickly with Epinio.",
             "keywords": [
@@ -5098,14 +4828,14 @@
             "sidebar_label": "Quickstart",
             "sidebar_position": 1,
             "int_links": [
-              "/explanations/advanced.md#git-pushing",
               "/installation/install_epinio.md",
-              "/references/supported_applications.md",
               "/explanations/detailed-push-process.md",
-              "/installation/other_inst_scenarios/install_epinio_on_rke.md",
+              "/references/supported_applications.md",
+              "/explanations/advanced.md#git-pushing",
               "/references/manifests.md",
-              "/references/commands/cli/epinio_login.md",
-              "/references/system_requirements/global.md"
+              "/references/system_requirements/global.md",
+              "/installation/other_inst_scenarios/install_epinio_on_rke.md",
+              "/references/commands/cli/epinio_login.md"
             ],
             "ext_links": [
               "https://github.com/epinio/epinio/tree/main/assets/sample-app",
@@ -5115,11 +4845,9 @@
           }
         },
         {
-          "name": "single-dev-workflow.md",
+          "name": "/tutorials/single-dev-workflow.md",
           "type": "file",
           "data": {
-            "path": "/tutorials/single-dev-workflow.md",
-            "full_path": "/home/jhk/projects/suse/epinio-docs/docs/tutorials/single-dev-workflow.md",
             "title": "The Epinio single developer journey",
             "description": "How a single developer works with Epinio",
             "keywords": [
@@ -5135,26 +4863,26 @@
             "sidebar_label": "Epinio journey: Single developer",
             "sidebar_position": 3,
             "int_links": [
-              "/howtos/other/port_forwarding.md",
-              "/explanations/detailed-push-process.md#7-stage",
               "/installation/install_epinio.md",
               "/tutorials/#login",
-              "/tutorials/#installation",
+              "/explanations/detailed-push-process.md#7-stage",
+              "/installation/other_inst_scenarios/install_epinio_on_rancher_desktop.md",
+              "/howtos/other/port_forwarding.md",
               "/tutorials/#cli",
               "/tutorials/quickstart.md",
-              "/references/commands/cli/epinio_login.md",
-              "/installation/other_inst_scenarios/install_epinio_on_rancher_desktop.md"
+              "/tutorials/#installation",
+              "/references/commands/cli/epinio_login.md"
             ],
             "ext_links": [
-              "https://k3d.io/",
-              "https://epinio.127.0.0.1.sslip.io",
-              "https://paketo.io/",
-              "https://github.com/rancher-sandbox/rancher-desktop/releases",
-              "https://github.com/epinio/epinio/releases/latest",
               "https://rancherdesktop.io/",
+              "https://epinio.127.0.0.1.sslip.io",
               "https://docs.epinio.io/tutorials/single-dev-workflow",
+              "https://kubernetes.io/docs/tasks/tools/#kubectl",
+              "https://github.com/epinio/epinio/releases/latest",
+              "https://github.com/rancher-sandbox/rancher-desktop/releases",
+              "https://paketo.io/",
               "https://helm.sh/docs/intro/install/",
-              "https://kubernetes.io/docs/tasks/tools/#kubectl"
+              "https://k3d.io/"
             ],
             "can_link": "https://docs.epinio.io/tutorials/single-dev-workflow"
           }
@@ -5162,11 +4890,9 @@
       ]
     },
     {
-      "name": "intro.md",
+      "name": "/intro.md",
       "type": "file",
       "data": {
-        "path": "/intro.md",
-        "full_path": "/home/jhk/projects/suse/epinio-docs/docs/intro.md",
         "title": "Introduction",
         "description": "An introduction to Epinio and how it benefits developers",
         "keywords": [
@@ -5186,22 +4912,20 @@
           "/tutorials/quickstart.md"
         ],
         "ext_links": [
-          "https://suse.com",
           "https://en.wikipedia.org/wiki/Platform_as_a_service",
           "https://paketo.io/",
           "https://docs.epinio.io",
+          "https://kubernetes.io/",
           "https://buildpacks.io/",
-          "https://kubernetes.io/"
+          "https://suse.com"
         ],
         "can_link": "https://docs.epinio.io"
       }
     },
     {
-      "name": "versions.md",
+      "name": "/versions.md",
       "type": "file",
       "data": {
-        "path": "/versions.md",
-        "full_path": "/home/jhk/projects/suse/epinio-docs/docs/versions.md",
         "title": "",
         "description": null,
         "keywords": null,
@@ -5212,22 +4936,22 @@
         "sidebar_label": null,
         "sidebar_position": null,
         "int_links": [
-          "/0.9.0",
+          "/0.6.2",
           "/0.8.0",
           "/next",
           "/0.7.1",
-          "/0.6.2",
+          "",
           "/1.0.0",
-          ""
+          "/0.9.0"
         ],
         "ext_links": [
-          "https://github.com/epinio/epinio/releases/tag/v0.8.0",
-          "https://github.com/epinio/epinio/releases/tag/v1.1.0",
           "https://github.com/epinio/epinio/releases/tag/v0.7.1",
+          "https://github.com/epinio/epinio/releases/tag/v0.8.0",
           "https://docs.epinio.io/versions",
           "https://github.com/epinio/epinio/releases/tag/v1.0.0",
-          "https://github.com/epinio/epinio/releases/tag/v0.6.2",
-          "https://github.com/epinio/epinio/releases/tag/v0.9.0"
+          "https://github.com/epinio/epinio/releases/tag/v0.9.0",
+          "https://github.com/epinio/epinio/releases/tag/v1.1.0",
+          "https://github.com/epinio/epinio/releases/tag/v0.6.2"
         ],
         "can_link": "https://docs.epinio.io/versions"
       }
