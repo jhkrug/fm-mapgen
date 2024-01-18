@@ -8,6 +8,7 @@ import markdown
 import re
 import os
 import jsonpickle
+import json
 
 # These are read from a YAML configuration file by read_config:
 required_fm_tags = {}
@@ -43,9 +44,12 @@ class KmNodeData():
         except:
             pass
 
-        self.int_links = int_links
-        self.ext_links = ext_links
-        self.can_link = can_link
+        if int_links:
+            self.int_links = int_links
+        if ext_links:
+            self.ext_links = ext_links
+        if can_link:
+            self.can_link = can_link
 
     def __repr__(self):
         return f"{self.path}, {self.full_path}"
@@ -63,10 +67,55 @@ class KmNodeData():
                     print(k, "=", getattr(self, k))
                 except:
                     pass
-            print("int_links =", self.int_links)
-            print("ext_links =", self.ext_links)
-            print("canonical_link =", self.can_link)
+            try:
+                print("internal_links =", self.int_links)
+            except:
+                print("internal_links =", [])
+            try:
+                print("external_links =", self.ext_links)
+            except:
+                print("external_links =", [])
+            try:
+                print("canonical_link =", self.can_link)
+            except:
+                print("canonical_links =", [])
         print()
+
+    def to_dict(self):
+        return self.__dict__
+
+
+def create_folder_structure_json(path, km, root_dir):
+    # Initialize the result dictionary with folder
+    # name, type, and an empty list for children
+    result = {'name': os.path.basename(path),
+              'type': 'folder', 'children': []}
+
+    # Check if the path is a directory
+    if not os.path.isdir(path):
+        return result
+
+    # Iterate over the entries in the directory
+    for entry in os.listdir(path):
+       # Create the full path for the current entry
+        entry_path = os.path.join(path, entry)
+
+        # If the entry is a directory, recursively call the function
+        if os.path.isdir(entry_path):
+            result['children'].append(
+                create_folder_structure_json(entry_path, km, root_dir))
+        # If the entry is a file, create a dictionary with name and type
+        else:
+            rel_path = entry_path.replace(root_dir, "")
+            n: treelib.Node = km.get_node(rel_path)
+            try:
+                nd = n.data.__dict__
+                result['children'].append(
+                    {'name': entry, 'type': 'file', 'data': nd})
+            except:
+                result['children'].append({'name': entry, 'type': 'file'})
+
+    return result
 
 
 def read_config(c):
@@ -113,6 +162,10 @@ def main(argv):
     with open("tree.json", "w") as f:
         f.write(str(json_km))
 
+    json_viz = km2json_for_viz(km, sorted=True)
+    with open("tree-viz.json", "w") as f:
+        f.write(json_viz)
+
     if args.dump:
         print_km(km, sorted=True)
 
@@ -153,6 +206,12 @@ def print_node(node, depth):
     print("Successors =", list(node._successors.values())[0])
     print("Depth =", depth)
     node.data.print(node.is_leaf())
+
+
+def km2json_for_viz(km: treelib.Tree, sorted=False) -> str:
+    root_dir = km['root'].data.full_path
+    km_json = create_folder_structure_json(root_dir, km, root_dir)
+    return json.dumps(km_json, indent=2)
 
 
 def build_node_data(id, fp, fm,

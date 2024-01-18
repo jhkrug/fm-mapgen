@@ -1,0 +1,3252 @@
+{
+  "name": "docs",
+  "type": "folder",
+  "children": [
+    {
+      "name": "contribution-guide",
+      "type": "folder",
+      "children": [
+        {
+          "name": "contributing.md",
+          "type": "file",
+          "data": {
+            "path": "/contribution-guide/contributing.md",
+            "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/contribution-guide/contributing.md",
+            "title": "Contributing to Kubewarden documentation",
+            "description": "Contributing to kubewarden documentation.",
+            "keywords": [
+              "kubewarden",
+              "documentation",
+              "contributing"
+            ],
+            "doc_persona": [
+              "kubewarden-developer",
+              "kubewarden-operator",
+              "kubewarden-manager"
+            ],
+            "doc_type": [
+              "explanation"
+            ],
+            "doc_topic": [
+              "contribution-guide",
+              "docs-contribution"
+            ],
+            "slug": null,
+            "sidebar_label": "Contributing to documentation",
+            "sidebar_position": 1,
+            "int_links": [
+              "/contribution-guide/suggesting-an-improvement"
+            ],
+            "ext_links": [
+              "https://github.com/kubewarden/docs",
+              "https://docusaurus.io/",
+              "https://mdxjs.com/"
+            ]
+          }
+        },
+        {
+          "name": "suggesting-an-improvement.md",
+          "type": "file",
+          "data": {
+            "path": "/contribution-guide/suggesting-an-improvement.md",
+            "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/contribution-guide/suggesting-an-improvement.md",
+            "title": "Suggesting an improvement",
+            "description": "Suggesting an improvement.",
+            "keywords": [
+              "kubewarden",
+              "documentation",
+              "suggesting an improvement"
+            ],
+            "doc_persona": [
+              "kubewarden-developer",
+              "kubewarden-operator",
+              "kubewarden-manager"
+            ],
+            "doc_type": [
+              "explanation",
+              "tutorial"
+            ],
+            "doc_topic": [
+              "contribution-guide",
+              "docs-contribution",
+              "improvement"
+            ],
+            "slug": null,
+            "sidebar_label": "Suggesting improvements",
+            "sidebar_position": 10,
+            "ext_links": [
+              "https://github.com/orgs/kubewarden/teams/kubewarden-documentation",
+              "https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/configuring-notifications",
+              "https://github.com/kubewarden/docs/issues/new/choose",
+              "https://github.com/kubewarden/docs",
+              "https://github.com/join"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "distributing-policies",
+      "type": "folder",
+      "children": [
+        {
+          "name": "custom-certificate-authorities.md",
+          "type": "file",
+          "data": {
+            "path": "/distributing-policies/custom-certificate-authorities.md",
+            "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/distributing-policies/custom-certificate-authorities.md",
+            "title": "Custom certificate authorities",
+            "description": "Using custom certificate authorities with Kubewarden.",
+            "keywords": [
+              "kubewarden",
+              "kubernetes",
+              "custom certificate authorities"
+            ],
+            "doc_persona": null,
+            "doc_type": null,
+            "doc_topic": null,
+            "slug": null,
+            "sidebar_label": "Custom Certificate Authorities",
+            "sidebar_position": null,
+            "int_links": [
+              "/distributing-policies/operator-manual/policy-servers/01-custom-cas.md"
+            ],
+            "ext_links": [
+              "https://github.com/kubewarden/kubewarden-controller"
+            ]
+          }
+        },
+        {
+          "name": "oci-registries-support.md",
+          "type": "file",
+          "data": {
+            "path": "/distributing-policies/oci-registries-support.md",
+            "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/distributing-policies/oci-registries-support.md",
+            "title": "OCI registry support for Kubewarden",
+            "description": "OCI registry support for Kubewarden.",
+            "keywords": [
+              "kubewarden",
+              "kubernetes",
+              "oci registry support"
+            ],
+            "doc_persona": null,
+            "doc_type": null,
+            "doc_topic": null,
+            "slug": null,
+            "sidebar_label": "OCI registry support",
+            "sidebar_position": null,
+            "ext_links": [
+              "https://github.com/kubewarden/kwctl/issues/59",
+              "https://quay.io",
+              "https://aws.amazon.com/blogs/containers/oci-artifact-support-in-amazon-ecr/",
+              "https://github.com/google/go-containerregistry/blob/main/cmd/crane/README.md",
+              "https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry",
+              "https://cloud.ibm.com/docs/Registry",
+              "https://cloud.ibm.com/docs/Registry?topic=Registry-registry_helm_charts",
+              "https://github.com/containers/skopeo/pull/1705",
+              "https://goharbor.io/",
+              "https://jfrog.com/help/r/jfrog-artifactory-documentation/docker-registry",
+              "https://github.com/distribution/distribution/releases/tag/v2.7.0",
+              "https://github.com/containers/skopeo",
+              "https://azure.microsoft.com/en-us/products/container-registry/",
+              "https://bundle.bar",
+              "https://aws.amazon.com/ecr/",
+              "https://learn.microsoft.com/en-us/azure/container-registry/container-registry-oci-artifacts",
+              "https://github.com/container-registry/",
+              "https://cloud.google.com/anthos-config-management/docs/how-to/sync-oci-artifacts-from-artifact-registry",
+              "https://cloud.google.com/artifact-registry",
+              "https://bundle.bar/docs/#open-container-initiative-oci",
+              "https://hub.docker.com/",
+              "https://access.redhat.com/documentation/en-us/red_hat_quay/3/html/use_red_hat_quay/oci-intro#other-oci-artifacts-with-quay",
+              "https://github.com/opencontainers/artifacts",
+              "https://www.docker.com/blog/announcing-docker-hub-oci-artifacts-support/",
+              "https://docs.docker.com/docker-hub/oci-artifacts/",
+              "https://github.com/kubewarden/docs/edit/main/docs/distributing-policies/oci-registries-support.md",
+              "https://github.com/distribution/distribution",
+              "https://jfrog.com/artifactory/",
+              "https://github.com/kubewarden/kwctl",
+              "https://access.redhat.com/products/red-hat-quay/"
+            ]
+          }
+        },
+        {
+          "name": "publish-policy-to-artifact-hub.md",
+          "type": "file",
+          "data": {
+            "path": "/distributing-policies/publish-policy-to-artifact-hub.md",
+            "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/distributing-policies/publish-policy-to-artifact-hub.md",
+            "title": "Publish policies to Artifact Hub",
+            "description": "A brief introduction to publishing Kubewarden policies on Artifact Hub.",
+            "keywords": [
+              "kubewarden",
+              "kubernetes",
+              "publishing policies",
+              "artifact hub"
+            ],
+            "doc_persona": null,
+            "doc_type": null,
+            "doc_topic": null,
+            "slug": null,
+            "sidebar_label": "Publish to Artifact Hub",
+            "sidebar_position": null,
+            "int_links": [
+              "/distributing-policies"
+            ],
+            "ext_links": [
+              "https://github.com/kubewarden/github-actions",
+              "https://artifacthub.io/",
+              "https://github.com/artifacthub/hub/blob/master/docs/metadata/artifacthub-pkg.yml",
+              "https://artifacthub.io/docs/topics/repositories/#verified-publisher",
+              "https://github.com/artifacthub/hub/blob/master/docs/metadata/artifacthub-repo.yml",
+              "https://artifacthub.io/control-panel/repositories?page=1",
+              "https://artifacthub.io/docs/topics/repositories/#kubewarden-policies-repositories",
+              "https://cncf.io"
+            ]
+          }
+        },
+        {
+          "name": "secure-supply-chain.md",
+          "type": "file",
+          "data": {
+            "path": "/distributing-policies/secure-supply-chain.md",
+            "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/distributing-policies/secure-supply-chain.md",
+            "title": "Secure supply chain",
+            "description": "A secure supply chain infrastructure using Kubewarden.",
+            "keywords": [
+              "kubewarden",
+              "kubernetes",
+              "secure supply chain",
+              "infrastructure"
+            ],
+            "doc_persona": null,
+            "doc_type": null,
+            "doc_topic": null,
+            "slug": null,
+            "sidebar_label": "Secure supply chain",
+            "sidebar_position": null,
+            "int_links": [
+              "/distributing-policies/#signature-config-reference"
+            ],
+            "ext_links": [
+              "https://docs.sigstore.dev/",
+              "https://sigstore.dev/",
+              "https://github.com/sigstore/cosign",
+              "https://docs.sigstore.dev/cosign/installation/#github-action",
+              "https://github.com/SigStore/fulcio",
+              "https://github.com/kubewarden/kwctl",
+              "https://github.com/sigstore/rekor",
+              "https://docs.sigstore.dev/cosign/installation/"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "explanations",
+      "type": "folder",
+      "children": [
+        {
+          "name": "audit-scanner",
+          "type": "folder",
+          "children": [
+            {
+              "name": "audit-scanner.md",
+              "type": "file",
+              "data": {
+                "path": "/explanations/audit-scanner/audit-scanner.md",
+                "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/explanations/audit-scanner/audit-scanner.md",
+                "title": "What is the Audit Scanner?",
+                "description": "An overview of the Kubewarden Audit Scanner.",
+                "keywords": [
+                  "kubewarden",
+                  "audit scanner",
+                  "kubernetes"
+                ],
+                "doc_persona": null,
+                "doc_type": null,
+                "doc_topic": null,
+                "slug": null,
+                "sidebar_label": "What is the Audit Scanner?",
+                "sidebar_position": null,
+                "int_links": [
+                  "/explanations/howtos/audit-scanner",
+                  "/writing-policies/index.md",
+                  "/explanations/audit-scanner/policy-reports.md"
+                ],
+                "ext_links": [
+                  "https://kubernetes.io/docs/reference/access-authn-authz/rbac/#user-facing-roles"
+                ]
+              }
+            },
+            {
+              "name": "limitations.md",
+              "type": "file",
+              "data": {
+                "path": "/explanations/audit-scanner/limitations.md",
+                "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/explanations/audit-scanner/limitations.md",
+                "title": "Audit Scanner - Limitations",
+                "description": "The limitation of the audit scanner",
+                "keywords": [
+                  "kubewarden",
+                  "kubernetes",
+                  "audit scanner"
+                ],
+                "doc_persona": null,
+                "doc_type": null,
+                "doc_topic": null,
+                "slug": null,
+                "sidebar_label": "Limitations",
+                "sidebar_position": null
+              }
+            },
+            {
+              "name": "policy-reports.md",
+              "type": "file",
+              "data": {
+                "path": "/explanations/audit-scanner/policy-reports.md",
+                "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/explanations/audit-scanner/policy-reports.md",
+                "title": "Audit Scanner - Policy Reports",
+                "description": "The policy reports that the Audit Scanner produces.",
+                "keywords": [
+                  "kubewarden",
+                  "kubernetes",
+                  "audit scanner"
+                ],
+                "doc_persona": null,
+                "doc_type": null,
+                "doc_topic": null,
+                "slug": null,
+                "sidebar_label": "Policy Reports",
+                "sidebar_position": null,
+                "int_links": [
+                  "/howtos/audit-scanner"
+                ],
+                "ext_links": [
+                  "https://kyverno.github.io/policy-reporter",
+                  "https://htmlpreview.github.io/?https://github.com/kubernetes-sigs/wg-policy-prototypes/blob/045372e558b896695b2daae92e8c7a04d4d40282/policy-report/docs/index.html",
+                  "https://github.com/kubernetes-sigs/wg-policy-prototypes"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "context-aware-policies.md",
+          "type": "file",
+          "data": {
+            "path": "/explanations/context-aware-policies.md",
+            "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/explanations/context-aware-policies.md",
+            "title": "Context aware policies",
+            "description": "A description of Kubewarden context aware policies, what they are and how they are useful.",
+            "keywords": [
+              "kubewarden",
+              "context-aware policy",
+              "clusteradmissionpolicy",
+              "admissionpolicy",
+              "admissionrequest",
+              "cluster administrator"
+            ],
+            "doc_persona": null,
+            "doc_type": null,
+            "doc_topic": null,
+            "slug": null,
+            "sidebar_label": "Context aware policies",
+            "sidebar_position": null,
+            "int_links": [
+              "/writing-policies/spec/05-context-aware-policies.md"
+            ],
+            "ext_links": [
+              "https://kubernetes.io/docs/concepts/security/service-accounts/"
+            ]
+          }
+        },
+        {
+          "name": "opa-comparison.md",
+          "type": "file",
+          "data": {
+            "path": "/explanations/opa-comparison.md",
+            "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/explanations/opa-comparison.md",
+            "title": "Kubewarden vs OPA Gatekeeper",
+            "description": null,
+            "keywords": null,
+            "doc_persona": null,
+            "doc_type": null,
+            "doc_topic": null,
+            "slug": null,
+            "sidebar_label": "Kubewarden vs OPA Gatekeeper",
+            "sidebar_position": null,
+            "int_links": [
+              "/explanations/#policy-distribution",
+              "/explanations/#kubernetes-integration",
+              "/explanations/#background-checks",
+              "/explanations/#writing-policies",
+              "/explanations/#context-aware",
+              "/explanations/#cicd-integration",
+              "/explanations/#deployment-mode"
+            ],
+            "ext_links": [
+              "https://github.com/kubernetes-sigs/wg-policy-prototypes/tree/master/policy-report",
+              "https://github.com/open-policy-agent/kube-mgmt",
+              "https://open-policy-agent.github.io/gatekeeper/website/docs/audit#constraint-status",
+              "https://www.mend.io/renovate/",
+              "https://www.updatecli.io/",
+              "https://www.openpolicyagent.org/docs/latest/#rego",
+              "https://docs.github.com/en/code-security/dependabot/working-with-dependabot",
+              "https://www.openpolicyagent.org/docs/latest/policy-testing/",
+              "https://docs.kubewarden.io/writing-policies/rego/intro-rego",
+              "https://sigstore.dev",
+              "https://en.wikipedia.org/wiki/Domain-specific_language",
+              "https://open-policy-agent.github.io/gatekeeper/website/docs/mutation",
+              "https://github.com/kubewarden/docs/",
+              "https://github.com/kubewarden/kwctl"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "howtos",
+      "type": "folder",
+      "children": [
+        {
+          "name": "audit-scanner.md",
+          "type": "file",
+          "data": {
+            "path": "/howtos/audit-scanner.md",
+            "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/howtos/audit-scanner.md",
+            "title": "Audit Scanner Installation",
+            "description": null,
+            "keywords": null,
+            "doc_persona": null,
+            "doc_type": null,
+            "doc_topic": null,
+            "slug": null,
+            "sidebar_label": "Audit Scanner Installation",
+            "sidebar_position": null,
+            "int_links": [
+              "/quick-start.md",
+              "/explanations/audit-scanner"
+            ],
+            "ext_links": [
+              "https://kyverno.github.io/policy-reporter",
+              "https://github.com/kubewarden/helm-charts/blob/main/charts/kubewarden-controller/values.yaml",
+              "https://github.com/kubernetes-sigs/wg-policy-prototypes",
+              "https://kubernetes.io/docs/concepts/workloads/controllers/cron-jobs",
+              "https://github.com/kyverno/policy-reporter/blob/policy-reporter-2.19.4/charts/policy-reporter/charts/ui/values.yaml#L172-L189"
+            ]
+          }
+        },
+        {
+          "name": "raw-policies.md",
+          "type": "file",
+          "data": {
+            "path": "/howtos/raw-policies.md",
+            "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/howtos/raw-policies.md",
+            "title": "Raw policies",
+            "description": null,
+            "keywords": null,
+            "doc_persona": null,
+            "doc_type": null,
+            "doc_topic": null,
+            "slug": null,
+            "sidebar_label": "Raw policies",
+            "sidebar_position": null,
+            "int_links": [
+              "/writing-policies/rust/08-raw-policies.md",
+              "/explanations/context-aware-policies.md",
+              "/writing-policies/rego/open-policy-agent/05-raw-policies.md",
+              "/writing-policies/go/10-raw-policies.md",
+              "/writing-policies/wasi/02-raw-policies.md"
+            ],
+            "ext_links": [
+              "https://github.com/kubewarden/raw-mutation-policy",
+              "https://github.com/kubewarden/raw-validation-policy"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "images",
+      "type": "folder",
+      "children": [
+        {
+          "name": "architecture.png",
+          "type": "file"
+        },
+        {
+          "name": "architecture_sequence_01.png",
+          "type": "file"
+        },
+        {
+          "name": "architecture_sequence_02.png",
+          "type": "file"
+        },
+        {
+          "name": "architecture_sequence_03.png",
+          "type": "file"
+        },
+        {
+          "name": "architecture_sequence_04.png",
+          "type": "file"
+        },
+        {
+          "name": "architecture_sequence_05.png",
+          "type": "file"
+        },
+        {
+          "name": "grafana_dashboard_1.png",
+          "type": "file"
+        },
+        {
+          "name": "grafana_dashboard_2.png",
+          "type": "file"
+        },
+        {
+          "name": "grafana_dashboard_3.png",
+          "type": "file"
+        },
+        {
+          "name": "grafana_dashboard_4.png",
+          "type": "file"
+        },
+        {
+          "name": "tasks-policy-hub.png",
+          "type": "file"
+        }
+      ]
+    },
+    {
+      "name": "operator-manual",
+      "type": "folder",
+      "children": [
+        {
+          "name": "airgap",
+          "type": "folder",
+          "children": [
+            {
+              "name": "01-requirements.md",
+              "type": "file",
+              "data": {
+                "path": "/operator-manual/airgap/01-requirements.md",
+                "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/airgap/01-requirements.md",
+                "title": "Requirements for a Kubewarden air gap installation",
+                "description": "Requirements for a Kubewarden air gap installation.",
+                "keywords": [
+                  "kubewarden",
+                  "kubernetes",
+                  "air gap installation"
+                ],
+                "doc_persona": null,
+                "doc_type": null,
+                "doc_topic": null,
+                "slug": null,
+                "sidebar_label": "Requirements",
+                "sidebar_position": null,
+                "int_links": [
+                  "/distributing-policies/oci-registries-support"
+                ],
+                "ext_links": [
+                  "https://github.com/kubewarden/kwctl"
+                ]
+              }
+            },
+            {
+              "name": "02-install.md",
+              "type": "file",
+              "data": {
+                "path": "/operator-manual/airgap/02-install.md",
+                "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/airgap/02-install.md",
+                "title": "Air gap installation",
+                "description": "Air gap installation for Kubewarden.",
+                "keywords": [
+                  "kubewarden",
+                  "kubernetes",
+                  "air gap installation"
+                ],
+                "doc_persona": null,
+                "doc_type": null,
+                "doc_topic": null,
+                "slug": null,
+                "sidebar_label": "Installation",
+                "sidebar_position": null,
+                "int_links": [
+                  "/security/verifying-kubewarden#container-images",
+                  "/operator-manual/policy-servers/private-registry",
+                  "/distributing-policies/custom-certificate-authorities.md",
+                  "/security/verifying-kubewarden#helm-charts"
+                ],
+                "ext_links": [
+                  "https://github.com/kubewarden/utils",
+                  "https://github.com/kyverno/policy-reporter/tree/policy-reporter-2.19.4/charts/policy-reporter",
+                  "https://github.com/kubewarden/helm-charts/releases/",
+                  "https://github.com/kubewarden/kwctl/tree/main/scripts"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "policy-servers",
+          "type": "folder",
+          "children": [
+            {
+              "name": "01-custom-cas.md",
+              "type": "file",
+              "data": {
+                "path": "/operator-manual/policy-servers/01-custom-cas.md",
+                "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/policy-servers/01-custom-cas.md",
+                "title": "Using custom certificate authorities",
+                "description": "Using custom certificate authorities with Kubewarden policy servers.",
+                "keywords": [
+                  "kubewarden",
+                  "kubernetes",
+                  "custom certificate authorities"
+                ],
+                "doc_persona": null,
+                "doc_type": null,
+                "doc_topic": null,
+                "slug": null,
+                "sidebar_label": "Using Custom CAs",
+                "sidebar_position": null,
+                "int_links": [
+                  "/operator-manual/policy-servers/distributing-policies/custom-certificate-authorities.md",
+                  "/distributing-policies/custom-certificate-authorities.md"
+                ]
+              }
+            },
+            {
+              "name": "02-private-registry.md",
+              "type": "file",
+              "data": {
+                "path": "/operator-manual/policy-servers/02-private-registry.md",
+                "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/policy-servers/02-private-registry.md",
+                "title": "Configuring PolicyServers to use private registries",
+                "description": "Configuring PolicyServers to use private registries in Kubewarden.",
+                "keywords": [
+                  "kubewarden",
+                  "kubernetes",
+                  "policyservers",
+                  "private registries"
+                ],
+                "doc_persona": null,
+                "doc_type": null,
+                "doc_topic": null,
+                "slug": null,
+                "sidebar_label": "Using private registries",
+                "sidebar_position": null,
+                "ext_links": [
+                  "https://kubernetes.io/docs/concepts/configuration/secret/#docker-config-secrets"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "telemetry",
+          "type": "folder",
+          "children": [
+            {
+              "name": "metrics",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "01-quickstart.md",
+                  "type": "file",
+                  "data": {
+                    "path": "/operator-manual/telemetry/metrics/01-quickstart.md",
+                    "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/telemetry/metrics/01-quickstart.md",
+                    "title": "Metrics quickstart",
+                    "description": "Metrics quickstart in Kubewarden.",
+                    "keywords": [
+                      "kubewarden",
+                      "kubernetes",
+                      "metrics quickstart"
+                    ],
+                    "doc_persona": null,
+                    "doc_type": null,
+                    "doc_topic": null,
+                    "slug": null,
+                    "sidebar_label": "Metrics quickstart",
+                    "sidebar_position": null,
+                    "int_links": [
+                      "/operator-manual/telemetry/opentelemetry/01-quickstart.md#install-opentelemetry"
+                    ],
+                    "ext_links": [
+                      "https://github.com/prometheus-operator/prometheus-operator",
+                      "https://grafana.com/grafana/dashboards/15314",
+                      "https://github.com/prometheus-operator/prometheus-operator/blob/master/Documentation/design.md#servicemonitor",
+                      "https://github.com/kubewarden/policy-server/releases/latest/download/kubewarden-dashboard.json",
+                      "https://grafana.com/docs/grafana/latest/dashboards/export-import/#import-dashboard",
+                      "https://prometheus.io/"
+                    ]
+                  }
+                },
+                {
+                  "name": "02-reference.md",
+                  "type": "file",
+                  "data": {
+                    "path": "/operator-manual/telemetry/metrics/02-reference.md",
+                    "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/telemetry/metrics/02-reference.md",
+                    "title": "Metrics reference",
+                    "description": "Metrics reference documentation for Kubewarden.",
+                    "keywords": [
+                      "kubewarden",
+                      "kubernetes",
+                      "metrics",
+                      "reference"
+                    ],
+                    "doc_persona": null,
+                    "doc_type": null,
+                    "doc_topic": null,
+                    "slug": null,
+                    "sidebar_label": "Metrics reference",
+                    "sidebar_position": null,
+                    "int_links": [
+                      "/operator-manual/telemetry/metrics/#kubewarden_policy_evaluations_total"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "name": "opentelemetry",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "01-quickstart.md",
+                  "type": "file",
+                  "data": {
+                    "path": "/operator-manual/telemetry/opentelemetry/01-quickstart.md",
+                    "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/telemetry/opentelemetry/01-quickstart.md",
+                    "title": "Open Telemetry quickstart",
+                    "description": "An Open Telemetry quickstart for Kubewarden.",
+                    "keywords": [
+                      "kubewarden",
+                      "kubernetes",
+                      "opentelemetry",
+                      "open telemetry",
+                      "quickstart"
+                    ],
+                    "doc_persona": null,
+                    "doc_type": null,
+                    "doc_topic": null,
+                    "slug": null,
+                    "sidebar_label": "Open Telemetry quickstart",
+                    "sidebar_position": null,
+                    "ext_links": [
+                      "https://opentelemetry.io/docs/",
+                      "https://github.com/open-telemetry/opentelemetry-operator",
+                      "https://github.com/open-telemetry/opentelemetry-operator#opentelemetry-operator-vs-kubernetes-vs-cert-manager",
+                      "https://opentelemetry.io/",
+                      "https://minikube.sigs.k8s.io/docs/drivers/kvm2/",
+                      "https://cert-manager.io/docs/installation/",
+                      "https://minikube.sigs.k8s.io/docs/"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "name": "tracing",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "01-quickstart.md",
+                  "type": "file",
+                  "data": {
+                    "path": "/operator-manual/telemetry/tracing/01-quickstart.md",
+                    "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/telemetry/tracing/01-quickstart.md",
+                    "title": "Tracing quickstart",
+                    "description": "A tracing quickstart for Kubewarden.",
+                    "keywords": [
+                      "kubewarden",
+                      "kubernetes",
+                      "tracing",
+                      "quickstart"
+                    ],
+                    "doc_persona": null,
+                    "doc_type": null,
+                    "doc_topic": null,
+                    "slug": null,
+                    "sidebar_label": "Tracing quickstart",
+                    "sidebar_position": null,
+                    "int_links": [
+                      "/operator-manual/telemetry/opentelemetry/01-quickstart.md#install-opentelemetry"
+                    ],
+                    "ext_links": [
+                      "https://www.jaegertracing.io/docs/latest/operator/",
+                      "https://github.com/jaegertracing/helm-charts/blob/main/charts/jaeger-operator/COMPATIBILITY.md",
+                      "https://github.com/jaegertracing/jaeger-operator",
+                      "https://github.com/kubewarden/safe-labels-policy",
+                      "https://www.jaegertracing.io/"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ui-extension",
+          "type": "folder",
+          "children": [
+            {
+              "name": "02-metrics.md",
+              "type": "file",
+              "data": {
+                "path": "/operator-manual/ui-extension/02-metrics.md",
+                "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/02-metrics.md",
+                "title": "Monitoring",
+                "description": "Monitoring and metrics for Kubewarden.",
+                "keywords": [
+                  "kubewarden",
+                  "kubernetes",
+                  "user interface extension",
+                  "metrics",
+                  "monitoring"
+                ],
+                "doc_persona": [
+                  "kubewarden-operator",
+                  "kubewarden-manager"
+                ],
+                "doc_type": [
+                  "tutorial",
+                  "reference"
+                ],
+                "doc_topic": [
+                  "operator-manual",
+                  "metrics-and-monitoring"
+                ],
+                "slug": null,
+                "sidebar_label": "Monitoring",
+                "sidebar_position": null,
+                "int_links": [
+                  "/operator-manual/telemetry/metrics/01-quickstart.md",
+                  "/operator-manual/telemetry/metrics/01-quickstart.md#install-prometheus"
+                ]
+              }
+            },
+            {
+              "name": "03-tracing.md",
+              "type": "file",
+              "data": {
+                "path": "/operator-manual/ui-extension/03-tracing.md",
+                "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/03-tracing.md",
+                "title": "Tracing",
+                "description": "Tracing for Kubewarden.",
+                "keywords": [
+                  "kubewarden",
+                  "kubernetes",
+                  "tracing"
+                ],
+                "doc_persona": [
+                  "default"
+                ],
+                "doc_type": [
+                  "explanation",
+                  "tutorial"
+                ],
+                "doc_topic": [
+                  "operator-manual",
+                  "ui-extension",
+                  "tracing"
+                ],
+                "slug": null,
+                "sidebar_label": "Tracing",
+                "sidebar_position": null,
+                "int_links": [
+                  "/operator-manual/telemetry/opentelemetry/01-quickstart.md#install-opentelemetry",
+                  "/operator-manual/telemetry/tracing/01-quickstart.md#install-jaeger"
+                ],
+                "ext_links": [
+                  "https://www.jaegertracing.io/docs/latest/operator/",
+                  "https://www.jaegertracing.io/"
+                ]
+              }
+            },
+            {
+              "name": "01-install.md",
+              "type": "file",
+              "data": {
+                "path": "/operator-manual/ui-extension/01-install.md",
+                "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/01-install.md",
+                "title": "Rancher UI extension quickstart",
+                "description": "UI extension quickstart for Kubewarden.",
+                "keywords": [
+                  "kubewarden",
+                  "kubernetes",
+                  "rancher ui extension"
+                ],
+                "doc_persona": null,
+                "doc_type": null,
+                "doc_topic": null,
+                "slug": null,
+                "sidebar_label": "Rancher UI extension quickstart",
+                "sidebar_position": null,
+                "int_links": [
+                  "/operator-manual/ui-extension/02-metrics.md",
+                  "/operator-manual/ui-extension/03-tracing.md",
+                  "/operator-manual/ui-extension/#airgap-installation"
+                ],
+                "ext_links": [
+                  "https://github.com/kubewarden/helm-charts/tree/main/charts/kubewarden-defaults",
+                  "https://ranchermanager.docs.rancher.com/getting-started/installation-and-upgrade/other-installation-methods/air-gapped-helm-cli-install/publish-images#1-find-the-required-assets-for-your-rancher-version",
+                  "https://github.com/rancher/rancher",
+                  "https://artifacthub.io/packages/search?kind=13",
+                  "https://ranchermanager.docs.rancher.com/how-to-guides/new-user-guides/kubernetes-resources-setup/secrets"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "CRDs.md",
+          "type": "file",
+          "data": {
+            "path": "/operator-manual/CRDs.md",
+            "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/CRDs.md",
+            "title": "Custom Resource Definitions (CRD)",
+            "description": null,
+            "keywords": null,
+            "doc_persona": null,
+            "doc_type": null,
+            "doc_topic": null,
+            "slug": null,
+            "sidebar_label": "Custom Resources Definitions (CRDs)",
+            "sidebar_position": null,
+            "int_links": [
+              "/operator-manual/#policyspec",
+              "/operator-manual/#policyserverspec",
+              "/operator-manual/#admissionpolicy",
+              "/operator-manual/#policyserversecurity",
+              "/operator-manual/#clusteradmissionpolicylist",
+              "/operator-manual/#policymode",
+              "/operator-manual/#policyserverlist",
+              "/operator-manual/#admissionpolicyspec",
+              "/operator-manual/#policyserver",
+              "/operator-manual/#contextawareresource",
+              "/operator-manual/#admissionpolicylist",
+              "/operator-manual/#clusteradmissionpolicyspec",
+              "/operator-manual/#policieskubewardeniov1",
+              "/operator-manual/#clusteradmissionpolicy",
+              "/operator-manual/#rawextension",
+              "/operator-manual/#policieskubewardeniov1alpha2",
+              "/operator-manual/#policystatus"
+            ],
+            "ext_links": [
+              "https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.25/#podsecuritycontext-v1-core",
+              "https://doc.crds.dev/github.com/kubewarden/kubewarden-controller",
+              "https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.25/#envvar-v1-core",
+              "https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.25/#securitycontext-v1-core",
+              "https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.25/#listmeta-v1-meta",
+              "https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.25/#labelselector-v1-meta",
+              "https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.25/#sideeffectclass-v1-admissionregistration",
+              "https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.25/#failurepolicytype-v1-admissionregistration",
+              "https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.25/#matchpolicytype-v1-admissionregistration",
+              "https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.25/#rulewithoperations-v1-admissionregistration",
+              "https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.25/#objectmeta-v1-meta"
+            ]
+          }
+        },
+        {
+          "name": "Rancher-Fleet.md",
+          "type": "file",
+          "data": {
+            "path": "/operator-manual/Rancher-Fleet.md",
+            "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/Rancher-Fleet.md",
+            "title": "Managing Kubewarden with Rancher Fleet",
+            "description": "Managing Kubewarden with Rancher Fleet.",
+            "keywords": [
+              "kubernetes",
+              "kubewarden",
+              "rancher fleet"
+            ],
+            "doc_persona": null,
+            "doc_type": null,
+            "doc_topic": null,
+            "slug": null,
+            "sidebar_label": "Rancher Fleet",
+            "sidebar_position": null,
+            "ext_links": [
+              "https://fleet.rancher.io/",
+              "https://fleet.rancher.io/ref-fleet-yaml",
+              "https://fleet.rancher.io/concepts",
+              "https://docs.kubewarden.io/quick-start",
+              "https://github.com/kubewarden/fleet-example"
+            ]
+          }
+        },
+        {
+          "name": "dependency-matrix.md",
+          "type": "file",
+          "data": {
+            "path": "/operator-manual/dependency-matrix.md",
+            "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/dependency-matrix.md",
+            "title": "Dependency matrix",
+            "description": "Dependency matrix of Kubewarden.",
+            "keywords": [
+              "dependency",
+              "dependencies",
+              "CRD",
+              "charts",
+              "matrix"
+            ],
+            "doc_persona": null,
+            "doc_type": null,
+            "doc_topic": null,
+            "slug": null,
+            "sidebar_label": "Dependency matrix",
+            "sidebar_position": null,
+            "ext_links": [
+              "https://opentelemetry.io"
+            ]
+          }
+        },
+        {
+          "name": "monitor-mode.md",
+          "type": "file",
+          "data": {
+            "path": "/operator-manual/monitor-mode.md",
+            "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/monitor-mode.md",
+            "title": "Monitor mode",
+            "description": "The Kubewarden monitor mode and how to activate it.",
+            "keywords": [
+              "kubernetes",
+              "kubewarden",
+              "monitor mode"
+            ],
+            "doc_persona": null,
+            "doc_type": null,
+            "doc_topic": null,
+            "slug": null,
+            "sidebar_label": "Monitor mode",
+            "sidebar_position": null,
+            "int_links": [
+              "/operator-manual/CRDs#admissionpolicyspec"
+            ]
+          }
+        },
+        {
+          "name": "upgrade-path.md",
+          "type": "file",
+          "data": {
+            "path": "/operator-manual/upgrade-path.md",
+            "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/upgrade-path.md",
+            "title": "Upgrade path",
+            "description": "Upgrade path for the Kubewarden stack.",
+            "keywords": [
+              "upgrade path",
+              "support"
+            ],
+            "doc_persona": null,
+            "doc_type": null,
+            "doc_topic": null,
+            "slug": null,
+            "sidebar_label": "Upgrade path",
+            "sidebar_position": null,
+            "ext_links": [
+              "https://semver.org/"
+            ]
+          }
+        },
+        {
+          "name": "01-intro.md",
+          "type": "file",
+          "data": {
+            "path": "/operator-manual/01-intro.md",
+            "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/01-intro.md",
+            "title": "Operator manual",
+            "description": "The operator manual for Kubewarden.",
+            "keywords": [
+              "kubewarden",
+              "kubernetes",
+              "kubewarden operator manual"
+            ],
+            "doc_persona": null,
+            "doc_type": null,
+            "doc_topic": null,
+            "slug": null,
+            "sidebar_label": "Operator Manual",
+            "sidebar_position": null
+          }
+        },
+        {
+          "name": "policies.md",
+          "type": "file",
+          "data": {
+            "path": "/operator-manual/policies.md",
+            "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/policies.md",
+            "title": "Configuring policies",
+            "description": "Dependency matrix of Kubewarden.",
+            "keywords": [
+              "policies",
+              "ClusterAdmissionPolicies",
+              "AdmissionPolicies",
+              "configuration",
+              "namespaces"
+            ],
+            "doc_persona": null,
+            "doc_type": null,
+            "doc_topic": null,
+            "slug": null,
+            "sidebar_label": "Configuring policies",
+            "sidebar_position": null,
+            "int_links": [
+              "/operator-manual/CRDs#clusteradmissionpolicy"
+            ]
+          }
+        },
+        {
+          "name": "policy-evaluation-timeout.md",
+          "type": "file",
+          "data": {
+            "path": "/operator-manual/policy-evaluation-timeout.md",
+            "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/policy-evaluation-timeout.md",
+            "title": "Policy evaluation timeout protection",
+            "description": "Policy evaluation timeout protection for Kubewarden",
+            "keywords": [
+              "kubewarden",
+              "kubernetes",
+              "policy timeout protection"
+            ],
+            "doc_persona": null,
+            "doc_type": null,
+            "doc_topic": null,
+            "slug": null,
+            "sidebar_label": "Policy evaluation timeout",
+            "sidebar_position": null,
+            "int_links": [
+              "/writing-policies/go/01-intro-go.md",
+              "/writing-policies/rego/01-intro-rego.md",
+              "/writing-policies/index.md",
+              "/writing-policies/rust/01-intro-rust.md"
+            ],
+            "ext_links": [
+              "https://en.wikipedia.org/wiki/Turing_completeness",
+              "https://kubernetes.io/docs/reference/access-authn-authz/extensible-admission-controllers/",
+              "https://kubernetes.io/docs/reference/access-authn-authz/extensible-admission-controllers/#timeouts",
+              "https://en.wikipedia.org/wiki/Webhook",
+              "https://doc.crds.dev/github.com/kubewarden/kubewarden-controller/policies.kubewarden.io/PolicyServer/v1@v1.4.2",
+              "https://en.wikipedia.org/wiki/Infinite_loop",
+              "https://en.wikipedia.org/wiki/Deadlock"
+            ]
+          }
+        },
+        {
+          "name": "verification-config.md",
+          "type": "file",
+          "data": {
+            "path": "/operator-manual/verification-config.md",
+            "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/verification-config.md",
+            "title": "Verification configuration",
+            "description": "Verification configuration for Kubewarden.",
+            "keywords": [
+              "kubewarden",
+              "kubernetes",
+              "verification configuration"
+            ],
+            "doc_persona": null,
+            "doc_type": null,
+            "doc_topic": null,
+            "slug": null,
+            "sidebar_label": "Verification configuration",
+            "sidebar_position": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "security",
+      "type": "folder",
+      "children": [
+        {
+          "name": "01-intro.md",
+          "type": "file",
+          "data": {
+            "path": "/security/01-intro.md",
+            "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/security/01-intro.md",
+            "title": "Kubewarden security",
+            "description": "Kubewarden security.",
+            "keywords": [
+              "kubewarden",
+              "kubernetes",
+              "security"
+            ],
+            "doc_persona": null,
+            "doc_type": null,
+            "doc_topic": null,
+            "slug": null,
+            "sidebar_label": "Security",
+            "sidebar_position": null
+          }
+        },
+        {
+          "name": "disclosure.md",
+          "type": "file",
+          "data": {
+            "path": "/security/disclosure.md",
+            "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/security/disclosure.md",
+            "title": "Security disclosure",
+            "description": "Security disclosure.",
+            "keywords": [
+              "kubewarden",
+              "kubernetes",
+              "security",
+              "disclosure"
+            ],
+            "doc_persona": null,
+            "doc_type": null,
+            "doc_topic": null,
+            "slug": null,
+            "sidebar_label": "Security disclosure",
+            "sidebar_position": null,
+            "ext_links": [
+              "https://en.wikipedia.org/wiki/Responsible_disclosure"
+            ]
+          }
+        },
+        {
+          "name": "threat-model.md",
+          "type": "file",
+          "data": {
+            "path": "/security/threat-model.md",
+            "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/security/threat-model.md",
+            "title": "Threat Model",
+            "description": "The Kubernetes Admission Control Threat Model and Kubewarden.",
+            "keywords": [
+              "kubernetes",
+              "admission control threat model",
+              "kubewarden"
+            ],
+            "doc_persona": null,
+            "doc_type": null,
+            "doc_topic": null,
+            "slug": null,
+            "sidebar_label": "Threat Model",
+            "sidebar_position": null,
+            "ext_links": [
+              "https://artifacthub.io/packages/kubewarden/capabilities-psp/capabilities-psp",
+              "https://github.com/kubernetes/community/tree/master/sig-security",
+              "https://github.com/kubernetes/sig-security/tree/main/sig-security-docs/papers/admission-control",
+              "https://github.com/kubewarden/deprecated-api-versions-policy"
+            ]
+          }
+        },
+        {
+          "name": "verifying-kubewarden.md",
+          "type": "file",
+          "data": {
+            "path": "/security/verifying-kubewarden.md",
+            "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/security/verifying-kubewarden.md",
+            "title": "Verifying Kubewarden",
+            "description": "Verifying Kubewarden.",
+            "keywords": [
+              "kubewarden",
+              "kubernetes",
+              "security",
+              "verification"
+            ],
+            "doc_persona": null,
+            "doc_type": null,
+            "doc_topic": null,
+            "slug": null,
+            "sidebar_label": "Verifying Kubewarden",
+            "sidebar_position": null,
+            "ext_links": [
+              "https://docs.sigstore.dev/signing/signing_with_blobs/",
+              "https://docs.sigstore.dev",
+              "https://github.com/cvila84/helm-image",
+              "https://github.com/kubewarden/kwctl/releases/",
+              "https://github.com/orgs/kubewarden/packages?tab=packages&amp;q=charts"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "tasksDir",
+      "type": "folder",
+      "children": [
+        {
+          "name": "mutating-policies.md",
+          "type": "file",
+          "data": {
+            "path": "/tasksDir/mutating-policies.md",
+            "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/tasksDir/mutating-policies.md",
+            "title": "Mutating policies",
+            "description": "Explains mutating policies in the context of Kubewarden",
+            "keywords": [
+              "kubewarden policy mutating kubernetes clusteradmissionpolicy admissionpolicy"
+            ],
+            "doc_persona": null,
+            "doc_type": null,
+            "doc_topic": null,
+            "slug": null,
+            "sidebar_label": "Mutating policies",
+            "sidebar_position": null,
+            "ext_links": [
+              "https://github.com/kubewarden/user-group-psp-policy"
+            ]
+          }
+        },
+        {
+          "name": "pod-security-admission-with-kubewarden.md",
+          "type": "file",
+          "data": {
+            "path": "/tasksDir/pod-security-admission-with-kubewarden.md",
+            "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/tasksDir/pod-security-admission-with-kubewarden.md",
+            "title": " Using Pod Security Admission with Kubewarden",
+            "description": "Using Pod Security Admission with Kubewarden, since the Kubernetes 1.25 release.",
+            "keywords": [
+              "kubewarden",
+              "pod security admission",
+              "pod security policy",
+              "kubernetes"
+            ],
+            "doc_persona": null,
+            "doc_type": null,
+            "doc_topic": null,
+            "slug": null,
+            "sidebar_label": "Pod Security Admission with KW",
+            "sidebar_position": null,
+            "int_links": [
+              "/quick-start.md",
+              "/tasksDir/psp-migration.md"
+            ],
+            "ext_links": [
+              "https://kubernetes.io/docs/concepts/security/pod-security-standards/",
+              "https://kubernetes.io/docs/concepts/security/pod-security-admission/",
+              "https://artifacthub.io/packages/kubewarden/user-group-psp/user-group-psp"
+            ]
+          }
+        },
+        {
+          "name": "psp-migration.md",
+          "type": "file",
+          "data": {
+            "path": "/tasksDir/psp-migration.md",
+            "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/tasksDir/psp-migration.md",
+            "title": "PodSecurityPolicy migration",
+            "description": "Discusses PSP migration to Kubewarden policies after Kubernetes v1.25.",
+            "keywords": [
+              "kubewarden",
+              "kubernetes",
+              "appvia",
+              "psp",
+              "podsecuritypolicy"
+            ],
+            "doc_persona": null,
+            "doc_type": null,
+            "doc_topic": null,
+            "slug": null,
+            "sidebar_label": "PSP migration",
+            "sidebar_position": null,
+            "int_links": [
+              "/tasksDir/#mapping-kuberwarden-policies-to-psp-fields"
+            ],
+            "ext_links": [
+              "https://github.com/kubewarden/host-namespaces-psp-policy",
+              "https://github.com/kubewarden/volumes-psp-policy",
+              "https://github.com/kubewarden/readonly-root-filesystem-psp-policy",
+              "https://github.com/appvia/psp-migration",
+              "https://github.com/kubewarden/seccomp-psp-policy",
+              "https://kubernetes.io/docs/concepts/security/pod-security-policy/#privileged",
+              "https://kubernetes.io/docs/concepts/security/pod-security-policy/",
+              "https://kubernetes.io/docs/concepts/security/pod-security-policy/#apparmor",
+              "https://github.com/kubewarden/allowed-fsgroups-psp-policy",
+              "https://github.com/kubewarden/selinux-psp-policy",
+              "https://github.com/kubewarden/apparmor-psp-policy",
+              "https://kubernetes.io/docs/concepts/security/pod-security-policy/#users-and-groups",
+              "https://github.com/kubewarden/sysctl-psp-policy",
+              "https://github.com/kubewarden/user-group-psp-policy",
+              "https://kubernetes.io/docs/concepts/security/pod-security-policy/#privilege-escalation",
+              "https://kubernetes.io/docs/concepts/security/pod-security-policy/#volumes-and-file-systems",
+              "https://github.com/kubewarden/allow-privilege-escalation-psp-policy",
+              "https://github.com/kubewarden/hostpaths-psp-policy",
+              "https://kubernetes.io/docs/concepts/security/pod-security-policy/#selinux",
+              "https://kubernetes.io/docs/concepts/security/pod-security-policy/#allowedprocmounttypes",
+              "https://github.com/kubewarden/utils/blob/main/scripts/psp-to-kubewarden",
+              "https://github.com/kubewarden/allowed-proc-mount-types-psp-policy",
+              "https://github.com/kubewarden/capabilities-psp-policy",
+              "https://kubernetes.io/docs/concepts/security/pod-security-policy/#capabilities",
+              "https://kubernetes.io/docs/concepts/security/pod-security-policy/#host-namespaces",
+              "https://github.com/kubewarden/flexvolume-drivers-psp-policy",
+              "https://github.com/kubewarden/pod-privileged-policy",
+              "https://kubernetes.io/docs/concepts/security/pod-security-policy/#flexvolume-drivers"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "testing-policies",
+      "type": "folder",
+      "children": [
+        {
+          "name": "01-intro.md",
+          "type": "file",
+          "data": {
+            "path": "/testing-policies/01-intro.md",
+            "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/testing-policies/01-intro.md",
+            "title": "Policy testing",
+            "description": "The two personas using Kubewarden policies are policy authors and cluster operators.",
+            "keywords": [
+              "kubewarden",
+              "persons",
+              "policy author",
+              "cluster operator"
+            ],
+            "doc_persona": null,
+            "doc_type": null,
+            "doc_topic": null,
+            "slug": null,
+            "sidebar_label": "Policy testing",
+            "sidebar_position": null
+          }
+        },
+        {
+          "name": "02-policy-authors.md",
+          "type": "file",
+          "data": {
+            "path": "/testing-policies/02-policy-authors.md",
+            "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/testing-policies/02-policy-authors.md",
+            "title": "Testing for policy authors",
+            "description": "An introduction to testing Kubewarden policies for policy authors.",
+            "keywords": [
+              "kubewarden",
+              "policy testing",
+              "policy author",
+              "rust",
+              "go",
+              "assemblyscript",
+              "development environment"
+            ],
+            "doc_persona": null,
+            "doc_type": null,
+            "doc_topic": null,
+            "slug": null,
+            "sidebar_label": "Policy authors",
+            "sidebar_position": null,
+            "int_links": [
+              "/testing-policies/writing-policies/go/01-intro-go.md",
+              "/testing-policies/writing-policies/rust/01-intro-rust.md",
+              "/testing-policies/writing-policies/go/05-e2e-tests.md"
+            ],
+            "ext_links": [
+              "https://github.com/kubewarden/psp-apparmor",
+              "https://github.com/kubewarden/ingress-policy",
+              "https://github.com/bats-core/bats-core",
+              "https://github.com/kubewarden/kwctl"
+            ]
+          }
+        },
+        {
+          "name": "03-cluster-operators.md",
+          "type": "file",
+          "data": {
+            "path": "/testing-policies/03-cluster-operators.md",
+            "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/testing-policies/03-cluster-operators.md",
+            "title": "Testing for cluster operators",
+            "description": "An introduction to testing Kubewarden policies for cluster operators.",
+            "keywords": null,
+            "doc_persona": null,
+            "doc_type": null,
+            "doc_topic": null,
+            "slug": null,
+            "sidebar_label": "Cluster operators",
+            "sidebar_position": null,
+            "int_links": [
+              "/testing-policies/writing-policies/go/05-e2e-tests.md"
+            ],
+            "ext_links": [
+              "https://github.com/kubewarden/kwctl/releases",
+              "https://github.com/kubewarden/psp-apparmor",
+              "https://github.com/bats-core/bats-core",
+              "https://github.com/kubewarden/kwctl",
+              "https://github.com/kubewarden/psp-apparmor#configuration"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "writing-policies",
+      "type": "folder",
+      "children": [
+        {
+          "name": "rego",
+          "type": "folder",
+          "children": [
+            {
+              "name": "gatekeeper",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "01-intro.md",
+                  "type": "file",
+                  "data": {
+                    "path": "/writing-policies/rego/gatekeeper/01-intro.md",
+                    "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rego/gatekeeper/01-intro.md",
+                    "title": "Gatekeeper support",
+                    "description": "Introducing Gatekeeper support in Kubewarden.",
+                    "keywords": [
+                      "kubewarden",
+                      "kubernetes",
+                      "rego",
+                      "gatekeeper"
+                    ],
+                    "doc_persona": null,
+                    "doc_type": null,
+                    "doc_topic": null,
+                    "slug": null,
+                    "sidebar_label": "Gatekeeper support",
+                    "sidebar_position": null,
+                    "int_links": [
+                      "/writing-policies/rego/builtin-support"
+                    ]
+                  }
+                },
+                {
+                  "name": "02-create-policy.md",
+                  "type": "file",
+                  "data": {
+                    "path": "/writing-policies/rego/gatekeeper/02-create-policy.md",
+                    "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rego/gatekeeper/02-create-policy.md",
+                    "title": "Creating a new Gatekeeper Rego policy",
+                    "description": "Creating a new Gatekeeper rego policy.",
+                    "keywords": [
+                      "kubewarden",
+                      "kubernetes",
+                      "gatekeeper rego policy"
+                    ],
+                    "doc_persona": null,
+                    "doc_type": null,
+                    "doc_topic": null,
+                    "slug": null,
+                    "sidebar_label": "Create a New Policy",
+                    "sidebar_position": null,
+                    "int_links": [
+                      "/writing-policies/rego/open-policy-agent/create-policy"
+                    ],
+                    "ext_links": [
+                      "https://github.com/kubewarden/gatekeeper-policy-template"
+                    ]
+                  }
+                },
+                {
+                  "name": "03-build-and-run.md",
+                  "type": "file",
+                  "data": {
+                    "path": "/writing-policies/rego/gatekeeper/03-build-and-run.md",
+                    "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rego/gatekeeper/03-build-and-run.md",
+                    "title": "Build and run a Gatekeeper policy",
+                    "description": "Building and running a Gatekeeper policy written in Rego.",
+                    "keywords": [
+                      "kubewarden",
+                      "kubernetes",
+                      "gatekeeper policy",
+                      "rego"
+                    ],
+                    "doc_persona": null,
+                    "doc_type": null,
+                    "doc_topic": null,
+                    "slug": null,
+                    "sidebar_label": "Build and run",
+                    "sidebar_position": null
+                  }
+                },
+                {
+                  "name": "04-distribute.md",
+                  "type": "file",
+                  "data": {
+                    "path": "/writing-policies/rego/gatekeeper/04-distribute.md",
+                    "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rego/gatekeeper/04-distribute.md",
+                    "title": "Distributing a Gatekeeper policy with Kubewarden",
+                    "description": "Distributing a Gatekeeper policy with Kubewarden.",
+                    "keywords": [
+                      "kubewarden",
+                      "kubernetes",
+                      "gatekeeper",
+                      "rego"
+                    ],
+                    "doc_persona": null,
+                    "doc_type": null,
+                    "doc_topic": null,
+                    "slug": null,
+                    "sidebar_label": "Distribute",
+                    "sidebar_position": null
+                  }
+                }
+              ]
+            },
+            {
+              "name": "open-policy-agent",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "01-intro.md",
+                  "type": "file",
+                  "data": {
+                    "path": "/writing-policies/rego/open-policy-agent/01-intro.md",
+                    "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rego/open-policy-agent/01-intro.md",
+                    "title": "Introduction to Open Policy Agent",
+                    "description": "Introduction to Open Policy Agent and Kubewarden.",
+                    "keywords": [
+                      "kubewarden",
+                      "kubernetes",
+                      "open policy agent",
+                      "opa",
+                      "rego"
+                    ],
+                    "doc_persona": null,
+                    "doc_type": null,
+                    "doc_topic": null,
+                    "slug": null,
+                    "sidebar_label": "Introduction",
+                    "sidebar_position": null,
+                    "int_links": [
+                      "/writing-policies/rego/builtin-support"
+                    ]
+                  }
+                },
+                {
+                  "name": "02-create-policy.md",
+                  "type": "file",
+                  "data": {
+                    "path": "/writing-policies/rego/open-policy-agent/02-create-policy.md",
+                    "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rego/open-policy-agent/02-create-policy.md",
+                    "title": "Creating a new policy",
+                    "description": "Creating a new OPA policy for Kubewarden.",
+                    "keywords": [
+                      "kubewarden",
+                      "kubernetes",
+                      "creating a policy",
+                      "open policy agent",
+                      "opa",
+                      "rego"
+                    ],
+                    "doc_persona": null,
+                    "doc_type": null,
+                    "doc_topic": null,
+                    "slug": null,
+                    "sidebar_label": "Creating a new policy",
+                    "sidebar_position": null,
+                    "ext_links": [
+                      "https://github.com/open-policy-agent/opa/releases",
+                      "https://github.com/kubewarden/opa-policy-template",
+                      "https://www.openpolicyagent.org/docs/latest/policy-language/",
+                      "https://github.com/kubewarden/kwctl/releases"
+                    ]
+                  }
+                },
+                {
+                  "name": "03-build-and-run.md",
+                  "type": "file",
+                  "data": {
+                    "path": "/writing-policies/rego/open-policy-agent/03-build-and-run.md",
+                    "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rego/open-policy-agent/03-build-and-run.md",
+                    "title": "Build and run a OPA policy for Kubewarden",
+                    "description": "Build and run a OPA policy for Kubewarden.",
+                    "keywords": [
+                      "kubewarden",
+                      "kubernetes",
+                      "build and run",
+                      "open policy agent",
+                      "opa",
+                      "rego"
+                    ],
+                    "doc_persona": null,
+                    "doc_type": null,
+                    "doc_topic": null,
+                    "slug": null,
+                    "sidebar_label": "Build and run",
+                    "sidebar_position": null
+                  }
+                },
+                {
+                  "name": "04-distribute.md",
+                  "type": "file",
+                  "data": {
+                    "path": "/writing-policies/rego/open-policy-agent/04-distribute.md",
+                    "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rego/open-policy-agent/04-distribute.md",
+                    "title": "Distributing an OPA policy with Kubewarden",
+                    "description": "Distributing an OPA policy with Kubewarden.",
+                    "keywords": [
+                      "kubewarden",
+                      "kubernetes",
+                      "distributing",
+                      "open policy agent",
+                      "opa",
+                      "rego"
+                    ],
+                    "doc_persona": null,
+                    "doc_type": null,
+                    "doc_topic": null,
+                    "slug": null,
+                    "sidebar_label": "Distribute",
+                    "sidebar_position": null
+                  }
+                },
+                {
+                  "name": "05-raw-policies.md",
+                  "type": "file",
+                  "data": {
+                    "path": "/writing-policies/rego/open-policy-agent/05-raw-policies.md",
+                    "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rego/open-policy-agent/05-raw-policies.md",
+                    "title": "Writing raw policies",
+                    "description": "Writing raw OPA policies for Kubewarden.",
+                    "keywords": [
+                      "kubewarden",
+                      "kubernetes",
+                      "raw policies",
+                      "open policy agent",
+                      "opa",
+                      "rego"
+                    ],
+                    "doc_persona": null,
+                    "doc_type": null,
+                    "doc_topic": null,
+                    "slug": null,
+                    "sidebar_label": "Raw policies",
+                    "sidebar_position": null,
+                    "int_links": [
+                      "/howtos/raw-policies.md",
+                      "/writing-policies/metadata.md",
+                      "/writing-policies/rego/open-policy-agent/02-create-policy.md"
+                    ],
+                    "ext_links": [
+                      "https://github.com/kubewarden/opa-policy-template"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "name": "01-intro-rego.md",
+              "type": "file",
+              "data": {
+                "path": "/writing-policies/rego/01-intro-rego.md",
+                "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rego/01-intro-rego.md",
+                "title": "Rego",
+                "description": "Writing Kubewarden policies using Rego.",
+                "keywords": [
+                  "kubewarden",
+                  "kubernetes",
+                  "writing policies",
+                  "rego"
+                ],
+                "doc_persona": null,
+                "doc_type": null,
+                "doc_topic": null,
+                "slug": null,
+                "sidebar_label": "Rego",
+                "sidebar_position": null,
+                "int_links": [
+                  "/writing-policies/spec/05-context-aware-policies.md",
+                  "/writing-policies/rego/writing-policies/rego/open-policy-agent/01-intro.md",
+                  "/writing-policies/rego/writing-policies/rego/gatekeeper/01-intro.md"
+                ],
+                "ext_links": [
+                  "https://www.openpolicyagent.org/docs/latest/policy-language/",
+                  "https://github.com/open-policy-agent/kube-mgmt"
+                ]
+              }
+            },
+            {
+              "name": "02-builtin-support.md",
+              "type": "file",
+              "data": {
+                "path": "/writing-policies/rego/02-builtin-support.md",
+                "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rego/02-builtin-support.md",
+                "title": "Builtin support",
+                "description": "The Kubewarden provided support for executing wasm binaries.",
+                "keywords": [
+                  "kubewarden",
+                  "kubernetes",
+                  "builtin wasm support"
+                ],
+                "doc_persona": null,
+                "doc_type": null,
+                "doc_topic": null,
+                "slug": null,
+                "sidebar_label": "Builtin Support",
+                "sidebar_position": null,
+                "ext_links": [
+                  "https://github.com/kubewarden/policy-evaluator/issues/56",
+                  "https://www.openpolicyagent.org/docs/latest/policy-reference/#built-in-functions"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "rust",
+          "type": "folder",
+          "children": [
+            {
+              "name": "07-build-and-distribute.md",
+              "type": "file",
+              "data": {
+                "path": "/writing-policies/rust/07-build-and-distribute.md",
+                "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rust/07-build-and-distribute.md",
+                "title": "Building and distributing policies",
+                "description": "Building and distributing Kubewarden policies developed with Rust.",
+                "keywords": [
+                  "kubewarden",
+                  "kubernetes",
+                  "writing policies",
+                  "rust",
+                  "build and distribute"
+                ],
+                "doc_persona": [
+                  "kubewarden-developer",
+                  "kubewarden-developer-rust",
+                  "kubewarden-operator"
+                ],
+                "doc_type": [
+                  "tutorial"
+                ],
+                "doc_topic": [
+                  "kubewarden",
+                  "writing-policies",
+                  "rust",
+                  "build-and-distribute"
+                ],
+                "slug": null,
+                "sidebar_label": "Building and distributing policies",
+                "sidebar_position": null,
+                "int_links": [
+                  "/writing-policies/rust/distributing-policies.md"
+                ],
+                "ext_links": [
+                  "https://github.com/search?l=Rust&amp;q=topic%3Apolicy-as-code+org%3Akubewarden&amp;type=Repositories"
+                ]
+              }
+            },
+            {
+              "name": "08-raw-policies.md",
+              "type": "file",
+              "data": {
+                "path": "/writing-policies/rust/08-raw-policies.md",
+                "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rust/08-raw-policies.md",
+                "title": "Raw policies",
+                "description": null,
+                "keywords": null,
+                "doc_persona": null,
+                "doc_type": null,
+                "doc_topic": null,
+                "slug": null,
+                "sidebar_label": "Raw policies",
+                "sidebar_position": null,
+                "int_links": [
+                  "/writing-policies/rust/05-mutation-policy.md",
+                  "/writing-policies/metadata.md",
+                  "/howtos/raw-policies.md"
+                ],
+                "ext_links": [
+                  "https://github.com/kubewarden/rust-policy-template"
+                ]
+              }
+            },
+            {
+              "name": "01-intro-rust.md",
+              "type": "file",
+              "data": {
+                "path": "/writing-policies/rust/01-intro-rust.md",
+                "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rust/01-intro-rust.md",
+                "title": "Rust",
+                "description": "An introduction to writing Kubewarden policies with Rust.",
+                "keywords": [
+                  "kubewarden",
+                  "kubernetes",
+                  "writing policies",
+                  "introduction"
+                ],
+                "doc_persona": [
+                  "kubewarden-developer",
+                  "kubewarden-developer-rust"
+                ],
+                "doc_type": [
+                  "tutorial"
+                ],
+                "doc_topic": [
+                  "kubewarden",
+                  "writing-policies",
+                  "rust",
+                  "introduction"
+                ],
+                "slug": null,
+                "sidebar_label": null,
+                "sidebar_position": null,
+                "ext_links": [
+                  "https://github.com/cargo-generate/cargo-generate",
+                  "https://rust-lang.github.io/rustup/installation/index.html",
+                  "https://www.rust-lang.org/",
+                  "https://github.com/kubewarden/rust-policy-template",
+                  "https://github.com/rust-lang/rustup",
+                  "https://docs.rs/kubewarden-policy-sdk/0.1.0",
+                  "https://crates.io/crates/kubewarden-policy-sdk"
+                ]
+              }
+            },
+            {
+              "name": "02-create-policy.md",
+              "type": "file",
+              "data": {
+                "path": "/writing-policies/rust/02-create-policy.md",
+                "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rust/02-create-policy.md",
+                "title": "Creating a policy",
+                "description": "Creating a Kubewarden policy using Rust.",
+                "keywords": [
+                  "kubewarden",
+                  "kubernetes",
+                  "policy creation"
+                ],
+                "doc_persona": [
+                  "kubewarden-developer",
+                  "kubewarden-developer-rust"
+                ],
+                "doc_type": [
+                  "tutorial"
+                ],
+                "doc_topic": [
+                  "kubewarden",
+                  "writing-policies",
+                  "rust",
+                  "creating-policies"
+                ],
+                "slug": null,
+                "sidebar_label": "Creating a policy",
+                "sidebar_position": null,
+                "ext_links": [
+                  "https://docs.github.com/en/packages/working-with-a-github-packages-registry/enabling-improved-container-support-with-the-container-registry#enabling-the-container-registry-for-your-personal-account",
+                  "https://pkgs.org/download/openssl-devel",
+                  "https://github.com/kubewarden/rust-policy-template"
+                ]
+              }
+            },
+            {
+              "name": "03-define-policy-settings.md",
+              "type": "file",
+              "data": {
+                "path": "/writing-policies/rust/03-define-policy-settings.md",
+                "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rust/03-define-policy-settings.md",
+                "title": "Defining policy settings",
+                "description": "Defining policy settings for a Kubewarden policy developed using Rust",
+                "keywords": [
+                  "kubewarden",
+                  "kubernetes",
+                  "writing policies",
+                  "policy settings",
+                  "rust"
+                ],
+                "doc_persona": [
+                  "kubewarden-developer",
+                  "kubewarden-developer-rust"
+                ],
+                "doc_type": [
+                  "tutorial"
+                ],
+                "doc_topic": [
+                  "kubewarden",
+                  "writing-policies",
+                  "rust",
+                  "policy-settings"
+                ],
+                "slug": null,
+                "sidebar_label": "Defining policy settings",
+                "sidebar_position": null,
+                "ext_links": [
+                  "https://doc.rust-lang.org/stable/book/ch11-00-testing.html"
+                ]
+              }
+            },
+            {
+              "name": "04-write-validation-logic.md",
+              "type": "file",
+              "data": {
+                "path": "/writing-policies/rust/04-write-validation-logic.md",
+                "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rust/04-write-validation-logic.md",
+                "title": "Writing validation logic",
+                "description": "Writing validation logic in Rust for a Kubewarden policy",
+                "keywords": [
+                  "kubewarden",
+                  "kubernetes",
+                  "policy",
+                  "writing",
+                  "rust",
+                  "validation logic"
+                ],
+                "doc_persona": [
+                  "kubewarden-developer",
+                  "kubewarden-developer-rust"
+                ],
+                "doc_type": [
+                  "tutorial"
+                ],
+                "doc_topic": [
+                  "kubewarden",
+                  "writing-policies",
+                  "rust",
+                  "validation-logic"
+                ],
+                "slug": null,
+                "sidebar_label": "Writing validation logic",
+                "sidebar_position": null,
+                "ext_links": [
+                  "https://en.wikipedia.org/wiki/Test_fixture#Software",
+                  "https://arnavion.github.io/k8s-openapi/v0.11.x/k8s_openapi/api/core/v1/struct.Pod.html"
+                ]
+              }
+            },
+            {
+              "name": "05-mutation-policy.md",
+              "type": "file",
+              "data": {
+                "path": "/writing-policies/rust/05-mutation-policy.md",
+                "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rust/05-mutation-policy.md",
+                "title": "Creating a new mutation policy",
+                "description": "Creating a new mutation policy using Rust",
+                "keywords": [
+                  "kubewarden",
+                  "kubernetes",
+                  "creating a new mutation policy",
+                  "mutation policy",
+                  "rust"
+                ],
+                "doc_persona": [
+                  "kubewarden-developer",
+                  "kubewarden-developer-rust"
+                ],
+                "doc_type": [
+                  "tutorial"
+                ],
+                "doc_topic": [
+                  "kubewarden",
+                  "writing-policies",
+                  "rust",
+                  "new-mutation-policy"
+                ],
+                "slug": null,
+                "sidebar_label": "Creating a new mutation policy",
+                "sidebar_position": null,
+                "ext_links": [
+                  "https://docs.rs/kubewarden-policy-sdk/0.1.0/kubewarden_policy_sdk/fn.mutate_request.html",
+                  "https://docs.rs/kubewarden-policy-sdk/0.1.0/kubewarden_policy_sdk/fn.accept_request.html"
+                ]
+              }
+            },
+            {
+              "name": "06-logging.md",
+              "type": "file",
+              "data": {
+                "path": "/writing-policies/rust/06-logging.md",
+                "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rust/06-logging.md",
+                "title": "Logging",
+                "description": "How to use logging functionality when writing a Kubewarden policy in Rust.",
+                "keywords": [
+                  "Kubewarden",
+                  "kubernetes",
+                  "logging"
+                ],
+                "doc_persona": [
+                  "kubewarden-developer",
+                  "kubewarden-developer-rust"
+                ],
+                "doc_type": [
+                  "tutorial"
+                ],
+                "doc_topic": [
+                  "kubewarden",
+                  "writing-policies",
+                  "rust",
+                  "logging"
+                ],
+                "slug": null,
+                "sidebar_label": "Logging",
+                "sidebar_position": null,
+                "ext_links": [
+                  "https://github.com/slog-rs/slog",
+                  "https://docs.rs/slog/2.7.0/slog/index.html",
+                  "https://docs.rs/slog/2.7.0/slog/macro.log.html"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "spec",
+          "type": "folder",
+          "children": [
+            {
+              "name": "host-capabilities",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "01-intro-host-capabilities.md",
+                  "type": "file",
+                  "data": {
+                    "path": "/writing-policies/spec/host-capabilities/01-intro-host-capabilities.md",
+                    "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/01-intro-host-capabilities.md",
+                    "title": "Host capabilities specification",
+                    "description": "Host capabilities specification.",
+                    "keywords": [
+                      "kubewarden",
+                      "kubernetes",
+                      "policy specification",
+                      "host capabilities"
+                    ],
+                    "doc_persona": null,
+                    "doc_type": null,
+                    "doc_topic": null,
+                    "slug": null,
+                    "sidebar_label": "Host capabilities specification",
+                    "sidebar_position": null,
+                    "ext_links": [
+                      "https://wapc.io/",
+                      "https://en.wikipedia.org/wiki/Remote_procedure_call"
+                    ]
+                  }
+                },
+                {
+                  "name": "02-signature-verifier-policies.md",
+                  "type": "file",
+                  "data": {
+                    "path": "/writing-policies/spec/host-capabilities/02-signature-verifier-policies.md",
+                    "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/02-signature-verifier-policies.md",
+                    "title": "Signature verifier policies",
+                    "description": "Signature verifier policies.",
+                    "keywords": [
+                      "kubewarden",
+                      "kubernetes",
+                      "policy specification",
+                      "signature verifier"
+                    ],
+                    "doc_persona": null,
+                    "doc_type": null,
+                    "doc_topic": null,
+                    "slug": null,
+                    "sidebar_label": "Signature verifier policies",
+                    "sidebar_position": null,
+                    "int_links": [
+                      "/distributing-policies/secure-supply-chain.md"
+                    ],
+                    "ext_links": [
+                      "https://www.sigstore.dev/",
+                      "https://github.com/kubewarden/verify-image-signatures"
+                    ]
+                  }
+                },
+                {
+                  "name": "03-container-registry.md",
+                  "type": "file",
+                  "data": {
+                    "path": "/writing-policies/spec/host-capabilities/03-container-registry.md",
+                    "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/03-container-registry.md",
+                    "title": "Container registry capabilities",
+                    "description": "Container registry capabilities.",
+                    "keywords": [
+                      "kubewarden",
+                      "kubernetes",
+                      "policy specification",
+                      "registry capabilities"
+                    ],
+                    "doc_persona": null,
+                    "doc_type": null,
+                    "doc_topic": null,
+                    "slug": null,
+                    "sidebar_label": "Container registry capabilities",
+                    "sidebar_position": null
+                  }
+                },
+                {
+                  "name": "04-net.md",
+                  "type": "file",
+                  "data": {
+                    "path": "/writing-policies/spec/host-capabilities/04-net.md",
+                    "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/04-net.md",
+                    "title": "Network capabilities",
+                    "description": "Network capabilities.",
+                    "keywords": [
+                      "kubewarden",
+                      "kubernetes",
+                      "policy specification",
+                      "network capabilities"
+                    ],
+                    "doc_persona": null,
+                    "doc_type": null,
+                    "doc_topic": null,
+                    "slug": null,
+                    "sidebar_label": "Network capabilities",
+                    "sidebar_position": null
+                  }
+                },
+                {
+                  "name": "05-crypto.md",
+                  "type": "file",
+                  "data": {
+                    "path": "/writing-policies/spec/host-capabilities/05-crypto.md",
+                    "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/05-crypto.md",
+                    "title": "Cryptographic capabilities",
+                    "description": "Cryptographic capabilities.",
+                    "keywords": [
+                      "kubewarden",
+                      "kubernetes",
+                      "policy specification",
+                      "cryptographic capabilities"
+                    ],
+                    "doc_persona": null,
+                    "doc_type": null,
+                    "doc_topic": null,
+                    "slug": null,
+                    "sidebar_label": "Cryptographic capabilities",
+                    "sidebar_position": null
+                  }
+                },
+                {
+                  "name": "06-kubernetes.md",
+                  "type": "file",
+                  "data": {
+                    "path": "/writing-policies/spec/host-capabilities/06-kubernetes.md",
+                    "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/06-kubernetes.md",
+                    "title": "Kubernetes capabilities",
+                    "description": "Kubernetes capabilities.",
+                    "keywords": [
+                      "kubewarden",
+                      "kubernetes",
+                      "policy specification",
+                      "kubernetes capabilities"
+                    ],
+                    "doc_persona": null,
+                    "doc_type": null,
+                    "doc_topic": null,
+                    "slug": null,
+                    "sidebar_label": "Kubernetes capabilities",
+                    "sidebar_position": null
+                  }
+                }
+              ]
+            },
+            {
+              "name": "01-intro-spec.md",
+              "type": "file",
+              "data": {
+                "path": "/writing-policies/spec/01-intro-spec.md",
+                "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/01-intro-spec.md",
+                "title": "Policy communication specification",
+                "description": "Policy communication specification.",
+                "keywords": [
+                  "kubewarden",
+                  "kubernetes",
+                  "policy specification",
+                  "policy communication"
+                ],
+                "doc_persona": null,
+                "doc_type": null,
+                "doc_topic": null,
+                "slug": null,
+                "sidebar_label": "Policy communication specification",
+                "sidebar_position": null
+              }
+            },
+            {
+              "name": "02-settings.md",
+              "type": "file",
+              "data": {
+                "path": "/writing-policies/spec/02-settings.md",
+                "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/02-settings.md",
+                "title": "Policy settings",
+                "description": "Policy settings.",
+                "keywords": [
+                  "kubewarden",
+                  "kubernetes",
+                  "policy specification",
+                  "policy settings"
+                ],
+                "doc_persona": null,
+                "doc_type": null,
+                "doc_topic": null,
+                "slug": null,
+                "sidebar_label": "Policy settings",
+                "sidebar_position": null,
+                "ext_links": [
+                  "https://github.com/chimera-kube/policy-server",
+                  "https://github.com/kubewarden/psp-capabilities"
+                ]
+              }
+            },
+            {
+              "name": "03-validating-policies.md",
+              "type": "file",
+              "data": {
+                "path": "/writing-policies/spec/03-validating-policies.md",
+                "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/03-validating-policies.md",
+                "title": "Validating policies",
+                "description": "Validating policies",
+                "keywords": [
+                  "kubewarden",
+                  "kubernetes",
+                  "policy specification",
+                  "policy validation"
+                ],
+                "doc_persona": null,
+                "doc_type": null,
+                "doc_topic": null,
+                "slug": null,
+                "sidebar_label": "Validating policies",
+                "sidebar_position": null,
+                "int_links": [
+                  "/howtos/raw-policies.md"
+                ],
+                "ext_links": [
+                  "https://godoc.org/k8s.io/api/admission/v1#AdmissionReview",
+                  "https://godoc.org/k8s.io/api/admission/v1#AdmissionRequest"
+                ]
+              }
+            },
+            {
+              "name": "04-mutating-policies.md",
+              "type": "file",
+              "data": {
+                "path": "/writing-policies/spec/04-mutating-policies.md",
+                "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/04-mutating-policies.md",
+                "title": "Mutating policies",
+                "description": "Mutating policies.",
+                "keywords": [
+                  "kubewarden",
+                  "kubernetes",
+                  "policy specification",
+                  "mutating policies"
+                ],
+                "doc_persona": null,
+                "doc_type": null,
+                "doc_topic": null,
+                "slug": null,
+                "sidebar_label": "Mutating policies",
+                "sidebar_position": null
+              }
+            },
+            {
+              "name": "05-context-aware-policies.md",
+              "type": "file",
+              "data": {
+                "path": "/writing-policies/spec/05-context-aware-policies.md",
+                "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/05-context-aware-policies.md",
+                "title": "Context aware policies",
+                "description": "Context aware policies.",
+                "keywords": [
+                  "kubewarden",
+                  "kubernetes",
+                  "policy specification",
+                  "context aware policies"
+                ],
+                "doc_persona": null,
+                "doc_type": null,
+                "doc_topic": null,
+                "slug": null,
+                "sidebar_label": "Context aware policies",
+                "sidebar_position": null,
+                "int_links": [
+                  "/writing-policies/spec/docs/writing-policies/spec/host-capabilities/06-kubernetes.md"
+                ],
+                "ext_links": [
+                  "https://doc.crds.dev/github.com/kubewarden/kubewarden-controller/policies.kubewarden.io/ClusterAdmissionPolicy/v1#spec-contextAwareResources",
+                  "https://github.com/open-policy-agent/kube-mgmt",
+                  "https://pkg.go.dev/github.com/kubewarden/policy-sdk-go",
+                  "https://docs.rs/kubewarden-policy-sdk/0.8.7/kubewarden_policy_sdk"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "wasi",
+          "type": "folder",
+          "children": [
+            {
+              "name": "01-intro-wasi.md",
+              "type": "file",
+              "data": {
+                "path": "/writing-policies/wasi/01-intro-wasi.md",
+                "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/wasi/01-intro-wasi.md",
+                "title": "WASI",
+                "description": "Using WASI to develop Kubewarden policies.",
+                "keywords": [
+                  "kubewarden",
+                  "kubernetes",
+                  "wasi"
+                ],
+                "doc_persona": [
+                  "kubewarden-developer"
+                ],
+                "doc_type": [
+                  "how-to",
+                  "explanation"
+                ],
+                "doc_topic": [
+                  "kubewarden",
+                  "writing-policies",
+                  "wasi"
+                ],
+                "slug": null,
+                "sidebar_label": null,
+                "sidebar_position": null,
+                "int_links": [
+                  "/writing-policies/go/01-intro-go.md",
+                  "/explanations/context-aware-policies.md",
+                  "/writing-policies/spec/02-settings.md",
+                  "/writing-policies/spec/03-validating-policies.md",
+                  "/writing-policies/spec/04-mutating-policies.md",
+                  "/writing-policies/spec/host-capabilities/01-intro-host-capabilities.md",
+                  "/writing-policies/spec/01-intro-spec.md"
+                ],
+                "ext_links": [
+                  "https://github.com/google/cel-go",
+                  "https://github.com/kubewarden/go-wasi-policy-template",
+                  "https://github.com/kyverno/kyverno/",
+                  "https://wasi.dev/",
+                  "https://github.com/golang/go/issues/42372",
+                  "https://github.com/wapc"
+                ]
+              }
+            },
+            {
+              "name": "02-raw-policies.md",
+              "type": "file",
+              "data": {
+                "path": "/writing-policies/wasi/02-raw-policies.md",
+                "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/wasi/02-raw-policies.md",
+                "title": "Writing raw policies",
+                "description": "Using Kubewarden for writing raw policies.",
+                "keywords": [
+                  "kubewarden",
+                  "kubernetes",
+                  "raw policies"
+                ],
+                "doc_persona": [
+                  "kubewarden-developer"
+                ],
+                "doc_type": [
+                  "explanation",
+                  "tutorial"
+                ],
+                "doc_topic": [
+                  "kubewarden",
+                  "writing-policies",
+                  "raw-policies"
+                ],
+                "slug": null,
+                "sidebar_label": "Raw policies",
+                "sidebar_position": null,
+                "int_links": [
+                  "/writing-policies/wasi/01-intro-wasi.md",
+                  "/writing-policies/metadata.md",
+                  "/howtos/raw-policies.md"
+                ],
+                "ext_links": [
+                  "https://github.com/kubewarden/go-wasi-policy-template"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "go",
+          "type": "folder",
+          "children": [
+            {
+              "name": "01-intro-go.md",
+              "type": "file",
+              "data": {
+                "path": "/writing-policies/go/01-intro-go.md",
+                "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/01-intro-go.md",
+                "title": "Writing policies in Go",
+                "description": "A tutorial introduction to writing policies in Go.",
+                "keywords": [
+                  "kubewarden",
+                  "kubernetes",
+                  "writing policies in Go"
+                ],
+                "doc_persona": [
+                  "kubewarden-developer"
+                ],
+                "doc_type": [
+                  "tutorial"
+                ],
+                "doc_topic": [
+                  "kubewarden",
+                  "writing-policies",
+                  "go",
+                  "introduction"
+                ],
+                "slug": null,
+                "sidebar_label": "Writing policies in Go",
+                "sidebar_position": 10,
+                "int_links": [
+                  "/writing-policies/go/testing-policies/01-intro.md"
+                ],
+                "ext_links": [
+                  "https://hub.docker.com/r/tinygo/tinygo-dev",
+                  "https://en.wikipedia.org/wiki/Set_(abstract_data_type)",
+                  "https://github.com/kubewarden/policy-sdk-go",
+                  "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io",
+                  "https://tinygo.org/getting-started/",
+                  "https://github.com/kubewarden/go-policy-template",
+                  "https://github.com/bats-core/bats-core",
+                  "https://github.com/deckarep/golang-set",
+                  "https://tinygo.org/lang-support/",
+                  "https://hub.docker.com/r/tinygo/tinygo",
+                  "https://github.com/kubewarden/kwctl/releases",
+                  "https://tinygo.org/",
+                  "https://github.com/kubewarden/k8s-objects",
+                  "https://wapc.io",
+                  "https://github.com/tidwall/gjson"
+                ]
+              }
+            },
+            {
+              "name": "02-scaffold.md",
+              "type": "file",
+              "data": {
+                "path": "/writing-policies/go/02-scaffold.md",
+                "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/02-scaffold.md",
+                "title": "Creating a new validation policy",
+                "description": "Creating a new validation policy for Kubewarden using Go.",
+                "keywords": [
+                  "kubewarden",
+                  "kubernetes",
+                  "writing policies in Go",
+                  "new validation policy"
+                ],
+                "doc_persona": [
+                  "kubewarden-developer"
+                ],
+                "doc_type": [
+                  "tutorial"
+                ],
+                "doc_topic": [
+                  "kubewarden",
+                  "writing-policies",
+                  "go",
+                  "creating a new validation policy"
+                ],
+                "slug": null,
+                "sidebar_label": "New validation policy",
+                "sidebar_position": 20,
+                "ext_links": [
+                  "https://github.com/kubewarden/go-policy-template",
+                  "https://github.com/bats-core/bats-core"
+                ]
+              }
+            },
+            {
+              "name": "03-policy-settings.md",
+              "type": "file",
+              "data": {
+                "path": "/writing-policies/go/03-policy-settings.md",
+                "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/03-policy-settings.md",
+                "title": "Defining policy settings",
+                "description": "Defining policy setting for a Kubewarden policy written in Go.",
+                "keywords": [
+                  "kubewarden",
+                  "kubernetes",
+                  "defining policy settings",
+                  "Go"
+                ],
+                "doc_persona": [
+                  "kubewarden-developer"
+                ],
+                "doc_type": [
+                  "tutorial"
+                ],
+                "doc_topic": [
+                  "kubewarden",
+                  "writing-policies",
+                  "go",
+                  "defining-policy-settings"
+                ],
+                "slug": null,
+                "sidebar_label": "Defining policy settings",
+                "sidebar_position": 30,
+                "int_links": [
+                  "/writing-policies/go/writing-policies/index.md#the-validate_settings-entry-point",
+                  "/writing-policies/go/writing-policies/index.md#the-validationrequest-object"
+                ],
+                "ext_links": [
+                  "https://github.com/kubewarden/policy-sdk-go",
+                  "https://github.com/WebAssembly/threads",
+                  "https://pkg.go.dev/github.com/deckarep/golang-set?utm_source=godoc#NewThreadUnsafeSet",
+                  "https://github.com/deckarep/golang-set",
+                  "https://pkg.go.dev/github.com/kubewarden/policy-sdk-go@v0.2.1/protocol#ValidationRequest"
+                ]
+              }
+            },
+            {
+              "name": "04-validation.md",
+              "type": "file",
+              "data": {
+                "path": "/writing-policies/go/04-validation.md",
+                "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/04-validation.md",
+                "title": "Writing the validation logic",
+                "description": "A tutorial on writing validation logic for a Kubewarden policy using Go.",
+                "keywords": [
+                  "kubewarden",
+                  "kubernetes",
+                  "writing policies",
+                  "golang",
+                  "go"
+                ],
+                "doc_persona": [
+                  "kubewarden-developer"
+                ],
+                "doc_type": [
+                  "tutorial"
+                ],
+                "doc_topic": [
+                  "kubewarden",
+                  "writing-policies",
+                  "golang",
+                  "validation-logic"
+                ],
+                "slug": null,
+                "sidebar_label": "Validation logic",
+                "sidebar_position": 40,
+                "int_links": [
+                  "/writing-policies/spec/validating-policies",
+                  "/writing-policies/go/validation-with-queries"
+                ],
+                "ext_links": [
+                  "https://stedolan.github.io/jq/"
+                ]
+              }
+            },
+            {
+              "name": "05-e2e-tests.md",
+              "type": "file",
+              "data": {
+                "path": "/writing-policies/go/05-e2e-tests.md",
+                "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/05-e2e-tests.md",
+                "title": "End-to-end testing",
+                "description": "A tutorial introduction to end-to-end testing for writing Kubewarden policies in the Go language.",
+                "keywords": [
+                  "kubewarden",
+                  "kubernetes",
+                  "writing policies",
+                  "end-to-end testing",
+                  "golang",
+                  "go"
+                ],
+                "doc_persona": [
+                  "kubewarden-developer"
+                ],
+                "doc_type": [
+                  "tutorial"
+                ],
+                "doc_topic": [
+                  "kubewarden",
+                  "writing-policies",
+                  "golang",
+                  "end-to-end-testing"
+                ],
+                "slug": null,
+                "sidebar_label": "End-to-end testing",
+                "sidebar_position": 50,
+                "int_links": [
+                  "/writing-policies/go/testing-policies/01-intro.md"
+                ],
+                "ext_links": [
+                  "https://github.com/bats-core/bats-core",
+                  "https://github.com/kubewarden/kwctl/releases"
+                ]
+              }
+            },
+            {
+              "name": "06-logging.md",
+              "type": "file",
+              "data": {
+                "path": "/writing-policies/go/06-logging.md",
+                "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/06-logging.md",
+                "title": "Logging",
+                "description": "A tutorial introduction to logging when using Go to write a Kubewarden policy.",
+                "keywords": [
+                  "kubewarden",
+                  "kubernetes",
+                  "writing policies",
+                  "golang",
+                  "go",
+                  "logging"
+                ],
+                "doc_persona": [
+                  "kubewarden-developer"
+                ],
+                "doc_type": [
+                  "tutorial"
+                ],
+                "doc_topic": [
+                  "kubewarden",
+                  "writing-policies",
+                  "golang",
+                  "logging"
+                ],
+                "slug": null,
+                "sidebar_label": "Logging",
+                "sidebar_position": 60,
+                "ext_links": [
+                  "https://github.com/francoispqt/onelog#benchmarks",
+                  "https://pkg.go.dev/github.com/francoispqt/onelog?utm_source=godoc",
+                  "https://www.jaegertracing.io/",
+                  "https://github.com/francoispqt/onelog"
+                ]
+              }
+            },
+            {
+              "name": "07-automate.md",
+              "type": "file",
+              "data": {
+                "path": "/writing-policies/go/07-automate.md",
+                "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/07-automate.md",
+                "title": "Integrating with GitHub Actions",
+                "description": "Integrating with GitHub actions when developing policies for Kubewarden in Go.",
+                "keywords": [
+                  "kubewarden",
+                  "kubernetes",
+                  "github",
+                  "integration"
+                ],
+                "doc_persona": [
+                  "kubewarden-developer"
+                ],
+                "doc_type": [
+                  "tutorial"
+                ],
+                "doc_topic": [
+                  "kubewarden",
+                  "writing-policies",
+                  "golang",
+                  "github-action-integration"
+                ],
+                "slug": null,
+                "sidebar_label": "GitHub Actions",
+                "sidebar_position": 70
+              }
+            },
+            {
+              "name": "08-distribute.md",
+              "type": "file",
+              "data": {
+                "path": "/writing-policies/go/08-distribute.md",
+                "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/08-distribute.md",
+                "title": "Distributing policy",
+                "description": "Distributing Kubewarden policies developed with Go.",
+                "keywords": [
+                  "kubewarden",
+                  "kubernetes",
+                  "distributing kubewarden policies"
+                ],
+                "doc_persona": [
+                  "kubewarden-developer",
+                  "kubewarden-operator"
+                ],
+                "doc_type": [
+                  "tutorial"
+                ],
+                "doc_topic": [
+                  "kubewarden",
+                  "writing-policies",
+                  "go",
+                  "distributing-policies"
+                ],
+                "slug": null,
+                "sidebar_label": "Distributing policy",
+                "sidebar_position": 80,
+                "int_links": [
+                  "/writing-policies/go/distributing-policies.md"
+                ],
+                "ext_links": [
+                  "https://github.com/kubewarden/safe-labels-policy"
+                ]
+              }
+            },
+            {
+              "name": "09-validation-with-queries.md",
+              "type": "file",
+              "data": {
+                "path": "/writing-policies/go/09-validation-with-queries.md",
+                "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/09-validation-with-queries.md",
+                "title": "Validation using JSON queries",
+                "description": "Validation using JSON queries with Kubewarden policies in Go.",
+                "keywords": [
+                  "kubewarden",
+                  "kubernetes",
+                  "validation using JSON queries"
+                ],
+                "doc_persona": [
+                  "kubewarden-developer"
+                ],
+                "doc_type": [
+                  "tutorial"
+                ],
+                "doc_topic": [
+                  "kubewarden",
+                  "writing-policies",
+                  "golang",
+                  "validation-using-json"
+                ],
+                "slug": null,
+                "sidebar_label": "Validation using JSON queries",
+                "sidebar_position": 90,
+                "int_links": [
+                  "/writing-policies/go/validation"
+                ],
+                "ext_links": [
+                  "https://github.com/tidwall/gjson"
+                ]
+              }
+            },
+            {
+              "name": "10-raw-policies.md",
+              "type": "file",
+              "data": {
+                "path": "/writing-policies/go/10-raw-policies.md",
+                "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/10-raw-policies.md",
+                "title": "Writing raw policies",
+                "description": "Writing raw Kubewarden policies using Go.",
+                "keywords": [
+                  "kubewarden",
+                  "kubernetes",
+                  "writing policies",
+                  "raw",
+                  "go"
+                ],
+                "doc_persona": [
+                  "kubewarden-developer"
+                ],
+                "doc_type": [
+                  "tutorial"
+                ],
+                "doc_topic": [
+                  "kubewarden",
+                  "writing-policies",
+                  "golang",
+                  "raw-policies"
+                ],
+                "slug": null,
+                "sidebar_label": "Raw policies",
+                "sidebar_position": 100,
+                "int_links": [
+                  "/writing-policies/go/04-validation.md",
+                  "/writing-policies/metadata.md",
+                  "/howtos/raw-policies.md"
+                ],
+                "ext_links": [
+                  "https://github.com/kubewarden/go-policy-template"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "dotnet.md",
+          "type": "file",
+          "data": {
+            "path": "/writing-policies/dotnet.md",
+            "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/dotnet.md",
+            "title": "C#",
+            "description": "Kubewarden policies using C# and .NET",
+            "keywords": [
+              "kubewarden",
+              "kubernetes",
+              "writing policies",
+              "c#",
+              ".net"
+            ],
+            "doc_persona": [
+              "kubewarden-policy-developer"
+            ],
+            "doc_type": [
+              "how-to",
+              "explanation",
+              "tutorial",
+              "reference"
+            ],
+            "doc_topic": [
+              "kubewarden",
+              "writing-policies",
+              "c#"
+            ],
+            "slug": null,
+            "sidebar_label": "C#",
+            "sidebar_position": null,
+            "ext_links": [
+              "https://github.com/kubewarden/policy-sdk-dotnet/issues",
+              "https://github.com/kubewarden/policy-sdk-dotnet/tree/main/example",
+              "https://www.nuget.org/packages/KubernetesClient.Models",
+              "https://github.com/SteveSandersonMS/dotnet-wasi-sdk",
+              "https://github.com/kubewarden/policy-sdk-dotnet"
+            ]
+          }
+        },
+        {
+          "name": "index.md",
+          "type": "file",
+          "data": {
+            "path": "/writing-policies/index.md",
+            "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/index.md",
+            "title": "Writing Kubewarden policies",
+            "description": "An introduction to writing Kubewarden policies.",
+            "keywords": [
+              "kubewarden",
+              "kubernetes",
+              "writing policies"
+            ],
+            "doc_persona": [
+              "kubewarden-policy-developer"
+            ],
+            "doc_type": [
+              "explanation"
+            ],
+            "doc_topic": [
+              "writing-policies"
+            ],
+            "slug": null,
+            "sidebar_label": "Writing Policies",
+            "sidebar_position": null,
+            "ext_links": [
+              "https://github.com/appcypher/awesome-wasm-langs",
+              "https://webassembly.org/",
+              "https://en.wikipedia.org/wiki/Plug-in_%28computing%29",
+              "https://github.com/wapc",
+              "https://github.com/kubewarden/policy-server"
+            ]
+          }
+        },
+        {
+          "name": "metadata.md",
+          "type": "file",
+          "data": {
+            "path": "/writing-policies/metadata.md",
+            "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/metadata.md",
+            "title": "Policy metadata",
+            "description": "Using policy metadata when developing a Kubewarden policy.",
+            "keywords": [
+              "kubewraden",
+              "kubernetes policy development",
+              "policy metadata"
+            ],
+            "doc_persona": [
+              "kubewarden-developer"
+            ],
+            "doc_type": [
+              "how-to",
+              "tutorial"
+            ],
+            "doc_topic": [
+              "kubewarden",
+              "writing-polices",
+              "policy-metadata"
+            ],
+            "slug": null,
+            "sidebar_label": "Policy metadata",
+            "sidebar_position": null,
+            "int_links": [
+              "/howtos/raw-policies.md",
+              "/explanations/audit-scanner#limitations",
+              "/distributing-policies.md"
+            ]
+          }
+        },
+        {
+          "name": "other-languages.md",
+          "type": "file",
+          "data": {
+            "path": "/writing-policies/other-languages.md",
+            "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/other-languages.md",
+            "title": "Other languages",
+            "description": "Writing Kubewarden policies in other languages",
+            "keywords": [
+              "kubewarden",
+              "kubernetes",
+              "writing policies",
+              "other languages"
+            ],
+            "doc_persona": [
+              "kubewarden-policy-developer"
+            ],
+            "doc_type": [
+              "how-to",
+              "tutorial"
+            ],
+            "doc_topic": [
+              "kubewarden",
+              "writing-policies",
+              "other-languages"
+            ],
+            "slug": null,
+            "sidebar_label": "Other languages",
+            "sidebar_position": null,
+            "ext_links": [
+              "https://github.com/kubewarden/docs"
+            ]
+          }
+        },
+        {
+          "name": "swift.md",
+          "type": "file",
+          "data": {
+            "path": "/writing-policies/swift.md",
+            "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/swift.md",
+            "title": "Swift",
+            "description": "Kubewarden policies with Swift",
+            "keywords": [
+              "kubewarden",
+              "kubernetes",
+              "writing policies",
+              "swift"
+            ],
+            "doc_persona": [
+              "kubewarden-policy-developer"
+            ],
+            "doc_type": [
+              "how-to"
+            ],
+            "doc_topic": [
+              "kubewarden",
+              "writing-policies",
+              "swift"
+            ],
+            "slug": null,
+            "sidebar_label": "Swift",
+            "sidebar_position": null,
+            "ext_links": [
+              "https://swiftwasm.org/",
+              "https://github.com/kubewarden/policy-sdk-swift",
+              "https://swift.org/",
+              "https://github.com/kubewarden/swift-policy-template",
+              "https://github.com/kubewarden/pod-runtime-class-policy/tree/swift-implementation"
+            ]
+          }
+        },
+        {
+          "name": "typescript.md",
+          "type": "file",
+          "data": {
+            "path": "/writing-policies/typescript.md",
+            "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/typescript.md",
+            "title": "Typescript",
+            "description": "Writing Kubewarden policies with Typescript",
+            "keywords": [
+              "at least one"
+            ],
+            "doc_persona": [
+              "default"
+            ],
+            "doc_type": [
+              "one of how-to",
+              "explanation",
+              "tutorial",
+              "reference"
+            ],
+            "doc_topic": [
+              "root-branch"
+            ],
+            "slug": null,
+            "sidebar_label": "Typescript",
+            "sidebar_position": null,
+            "ext_links": [
+              "https://github.com/AssemblyScript/assemblyscript/issues/292",
+              "https://www.assemblyscript.org/",
+              "https://github.com/kubewarden/pod-privileged-policy/tree/assemblyscript-implementation",
+              "https://www.typescriptlang.org/"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "architecture.md",
+      "type": "file",
+      "data": {
+        "path": "/architecture.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/architecture.md",
+        "title": "Architecture",
+        "description": "The Kubewarden architecture",
+        "keywords": [
+          "kubewarden",
+          "kubernetes",
+          "architecture"
+        ],
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": "Architecture",
+        "sidebar_position": null,
+        "int_links": [
+          "/explanations/audit-scanner/audit-scanner.md",
+          "/writing-policies/index.md",
+          "/writing-policies/spec/01-intro-spec.md"
+        ],
+        "ext_links": [
+          "https://github.com/kubewarden/audit-scanner",
+          "https://kubernetes.io/docs/reference/access-authn-authz/extensible-admission-controllers/",
+          "https://kubernetes.io/docs/reference/access-authn-authz/extensible-admission-controllers/#webhook-request-and-response",
+          "https://github.com/kubewarden/kubewarden-controller",
+          "https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/",
+          "https://github.com/kubewarden/policy-server",
+          "https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/"
+        ]
+      }
+    },
+    {
+      "name": "distributing-policies.md",
+      "type": "file",
+      "data": {
+        "path": "/distributing-policies.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/distributing-policies.md",
+        "title": "Distributing policies",
+        "description": "A description of how Kubewarden policies are distributed from OCI-compliant repositories.",
+        "keywords": [
+          "oci",
+          "kubewarden",
+          "policy",
+          "wasm",
+          "webassembly"
+        ],
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": "Distributing policies",
+        "sidebar_position": null,
+        "int_links": [
+          "/&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#110;&#97;&#109;&#101;&#46;&#115;&#117;&#114;&#110;&#97;&#109;&#101;&#64;&#101;&#120;&#97;&#109;&#112;&#108;&#101;&#46;&#99;&#111;&#109;"
+        ],
+        "ext_links": [
+          "https://ghcr.io",
+          "https://github.com/distribution/distribution",
+          "https://github.com/opencontainers/image-spec",
+          "https://cloud.google.com/artifact-registry/",
+          "https://github.com/kubewarden/kwctl",
+          "https://azure.microsoft.com/en-us/products/container-registry/",
+          "https://aws.amazon.com/ecr/"
+        ]
+      }
+    },
+    {
+      "name": "introduction.md",
+      "type": "file",
+      "data": {
+        "path": "/introduction.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/introduction.md",
+        "title": "Introduction",
+        "description": "Introducing Kubewarden, a CNCF Sandbox project.",
+        "keywords": [
+          "kubewarden",
+          "cncf",
+          "cncf sandbox",
+          "kubernetes"
+        ],
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": "/",
+        "sidebar_label": "Introduction",
+        "sidebar_position": null,
+        "ext_links": [
+          "https://www.rancher.com/",
+          "https://cncf.io",
+          "https://github.com/opencontainers/artifacts",
+          "https://webassembly.org/"
+        ]
+      }
+    },
+    {
+      "name": "quick-start.md",
+      "type": "file",
+      "data": {
+        "path": "/quick-start.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/quick-start.md",
+        "title": "Quick start",
+        "description": "Getting started with Kubewarden, installing the Kubewarden stack and taking care of prerequisites and authentication",
+        "keywords": [
+          "Kubewarden",
+          "installation",
+          "quick start",
+          "policyserver",
+          "clusteradmissionpolicy",
+          "admissionpolicy"
+        ],
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": "Quick start",
+        "sidebar_position": null,
+        "int_links": [
+          "/operator-manual/CRDs.md",
+          "/writing-policies/rego/01-intro-rego.md",
+          "/home/jhk/projects/suse/kubewarden-docs/howtos/audit-scanner"
+        ],
+        "ext_links": [
+          "https://github.com/kubewarden/kubewarden-controller/releases/tag/v0.4.0",
+          "https://github.com/topics/kubewarden-policy",
+          "https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens",
+          "https://github.com/kubewarden/policy-server/pkgs/container/policy-server",
+          "https://artifacthub.io/packages/search?kind=13",
+          "https://github.com/kubewarden/kubewarden-controller/blob/main/docs/crds/README.asciidoc",
+          "https://doc.crds.dev/github.com/kubewarden/kubewarden-controller",
+          "https://github.com/opencontainers/artifacts",
+          "https://charts.kubewarden.io/#configuration",
+          "https://cert-manager.io/docs/installation/",
+          "https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.20/#validatingwebhookconfiguration-v1-admissionregistration-k8s-io",
+          "https://github.com/kubewarden/pod-privileged-policy"
+        ]
+      }
+    },
+    {
+      "name": "tasks.md",
+      "type": "file",
+      "data": {
+        "path": "/tasks.md",
+        "full_path": "/home/jhk/projects/suse/kubewarden-docs/docs/tasks.md",
+        "title": "Common tasks",
+        "description": "Description of some common tasks undertaken after installing Kubewarden. Provides examples of these tasks using kwctl",
+        "keywords": [
+          "kubewarden",
+          "kubernetes",
+          "kwctl",
+          "policy",
+          "policyserver",
+          "clusteradmissionpolicy",
+          "admissionpolicy"
+        ],
+        "doc_persona": null,
+        "doc_type": null,
+        "doc_topic": null,
+        "slug": null,
+        "sidebar_label": "Common tasks",
+        "sidebar_position": null,
+        "int_links": [
+          "/quick-start.md#install",
+          "/distributing-policies",
+          "/writing-policies",
+          "/quick-start.md#example-enforce-your-first-policy",
+          "/&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#107;&#117;&#98;&#101;&#119;&#97;&#114;&#100;&#101;&#110;&#64;&#115;&#117;&#115;&#101;&#46;&#100;&#101;"
+        ],
+        "ext_links": [
+          "https://www.rust-lang.org/tools/install",
+          "https://www.kubewarden.io/blog/2022/07/artifact-hub-supports-kubewarden/",
+          "https://github.com/opencontainers/distribution-spec/blob/main/spec.md",
+          "https://hub.kubewarden.io",
+          "https://www.kubewarden.io/blog/2021/06/kwctl-intro-for-kubernetes-administrators/",
+          "https://github.com/kubewarden/kwctl",
+          "https://artifacthub.io/packages/search?kind=13&amp;sort=relevance&amp;page=1",
+          "https://kubernetes.io/blog/2021/04/06/podsecuritypolicy-deprecation-past-present-and-future/",
+          "https://github.com/kubewarden/kwctl/releases",
+          "https://kubernetes.io/docs/reference/"
+        ]
+      }
+    }
+  ]
+}
