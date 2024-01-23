@@ -1,7 +1,7 @@
 ---
 - docstore-data:
     root-dir: /home/jhk/projects/suse/kubewarden-docs/docs
-    gen-date: 2024-01-18T22:05:02+01:00
+    gen-date: 2024-01-23T10:48:20+01:00
 - path: /home/jhk/projects/suse/kubewarden-docs/docs/contribution-guide/contributing.md
   frontmatter:
     sidebar_label: Contributing to documentation
@@ -130,6 +130,12 @@
     title: Tracing quickstart
     description: A tracing quickstart for Kubewarden.
     keywords: [kubewarden, kubernetes, tracing, quickstart]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/01-install.md
+  frontmatter:
+    sidebar_label: Rancher UI extension quickstart
+    title: Rancher UI extension quickstart
+    description: UI extension quickstart for Kubewarden.
+    keywords: [kubewarden, kubernetes, rancher ui extension]
 - path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/02-metrics.md
   frontmatter:
     sidebar_label: Monitoring
@@ -148,12 +154,12 @@
     doc-type: [explanation, tutorial]
     doc-topic: [operator-manual, ui-extension, tracing]
     doc-persona: [default]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/01-install.md
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/01-intro.md
   frontmatter:
-    sidebar_label: Rancher UI extension quickstart
-    title: Rancher UI extension quickstart
-    description: UI extension quickstart for Kubewarden.
-    keywords: [kubewarden, kubernetes, rancher ui extension]
+    sidebar_label: "Operator Manual"
+    title: Operator manual
+    description: The operator manual for Kubewarden.
+    keywords: [kubewarden, kubernetes, kubewarden operator manual]
 - path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/CRDs.md
   frontmatter:
     sidebar_label: "Custom Resources Definitions (CRDs)"
@@ -176,18 +182,6 @@
     title: "Monitor mode"
     description: The Kubewarden monitor mode and how to activate it.
     keywords: [kubernetes, kubewarden, monitor mode]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/upgrade-path.md
-  frontmatter:
-    sidebar_label: "Upgrade path"
-    title: "Upgrade path"
-    description: Upgrade path for the Kubewarden stack.
-    keywords: [upgrade path, support]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/01-intro.md
-  frontmatter:
-    sidebar_label: "Operator Manual"
-    title: Operator manual
-    description: The operator manual for Kubewarden.
-    keywords: [kubewarden, kubernetes, kubewarden operator manual]
 - path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/policies.md
   frontmatter:
     sidebar_label: "Configuring policies"
@@ -200,6 +194,12 @@
     title: Policy evaluation timeout protection
     description: Policy evaluation timeout protection for Kubewarden
     keywords: [kubewarden, kubernetes, policy timeout protection]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/upgrade-path.md
+  frontmatter:
+    sidebar_label: "Upgrade path"
+    title: "Upgrade path"
+    description: Upgrade path for the Kubewarden stack.
+    keywords: [upgrade path, support]
 - path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/verification-config.md
   frontmatter:
     sidebar_label: "Verification configuration"
@@ -331,19 +331,6 @@
     title: Builtin support
     description: The Kubewarden provided support for executing wasm binaries.
     keywords: [kubewarden, kubernetes, builtin wasm support]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rust/07-build-and-distribute.md
-  frontmatter:
-    sidebar_label: Building and distributing policies
-    title: Building and distributing policies
-    description: Building and distributing Kubewarden policies developed with Rust.
-    keywords: [kubewarden, kubernetes, writing policies, rust, build and distribute]
-    doc-type: [tutorial]
-    doc-topic: [kubewarden, writing-policies, rust, build-and-distribute]
-    doc-persona: [kubewarden-developer, kubewarden-developer-rust, kubewarden-operator]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rust/08-raw-policies.md
-  frontmatter:
-    sidebar_label: "Raw policies"
-    title: "Raw policies"
 - path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rust/01-intro-rust.md
   frontmatter:
     title: "Rust"
@@ -397,6 +384,19 @@
     doc-type: [tutorial]
     doc-topic: [kubewarden, writing-policies, rust, logging]
     doc-persona: [kubewarden-developer, kubewarden-developer-rust]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rust/07-build-and-distribute.md
+  frontmatter:
+    sidebar_label: Building and distributing policies
+    title: Building and distributing policies
+    description: Building and distributing Kubewarden policies developed with Rust.
+    keywords: [kubewarden, kubernetes, writing policies, rust, build and distribute]
+    doc-type: [tutorial]
+    doc-topic: [kubewarden, writing-policies, rust, build-and-distribute]
+    doc-persona: [kubewarden-developer, kubewarden-developer-rust, kubewarden-operator]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rust/08-raw-policies.md
+  frontmatter:
+    sidebar_label: "Raw policies"
+    title: "Raw policies"
 - path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/01-intro-host-capabilities.md
   frontmatter:
     sidebar_label: Host capabilities specification
@@ -634,6 +634,12 @@
     doc-type: [one of how-to, explanation, tutorial, reference]
     doc-topic: [root-branch]
     doc-persona: [default]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/tasks.md
+  frontmatter:
+    sidebar_label: "Common tasks"
+    title: "Common tasks"
+    description: Description of some common tasks undertaken after installing Kubewarden. Provides examples of these tasks using kwctl
+    keywords: [kubewarden, kubernetes, kwctl, policy, policyserver, clusteradmissionpolicy, admissionpolicy]
 - path: /home/jhk/projects/suse/kubewarden-docs/docs/architecture.md
   frontmatter:
     sidebar_label: "Architecture"
@@ -659,9 +665,3 @@
     title: "Quick start"
     description: Getting started with Kubewarden, installing the Kubewarden stack and taking care of prerequisites and authentication
     keywords: [Kubewarden, installation, quick start, policyserver, clusteradmissionpolicy, admissionpolicy]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/tasks.md
-  frontmatter:
-    sidebar_label: "Common tasks"
-    title: "Common tasks"
-    description: Description of some common tasks undertaken after installing Kubewarden. Provides examples of these tasks using kwctl
-    keywords: [kubewarden, kubernetes, kwctl, policy, policyserver, clusteradmissionpolicy, admissionpolicy]

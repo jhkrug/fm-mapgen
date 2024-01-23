@@ -34,17 +34,17 @@ Frontmatter Map
     │   │   └── tracing/
     │   │       └── 01-quickstart.md
     │   ├── ui-extension/
+    │   │   ├── 01-install.md
     │   │   ├── 02-metrics.md
-    │   │   ├── 03-tracing.md
-    │   │   └── 01-install.md
+    │   │   └── 03-tracing.md
+    │   ├── 01-intro.md
     │   ├── CRDs.md
     │   ├── Rancher-Fleet.md
     │   ├── dependency-matrix.md
     │   ├── monitor-mode.md
-    │   ├── upgrade-path.md
-    │   ├── 01-intro.md
     │   ├── policies.md
     │   ├── policy-evaluation-timeout.md
+    │   ├── upgrade-path.md
     │   └── verification-config.md
     ├── security/
     │   ├── 01-intro.md
@@ -75,14 +75,14 @@ Frontmatter Map
     │   │   ├── 01-intro-rego.md
     │   │   └── 02-builtin-support.md
     │   ├── rust/
-    │   │   ├── 07-build-and-distribute.md
-    │   │   ├── 08-raw-policies.md
     │   │   ├── 01-intro-rust.md
     │   │   ├── 02-create-policy.md
     │   │   ├── 03-define-policy-settings.md
     │   │   ├── 04-write-validation-logic.md
     │   │   ├── 05-mutation-policy.md
-    │   │   └── 06-logging.md
+    │   │   ├── 06-logging.md
+    │   │   ├── 07-build-and-distribute.md
+    │   │   └── 08-raw-policies.md
     │   ├── spec/
     │   │   ├── host-capabilities/
     │   │   │   ├── 01-intro-host-capabilities.md
@@ -116,8 +116,8 @@ Frontmatter Map
     │   ├── other-languages.md
     │   ├── swift.md
     │   └── typescript.md
+    ├── tasks.md
     ├── architecture.md
     ├── distributing-policies.md
     ├── introduction.md
-    ├── quick-start.md
-    └── tasks.md
+    └── quick-start.md

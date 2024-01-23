@@ -90,7 +90,7 @@ def create_folder_structure_json(path, km, root_dir):
     # name, type, and an empty list for children
     name = os.path.basename(path)
     result = {"name": "/" + name,
-              "type": "folder", "successor": []}
+              "type": "directory", "entries": []}
 
     # Check if the path is a directory
     if not os.path.isdir(path):
@@ -103,7 +103,7 @@ def create_folder_structure_json(path, km, root_dir):
 
         # If the entry is a directory, recursively call the function
         if os.path.isdir(entry_path):
-            result["successor"].append(
+            result["entries"].append(
                 create_folder_structure_json(entry_path, km, root_dir))
         # If the entry is a file, create a dictionary with name and type
         else:
@@ -113,10 +113,10 @@ def create_folder_structure_json(path, km, root_dir):
                 ndc = nd.data.__dict__.copy()
                 ndc.pop("path")
                 ndc.pop("full_path")
-                result["successor"].append(
+                result["entries"].append(
                     {"name": rel_path, "type": "file", "data": ndc})
             except:
-                result["successor"].append({"name": rel_path, "type": "file"})
+                result["entries"].append({"name": rel_path, "type": "file"})
 
     return result
 

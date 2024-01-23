@@ -1,4 +1,4 @@
-Data generated: 2024-01-18 21:05:02
+Data generated: 2024-01-23 09:48:20
 === Files with no, or empty frontmatter fm_tag: doc-type:
 /home/jhk/projects/suse/kubewarden-docs/docs/distributing-policies/custom-certificate-authorities.md
 /home/jhk/projects/suse/kubewarden-docs/docs/distributing-policies/oci-registries-support.md
@@ -20,14 +20,14 @@ Data generated: 2024-01-18 21:05:02
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/telemetry/opentelemetry/01-quickstart.md
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/telemetry/tracing/01-quickstart.md
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/01-install.md
+/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/01-intro.md
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/CRDs.md
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/Rancher-Fleet.md
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/dependency-matrix.md
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/monitor-mode.md
-/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/upgrade-path.md
-/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/01-intro.md
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/policies.md
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/policy-evaluation-timeout.md
+/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/upgrade-path.md
 /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/verification-config.md
 /home/jhk/projects/suse/kubewarden-docs/docs/security/01-intro.md
 /home/jhk/projects/suse/kubewarden-docs/docs/security/disclosure.md
@@ -62,8 +62,8 @@ Data generated: 2024-01-18 21:05:02
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/03-validating-policies.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/04-mutating-policies.md
 /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/05-context-aware-policies.md
+/home/jhk/projects/suse/kubewarden-docs/docs/tasks.md
 /home/jhk/projects/suse/kubewarden-docs/docs/architecture.md
 /home/jhk/projects/suse/kubewarden-docs/docs/distributing-policies.md
 /home/jhk/projects/suse/kubewarden-docs/docs/introduction.md
 /home/jhk/projects/suse/kubewarden-docs/docs/quick-start.md
-/home/jhk/projects/suse/kubewarden-docs/docs/tasks.md
