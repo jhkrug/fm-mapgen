@@ -1,8 +1,2 @@
-Data generated: 2024-01-23 09:48:20
+Data generated: 2024-02-22 22:19:17
 === Files with no, or empty frontmatter fm_tag: keywords:
-/home/jhk/projects/suse/kubewarden-docs/docs/explanations/opa-comparison.md
-/home/jhk/projects/suse/kubewarden-docs/docs/howtos/audit-scanner.md
-/home/jhk/projects/suse/kubewarden-docs/docs/howtos/raw-policies.md
-/home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/CRDs.md
-/home/jhk/projects/suse/kubewarden-docs/docs/testing-policies/03-cluster-operators.md
-/home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rust/08-raw-policies.md

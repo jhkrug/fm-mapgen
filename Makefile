@@ -1,10 +1,12 @@
 CONF_OPTS = -c config.yml
+
 EP_DOCS = /home/jhk/projects/suse/epinio-docs/docs
 EP_FMY = inputs/epinio-fm.yml
-KW_FMY = inputs/kubewarden-fm.yml
 EP_FM_OPTS = -f ${EP_FMY}
-KW_FM_OPTS = -f ${KW_FMY}
+
 KW_DOCS = /home/jhk/projects/suse/kubewarden-docs/docs
+KW_FMY = inputs/kubewarden-fm.yml
+KW_FM_OPTS = -f ${KW_FMY}
 
 all: epinio kubewarden
 

@@ -1,486 +1,501 @@
 ---
 - docstore-data:
     root-dir: /home/jhk/projects/suse/kubewarden-docs/docs
-    gen-date: 2024-01-23T10:48:20+01:00
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/contribution-guide/contributing.md
+    gen-date: 2024-02-22T23:19:17+01:00
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/explanations/audit-scanner/audit-scanner.md
+  frontmatter:
+    sidebar_label: Audit Scanner
+    sidebar_position: 50
+    title: What is the Audit Scanner?
+    description: An overview of the Kubewarden Audit Scanner.
+    keywords: [kubewarden, audit scanner, kubernetes]
+    doc-persona: [kubewarden-user, kubewarden-operator, kubewarden-policy-developer, kubewarden-integrator]
+    doc-type: [explanation]
+    doc-topic: [explanations, audit-scanner]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/explanations/audit-scanner/limitations.md
+  frontmatter:
+    sidebar_label: Limitations
+    title: Audit Scanner - Limitations
+    description: The limitation of the audit scanner
+    keywords: [kubewarden, kubernetes, audit scanner]
+    doc-persona: [kubewarden-user, kubewarden-operator, kubewarden-policy-developer, kubewarden-integrator]
+    doc-type: [explanation]
+    doc-topic: [explanations, audit-scanner, limitations]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/explanations/audit-scanner/policy-reports.md
+  frontmatter:
+    sidebar_label: Policy Reports
+    title: Audit Scanner - Policy Reports
+    description: The policy reports that the Audit Scanner produces.
+    keywords: [kubewarden, kubernetes, audit scanner]
+    doc-persona: [kubewarden-user, kubewarden-operator, kubewarden-policy-developer, kubewarden-integrator]
+    doc-type: [explanation]
+    doc-topic: [explanations, audit-scanner, policy-reports]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/explanations/comparisons/opa-comparison.md
+  frontmatter:
+    sidebar_label: Kubewarden vs OPA Gatekeeper
+    title: Kubewarden vs OPA Gatekeeper
+    description: A brief comparison of the difference between Kubewarden and OPA Gatekeeper.
+    keywords: [kubewarden, kubernetes, opa gatekeeper, comparison]
+    doc-persona: [kubewarden-all]
+    doc-type: [explanation]
+    doc-topic: [explanations, kubewarden-vs-opa_gatekeeper]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/explanations/architecture.md
+  frontmatter:
+    sidebar_label: Architecture
+    sidebar_position: 60
+    title: Kubewarden architecture
+    description: The Kubewarden architecture
+    keywords: [kubewarden, kubernetes, architecture]
+    doc-persona: [kubewarden-all]
+    doc-type: [explanation]
+    doc-topic: [architecture]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/explanations/context-aware-policies.md
+  frontmatter:
+    sidebar_label: Context aware policies
+    sidebar_position: 20
+    title: Context aware policies
+    description: A description of Kubewarden context aware policies, what they are and how they are useful.
+    keywords: [kubewarden, context-aware policy, clusteradmissionpolicy, admissionpolicy, admissionrequest, cluster administrator]
+    doc-persona: [kubewarden-policy-developer, kubewarden-integrator]
+    doc-type: [explanation]
+    doc-topic: [explanations, context-aware-polices]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/explanations/distributing-policies.md
+  frontmatter:
+    sidebar_label: Distributing policies
+    sidebar_position: 30
+    title: Distributing policies
+    description: A description of how Kubewarden policies are distributed from OCI-compliant repositories.
+    keywords: [oci, kubewarden, policy, wasm, webassembly]
+    doc-persona: [kubewarden-operator, kubewarden-policy-developer, kubewarden-distributor, kubewarden-integrator]
+    doc-type: [explanation]
+    doc-topic: [distributing-policies]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/explanations/mutating-policies.md
+  frontmatter:
+    sidebar_label: Mutating policies
+    sidebar_position: 10
+    title: Mutating policies
+    description: Explains mutating policies in the context of Kubewarden
+    keywords: [kubewarden, policy mutating, kubernetes, clusteradmissionpolicy, admissionpolicy]
+    doc-persona: [kubewarden-policy-developer, kubewarden-integrator]
+    doc-type: [explanation]
+    doc-topic: [mutating-policies]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/howtos/airgap/01-requirements.md
+  frontmatter:
+    sidebar_label: Requirements
+    title: Requirements for a Kubewarden air gap installation
+    description: Requirements for a Kubewarden air gap installation.
+    keywords: [kubewarden, kubernetes, air gap installation]
+    doc-persona: [kubewarden-operator, kubewarden-integrator]
+    doc-type: [howto]
+    doc-topic: [operator-manual, airgap, requirements]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/howtos/airgap/02-install.md
+  frontmatter:
+    sidebar_label: Installation
+    title: Air gap installation
+    description: Air gap installation for Kubewarden.
+    keywords: [kubewarden, kubernetes, air gap installation]
+    doc-persona: [kubewarden-operator, kubewarden-integrator]
+    doc-type: [howto]
+    doc-topic: [operator-manual, airgap, installation]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/howtos/contribution-guide/contributing.md
   frontmatter:
     sidebar_label: Contributing to documentation
     sidebar_position: 00001
     title: Contributing to Kubewarden documentation
     description: Contributing to kubewarden documentation.
     keywords: [kubewarden, documentation, contributing]
-    doc-type: [explanation]
+    doc-type: [howto]
     doc-topic: [contribution-guide, docs-contribution]
     doc-persona: [kubewarden-developer, kubewarden-operator, kubewarden-manager]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/contribution-guide/suggesting-an-improvement.md
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/howtos/contribution-guide/suggesting-an-improvement.md
   frontmatter:
     sidebar_label: Suggesting improvements
     sidebar_position: 00010
     title: Suggesting an improvement
     description: Suggesting an improvement.
     keywords: [kubewarden, documentation, suggesting an improvement]
-    doc-type: [explanation, tutorial]
+    doc-type: [howto]
     doc-topic: [contribution-guide, docs-contribution, improvement]
     doc-persona: [kubewarden-developer, kubewarden-operator, kubewarden-manager]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/distributing-policies/custom-certificate-authorities.md
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/howtos/policy-servers/01-custom-cas.md
   frontmatter:
-    sidebar_label: "Custom Certificate Authorities"
-    title: Custom certificate authorities
-    description: Using custom certificate authorities with Kubewarden.
-    keywords: [kubewarden, kubernetes, custom certificate authorities]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/distributing-policies/oci-registries-support.md
-  frontmatter:
-    sidebar_label: "OCI registry support"
-    title: "OCI registry support for Kubewarden"
-    description: OCI registry support for Kubewarden.
-    keywords: [kubewarden, kubernetes, oci registry support]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/distributing-policies/publish-policy-to-artifact-hub.md
-  frontmatter:
-    sidebar_label: "Publish to Artifact Hub"
-    title: Publish policies to Artifact Hub
-    description: A brief introduction to publishing Kubewarden policies on Artifact Hub.
-    keywords: [kubewarden, kubernetes, publishing policies, artifact hub]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/distributing-policies/secure-supply-chain.md
-  frontmatter:
-    sidebar_label: "Secure supply chain"
-    title: Secure supply chain
-    description: A secure supply chain infrastructure using Kubewarden.
-    keywords: [kubewarden, kubernetes, secure supply chain, infrastructure]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/explanations/audit-scanner/audit-scanner.md
-  frontmatter:
-    sidebar_label: "What is the Audit Scanner?"
-    title: "What is the Audit Scanner?"
-    description: An overview of the Kubewarden Audit Scanner.
-    keywords: [kubewarden, audit scanner, kubernetes]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/explanations/audit-scanner/limitations.md
-  frontmatter:
-    sidebar_label: "Limitations"
-    title: "Audit Scanner - Limitations"
-    description: The limitation of the audit scanner
-    keywords: [kubewarden, kubernetes, audit scanner]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/explanations/audit-scanner/policy-reports.md
-  frontmatter:
-    sidebar_label: "Policy Reports"
-    title: "Audit Scanner - Policy Reports"
-    description: The policy reports that the Audit Scanner produces.
-    keywords: [kubewarden, kubernetes, audit scanner]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/explanations/context-aware-policies.md
-  frontmatter:
-    sidebar_label: "Context aware policies"
-    title: "Context aware policies"
-    description: A description of Kubewarden context aware policies, what they are and how they are useful.
-    keywords: [kubewarden, context-aware policy, clusteradmissionpolicy, admissionpolicy, admissionrequest, cluster administrator]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/explanations/opa-comparison.md
-  frontmatter:
-    sidebar_label: "Kubewarden vs OPA Gatekeeper"
-    title: "Kubewarden vs OPA Gatekeeper"
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/howtos/audit-scanner.md
-  frontmatter:
-    sidebar_label: "Audit Scanner Installation"
-    title: "Audit Scanner Installation"
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/howtos/raw-policies.md
-  frontmatter:
-    sidebar_label: "Raw policies"
-    title: "Raw policies"
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/airgap/01-requirements.md
-  frontmatter:
-    sidebar_label: "Requirements"
-    title: Requirements for a Kubewarden air gap installation
-    description: Requirements for a Kubewarden air gap installation.
-    keywords: [kubewarden, kubernetes, air gap installation]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/airgap/02-install.md
-  frontmatter:
-    sidebar_label: "Installation"
-    title: Air gap installation
-    description: Air gap installation for Kubewarden.
-    keywords: [kubewarden, kubernetes, air gap installation]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/policy-servers/01-custom-cas.md
-  frontmatter:
-    sidebar_label: "Using Custom CAs"
+    sidebar_label: Using Custom CAs
     title: Using custom certificate authorities
     description: Using custom certificate authorities with Kubewarden policy servers.
     keywords: [kubewarden, kubernetes, custom certificate authorities]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/policy-servers/02-private-registry.md
+    doc-persona: [kubewarden-operator, kubewarden-integrator]
+    doc-type: [howto]
+    doc-topic: [operator-manual, policy-servers, custom-certificate-authorities]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/howtos/policy-servers/02-private-registry.md
   frontmatter:
-    sidebar_label: "Using private registries"
+    sidebar_label: Using private registries
     title: Configuring PolicyServers to use private registries
     description: Configuring PolicyServers to use private registries in Kubewarden.
     keywords: [kubewarden, kubernetes, policyservers, private registries]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/telemetry/metrics/01-quickstart.md
+    doc-persona: [kubewarden-operator, kubewarden-integrator]
+    doc-type: [howto]
+    doc-topic: [operator-manual, policy-servers, private-registry]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/howtos/telemetry/10-opentelemetry-qs.md
   frontmatter:
-    sidebar_label: "Metrics quickstart"
-    title: Metrics quickstart
-    description: Metrics quickstart in Kubewarden.
-    keywords: [kubewarden, kubernetes, metrics quickstart]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/telemetry/metrics/02-reference.md
-  frontmatter:
-    sidebar_label: Metrics reference
-    title: Metrics reference
-    description: Metrics reference documentation for Kubewarden.
-    keywords: [kubewarden, kubernetes, metrics, reference]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/telemetry/opentelemetry/01-quickstart.md
-  frontmatter:
-    sidebar_label: "Open Telemetry quickstart"
-    title: "Open Telemetry quickstart"
+    sidebar_label: Open Telemetry
+    title: Open Telemetry quick start
     description: An Open Telemetry quickstart for Kubewarden.
     keywords: [kubewarden, kubernetes, opentelemetry, open telemetry, quickstart]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/telemetry/tracing/01-quickstart.md
+    doc-persona: [kubewarden-operator, kubewarden-integrator]
+    doc-type: [howto]
+    doc-topic: [operator-manual, telemetry, opentelemetry, quick-start]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/howtos/telemetry/20-tracing-qs.md
   frontmatter:
-    sidebar_label: Tracing quickstart
+    sidebar_label: Tracing
     title: Tracing quickstart
     description: A tracing quickstart for Kubewarden.
     keywords: [kubewarden, kubernetes, tracing, quickstart]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/01-install.md
+    doc-persona: [kubewarden-operator, kubewarden-integrator]
+    doc-type: [howto]
+    doc-topic: [operator-manual, telemetry, tracing, quick-start]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/howtos/telemetry/30-metrics-qs.md
   frontmatter:
-    sidebar_label: Rancher UI extension quickstart
+    sidebar_label: Metrics
+    title: Metrics quickstart
+    description: Metrics quickstart in Kubewarden.
+    keywords: [kubewarden, kubernetes, metrics quickstart]
+    doc-persona: [kubewarden-operator, kubewarden-integrator]
+    doc-type: [howto]
+    doc-topic: [operator-manual, telemetry, metrics, quick-start]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/howtos/ui-extension/01-install.md
+  frontmatter:
+    sidebar_label: Quickstart
     title: Rancher UI extension quickstart
     description: UI extension quickstart for Kubewarden.
     keywords: [kubewarden, kubernetes, rancher ui extension]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/02-metrics.md
+    doc-type: [howto]
+    doc-persona: [kubewarden-operator, kubewarden-integrator]
+    doc-topic: [operator-manual, ui-extension, installation]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/howtos/ui-extension/02-metrics.md
   frontmatter:
     sidebar_label: Monitoring
     title: Monitoring
     description: Monitoring and metrics for Kubewarden.
     keywords: [kubewarden, kubernetes, user interface extension, metrics, monitoring]
-    doc-type: [tutorial, reference]
+    doc-type: [howto]
+    doc-persona: [kubewarden-operator, kubewarden-integrator]
     doc-topic: [operator-manual, metrics-and-monitoring]
-    doc-persona: [kubewarden-operator, kubewarden-manager]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/ui-extension/03-tracing.md
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/howtos/ui-extension/03-tracing.md
   frontmatter:
     sidebar_label: Tracing
     title: Tracing
     description: Tracing for Kubewarden.
     keywords: [kubewarden, kubernetes, tracing]
-    doc-type: [explanation, tutorial]
+    doc-type: [hosto]
+    doc-persona: [kubewarden-operator, kubewarden-integrator]
     doc-topic: [operator-manual, ui-extension, tracing]
-    doc-persona: [default]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/01-intro.md
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/howtos/Rancher-Fleet.md
   frontmatter:
-    sidebar_label: "Operator Manual"
-    title: Operator manual
-    description: The operator manual for Kubewarden.
-    keywords: [kubewarden, kubernetes, kubewarden operator manual]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/CRDs.md
-  frontmatter:
-    sidebar_label: "Custom Resources Definitions (CRDs)"
-    title: "Custom Resource Definitions (CRD)"
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/Rancher-Fleet.md
-  frontmatter:
-    sidebar_label: "Rancher Fleet"
-    title: "Managing Kubewarden with Rancher Fleet"
+    sidebar_label: Rancher Fleet
+    sidebar_position: 130
+    title: Managing Kubewarden with Rancher Fleet
     description: Managing Kubewarden with Rancher Fleet.
     keywords: [kubernetes, kubewarden, rancher fleet]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/dependency-matrix.md
+    doc-persona: [kubewarden-operator, kubewarden-integrator]
+    doc-type: [howto]
+    doc-topic: [operator-manual, rancher-fleet]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/howtos/audit-scanner.md
   frontmatter:
-    sidebar_label: "Dependency matrix"
-    title: "Dependency matrix"
-    description: Dependency matrix of Kubewarden.
-    keywords: [dependency, dependencies, CRD, charts, matrix]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/monitor-mode.md
+    sidebar_label: Audit Scanner installation
+    sidebar_position: 70
+    title: Audit Scanner installation
+    description: How-to do an Audit Scanner installation.
+    keywords: [kubewarden, kubernetes, audit scanner]
+    doc-persona: [kubewarden-operator, kubewarden-distributor, kubewarden-integrator]
+    doc-type: [howto]
+    doc-topic: [howto, audit-scanner-installation]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/howtos/custom-certificate-authorities.md
   frontmatter:
-    sidebar_label: "Monitor mode"
-    title: "Monitor mode"
-    description: The Kubewarden monitor mode and how to activate it.
-    keywords: [kubernetes, kubewarden, monitor mode]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/policies.md
+    sidebar_label: Custom Certificate Authorities
+    sidebar_position: 50
+    title: Custom certificate authorities
+    description: Using custom certificate authorities with Kubewarden.
+    keywords: [kubewarden, kubernetes, custom certificate authorities]
+    doc-persona: [kubewarden-user, kubewarden-operator, kubewarden-distributor, kubewarden-integrator]
+    doc-type: [howto]
+    doc-topic: [distributing-policies, custom-certificate-authorities]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/howtos/pod-security-admission-with-kubewarden.md
   frontmatter:
-    sidebar_label: "Configuring policies"
-    title: "Configuring policies"
-    description: Dependency matrix of Kubewarden.
-    keywords: [policies, ClusterAdmissionPolicies, AdmissionPolicies, configuration, namespaces]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/policy-evaluation-timeout.md
-  frontmatter:
-    sidebar_label: "Policy evaluation timeout"
-    title: Policy evaluation timeout protection
-    description: Policy evaluation timeout protection for Kubewarden
-    keywords: [kubewarden, kubernetes, policy timeout protection]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/upgrade-path.md
-  frontmatter:
-    sidebar_label: "Upgrade path"
-    title: "Upgrade path"
-    description: Upgrade path for the Kubewarden stack.
-    keywords: [upgrade path, support]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/operator-manual/verification-config.md
-  frontmatter:
-    sidebar_label: "Verification configuration"
-    title: Verification configuration
-    description: Verification configuration for Kubewarden.
-    keywords: [kubewarden, kubernetes, verification configuration]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/security/01-intro.md
-  frontmatter:
-    sidebar_label: Security
-    title: Kubewarden security
-    description: Kubewarden security.
-    keywords: [kubewarden, kubernetes, security]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/security/disclosure.md
-  frontmatter:
-    sidebar_label: Security disclosure
-    title: Security disclosure
-    description: Security disclosure.
-    keywords: [kubewarden, kubernetes, security, disclosure]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/security/threat-model.md
-  frontmatter:
-    sidebar_label: Threat Model
-    title: Threat Model
-    description: The Kubernetes Admission Control Threat Model and Kubewarden.
-    keywords: [kubernetes, admission control threat model, kubewarden]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/security/verifying-kubewarden.md
-  frontmatter:
-    sidebar_label: Verifying Kubewarden
-    title: Verifying Kubewarden
-    description: Verifying Kubewarden.
-    keywords: [kubewarden, kubernetes, security, verification]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/tasksDir/mutating-policies.md
-  frontmatter:
-    sidebar_label: "Mutating policies"
-    title: "Mutating policies"
-    description: Explains mutating policies in the context of Kubewarden
-    keywords: [kubewarden policy mutating kubernetes clusteradmissionpolicy admissionpolicy]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/tasksDir/pod-security-admission-with-kubewarden.md
-  frontmatter:
-    sidebar_label: "Pod Security Admission with KW"
-    title: " Using Pod Security Admission with Kubewarden"
+    sidebar_label: Pod Security Admission
+    sidebar_position: 30
+    title: Using Pod Security Admission with Kubewarden
     description: Using Pod Security Admission with Kubewarden, since the Kubernetes 1.25 release.
     keywords: [kubewarden, pod security admission, pod security policy, kubernetes]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/tasksDir/psp-migration.md
+    doc-persona: [kubewarden-user, kubewarden-operator, kubewarden-distributor, kubewarden-integrator]
+    doc-type: [howto]
+    doc-topic: [pod-security-admission-with-kubewarden]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/howtos/policies.md
   frontmatter:
-    sidebar_label: "PSP migration"
-    title: "PodSecurityPolicy migration"
+    sidebar_label: Configuring policies
+    sidebar_position: 90
+    title: Configuring policies
+    description: Dependency matrix of Kubewarden.
+    keywords: [policies, ClusterAdmissionPolicies, AdmissionPolicies, configuration, namespaces]
+    doc-persona: [kubewarden-operator, kubewarden-integrator]
+    doc-type: [howto]
+    doc-topic: [operator-manual, policies]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/howtos/psp-migration.md
+  frontmatter:
+    sidebar_label: PSP migration
+    sidebar_position: 20
+    title: PodSecurityPolicy migration
     description: Discusses PSP migration to Kubewarden policies after Kubernetes v1.25.
-    keywords: [kubewarden, kubernetes, appvia, psp, podsecuritypolicy]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/testing-policies/01-intro.md
-  frontmatter:
-    sidebar_label: "Policy testing"
-    title: "Policy testing"
-    description: The two personas using Kubewarden policies are policy authors and cluster operators.
-    keywords: [kubewarden, persons, policy author, cluster operator]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/testing-policies/02-policy-authors.md
-  frontmatter:
-    sidebar_label: "Policy authors"
-    title: "Testing for policy authors"
-    description: An introduction to testing Kubewarden policies for policy authors.
-    keywords: [kubewarden, policy testing, policy author, rust, go, assemblyscript, development environment]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/testing-policies/03-cluster-operators.md
-  frontmatter:
-    sidebar_label: "Cluster operators"
-    title: "Testing for cluster operators"
-    description: An introduction to testing Kubewarden policies for cluster operators.
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rego/gatekeeper/01-intro.md
-  frontmatter:
-    sidebar_label: Gatekeeper support
-    title: Gatekeeper support
-    description: Introducing Gatekeeper support in Kubewarden.
-    keywords: [kubewarden, kubernetes, rego, gatekeeper]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rego/gatekeeper/02-create-policy.md
-  frontmatter:
-    sidebar_label: "Create a New Policy"
-    title: Creating a new Gatekeeper Rego policy
-    description: Creating a new Gatekeeper rego policy.
-    keywords: [kubewarden, kubernetes, gatekeeper rego policy]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rego/gatekeeper/03-build-and-run.md
-  frontmatter:
-    sidebar_label: Build and run
-    title: Build and run a Gatekeeper policy
-    description: Building and running a Gatekeeper policy written in Rego.
-    keywords: [kubewarden, kubernetes, gatekeeper policy, rego]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rego/gatekeeper/04-distribute.md
-  frontmatter:
-    sidebar_label: "Distribute"
-    title: Distributing a Gatekeeper policy with Kubewarden
-    description: Distributing a Gatekeeper policy with Kubewarden.
-    keywords: [kubewarden, kubernetes, gatekeeper, rego]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rego/open-policy-agent/01-intro.md
-  frontmatter:
-    sidebar_label: "Introduction"
-    title: Introduction to Open Policy Agent
-    description: Introduction to Open Policy Agent and Kubewarden.
-    keywords: [kubewarden, kubernetes, open policy agent, opa, rego]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rego/open-policy-agent/02-create-policy.md
-  frontmatter:
-    sidebar_label: Creating a new policy
-    title: Creating a new policy
-    description: Creating a new OPA policy for Kubewarden.
-    keywords: [kubewarden, kubernetes, creating a policy, open policy agent, opa, rego]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rego/open-policy-agent/03-build-and-run.md
-  frontmatter:
-    sidebar_label: Build and run
-    title: Build and run a OPA policy for Kubewarden
-    description: Build and run a OPA policy for Kubewarden.
-    keywords: [kubewarden, kubernetes, build and run, open policy agent, opa, rego]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rego/open-policy-agent/04-distribute.md
-  frontmatter:
-    sidebar_label: Distribute
-    title: Distributing an OPA policy with Kubewarden
-    description: Distributing an OPA policy with Kubewarden.
-    keywords: [kubewarden, kubernetes, distributing, open policy agent, opa, rego]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rego/open-policy-agent/05-raw-policies.md
+    keywords: [kubewarden, kubernetes, appvia, psp, pod security policy]
+    doc-persona: [kubewarden-user, kubewarden-operator, kubewarden-distributor, kubewarden-integrator]
+    doc-type: [howto]
+    doc-topic: [pod-security-policy-migration]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/howtos/raw-policies.md
   frontmatter:
     sidebar_label: Raw policies
-    title: Writing raw policies
-    description: Writing raw OPA policies for Kubewarden.
-    keywords: [kubewarden, kubernetes, raw policies, open policy agent, opa, rego]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rego/01-intro-rego.md
+    sidebar_position: 60
+    title: Raw policies
+    description: Kubewarden support for 'raw' policies.
+    keywords: [kubewarden, kubernetes, support, raw policies]
+    doc-persona: [kubewarden-distributor, kubewarden-integrator, kubewarden-operator, kubewarden-policy-developer]
+    doc-type: [howto]
+    doc-topic: [kubewarden, kubernetes, raw-policies]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/howtos/secure-supply-chain.md
   frontmatter:
-    sidebar_label: Rego
-    title: Rego
-    description: Writing Kubewarden policies using Rego.
-    keywords: [kubewarden, kubernetes, writing policies, rego]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rego/02-builtin-support.md
+    sidebar_label: Secure supply chain
+    sidebar_position: 40
+    title: Secure supply chain
+    description: A secure supply chain infrastructure using Kubewarden.
+    keywords: [kubewarden, kubernetes, secure supply chain, infrastructure]
+    doc-persona: [kubewarden-user, kubewarden-operator, kubewarden-distributor, kubewarden-integrator]
+    doc-type: [howto]
+    doc-topic: [distributing-policies, secure-supply-chain]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/howtos/tasks.md
   frontmatter:
-    sidebar_label: "Builtin Support"
-    title: Builtin support
-    description: The Kubewarden provided support for executing wasm binaries.
-    keywords: [kubewarden, kubernetes, builtin wasm support]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rust/01-intro-rust.md
-  frontmatter:
-    title: "Rust"
-    description: An introduction to writing Kubewarden policies with Rust.
-    keywords: [kubewarden, kubernetes, writing policies, introduction]
-    doc-type: [tutorial]
-    doc-topic: [kubewarden, writing-policies, rust, introduction]
-    doc-persona: [kubewarden-developer, kubewarden-developer-rust]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rust/02-create-policy.md
-  frontmatter:
-    sidebar_label: "Creating a policy"
-    title: "Creating a policy"
-    description: Creating a Kubewarden policy using Rust.
-    keywords: [kubewarden, kubernetes, policy creation]
-    doc-type: [tutorial]
-    doc-topic: [kubewarden, writing-policies, rust, creating-policies]
-    doc-persona: [kubewarden-developer, kubewarden-developer-rust]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rust/03-define-policy-settings.md
-  frontmatter:
-    sidebar_label: "Defining policy settings"
-    title: "Defining policy settings"
-    description: Defining policy settings for a Kubewarden policy developed using Rust
-    keywords: [kubewarden, kubernetes, writing policies, policy settings, rust]
-    doc-type: [tutorial]
-    doc-topic: [kubewarden, writing-policies, rust, policy-settings]
-    doc-persona: [kubewarden-developer, kubewarden-developer-rust]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rust/04-write-validation-logic.md
-  frontmatter:
-    sidebar_label: Writing validation logic
-    title: Writing validation logic
-    description: Writing validation logic in Rust for a Kubewarden policy
-    keywords: [kubewarden, kubernetes, policy, writing, rust, validation logic]
-    doc-type: [tutorial]
-    doc-topic: [kubewarden, writing-policies, rust, validation-logic]
-    doc-persona: [kubewarden-developer, kubewarden-developer-rust]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rust/05-mutation-policy.md
-  frontmatter:
-    sidebar_label: Creating a new mutation policy
-    title: Creating a new mutation policy
-    description: Creating a new mutation policy using Rust
-    keywords: [kubewarden, kubernetes, creating a new mutation policy, mutation policy, rust]
-    doc-type: [tutorial]
-    doc-topic: [kubewarden, writing-policies, rust, new-mutation-policy]
-    doc-persona: [kubewarden-developer, kubewarden-developer-rust]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rust/06-logging.md
-  frontmatter:
-    sidebar_label: Logging
-    title: Logging
-    description: How to use logging functionality when writing a Kubewarden policy in Rust.
-    keywords: [Kubewarden, kubernetes, logging]
-    doc-type: [tutorial]
-    doc-topic: [kubewarden, writing-policies, rust, logging]
-    doc-persona: [kubewarden-developer, kubewarden-developer-rust]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rust/07-build-and-distribute.md
-  frontmatter:
-    sidebar_label: Building and distributing policies
-    title: Building and distributing policies
-    description: Building and distributing Kubewarden policies developed with Rust.
-    keywords: [kubewarden, kubernetes, writing policies, rust, build and distribute]
-    doc-type: [tutorial]
-    doc-topic: [kubewarden, writing-policies, rust, build-and-distribute]
-    doc-persona: [kubewarden-developer, kubewarden-developer-rust, kubewarden-operator]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/rust/08-raw-policies.md
-  frontmatter:
-    sidebar_label: "Raw policies"
-    title: "Raw policies"
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/01-intro-host-capabilities.md
+    sidebar_label: Common tasks
+    sidebar_position: 10
+    title: Common tasks
+    description: Description of some common tasks undertaken after installing Kubewarden. Provides examples of these tasks using kwctl
+    keywords: [kubewarden, kubernetes, kwctl, policy, policyserver, clusteradmissionpolicy, admissionpolicy]
+    doc-persona: [kubewarden-all]
+    doc-type: [howto]
+    doc-topic: [common-tasks]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/reference/spec/host-capabilities/01-intro-host-capabilities.md
   frontmatter:
     sidebar_label: Host capabilities specification
     title: Host capabilities specification
     description: Host capabilities specification.
     keywords: [kubewarden, kubernetes, policy specification, host capabilities]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/02-signature-verifier-policies.md
+    doc-persona: [kubewarden-policy-developer]
+    doc-type: [reference]
+    doc-topic: [writing-policies, specification, host-capabilities, introduction]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/reference/spec/host-capabilities/02-signature-verifier-policies.md
   frontmatter:
     sidebar_label: Signature verifier policies
     title: Signature verifier policies
     description: Signature verifier policies.
     keywords: [kubewarden, kubernetes, policy specification, signature verifier]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/03-container-registry.md
+    doc-persona: [kubewarden-policy-developer]
+    doc-type: [reference]
+    doc-topic: [writing-policies, specification, host-capabilities, signature-verifier-policies]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/reference/spec/host-capabilities/03-container-registry.md
   frontmatter:
     sidebar_label: Container registry capabilities
     title: Container registry capabilities
     description: Container registry capabilities.
     keywords: [kubewarden, kubernetes, policy specification, registry capabilities]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/04-net.md
+    doc-persona: [kubewarden-policy-developer]
+    doc-type: [reference]
+    doc-topic: [writing-policies, specification, host-capabilities, container-registry]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/reference/spec/host-capabilities/04-net.md
   frontmatter:
     sidebar_label: Network capabilities
     title: Network capabilities
     description: Network capabilities.
     keywords: [kubewarden, kubernetes, policy specification, network capabilities]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/05-crypto.md
+    doc-persona: [kubewarden-policy-developer]
+    doc-type: [reference]
+    doc-topic: [writing-policies, specification, host-capabilities, network-capabilities]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/reference/spec/host-capabilities/05-crypto.md
   frontmatter:
     sidebar_label: Cryptographic capabilities
     title: Cryptographic capabilities
     description: Cryptographic capabilities.
     keywords: [kubewarden, kubernetes, policy specification, cryptographic capabilities]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/host-capabilities/06-kubernetes.md
+    doc-persona: [kubewarden-policy-developer]
+    doc-type: [reference]
+    doc-topic: [writing-policies, specification, host-capabilities, cryptographic-capabilities]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/reference/spec/host-capabilities/06-kubernetes.md
   frontmatter:
     sidebar_label: Kubernetes capabilities
     title: Kubernetes capabilities
     description: Kubernetes capabilities.
     keywords: [kubewarden, kubernetes, policy specification, kubernetes capabilities]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/01-intro-spec.md
+    doc-persona: [kubewarden-policy-developer]
+    doc-type: [reference]
+    doc-topic: [writing-policies, specification, host-capabilities, kubernetes-capabilities]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/reference/spec/01-intro-spec.md
   frontmatter:
     sidebar_label: Policy communication specification
     title: Policy communication specification
     description: Policy communication specification.
     keywords: [kubewarden, kubernetes, policy specification, policy communication]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/02-settings.md
+    doc-persona: [kubewarden-policy-developer]
+    doc-type: [reference]
+    doc-topic: [writing-policies, specification, introduction]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/reference/spec/02-settings.md
   frontmatter:
     sidebar_label: Policy settings
     title: Policy settings
     description: Policy settings.
     keywords: [kubewarden, kubernetes, policy specification, policy settings]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/03-validating-policies.md
+    doc-persona: [kubewarden-policy-developer]
+    doc-type: [reference]
+    doc-topic: [writing-policies, specification, settings]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/reference/spec/03-validating-policies.md
   frontmatter:
     sidebar_label: Validating policies
     title: Validating policies
     description: Validating policies
     keywords: [kubewarden, kubernetes, policy specification, policy validation]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/04-mutating-policies.md
+    doc-persona: [kubewarden-policy-developer]
+    doc-type: [reference]
+    doc-topic: [writing-policies, specification, validating-policies]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/reference/spec/04-mutating-policies.md
   frontmatter:
     sidebar_label: Mutating policies
     title: Mutating policies
     description: Mutating policies.
     keywords: [kubewarden, kubernetes, policy specification, mutating policies]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/spec/05-context-aware-policies.md
+    doc-persona: [kubewarden-policy-developer]
+    doc-type: [reference]
+    doc-topic: [writing-policies, specification, mutating-policies]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/reference/spec/05-context-aware-policies.md
   frontmatter:
     sidebar_label: Context aware policies
     title: Context aware policies
     description: Context aware policies.
     keywords: [kubewarden, kubernetes, policy specification, context aware policies]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/wasi/01-intro-wasi.md
+    doc-persona: [kubewarden-policy-developer]
+    doc-type: [reference]
+    doc-topic: [writing-policies, specification, context-aware-policies]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/reference/CRDs.md
   frontmatter:
-    title: WASI
-    description: Using WASI to develop Kubewarden policies.
-    keywords: [kubewarden, kubernetes, wasi]
-    doc-type: [how-to, explanation]
-    doc-topic: [kubewarden, writing-policies, wasi]
+    sidebar_label: Custom Resources Definitions (CRD)
+    sidebar_position: 5
+    title: Custom Resource Definitions (CRD)
+    description: Kubewarden's Custom Resource Definitions (CRD)
+    keywords: [kubewarden, kubernetes, custom resource definitions, crd]
     doc-persona: [kubewarden-developer]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/wasi/02-raw-policies.md
+    doc-type: [reference]
+    doc-topic: [operator-manual, crd]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/reference/dependency-matrix.md
   frontmatter:
-    sidebar_label: Raw policies
-    title: Writing raw policies
-    description: Using Kubewarden for writing raw policies.
-    keywords: [kubewarden, kubernetes, raw policies]
-    doc-type: [explanation, tutorial]
-    doc-topic: [kubewarden, writing-policies, raw-policies]
+    sidebar_label: Dependency matrix
+    sidebar_position: 10
+    title: Dependency matrix
+    description: Dependency matrix of Kubewarden.
+    keywords: [dependency, dependencies, CRD, charts, matrix]
+    doc-persona: [kubewarden-all]
+    doc-type: [reference]
+    doc-topic: [operator-manual, dependencies]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/reference/metrics-reference.md
+  frontmatter:
+    sidebar_label: Metrics Reference
+    sidebar_position: 30
+    title: Metrics reference
+    description: Metrics reference documentation for Kubewarden.
+    keywords: [kubewarden, kubernetes, metrics, reference]
+    doc-persona: [kubewarden-user, kubewarden-operator, kubewarden-integrator]
+    doc-type: [reference]
+    doc-topic: [operator-manual, telemetry, metrics, reference]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/reference/monitor-mode.md
+  frontmatter:
+    sidebar_label: Monitor mode
+    sidebar_position: 50
+    title: Monitor mode
+    description: The Kubewarden monitor mode and how to activate it.
+    keywords: [kubernetes, kubewarden, monitor mode]
+    doc-persona: [kubewarden-user, kubewarden-operator, kubewarden-integrator]
+    doc-type: [reference]
+    doc-topic: [operator-manual, monitor-mode]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/reference/oci-registries-support.md
+  frontmatter:
+    sidebar_label: OCI registry support
+    sidebar_position: 70
+    title: OCI registry support for Kubewarden
+    description: OCI registry support for Kubewarden.
+    keywords: [kubewarden, kubernetes, oci registry support]
+    doc-persona: [kubewarden-all]
+    doc-type: [reference]
+    doc-topic: [distributing-policies, oci-registries-support]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/reference/policy-evaluation-timeout.md
+  frontmatter:
+    sidebar_label: Policy evaluation timeout
+    sidebar_position: 90
+    title: Policy evaluation timeout protection
+    description: Policy evaluation timeout protection for Kubewarden
+    keywords: [kubewarden, kubernetes, policy timeout protection]
+    doc-persona: [kubewarden-operator, kubewarden-integrator]
+    doc-type: [reference]
+    doc-topic: [operator-manual, policy-evaluation-timeout]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/reference/threat-model.md
+  frontmatter:
+    sidebar_label: Threat Model
+    sidebar_position: 80
+    title: Threat Model
+    description: The Kubernetes Admission Control Threat Model and Kubewarden.
+    keywords: [kubernetes, admission control threat model, kubewarden]
+    doc-persona: [kubewarden-all]
+    doc-type: [reference]
+    doc-topic: [security, threat-model]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/reference/upgrade-path.md
+  frontmatter:
+    sidebar_label: Upgrade path
+    sidebar_position: 20
+    title: Upgrade path
+    description: Upgrade path for the Kubewarden stack.
+    keywords: [upgrade path, support]
+    doc-persona: [kubewarden-operator]
+    doc-type: [reference]
+    doc-topic: [operator-manual, upgrade-path]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/reference/verification-config.md
+  frontmatter:
+    sidebar_label: Verification configuration format
+    sidebar_position: 100
+    title: Verification configuration format
+    description: Verification configuration for Kubewarden.
+    keywords: [kubewarden, kubernetes, verification configuration]
+    doc-persona: [kubewarden-operator, kubewarden-integrator]
+    doc-type: [reference]
+    doc-topic: [operator-manual, verification-config]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/tutorials/testing-policies/02-policy-authors.md
+  frontmatter:
+    sidebar_label: Policy authors
+    title: Testing for policy authors
+    description: An introduction to testing Kubewarden policies for policy authors.
+    keywords: [kubewarden, policy testing, policy author, rust, go, assemblyscript, development environment]
+    doc-persona: [kubewarden-policy-developer]
+    doc-type: [tutorial]
+    doc-topic: [testing-policies, policy-authors]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/tutorials/testing-policies/03-cluster-operators.md
+  frontmatter:
+    sidebar_label: Cluster operators
+    title: Testing for cluster operators
+    description: An introduction to testing Kubewarden policies for cluster operators.
+    keywords: [kubewarden, kubernetes, cluster operators, testing]
     doc-persona: [kubewarden-developer]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/01-intro-go.md
+    doc-type: [tutorial]
+    doc-topic: [testing-policies, cluster-operators]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/tutorials/testing-policies/index.md
+  frontmatter:
+    sidebar_label: Policy testing
+    title: Policy testing
+    description: The two personas using Kubewarden policies are policy authors and cluster operators.
+    keywords: [kubewarden, persons, policy author, cluster operator]
+    doc-persona: [kubewarden-operator, kubewarden-policy-developer]
+    doc-type: [tutorial]
+    doc-topic: [testing-policies, introduction]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/tutorials/writing-policies/go/01-intro-go.md
   frontmatter:
     sidebar_label: Writing policies in Go
     sidebar_position: 010
@@ -490,7 +505,7 @@
     doc-type: [tutorial]
     doc-topic: [kubewarden, writing-policies, go, introduction]
     doc-persona: [kubewarden-developer]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/02-scaffold.md
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/tutorials/writing-policies/go/02-scaffold.md
   frontmatter:
     sidebar_label: New validation policy
     sidebar_position: 020
@@ -500,7 +515,7 @@
     doc-type: [tutorial]
     doc-topic: [kubewarden, writing-policies, go, creating a new validation policy]
     doc-persona: [kubewarden-developer]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/03-policy-settings.md
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/tutorials/writing-policies/go/03-policy-settings.md
   frontmatter:
     sidebar_label: Defining policy settings
     sidebar_position: 030
@@ -510,7 +525,7 @@
     doc-type: [tutorial]
     doc-topic: [kubewarden, writing-policies, go, defining-policy-settings]
     doc-persona: [kubewarden-developer]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/04-validation.md
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/tutorials/writing-policies/go/04-validation.md
   frontmatter:
     sidebar_label: Validation logic
     sidebar_position: 040
@@ -520,7 +535,7 @@
     doc-type: [tutorial]
     doc-topic: [kubewarden, writing-policies, golang, validation-logic]
     doc-persona: [kubewarden-developer]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/05-e2e-tests.md
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/tutorials/writing-policies/go/05-e2e-tests.md
   frontmatter:
     sidebar_label: End-to-end testing
     sidebar_position: 050
@@ -530,7 +545,7 @@
     doc-type: [tutorial]
     doc-topic: [kubewarden, writing-policies, golang, end-to-end-testing]
     doc-persona: [kubewarden-developer]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/06-logging.md
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/tutorials/writing-policies/go/06-logging.md
   frontmatter:
     sidebar_label: Logging
     sidebar_position: 060
@@ -540,7 +555,7 @@
     doc-type: [tutorial]
     doc-topic: [kubewarden, writing-policies, golang, logging]
     doc-persona: [kubewarden-developer]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/07-automate.md
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/tutorials/writing-policies/go/07-automate.md
   frontmatter:
     sidebar_label: GitHub Actions
     sidebar_position: 070
@@ -550,7 +565,7 @@
     doc-type: [tutorial]
     doc-topic: [kubewarden, writing-policies, golang, github-action-integration]
     doc-persona: [kubewarden-developer]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/08-distribute.md
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/tutorials/writing-policies/go/08-distribute.md
   frontmatter:
     sidebar_label: Distributing policy
     sidebar_position: 080
@@ -560,7 +575,7 @@
     doc-type: [tutorial]
     doc-topic: [kubewarden, writing-policies, go, distributing-policies]
     doc-persona: [kubewarden-developer, kubewarden-operator]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/09-validation-with-queries.md
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/tutorials/writing-policies/go/09-validation-with-queries.md
   frontmatter:
     sidebar_label: Validation using JSON queries
     sidebar_position: 090
@@ -570,7 +585,7 @@
     doc-type: [tutorial]
     doc-topic: [kubewarden, writing-policies, golang, validation-using-json]
     doc-persona: [kubewarden-developer]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/go/10-raw-policies.md
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/tutorials/writing-policies/go/10-raw-policies.md
   frontmatter:
     sidebar_label: Raw policies
     sidebar_position: 100
@@ -580,88 +595,302 @@
     doc-type: [tutorial]
     doc-topic: [kubewarden, writing-policies, golang, raw-policies]
     doc-persona: [kubewarden-developer]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/dotnet.md
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/tutorials/writing-policies/rego/gatekeeper/01-intro.md
+  frontmatter:
+    sidebar_label: Gatekeeper support
+    title: Gatekeeper support
+    description: Introducing Gatekeeper support in Kubewarden.
+    keywords: [kubewarden, kubernetes, rego, gatekeeper]
+    doc-persona: [kubewarden-policy-developer]
+    doc-type: [tutorial]
+    doc-topic: [writing-policies, rego, gatekeeper, introduction]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/tutorials/writing-policies/rego/gatekeeper/02-create-policy.md
+  frontmatter:
+    sidebar_label: Create a New Policy
+    title: Creating a new Gatekeeper Rego policy
+    description: Creating a new Gatekeeper rego policy.
+    keywords: [kubewarden, kubernetes, gatekeeper rego policy]
+    doc-persona: [kubewarden-policy-developer]
+    doc-type: [tutorial]
+    doc-topic: [writing-policies, rego, gatekeeper, create-policy]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/tutorials/writing-policies/rego/gatekeeper/03-build-and-run.md
+  frontmatter:
+    sidebar_label: Build and run
+    title: Build and run a Gatekeeper policy
+    description: Building and running a Gatekeeper policy written in Rego.
+    keywords: [kubewarden, kubernetes, gatekeeper policy, rego]
+    doc-persona: [kubewarden-policy-developer]
+    doc-type: [tutorial]
+    doc-topic: [writing-policies, rego, gatekeeper, build-and-run]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/tutorials/writing-policies/rego/gatekeeper/04-distribute.md
+  frontmatter:
+    sidebar_label: Distribute
+    title: Distributing a Gatekeeper policy with Kubewarden
+    description: Distributing a Gatekeeper policy with Kubewarden.
+    keywords: [kubewarden, kubernetes, gatekeeper, rego]
+    doc-persona: [kubewarden-policy-developer]
+    doc-type: [tutorial]
+    doc-topic: [writing-policies, rego, gatekeeper, distribute]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/tutorials/writing-policies/rego/open-policy-agent/01-intro.md
+  frontmatter:
+    sidebar_label: Introduction
+    title: Introduction to Open Policy Agent
+    description: Introduction to Open Policy Agent and Kubewarden.
+    keywords: [kubewarden, kubernetes, open policy agent, opa, rego]
+    doc-persona: [kubewarden-policy-developer]
+    doc-type: [tutorial]
+    doc-topic: [writing-policies, rego, open-policy-agent, introduction]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/tutorials/writing-policies/rego/open-policy-agent/02-create-policy.md
+  frontmatter:
+    sidebar_label: Creating a new policy
+    title: Creating a new policy
+    description: Creating a new OPA policy for Kubewarden.
+    keywords: [kubewarden, kubernetes, creating a policy, open policy agent, opa, rego]
+    doc-persona: [kubewarden-policy-developer]
+    doc-type: [tutorial]
+    doc-topic: [writing-policies, rego, open-policy-agent, create-policy]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/tutorials/writing-policies/rego/open-policy-agent/03-build-and-run.md
+  frontmatter:
+    sidebar_label: Build and run
+    title: Build and run a OPA policy for Kubewarden
+    description: Build and run a OPA policy for Kubewarden.
+    keywords: [kubewarden, kubernetes, build and run, open policy agent, opa, rego]
+    doc-persona: [kubewarden-policy-developer]
+    doc-type: [tutorial]
+    doc-topic: [writing-policies, rego, open-policy-agent, build-and-run]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/tutorials/writing-policies/rego/open-policy-agent/04-distribute.md
+  frontmatter:
+    sidebar_label: Distribute
+    title: Distributing an OPA policy with Kubewarden
+    description: Distributing an OPA policy with Kubewarden.
+    keywords: [kubewarden, kubernetes, distributing, open policy agent, opa, rego]
+    doc-persona: [kubewarden-policy-developer]
+    doc-type: [tutorial]
+    doc-topic: [writing-policies, rego, open-policy-agent, distribute]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/tutorials/writing-policies/rego/open-policy-agent/05-raw-policies.md
+  frontmatter:
+    sidebar_label: Raw policies
+    title: Writing raw policies
+    description: Writing raw OPA policies for Kubewarden.
+    keywords: [kubewarden, kubernetes, raw policies, open policy agent, opa, rego]
+    doc-persona: [kubewarden-policy-developer]
+    doc-type: [tutorial]
+    doc-topic: [writing-policies, rego, open-policy-agent, raw-policies]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/tutorials/writing-policies/rego/01-intro-rego.md
+  frontmatter:
+    sidebar_label: Rego
+    title: Rego
+    description: Writing Kubewarden policies using Rego.
+    keywords: [kubewarden, kubernetes, writing policies, rego]
+    doc-persona: [kubewarden-policy-developer]
+    doc-type: [tutorial]
+    doc-topic: [writing-policies, rego, introduction]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/tutorials/writing-policies/rego/02-builtin-support.md
+  frontmatter:
+    sidebar_label: Builtin Support
+    title: Builtin support
+    description: The Kubewarden provided support for executing wasm binaries.
+    keywords: [kubewarden, kubernetes, builtin wasm support]
+    doc-persona: [kubewarden-policy-developer]
+    doc-type: [tutorial]
+    doc-topic: [writing-policies, rego, built-in-support]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/tutorials/writing-policies/rust/01-intro-rust.md
+  frontmatter:
+    sidebar_label: Rust
+    title: Rust
+    description: An introduction to writing Kubewarden policies with Rust.
+    keywords: [kubewarden, kubernetes, writing policies, introduction]
+    doc-type: [tutorial]
+    doc-topic: [kubewarden, writing-policies, rust, introduction]
+    doc-persona: [kubewarden-developer]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/tutorials/writing-policies/rust/02-create-policy.md
+  frontmatter:
+    sidebar_label: Creating a policy
+    title: Creating a policy
+    description: Creating a Kubewarden policy using Rust.
+    keywords: [kubewarden, kubernetes, policy creation]
+    doc-type: [tutorial]
+    doc-topic: [kubewarden, writing-policies, rust, creating-policies]
+    doc-persona: [kubewarden-developer]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/tutorials/writing-policies/rust/03-define-policy-settings.md
+  frontmatter:
+    sidebar_label: Defining policy settings
+    title: Defining policy settings
+    description: Defining policy settings for a Kubewarden policy developed using Rust
+    keywords: [kubewarden, kubernetes, writing policies, policy settings, rust]
+    doc-type: [tutorial]
+    doc-topic: [kubewarden, writing-policies, rust, policy-settings]
+    doc-persona: [kubewarden-developer]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/tutorials/writing-policies/rust/04-write-validation-logic.md
+  frontmatter:
+    sidebar_label: Writing validation logic
+    title: Writing validation logic
+    description: Writing validation logic in Rust for a Kubewarden policy
+    keywords: [kubewarden, kubernetes, policy, writing, rust, validation logic]
+    doc-type: [tutorial]
+    doc-topic: [kubewarden, writing-policies, rust, validation-logic]
+    doc-persona: [kubewarden-developer]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/tutorials/writing-policies/rust/05-mutation-policy.md
+  frontmatter:
+    sidebar_label: Creating a new mutation policy
+    title: Creating a new mutation policy
+    description: Creating a new mutation policy using Rust
+    keywords: [kubewarden, kubernetes, creating a new mutation policy, mutation policy, rust]
+    doc-type: [tutorial]
+    doc-topic: [kubewarden, writing-policies, rust, new-mutation-policy]
+    doc-persona: [kubewarden-developer]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/tutorials/writing-policies/rust/06-logging.md
+  frontmatter:
+    sidebar_label: Logging
+    title: Logging
+    description: How to use logging functionality when writing a Kubewarden policy in Rust.
+    keywords: [Kubewarden, kubernetes, logging]
+    doc-type: [tutorial]
+    doc-topic: [kubewarden, writing-policies, rust, logging]
+    doc-persona: [kubewarden-developer]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/tutorials/writing-policies/rust/07-build-and-distribute.md
+  frontmatter:
+    sidebar_label: Building and distributing policies
+    title: Building and distributing policies
+    description: Building and distributing Kubewarden policies developed with Rust.
+    keywords: [kubewarden, kubernetes, writing policies, rust, build and distribute]
+    doc-type: [tutorial]
+    doc-topic: [kubewarden, writing-policies, rust, build-and-distribute]
+    doc-persona: [kubewarden-developer, kubewarden-operator]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/tutorials/writing-policies/rust/08-raw-policies.md
+  frontmatter:
+    sidebar_label: Raw policies
+    title: Raw policies
+    description: Kubewarden support for raw policies using Rust.
+    keywords: [kubewarden, kubernetes, raw policies, rust]
+    doc-persona: [kubewarden-developer, kubewarden-integrator]
+    doc-type: [tutorial]
+    doc-topic: [writing-policies, rust, raw-policies]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/tutorials/writing-policies/wasi/01-intro-wasi.md
+  frontmatter:
+    sidebar_label: WASI
+    title: WASI
+    description: Using WASI to develop Kubewarden policies.
+    keywords: [kubewarden, kubernetes, wasi]
+    doc-type: [tutorial]
+    doc-topic: [kubewarden, writing-policies, wasi]
+    doc-persona: [kubewarden-developer]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/tutorials/writing-policies/wasi/02-raw-policies.md
+  frontmatter:
+    sidebar_label: Raw policies
+    title: Writing raw policies
+    description: Using Kubewarden for writing raw policies.
+    keywords: [kubewarden, kubernetes, raw policies]
+    doc-type: [tutorial]
+    doc-topic: [kubewarden, writing-policies, raw-policies]
+    doc-persona: [kubewarden-developer]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/tutorials/writing-policies/dotnet.md
   frontmatter:
     sidebar_label: C#
+    sidebar_position: 40
     title: C#
     description: Kubewarden policies using C# and .NET
     keywords: [kubewarden, kubernetes, writing policies, c#, .net]
-    doc-type: [how-to, explanation, tutorial, reference]
+    doc-type: [tutorial]
     doc-topic: [kubewarden, writing-policies, c#]
     doc-persona: [kubewarden-policy-developer]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/index.md
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/tutorials/writing-policies/index.md
   frontmatter:
-    sidebar_label: "Writing Policies"
-    title: "Writing Kubewarden policies"
+    sidebar_label: Writing Policies
+    title: Writing Kubewarden policies
     description: An introduction to writing Kubewarden policies.
     keywords: [kubewarden, kubernetes, writing policies]
-    doc-type: [explanation]
+    doc-type: [tutorial]
     doc-topic: [writing-policies]
     doc-persona: [kubewarden-policy-developer]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/metadata.md
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/tutorials/writing-policies/metadata.md
   frontmatter:
     sidebar_label: Policy metadata
+    sidebar_position: 90
     title: Policy metadata
     description: Using policy metadata when developing a Kubewarden policy.
-    keywords: [kubewraden, kubernetes policy development, policy metadata]
-    doc-type: [how-to, tutorial]
+    keywords: [kubewarden, kubernetes policy development, policy metadata]
+    doc-type: [tutorial]
     doc-topic: [kubewarden, writing-polices, policy-metadata]
     doc-persona: [kubewarden-developer]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/other-languages.md
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/tutorials/writing-policies/other-languages.md
   frontmatter:
     sidebar_label: Other languages
+    sidebar_position: 70
     title: Other languages
     description: Writing Kubewarden policies in other languages
     keywords: [kubewarden, kubernetes, writing policies, other languages]
-    doc-type: [how-to, tutorial]
+    doc-type: [tutorial]
     doc-topic: [kubewarden, writing-policies, other-languages]
     doc-persona: [kubewarden-policy-developer]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/swift.md
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/tutorials/writing-policies/swift.md
   frontmatter:
     sidebar_label: Swift
+    sidebar_position: 50
     title: Swift
     description: Kubewarden policies with Swift
     keywords: [kubewarden, kubernetes, writing policies, swift]
-    doc-type: [how-to]
+    doc-type: [tutorial]
     doc-topic: [kubewarden, writing-policies, swift]
     doc-persona: [kubewarden-policy-developer]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/writing-policies/typescript.md
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/tutorials/writing-policies/typescript.md
   frontmatter:
     sidebar_label: Typescript
+    sidebar_position: 60
     title: Typescript
     description: Writing Kubewarden policies with Typescript
-    keywords: [at least one]
-    doc-type: [one of how-to, explanation, tutorial, reference]
+    keywords: [kubewarden, kubernetes, typescript]
+    doc-type: [tutorial]
     doc-topic: [root-branch]
-    doc-persona: [default]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/tasks.md
+    doc-persona: [kubewarden-developer]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/tutorials/publish-policy-to-artifact-hub.md
   frontmatter:
-    sidebar_label: "Common tasks"
-    title: "Common tasks"
-    description: Description of some common tasks undertaken after installing Kubewarden. Provides examples of these tasks using kwctl
-    keywords: [kubewarden, kubernetes, kwctl, policy, policyserver, clusteradmissionpolicy, admissionpolicy]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/architecture.md
+    sidebar_label: Publish to Artifact Hub
+    sidebar_position: 40
+    title: Publish policies to Artifact Hub
+    description: A brief introduction to publishing Kubewarden policies on Artifact Hub.
+    keywords: [kubewarden, kubernetes, publishing policies, artifact hub]
+    doc-persona: [kubewarden-user, kubewarden-operator, kubewarden-policy-developer, kubewarden-distributor, kubewarden-integrator]
+    doc-type: [tutorial]
+    doc-topic: [distributing-policies, publish-policy-to-artifacthub]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/tutorials/verifying-kubewarden.md
   frontmatter:
-    sidebar_label: "Architecture"
-    title: "Architecture"
-    description: The Kubewarden architecture
-    keywords: [kubewarden, kubernetes, architecture]
-- path: /home/jhk/projects/suse/kubewarden-docs/docs/distributing-policies.md
+    sidebar_label: Verifying Kubewarden
+    sidebar_position: 30
+    title: Verifying Kubewarden
+    description: Verifying Kubewarden.
+    keywords: [kubewarden, kubernetes, security, verification]
+    doc-persona: [kubewarden-operator, kubewarden-policy-developer, kubewarden-integrator]
+    doc-type: [tutorial]
+    doc-topic: [security, verifying-kubewarden]
+- path: /home/jhk/projects/suse/kubewarden-docs/docs/disclosure.md
   frontmatter:
-    sidebar_label: "Distributing policies"
-    title: Distributing policies
-    description: A description of how Kubewarden policies are distributed from OCI-compliant repositories.
-    keywords: [oci, kubewarden, policy, wasm, webassembly]
+    sidebar_label: Security disclosure
+    sidebar_position: 80
+    title: Security disclosure
+    description: Security disclosure.
+    keywords: [kubewarden, kubernetes, security, disclosure]
+    doc-persona: [kubewarden-all]
+    doc-type: [explanation]
+    doc-topic: [security, disclosure]
 - path: /home/jhk/projects/suse/kubewarden-docs/docs/introduction.md
   frontmatter:
     slug: /
-    sidebar_label: "Introduction"
-    title: "Introduction"
+    sidebar_label: Introduction
+    sidebar_position: 1
+    title: What is Kubewarden?
     description: Introducing Kubewarden, a CNCF Sandbox project.
     keywords: [kubewarden, cncf, cncf sandbox, kubernetes]
+    doc-persona: [kubewarden-all]
+    doc-type: [explanation]
+    doc-topic: [introduction]
 - path: /home/jhk/projects/suse/kubewarden-docs/docs/quick-start.md
   frontmatter:
-    sidebar_label: "Quick start"
-    title: "Quick start"
+    sidebar_label: Quick start
+    sidebar_position: 20
+    title: Quick start
     description: Getting started with Kubewarden, installing the Kubewarden stack and taking care of prerequisites and authentication
     keywords: [Kubewarden, installation, quick start, policyserver, clusteradmissionpolicy, admissionpolicy]
+    doc-persona: [kubewarden-all]
+    doc-type: [tutorial]
+    doc-topic: [quick-start]

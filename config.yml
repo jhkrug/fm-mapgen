@@ -17,4 +17,15 @@ sorting:
   sort: True
   node_sort_key: sidebar_position
 
+kubewarden-config:
+  personas:
+    [
+      kubewarden-user,
+      kubewarden-operator,
+      kubewarden-integrator,
+      kubewarden-distributor,
+      kubewarden-policy-developer,
+      kubewarden-developer
+    ]
+
 ...
