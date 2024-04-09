@@ -2,7 +2,7 @@ import fm_mapgen
 
 
 def test_printf():
-    assert fm_mapgen.printf("Hello %s!\n", "World") == None
+    assert fm_mapgen.printf("Hello %s!\n", "World") is None
 
 
 def test_internal_link_resolve():

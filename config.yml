@@ -25,7 +25,8 @@ kubewarden-config:
       kubewarden-integrator,
       kubewarden-distributor,
       kubewarden-policy-developer,
-      kubewarden-developer
+      kubewarden-developer,
+      kubewarden-all
     ]
 
 ...

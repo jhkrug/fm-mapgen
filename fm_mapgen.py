@@ -10,7 +10,7 @@ import os
 import jsonpickle
 import json
 
-# These are read from a YAML configuration file by read_config:
+# These are read from a YAML configuration file by read_config()
 required_fm_tags = {}
 other_fm_tags = {}
 valid_fm_tags = {}
@@ -26,28 +26,28 @@ class KmNodeData:
     and external links.
 
     The main body of the data is defined by a couple of configuration YAML
-    files. These config files are read by read_config and define the
+    files. These config files are read by read_config() and define the
     dictionaries required_fm_tags and other_fm_tags which when combined form
     valid_fm_tags. This valid_fm_tags defines the data items to be read from
     the document front matter to be processed.
     """
 
     def __init__(
-        self,
-        path,
-        full_path,
-        ndd: dict = {},
-        int_links=None,
-        ext_links=None,
-        can_link=None,
-    ):
+            self,
+            path,
+            full_path,
+            ndd: dict = {},
+            int_links=None,
+            ext_links=None,
+            can_link=None,):
+
         self.path = path
         self.full_path = full_path
 
         try:
             for k in valid_fm_tags.keys():
                 setattr(self, k, ndd[k])
-        except:
+        except Exception:
             pass
 
         if int_links:
@@ -71,19 +71,19 @@ class KmNodeData:
             for k in valid_fm_tags.keys():
                 try:
                     print(k, "=", getattr(self, k))
-                except:
+                except Exception:
                     pass
             try:
                 print("internal_links =", self.int_links)
-            except:
+            except Exception:
                 print("internal_links =", [])
             try:
                 print("external_links =", self.ext_links)
-            except:
+            except Exception:
                 print("external_links =", [])
             try:
                 print("canonical_link =", self.can_link)
-            except:
+            except Exception:
                 print("canonical_links =", [])
         print()
 
@@ -105,8 +105,7 @@ def create_folder_structure_json(path, km, root_dir):
 
         if os.path.isdir(entry_path):
             result["entries"].append(
-                create_folder_structure_json(entry_path, km, root_dir)
-            )
+                create_folder_structure_json(entry_path, km, root_dir))
         else:
             rel_path = entry_path.replace(root_dir, "")
             nd: treelib.Node = km.get_node(rel_path)
@@ -115,9 +114,8 @@ def create_folder_structure_json(path, km, root_dir):
                 ndc.pop("path")
                 ndc.pop("full_path")
                 result["entries"].append(
-                    {"name": rel_path, "type": "file", "data": ndc}
-                )
-            except:
+                    {"name": rel_path, "type": "file", "data": ndc})
+            except Exception:
                 result["entries"].append({"name": rel_path, "type": "file"})
 
     return result
@@ -132,15 +130,15 @@ def read_config(c):
     config_yaml = read_yaml(c)
     try:
         required_fm_tags = config_yaml["required_fm_tags"]
-    except:
+    except Exception:
         error_exit("Can't read required_fm_tags from config.")
     try:
         other_fm_tags = config_yaml["other_fm_tags"]
-    except:
+    except Exception:
         other_fm_tags = {}
     try:
         sort_fm_tag = config_yaml["sorting"]["node_sort_key"]
-    except:
+    except Exception:
         sort_fm_tag = None
     valid_fm_tags = required_fm_tags | other_fm_tags
 
@@ -154,12 +152,12 @@ def main(argv):
     km = build_km(front_matter)
     try:
         os.remove("tree.txt")
-    except:
+    except Exception:
         pass
     km.save2file(filename="tree.txt", key=get_sort_val)
     try:
         os.remove("tree.dot")
-    except:
+    except Exception:
         pass
     km.to_graphviz(filename="tree.dot", key=get_sort_val)
 
@@ -189,9 +187,9 @@ def get_sort_val(node: treelib.Node):
     sv = 0
     try:
         sv = int(getattr(node.data, str(sort_fm_tag)))
-        if sv == None:
+        if sv is None:
             sv = 0
-    except:
+    except Exception:
         sv = 0
     return sv
 
@@ -227,21 +225,22 @@ def build_node_data(
     for k, v in valid_fm_tags.items():
         try:
             node_data_dict[k] = fm["frontmatter"][v]
-        except:
+        except Exception:
             node_data_dict[k] = None
     try:
         int_links = doc_int_links
-    except:
+    except Exception:
         int_links = None
     try:
         ext_links = doc_ext_links
-    except:
+    except Exception:
         ext_links = None
     try:
         can_link = doc_can_link
-    except:
+    except Exception:
         can_link = None
-    node_data = KmNodeData(id, fp, node_data_dict, int_links, ext_links, can_link)
+    node_data = KmNodeData(id, fp, node_data_dict,
+                           int_links, ext_links, can_link)
     return node_data
 
 
@@ -253,13 +252,12 @@ def build_km(front_matter) -> treelib.Tree:
         "Frontmatter Map",
         identifier="root",
         parent=None,
-        data=KmNodeData(None, root_dir),
-    )
+        data=KmNodeData(None, root_dir))
     for fm in front_matter:
         try:
             if fm["docstore-data"]:
                 print("Data generated:", fm["docstore-data"]["gen-date"])
-        except:
+        except Exception:
             full_path = fm["path"]
             identifier = full_path.replace(root_dir, "")
             # Now create a node, if it does not already
@@ -276,8 +274,9 @@ def build_km(front_matter) -> treelib.Tree:
                 try:
                     if not km.contains(pb):
                         node_data = KmNodeData(pb, root_dir + "/" + pb)
-                        km.create_node(pb, identifier=pb, parent=parent, data=node_data)
-                except:
+                        km.create_node(pb, identifier=pb,
+                                       parent=parent, data=node_data)
+                except Exception:
                     pass
                 parent = pb
 
@@ -285,19 +284,20 @@ def build_km(front_matter) -> treelib.Tree:
             tag = branches[-1]
             ext_links, int_links, can_link = extract_links(full_path, root_dir)
             node_data = build_node_data(
-                identifier, full_path, fm, int_links, ext_links, can_link
-            )
-            km.create_node(tag, identifier=identifier, parent=parent, data=node_data)
+                identifier, full_path, fm, int_links, ext_links, can_link)
+            km.create_node(tag, identifier=identifier,
+                           parent=parent, data=node_data)
     return km
 
 
-def internal_link_resolve(l, f, r):
-    """Given an internal link l and the file, f it's from return the
-    full path, stripping the root_dir, r from the front."""
-    # Do the python equivalents of dirname(f), tack on l, then readlink(f)
-    # Seems to work fine with '#internal' anchors left in place.
-    n = os.path.realpath(os.path.dirname(f) + "/" + l)
-    n = n.replace(r, "")
+def internal_link_resolve(link, file, root_dir):
+    """Given an internal link and the file it's from return the
+    full path, stripping the root_dir from the front."""
+    # Do the python equivalents of dirname(file), tack on link,
+    # then readlink(file). Seems to work fine with '#internal' anchors
+    # left in place.
+    n = os.path.realpath(os.path.dirname(file) + "/" + link)
+    n = n.replace(root_dir, "")
     return n
 
 
@@ -306,21 +306,23 @@ def extract_links(filename, root_dir):
     string = open(filename).read()
     html = markdown.markdown(string, output_format="html")
     links = list(set(re.findall(r'href=[\'"]?([^\'" >]+)', html)))
-    links = list(filter(lambda l: l[0] != "{", links))
+    links = list(filter(lambda ld: ld[0] != "{", links))
     internal_links, external_links = [], []
-    for l in links:
-        r = re.sub("^https?://", "", l)
-        if r != l:
-            external_links.append(l)
+    for lk in links:
+        r = re.sub("^https?://", "", lk)
+        if r != lk:
+            external_links.append(lk)
         else:
-            internal_links.append(internal_link_resolve(l, filename, root_dir))
+            internal_links.append(
+                internal_link_resolve(lk, filename, root_dir))
     canonical_link = list(
-        set(re.findall(r'rel=[\'"]canonical[\'"] href=[\'"]?([^\'" >]+)', html))
+        set(re.findall(
+            r'rel=[\'"]canonical[\'"] href=[\'"]?([^\'" >]+)', html))
     )
-    canonical_link = list(filter(lambda l: l[0] != "{", canonical_link))
+    canonical_link = list(filter(lambda ld: ld[0] != "{", canonical_link))
     try:
         canonical_link = canonical_link[0]
-    except:
+    except Exception:
         canonical_link = None
     return external_links, internal_links, canonical_link
 
@@ -389,7 +391,7 @@ def report_files_without_fm(front_matter):
         try:
             if f["docstore-data"]:
                 pass
-        except:
+        except Exception:
             if f["frontmatter"] is None:
                 print(f["path"])
 
@@ -401,12 +403,12 @@ def report_files_without_fm_tag(front_matter, fm_tag):
         try:
             if f["docstore-data"]:
                 pass
-        except:
+        except Exception:
             try:
                 tag_val = f["frontmatter"][fm_tag]
                 if tag_val == "":
                     print(f["path"])
-            except:
+            except Exception:
                 print(f["path"])
 
 
@@ -417,14 +419,14 @@ def report_files_with_unrecognized_fm_tags(front_matter):
         try:
             if fm["docstore-data"]:
                 pass
-        except:
+        except Exception:
             try:
                 f = fm["frontmatter"]
                 path = fm["path"]
                 for fm_tag in f:
                     if fm_tag not in valid_fm_tags.values():
                         printf("Tag '%s' in file: %s\n", fm_tag, path)
-            except:
+            except Exception:
                 # no frontmatter here
                 pass
 
